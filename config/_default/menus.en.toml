@@ -11,25 +11,89 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Masteries"
+  pageRef = "masteries"
   weight = 10
 
 [[main]]
-  name = "Parent"
-  weight = 20
+  name = "Vanguards"
+  parent = "Masteries"
+  pageRef = "masteries-vanguards"
+  weight = 10
 
 [[main]]
-  name = "example sub-menu 1"
-  parent = "Parent"
+  name = "Guards"
+  parent = "Masteries"
+  pageRef = "masteries-guards"
+  weight = 11
+
+[[main]]
+  name = "Defenders"
+  parent = "Masteries"
+  pageRef = "masteries-defenders"
+  weight = 12
+
+[[main]]
+  name = "Snipers"
+  parent = "Masteries"
+  pageRef = "masteries-snipers"
+  weight = 13
+
+[[main]]
+  name = "Casters"
+  parent = "Masteries"
+  pageRef = "masteries-casters"
+  weight = 14
+
+[[main]]
+  name = "Medics"
+  parent = "Masteries"
+  pageRef = "masteries-medics"
+  weight = 15
+
+[[main]]
+  name = "Supporters"
+  parent = "Masteries"
+  pageRef = "masteries-supporters"
+  weight = 16
+
+[[main]]
+  name = "Specialists"
+  parent = "Masteries"
+  pageRef = "masteries-specialists"
+  weight = 17
+
+[[main]]
+  name = "Efficiency Sheets"
+  pageRef = "posts"
+  weight = 15
+
+[[main]]
+  name = "Paid Packs"
+  parent = "Efficiency Sheets"
+  pageRef = "posts"
+  weight = 15
+
+[[main]]
+  name = "M3/E2 Tickets"
+  parent = "Efficiency Sheets"
   pageRef = "posts"
   weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Tier List"
+  url = "https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 25
+
+[[main]]
+  name = "Fiction"
+  url = "https://archiveofourown.org/users/TacticalBreakfast"
+  weight = 30
 
 #[[subnavigation]]
 #  name = "An interesting topic"
