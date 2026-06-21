@@ -14,15 +14,15 @@ title = "Blowfish"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "TacticalBreakfast"
-#   email = "TacBreakfast@gmail.com"
-#   image = "img/tb.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
+ [params.author]
+   name = "TacticalBreakfast"
+   email = "TacBreakfast@gmail.com"
+   image = "img/tb.png"
+   imageQuality = 96
+   headline = "I'm only human"
+   bio = "A little bit about you"
+   links = [
+     { email = "mailto:TacBreakfast@gmail.com" }
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -76,4 +76,4 @@ title = "Blowfish"
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
 #     { printables = "https://www.printables.com/@username"},
-#   ]
+   ]
