@@ -1,1 +1,15 @@
+# Hugo build directories
 public/
+resources/
+
+# Hugo lock and stat files
+.hugo_build.lock
+hugo_stats.json
+
+# Local Environment & Logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Frontend Dependencies (if using npm/yarn)
+node_modules/
