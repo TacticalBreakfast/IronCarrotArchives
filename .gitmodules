@@ -1,3 +1,7 @@
 [submodule "themes/blowfish"]
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish
+[submodule "assets/game_img"]
+	path = assets/game_img
+	url = https://github.com/TacticalBreakfast/ArknightsGuideAssets.git
+	branch = main
