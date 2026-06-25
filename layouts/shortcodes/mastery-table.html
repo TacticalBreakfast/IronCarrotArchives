@@ -1,0 +1,126 @@
+{{- $id := .Get "id" -}}
+{{- $rowsRaw := .Get "rows" -}}
+
+{{/* Extract character name: everything after the first underscore */}}
+{{- $charName := index (split $id "_") 1 -}}
+
+{{/* Build character image path and resolve via Hugo asset pipeline */}}
+{{- $charImgPath := printf "game_img/charavatars/char_%s.png" $id -}}
+{{- $charImg := resources.Get $charImgPath -}}
+
+{{/* Split rows on pipe */}}
+{{- $rows := split $rowsRaw "|" -}}
+
+{{ warnf "%s" $charImgPath }}
+
+<div class="mastery-table-wrapper">
+
+  {{/* Character portrait */}}
+  {{- if $charImg }}
+  <div class="mastery-char-portrait"  style="display: flex; justify-content: center;">
+    <img src="{{ $charImg.RelPermalink }}" alt="{{ $charName }}" />
+  </div>
+  {{- else }}
+  <div class="mastery-char-portrait mastery-img-missing">
+    <span>{{ $charName }}</span>
+  </div>
+  {{- end }}
+
+  <table class="mastery-table">
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Mastery</th>
+        <th>Story</th>
+        <th>Advanced</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $rows }}
+        {{- $cols := split . "," }}
+        {{- if ge (len $cols) 3 }}
+          {{- $skillCode := index $cols 0 }}
+          {{- $mastery   := index $cols 0 }}
+          {{- $story     := index $cols 1 }}
+          {{- $advanced  := index $cols 2 }}
+          {{- if ge (len $cols) 4 }}{{ $advanced = index $cols 3 }}{{ end }}
+
+          {{/* Parse skill number from the skillCode, e.g. "S3M3" → "3" (first digit after S) */}}
+          {{- $skillNum := "" }}
+          {{- range $i, $ch := (slice "0" "1" "2" "3" "4" "5" "6" "7" "8" "9") }}
+            {{- if and (eq $skillNum "") (strings.Contains $skillCode (printf "S%s" $ch)) }}
+              {{- $skillNum = $ch }}
+            {{- end }}
+          {{- end }}
+
+          {{/* Build skill icon path */}}
+          {{- $skillImgPath := printf "game_img/skills/skill_icon_skchr_%s_%s.png" $charName $skillNum -}}
+          {{- $skillImg := resources.Get $skillImgPath -}}
+
+          <tr>
+            <td class="mastery-skill-cell">
+              {{- if $skillImg }}
+              <img src="{{ $skillImg.RelPermalink }}"
+                   alt="Skill {{ $skillNum }}"
+                   class="mastery-skill-icon" />
+              {{- else }}
+              <span class="mastery-img-missing">S{{ $skillNum }}</span>
+              {{- end }}
+            </td>
+            <td>{{ $mastery }}</td>
+            <td>{{ $story }}</td>
+            <td>{{ $advanced }}</td>
+          </tr>
+        {{- end }}
+      {{- end }}
+    </tbody>
+  </table>
+
+</div>
+
+<style>
+
+.mastery-char-portrait img {
+  height: 180px;
+  width: auto;
+  border-radius: 6px;
+}
+
+.mastery-img-missing {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.mastery-table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+.mastery-table th,
+.mastery-table td {
+  padding: 0.4rem 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.mastery-table th {
+  font-weight: 600;
+}
+.mastery-skill-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.mastery-skill-icon {
+  height: 64px;
+  width: 64px;
+  object-fit: contain;
+}
+</style>

@@ -15,12 +15,7 @@ featured = true
 
 ### Titi
 
-{{< avatar id="4056_titi" >}}
-
-Skill | Mastery | Story | Advanced
-:---: | :---: | :---: | :---: |
-[![TitiS3](https://arknights.wiki.gg/images/thumb/Skill-Titi3.png/64px-Skill-Titi3.png)](https://arknights.wiki.gg/wiki/Titi) | S3M3 | S- | A
-[![TitiS2](https://arknights.wiki.gg/images/thumb/Skill-Titi2.png/64px-Skill-Titi2.png)](https://arknights.wiki.gg/wiki/Titi) | S2M3 | B+ | A+
+{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A|S3M1,Breakpoint,Breakpoint|S2M3,B+,A+|S1M3,None,None" >}}
 
 Relative to her contemporaries, many of which are exceedingly overpowered, Titi can feel a bit weak. Incantation Medics tend to have high HPS and DPS, but she is reliant on the Sleep mechanic to make full use of it which tends to be an awkward form of control on an already awkward archetype. There are immunities to deal with, especially on bosses, but more so, Sleep doesn't interact well with allies, which tends to make it the worst form of control. Still, as a modern 6★, Titi has more than enough power behind her kit to still be viable, and the Sleep that is her major drawback also gives her some endgame value, albeit situational.
 
