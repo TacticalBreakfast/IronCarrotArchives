@@ -17,6 +17,8 @@ enableStructuredBreadcrumbs = false
 
 replyByEmail = false
 
+disableImageZoom = true
+
 # mainSections = ["section1", "section2"]
 # robots = ""
 
