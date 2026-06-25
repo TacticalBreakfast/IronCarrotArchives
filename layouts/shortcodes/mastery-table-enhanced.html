@@ -39,11 +39,12 @@
       {{- range $rows }}
         {{- $cols := split . "," }}
         {{- if ge (len $cols) 3 }}
-          {{- $skillCode := index $cols 0 }}
-          {{- $mastery   := index $cols 0 }}
-          {{- $story     := index $cols 1 }}
-          {{- $advanced  := index $cols 2 }}
-          {{- if ge (len $cols) 4 }}{{ $advanced = index $cols 3 }}{{ end }}
+          {{- $skillCode  := index $cols 0 }}
+          {{- $mastery    := index $cols 0 }}
+          {{- $story      := index $cols 1 }}
+          {{- $advanced   := index $cols 2 }}
+          {{- $extraLabel := "" }}
+          {{- if ge (len $cols) 4 }}{{ $extraLabel = index $cols 3 }}{{ end }}
 
           {{/* Parse skill number from the skillCode, e.g. "S3M3" → "3" (first digit after S) */}}
           {{- $skillNum := "" }}
@@ -57,26 +58,56 @@
           {{- $skillImgPath := printf "game_img/skills/skill_icon_skchr_%s_%s.png" $charName $skillNum -}}
           {{- $skillImg := resources.Get $skillImgPath -}}
 
+          {{- $storyLow := lower $story }}
+          {{- $advLow := lower $advanced }}
+          {{- $mergeGrades := and (eq $storyLow $advLow) (or (eq $storyLow "none") (eq $storyLow "breakpoint")) }}
+
+          {{- if $extraLabel }}
           <tr>
-            <td class="mastery-skill-cell">
-              {{- if $skillImg }}
-              <img src="{{ $skillImg.RelPermalink }}"
-                   alt="Skill {{ $skillNum }}"
-                   class="mastery-skill-icon" />
-              {{- else }}
-              <span class="mastery-img-missing">S{{ $skillNum }}</span>
-              {{- end }}
+            <td rowspan="2">
+              <div class="mastery-skill-cell">
+                {{- if $skillImg }}
+                <img src="{{ $skillImg.RelPermalink }}"
+                     alt="Skill {{ $skillNum }}"
+                     class="mastery-skill-icon" />
+                {{- else }}
+                <span class="mastery-img-missing">S{{ $skillNum }}</span>
+                {{- end }}
+              </div>
             </td>
-            <td>{{ $mastery }}</td>
-            {{- $storyLow := lower $story }}
-            {{- $advLow := lower $advanced }}
-            {{- if and (eq $storyLow $advLow) (or (eq $storyLow "none") (eq $storyLow "breakpoint")) }}
+            <td rowspan="2">{{ $mastery }}</td>
+            <td colspan="2" class="mastery-extra-label">{{ $extraLabel }}</td>
+          </tr>
+          <tr>
+            {{- if $mergeGrades }}
             <td colspan="2">{{ $story }}</td>
             {{- else }}
             <td>{{ $story }}</td>
             <td>{{ $advanced }}</td>
             {{- end }}
           </tr>
+          {{- else }}
+          <tr>
+            <td>
+              <div class="mastery-skill-cell">
+                {{- if $skillImg }}
+                <img src="{{ $skillImg.RelPermalink }}"
+                     alt="Skill {{ $skillNum }}"
+                     class="mastery-skill-icon" />
+                {{- else }}
+                <span class="mastery-img-missing">S{{ $skillNum }}</span>
+                {{- end }}
+              </div>
+            </td>
+            <td>{{ $mastery }}</td>
+            {{- if $mergeGrades }}
+            <td colspan="2">{{ $story }}</td>
+            {{- else }}
+            <td>{{ $story }}</td>
+            <td>{{ $advanced }}</td>
+            {{- end }}
+          </tr>
+          {{- end }}
         {{- end }}
       {{- end }}
     </tbody>
@@ -119,11 +150,17 @@
 .mastery-table th,
 .mastery-table td {
   padding: 0.8rem 0.5rem !important;
-  text-align: center;
+  text-align: center !important;
   vertical-align: middle;
 }
 .mastery-table th {
   font-weight: 600;
+}
+.mastery-table td.mastery-extra-label {
+  font-style: italic;
+  opacity: 0.75;
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
 }
 .mastery-skill-cell {
   display: flex;
