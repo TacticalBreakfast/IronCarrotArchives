@@ -8,4 +8,4 @@ This site is still a heavy work in progress, so if you spot any bugs or have any
 {{< avatar id="365_aprl" >}}
 </div>
 
-{{< list title="The Mastery Guide" cardView=true limit=8 where="Params.topic" value="Mastery Guide" >}}
+{{< list title="The Mastery Guide" cardView=true limit=12 where="Params.topic" value="Mastery Guide" >}}
