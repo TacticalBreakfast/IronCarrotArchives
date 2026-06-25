@@ -5,7 +5,7 @@ title = 'Welcome to the Iron Carrot Archives.'
 weight = 10
 [params]
   author = 'TacticalBreakfast'
-topics = ['Blog']
+topic = 'Blog'
 +++
 
 This is the first blog post!

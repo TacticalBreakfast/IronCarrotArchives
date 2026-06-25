@@ -1,8 +1,8 @@
 +++
 date = 2026-06-24T04:14:54-08:00
 draft = false
-title = 'Vanguards'
-weight = 10
+title = 'Guards'
+weight = 11
 [params]
   author = 'TacticalBreakfast'
 topic = 'Mastery Guide'
