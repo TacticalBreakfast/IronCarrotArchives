@@ -6,6 +6,8 @@ weight = 10
 [params]
   author = 'TacticalBreakfast'
 topics = ['Mastery Guide']
+showDate = false
+showAuthor = false
 +++
 
 {{< avatar id="365_aprl" >}}
