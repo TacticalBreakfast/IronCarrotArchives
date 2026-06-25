@@ -1,0 +1,8 @@
+{{ $id := .Get 0 | default (.Get "id") }}
+{{ $path := printf "game_img/charavatars/char_%s.png" $id }}
+{{ $img := resources.Get $path }}
+{{ if $img }}
+  <img src="{{ $img.RelPermalink }}" alt="{{ $id }}">
+{{ else }}
+  <!-- Image not found: {{ $path }} -->
+{{ end }}
