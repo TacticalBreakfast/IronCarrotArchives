@@ -2,10 +2,6 @@ Hello and welcome to the Iron Carrot Archives! This website primarily serves as 
 
 This site is still a heavy work in progress, so if you spot any bugs or have any feedback, feel free to drop me a line over [here on Reddit](https://www.reddit.com/user/TacticalBreakfast/comments/1pl4nne/a_mastery_priority_guide_feedback_comments_corner/).
 
-<div class="flex justify-center">
-{{< author >}}
-</div>
-
 ## Most Recent Articles
 
 Blog Post - [Welcome to Iron Carrot Archives!](posts/welcome)
