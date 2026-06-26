@@ -16,52 +16,64 @@
   weight = 10
 
 [[main]]
+  name = "Most Recent"
+  parent = "Masteries"
+  pageRef = "masteries/mostrecent"
+  weight = 9
+
+[[main]]
   name = "Vanguards"
   parent = "Masteries"
-  pageRef = "masteries-vanguards"
+  pageRef = "masteries/vanguards"
   weight = 10
 
 [[main]]
   name = "Guards"
   parent = "Masteries"
-  pageRef = "masteries-guards"
+  pageRef = "masteries/guards"
   weight = 11
 
 [[main]]
   name = "Defenders"
   parent = "Masteries"
-  pageRef = "masteries-defenders"
+  pageRef = "masteries/defenders"
   weight = 12
 
 [[main]]
   name = "Snipers"
   parent = "Masteries"
-  pageRef = "masteries-snipers"
+  pageRef = "masteries/snipers"
   weight = 13
 
 [[main]]
   name = "Casters"
   parent = "Masteries"
-  pageRef = "masteries-casters"
+  pageRef = "masteries/casters"
   weight = 14
 
 [[main]]
   name = "Medics"
   parent = "Masteries"
-  pageRef = "masteries-medics"
+  pageRef = "masteries/medics"
   weight = 15
 
 [[main]]
   name = "Supporters"
   parent = "Masteries"
-  pageRef = "masteries-supporters"
+  pageRef = "masteries/supporters"
   weight = 16
 
 [[main]]
   name = "Specialists"
   parent = "Masteries"
-  pageRef = "masteries-specialists"
+  pageRef = "masteries/specialists"
   weight = 17
+
+[[main]]
+  name = "Glossary"
+  parent = "Masteries"
+  pageRef = "masteries/glossary"
+  weight = 18
 
 [[main]]
   name = "Efficiency Sheets"
@@ -71,13 +83,13 @@
 [[main]]
   name = "Paid Packs"
   parent = "Efficiency Sheets"
-  pageRef = "posts"
+  url = "https://docs.google.com/spreadsheets/d/1knwIQHQXDfmAIEShW3QuybzBh9OerfHsYJgCVVYXqtw/"
   weight = 15
 
 [[main]]
   name = "M3/E2 Tickets"
   parent = "Efficiency Sheets"
-  pageRef = "posts"
+  url = "https://docs.google.com/spreadsheets/d/1knwIQHQXDfmAIEShW3QuybzBh9OerfHsYJgCVVYXqtw/"
   weight = 20
 
 [[main]]
