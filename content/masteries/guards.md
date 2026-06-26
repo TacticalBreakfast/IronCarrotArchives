@@ -11,6 +11,7 @@ showAuthor = false
 featured = true
 featureimage = "game_img/profession_large_hub/icon_profession_warrior_large.png"
 excludeFromRecent = true
+tags = ['Mastery', 'Guards', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [6★ Guards](#6-guards)

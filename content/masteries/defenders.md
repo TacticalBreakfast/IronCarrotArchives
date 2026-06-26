@@ -11,6 +11,7 @@ showAuthor = false
 featured = true
 featureimage = "game_img/profession_large_hub/icon_profession_tank_large.png"
 excludeFromRecent = true
+tags = ['Mastery', 'Defenders', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [6★ Defenders](#6-defenders)

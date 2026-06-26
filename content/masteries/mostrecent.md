@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 ## Masteries for Medjehtiqedti Bound

@@ -11,6 +11,7 @@ showAuthor = false
 featured = true
 featureimage = "game_img/profession_large_hub/icon_profession_caster_large.png"
 excludeFromRecent = true
+tags = ['Mastery', 'Casters', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [6★ Casters](#6-casters)

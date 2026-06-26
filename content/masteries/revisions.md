@@ -10,6 +10,7 @@ showDate = false
 showAuthor = false
 featured = true
 excludeFromRecent = true
+tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [2026](#2026)

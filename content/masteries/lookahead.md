@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+tags = ['Mastery', 'Future Content', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [Overall Pull Priority](#overall-pull-priority)

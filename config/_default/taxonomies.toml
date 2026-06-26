@@ -1,3 +1,4 @@
 # config/_default/taxonomies.toml
 
 topic = "topic"
+tag = "tags"

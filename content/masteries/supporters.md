@@ -11,6 +11,7 @@ showAuthor = false
 featured = true
 featureimage = "game_img/profession_large_hub/icon_profession_support_large.png"
 excludeFromRecent = true
+tags = ['Mastery', 'Supporters', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [6★ Supporters](#6-supporters)

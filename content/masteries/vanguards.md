@@ -11,6 +11,7 @@ showAuthor = false
 featured = true
 featureimage = "game_img/profession_large_hub/icon_profession_pioneer_large.png"
 excludeFromRecent = true
+tags = ['Mastery', 'Vanguards', 'Arknights', 'Guide', 'Skill Priority']
 +++
 
 - [6★ Vanguards](#6-vanguards)
