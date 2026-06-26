@@ -46,6 +46,10 @@
   <div class="mastery-stars {{ $starClass }}">{{ $stars }}</div>
   {{- end }}
 
+  {{- if $charEntry }}
+  <div class="mastery-profession">{{ $charEntry.profession_name }} - {{ $charEntry.sub_profession_name }}</div>
+  {{- end }}
+
   <div class="mastery-links">
     <a href="https://sanitygone.help/en/operators/{{ $charName }}" target="_blank" rel="noopener">EN Kit</a>
     <a href="https://prts.wiki/w/{{ $charName }}" target="_blank" rel="noopener">PRTS.wiki</a>
@@ -158,6 +162,7 @@
 }
 
 .mastery-stars { font-size: 1.1rem; margin: 0.25rem 0; }
+.mastery-profession { font-size: 0.85rem; opacity: 0.75; margin-bottom: 0.25rem; }
 .mastery-stars-6 { color: #ff6d01 !important; }
 .mastery-stars-5 { color: #fbbc04 !important; }
 .mastery-stars-4 { color: #d5a5bb !important; }
