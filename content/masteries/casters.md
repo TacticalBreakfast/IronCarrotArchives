@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+featureimage = "game_img/profession_large_hub/icon_profession_caster_large.png"
 +++
 
 - [6★ Casters](#6-casters)
