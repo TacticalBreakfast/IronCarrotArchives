@@ -1,5 +1,7 @@
 {{- $id := .Get "id" -}}
 {{- $rowsRaw := .Get "rows" -}}
+{{- $enLink := .Get "en_link" -}}
+{{- $cnLink := .Get "cn_link" -}}
 
 {{/* Extract character name: everything after the first underscore */}}
 {{- $charName := index (split $id "_") 1 -}}
@@ -50,10 +52,15 @@
   <div class="mastery-profession">{{ $charEntry.sub_profession_name }}</div>
   {{- end }}
 
+  {{- if $charEntry }}
+  {{- $linkName := $charEntry.name }}
+  {{- $sanitygoneURL := cond (ne $enLink "") $enLink (printf "https://sanitygone.help/en/operators/%s/" (replace (lower $linkName) " " "-")) }}
+  {{- $prtsURL := cond (ne $cnLink "") $cnLink (printf "https://prts.wiki/w/%s" (replace $linkName " " "_")) }}
   <div class="mastery-links">
-    <a href="https://sanitygone.help/en/operators/{{ $charName }}" target="_blank" rel="noopener">EN Kit</a>
-    <a href="https://prts.wiki/w/{{ $charName }}" target="_blank" rel="noopener">PRTS.wiki</a>
+    <a href="{{ $sanitygoneURL }}" target="_blank" rel="noopener">EN Kit</a>
+    <a href="{{ $prtsURL }}" target="_blank" rel="noopener">PRTS.wiki</a>
   </div>
+  {{- end }}
 
   <table class="mastery-table">
     <colgroup>
