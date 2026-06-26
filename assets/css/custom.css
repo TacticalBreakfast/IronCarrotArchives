@@ -2,6 +2,11 @@
     max-width: 100%;
 }
 
+/* Reduce fixed header spacer from 148px default */
+.min-h-\[148px\] {
+    min-height: 80px;
+}
+
 .last-updated {
     font-size: 0.8rem;
     opacity: 0.5;
