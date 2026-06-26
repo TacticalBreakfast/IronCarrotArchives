@@ -15,7 +15,7 @@ featured = true
 
 ### Titi
 
-{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A,Breakpoint - S3M1|S2M3,B+,A+|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A|S2M3,B+,A+" pool="1" >}}
 
 Relative to her contemporaries, many of which are exceedingly overpowered, Titi can feel a bit weak. Incantation Medics tend to have high HPS and DPS, but she is reliant on the Sleep mechanic to make full use of it which tends to be an awkward form of control on an already awkward archetype. There are immunities to deal with, especially on bosses, but more so, Sleep doesn't interact well with allies, which tends to make it the worst form of control. Still, as a modern 6★, Titi has more than enough power behind her kit to still be viable, and the Sleep that is her major drawback also gives her some endgame value, albeit situational.
 
