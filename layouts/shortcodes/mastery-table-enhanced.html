@@ -2,6 +2,9 @@
 {{- $rowsRaw := .Get "rows" -}}
 {{- $enLink := .Get "en_link" -}}
 {{- $cnLink := .Get "cn_link" -}}
+{{- $poolKey := .Get "pool" -}}
+{{- $poolName := "" -}}
+{{- if $poolKey }}{{- $poolName = index site.Data.pools $poolKey -}}{{- end -}}
 
 {{/* Extract character name: everything after the first underscore */}}
 {{- $charName := index (split $id "_") 1 -}}
@@ -50,6 +53,10 @@
 
   {{- if $charEntry }}
   <div class="mastery-profession">{{ $charEntry.sub_profession_name }}</div>
+  {{- end }}
+
+  {{- if $poolName }}
+  <div class="mastery-profession">{{ $poolName }}</div>
   {{- end }}
 
   {{- if $charEntry }}

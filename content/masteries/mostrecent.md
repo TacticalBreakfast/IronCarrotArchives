@@ -15,7 +15,7 @@ featured = true
 
 ### Titi
 
-{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A,Breakpoint - S3M1|S2M3,B+,A+|S1M3,None,None" >}}
+{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A,Breakpoint - S3M1|S2M3,B+,A+|S1M3,None,None" pool="1" >}}
 
 Relative to her contemporaries, many of which are exceedingly overpowered, Titi can feel a bit weak. Incantation Medics tend to have high HPS and DPS, but she is reliant on the Sleep mechanic to make full use of it which tends to be an awkward form of control on an already awkward archetype. There are immunities to deal with, especially on bosses, but more so, Sleep doesn't interact well with allies, which tends to make it the worst form of control. Still, as a modern 6★, Titi has more than enough power behind her kit to still be viable, and the Sleep that is her major drawback also gives her some endgame value, albeit situational.
 
@@ -33,7 +33,7 @@ Last, pass on her S1 which has almost no upside compared to her S3. It's a bit p
 
 ### Perfumer the Distilled
 
-{{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" >}}
+{{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" pool="1" >}}
 
 Perfumer the Distilled is an unexpected mix-up of the Abjurer archetype. Before her, they all fell into two groups. They were either bimodal (bad) or infinite duration (good). Perfumer2, however, has a single-use helidrop skill that makes her unique among the group. That's enough to elevate her above the “bad” group and can make her a viable niche consideration, since she acts as an emergency button with her relatively strong effective-HPS, but she's still well behind the “good” group, and thus still a relatively fringe consideration. Even for the waifu players, her original 4★ version will very often be the stronger choice!
 
@@ -45,7 +45,7 @@ Meanwhile, her S1 may appeal to those who *really* want to get the most out of P
 
 ### Varkáris
 
-{{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" en_link="https://sanitygone.help/en/operators/varkaris/" >}}
+{{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" en_link="https://sanitygone.help/en/operators/varkaris/" pool="3" >}}
 
 Varkáris is one of those units you have to be a little cautious about, depending on the type of player you are. He's actually a pretty decent unit since Centurions are a “high floor” sort of unit, meaning that their baseline performance is pretty good. He can hold a lane, do decent damage, and has good self-sustain. That's not too bad for a Welfare! But at the same time, with few exceptions, Centurions also tend to have a “low ceiling”. So while he's decent, he's also rarely the optimal choice and has little long-term value, especially as a 5★. If what matters to you is optimal use of your resources, you'll get a much better return on your investment and value out of your team slot elsewhere. Even lacking stronger units, most players will get better results sticking with cheaper stop-gaps, especially since Centurions really need their E2 to function.
 
