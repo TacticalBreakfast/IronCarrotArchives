@@ -12,3 +12,60 @@
 .max-w-prose {
     max-width: 100%;
 }
+
+/* TOC scroll indicators */
+.toc-hint-wrap {
+    position: relative;
+}
+
+#toc-scroll-hint-down,
+#toc-scroll-hint-up {
+    position: absolute;
+    left: -1.25rem; /* match the -ms-5 offset of TOCView */
+    right: 0;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    color: rgba(var(--color-neutral-500), 1);
+}
+
+#toc-scroll-hint-down {
+    bottom: 0;
+    align-items: flex-end;
+    padding-bottom: 0.35rem;
+    background: linear-gradient(
+        to bottom,
+        rgba(var(--color-neutral), 0),
+        rgba(var(--color-neutral), 1)
+    );
+}
+
+#toc-scroll-hint-up {
+    top: 0;
+    align-items: flex-start;
+    padding-top: 0.35rem;
+    background: linear-gradient(
+        to top,
+        rgba(var(--color-neutral), 0),
+        rgba(var(--color-neutral), 1)
+    );
+}
+
+html.dark #toc-scroll-hint-down {
+    background: linear-gradient(
+        to bottom,
+        rgba(var(--color-neutral-800), 0),
+        rgba(var(--color-neutral-800), 1)
+    );
+}
+
+html.dark #toc-scroll-hint-up {
+    background: linear-gradient(
+        to top,
+        rgba(var(--color-neutral-800), 0),
+        rgba(var(--color-neutral-800), 1)
+    );
+}
