@@ -1,0 +1,1 @@
+This is the repo for my Arknights Mastery Guide website. There isn't much to see here. If you want to contact me directly, go [here](https://www.reddit.com/user/TacticalBreakfast/comments/1pl4nne/a_mastery_priority_guide_feedback_comments_corner/) or shoot me a message on Discord.
