@@ -10,6 +10,8 @@ This site is still a heavy work in progress, so if you spot any bugs or have any
 
 Blog Post - [Welcome to Iron Carrot Archives!](posts/welcome)
 
+Blog Post - [Why the name "Iron Carrot Archives"?](posts/whyica)
+
 ### 2026-06 - Medjehtiqedti Bound Mastery Update
 
 {{< article-links sg="https://sanitygone.help/en/guides/mastery-bound/" ld="https://lungmendragons.com/guides/mb-mastery" reddit="https://www.reddit.com/r/arknights/comments/1u9ych8/a_mastery_priority_guide_should_you_pull/" >}}
