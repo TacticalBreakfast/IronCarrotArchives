@@ -1,0 +1,235 @@
+{{- $id := .Get "id" -}}
+{{- $rowsRaw := .Get "rows" -}}
+{{- $enLink := .Get "en_link" -}}
+{{- $cnLink := .Get "cn_link" -}}
+{{- $poolKey := .Get "pool" -}}
+{{- $poolName := "" -}}
+{{- if $poolKey }}{{- $poolName = index site.Data.pools $poolKey -}}{{- end -}}
+
+{{- $charName := index (split $id "_") 1 -}}
+
+{{- $charImgPath := printf "game_img/charavatars/char_%s.png" $id -}}
+{{- $charImg := resources.Get $charImgPath -}}
+
+{{- $rows := split $rowsRaw "|" -}}
+
+{{- $charsResource := resources.Get "game_img/processed/characters.yml" -}}
+{{- $chars := $charsResource | transform.Unmarshal -}}
+{{- $charKey := printf "char_%s" $id -}}
+{{- $charEntry := index (where $chars "id" $charKey) 0 -}}
+{{- $stars := "" -}}
+{{- $starClass := "" -}}
+{{- if $charEntry -}}
+  {{- $stars = $charEntry.stars -}}
+  {{- $starCount := strings.Count "★" $stars -}}
+  {{- if eq $starCount 6 }}{{- $starClass = "mastery-stars-6" -}}{{- end -}}
+  {{- if eq $starCount 5 }}{{- $starClass = "mastery-stars-5" -}}{{- end -}}
+  {{- if eq $starCount 4 }}{{- $starClass = "mastery-stars-4" -}}{{- end -}}
+{{- end -}}
+
+<div class="mastery-table-wrapper">
+
+  {{- if $charImg }}
+  <div class="mastery-char-portrait"  style="display: flex; justify-content: center;">
+    <img src="{{ $charImg.RelPermalink }}" alt="{{ $charName }}" />
+  </div>
+  {{- else }}
+  <div class="mastery-char-portrait mastery-img-missing">
+    <span>{{ $charName }}</span>
+  </div>
+  {{- end }}
+
+  {{- if $stars }}
+  <div class="mastery-stars {{ $starClass }}">{{ $stars }}</div>
+  {{- end }}
+
+  {{- if $charEntry }}
+  <div class="mastery-profession">{{ $charEntry.sub_profession_name }}</div>
+  {{- end }}
+
+  {{- if $poolName }}
+  <div class="mastery-profession">{{ $poolName }}</div>
+  {{- end }}
+
+  {{- if $charEntry }}
+  {{- $linkName := $charEntry.name }}
+  {{- $sanitygoneURL := cond (ne $enLink "") $enLink (printf "https://sanitygone.help/en/operators/%s/" (replace (lower $linkName) " " "-")) }}
+  {{- $prtsURL := cond (ne $cnLink "") $cnLink (printf "https://prts.wiki/w/%s" (replace $linkName " " "_")) }}
+  <div class="mastery-links">
+    <a href="{{ $sanitygoneURL }}" target="_blank" rel="noopener">EN Kit</a>
+    <a href="{{ $prtsURL }}" target="_blank" rel="noopener">PRTS.wiki</a>
+  </div>
+  {{- end }}
+
+  <table class="mastery-table">
+    <colgroup>
+      <col style="width: 20%;">
+      <col style="width: 20%;">
+      <col style="width: 20%;">
+      <col style="width: 20%;">
+      <col style="width: 20%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Mastery</th>
+        <th>Story</th>
+        <th>Advanced</th>
+        <th>IS</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $rows }}
+        {{- $cols := split . "," }}
+        {{- if ge (len $cols) 4 }}
+          {{- $skillCode  := index $cols 0 }}
+          {{- $mastery    := index $cols 0 }}
+          {{- $story      := index $cols 1 }}
+          {{- $advanced   := index $cols 2 }}
+          {{- $is         := index $cols 3 }}
+          {{- $extraLabel := "" }}
+          {{- if ge (len $cols) 5 }}{{ $extraLabel = index $cols 4 }}{{ end }}
+
+          {{- $skillNum := "" }}
+          {{- range $i, $ch := (slice "0" "1" "2" "3" "4" "5" "6" "7" "8" "9") }}
+            {{- if and (eq $skillNum "") (strings.Contains $skillCode (printf "S%s" $ch)) }}
+              {{- $skillNum = $ch }}
+            {{- end }}
+          {{- end }}
+
+          {{- $skillImgPath := printf "game_img/skills/skill_icon_skchr_%s_%s.png" $charName $skillNum -}}
+          {{- $skillImg := resources.Get $skillImgPath -}}
+
+          {{- $storyLow := lower $story }}
+          {{- $advLow := lower $advanced }}
+          {{- $mergeGrades := and (eq $storyLow $advLow) (or (eq $storyLow "none") (eq $storyLow "breakpoint")) }}
+
+          {{- if $extraLabel }}
+          <tr>
+            <td rowspan="2">
+              <div class="mastery-skill-cell">
+                {{- if $skillImg }}
+                <img src="{{ $skillImg.RelPermalink }}"
+                     alt="Skill {{ $skillNum }}"
+                     class="mastery-skill-icon" />
+                {{- else }}
+                <span class="mastery-img-missing">S{{ $skillNum }}</span>
+                {{- end }}
+              </div>
+            </td>
+            <td rowspan="2">{{ $mastery }}</td>
+            <td colspan="3" class="mastery-extra-label">{{ $extraLabel }}</td>
+          </tr>
+          <tr>
+            {{- if $mergeGrades }}
+            <td colspan="2">{{ $story }}</td>
+            {{- else }}
+            <td>{{ $story }}</td>
+            <td>{{ $advanced }}</td>
+            {{- end }}
+            <td>{{ $is }}</td>
+          </tr>
+          {{- else }}
+          <tr>
+            <td>
+              <div class="mastery-skill-cell">
+                {{- if $skillImg }}
+                <img src="{{ $skillImg.RelPermalink }}"
+                     alt="Skill {{ $skillNum }}"
+                     class="mastery-skill-icon" />
+                {{- else }}
+                <span class="mastery-img-missing">S{{ $skillNum }}</span>
+                {{- end }}
+              </div>
+            </td>
+            <td>{{ $mastery }}</td>
+            {{- if $mergeGrades }}
+            <td colspan="2">{{ $story }}</td>
+            {{- else }}
+            <td>{{ $story }}</td>
+            <td>{{ $advanced }}</td>
+            {{- end }}
+            <td>{{ $is }}</td>
+          </tr>
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    </tbody>
+  </table>
+
+</div>
+
+<style>
+.mastery-table-wrapper img {
+  margin: 0 !important;
+}
+
+.mastery-char-portrait img {
+  height: 180px;
+  width: auto;
+  border-radius: 6px;
+}
+
+.mastery-stars { font-size: 1.1rem; margin: 0.25rem 0; }
+.mastery-profession { font-size: 0.85rem; opacity: 0.75; margin-bottom: 0.25rem; }
+.mastery-stars-6 { color: #ff6d01 !important; }
+.mastery-stars-5 { color: #fbbc04 !important; }
+.mastery-stars-4 { color: #d5a5bb !important; }
+
+.mastery-img-missing {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.mastery-table-wrapper {
+  text-align: center;
+}
+
+.mastery-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+}
+
+.mastery-table {
+  display: table;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  width: 50%;
+}
+
+.mastery-table th,
+.mastery-table td {
+  padding: 0.8rem 0.5rem !important;
+  text-align: center !important;
+  vertical-align: middle;
+}
+.mastery-table th {
+  font-weight: 600;
+}
+.mastery-table td.mastery-extra-label {
+  font-style: italic;
+  opacity: 0.75;
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+}
+.mastery-skill-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.mastery-skill-icon {
+  height: 64px;
+  width: 64px;
+  object-fit: contain;
+}
+</style>
