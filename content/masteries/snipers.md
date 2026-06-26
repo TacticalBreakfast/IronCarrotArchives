@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Snipers'
+summary = "Arknights Sniper Mastery Priority guide covering every 6★, 5★, and 4★ Sniper — including Wiš'adel, Lemuen, Narantuya, April, and more — with skill recommendations and DPS comparisons."
 weight = 13
 [params]
   author = 'TacticalBreakfast'

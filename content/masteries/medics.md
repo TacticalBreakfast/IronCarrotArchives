@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Medics'
+summary = "Arknights Medic Mastery Priority guide covering every 6★, 5★, and 4★ Medic — including Mon3tr, Reed the Flame Shadow, Eyjafjalla the Hvít Aska, and more — with skill recommendations, healing comparisons, and priority rankings."
 weight = 15
 [params]
   author = 'TacticalBreakfast'

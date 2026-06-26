@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Revisions'
+summary = "A listing of all updates to the Arknights Mastery Priority Guide."
 weight = 20
 [params]
   author = 'TacticalBreakfast'

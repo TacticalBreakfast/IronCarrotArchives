@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Vanguards'
+summary = "Arknights Vanguard Mastery Priority guide covering every 6★, 5★, and 4★ Vanguard — including Ines, Myrtle, Bagpipe, Cantabile, and more — with skill recommendations, breakpoints, and DP generation analysis."
 weight = 10
 [params]
   author = 'TacticalBreakfast'

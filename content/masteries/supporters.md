@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Supporters'
+summary = "Arknights Supporter Mastery Priority guide covering every 6★, 5★, and 4★ Supporter — including Haruka, Nasti, Tragodia, and more — with skill recommendations, buff and debuff analysis, and priority rankings."
 weight = 16
 [params]
   author = 'TacticalBreakfast'

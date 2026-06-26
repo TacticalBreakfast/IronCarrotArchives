@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Glossary'
+summary = "A compilation and guide to various Arknights terms used throughout the guide."
 weight = 19
 [params]
   author = 'TacticalBreakfast'

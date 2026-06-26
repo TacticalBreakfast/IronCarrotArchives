@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Defenders'
+summary = "Arknights Defender Mastery Priority guide covering every 6★, 5★, and 4★ Defender — including Hoshiguma the Breacher, Yu, Shu, and more — with skill recommendations, tank comparisons, and priority rankings."
 weight = 12
 [params]
   author = 'TacticalBreakfast'

@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Casters'
+summary = "Arknights Caster Mastery Priority guide covering every 6★, 5★, and 4★ Caster — including Pramanix the Prerita, Necrass, Mantra, and more — with skill recommendations, Arts damage analysis, and priority rankings."
 weight = 14
 [params]
   author = 'TacticalBreakfast'

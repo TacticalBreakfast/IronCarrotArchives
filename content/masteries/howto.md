@@ -1,8 +1,8 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'How To Use This Guide'
 weight = 7
+summary = "A description of the Arknights Mastery Priority Guide, grade definitions, category definitions, and best practices when using the guide."
 [params]
   author = 'TacticalBreakfast'
 topic = 'Mastery Guide'

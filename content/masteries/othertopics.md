@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'Other Related Topics'
+summary = "An extended list and discussion of other Arknights topics that frequently come up in the Mastery Priority Guide."
 weight = 18
 [params]
   author = 'TacticalBreakfast'

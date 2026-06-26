@@ -1,7 +1,7 @@
 +++
-date = 2026-06-24T04:14:54-08:00
 draft = false
 title = 'CN Lookahead (Spoilers)'
+summary = "Arknights CN Lookahead covering all upcoming banners, with pull Priority rankings and Mastery previews for future operators."
 weight = 8
 [params]
   author = 'TacticalBreakfast'
