@@ -41,7 +41,7 @@ Meanwhile, her S1 may appeal to those who *really* want to get the most out of P
 
 ### Varkáris
 
-{{< avatar id="4166_varkis" >}}
+{{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" >}}
 
 Varkáris is one of those units you have to be a little cautious about, depending on the type of player you are. He's actually a pretty decent unit since Centurions are a “high floor” sort of unit, meaning that their baseline performance is pretty good. He can hold a lane, do decent damage, and has good self-sustain. That's not too bad for a Welfare! But at the same time, with few exceptions, Centurions also tend to have a “low ceiling”. So while he's decent, he's also rarely the optimal choice and has little long-term value, especially as a 5★. If what matters to you is optimal use of your resources, you'll get a much better return on your investment and value out of your team slot elsewhere. Even lacking stronger units, most players will get better results sticking with cheaper stop-gaps, especially since Centurions really need their E2 to function.
 
