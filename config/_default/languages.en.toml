@@ -13,7 +13,10 @@ title = "Iron Carrot Archives"
   logo = "img/tb.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Home of TacticaBreakfast's Arknights guides and works."
-  copyright = "Copy, _right?_ :thinking_face:"
+  #copyright = "Copy, _right?_ :thinking_face:"
+  #copyright = "© { year } [TacticalBreakfast](https://ironcarrotarchives.com)"
+  copyright = "© { year } TacticalBreakfast | Arknights and related content © Hypergryph/Yostar | Unofficial fan site"
+
 
  [params.author]
    name = "TacticalBreakfast"
