@@ -70,10 +70,16 @@
   weight = 17
 
 [[main]]
+  name = "CN Lookahead"
+  parent = "Masteries"
+  pageRef = "masteries/lookahead"
+  weight = 18
+
+[[main]]
   name = "Glossary"
   parent = "Masteries"
   pageRef = "masteries/glossary"
-  weight = 18
+  weight = 19
 
 [[main]]
   name = "Efficiency Sheets"
