@@ -168,7 +168,7 @@ Finally, it's worth noting Degenbrecher isn't quite as valuable in high difficul
 
 {{< mastery-table-enhanced id="4098_vvana" rows="S3M3,S- *,A+ *" pool="1" >}}
 
-* Note that Viviana’s S3 is graded assuming she has her AFT-Δ Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* Note that Viviana’s S3 is graded assuming she has her AFT-Δ Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
 
 The beautiful moose, who was much maligned on her release, picked up a powerful Delta Module that gives her some new life. While DPS was never really her core problem, her new Module adds even more of it, but more importantly, the Burn now helps her work around enemy RES to a degree. Given her kit is centered around dueling Elites and Bosses, who almost universally have at least some measure of RES, this ends up being a sizable upgrade to her viability, and she happens to do enough Burn to be able to proc it reliably too!
 
@@ -294,7 +294,7 @@ Finally, her S1 may be worth a look if you're Tomimi and Gavial truly is waifu. 
 
 {{< mastery-table-enhanced id="4009_irene" rows="S3M3,A,A,Breakpoint - S3M1|S2M3,C *,B+ *|S1M1,None,None,Breakpoint - S1M1" pool="1" >}}
 
-* Note that Irene’s S2 is graded assuming she has her SWO-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* Note that Irene’s S2 is graded assuming she has her SWO-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
 
 Irene is a strong burst Operator, but one who has been left behind in the meta. While her burst is good, she is stuck with an excruciating 24 Attack Recovery on her primary skill, combined with poor uptime on her control. It’s enough to make Irene fans truly loathe Degenbrecher…
 
@@ -433,7 +433,7 @@ Finally, pass on her S1, although it deserves a very minor mention. In rare case
 
 {{< mastery-table-enhanced id="263_skadi" rows="S2M3,B *,B+ *|S3M3,C *,C *" pool="2" >}}
 
-* Note that Skadi's skills are graded assuming she has either Module (favor DRE-X) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.
+\* Note that Skadi's skills are graded assuming she has either Module (favor DRE-X) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.
 
 Skadi is just one of many older Guards who has found some niche use, but is otherwise left distantly behind in the current meta. She's a unit who isn't exactly bad, but should only be raised for waifu or niche purposes. In Skadi's case, her niche use is in Abyssal Hunter teams, but even then she's mainly just a body in a niche that has few options, and she mostly just rides Gladiia's and Ulpianus's buffs to be even passable. Even then, she's among the last hunters to raise, and requires an expensive Module (favor DRE-X even in AH teams), resulting in a very low overall priority.
 
@@ -532,7 +532,7 @@ His S1 may be something to consider as well, but as mentioned, is very situation
 
 {{< mastery-table-enhanced id="4066_highmo" rows="S1M3,B,None" pool="4" >}}
 
-* Note Highmore's IS grade is specific to IS#3 due to her iteration specific Talent. She does not have special value in the other iterations.
+\* Note Highmore's IS grade is specific to IS#3 due to her iteration specific Talent. She does not have special value in the other iterations.
 
 The comparison to La Pluma is a fairly natural one for Highmore. They have very similar kits and identical S1s after all. And indeed, Highmore has been valuable herself at times. However her role is quite different, and is also now quite dated. She is certainly not bad as a general laneholder, but since she lacks La Pluma's offensive Talent, she isn't nearly as good at it. At least in *most* of the game.
 

@@ -182,7 +182,7 @@ Last is his S2. It's a notable skill for using in the same vein as his S1, but f
 
 {{< mastery-table-enhanced id="2023_ling" rows="S3M3,A+,A-|S2M3,C,C+" pool="11" >}}
 
-* While a strong unit, be wary of general investment in Ling if you don’t know what you’re getting. See the write-up for more details.
+\* While a strong unit, be wary of general investment in Ling if you don’t know what you’re getting. See the write-up for more details.
 
 Following Ling's initial reception in the community is a great way to see the effects of powercreep in action. On her release, many high end players hated her. She was practically a squad all on her own and could solo much of the game. This also made her tricky to evaluate, because while very powerful, she also didn't have a lot of ceiling nor would most players find her gameplay to be satisfying. The pretext to all this though was the fact the gap from the average 6★ to her S3 double-dragons wasn't that large. In fact, they were straight up better than many units available at the time! But of course, that is far less true now than it was on her release. The average 6★ has seen a dramatic rise in power, so even if you did want to solo the game with her, you give up quite a bit to do so.
 
@@ -201,7 +201,7 @@ Pass on her S1 unless you're a real maximalist. It overlaps with her better S3 q
 
 {{< mastery-table-enhanced id="206_gnosis" rows="S3M3,A-,None|S2M3,B,None" pool="2" >}}
 
-* Gnosis’s IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
+\* Gnosis’s IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
 
 Gnosis is a powerful debuffer, although slightly flawed. He notably has a higher Fragile than most of his competition, however his poor uptime, limited range, and the fact it requires Freeze which many enemies you would *want* Fragile on are immune to, mean that it isn't his primary value. While that Fragile is still valuable, he is instead mainly used for his strong Freeze and control, along with some decent damage. However, even that is a bit lacking by modern standards, ultimately meaning Gnosis is a good unit, but a bit under what he would need to be to stand among the more general purpose meta options. At least, in the general game. Fortunately for him, he is also the recipient of one of the more powerful ISW Modules, which makes him a competitive meta pick in Integrated Strategies, if not the rest of the game.
 
@@ -271,7 +271,7 @@ However, S1 doesn't do damage so if you plan to use her regularly, you'll want t
 
 {{< mastery-table-enhanced id="291_aglina" rows="S3M3,C+,None|S2M3,None,None" pool="2" >}}
 
-* Angelina's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
+\* Angelina's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
 
 Angelina is a strange unit in the game's history. For a time near launch, she was quite strong since there were few good Arts or Control options, and she excelled at both. However, as the roster was fleshed out over time, the meta left Angelina behind in almost all content. Fortunately, Lowlight smiled fondly upon her and gave her an absurdly good IS-specific Module that has vaulted Angelina back into the high-end!
 
@@ -346,7 +346,7 @@ Pass on her S1 which just doesn't do anything special. Even at S1M3 she doesn't 
 
 {{< mastery-table-enhanced id="492_quercu" rows="S1M3,A *,A *" pool="1" >}}
 
-* Note that Quercus' S1 is graded assuming she has her BLS-X Module at least at level 1 (preferrably higher). If you do not plan to get this Module, treat the priority of this skill significantly lower.
+\* Note that Quercus' S1 is graded assuming she has her BLS-X Module at least at level 1 (preferrably higher). If you do not plan to get this Module, treat the priority of this skill significantly lower.
 
 Quercus managed to buck the trend of prior Abjurers by actually being a great healer! The "toggle" nature of most of them is quite a burden in practical use, so the fact Quercus has an always-on version, plus a Sanctuary Talent that is actually applied before the unit is almost dead already, made her a solid healer. Then she got a great Module on top that removed the healing reduction and gave her an even better Talent, which made Quercus one of the best raw healers for a while. Of course, most meta solutions favored DPS over healing, and modern powercreep means there's now a 6★ that does the same thing but better (Haruka), so Quercus isn't quite a "must" raise, but she is still one of the better 5★s in the game and can be a valuable promotion in a variety of circumstances.
 
@@ -462,7 +462,7 @@ Her S1 is a useful skill, but not worth Mastery for a vast majority of people. G
 
 {{< mastery-table-enhanced id="110_deepcl" rows="S1M3,B *,B *|S2M3,None,None" pool="3" >}}
 
-* Note that Deepcolor's S1 is graded assuming she has her SUM-Y Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
+\* Note that Deepcolor's S1 is graded assuming she has her SUM-Y Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
 
 Deepcolor is a unit whose value has gone up and down with time. Before Modules, she was pretty poor since she couldn't renew her summons on top of all the other issues Summoners have in general gameplay. Her Module opened up some new options since she had enough of them to make up the difference, and now the IS Hope reduction makes her some people's favored 4★ Supporter. I'm not really one of them and I don't favor the summoner strategies, however she's still a great unit in certain niches or if that strategy appeals to you.
 

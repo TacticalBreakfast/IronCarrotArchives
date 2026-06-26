@@ -181,7 +181,7 @@ Pass on her S1. Her DPH with it is too low for anything but trash mobs, and even
 
 {{< mastery-table-enhanced id="332_archet" rows="S3M3,B,None|S1M3,None,None|S2M3,None,None" pool="2" >}}
 
-* Archetto's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
+\* Archetto's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
 
 Most of the original Marksman have aged pretty poorly. Their niche of low-DP damage doesn't look as good when everyone has absurd DPS, and their low DPH has always meant a low ceiling, even in their heyday. However, while Exusiai escaped the basement with a busted alt, Archetto escaped it with a solid and fun IS mod. It isn't quite as absurd as some of the other IS mods since her DPH is still low and it constrains team-building, but it's still good enough to give Archetto some decent Mastery consideration.
 
@@ -200,7 +200,7 @@ As for secondary skills, neither is worth much anymore in either mode. If you di
 
 {{< mastery-table-enhanced id="391_rosmon" rows="S2M3,C,None|S3M3,C,None" pool="9" >}}
 
-* Rosmontis's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
+\* Rosmontis's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
 
 Many units have now gotten specialized Modules, but of them, Rosmontis has gotten one of the biggest boosts to her meta value. For a long time now, Rosmontis has been quite a weak unit in general content, and indeed that continues to be true. Her damage is poor, there's flaws on her supposed main skill, and her utility doesn't justify the drawbacks. If you do not plan to use her in the Integrated Strategies mode, continue to treat her Masteries as very low priority across the board. However, her ISW-α Module makes her an invaluable asset, and should for a long time.
 
@@ -232,7 +232,7 @@ Instead, you might consider her S1 for Mastery, although it too is ungraded. It 
 
 {{< mastery-table-enhanced id="197_poca" rows="S3M3,B+ *,B+ *|S2M3,B+ *,B *" pool="2" >}}
 
-* Note that Rosa's skills are graded assuming she has her SIE-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of these skills significantly lower.
+\* Note that Rosa's skills are graded assuming she has her SIE-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of these skills significantly lower.
 
 Even by modern standards, Rosa's DPS is pretty decent thanks to how generally valuable the Besieger Modules are. So despite her age as a unit, she's still worth considering. However, she isn't a special tier either and her cycles are a notably awkward part of her kit compared to the ever growing competition. Rosa can be a pretty expensive unit to use properly too. She has two good skills which are both relatively necessary due to those awkward cycles, as well as a needed fully upgraded Module, so don't expect great returns if you're going to be cheap!
 
@@ -350,7 +350,7 @@ Nevertheless, she's good enough to warrant some low-priority consideration, espe
 
 {{< mastery-table-enhanced id="1027_greyy2" rows="S1M3,A *,None|S2M3,B+ *,None" pool="1" >}}
 
-* Note that Greyy the Lightningbearer's skills are graded assuming he has his BOM-X Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
+\* Note that Greyy the Lightningbearer's skills are graded assuming he has his BOM-X Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
 
 Greyy the Lightningbearer is one of the biggest rises in value from his release. He was broadly chastised as a bad unit initially, including in this guide, but a fantastic Module which greatly improved both his damage and Slow consistency made him one of the strongest 5★ picks in the game. His wide range, strong control, and decent damage (for his rarity) have proven to be quite powerful!
 

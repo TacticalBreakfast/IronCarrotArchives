@@ -63,7 +63,7 @@ If S3 seems like too much to bother with, consider his S1 instead which has its 
 
 {{< mastery-table-enhanced id="1502_crosly" rows="S3M3,B+ *,A- *|S2M1,None,None,Breakpoint - S2M1" pool="4" >}}
 
-* Note that Crownslayer’s S3 is graded assuming she has her EXE-Y at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. Crownslayer needs both to function.
+\* Note that Crownslayer’s S3 is graded assuming she has her EXE-Y at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. Crownslayer needs both to function.
 
 Oh Crownslayer. On her release, she was a joke of a welfare, which was sort of funny given her history as an enemy unit. She was the sort of bad where it was hard to even make a skill suggestion for Mastery since they were all so terrible! Mercifully for her though, HG blessed her with a Module that actually gave her a meaningful niche. Pretty lucky given how rare these things are for off-meta units!
 
@@ -114,9 +114,9 @@ Pass on her S1. While the skill itself may have some occasional value, the Maste
 
 ### Swire the Elegant Wit
 
-{{< mastery-table-enhanced id="1033_swire2" rows="S3M3,B,None|S2M3,B+,None|S1M3,C,None,Breakpoint - S1M1" pool="1" >}}
+{{< mastery-table-is id="1033_swire2" rows="S3M3,B,B+,A- *|S2M3,B+,B,C *|S1M3,C,C+,B- *,Breakpoint - S1M1" pool="1" >}}
 
-* Swire the Elegant Wit's IS grades assume Her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes. 
+\* Swire the Elegant Wit's IS grades assume Her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes. 
 
 Swire the Elegant Wit bothers me personally to no end. HG apparently took the wrong lessons from the Ch’en the Holungday controversy and made another summer unit (should be a skin) but instead of good, made her mediocre. As a Swire fan, I will always hold this against them! Anyway, Swire2 isn’t *that* bad, but she certainly isn’t good either. Like most Merchants, she has a very creative kit that can be a lot of fun to play around with, but it also means she’s tricky to use for suboptimal results. Add on the fact there’s tons of good Specialists already and massive amounts of powercreep, Swire2 is ultimately a low priority unit and even her ISW doesn’t save her.
 
@@ -184,7 +184,7 @@ You likely won't want to bother with her S1. It's best focused on single hard ta
 
 {{< mastery-table-enhanced id="1023_ghost2" rows="S2M3,A *,A *|S3M3,B *,B *" pool="9" >}}
 
-* Note that Specter2's skills are graded assuming she has either Module (favor PUM-X) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.
+\* Note that Specter2's skills are graded assuming she has either Module (favor PUM-X) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.
 
 Specter the Unchained is a decent unit in the modern game thanks to strong damage, invulnerability, and the ever valuable archetype, although a portion of her meta value is carried by the rather popular Abyssal Hunter niche. She’s interesting historically because she was broadly panned as the worst 6★ on release, but was one of the earliest benefactors of the Module leveling system. Modules used to be just the base level, but the patch right after her introduction, the upgrades were introduced. HG understood what she needed, and in rare fashion, actually gave it to her. Which is a long winded way of saying, Specter2 has vital Module considerations. Two, actually! This interconnection can make for a rather expensive unit to maximize, especially as the power ceiling rises, although fortunately one does tend to be much more valuable than the other.
 
@@ -216,7 +216,7 @@ Pass on his S1 entirely which has no upside compared to his other two skills. It
 
 {{< mastery-table-enhanced id="437_mizuki" rows="S2M3,B,None|S3M3,None,None|S1M3,B+,None,Breakpoint - S1M1" pool="2" >}}
 
-* Mizuki's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
+\* Mizuki's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
 
 Mizuki is relatively interesting as far as Mastery priority goes. He got a powerful IS-specific mod, but his skill selection is quite different between IS and other modes. However, he's pretty poor by modern standards in the story modes while he's quite powerful in IS, so it makes the most sense to make that your point of decision. If you don't plan to use him in IS, then you probably shouldn't use him at all! The Ambusher space is quite stacked, and he just doesn't have the utility to warrant meaningful consideration in the normal game. But he's absurdly powerful in IS, so if that's your poison, he should be a very high priority!
 
@@ -235,7 +235,7 @@ So the ultimate suggestion with Mizuki is to treat his S2 highest regardless of 
 
 {{< mastery-table-enhanced id="474_glady" rows="S3M3,A *,A+ *|S2M3,A *,A+ *|S1M3,B+ *,A- *,Breakpoint - S1M1" pool="4" >}}
 
-* Note that Gladiia's HOK-X Module at level 3 is more important than any skill Masteries and should be pursued first.
+\* Note that Gladiia's HOK-X Module at level 3 is more important than any skill Masteries and should be pursued first.
 
 Gladiia is an incredibly powerful Welfare unit, but is surprisingly tricky when it comes to Masteries. Her HOK-X Module is by far her best upgrade and the reason she’s so special. Even lacking the other Abyssal Hunters, it makes her an incredible tank on her own, but it gets silly with them, Ulpianus especially. The problem is though, she is often more of a “cheerleader” sort. That’s not to say her own skills are bad. They’re solid actually and Gladiia is a pretty strong M9 candidate. But they aren’t the defining feature either. You mostly use them because you’re already bringing her and that makes the priority tricky. Further complicating matters, she’s a Shifter who generally have incredibly valuable Masteries! All three skills get a Shift Force increase at M3!
 
@@ -275,7 +275,7 @@ Phew. I made it through that entire write-up without making a Push Stroker or a 
 
 {{< mastery-table-enhanced id="250_phatom" rows="S2M3,B+,None|S3M3,B-,None" pool="2" >}}
 
-* Phantom's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes. 
+\* Phantom's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes. 
 
 Before he was the ridiculous god of control he is now, Phantom was our first 6★ FRD. That’s a value that has declined dramatically over the years, but even at his release, he wasn’t that well received. It was questionable if he was even better than the 5★, Projekt Red! However, he was blessed with an ISW Module. It’s not among the strongest there is, but it’s solid, and given that his direct competitors are both generally unavailable (Texas the Omertosa is a limited and Kirin R Yato is a collab), this means that Phantom can actually be reasonably valuable to some people. Although even with that in mind, the Specialist ticket is the most valuable, so Phantom’s value is still questionable. And to be clear, his value is still quite low outside of IS, with or without Texas2 and Yato2!
 
@@ -371,7 +371,7 @@ However, it’s worth noting that neither of her Masteries are all that valuable
 
 {{< mastery-table-enhanced id="4151_tinman" rows="S2M3,A-,None|S1M1,None,None,Breakpoint - S1M1" pool="4" >}}
 
-* Note Tin Man's IS grade is specific to IS#5 due to his iteration specific Talent. He does not have special value in the other iterations.
+\* Note Tin Man's IS grade is specific to IS#5 due to his iteration specific Talent. He does not have special value in the other iterations.
 
 Much of Tin Man’s meta value is tied to his IS#5 specific Talent, which is quite potent and alone makes him worth using. However, as it happens, he’s pretty good on his own merits too. His blend of healing and damage on a big range and a startlingly good uptime makes him a pretty decent unit, even outside of IS#5! Although it’s important to note as we move on from IS#5 that he is ultimately held back by his rarity. While he’s perfectly usable in the general game, that’s mostly in niche value as opposed to strict meta value.
 
@@ -401,7 +401,7 @@ Niche players may find some value in her S1 as well, although it’s nowhere nea
 
 {{< mastery-table-enhanced id="4036_forcer" rows="S2M3,B-,B|S1M3,C,C" pool="4" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 There are a lot of Push Strokers available, and most aren’t worth the additional cost. That’s true for Enforcer, who also tends to be generally worse than the gacha options, but he has three key features that give him some niche value. First, his skills don’t deal damage which lets him Shift certain enemies without triggering on-hit effects like damage reflects or alert triggers. Second and more important, with S2 he always Shifts according to the direction he is facing compared to most other Pushers who usually push according to the direction the enemy is relative to them (that's not exactly true in all cases, but the details are complex and don't matter here for evaluating Enforcer). This means he’s able to accomplish hole drops that are otherwise impossible, such as pushing enemies forward that he blocks from behind, which can be a useful tool, albeit a niche one. And finally third, his S2 pushes *all* targets in his range which is subtly different from most other Pusher skills that only push the targets in a splash around the impact point.
 
@@ -440,7 +440,7 @@ As said, her main skill is her S2 which has a far higher DPS in most cases. Whil
 
 {{< mastery-table-enhanced id="455_nothin" rows="S2M3,C *,C+ *" pool="2" >}}
 
-* Note that Mr. Nothing's MER-X Module at level 3 is more important than any skill Masteries and should be pursued first.
+\* Note that Mr. Nothing's MER-X Module at level 3 is more important than any skill Masteries and should be pursued first.
 
 Mr. Nothing is one of those odd units who has proven to be quite valuable over the years, but almost entirely due to his Talent. It turns out there’s a lot of cases where he might not attack for three seconds which makes him a pretty reliable source of Stuns and thus a good solution for a lot of stalls. For just a few examples, in IS#3 ED2, the boss counter-Freezes, which means Mr. Nothing can constantly Stun him. He combos well with Sleep units since he can’t attack during the Sleep. He even works great with Exu2’s S2 debuff! However, as far as Masteries go, they make almost no difference there! They can matter in places though, and he can actually be halfway decent as a general unit if you’re a niche player.
 
@@ -500,7 +500,7 @@ Her S2 meanwhile can potentially be even more powerful, but is more situational.
 
 {{< mastery-table-enhanced id="173_slchan" rows="S2M3,B-,B+|S1M3,C,C" pool="14" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 Any of the 5★ Shifters are luxury promotions, but among them, Cliffheart has the most value. This is because she actually has some useful value beyond the Shift itself. She has a good on-demand Stun on a good cycle and also a dash of True Damage, both of which can occasionally be helpful, albeit primarily in niche clears rather than meta ones (Gladiia is the much more powerful general promotion).
 
@@ -515,7 +515,7 @@ Most players shouldn’t bother with her S1, but it may have some value to low r
 
 {{< mastery-table-enhanced id="241_panda" rows="S2M3,B-,B|S1M3,C,C" pool="2" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 Any of the 5★ Shifters are luxury promotions. FEater has had some value at various points throughout the game’s history, but that value isn’t terribly consistent and is ever declining as more stall options become available. This means she’s a relatively fringe consideration these days, and will mostly only be useful for niche players. However, she isn’t awful either and can be a reasonable Pusher promotion if you like her (mmmm panda PUS-Y¹). If she appeals to you, both skills are potential options, although both are pretty replaceable in the modern game too.
 
@@ -590,7 +590,7 @@ Pass on his S1, although it may have some rare use for 4★ niche players. It do
 
 {{< mastery-table-enhanced id="355_ethan" rows="S2M3,S- *,S *" pool="6" >}}
 
-* Note that Ethan's S2 is graded assuming he has his AMB-X at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* Note that Ethan's S2 is graded assuming he has his AMB-X at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
 
 Ethan is one of the best stall units in the game, which is weird because he’s a 4★. He’s one of very very few 4★s that justify general investment for almost any player. While he lacks the damage of higher rarity comparables like Ascalon and Mizuki, his control is actually better. At S2M3 and Mod3, he has an 84% chance per attack, in a True-AoE, to Bind, which lasts his entire interval, meaning he has high odds to permanently Bind everyone in range for the duration.
 
@@ -607,7 +607,7 @@ Looking beyond those, his S1 could be an option too, although it’s more situat
 
 {{< mastery-table-enhanced id="277_sqrrel" rows="S1M3,C,C" pool="3" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 Shaw and Rope are probably the only units you ever need as far as Shifting is concerned (not counting other value the 6★s bring). It’s fundamentally a map dependent mechanic, and while there is some value in the higher rarity Shifting skills to be found, the two 4★s are all you’ll really need. Further, as far as this guide goes, Mastery isn’t even necessary or even recommended on them! The return for the resources is just not that high so it becomes the sort of promotion you should only look towards when your core roles are all filled and you can start to afford the more situational sorts of skills.
 
@@ -624,7 +624,7 @@ So why not consider her S2 when the comparable skill on the higher rarities are 
 
 {{< mastery-table-enhanced id="236_rope" rows="S2M3,C+,C+|S1M3,C,C" pool="3" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 Shaw and Rope are probably the only units you ever need as far as Shifting is concerned (not counting other value the 6★s bring). It’s fundamentally a map dependent mechanic, and while there is some value in the higher rarity Shifting skills to be found, the two 4★s are all you’ll really need. Further, as far as this guide goes, Mastery isn’t even necessary or even recommended on them! The return for the resources is just not that high so it becomes the sort of promotion you should only look towards when your core roles are all filled and you can start to afford the more situational sorts of skills.
 
@@ -669,7 +669,7 @@ His S1 might be a very fringe consideration if you're really dedicated to using 
 
 {{< mastery-table-enhanced id="4105_almond" rows="S1M3,None,None|S2M3,None,None" pool="1" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 There isn't a lot of reason to invest resources into Almond's Masteries. Unfortunately for her, the Hookmaster archetype is a crowded one, and she comes dead last in value among them even before considering that all of her competition is given out for free. If you particularly like Almond, for whatever reason, or fancy yourself one of those extreme niche players, then both of Almond's skills are viable options, and you will likely want to invest in the full M6 despite her otherwise poor performance.
 
@@ -710,7 +710,7 @@ If you want to try to make her work anyway, which is ill-advised (she's one of t
 
 {{< mastery-table-enhanced id="383_snsant" rows="S2M3,None,None" pool="4" >}}
 
-* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out these discussions.
 
 Any of the 5★ Shifters are luxury promotions, and Snowsant suffers because there are not one, but *two* Welfare Hookmasters that are better. Gladiia is a crazy powerful Abyssal Hunter, and Cliffheart cycles better, with better range, and better side effects. So that means there isn't a lot of reason to consider raising Snowsant, even in niches. However, she is a functional puller (unlike Almond) if she appeals to you more, and has some niche value too. 
 

@@ -80,7 +80,7 @@ Last is her S2. It has good DPS with some Sleep utility, but ultimately is an ex
 
 {{< mastery-table-enhanced id="1040_blaze2" rows="S3M3,A *,A+ *|S2M3,C,C" pool="1" >}}
 
-* Note much of the value in Blaze2's S3 is tied to having a good source of Burn application, such as Yu. Treat the overall priority lower if you do not have Yu (or similar future OP). See the rest of the writeup for more detail.
+\* Note much of the value in Blaze2's S3 is tied to having a good source of Burn application, such as Yu. Treat the overall priority lower if you do not have Yu (or similar future OP). See the rest of the writeup for more detail.
 
 Blaze the Igniting Spark can be a tough unit when it comes to Masteries. Primal Casters are a fundamentally flawed archetype since they rely on someone else for their main value. Blaze falls further here since she lacks any particularly special alternative value like Nymph’s S2 has. That, plus relatively low Mastery value on her S2, makes for an overall low priority unit, particularly if you do not have Yu.
 
@@ -137,7 +137,7 @@ Advanced players may instead find her S1 to be the more appealing secondary skil
 
 {{< mastery-table-enhanced id="4146_nymph" rows="S2M3,S-,S|S3M3,B *,B *,Breakpoint - S3M2" pool="1" >}}
 
-* Note much of the value is Nymph's S3 is tied to having a good source of Necrosis application, such as Virtuosa. Treat the priority lower if you do not have Virtuosa (or similar future OP). This does not apply to her S2. See the rest of the writeup for more detail.
+\* Note much of the value is Nymph's S3 is tied to having a good source of Necrosis application, such as Virtuosa. Treat the priority lower if you do not have Virtuosa (or similar future OP). This does not apply to her S2. See the rest of the writeup for more detail.
 
 As a Primal Caster, Nymph has a few unique considerations when it comes to skill decisions. They're usually reliant on another operator to apply their required element which can be a big problem. Fortunately, Nymph's best skill is also the one that has no reliance on another unit which makes the default consideration with her quite easy! Her S2 allows for strong damage thanks to her own strong Necrosis application, but is also a great control skill. Fear is a powerful form of control which requires its own coded immunities on enemies and it has a high uptime thanks to the forced movement. On a low-SP Charge-based Manual Activation skill like this, the results are a very powerful form of control.
 
@@ -173,7 +173,7 @@ Rounding things out is his S2. Again, he has quite good gains here, however his 
 
 {{< mastery-table-enhanced id="4027_heyak" rows="S3M3,C,None" pool="1" >}}
 
-* Note that Ho'olheyak has a specialized IS Module, however it is not a good one and so does not warrant special consideration. The exclusion of IS-specific grades here is not a mistake.
+\* Note that Ho'olheyak has a specialized IS Module, however it is not a good one and so does not warrant special consideration. The exclusion of IS-specific grades here is not a mistake.
 
 Despite her popularity, Ho'olheyak is a pretty bad 6★. That's pretty surprising in hindsight when you consider the caliber of units released around her. Of course, she wasn't the only dud, but her fellow basement dwellers got various buffs and help. Yet for whatever reason, any help given to Ho'olheyak has also been undertuned, resulting in the lowest priority gacha 6★s from the last few years. Her damage is bad, her cycle is bad, her control is mediocre, and worse, she doesn't even feel good to use (how are those tornados not AoE?)!
 
@@ -194,7 +194,7 @@ Finally, Ho'olheyak got a mode specific Module, but unlike most of them, it isn'
 
 {{< mastery-table-enhanced id="4080_lin" rows="S3M3,A- *,A *" pool="1" >}}
 
-* Note that Lin’s S3 is graded assuming she has her PLX-X Module at level 2. If you do not plan to get this Module to that level, treat the priority of this skill significantly lower. 
+\* Note that Lin’s S3 is graded assuming she has her PLX-X Module at level 2. If you do not plan to get this Module to that level, treat the priority of this skill significantly lower. 
 
 Lin somewhat exemplifies the issues with the older Phalanx Casters. When she can take advantage of her niche of what is effectively invulnerability to all but the highest enemy DPH via her Talent 1 and enhanced by the PLX-X base Module, she's unbeatably strong. When she can't, she's mostly just relatively weak DPS (by modern 6★ standards). That has made Lin's evaluation a little bit tricky at times, since her value was content dependent. However, in the modern meta of powercreep, that role is now pretty minimal so Lin is a lot lower in priority than she used to be, even when the content is in her favor.
 
@@ -275,7 +275,7 @@ Pass on his S1 which just has no special value. Even with the longer Slow, it's 
 
 {{< mastery-table-enhanced id="2015_dusk" rows="S3M3,C-,None|S1M3,C,None,Breakpoint - S1M1" pool="11" >}}
 
-* Note that Dusk has a specialized IS Module, however it is not a good one and so does not warrant special consideration. The exclusion of IS-specific grades here is not a mistake.
+\* Note that Dusk has a specialized IS Module, however it is not a good one and so does not warrant special consideration. The exclusion of IS-specific grades here is not a mistake.
 
 Oh boy. Poor Dusk. No Caster has had a rougher go of it. She was bad even on her release when there weren't a lot of options. Splash Casters have always been a weak archetype, and Dusk brought all of the worst parts of it, while being worse than a launch Core Caster who was also cheaper to deploy. The situation has only gotten worse and worse with every new unit too, and even an ISW-α module couldn't save her. For whatever reason, she got by far the weakest one to date! Dusk is just bad all around with no upside. The only reason to use her these days is either because you want to, or as a tagalong for Shu's Sui Talent. But the latter doesn't even require raising her! So the main investment advice with Dusk is... don't.
 
@@ -296,7 +296,7 @@ Last, her ISW-α Module is worth a brief discussion to avoid some confusion, alt
 
 {{< mastery-table-enhanced id="2013_cerber" rows="S2M3,S- *,S *" pool="2" >}}
 
-* Note that Ceobe’s S2 is graded assuming she has her CCR-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. 
+\* Note that Ceobe’s S2 is graded assuming she has her CCR-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. 
 
 Ceobe is a unit who may be forever relevant. This is thanks to her Talent 1 when enhanced by her CCR-X Module. With it, her damage scales directly to an enemy's DEF. So while runaway stat bloat becomes a problem for most units, Ceobe actually gets better, so she's the rare old unit that has actually seen her value go up with powercreep! However, before you rush to pursue her expensive upgrades, do keep in mind that while that is true, she is still a more "specific" solution than the other more recent high powered units, so her priority tends to be lower the more meta options. She is instead the sort of unit you should begin to look towards when your core roles are filled out already and you can flex to more situational options.
 
@@ -315,7 +315,7 @@ Last, her S3 is the sort of skill that should make her feel fortunate she has he
 
 {{< mastery-table-enhanced id="213_mostma" rows="S3M3,C *,B+ *|S2M3,None,None" pool="2" >}}
 
-* Note that Mostima’s S3 is graded assuming she has her SPC-Y Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. 
+\* Note that Mostima’s S3 is graded assuming she has her SPC-Y Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. 
 
 Back in the old days, there was a meme, "Moody Blues" which referred to three blue-themed units that were notably bad, even by the standards of the time. Mostima may be the most infamous of them in the modern game since Skadi and Ch'en both got alters. Which is funny because most people picked Mostima as an easy layup for an alter, yet here we are. Any day now... Anyway, that is to say, Mostima is pretty bad. She did get some life thanks to SPC-Y Module which allows her to have one of the best stalls in the game, but even that isn't as valuable as it once was thanks to lots of competition who also do more. It all makes Mostima a tough investment. Her damage and cycles are bad, and she's extremely expensive for fairly niche value, although that value can make her pretty nice for the more Advanced focused player.
 
@@ -507,7 +507,7 @@ Pass on his S1 which is one of those generic waste of space skills. It's a good 
 
 {{< mastery-table-enhanced id="306_leizi" rows="S2M3,A- *,A- *" pool="2" >}}
 
-* Note that Leizi’s S2 is graded assuming she has her CHA-X Module at level 2. If you do not plan to get this Module to that level, treat the priority of this skill significantly lower. 
+\* Note that Leizi’s S2 is graded assuming she has her CHA-X Module at level 2. If you do not plan to get this Module to that level, treat the priority of this skill significantly lower. 
 
 They don't make Modules like Leizi's anymore! The OG Leizi is a storied unit. On her release, she was one of the worst in the game, if not *the* worst. She was in a bad archetype and had an absolutely horrific cycle. First came a couple buffs thanks to Passenger also sucking, but the real kicker was her Module which is one of the literal best in the game in terms of how it upgrades the base unit. The level two effect of her CHA-X Module grants one SP per unblocked unit it hits, so she can actually gain 4 SP per attack! Suddenly her 80 SP doesn't look so bad! In fact, she can end up with around a 30 SP cost instead! 50 SP from a Module is a pretty damn nice upgrade!
 
@@ -556,7 +556,7 @@ Pass on her S1 which is a generic skill. It has much worse DPS than her S2, even
 
 {{< mastery-table-enhanced id="469_indigo" rows="S2M3,A- *,A *" pool="3" >}}
 
-* Note that Indigo’s S2 is graded assuming she has her MSC-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* Note that Indigo’s S2 is graded assuming she has her MSC-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
 
 Indigo is a surprisingly powerful control unit thanks to a great Module. While not as obscenely powerful as Ethan (but who is?), she has a high chance to keep multiple targets in range Bound for her S2's duration which makes her one of the best low-rarity Casters for niche clears. She's actually significantly more valuable than her 5★ counterparts on top of being cheaper!
 
