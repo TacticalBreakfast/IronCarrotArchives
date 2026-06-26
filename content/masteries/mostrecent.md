@@ -29,6 +29,8 @@ As for the Masteries themselves, they are again quite powerful on her S2. The da
 
 Last, pass on her S1 which has almost no upside compared to her S3. It's a bit perplexing actually. It does worse damage, has worse uptime, and adds RNG to her control. It's an unusual case of skill with virtually no real usecase, where most filler skills at least have some sort of fringe advantage if you squint. The only reason to pursue it would be to show off your max investment.
 
+{{< last-updated "2026-06-18" >}}
+
 ### Perfumer the Distilled
 
 {{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" >}}
@@ -39,6 +41,8 @@ So most players shouldn't be raising this version of Perfumer2, but if you choos
 
 Meanwhile, her S1 may appeal to those who *really* want to get the most out of Perfumer2, but it is much less special (and her S2 isn't all that special to begin with). Since S2 is single use, it has a long effective cycle, so the consistency of her S1 may occasionally come out ahead. The burst healing on it is very strong and on a short cooldown, and she can maintain 100% uptime on the DEF buff which might give it some niche applications. However, it is Auto-Activation, meaning that most of the time, a large chunk of the healing will be wasted. If the DEF buff isn't needed, it can be a very frustrating skill on an already fringe unit.
 
+{{< last-updated "2026-06-18" >}}
+
 ### Varkáris
 
 {{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" >}}
@@ -48,6 +52,8 @@ Varkáris is one of those units you have to be a little cautious about, dependin
 If you do choose to raise him, his S2 will usually be his better skill. Burst skills are generally better in the first place, but it also has his self-sustain, which his S1 completely lacks. The gains over Mastery aren't that special, but are still respectable. It has a relatively standard DPS gain, plus an additional 700ish HP of sustain, which is rarely lost thanks to his Barrier conversion. There's a noticeable improvement to his wind-up too, although it is still fairly long even at S2M3. Considering Centurions generally need their E2 anyway, going the extra mile with his S2 Masteries, which is also relatively inexpensive, can make sense if you plan to use him.
 
 If you really like him, you could consider his S1 as well. Since his S2 has a fairly high 45 SP cost, the consistency that his S1 brings can be a decent alternative. However, it doesn't have any sustain attached to it, meaning he'll generally need to be babysat by a healer of some kind, so it is a far more generic and sub-optimal solution. It's also worth noting that while most skills of this type get an SP improvement over Mastery, Varkáris does not. It remains at 4 SP from SL7 up to S1M3, nor is the damage gain especially strong. That ultimately leaves his S1 as a strictly husbando-only tier of skill.
+
+{{< last-updated "2026-06-18" >}}
 
 ## Lookaheads
 

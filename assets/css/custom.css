@@ -2,6 +2,13 @@
     max-width: 100%;
 }
 
+.last-updated {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+}
+
 .max-w-prose {
     max-width: 100%;
 }
