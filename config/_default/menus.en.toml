@@ -140,7 +140,7 @@
 # the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-   name = "Topics"
-   pageRef = "topics"
-   weight = 10
+# [[footer]]
+#   name = "Topics"
+#   pageRef = "topics"
+#   weight = 10
