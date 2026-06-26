@@ -214,7 +214,7 @@ Pass on his S1 entirely which has no upside compared to his other two skills. It
 
 ### Mizuki
 
-{{< mastery-table-enhanced id="437_mizuki" rows="S2M3,B,None|S3M3,None,None|S1M3,B+,None,Breakpoint - S1M1" pool="2" >}}
+{{< mastery-table-is id="437_mizuki" rows="S2M3,B,B,S+ *|S3M3,None,None,B *|S1M3,B+,C,C *,Breakpoint - S1M1" pool="2" >}}
 
 \* Mizuki's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
 
@@ -273,7 +273,7 @@ Phew. I made it through that entire write-up without making a Push Stroker or a 
 
 ### Phantom
 
-{{< mastery-table-enhanced id="250_phatom" rows="S2M3,B+,None|S3M3,B-,None" pool="2" >}}
+{{< mastery-table-is id="250_phatom" rows="S2M3,B+,B,A- *|S3M3,B-,B,A- *" pool="2" >}}
 
 \* Phantom's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes. 
 

@@ -199,7 +199,7 @@ Pass on her S1 unless you're a real maximalist. It overlaps with her better S3 q
 
 ### Gnosis
 
-{{< mastery-table-enhanced id="206_gnosis" rows="S3M3,A-,None|S2M3,B,None" pool="2" >}}
+{{< mastery-table-is id="206_gnosis" rows="S3M3,A-,A,A+ *|S2M3,B,A-,S *" pool="2" >}}
 
 \* Gnosis’s IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
 
@@ -269,7 +269,7 @@ However, S1 doesn't do damage so if you plan to use her regularly, you'll want t
 
 ### Angelina
 
-{{< mastery-table-enhanced id="291_aglina" rows="S3M3,C+,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-is id="291_aglina" rows="S3M3,C+,C,S *|S2M3,None,C,A *" pool="2" >}}
 
 \* Angelina's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
 
