@@ -31,7 +31,7 @@ Last, pass on her S1 which has almost no upside compared to her S3. It's a bit p
 
 ### Perfumer the Distilled
 
-{{< avatar id="1022_flwr2" >}}
+{{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" >}}
 
 Perfumer the Distilled is an unexpected mix-up of the Abjurer archetype. Before her, they all fell into two groups. They were either bimodal (bad) or infinite duration (good). Perfumer2, however, has a single-use helidrop skill that makes her unique among the group. That's enough to elevate her above the “bad” group and can make her a viable niche consideration, since she acts as an emergency button with her relatively strong effective-HPS, but she's still well behind the “good” group, and thus still a relatively fringe consideration. Even for the waifu players, her original 4★ version will very often be the stronger choice!
 

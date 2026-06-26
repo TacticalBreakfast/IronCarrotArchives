@@ -11,7 +11,23 @@
 {{/* Split rows on pipe */}}
 {{- $rows := split $rowsRaw "|" -}}
 
+{{/* Look up character data */}}
+{{- $charsResource := resources.Get "game_img/processed/characters.yml" -}}
+{{- $chars := $charsResource | transform.Unmarshal -}}
+{{- $charKey := printf "char_%s" $id -}}
+{{- $charEntry := index (where $chars "id" $charKey) 0 -}}
+{{- $stars := "" -}}
+{{- $starClass := "" -}}
+{{- if $charEntry -}}
+  {{- $stars = $charEntry.stars -}}
+  {{- $starCount := strings.Count "★" $stars -}}
+  {{- if eq $starCount 6 }}{{- $starClass = "mastery-stars-6" -}}{{- end -}}
+  {{- if eq $starCount 5 }}{{- $starClass = "mastery-stars-5" -}}{{- end -}}
+  {{- if eq $starCount 4 }}{{- $starClass = "mastery-stars-4" -}}{{- end -}}
+{{- end -}}
+
 {{ warnf "%s" $charImgPath }}
+{{ warnf "starClass=%s stars=%s" $starClass $stars }}
 
 <div class="mastery-table-wrapper">
 
@@ -25,6 +41,15 @@
     <span>{{ $charName }}</span>
   </div>
   {{- end }}
+
+  {{- if $stars }}
+  <div class="mastery-stars {{ $starClass }}">{{ $stars }}</div>
+  {{- end }}
+
+  <div class="mastery-links">
+    <a href="https://sanitygone.help/en/operators/{{ $charName }}" target="_blank" rel="noopener">EN Kit</a>
+    <a href="https://prts.wiki/w/{{ $charName }}" target="_blank" rel="noopener">PRTS.wiki</a>
+  </div>
 
   <table class="mastery-table">
     <colgroup>
@@ -132,6 +157,11 @@
   border-radius: 6px;
 }
 
+.mastery-stars { font-size: 1.1rem; margin: 0.25rem 0; }
+.mastery-stars-6 { color: #ff6d01 !important; }
+.mastery-stars-5 { color: #fbbc04 !important; }
+.mastery-stars-4 { color: #d5a5bb !important; }
+
 .mastery-img-missing {
   display: inline-flex;
   align-items: center;
@@ -144,6 +174,14 @@
 
 .mastery-table-wrapper {
   text-align: center;
+}
+
+.mastery-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
 }
 
 .mastery-table {
