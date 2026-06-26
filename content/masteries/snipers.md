@@ -10,6 +10,7 @@ showDate = false
 showAuthor = false
 featured = true
 featureimage = "game_img/profession_large_hub/icon_profession_sniper_large.png"
+excludeFromRecent = true
 +++
 
 - [6★ Snipers](#6-snipers)

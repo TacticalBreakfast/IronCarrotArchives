@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+excludeFromRecent = true
 +++
 
 This glossary defines shorthand acronyms and terms that may be used in the guide. It is not meant to be a comprehensive overview of game mechanics, but may give some overview of the terms for clarity.

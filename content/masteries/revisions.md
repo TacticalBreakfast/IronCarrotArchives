@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+excludeFromRecent = true
 +++
 
 - [2026](#2026)

@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+excludeFromRecent = true
 +++
 
 {{< avatar id="365_aprl" >}}

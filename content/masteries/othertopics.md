@@ -9,6 +9,7 @@ topic = 'Mastery Guide'
 showDate = false
 showAuthor = false
 featured = true
+excludeFromRecent = true
 +++
 
 This tab is a place for me to put some information that would otherwise be out of the scope of Masteries. While I don't intend this to become a general guide, there are some topics that warrant discussion but don't fit well elsewhere. Some are topics that I find come up again and again in the write-ups, so may be worth additional clarity. Some are just topics I happen to care about. And a rare few are just there to help with common questions I see *all* the time.
