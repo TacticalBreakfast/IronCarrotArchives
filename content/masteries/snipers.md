@@ -179,7 +179,7 @@ Pass on her S1. Her DPH with it is too low for anything but trash mobs, and even
 
 ### Archetto
 
-{{< mastery-table-enhanced id="332_archet" rows="S3M3,B,None|S1M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-is id="332_archet" rows="S3M3,B,C,A+ *|S1M3,None,None,None|S2M3,None,None,None" pool="2" >}}
 
 \* Archetto's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
 
@@ -198,7 +198,7 @@ As for secondary skills, neither is worth much anymore in either mode. If you di
 
 ### Rosmontis
 
-{{< mastery-table-enhanced id="391_rosmon" rows="S2M3,C,None|S3M3,C,None" pool="9" >}}
+{{< mastery-table-is id="391_rosmon" rows="S2M3,C,C,S- *|S3M3,C,C,B *" pool="9" >}}
 
 \* Rosmontis's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
 
