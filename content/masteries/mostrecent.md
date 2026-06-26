@@ -13,6 +13,10 @@ featured = true
 
 ## Masteries for Medjehtiqedti Bound
 
+### Full Articles
+
+{{< article-links sg="https://sanitygone.help/en/guides/mastery-bound/" ld="https://lungmendragons.com/guides/mb-mastery" reddit="https://www.reddit.com/r/arknights/comments/1u9ych8/a_mastery_priority_guide_should_you_pull/" >}}
+
 ### Titi
 
 {{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A|S2M3,B+,A+" pool="1" >}}
@@ -54,7 +58,3 @@ If you do choose to raise him, his S2 will usually be his better skill. Burst sk
 If you really like him, you could consider his S1 as well. Since his S2 has a fairly high 45 SP cost, the consistency that his S1 brings can be a decent alternative. However, it doesn't have any sustain attached to it, meaning he'll generally need to be babysat by a healer of some kind, so it is a far more generic and sub-optimal solution. It's also worth noting that while most skills of this type get an SP improvement over Mastery, Varkáris does not. It remains at 4 SP from SL7 up to S1M3, nor is the damage gain especially strong. That ultimately leaves his S1 as a strictly husbando-only tier of skill.
 
 {{< last-updated "2026-06-18" >}}
-
-## Lookaheads
-
-Some text.

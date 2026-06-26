@@ -1,0 +1,11 @@
+<div class="article-links-row">
+  {{- with .Get "sg" }}
+  <a href="{{ . }}" target="_blank" rel="noopener" class="article-link-btn">Sanity;Gone</a>
+  {{- end }}
+  {{- with .Get "ld" }}
+  <a href="{{ . }}" target="_blank" rel="noopener" class="article-link-btn">Lungmen Dragons</a>
+  {{- end }}
+  {{- with .Get "reddit" }}
+  <a href="{{ . }}" target="_blank" rel="noopener" class="article-link-btn">Reddit</a>
+  {{- end }}
+</div>
