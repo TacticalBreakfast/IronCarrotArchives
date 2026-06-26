@@ -4,7 +4,7 @@
 {{- $cnLink := .Get "cn_link" -}}
 {{- $poolKey := .Get "pool" -}}
 {{- $poolName := "" -}}
-{{- if $poolKey }}{{- $poolName = index site.Data.pools $poolKey -}}{{- end -}}
+{{- if $poolKey }}{{- $poolName = index hugo.Data.pools $poolKey -}}{{- end -}}
 
 {{- $charName := index (split $id "_") 1 -}}
 
