@@ -19,7 +19,7 @@ replyByEmail = false
 
 disableImageZoom = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["posts"]
 # robots = ""
 
 disableImageOptimization = false
