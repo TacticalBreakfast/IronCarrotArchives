@@ -83,7 +83,6 @@
 
 [[main]]
   name = "Efficiency Sheets"
-  pageRef = "posts"
   weight = 15
 
 [[main]]
