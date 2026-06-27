@@ -39,7 +39,7 @@ Finally, a lot of people are going to want to maximize our new granddaughter, an
 
 ### Eyjafjalla the Hvít Aska
 
-{{< mastery-table-enhanced id="1016_agoat2" rows="S3M3,A,A+|S1M3,A-,B" pool="10" >}}
+{{< mastery-table-enhanced id="1016_agoat2" rows="S3M3,A,A+|S1M3,A-,B" pool="10" en_link="https://sanitygone.help/en/operators/eyjafjalla-the-hvit-aska/">}}
 
 Eyjafjalla the Hvít Aska is a unit not quite as powerful as she was on her release. At the time, there were few top-tier Medic options, so she pretty easily became well regarded. But in the time since, we now have multiple new healers that do more, and she no longer even has the AFK-healing crown, losing it to a unit (Haruka) who isn't saddled by being a once-per-year limited unit with a high spark cost! Of course, Eyja2 is still a great unit. Her range, Elemental healing, and global targeting are all valuable tools. However, these days she tends to be a more "specific" solution, such as in IS#5 ED4, or as a QoL option. As for Masteries, Eyja2 has two very strong skills with very different use cases, and the skills to target (or skip) will depend on your needs.
 
@@ -88,9 +88,9 @@ Probably pass on his S2. While it is potentially useful, the problem is it only 
 
 ### Kal'tsit
 
-{{< mastery-table-enhanced id="003_kalts" rows="S3M3,S+,None|S2M3,B+,None" pool="2" >}}
+{{< mastery-table-is id="003_kalts" rows="S3M3,S+,S,S+ *|S2M3,B+,B,A+ *" pool="2" >}}
 
-\* Note that Kal'tsit has a specialized IS Module. However, unlike most with these Modules, Kal'tsit is a powerful unit already. IS grades are included here for clarity, but special consideration for IS specifically is lesser than it is on others.
+\* *Note that Kal'tsit has a specialized IS Module. However, unlike most with these Modules, Kal'tsit is a powerful unit already. IS grades are included here for clarity, but special consideration for IS specifically is lesser than it is on others.*
 
 Kal'tsit has long been a strong unit. While taking up two deploy slots and a 30 total DP cost is a high price, her mix of healing along with Mon3tr's bulk, flexibility, and valuable True Damage, plus a powerful ISW Module, has all meant Kal'tsit is also still quite a powerful unit that's well worth the resources, even in the era of modern powercreep. Even with Mon3tr now separated and replicating many aspects as a high end meta unit, the original is still quite valuable!
 
@@ -180,7 +180,7 @@ Pass on her S1. While not an awful skill, her S2 has a far higher ceiling and a 
 
 ### Amiya (Medic)
 
-{{< mastery-table-enhanced id="1037_amiya3" rows="S2M3,B+,None|S1M3,B+,None" pool="5" >}}
+{{< mastery-table-is id="1037_amiya3" rows="S2M3,B+,B+,S-|S1M3,B+,B+,B+" pool="5" en_link="https://sanitygone.help/en/operators/amiya-(medic)/" cn_link="https://prts.wiki/w/%E9%98%BF%E7%B1%B3%E5%A8%85(%E5%8C%BB%E7%96%97)">}}
 
 Amiya's third iteration is yet another solid showing from our beloved daughter, and perhaps the most useful thanks to her viability in IS. Since she can be chosen on Caster, Guard, or Medic tickets regardless of form, plus now reduced Hope costs, she becomes the most accessible Medic option while also boasting strong sustain and True Damage utility. She is a strong M6 consideration but with very different uses so the better skill to start with will depend on what you're doing.
 
@@ -288,7 +288,7 @@ S1 meanwhile is her healing skill. These are typically low priority investments,
 
 {{< mastery-table-enhanced id="385_finlpp" rows="S2M3,C *,C *|S1M3,C *,C *" pool="7" >}}
 
-\* Note that Purestream’s skills are graded assuming she has her WAH-Y Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* *Note that Purestream’s skills are graded assuming she has her WAH-Y Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
 For low rarity Medic needs, Perfumer and Sussurro will have you covered for a vast majority of the game, and a far lower cost since they work great at just E1 SL7. However, when you become more established and have the ability to expand to more “flex” options, Purestream becomes a great alternative choice. She got a great Module that strongly enhances her healing potential that makes her a very viable option in a variety of circumstances, primarily niches and IS. However, that Module costs resources, as does the E2 promotion to unlock it, which makes Purestream less generally valuable than Perfumer and Sussurro, not to mention those two will also frequently be more effective.
 

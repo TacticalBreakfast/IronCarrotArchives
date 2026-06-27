@@ -240,9 +240,9 @@ Pass on her S1, which is a relatively boring straight HP increase. It's worse th
 {{< last-updated "2026-05-16" >}}
 
 
-### Vetochki
+### Vetochki / Веточки
 
-{{< mastery-table-enhanced id="4207_branch" rows="S2M3,C+,C" pool="1" >}}
+{{< mastery-table-enhanced id="4207_branch" rows="S2M3,C+,C" pool="1" cn_link="https://prts.wiki/w/%E6%8A%98%E6%A1%A0">}}
 
 Vetochki is a solid enough 5★, featuring really good bulk and sustain for her rarity, with enough offense to be a viable laneholder. However, that isn't an in-demand role these days, and there are plentiful other options that have higher ceilings, not to mention the fact she's unhealable with a very high DP cost. This all means she certainly isn't a high priority investment, although she's decent enough if you like her or play in a niche. However, even if that applies to you, be aware that she needs a lot of investment to be decent, as E2, Masteries, Modules, and levels all make a big difference!
 
@@ -389,7 +389,7 @@ If you think you're one of them, the only skill worth considering is his S2. Tha
 {{< last-updated "2025-10-06" >}}
 
 
-### Gummy
+### Gummy / Гум
 
 {{< mastery-table-enhanced id="196_sunbr" rows="S1M3,A,B+" pool="3" >}}
 

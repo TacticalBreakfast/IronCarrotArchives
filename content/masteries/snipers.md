@@ -60,7 +60,7 @@ Last is her S2 which is her AoE skill. It tends to work better at range. This is
 
 ### Wiš'adel
 
-{{< mastery-table-enhanced id="1035_wisdel" rows="S3M3,S++,None|S2M3,None,None" pool="9" >}}
+{{< mastery-table-is id="1035_wisdel" rows="S3M3,S++,S++,S++|S2M3,None,None,S" pool="9" en_link="https://sanitygone.help/en/operators/wisadel/" >}}
 
 Wiš'adel is an insane unit. There's no other way to describe it. She is insane even with just E2 but then has ridiculous Mastery gains and a ridiculous Module on top. Everything about her is so ridiculous that she breaks existing ranking systems, including these Masteries grades. She has the highest grade in this guide, but know if there were higher grades available, she would have whatever the top is.
 
@@ -107,9 +107,9 @@ However, it is the easier skill to replace as well. If you have plentiful other 
 {{< last-updated "2025-10-13" >}}
 
 
-### Pozëmka
+### Pozëmka / Позёмка / Pozyomka
 
-{{< mastery-table-enhanced id="4055_bgsnow" rows="S3M3,A+,A|S2M3,C,C+" pool="1" >}}
+{{< mastery-table-enhanced id="4055_bgsnow" rows="S3M3,A+,A|S2M3,C,C+" pool="1" en_link="https://sanitygone.help/en/operators/pozyomka/" cn_link="https://prts.wiki/w/%E9%B8%BF%E9%9B%AA" >}}
 
 OGs may remember a time when Pozëmka was largely considered to be EX-tier. It's a testament to how much powercreep we've had that it now seems like an impossibility she was ever that high (a shame too, she's one of my favorites). She's still a pretty solid unit all around and her Typewriter is some really nice utility, but by modern standards neither her DPS or DPH are that special, and her Typewriter isn't as unique anymore either. If you ever wonder how much of my personal bias seeps into this guide, just know how distressed I am to give Pozëmka the grade she has!
 
@@ -184,7 +184,7 @@ Pass on her S1. Her DPH with it is too low for anything but trash mobs, and even
 
 {{< mastery-table-is id="332_archet" rows="S3M3,B,C,A+ *|S1M3,None,None,None|S2M3,None,None,None" pool="2" >}}
 
-\* Archetto's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.
+\* *Archetto's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.*
 
 Most of the original Marksman have aged pretty poorly. Their niche of low-DP damage doesn't look as good when everyone has absurd DPS, and their low DPH has always meant a low ceiling, even in their heyday. However, while Exusiai escaped the basement with a busted alt, Archetto escaped it with a solid and fun IS mod. It isn't quite as absurd as some of the other IS mods since her DPH is still low and it constrains team-building, but it's still good enough to give Archetto some decent Mastery consideration.
 
@@ -203,7 +203,7 @@ As for secondary skills, neither is worth much anymore in either mode. If you di
 
 {{< mastery-table-is id="391_rosmon" rows="S2M3,C,C,S- *|S3M3,C,C,B *" pool="9" >}}
 
-\* Rosmontis's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
+\* *Rosmontis's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.*
 
 Many units have now gotten specialized Modules, but of them, Rosmontis has gotten one of the biggest boosts to her meta value. For a long time now, Rosmontis has been quite a weak unit in general content, and indeed that continues to be true. Her damage is poor, there's flaws on her supposed main skill, and her utility doesn't justify the drawbacks. If you do not plan to use her in the Integrated Strategies mode, continue to treat her Masteries as very low priority across the board. However, her ISW-α Module makes her an invaluable asset, and should for a long time.
 
@@ -231,11 +231,11 @@ Instead, you might consider her S1 for Mastery, although it too is ungraded. It 
 {{< last-updated "2025-10-13" >}}
 
 
-### Rosa
+### Rosa / Роса
 
-{{< mastery-table-enhanced id="197_poca" rows="S3M3,B+ *,B+ *|S2M3,B+ *,B *" pool="2" >}}
+{{< mastery-table-enhanced id="197_poca" rows="S3M3,B+ *,B+ *|S2M3,B+ *,B *" pool="2" cn_link="https://prts.wiki/w/%E6%97%A9%E9%9C%B2" >}}
 
-\* Note that Rosa's skills are graded assuming she has her SIE-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of these skills significantly lower.
+\* *Note that Rosa's skills are graded assuming she has her SIE-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of these skills significantly lower.*
 
 Even by modern standards, Rosa's DPS is pretty decent thanks to how generally valuable the Besieger Modules are. So despite her age as a unit, she's still worth considering. However, she isn't a special tier either and her cycles are a notably awkward part of her kit compared to the ever growing competition. Rosa can be a pretty expensive unit to use properly too. She has two good skills which are both relatively necessary due to those awkward cycles, as well as a needed fully upgraded Module, so don't expect great returns if you're going to be cheap!
 
@@ -351,9 +351,9 @@ Nevertheless, she's good enough to warrant some low-priority consideration, espe
 
 ### Greyy the Lightningbearer
 
-{{< mastery-table-enhanced id="1027_greyy2" rows="S1M3,A *,None|S2M3,B+ *,None" pool="1" icons="skill_icon_skcom_quickattack[3]" >}}
+{{< mastery-table-is id="1027_greyy2" rows="S1M3,A *,A+ *,S- *|S2M3,B+ *,A- *,B *" pool="1" icons="skill_icon_skcom_quickattack[3]" >}}
 
-\* Note that Greyy the Lightningbearer's skills are graded assuming he has his BOM-X Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
+\* *Note that Greyy the Lightningbearer's skills are graded assuming he has his BOM-X Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.*
 
 Greyy the Lightningbearer is one of the biggest rises in value from his release. He was broadly chastised as a bad unit initially, including in this guide, but a fantastic Module which greatly improved both his damage and Slow consistency made him one of the strongest 5★ picks in the game. His wide range, strong control, and decent damage (for his rarity) have proven to be quite powerful!
 
@@ -368,7 +368,7 @@ As for Masteries specifically, S2 has strong Masteries too thanks to a duration 
 
 ### Kroos the Keen Glint
 
-{{< mastery-table-enhanced id="1021_kroos2" rows="S2M3,S-,None" pool="4" >}}
+{{< mastery-table-is id="1021_kroos2" rows="S2M3,S-,S-,S-" pool="4" >}}
 
 Kroos the Keen Glint is an insane unit for her rarity. For a 5★, she has absurd DPS and total damage on top of very strong control utility, and she's proven herself time and again in all sorts of content. She's extremely buff receptive too, and is often one of the best low rarity solutions to tough mobs. Of course, if you compare that to the ultra-high powered 6★s of the modern meta that might not seem too impressive, but Kroos2 is a unit many people use early on since she's freely available for those basic jobs that need done early. She retains enough value to be great even as content progresses, especially in IS. If you were to consider doing "off-meta" promotes, she'd be one of the very first to consider, and she's even been a meta consideration at times (mostly during IS#3)!
 
@@ -502,7 +502,7 @@ But if you are one of the very based bunny supremacists, S2 is her main skill wh
 
 ### Totter
 
-{{< mastery-table-enhanced id="4062_totter" rows="S2M3,B,None|S1M3,None,None" pool="3" >}}
+{{< mastery-table-is id="4062_totter" rows="S2M3,B,B+,--|S1M3,None,None,C" pool="3" >}}
 
 Totter is one of *very* few units who can deal with invisible enemies from Range tiles, so even if he was mediocre he'd still be notable. But as it is, it turns out he's a pretty solid unit too with above average damage for his rarity. His mix of big range, big DPH, and good utility make him one of the more valuable 4★s, although not an irreplaceable one either. Much of what he does is relatively easy to replace, so he's mostly a unit that favors niches or husbando-enjoyers instead.
 
@@ -567,7 +567,7 @@ If that applies to you, her S2 is her main skill. It has reasonable Masteries th
 
 ### Meteor
 
-{{< mastery-table-enhanced id="126_shotst" rows="S1M3,None,None" pool="3" >}}
+{{< mastery-table-is id="126_shotst" rows="S1M3,None,C,C" pool="3" >}}
 
 Meteor is one of those unusual units whose value has gone up with time, but not particularly because she's gotten better herself. In fact, her damage is very poor, and if you're a newer player looking for that early cheap damage Marksman are good for, you should look elsewhere. However, what does have is a very high uptime DEF debuff, and when all the Marksman are generally devalued, that looks a lot more useful. Especially with the Hope reduction for 4★s, she's now an occasional situational IS pick too.
 

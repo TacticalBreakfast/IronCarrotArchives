@@ -252,7 +252,7 @@ A majority of players should likely not invest in him at all, but for those wher
 
 ### Fang the Fire-Sharpened
 
-{{< mastery-table-enhanced id="1036_fang2" rows="S2M3,C,C|S1M3,C-,C-" pool="1" >}}
+{{< mastery-table-enhanced id="1036_fang2" rows="S2M3,C,C|S1M3,C-,C-" pool="1" cn_link="https://prts.wiki/w/Fang_the_Fire-sharpened" >}}
 
 Fang the Fire-Sharpened is a decent unit in a tough spot. She's pretty good for a 5★ Charger, but Chargers are largely left in the dust by Agents and Flagbearers, and as a 5★ she doesn't bring quite enough to make up that gap. Still, she is a fantastic cheap to deploy unit with good DPS and decent DP generation and so she can be a solid consideration for people who favor more off-meta approaches.
 
@@ -448,7 +448,7 @@ In any case, if I've yet to deter you from the investment, and you too would lik
 {{< last-updated "2025-12-12" >}}
 
 
-### Zima
+### Zima / Зима
 
 {{< mastery-table-enhanced id="115_headbr" rows="S2M3,None,None" pool="2" >}}
 
@@ -457,9 +457,9 @@ Compared to her fellow launch Pioneer Texas, Zima has had a bit of a rougher go 
 {{< last-updated "2025-08-04" >}}
 
 
-### Snegurochka
+### Snegurochka / Снегурочка
 
-{{< mastery-table-enhanced id="4208_wintim" rows="S2M3,None,None|S1M3,None,None,Breakpoint" pool="3" >}}
+{{< mastery-table-enhanced id="4208_wintim" rows="S2M3,None,None|S1M3,None,None,Breakpoint" pool="3" cn_link="https://prts.wiki/w/%E5%86%AC%E6%97%B6" >}}
 
 While Agents are generally one of the strongest archetypes in the game, Snegurochka is a pretty big miss-design wise. Her high initial SP costs hamstring one of the biggest benefits of the archetype and her skill effects are anemic. Many people will probably desire to raise her anyway, but the flaws of her design are the sort that make it hard to even definitively recommend a skill since both are so bad.
 

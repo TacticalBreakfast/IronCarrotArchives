@@ -22,7 +22,7 @@ tags = ['Mastery', 'Guards', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Sakiko Togawa
 
-{{< mastery-table-enhanced id="4182_oblvns" rows="S3M3,S++,S++|S2M3,A+,A|S1M3,C,C+,Breakpoint" pool="12" >}}
+{{< mastery-table-enhanced id="4182_oblvns" rows="S3M3,S++,S++|S2M3,A+,A|S1M3,C,C+,Breakpoint" pool="12" cn_link="https://prts.wiki/w/%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90" >}}
 
 Sakiko is a flavorful iteration of the Lord archetype. She can do both Physical and Arts damage through her different instruments; her organ is Arts damage, while her piano is Physical damage, and which is played depends on her skill. But she's more than just flavor. At base, her DPS is already great, but then she gets some very strong DEF/RES-ignore to go with it, allowing her to do good damage against a huge variety of targets. That, along with the powerful Fever mechanic and big range, especially when paired with her bandmates¹, makes her an incredibly powerful DPS unit. However, she is stuck with ST damage, and she does lack in utility compared to other top-tier meta units, so she isn’t necessarily the pinnacle of DPS units either.
 
@@ -41,6 +41,7 @@ Oddly, Sakiko actually has two AFK skills, but her S1 comes up last in priority.
 Finally, it's worth a quick note that Offensive Recovery skills are typically considered a downside in the rest of this guide. However, Sakiko's Talent 1 makes her continuously attack even if no enemies are in range, which negates this downside.
 
 ¹ Her bandmates are not required for Sakiko to be a top-tier unit.
+
 ² Due to frame rounding, it’s actually shorter than this, but the simplified view is more appropriate for this guide.
 
 {{< last-updated "2026-03-25" >}}
@@ -171,7 +172,7 @@ Finally, it's worth noting Degenbrecher isn't quite as valuable in high difficul
 
 {{< mastery-table-enhanced id="4098_vvana" rows="S3M3,S- *,A+ *" pool="1" >}}
 
-\* Note that Viviana’s S3 is graded assuming she has her AFT-Δ Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* *Note that Viviana’s S3 is graded assuming she has her AFT-Δ Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower*.
 
 The beautiful moose, who was much maligned on her release, picked up a powerful Delta Module that gives her some new life. While DPS was never really her core problem, her new Module adds even more of it, but more importantly, the Burn now helps her work around enemy RES to a degree. Given her kit is centered around dueling Elites and Bosses, who almost universally have at least some measure of RES, this ends up being a sizable upgrade to her viability, and she happens to do enough Burn to be able to proc it reliably too!
 
@@ -201,7 +202,7 @@ Last, his S1 is a generic Power Strike skill which on a modern 6★ is just... w
 
 ### Hoederer
 
-{{< mastery-table-enhanced id="4088_hodrer" rows="S3M3,A,None|S1M3,B,None|S2M3,C,None,Breakpoint - S2M1" pool="1" >}}
+{{< mastery-table-is id="4088_hodrer" rows="S3M3,A,A-,B-|S1M3,B,B-,S|S2M3,C,C,B,Breakpoint - S2M1" pool="1" >}}
 
 Hoederer is not an easy unit when it comes to Mastery investment. While most 6★s have a standout skill, Hoederer's main skill doesn't stand out to near the same degree. All of his skills have potential value depending on the situation! If you want to maximize your Hoederer usage, then you will likely want the full M9. However, that is extremely expensive so most people won't want to go that far. So be aware that selecting the skills to pursue is tricky! Use your best judgment here for what you want out of him.
 
@@ -237,7 +238,7 @@ Be aware that Executor2's fully-upgraded REA-X Module is nearly as valuable as h
 
 ### Qiubai
 
-{{< mastery-table-enhanced id="4082_qiubai" rows="S3M3,S-,None,Breakpoint - S3M1|S1M3,None,None" pool="1" >}}
+{{< mastery-table-is id="4082_qiubai" rows="S3M3,S-,A,--,Breakpoint - S3M1|S1M3,None,None,C+" pool="1" >}}
 
 Qiubai has some unique pressures when it comes to Mastery consideration. With her S3, she can reach some pretty strong DPS on multiple targets with range. Her Masteries are essential to that purpose, representing a staggering 33% increase in DPS and a 58% increase in total damage. With her strong archetype, Qiubai can be an end-game caliber DPS unit. Yet a brutally long cycle, an RNG Talent, and a reliance on external help to maximize her potential can really bring her value down on some rosters.
 
@@ -269,7 +270,7 @@ In most cases, S3M3 is the only required Mastery for Chongyue, and his FGT-X Mod
 
 ### Młynar
 
-{{< mastery-table-enhanced id="4064_mlynar" rows="S3M3,S++,S++" pool="1" >}}
+{{< mastery-table-enhanced id="4064_mlynar" rows="S3M3,S++,S++" pool="1" en_link="https://sanitygone.help/en/operators/mlynar/">}}
 
 I like Mlynar because he's an incredibly easy unit to write about! He is one of the strongest DPS units in the game (still) and he only has one good skill. That makes for a super simple evaluation. He's cheap to deploy, his DPS is incredible, and his global Taunt is (often, not always) amazing utility. His S3 is one of the highest priority Masteries in the game and should be one of the first you do, if not the first. Simple as that.
 
@@ -297,7 +298,7 @@ Finally, her S1 may be worth a look if you're Tomimi and Gavial truly is waifu. 
 
 {{< mastery-table-enhanced id="4009_irene" rows="S3M3,A,A,Breakpoint - S3M1|S2M3,C *,B+ *|S1M1,None,None,Breakpoint - S1M1" pool="1" >}}
 
-\* Note that Irene’s S2 is graded assuming she has her SWO-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.
+\* *Note that Irene’s S2 is graded assuming she has her SWO-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
 Irene is a strong burst Operator, but one who has been left behind in the meta. While her burst is good, she is stuck with an excruciating 24 Attack Recovery on her primary skill, combined with poor uptime on her control. It’s enough to make Irene fans truly loathe Degenbrecher…
 
@@ -417,7 +418,7 @@ Finally, pass on his S1 unless you are a true simp. It does have good consistent
 
 ### Ch'en
 
-{{< mastery-table-enhanced id="010_chen" rows="S3M3,B+,B+|S2M3,C+,C+" pool="2" >}}
+{{< mastery-table-enhanced id="010_chen" rows="S3M3,B+,B+|S2M3,C+,C+" pool="2" en_link="https://sanitygone.help/en/operators/chen/">}}
 
 Ch'en is just one of many older Guards who has found some niche use, but is otherwise left distantly behind in the current meta. She's a unit who isn't exactly bad, but should only be raised for waifu or niche purposes. These days, most of her value is in being an SP battery via her Talent 1 and SWO-X Module. Unfortunately, her own damage just isn't up to modern standards, and her value as an SP battery shrinks as the power ceiling in the game continues to rise. It tends to favor gimmick clears these days rather than meta ones.
 
@@ -436,7 +437,7 @@ Finally, pass on her S1, although it deserves a very minor mention. In rare case
 
 {{< mastery-table-enhanced id="263_skadi" rows="S2M3,B *,B+ *|S3M3,C *,C *" pool="2" >}}
 
-\* Note that Skadi's skills are graded assuming she has either Module [(favor DRE-X)](masteries/othertopics/#abyssal-hunter-modules) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.
+\* *Note that Skadi's skills are graded assuming she has either Module [(favor DRE-X)](masteries/othertopics/#abyssal-hunter-modules) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.*
 
 Skadi is just one of many older Guards who has found some niche use, but is otherwise left distantly behind in the current meta. She's a unit who isn't exactly bad, but should only be raised for waifu or niche purposes. In Skadi's case, her niche use is in Abyssal Hunter teams, but even then she's mainly just a body in a niche that has few options, and she mostly just rides Gladiia's and Ulpianus's buffs to be even passable. Even then, she's among the last hunters to raise, and requires an expensive Module [(favor DRE-X even in AH teams)](masteries/othertopics/#abyssal-hunter-modules), resulting in a very low overall priority.
 
@@ -576,7 +577,7 @@ In a modern game full of gigapowerful meta-breaking units, a full M6 on a 5★ u
 
 ### Amiya (Guard)
 
-{{< mastery-table-enhanced id="1001_amiya2" rows="S1M3,B,B|S2M3,C,C" pool="5" >}}
+{{< mastery-table-enhanced id="1001_amiya2" rows="S1M3,B,B|S2M3,C,C" pool="5" en_link="https://sanitygone.help/en/operators/amiya-(guard)/" cn_link="https://prts.wiki/w/%E9%98%BF%E7%B1%B3%E5%A8%85%28%E8%BF%91%E5%8D%AB%29">}}
 
 Amiya is somewhat unusual when it comes to Mastery priority because everyone has to raise her to progress in the story. This guide doesn't consider promotion costs when it comes to priority, but nevertheless, a unit that everyone already has at E2 makes for a slightly different consideration. However, her Guard form is her weakest form. It's not necessarily bad and she has some of the highest Arts DPS for the rarity, but it lacks most of the niche value her Caster or Medic form have, making her Guard Masteries a luxury investment. But she is our daughter, so you're going to do them anyway, right?
 
@@ -735,7 +736,7 @@ Pass on her S2 unless you're a pretty extreme low-rarity min/maxer. It can occas
 
 ### Nyamu Yūtenji
 
-{{< mastery-table-enhanced id="4185_amoris" rows="S2M3,None,None|S1M3,None,None" pool="13" >}}
+{{< mastery-table-enhanced id="4185_amoris" rows="S2M3,None,None|S1M3,None,None" pool="13" en_link="https://sanitygone.help/en/operators/nyamu-yutenji/" cn_link="https://prts.wiki/w/%E7%A5%90%E5%A4%A9%E5%AF%BA%E8%8B%A5%E9%BA%A6">}}
 
 Nyamu's design is very cool and thematic. Her attacks literally become a drum line! That fits so well for an Earthshaker! That might make her the most thematic unit in a really well designed patch overall! So it's a damn shame she's the worst of the Ave Mujica girls by a longshot. While all the others are quite strong units, Nyamu just isn't. She only does DPS, and not even particularly good DPS, on top of low DPH. Even in purely Ave Mujica teams, she only really exists as a blocker and Fever battery. Such a waste of a great idea...
 
@@ -778,9 +779,9 @@ You could alternatively use his S1 if you're a big Doc simp. His S2 has no DPS f
 {{< last-updated "2025-12-12" >}}
 
 
-### Leto
+### Leto / Лето
 
-{{< mastery-table-enhanced id="194_leto" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="194_leto" rows="S2M3,None,None" pool="1" cn_link="https://prts.wiki/w/%E7%83%88%E5%A4%8F">}}
 
 Leto is a unit who isn't exactly bad. Lords are just one of those archetypes that's natively strong. Instead, her problem is that there are a *lot* of better options while Leto herself has no particular unique upside, ultimately leaving her a desire/waifu tier unit. If you think you need a Lord, you'll get better value out of Arene or Lappland (from the starter ticket) instead.
 

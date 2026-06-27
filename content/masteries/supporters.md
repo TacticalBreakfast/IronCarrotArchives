@@ -204,7 +204,7 @@ Pass on her S1 unless you're a real maximalist. It overlaps with her better S3 q
 
 {{< mastery-table-is id="206_gnosis" rows="S3M3,A-,A,A+ *|S2M3,B,A-,S *" pool="2" >}}
 
-\* Gnosis’s IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
+\* *Gnosis’s IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.* 
 
 Gnosis is a powerful debuffer, although slightly flawed. He notably has a higher Fragile than most of his competition, however his poor uptime, limited range, and the fact it requires Freeze which many enemies you would *want* Fragile on are immune to, mean that it isn't his primary value. While that Fragile is still valuable, he is instead mainly used for his strong Freeze and control, along with some decent damage. However, even that is a bit lacking by modern standards, ultimately meaning Gnosis is a good unit, but a bit under what he would need to be to stand among the more general purpose meta options. At least, in the general game. Fortunately for him, he is also the recipient of one of the more powerful ISW Modules, which makes him a competitive meta pick in Integrated Strategies, if not the rest of the game.
 
@@ -274,7 +274,7 @@ However, S1 doesn't do damage so if you plan to use her regularly, you'll want t
 
 {{< mastery-table-is id="291_aglina" rows="S3M3,C+,C,S *|S2M3,None,C,A *" pool="2" >}}
 
-\* Angelina's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes. 
+\* *Angelina's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.* 
 
 Angelina is a strange unit in the game's history. For a time near launch, she was quite strong since there were few good Arts or Control options, and she excelled at both. However, as the roster was fleshed out over time, the meta left Angelina behind in almost all content. Fortunately, Lowlight smiled fondly upon her and gave her an absurdly good IS-specific Module that has vaulted Angelina back into the high-end!
 
@@ -291,7 +291,7 @@ S2 is a strong secondary Mastery for her. As mentioned, S3 historically had rela
 
 ### Uika Misumi
 
-{{< mastery-table-enhanced id="4184_dolris" rows="S2M3,B,B+|S1M3,None,None" pool="12" >}}
+{{< mastery-table-enhanced id="4184_dolris" rows="S2M3,B,B+|S1M3,None,None" pool="12" cn_link="https://prts.wiki/w/%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E" >}}
 
 Uika is our newest [Push Stro-](https://www.youtube.com/watch?v=jGxDUDODsuU), err I mean our newest Bard. Bards in general can be tricky to evaluate. Inspiration as a buff is unusual in its considerations already, but then there's two easily obtainable 6★s to consider, and they don't stack. Uika though mixes that up because in addition to the basic Inspiration buffing, she brings some fairly strong healing and damage of her own. This makes her a strong unit who will tend to have more value than her fellow 5★s. Although being in a support role with the competition from the 6★s means she isn't a general meta consideration either.
 
@@ -349,7 +349,7 @@ Pass on her S1 which just doesn't do anything special. Even at S1M3 she doesn't 
 
 {{< mastery-table-enhanced id="492_quercu" rows="S1M3,A *,A *" pool="1" >}}
 
-\* Note that Quercus' S1 is graded assuming she has her BLS-X Module at least at level 1 (preferrably higher). If you do not plan to get this Module, treat the priority of this skill significantly lower.
+\* *Note that Quercus' S1 is graded assuming she has her BLS-X Module at least at level 1 (preferrably higher). If you do not plan to get this Module, treat the priority of this skill significantly lower.*
 
 Quercus managed to buck the trend of prior Abjurers by actually being a great healer! The "toggle" nature of most of them is quite a burden in practical use, so the fact Quercus has an always-on version, plus a Sanctuary Talent that is actually applied before the unit is almost dead already, made her a solid healer. Then she got a great Module on top that removed the healing reduction and gave her an even better Talent, which made Quercus one of the best raw healers for a while. Of course, most meta solutions favored DPS over healing, and modern powercreep means there's now a 6★ that does the same thing but better (Haruka), so Quercus isn't quite a "must" raise, but she is still one of the better 5★s in the game and can be a valuable promotion in a variety of circumstances.
 
@@ -465,7 +465,7 @@ Her S1 is a useful skill, but not worth Mastery for a vast majority of people. G
 
 {{< mastery-table-enhanced id="110_deepcl" rows="S1M3,B *,B *|S2M3,None,None" pool="3" >}}
 
-\* Note that Deepcolor's S1 is graded assuming she has her SUM-Y Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
+\* *Note that Deepcolor's S1 is graded assuming she has her SUM-Y Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.*
 
 Deepcolor is a unit whose value has gone up and down with time. Before Modules, she was pretty poor since she couldn't renew her summons on top of all the other issues Summoners have in general gameplay. Her Module opened up some new options since she had enough of them to make up the difference, and now the IS Hope reduction makes her some people's favored 4★ Supporter. I'm not really one of them and I don't favor the summoner strategies, however she's still a great unit in certain niches or if that strategy appeals to you.
 
@@ -621,12 +621,13 @@ If you opt to invest in her over the other options, S2 should be your starting p
 Her S1 is a possibility too, but is much more fringe. Sleep is not a very good form of control, and her downtime is extremely high. However, she does apply it in a large True-AoE and the healing effect is significant. Mastery is significantly weaker than S2 though, so Mastery is definitely a luxury and situational on an already luxury unit.
 
 ¹ It's the weakest because she denies her bunny heritage. Who wants to be a stinky lupo?
+
 ² I personally use her a fair bit in my 5★ niche since her up time lines up with Kroos the Keen Glint better, but even then, Heidi or Uika are still often the better choice depending on the enemy.
 
 {{< last-updated "2025-12-23" >}}
 
 
-### Istina
+### Istina / Истина
 
 {{< mastery-table-enhanced id="195_glassb" rows="S1M3,None,None|S2M3,None,None" pool="2" >}}
 
