@@ -179,6 +179,12 @@ html.dark .mastery-card__icon {
     z-index: 0;
 }
 
+@media (max-width: 640px) {
+    .home-hero-bg {
+        object-position: center;
+    }
+}
+
 .home-hero-overlay {
     position: absolute;
     inset: 0;
