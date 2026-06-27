@@ -1,8 +1,3 @@
-+++
-[params]
-  heroImage = "img/rb.jpg"
-+++
-
 Hello and welcome to the Iron Carrot Archives! This is the web-based home to my (TacticalBreakfast) Arknights Mastery Guide as well as all my other content!
 
 This site is still a heavy work in progress, so if you spot any bugs or have any feedback, feel free to drop me a line over [here on Reddit](https://www.reddit.com/user/TacticalBreakfast/comments/1pl4nne/a_mastery_priority_guide_feedback_comments_corner/).
