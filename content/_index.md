@@ -21,3 +21,5 @@ Tier List Update - [Medjehtiqedti Bound Tier List Update](https://docs.google.co
 {{< list title="The Mastery Guide" cardView=true limit=15 where="Params.topic" value="Mastery Guide" >}}
 
 {{< list title="Other Guides and Content" cardView=true limit=15 where="Params.topic" value="Other Content" >}}
+
+{{< list title="Friends of the Site" cardView=true limit=15 where="Params.topic" value="Friends of the Site" >}}
