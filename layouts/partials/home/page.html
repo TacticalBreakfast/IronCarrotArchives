@@ -1,11 +1,18 @@
+{{ if .Params.heroImage }}
+<div class="home-hero-wrapper">
+  <img class="home-hero-bg" src="{{ .Params.heroImage }}" alt="" />
+  <div class="home-hero-overlay"></div>
+  <article class="home-hero-content max-w-full prose dark:prose-invert">
+    {{ with .Title }}<header><h1>{{ . | emojify }}</h1></header>{{ end }}
+    <section class="w-full">{{ .Content }}</section>
+  </article>
+</div>
+{{ else }}
 <article class="max-w-full prose dark:prose-invert">
-  {{ with .Title }}
-    <header>
-      <h1>{{ . | emojify }}</h1>
-    </header>
-  {{ end }}
+  {{ with .Title }}<header><h1>{{ . | emojify }}</h1></header>{{ end }}
   <section class="w-full">{{ .Content }}</section>
 </article>
+{{ end }}
 <section>
   {{ partial "recent-articles/main.html" . }}
 </section>
