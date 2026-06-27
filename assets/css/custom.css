@@ -183,6 +183,10 @@ html.dark .mastery-card__icon {
     .home-hero-bg {
         object-position: 55%;
     }
+
+    .home-hero-content {
+        padding: 1rem;
+    }
 }
 
 .home-hero-overlay {
