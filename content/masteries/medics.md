@@ -258,7 +258,7 @@ You could consider her S1 as well, although probably not more than the S1M1 brea
 
 ### Ptilopsis
 
-{{< mastery-table-enhanced id="128_plosis" rows="S2M3,B-,B|S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="128_plosis" rows="S2M3,B-,B|S1M3,None,None" pool="2" icons="|skill_icon_skcom_heal_up[3]">}}
 
 Ptilopsis is a powerful unit. She's one of those "launch mistakes" sorts that we probably won't see again. She has a powerful bit of utility, reducing all Auto Recovery SP costs by a significant amount, that alone makes her worth promotion, but also has incredibly strong burst HPS which a lot of people tend to overlook. However, most modern meta units already have short downtimes which suppresses Ptilopsis somewhat from her peak. Further, as far as this guide goes, she doesn't need Mastery for her utility anyway! For most people, a simple E2 for occasional use will suffice.
 
@@ -316,7 +316,7 @@ Pass on her S1. The healing and uptime are far worse than her S2. The only upsid
 
 ### Perfumer
 
-{{< mastery-table-enhanced id="181_flower" rows="S2M3,C,C+|S1M3,C,C" pool="3" >}}
+{{< mastery-table-enhanced id="181_flower" rows="S2M3,C,C+|S1M3,C,C" pool="3" icons="|skill_icon_skcom_heal_up[2]" >}}
 
 Among the 4★ Medics, Perfumer is the standout. AoE Medics are very strong by default, so even with no utility, she would still be valuable at the rarity, but as it happens she has a very powerful bit of utility to boot thanks to her global heal. This gives her tremendous value for all sorts of players, both new and old alike, a value that only extends further with the reduced Hope costs in IS. This alone will make her an appealing investment for many people!
 

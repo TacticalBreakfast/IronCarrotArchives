@@ -351,7 +351,7 @@ Nevertheless, she's good enough to warrant some low-priority consideration, espe
 
 ### Greyy the Lightningbearer
 
-{{< mastery-table-enhanced id="1027_greyy2" rows="S1M3,A *,None|S2M3,B+ *,None" pool="1" >}}
+{{< mastery-table-enhanced id="1027_greyy2" rows="S1M3,A *,None|S2M3,B+ *,None" pool="1" icons="skill_icon_skcom_quickattack[3]" >}}
 
 \* Note that Greyy the Lightningbearer's skills are graded assuming he has his BOM-X Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.
 
@@ -650,7 +650,7 @@ Meanwhile, her S2 may be the better option if you want to regularly use Erato in
 
 ### Aosta
 
-{{< mastery-table-enhanced id="346_aosta" rows="S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="346_aosta" rows="S1M3,None,None" pool="2" icons="skill_icon_skcom_quickattack[3]">}}
 
 As a group, the 5★ Spreadshooters are a frustrating group because there are now three of them as of this writing, and they are all bad (not to mention the 4★, Pinecone, is great). They have restrictive ranges and low DPH, but little upside to make up for that. In Aosta's case, it's even worse because what is supposed to be his main skill is completely incongruous. The fact his S2 increases his attack interval means his Bind uptime is only ~40%, and given the short Spreadshooter range, he'll usually only Bind an enemy once before they walk out of range, and all he gets in exchange is some incredibly mediocre damage.
 
@@ -705,7 +705,7 @@ If you are interested in getting into such a niche, or just happen to really lik
 
 ### Jessica
 
-{{< mastery-table-enhanced id="235_jesica" rows="S1M3,None,None|S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="235_jesica" rows="S1M3,None,None|S2M3,None,None" pool="3" icons="skill_icon_skcom_powerstrike[2]" >}}
 
 Basically everyone has used the original Jessica. You get her for free very early on in the story, so she is one of the quintessential starter units. So it makes sense that Jessica doesn't have much ceiling. She's a basic serviceable unit who is primarily there to introduce game mechanics, and not be a long term unit, especially with units like Kroos the Keen Glint freely available. This means Jessica is a desire only unit for further promotions like Mastery, although she does have some niche value, unlike Vermeil.
 

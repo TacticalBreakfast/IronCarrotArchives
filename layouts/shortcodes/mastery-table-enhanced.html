@@ -1,5 +1,7 @@
 {{- $id := .Get "id" -}}
 {{- $rowsRaw := .Get "rows" -}}
+{{- $iconsRaw := .Get "icons" | default "" -}}
+{{- $iconOverrides := split $iconsRaw "|" -}}
 {{- $enLink := .Get "en_link" -}}
 {{- $cnLink := .Get "cn_link" -}}
 {{- $poolKey := .Get "pool" -}}
@@ -82,8 +84,8 @@
       </tr>
     </thead>
     <tbody>
-      {{- range $rows }}
-        {{- $cols := split . "," }}
+      {{- range $rowIdx, $row := $rows }}
+        {{- $cols := split $row "," }}
         {{- if ge (len $cols) 3 }}
           {{- $skillCode  := index $cols 0 }}
           {{- $mastery    := index $cols 0 }}
@@ -100,8 +102,9 @@
             {{- end }}
           {{- end }}
 
-          {{/* Build skill icon path */}}
-          {{- $skillImgPath := printf "game_img/skills/skill_icon_skchr_%s_%s.png" $charName $skillNum -}}
+          {{/* Build skill icon path, with optional per-row override */}}
+          {{- $iconOverride := index $iconOverrides $rowIdx | default "" }}
+          {{- $skillImgPath := cond (ne $iconOverride "") (printf "game_img/skills/%s.png" $iconOverride) (printf "game_img/skills/skill_icon_skchr_%s_%s.png" $charName $skillNum) -}}
           {{- $skillImg := resources.Get $skillImgPath -}}
 
           {{- $storyLow := lower $story }}

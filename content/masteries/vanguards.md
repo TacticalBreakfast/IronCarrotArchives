@@ -122,7 +122,7 @@ Last, her S1 should be avoided. While it isn't the generic Pioneer skill that ot
 
 ### Saileach
 
-{{< mastery-table-enhanced id="479_sleach" rows="S3M3,A,A+|S1M3,B,B+" pool="2" >}}
+{{< mastery-table-enhanced id="479_sleach" rows="S3M3,A,A+|S1M3,B,B+" pool="2" icons="|skill_icon_skcom_assist_cost[3]">}}
 
 Saileach, along with Bagpipe, is an interesting Vanguard in the history of this guide, although for entirely different reasons. For a long long time, she had the biggest gap between her Advanced grades and Story grades, and in fact was one of the original reasons why Advanced grades were even added to the guide! That's still sort of true with her, however like with Bagpipe, the changing meta landscape (e.g. Agents) have relegated that to not much more than a trivia footnote.
 
@@ -263,7 +263,7 @@ While most people shouldn't bother, if the above applies to you, then Fang will 
 
 ### Wanqing
 
-{{< mastery-table-enhanced id="4119_wanqin" rows="S2M3,A,A+|S1M3,A-,A+" pool="4" >}}
+{{< mastery-table-enhanced id="4119_wanqin" rows="S2M3,A,A+|S1M3,A-,A+" pool="4" icons="|skill_icon_skcom_assist_cost[3]" >}}
 
 Wanqing continues the recent trend of 5★s that aren't bad but tend to be just a touch worse than older options. That means for older players there isn't much value here (stick with Elysium), but he still has value for relatively newer players who are ready to move beyond just Myrtle for their DP printing purposes. Like all Standard Bearers, both of Wanqing's skills are strong Masteries due to the all important upgrades to wind-up and cycle time, with the only difference between them being what matters more for the stage - the utility (S2) or the DP printing (S1).
 
@@ -313,7 +313,7 @@ However, while she has a lot of general value, Blacknight is still a highly tech
 
 ### Elysium
 
-{{< mastery-table-enhanced id="401_elysm" rows="S2M3,A+,S-|S1M3,A-,A+" pool="2" >}}
+{{< mastery-table-enhanced id="401_elysm" rows="S2M3,A+,S-|S1M3,A-,A+" pool="2" icons="|skill_icon_skcom_assist_cost[3]" >}}
 
 Elysium's Masteries can be a little confusing because at first glance it looks as if they would follow the same logic as Myrtle, yet the logic ends up being the opposite. Although S1 is the better DP generation skill, his S2 utility is miles ahead of Myrtle's. Additionally Myrtle is often the better choice for tight DP because her base cost is cheaper. The times where DP is SO tight that you need both S1's is very rare in Story scenarios, so Elysium's S2 is the better choice for its utility.
 
@@ -350,7 +350,7 @@ The change beginning in IS#5 which reduced 4★ Hope cost has been particularly 
 
 ### Myrtle
 
-{{< mastery-table-enhanced id="151_myrtle" rows="S1M3,S+,S+|S2M3,C,C+" pool="3" >}}
+{{< mastery-table-enhanced id="151_myrtle" rows="S1M3,S+,S+|S2M3,C,C+" pool="3" icons="skill_icon_skcom_assist_cost[2]" >}}
 
 Myrtle is the ultimate queen of the 4★s, having appeared all over the game since her release, from the easiest of Story stage to the highest risk Advanced CC clears. She is the only 4★ that everyone should E2 and Master. The focus of that Mastery should first be her S1. The benefits of it can be deceptive at first and seem small, and to be fair she will work at SL7 just fine most of the time. However that initial wind up makes a big difference in usability, plus 4★ Mastery is very cheap which makes it one of the most valuable in the game.
 

@@ -819,7 +819,7 @@ Her S1 may be an option too since it cycles so fast. She can actually dole out a
 
 ### Wind Chimes
 
-{{< mastery-table-enhanced id="4083_chimes" rows="S1M3,None,None|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4083_chimes" rows="S1M3,None,None|S2M3,None,None" pool="1" icons="skill_icon_skcom_atk_up[3]">}}
 
 Given how strong the 6★ Crushers are in the modern meta, it can be easy to forget that the lower rarity ones are exceedingly mediocre and flawed. Without the expanded top end design space, their lack of DEF makes them surprisingly fragile and their high HP pools further make them hard to heal up. Then add on some pretty bad DPS, and you have a pretty bad unit, although both Wind Chimes and Quartz do have defenders and some rare niche use. Their HP pools make them decent for Arts damage and they can hit pretty hard. However, if you're at the point in your career where you need this guide for advice, you're likely to find either to be incredibly frustrating instead.
 
@@ -908,7 +908,7 @@ However, while Ayers isn't the worst Lord, he is still one of the least valuable
 
 ### Sideroca
 
-{{< mastery-table-enhanced id="333_sidero" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="333_sidero" rows="S2M3,None,None|S1M3,None,None" pool="4" icons="|skill_icon_skcom_heal_self[3]" >}}
 
 High HP self-sustaining units like Sideroca can be a useful tool if you're playing in niches. However, it is a very fringe utility in the first place that most players won't need, and worse for Sideroca, a 4★, Matoimaru, does it better. This means that while Sideroca isn't exactly a "bad" unit, she's restricted to some pretty severe niches on top of being unnecessary in the first place!
 
@@ -967,7 +967,7 @@ You could consider her S1 as well if you're a really big Glasgow Gang fan, but i
 
 ### Savage
 
-{{< mastery-table-enhanced id="230_savage" rows="S1M3,None,None" pool="5" >}}
+{{< mastery-table-enhanced id="230_savage" rows="S1M3,None,None" pool="5" icons="skill_icon_skcom_powerstrike[2]" >}}
 
 Even at launch, Savage was bad. Centurions are a "high-floor low-ceiling" sort of archetype. That is, they're pretty good by default but don't tend to have a lot of endgame value, and Savage is a really extreme example of that. Technically, she has a higher floor than a lot of other basement dweller units, but probably has the worst ceiling of any of them (which is already low)! The real reason to raise her is because Charlotte is our true wife! Who needs Theresa or Priestess? Not this bunny lover!
 
@@ -1024,7 +1024,7 @@ Beehunter is probably the toughest unit to use of the group. With her S1, she is
 
 ### Matoimaru
 
-{{< mastery-table-enhanced id="289_gyuki" rows="S1M3,None,None|S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="289_gyuki" rows="S1M3,None,None|S2M3,None,None" pool="3" icons="skill_icon_skcom_heal_self[2]">}}
 
 Matoimaru has an absolutely massive HP pool along with some self-sustain that scales with that massive pool. That can be a useful tool if you play in various niches, although far from an essential one and her 1-block and low DPS will usually be a liability instead.
 
