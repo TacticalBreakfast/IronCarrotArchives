@@ -1,6 +1,7 @@
 {{ if .Params.heroImage }}
+{{ $heroImg := resources.Get .Params.heroImage }}
 <div class="home-hero-wrapper">
-  <img class="home-hero-bg" src="{{ .Params.heroImage }}" alt="" />
+  {{ if $heroImg }}<img class="home-hero-bg" src="{{ $heroImg.RelPermalink }}" alt="" />{{ end }}
   <div class="home-hero-overlay"></div>
   <article class="home-hero-content max-w-full prose dark:prose-invert">
     {{ with .Title }}<header><h1>{{ . | emojify }}</h1></header>{{ end }}
