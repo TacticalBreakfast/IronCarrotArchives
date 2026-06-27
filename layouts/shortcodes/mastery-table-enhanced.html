@@ -58,13 +58,17 @@
   <div class="mastery-profession">{{ $poolName }}</div>
   {{- end }}
 
+  {{- $sanitygoneURL := $enLink | default "" }}
+  {{- $prtsURL := $cnLink | default "" }}
   {{- if $charEntry }}
-  {{- $linkName := $charEntry.name }}
-  {{- $sanitygoneURL := cond (ne $enLink "") $enLink (printf "https://sanitygone.help/en/operators/%s/" (replace (lower $linkName) " " "-")) }}
-  {{- $prtsURL := cond (ne $cnLink "") $cnLink (printf "https://prts.wiki/w/%s" (replace $linkName " " "_")) }}
+    {{- $linkName := $charEntry.name }}
+    {{- if not $sanitygoneURL }}{{- $sanitygoneURL = printf "https://sanitygone.help/en/operators/%s/" (replace (lower $linkName) " " "-") }}{{- end }}
+    {{- if not $prtsURL }}{{- $prtsURL = printf "https://prts.wiki/w/%s" (replace $linkName " " "_") }}{{- end }}
+  {{- end }}
+  {{- if or $sanitygoneURL $prtsURL }}
   <div class="mastery-links">
-    <a href="{{ $sanitygoneURL }}" target="_blank" rel="noopener">EN Kit</a>
-    <a href="{{ $prtsURL }}" target="_blank" rel="noopener">PRTS.wiki</a>
+    {{- if $sanitygoneURL }}<a href="{{ $sanitygoneURL }}" target="_blank" rel="noopener">EN Kit</a>{{- end }}
+    {{- if $prtsURL }}<a href="{{ $prtsURL }}" target="_blank" rel="noopener">PRTS.wiki</a>{{- end }}
   </div>
   {{- end }}
 
