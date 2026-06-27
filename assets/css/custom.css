@@ -181,7 +181,7 @@ html.dark .mastery-card__icon {
 
 @media (max-width: 640px) {
     .home-hero-bg {
-        object-position: center;
+        object-position: 65%;
     }
 }
 
