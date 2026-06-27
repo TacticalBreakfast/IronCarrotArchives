@@ -99,17 +99,24 @@
   weight = 20
 
 [[main]]
+  name = "Other Content"
+  weight = 20
+
+[[main]]
   name = "Tier List"
+  parent = "Other Content"
   url = "https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/"
   weight = 20
 
 [[main]]
   name = "Blog"
+  parent = "Other Content"
   pageRef = "posts"
   weight = 25
 
 [[main]]
   name = "Fiction"
+  parent = "Other Content"
   url = "https://archiveofourown.org/users/TacticalBreakfast"
   weight = 30
 

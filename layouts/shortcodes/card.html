@@ -1,0 +1,11 @@
+{{ $link := printf "%s%s" site.LanguagePrefix (.Get "link") }}
+{{ $pages := slice }}
+{{ range hugo.Sites }}
+  {{ $pages = $pages | append .Pages }}
+{{ end }}
+{{ $target := index (first 1 (where $pages "RelPermalink" $link)) 0 }}
+{{ if $target }}
+  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+    {{ partial "article-link/card.html" $target }}
+  </section>
+{{ end }}
