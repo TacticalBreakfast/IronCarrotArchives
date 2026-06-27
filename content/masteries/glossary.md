@@ -36,7 +36,7 @@ I probably don't need to explain to you what these terms are. Google them if you
 
 ### Niches
 
-There's two ways the word niche tends to be used in Arknights. In this guide, it usually refers to self-limiting teams. For many people, playing only the most powerful units is boring, so some high-end players will begin to do some sort of challenge or theme in their clears. Common examples are 4★s only, Male only, specific race only, 1-tile, and many more. Check arkrec for many of these record clears.
+There's two ways the word niche tends to be used in Arknights. In this guide, it usually refers to self-limiting teams. For many people, playing only the most powerful units is boring, so some high-end players will begin to do some sort of challenge or theme in their clears. Common examples are 4★s only, Male only, specific race only, 1-tile, and many more. Check [arkrec](https://en.arkrec.com/) for many of these record clears.
 
 Although uncommon in this guide, "niches" also tends to be used to refer to operators that have a specific role. They do *something* uncommon really well. This tends to make them poorer for general use, but great when that niche is called for. For example, True Damage is often considered a niche. It is usually inferior DPS-wise to Physical or Arts, but is tremendously valuable when an enemy has a lot of DEF and RES. This guide tends to use the word “situational” instead, to avoid confusion.
 
@@ -70,11 +70,11 @@ This is shorthand typically used to refer to alts. For example, Jessica2 refers 
 
 ### prts.wiki
 
-This is the CN wiki. While it is in a foreign language, it is by far the most comprehensive resource we have. Use it in Chrome and use the "Translate this page" feature. The MTL is usually perfectly legible. The search box can be used using the English operator and stage names.
+[This is the CN wiki](https://prts.wiki/w/%E9%A6%96%E9%A1%B5). While it is in a foreign language, it is by far the most comprehensive resource we have. Use it in Chrome and use the "Translate this page" feature. The MTL is usually perfectly legible. The search box can be used using the English operator and stage names.
 
 ### arkrec
 
-This is a website that catalogues record clears. It often contains some of the highest skill clears in the game! However, be wary of using it for general evaluations. Niches inherently skew usage numbers and have different valuations than general clears. Also note that all entries are user submitted, so it isn't comprehensive, as many high-end players don't submit their clears.
+[This is a website](https://en.arkrec.com/) that catalogues record clears. It often contains some of the highest skill clears in the game! However, be wary of using it for general evaluations. Niches inherently skew usage numbers and have different valuations than general clears. Also note that all entries are user submitted, so it isn't comprehensive, as many high-end players don't submit their clears.
 
 ## Combat Stats and Effects
 
@@ -132,7 +132,7 @@ These are both effects which change the Attack Interval. ASPD does so roughly as
 
 As a matter of balance, and notable for this guide, for whatever reason HG has tended to make interval reduction much more valuable than ASPD. Many units with interval reduction changes over Mastery have higher grades for this reason. For example, La Pluma's S2 improves from -40% interval reduction at S2M2 to -50% at S2M3, an amount equivalent to a whopping 33 ASPD! However, this isn't universally true either, and is less true in more recent units.
 
-You can find more information about the exact mechanics over on the wiki.
+You can find more information about the exact mechanics [over on the wiki](https://arknights.wiki.gg/wiki/Attribute/Attack_interval).
 
 ### Increasing damage dealt vs increasing ATK
 

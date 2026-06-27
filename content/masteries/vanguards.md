@@ -234,7 +234,7 @@ Given this often comparable generation, his S1 ends up being the better investme
 
 Of course, his S2 has use too. While the need to attack anyway mitigates some of S1's Attack Recovery drawback, there are many maps with no consistent early waves. This can let his S2 come out ahead in generation, which is why Chilchuck is a viable M6 consideration. However, the Masteries on S2 are far less essential and it's much worse than most of the other comparable Agents skills. To the first point, the additional ASPD from Mastery only results in one extra DP, assuming he can even attack for the entire duration. The main value in Mastery is instead in the wind-up cost, which improves from 11 to 5. That's a valuable difference, but also, if it truly matters, you're probably not using his S2 to begin with. It's still a good skill, but ultimately his S1 is just as good, if not better, with much more valuable Masteries.
 
-For discussion on how his S1 works (it is not an even distribution), check out this question in the FAQ. Also note his S1 does have a breakpoint at M1, however it is not reflected in his grades. If you plan to use his S1, the breakpoint alone is not really sufficient, so it is not particularly worth grabbing without going to the full M3.
+For discussion on how his S1 works (it is not an even distribution), check out [this question in the FAQ](https://lungmendragons.com/guides/dunmeshi-mastery#q:-how-does-chilchuck%E2%80%99s-s1-work?). Also note his S1 does have a breakpoint at M1, however it is not reflected in his grades. If you plan to use his S1, the breakpoint alone is not really sufficient, so it is not particularly worth grabbing without going to the full M3.
 
 {{< last-updated "2025-08-04" >}}
 
@@ -469,6 +469,17 @@ Meanwhile, rather simply, her S1 doesn't get an SP improvement over Mastery whic
 
 {{< last-updated "2026-03-17" >}}
 
+### Scavenger
+
+{{< mastery-table-enhanced id="149_scave" rows="S2M3,None,None" pool="3" >}}
+
+While Pioneers in general are one of the weakest Vanguard archetypes, the two 4★s, Scavenger and Courier, are largely exempt from that, although they remain ungraded for Mastery for different reasons. The thing is, they're starter units. Most people have used at least one of them at some point in their career. And for what they are (cheap early units), they're pretty decent too! They just have very little justification for more than a basic E1 investment. The only reason to look towards E2 and Masteries is waifu/husbando or niche reasons.
+
+Between them, Courier does tend to be favored since his bulk is more useful than Scavenger's anemic offense¹, but if you're at the point of considering one for Mastery, you're likely already aware of the distinction. In either case, the main skill for both is S2 which is their skill that actually does something. The generic "charge" skills the Pioneers have simply have no value aside from AFK use, for which they do not need Mastery. If there was a situation where the DP generation difference mattered, you'd be using someone else (i.e. Myrtle). So by default, it makes sense to favor their skill which improves their stats instead. However, both of their S2s are rather basic themselves with small Mastery gains, further reiterating that they are both best left at E1 for early use only.
+
+¹ If you’re going as far as to max invest in Scavenger (that is, including mod3), she can actually be better. Courier’s DEF is still higher, but Scavenger’s becomes “high enough” to close the gap. However, that isn’t a level of investment you should consider if you don’t know what you’re doing. The goal of this line is to push newer players towards Courier for their early career.
+
+{{< last-updated "2025-12-12" >}}
 
 ### Courier
 
@@ -476,6 +487,6 @@ Meanwhile, rather simply, her S1 doesn't get an SP improvement over Mastery whic
 
 While Pioneers in general are one of the weakest Vanguard archetypes, the two 4★s, Scavenger and Courier, are largely exempt from that, although they remain ungraded for Mastery for different reasons. The thing is, they're starter units. Most people have used at least one of them at some point in their career. And for what they are (cheap early units), they're pretty decent too! They just have very little justification for more than a basic E1 investment. The only reason to look towards E2 and Masteries is waifu/husbando or niche reasons.
 
-Between them, Courier does tend to be favored since his bulk is more useful than Scavenger's anemic offense, but if you're at the point of considering one for Mastery, you're likely already aware of the distinction. In either case, the main skill for both is S2 which is their skill that actually does something. The generic "charge" skills the Pioneers have simply have no value aside from AFK use, for which they do not need Mastery. If there was a situation where the DP generation difference mattered, you'd be using someone else (i.e. Myrtle). So by default, makes sense to favor their skill which improves their stats instead. However, both of their S2s are rather basic themselves with small Mastery gains, further reiterating that they are both best left at E1 for early use only.
+Between them, Courier does tend to be favored since his bulk is more useful than Scavenger's anemic offense, but if you're at the point of considering one for Mastery, you're likely already aware of the distinction. In either case, the main skill for both is S2 which is their skill that actually does something. The generic "charge" skills the Pioneers have simply have no value aside from AFK use, for which they do not need Mastery. If there was a situation where the DP generation difference mattered, you'd be using someone else (i.e. Myrtle). So by default, it makes sense to favor their skill which improves their stats instead. However, both of their S2s are rather basic themselves with small Mastery gains, further reiterating that they are both best left at E1 for early use only.
 
 {{< last-updated "2025-12-12" >}}

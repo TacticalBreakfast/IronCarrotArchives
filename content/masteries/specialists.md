@@ -191,7 +191,7 @@ You likely won't want to bother with her S1. It's best focused on single hard ta
 
 Specter the Unchained is a decent unit in the modern game thanks to strong damage, invulnerability, and the ever valuable archetype, although a portion of her meta value is carried by the rather popular Abyssal Hunter niche. She’s interesting historically because she was broadly panned as the worst 6★ on release, but was one of the earliest benefactors of the Module leveling system. Modules used to be just the base level, but the patch right after her introduction, the upgrades were introduced. HG understood what she needed, and in rare fashion, actually gave it to her. Which is a long winded way of saying, Specter2 has vital Module considerations. Two, actually! This interconnection can make for a rather expensive unit to maximize, especially as the power ceiling rises, although fortunately one does tend to be much more valuable than the other.
 
-Her best use case (in both regular and AH teams) is her PUM-X Module along with her S2, which should be your first focus for Mastery. With PUM-X, her doll is actually useful which gives her S2 double value. Her invulnerability is a unique niche, and the predictable nature of the doll activation allows for good area control. The combination isn’t quite the powerhouse it once was though. After all, we have lots of laneholding, tanking, and DPS options. However, Specter2 does combine them all in a viable way that still keeps her at relatively high priority. As for Mastery specifically, S2M3 adds a significant amount to her damage and uptime, both of which are quite important to using her.
+Her best use case [(in both regular and AH teams)](masteries/othertopics/#abyssal-hunter-modules) is her PUM-X Module along with her S2, which should be your first focus for Mastery. With PUM-X, her doll is actually useful which gives her S2 double value. Her invulnerability is a unique niche, and the predictable nature of the doll activation allows for good area control. The combination isn’t quite the powerhouse it once was though. After all, we have lots of laneholding, tanking, and DPS options. However, Specter2 does combine them all in a viable way that still keeps her at relatively high priority. As for Mastery specifically, S2M3 adds a significant amount to her damage and uptime, both of which are quite important to using her.
 
 Her second best use case is her PUM-Y Module with her S3, however she isn’t as reliant on her Module here. S3 will work fine with PUM-X as well, making PUM-Y the lowest priority of the four investments. The difference here is that S3 isn’t reliant on her doll like S2 is, so it’s a bit more flexible in that regard. However, it comes up short in terms of ceiling. It lacks her invulnerability niche and actually does worse damage than her 5★ form, who is also 3-block, if she can’t take advantage of the HP threshold gimmick (which is made easier with PUM-Y). The real problem here though is that her S3 doesn’t really have any special feature, so it becomes the sort of skill you use because you *want* to use Specter2 and not because it’s the best option. It doesn’t really take advantage of her archetype at all. It can deal more damage than S2 and hits a lot harder, but that’s about it, and there are now dozens of units who can do that too with more utility.
 
@@ -404,7 +404,7 @@ Niche players may find some value in her S1 as well, although it’s nowhere nea
 
 {{< mastery-table-enhanced id="4036_forcer" rows="S2M3,B-,B|S1M3,C,C" pool="4" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 There are a lot of Push Strokers available, and most aren’t worth the additional cost. That’s true for Enforcer, who also tends to be generally worse than the gacha options, but he has three key features that give him some niche value. First, his skills don’t deal damage which lets him Shift certain enemies without triggering on-hit effects like damage reflects or alert triggers. Second and more important, with S2 he always Shifts according to the direction he is facing compared to most other Pushers who usually push according to the direction the enemy is relative to them (that's not exactly true in all cases, but the details are complex and don't matter here for evaluating Enforcer). This means he’s able to accomplish hole drops that are otherwise impossible, such as pushing enemies forward that he blocks from behind, which can be a useful tool, albeit a niche one. And finally third, his S2 pushes *all* targets in his range which is subtly different from most other Pusher skills that only push the targets in a splash around the impact point.
 
@@ -503,7 +503,7 @@ Her S2 meanwhile can potentially be even more powerful, but is more situational.
 
 {{< mastery-table-enhanced id="173_slchan" rows="S2M3,B-,B+|S1M3,C,C" pool="14" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 Any of the 5★ Shifters are luxury promotions, but among them, Cliffheart has the most value. This is because she actually has some useful value beyond the Shift itself. She has a good on-demand Stun on a good cycle and also a dash of True Damage, both of which can occasionally be helpful, albeit primarily in niche clears rather than meta ones (Gladiia is the much more powerful general promotion).
 
@@ -518,7 +518,7 @@ Most players shouldn’t bother with her S1, but it may have some value to low r
 
 {{< mastery-table-enhanced id="241_panda" rows="S2M3,B-,B|S1M3,C,C" pool="2" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 Any of the 5★ Shifters are luxury promotions. FEater has had some value at various points throughout the game’s history, but that value isn’t terribly consistent and is ever declining as more stall options become available. This means she’s a relatively fringe consideration these days, and will mostly only be useful for niche players. However, she isn’t awful either and can be a reasonable Pusher promotion if you like her (mmmm panda PUS-Y¹). If she appeals to you, both skills are potential options, although both are pretty replaceable in the modern game too.
 
@@ -610,7 +610,7 @@ Looking beyond those, his S1 could be an option too, although it’s more situat
 
 {{< mastery-table-enhanced id="277_sqrrel" rows="S1M3,C,C" pool="3" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 Shaw and Rope are probably the only units you ever need as far as Shifting is concerned (not counting other value the 6★s bring). It’s fundamentally a map dependent mechanic, and while there is some value in the higher rarity Shifting skills to be found, the two 4★s are all you’ll really need. Further, as far as this guide goes, Mastery isn’t even necessary or even recommended on them! The return for the resources is just not that high so it becomes the sort of promotion you should only look towards when your core roles are all filled and you can start to afford the more situational sorts of skills.
 
@@ -627,7 +627,7 @@ So why not consider her S2 when the comparable skill on the higher rarities are 
 
 {{< mastery-table-enhanced id="236_rope" rows="S2M3,C+,C+|S1M3,C,C" pool="3" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 Shaw and Rope are probably the only units you ever need as far as Shifting is concerned (not counting other value the 6★s bring). It’s fundamentally a map dependent mechanic, and while there is some value in the higher rarity Shifting skills to be found, the two 4★s are all you’ll really need. Further, as far as this guide goes, Mastery isn’t even necessary or even recommended on them! The return for the resources is just not that high so it becomes the sort of promotion you should only look towards when your core roles are all filled and you can start to afford the more situational sorts of skills.
 
@@ -646,7 +646,7 @@ In both cases, Mastery is typically valuable as it is with almost all Shifter sk
 
 Gravel is one of those special units because she’s one that virtually everyone has used and is quite popular. But she does her job as a bulk FRD, which the higher rarities still can’t do, fantastically well already at E1 SL7. E2 and Mastery is simply unnecessary with her. However, because she’s so popular and widely used, many people do them anyway for no other reason than because she’s earned it!
 
-I strongly encourage that. The best way to enjoy the game is like this without stressing too much about the meta context. However, there is some nuance here for those interested. Most of it is that it is unnecessary, as already mentioned. Gravel is very valuable, but does it well at low investments already. Especially in IS, where she’s still useful, it doesn’t make sense to spend more Hope on promotion costs with her. That’s why her grades here are on the low side despite her general value. However, her Mastery gains are *really* strong, so they can still make sense to do if you want to give one of our most loyal Operators the promotions she deserves for all her hard work.
+I strongly encourage that. The best way to enjoy the game is like this without stressing too much about the meta context. However, there is some nuance here for those interested. Most of it is that it is unnecessary, as already mentioned. Gravel is very valuable, but does it well at low investments already. Especially in IS, where she’s still useful, it doesn’t make sense to [spend more Hope](masteries/othertopics/#should-you-e2m3-4s-for-is) on promotion costs with her. That’s why her grades here are on the low side despite her general value. However, her Mastery gains are *really* strong, so they can still make sense to do if you want to give one of our most loyal Operators the promotions she deserves for all her hard work.
 
 In such a case, her S2 is really the only skill to consider. Simply, the HP total on S2 is more useful than the DEF total on S1. HP makes her more useful against all variety of threats, not just Physical, but importantly she loses less to the decay time, resulting in a better net effect. There’s very few places where her S1 is the better option, so pursuing it would primarily be a waifu matter. As discussed above, the value of her S2 Masteries is unnecessary, but they are a decent total which can have value now and then. Her HP shield benefits from her Module and levels as well, but all maxed out, the difference comes out to around 1.4k additional HP over Mastery which can add a lot of comfort to using our beautiful prairie dog.
 
@@ -672,7 +672,7 @@ His S1 might be a very fringe consideration if you're really dedicated to using 
 
 {{< mastery-table-enhanced id="4105_almond" rows="S1M3,None,None|S2M3,None,None" pool="1" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 There isn't a lot of reason to invest resources into Almond's Masteries. Unfortunately for her, the Hookmaster archetype is a crowded one, and she comes dead last in value among them even before considering that all of her competition is given out for free. If you particularly like Almond, for whatever reason, or fancy yourself one of those extreme niche players, then both of Almond's skills are viable options, and you will likely want to invest in the full M6 despite her otherwise poor performance.
 
@@ -689,7 +689,7 @@ S2 is unfortunately rather awkward. It's pretty significantly inferior to either
 
 {{< mastery-table-enhanced id="4015_spuria" rows="S2M3,None,None|S1M3,None,None" pool="1" >}}
 
-There is no unit in the game that I hate more from a design perspective than Spuria. She is the peak of the worst design era for 5★s. I already hated Windflit for his restrictive and subpar buff, then Spuria further doubled down on the formula of awful. Not only is she restricted to a single class, but her "buff" is a net loss on a vast majority of targets! There is only a small handful of units in the huge roster that even see an improvement, even before accounting for the suboptimal nature of buffing or the fact it's worse than many existing options!
+There is no unit in the game that I hate more from a design perspective than Spuria. She is the peak of the worst design era for 5★s. I already hated Windflit for his restrictive and subpar buff, then Spuria further doubled down on the formula of awful. Not only is she restricted to a single class, but her "buff" is a net loss on a vast majority of targets! There is only a small handful of units in the huge roster that even see an improvement, even before accounting for the [suboptimal nature of buffing](masteries/othertopics/#the-problem-with-buffing-and-combos) or the fact it's worse than many existing options!
 
 Many will insist on trying though, and the Laterano niche is increasing in popularity¹. If that applies to you, both skills are options and fill different roles depending on what you want out of her. S2 is her buff skill. As mentioned, there are few Snipers it actually works well on, but there are some out there so it can be usable depending on your other favorites. If you want to make more regular use out of her, you could consider her S1 as well. The effects on her Talent are actually decent, so the extra ASPD can make her a passable helidrop unit. However, the long redeployment cycle and frustrating RNG mean it's definitely a waifu-only investment.
 
@@ -713,7 +713,7 @@ If you want to try to make her work anyway, which is ill-advised (she's one of t
 
 {{< mastery-table-enhanced id="383_snsant" rows="S2M3,None,None" pool="4" >}}
 
-\* For a general discussion of Shifter priority and skills, check out these discussions.
+\* For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).
 
 Any of the 5★ Shifters are luxury promotions, and Snowsant suffers because there are not one, but *two* Welfare Hookmasters that are better. Gladiia is a crazy powerful Abyssal Hunter, and Cliffheart cycles better, with better range, and better side effects. So that means there isn't a lot of reason to consider raising Snowsant, even in niches. However, she is a functional puller (unlike Almond) if she appeals to you more, and has some niche value too. 
 

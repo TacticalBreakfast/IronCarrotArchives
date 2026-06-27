@@ -41,7 +41,7 @@ Finally, her S1 may be something to consider for angel maximalists. It's nowhere
 
 {{< mastery-table-enhanced id="4138_narant" rows="S3M3,S,S|S1M3,A-,B|S2M3,B,B" pool="1" >}}
 
-So first of all, Loopshooters can get really complex. There's a lot of detail in Narantuya's kit that I simply can't cover in these writeups (even for as much as I like to yap). The detail is totally not necessary to enjoy her either, but if you're interested in a lot of the mechanical aspects, I would recommend this video by DragonGJY.
+So first of all, Loopshooters can get really complex. There's a lot of detail in Narantuya's kit that I simply can't cover in these writeups (even for as much as I like to yap). The detail is totally not necessary to enjoy her either, but if you're interested in a lot of the mechanical aspects, I would recommend [this video by DragonGJY](https://www.youtube.com/watch?v=FPfugcoQ46Q).
 
 That out of the way, Narantuya is (yet another) powerful Sniper. It's a pretty crowded space, but she manages to carve herself out a solid niche thanks to her strong DPS which can flex in a variety of roles as well as her survivability up close that most ranged units lack. While she's not quite the "irreplacable" sort of good, she's a generally solid high tier unit that's very worthy of investment.
 

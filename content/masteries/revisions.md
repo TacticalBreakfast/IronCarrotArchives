@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**June 27, 2026**
+
+Somehow Scavenger's writeup got blown away. It's fixed now. Also fixed a typo in Courier's write-up.
+
 **June 18, 2026**
 
 Updated for Medjehtiqedti Bound. Moved Unrealized Realities to the main guide. Added Titi, Perfumer the Distilled, and Varkaris. No other updates this time around. Updated the lookaheads.

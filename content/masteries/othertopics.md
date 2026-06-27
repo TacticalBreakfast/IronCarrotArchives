@@ -42,7 +42,7 @@ More importantly though, the two measure different things and I think directly i
 
 ## Why aren't Module ratings integrated into the Mastery guide?
 
-Some of you may find this question odd, but I get it a surprisingly often. I do not do Module ratings. Mal writes guides for them which you can find here on the LD page, and I do collaborate with him on the Tier List, but our guides are different things maintained by different people. DragonGJY maintains a rating guide also that you can find here, but we do not work together. So there are no ratings of my own to integrate in the first place.
+Some of you may find this question odd, but I get it a surprisingly often. I do not do Module ratings. Mal writes guides for them which you can find [here on the LD page](https://lungmendragons.com/guides), and I do collaborate with him on the Tier List, but our guides are different things maintained by different people. DragonGJY maintains a rating guide also [that you can find here](https://docs.google.com/spreadsheets/u/0/d/1A0_0XTAcDDtHkvyAwjTqEEzM8cf5h3E60u23ZVXw4eg/htmlview#gid=0), but we do not work together. So there are no ratings of my own to integrate in the first place.
 
 The reason I've never done my own and have no immediate plans to is simply time. This project is already a massive one that I sink a ton of time into. Modules would nearly double that work. I have debated it at times, and may still in the future. After all, I do tend to write about them in my articles, but it would add a huge amount of additional work and cause further headaches with long-term guide maintainability.
 
