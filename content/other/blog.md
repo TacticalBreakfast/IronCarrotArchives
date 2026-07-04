@@ -8,5 +8,5 @@ url = 'posts/'
 excludeFromRecent = true
 showDate = false
 showAuthor = false
-featureimage = "img/tb.png"
+featureimage = "img/tb-noshield.png"
 +++
