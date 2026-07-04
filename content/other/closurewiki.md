@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'closure.wiki'
 weight = 7
 externalUrl = 'https://closure.wiki/'

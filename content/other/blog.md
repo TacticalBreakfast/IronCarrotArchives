@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Blog'
 weight = 3
 url = 'posts/'

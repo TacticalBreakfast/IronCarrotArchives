@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Guards'
 summary = "Arknights Guard Mastery Priority guide covering every 6★, 5★, and 4★ Guard — including Ulpianus, Leizi the Thunderbringer, Młynar, and more — with skill recommendations, breakpoints, and DPS analysis."

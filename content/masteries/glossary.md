@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Glossary'
 summary = "A compilation and guide to various Arknights terms used throughout the guide."

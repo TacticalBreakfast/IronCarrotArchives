@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Fiction'
 weight = 10
 externalUrl = 'https://archiveofourown.org/users/TacticalBreakfast'

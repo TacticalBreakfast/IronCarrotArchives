@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Sanity;Gone'
 weight = 7
 externalUrl = 'https://sanitygone.help/'

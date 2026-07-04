@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Defenders'
 summary = "Arknights Defender Mastery Priority guide covering every 6★, 5★, and 4★ Defender — including Hoshiguma the Breacher, Yu, Shu, and more — with skill recommendations, tank comparisons, and priority rankings."

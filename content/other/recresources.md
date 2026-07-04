@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Recommended Arknights Resources'
 weight = 9
 [params]

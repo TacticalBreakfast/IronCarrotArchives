@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Paid Packs Efficiency'
 weight = 6
 externalUrl = 'https://docs.google.com/spreadsheets/d/1knwIQHQXDfmAIEShW3QuybzBh9OerfHsYJgCVVYXqtw/'

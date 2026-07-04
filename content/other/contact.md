@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Contact'
 weight = 30
 [params]

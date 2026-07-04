@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Specialists'
 summary = "Arknights Specialist Mastery Priority guide covering every 6★, 5★, and 4★ Specialist — including Exusiai the New Covenant, Kirin R Yato, Ascalon, and more — with skill recommendations, fast-redeploy analysis, and priority rankings."

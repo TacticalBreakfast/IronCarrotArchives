@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Snipers'
 summary = "Arknights Sniper Mastery Priority guide covering every 6★, 5★, and 4★ Sniper — including Wiš'adel, Lemuen, Narantuya, April, and more — with skill recommendations and DPS comparisons."

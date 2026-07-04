@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Other Related Topics'
 summary = "An extended list and discussion of other Arknights topics that frequently come up in the Mastery Priority Guide."

@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'Talos Pioneers (Endfield Blueprints)'
 weight = 6
 externalUrl = 'https://talospioneers.com/en'

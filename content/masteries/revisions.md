@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Revisions'
 summary = "A listing of all updates to the Arknights Mastery Priority Guide."

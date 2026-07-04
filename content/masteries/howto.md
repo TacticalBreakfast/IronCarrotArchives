@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'How To Use This Guide'
 weight = 7

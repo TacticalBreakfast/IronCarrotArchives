@@ -1,5 +1,6 @@
 +++
 draft = false
+date = 2026-06-26T17:00:00-04:00
 title = 'Most Recent Update - Medjehtiqedti Bound'
 summary = "Arknights Mastery Priority guide for the most recent global update, Medjehtiqedti Bound — covering Titi, Perfumer the Distilled, and Varkáris — with skill recommendations and Priority rankings for the latest banner operators."
 weight = 9

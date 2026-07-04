@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 title = 'r/Arknights'
 weight = 8
 externalUrl = 'https://www.reddit.com/r/arknights/'

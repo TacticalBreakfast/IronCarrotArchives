@@ -1,4 +1,5 @@
 +++
+excludeFromRSS = true
 draft = false
 title = 'Vanguards'
 summary = "Arknights Vanguard Mastery Priority guide covering every 6★, 5★, and 4★ Vanguard — including Ines, Myrtle, Bagpipe, Cantabile, and more — with skill recommendations, breakpoints, and DP generation analysis."
