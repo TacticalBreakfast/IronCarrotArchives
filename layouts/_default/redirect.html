@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={{ .Params.externalUrl }}">
+  <link rel="canonical" href="{{ .Params.externalUrl }}">
+  <script>window.location.replace("{{ .Params.externalUrl }}");</script>
+</head>
+<body>
+  <p>Redirecting to <a href="{{ .Params.externalUrl }}">{{ .Params.externalUrl }}</a>...</p>
+</body>
+</html>
