@@ -21,6 +21,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**July 12, 2026**
+
+Updated for First of a Thousand Autumns. Moved Medjehtiqedti Bound to the main guide. Added Wang, Ch'en the Dawnstreak, Ju, and Taraxacum. Updated the lookaheads.
+
 **June 27, 2026**
 
 Somehow Scavenger's writeup got blown away. It's fixed now. Also fixed a typo in Courier's write-up.

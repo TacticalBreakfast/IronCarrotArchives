@@ -23,12 +23,16 @@ tags = ['Mastery', 'Future Content', 'Arknights', 'Guide', 'Skill Priority']
 
 ## Overall Pull Priority
 
+July update: New this update are the MH collabs. Orchid2 and Yato2 both slot into Lean Pull. I like Yato2 more between them, and think she might slide up to Strong Pull next patch when Wang and Chen3 rotate off. Orchid2 is solid, but could even slide to Lean Skip depending on the power level in a few months. Meanwhile, Kal2 goes up to Strong Pull. While that kit clunkiness is still there, she has so much of value packed into her kit that she's proven to be very viable in both general and endgame play.
+
+Aphrissa will be added next update, but unfortunately, she's very likely to be a Strong Skip.
+
 | Tier | Units |
 |:---|:---|
-| **Strong Pull** | Wang (limited), Ch'en the Dawnstreak, Closure |
-| **Lean Pull** | Kal'tsit·Esperanta (limited) |
+| **Strong Pull** | Wang (limited), Ch'en the Dawnstreak, Kal'tsit·Esperanta (limited), Closure |
+| **Lean Pull** | Violet Mizutsune Orchid (collab limited), Kirin R Yato (collab limited, rerun) |
 | **Lean Skip** | Zima the Raging Tide, Bellone |
-| **Strong Skip** | Titi, Necrass (rerun) |
+| **Strong Skip** | Necrass (rerun) |
 | **Meta-value 4-5★s** | None |
 | **Niche-value 4-5★s** | None |
 
@@ -39,10 +43,6 @@ A few important notes regarding this list:
 4) Welfare 6★s are not included since they do not need to be pulled for. They should always be obtained to max potential for future gold certs. See the lookaheads below for if they are worth raising.
 5) The bar to be included in the 4-5★ section is extremely high. This does not mean most upcoming ones are bad, but the power ceiling is currently so extreme that *very* few are ever worth pulling for.
 6) I don't mind you posting this list elsewhere, but please credit it and please please PLEASE include these footnotes. Posting just the list out of context gets all sorts of weird responses.
-
-June update: New this update, Closure and Kal2 make their debuts. Closure is an easy Strong Pull, but Kal2 actually isn't quite as insane as you might expect. Of course, being a limited means for most people she'll be a Strong Pull anyway, although I’m personally ranking her slightly lower here. Zima2 also gets kicked down to Lean Skip. A lot of people really like her, but I have a tough time seeing the value compared to the clear top-dogs due to her relatively low ceiling. However, she could creep back up after Wang if the general power trend continues down.
-
-Orchid2 for the MH collab will be added next update, but since I know many people will be curious, initial impressions aren't that great. She's not bad at all, and I personally really like her (love FRDs) but the FRD tax means her skill impact isn't as good as some recent units. She'll probably be a Lean Pull, but if she wasn't a true collab limited, could potentially slip to Lean Skip. The Yato2 rerun will probably be a Strong Pull, although I’m undecided where she balances compared to Orchid2.
 
 ## Pull Priority Blurbs
 
@@ -60,7 +60,15 @@ Yet another extremely powerful Vanguard, Closure is the more powerful story-carr
 
 **Kal'tsit·Esperanta**
 
-Kal2 isn't quite as powerful as we've come to expect, but she is still very good. She has AoE True Damage, with great control and healing, in addition to a potentially broken redeployment skill she can flex to. However, no single item (like her damage or healing) is really a top-dog among recent 6★s, so if you ignore the fact she's a limited, she's not as necessary as even her non-limited banner mate.
+Kal2 is a unit who is more than the sum of her parts. No individual aspect will likely blow you away, and there's some details in her kit that can cause headaches, but when you combine her strong healing, good range, AoE True Damage, strong control, great survability, and a powerful flex skill, you have a great total package that is valuable in all sorts of gameplay.
+
+**Violet Mizutsune Orchid**
+
+Orchid2 is a Fast-Redeploy Sniper that can deploy to melee tiles. That makes her very flexible and reasonably powerful. However, her DPS isn't as crazy as we're used to so she's not quite as impactful as many recent 6★s, nor is she as flexible as her fellow MH 6★, Yato2.
+
+**Kirin R Yato**
+
+In years past, Yato2 has shown the problem with meta units being in collabs. She is by far the best FRD in the game, but was forever locked to new players. FRDs tend to retain some of their value (relatively) even as the power increases and Yato2 is still a top-tier unit. Her DPS has waned a bit, but her utility more than makes up for it still to this day. If you don't already have her, you probably don't want to miss your chance to pick her up!
 
 **Zima the Raging Tide**
 
@@ -70,53 +78,11 @@ She has a very powerful and easy to use AFK skill that will appeal to many peopl
 
 Bellone has really high ST DPS and strong DEF-shred, meaning he will rip up a lot of stages and enemies. He has a really high floor that will appeal to some people, with just enough high end value to warrant at least a look. However, he is far less versatile than many other DPS units, including several upcoming ones. That makes him tricky to recommend. Older players will already have better options, and newer players will get better value from their pulls saving for the better options.
 
-**Titi**
-
-She has some pretty strong utility, but ultimately Sleep is one of the weaker forms of control. There’s places she’s great in, but she’s ultimately a bit too situational relative to the other upcoming options, and a bit lackluster if she can’t take advantage of her gimmicks.
-
 **Necrass**
 
 She’s a powerful general unit, but has a much lower ceiling than the other upcoming top dogs. If her summon gets stat-checked, she’s just raw damage, and while her damage is good, it’s not special either. She’s a solid carry sort of unit, but we have a lot of those now with higher ceilings.
 
 ## Unit & Masteries Lookaheads
-
-### First of a Thousand Autumns
-
-*Estimated Release: July*
-
-#### Wang
-
-**6★ · Gacha Limited**
-
-Wang is an incredibly powerful unit. He’s the sort of unit that I find is a bit tough to write about, because he’s actually kinda simple despite a rather wordy kit. Put down traps, do a fuck ton of damage. And if being a Trapmaster scares you, don’t worry because he’s super easy to use. You don’t have to think about planning like you have to with Dorothy, because he’s got a million traps! Just keep throwing them down until the map is dead. He’s got a ton of RES-ignore too, so unlike a lot of map-solo-carry types, he also has a high ceiling. He can even place traps under enemies, and on undeployable tiles, and his traps hit aerial enemies! He really is as good as people say, and I have trouble even digging for con to balance this write-up out.
-
-S3 is his main skill and will be an easy S++ grade. In addition to a ton of damage, it’s the skill that gives him all those traps to use, giving it both a low skill requirement and a high ceiling. It also has his biggest range and removes a lot of those pesky map restrictions. Don’t sleep on S2 though. It’s a bit more like a typical Trapmaster skill, but does more damage per mine, with control. While it may not have as many traps as S3, it generates 2 per activation so is still very forgiving compared to his fellow Trapmasters. Last, his S1 is notable but will probably be ungraded. It does even more damage than S2, but without the range and AoE benefit, which will make it much more situational and require more planning.
-
-*tl;dr S3 is an S++ skill > S2 is a lower-S or high-A-tier. Probably pass on S1.*
-
-#### Ch'en the Dawnstreak
-
-**6★ · Gacha**
-
-Wang is getting most of the attention this patch, but setting aside the whole alter-alter thing, I’m a big fan of Ch’en the Dawnstreak. While she is primarily just raw damage, something I just got done criticizing Sakiko for, she is so abusable against some of the biggest HP bloat in the game that I think I like her just as much as Wang. Hopefully I don’t regret this take, but the fact her damage can toggle between what’s best, scales with enemy HP, and comes in an often abusable form (the dragon) means that Ch’en3 has a good chance of being a DPS mainstay for a long long time. For Masteries, S3, which has all that, is the clear winner and will likely be an S++ graded skill. S2 will also be graded, but probably lower than many people expect. It does less damage and the jumping is mostly an unpredictable gimmick that will cause many more headaches than it solves. It’s mostly a finesse skill for Youtube clips, and will rarely outperform S3. S1 will be ungraded and likely a pass for anyone but waifu-lovers. It does good damage, but Silence is fairly common now (and of questionable value) and S3 is better (dead enemies are better than silenced enemies) so there’s not a lot of places for it to shine.
-
-*tl;dr S3 is an S++ skill. S2 is secondary, but probably a low A or B-tier skill. S1 ungraded and probably a pass.*
-
-#### Taraxacum
-
-**5★ · Gacha**
-
-After a long streak of pretty damn good 5★s, Ju and Taraxacum sadly spoil things, which is a bit surprising given how things have gone both in terms of power and quality of design. In Taraxacum’s case, I’m not really sure what the goal was. HG has been pushing the floating theme for a while now, but with how the game is designed, it’s unlikely to ever be a required concept (why would they want to make 95% of the roster unusable in a gacha game?), let alone on a mediocre 5★ Medic. Even within the flying gimmick he isn’t particularly good, although it might come in handy in rare circumstances in a few niches. He’s the sort of unit that’s tough to even make a clear recommendation since both skills are pretty mediocre. S1 has a higher primary HPS and the longer uptime may prove useful with the take-off gimmick, while S2 can handle multiples better without getting distracted by RNG and has a better cycle. Pick your poison, if you bother at all.
-
-*tl;dr Ungraded, but both could be options. Probably lean S2.*
-
-#### Ju
-
-**5★ · Welfare**
-
-After a long streak of pretty damn good 5★s, Ju and Taraxacum sadly spoil things, which is a bit surprising given how things have gone both in terms of power and quality of design. In Ju’s case, he’s perplexingly undertuned with a perplexing hamstring and mostly useless utility. HP threshold skills are never good, but Ju doesn’t even do good damage to complement him. Totter and Toddifons will both outperform him most of the time, even in less than ideal circumstances! Then there’s the Critically Wounded aspect which isn’t bad per se, but has pretty low value on a slow attacking high-DP unit. Just big question marks all around. What a waste of a cool design and great lore! He’ll be ungraded, but strongly favor his S2 if you choose to raise him anyway. S1 is stuck with the killer targeting threshold, and has negligible gains, so there’s little reason to consider it.
-
-*tl;dr Ungraded, but S2 if you raise him. Skip S1.*
 
 ### Crossing
 
@@ -218,3 +184,26 @@ Vij (or maybe Viy, idk) continues the recent trend of 6★ Welfares which are no
 
 *tl;dr S3 (likely low-B) > S2 (likely mid-C). Pass on S1.*
 
+### Thunder in the Azure Dream - Monster Hunter 2
+
+*Estimated Release: November*
+
+#### Violet Mizutsune Orchid
+
+**6★ · Collab Limited Gacha**
+
+Orchid2 is a very interesting unit that I'm personally quite pleased with, however she is a fair bit off of the top level of DPS we've gotten used to, which may leave some people disappointed. Similar to April (❤️), her faster redeployment and semi-invulnerability leads to a lot of unexpected flexibility. Orchid2 then brings that a step further by being able to be deployed on melee tiles too! While certainly not earth-shattering, that's still fairly novel and potentially powerful, depending on the map.
+
+Orchird2 will likely be a graded M9, but S2 is the standout. The DPH on it is nothing special, but it does a lot of AoE damage in a huge area (a questionable design choice for "arrows" but that's a rant for another day) and is the skill that has her survivability on it, an aspect notably missing from the other two skills. You won't be killing many boss enemies with it, but it's a skill that will handle the rest of the map with relative ease.
+
+After that, there's a relatively interesting decision between her remaining skills. S1 will actually be the "better" choice. Low-SP Charge-based skills always tend to be good, and its stronger ST damage gives her a good and consistent source of damage, on top of some strong Mastery gains. S3 meanwhile is the "flashier" skill and will certainly have some value, especially against "giant" boss types, but anyone who has used Fartooth will know that the straight line range is surprisingly restrictive and the wind-up time leaves her vulnerable. People who favor getting the most use out of Orchid2 should do S1 second, while people who want more "broad" use out of her should favor S3. Probably anyway. I haven't exactly decided how to handle the nuance in terms of grades or recommendations.
+
+*tl;dr S2 the highest priority, likely mid to lower S-tier. After that it gets nuanced, if you bother to do a second at all, but both S1 and S3 will be graded.*
+
+#### Zinogre S Catapult
+
+**5★ · Collab Limited Gacha**
+
+Although she's a bit disappointing design-wise, only granting generic 5★ DPS with the Mercenary gimmick instead of some more interesting interaction, Catapult2 is decent enough to be usable if you want. She has enough DPS, and some flexibility between her two skills that she is more than functional. She's not a special quantity either, however. S1 is a decent AoE and hit-count skill, while S2 provides a much bigger and viable burst on a relatively low cooldown. However, as said, her DPS isn't a special-tier and the DP cost is a steep price when better DPS options exist at the rarity. The 5★ Guards are a pretty decent group already, so even her niche potential is relatively muted. Still, it's enough that she should pick up some grades.
+
+*tl;dr If you plan to use her, you'll need to Master both skills. S2 will probably be slightly higher, but both roughly in the B-tier.*

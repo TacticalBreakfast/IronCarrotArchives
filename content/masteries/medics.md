@@ -21,6 +21,24 @@ tags = ['Mastery', 'Medics', 'Arknights', 'Guide', 'Skill Priority']
 - [4★ and 5★ Ungraded Medics](#4-and-5-ungraded-medics)
 ## 6★ Medics
 
+### Titi
+
+{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A|S2M3,B+,A+" pool="1" >}}
+
+Relative to her contemporaries, many of which are exceedingly overpowered, Titi can feel a bit weak. Incantation Medics tend to have high HPS and DPS, but she is reliant on the Sleep mechanic to make full use of it which tends to be an awkward form of control on an already awkward archetype. There are immunities to deal with, especially on bosses, but more so, Sleep doesn't interact well with allies, which tends to make it the worst form of control. Still, as a modern 6★, Titi has more than enough power behind her kit to still be viable, and the Sleep that is her major drawback also gives her some endgame value, albeit situational.
+
+The Masteries to pursue with Titi will heavily depend on the type of player you are, what you want out of her, and the general strength of your roster. For most players, that will settle on her S3. It's a fairly powerful wave-clear type of skill, which will put most enemies that enter her range to Sleep while doing heavy damage and healing. This is a more “typical” 6★ use, where your goal is to kill or heal as much as possible. That is, if your intent is to use Titi as much as possible, be it because you like her or because she is one of your best options, it is the skill you'll get the most use out of! Mastery on it is surprisingly powerful too. She has a lot of multipliers spread across her kit which means that the +30% ATK over Mastery actually has an outsized impact, on top of a big improvement to the Sleep pop damage. It's the type of Mastery that is close to essential if you plan to actually use the skill.
+
+However, as noted, Titi isn't particularly near the top of the meta. Players who already have high-powered rosters may instead find S2 to be the better skill. S2 has some special endgame value because enemies interact with our Sleeping allies in the same way our allies interact with Sleeping enemies. That is, they don't. With her S2, Titi puts herself and an ally to Sleep, which makes them both essentially immune to almost everything. This can be a great tool against any consistently repeating mechanic that would otherwise have no mitigation. The most prominent example of this is the foot stomp of IS#6 ED2, which normally needs to be played around with precise timing, but instead can just be bypassed with Titi's S2.
+
+This means her S2 could be the better starting point for some players. However, in such a case, you'll probably want to do both skills anyway, especially for that IS#6 usage, as you'll likely be using her S3 instead on most stages leading up to the boss. For the less Advanced players, investing into S2 may not be worth it at all too since it's very situational. There's very few bosses in the life of the game where Titi's S2 is the best solution, and the rest of the skill just isn't as good as her S3!
+
+As for the Masteries themselves, they are again quite powerful on her S2. The damage increase is significant, but that's not really the reason to use the skill over her S3. Instead, the main value is over the SP costs. The base SP cost improves from 25 SP to 20 SP over Mastery, which is a massive improvement for a skill who you absolutely need to have available as needed. The initial SP also gets a strong improvement, dropping from 13 SP to just 5 SP. Those can be subtle improvements for more casual players, but are vital to others.
+
+Last, pass on her S1 which has almost no upside compared to her S3. It's a bit perplexing actually. It does worse damage, has worse uptime, and adds RNG to her control. It's an unusual case of skill with virtually no real usecase, where most filler skills at least have some sort of fringe advantage if you squint. The only reason to pursue it would be to show off your max investment.
+
+{{< last-updated "2026-06-18" >}}
+
 ### Mon3tr
 
 {{< mastery-table-enhanced id="4179_monstr" rows="S3M3,S++,S++|S2M3,A+,A+" pool="1" >}}

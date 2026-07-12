@@ -290,6 +290,18 @@ S2 is a strong secondary Mastery for her. As mentioned, S3 historically had rela
 
 ## 5★ Supporters
 
+### Perfumer the Distilled
+
+{{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" pool="1" >}}
+
+Perfumer the Distilled is an unexpected mix-up of the Abjurer archetype. Before her, they all fell into two groups. They were either bimodal (bad) or infinite duration (good). Perfumer2, however, has a single-use helidrop skill that makes her unique among the group. That's enough to elevate her above the “bad” group and can make her a viable niche consideration, since she acts as an emergency button with her relatively strong effective-HPS, but she's still well behind the “good” group, and thus still a relatively fringe consideration. Even for the waifu players, her original 4★ version will very often be the stronger choice!
+
+So most players shouldn't be raising this version of Perfumer2, but if you choose to for whatever reason, both skills *can* be options depending on how far you want to take it. However, her S2 is by far the better choice. It's the skill that has the aforementioned helidrop so it comes out ahead by that virtue of uniqueness. It has some decent gains as well, although they aren't exceptional either. The Sanctuary effect improves by 4.2 to 6.6%, depending on potentials and Modules, on top of a roughly 12% HPS improvement from the ASPD. It also gets a strong improvement to the buff effect, although the net impact of that aspect is relatively low. These improvements are far from earth shattering, but considering the situations such a skill would be used in, they can make all the difference.
+
+Meanwhile, her S1 may appeal to those who *really* want to get the most out of Perfumer2, but it is much less special (and her S2 isn't all that special to begin with). Since S2 is single use, it has a long effective cycle, so the consistency of her S1 may occasionally come out ahead. The burst healing on it is very strong and on a short cooldown, and she can maintain 100% uptime on the DEF buff which might give it some niche applications. However, it is Auto-Activation, meaning that most of the time, a large chunk of the healing will be wasted. If the DEF buff isn't needed, it can be a very frustrating skill on an already fringe unit.
+
+{{< last-updated "2026-06-18" >}}
+
 ### Uika Misumi
 
 {{< mastery-table-enhanced id="4184_dolris" rows="S2M3,B,B+|S1M3,None,None" pool="12" cn_link="https://prts.wiki/w/%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E" >}}

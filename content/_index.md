@@ -8,9 +8,9 @@ Blog Post - [Welcome to Iron Carrot Archives!](posts/welcome)
 
 Blog Post - [Why the name "Iron Carrot Archives"?](posts/whyica)
 
-New Update - [Medjehtiqedti Bound Mastery Update](masteries/mostrecent)
+New Update - [First of A Thousand Autumns Update](masteries/mostrecent)
 
-New Article - [Medjehtiqedti Bound Mastery Article](articles/titi)
+New Article - [First of A Thousand Autumns Article](https://sanitygone.help/en/guides/mastery-first/)
 
 Tier List Update - [Medjehtiqedti Bound Tier List Update](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 

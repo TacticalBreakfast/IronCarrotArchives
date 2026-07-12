@@ -470,6 +470,18 @@ Finally, his S1 is not generally worth considering, but may have some value if y
 
 ## 5★ Guards
 
+### Varkáris
+
+{{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" en_link="https://sanitygone.help/en/operators/varkaris/" pool="3" >}}
+
+Varkáris is one of those units you have to be a little cautious about, depending on the type of player you are. He's actually a pretty decent unit since Centurions are a “high floor” sort of unit, meaning that their baseline performance is pretty good. He can hold a lane, do decent damage, and has good self-sustain. That's not too bad for a Welfare! But at the same time, with few exceptions, Centurions also tend to have a “low ceiling”. So while he's decent, he's also rarely the optimal choice and has little long-term value, especially as a 5★. If what matters to you is optimal use of your resources, you'll get a much better return on your investment and value out of your team slot elsewhere. Even lacking stronger units, most players will get better results sticking with cheaper stop-gaps, especially since Centurions really need their E2 to function.
+
+If you do choose to raise him, his S2 will usually be his better skill. Burst skills are generally better in the first place, but it also has his self-sustain, which his S1 completely lacks. The gains over Mastery aren't that special, but are still respectable. It has a relatively standard DPS gain, plus an additional 700ish HP of sustain, which is rarely lost thanks to his Barrier conversion. There's a noticeable improvement to his wind-up too, although it is still fairly long even at S2M3. Considering Centurions generally need their E2 anyway, going the extra mile with his S2 Masteries, which is also relatively inexpensive, can make sense if you plan to use him.
+
+If you really like him, you could consider his S1 as well. Since his S2 has a fairly high 45 SP cost, the consistency that his S1 brings can be a decent alternative. However, it doesn't have any sustain attached to it, meaning he'll generally need to be babysat by a healer of some kind, so it is a far more generic and sub-optimal solution. It's also worth noting that while most skills of this type get an SP improvement over Mastery, Varkáris does not. It remains at 4 SP from SL7 up to S1M3, nor is the damage gain especially strong. That ultimately leaves his S1 as a strictly husbando-only tier of skill.
+
+{{< last-updated "2026-06-18" >}}
+
 ### Hadiya
 
 {{< mastery-table-enhanced id="394_hadiya" rows="S2M3,C+,C+|S1M3,None,None" pool="6" >}}
