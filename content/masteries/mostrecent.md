@@ -2,7 +2,7 @@
 draft = false
 date = 2026-07-12T00:00:00-04:00
 title = 'Most Recent Update - First of A Thousand Autumns'
-summary = "Arknights Mastery Priority guide for the most recent global update, First of A Thousand Autumns — covering Wang, Ch'en the Dawnstreak, Taraxacum, and Ju — with skill recommendations and Priority rankings for the latest banner operators."
+summary = "An Arknights Mastery Priority guide for the most recent global update, First of A Thousand Autumns — covering Wang, Ch'en the Dawnstreak, Taraxacum, and Ju — with skill recommendations and Priority rankings for the latest banner operators."
 weight = 9
 [params]
   author = 'TacticalBreakfast'
