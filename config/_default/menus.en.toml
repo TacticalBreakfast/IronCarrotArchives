@@ -119,6 +119,12 @@
   url = "https://archiveofourown.org/users/TacticalBreakfast"
   weight = 30
 
+[[main]]
+  name = "Resources"
+  parent = "Other Content"
+  pageRef = "other/recresources"
+  weight = 35
+
 #[[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
