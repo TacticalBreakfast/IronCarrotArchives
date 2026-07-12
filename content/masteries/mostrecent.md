@@ -21,7 +21,7 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Wang
 
-{{< mastery-table-enhanced id="2027_wang" rows="S3M3,S++,S++|S2M3,A,S+|S1M3,None,C" pool="1" >}}
+{{< mastery-table-enhanced id="2027_wang" rows="S3M3,S++,S++|S2M3,A,S+|S1M3,None,C" pool="11" >}}
 
 Older readers of this guide may remember a time when the S++ grade could have an arbitrary number of +s. Once upon a time, the mighty SilverAsh (the first one) had an S++++ grade! So I have to wonder how many Wang would have if I kept up the trend. He is *by far* the strongest OP in the game as of his release. Would ten be enough? Twenty? I bring up this digression for one reason. Both here and the [Tier List](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/) now have a "cap" on their rankings. This is for practical reasons because outliers make an overall ranking much harder. Wang is such an outlier. Don't be "fooled" by his mere S++ grades here. He should be the first Mastery you do, and is the highest priority OP in the game, and will likely remain so for a long time.
 
@@ -73,7 +73,7 @@ Meanwhile, his S1 has the better HPS against one target and a much higher uptime
 
 ### Ju
 
-{{< mastery-table-enhanced id="4221_ju" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4221_ju" rows="S2M3,None,None" pool="4" >}}
 
 Despite great visual design and lore, Ju has one of the least interesting kits in recent memory. He's not even appreciably better than the 4★ of his archetype, Totter¹, so he's generally a unit to avoid raising. All he does, aside from some minor and inconsistent SP generation that wasn’t good when a 6★ did it five years ago, is restricted DPS (HP% thresholds are never good), and it's not especially good DPS at that. It is an absolute travesty the extra damage on his S2 only triggers once per enemy since he still wouldn’t be good even if it was every hit! This all means he's not even notable for niche play!
 
