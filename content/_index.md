@@ -12,7 +12,7 @@ New Update - [First of A Thousand Autumns Update](masteries/mostrecent)
 
 New Article - [First of A Thousand Autumns Article](https://sanitygone.help/en/guides/mastery-first/)
 
-Tier List Update - [Medjehtiqedti Bound Tier List Update](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
+Tier List Update - [First of A Thousand Autumns Tier List Update](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
 <!--
 {{< article-links sg="https://sanitygone.help/en/guides/mastery-bound/" ld="https://lungmendragons.com/guides/mb-mastery" reddit="https://www.reddit.com/r/arknights/comments/1u9ych8/a_mastery_priority_guide_should_you_pull/" >}}
