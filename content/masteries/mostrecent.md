@@ -17,7 +17,7 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Full Articles
 
-{{< article-links sg="https://sanitygone.help/en/guides/mastery-first/" ld="https://lungmendragons.com/guides/first-mastery" >}}
+{{< article-links sg="https://sanitygone.help/en/guides/mastery-first/" ld="https://lungmendragons.com/guides/first-mastery" reddit="https://www.reddit.com/r/arknights/comments/1uv86jb/a_mastery_priority_guide_should_you_pull_first_of/">}}
 
 ### Wang
 
