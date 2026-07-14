@@ -3,7 +3,7 @@ excludeFromRSS = true
 draft = false
 title = 'CN Lookahead (Spoilers)'
 summary = "Arknights CN Lookahead covering all upcoming banners, with pull Priority rankings and Mastery previews for future operators."
-weight = 8
+weight = 9
 [params]
   author = 'TacticalBreakfast'
 topic = 'Mastery Guide'
