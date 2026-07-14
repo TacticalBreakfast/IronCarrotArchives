@@ -1016,7 +1016,7 @@ Jackie's contribution to the group is a Dodge tank with much better odds than Be
 
 {{< mastery-table-enhanced id="159_peacok" rows="S1M3,None,None" pool="5" >}}
 
-Conviction is a gimmick unit, which is appropriate given she is quite literally an April Fool's joke. They aren't a unit you should generally consider raising for regular use, but as far as gimmick units go, is a pretty fun one (on top of being a cheap 4★).
+Conviction is a gimmick unit, which is appropriate given they're quite literally an April Fool's joke. They aren't a unit you should generally consider raising for regular use, but as far as gimmick units go, is a pretty fun one (on top of being a cheap 4★).
 
 Their S1 is probably the skill you'll want to be using. The gimmick is that it has a very low chance to do a ton of damage, and combined in a buff army team (and a lot of patience) can result in some really comical and impressive hits. The low chance means it's not a skill to generally use, but still tends to be their better skill if you really want to use Conviction as much as possible.
 
