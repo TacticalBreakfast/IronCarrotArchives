@@ -36,7 +36,6 @@ STAT_NUM_LINE_RE = re.compile(r"^[\d.]+(?:\s*[/\-]\s*(?:mod\s+)?[\d.]+)*$")
 PAREN_COMMENT_RE = re.compile(r"^\(.*\)$")
 
 AUTHOR = "TacticalBreakfast"
-DEFAULT_POOL = "1"
 
 
 @dataclass
@@ -254,7 +253,7 @@ def render_sections_verbatim(sections: list[tuple[str, str]]) -> str:
 
 # ── ICA (Hugo, TOML frontmatter) ─────────────────────────────────────────
 
-def build_ica(article: Article, pool: str) -> str:
+def build_ica(article: Article, pool: str | None) -> str:
     date_iso = article.date.strftime("%Y-%m-%dT00:00:00-04:00")
     last_updated = article.date.strftime("%Y-%m-%d")
     operator_names = [op.name for op in article.operators]
@@ -297,7 +296,8 @@ def build_ica(article: Article, pool: str) -> str:
         lines.append("")
         lines.append(f"### {op.name}")
         lines.append("")
-        lines.append(f'{{{{< mastery-table-enhanced id="{strip_char_prefix(op.operator_id)}" rows="{rows}" pool="{pool}" >}}}}')
+        pool_attr = f' pool="{pool}"' if pool else ""
+        lines.append(f'{{{{< mastery-table-enhanced id="{strip_char_prefix(op.operator_id)}" rows="{rows}"{pool_attr} >}}}}')
         for para in op.prose:
             lines.append("")
             lines.append(para)
@@ -489,7 +489,7 @@ def main() -> None:
     parser.add_argument("raw_file", type=Path, help="Path to the raw article markdown (e.g. 202607-wang-raw.md)")
     parser.add_argument("--output-dir", type=Path, default=None, help="Directory to write the four outputs (default: same directory as raw_file)")
     parser.add_argument("--character-table", type=Path, default=DEFAULT_CHARACTER_TABLE, help="Path to character_table.json")
-    parser.add_argument("--pool", default=DEFAULT_POOL, help=f"Value for the ICA 'pool' attribute (default: {DEFAULT_POOL}; edit data/pools.yaml keys by hand afterward if needed)")
+    parser.add_argument("--pool", default=None, help="Explicit override for the ICA 'pool' attribute. Omitted by default so the mastery-table-enhanced shortcode resolves it from data/operator_pools.yaml at build time instead.")
     parser.add_argument("--banner-alt", default=None, help="Alt text for the LD banner image (default: first word of the patch name, lowercased)")
     parser.add_argument("--skip-link-check", action="store_true", help="Don't verify the LD output's wiki.gg image links are reachable")
     parser.add_argument("--link-check-timeout", type=float, default=8.0, help="Timeout in seconds per link check request (default: 8.0)")
@@ -522,11 +522,13 @@ def main() -> None:
 
     ica_path = out_dir / f"{slug}-ica-markdown.md"
     operator_names = ", ".join(op.name for op in article.operators)
-    print(
-        f"\nREMINDER: every mastery-table-enhanced pool=\"{args.pool}\" in {ica_path} "
-        f"is a placeholder — update the pool for each operator ({operator_names}) "
-        f"by hand (see data/pools.yaml for the key -> pool name mapping)."
-    )
+    if args.pool is None:
+        print(
+            f"\nREMINDER: {ica_path} has no pool= attribute, so mastery-table-enhanced "
+            f"will resolve it from data/operator_pools.yaml at build time. Make sure each "
+            f"operator ({operator_names}) has an entry there — otherwise the site will show "
+            f'"Gacha pool not set (oops)" for them.'
+        )
     print(
         f"\nREMINDER: the article-links shortcode in {ica_path} has sg/ld/reddit "
         f"all set to \"TBD\" — update it with the real URLs once those versions are published."

@@ -23,7 +23,7 @@ tags = ['Mastery', 'Specialists', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Exusiai the New Covenant
 
-{{< mastery-table-enhanced id="1041_angel2" rows="S2M3,S++,S+|S3M3,S+,S++" pool="9" >}}
+{{< mastery-table-enhanced id="1041_angel2" rows="S2M3,S++,S+|S3M3,S+,S++" >}}
 
 For *any* meta-minded player, there is no answer except the M6 with Exusiai the New Covenant. She is one of the best units in the game, nearly universally ranked in the top three as of her release in all types of content. She is an absurdly good total package, packed with insane DPS and insane (and unique) utility. That utility is spread across both of her primary skills, so there is just no other answer than the M6. Do both.
 
@@ -42,7 +42,7 @@ Last is her S1. It's a pretty solid skill in its own right, but lacks the insane
 
 ### Thorns the Lodestar
 
-{{< mastery-table-enhanced id="1039_thorn2" rows="S2M3,A+,A|S1M3,C+,B|S3M3,C,B-,Breakpoint - S3M1" pool="1" >}}
+{{< mastery-table-enhanced id="1039_thorn2" rows="S2M3,A+,A|S1M3,C+,B|S3M3,C,B-,Breakpoint - S3M1" >}}
 
 Thorns the Lodestar is a creatively minded unit, and as far as Mastery investment goes, he can either be rather simple and cheap, or rather daunting and expensive, depending on how far you want to take his usage. This is because his main skill, S2, is far and above the others in terms of general usage, while his secondary skills, S1 and S3, are both valuable but tend to be much more fringe. So anywhere from M3 to a full M9 is a reasonable investment to consider!
 
@@ -65,7 +65,7 @@ If S3 seems like too much to bother with, consider his S1 instead which has its 
 
 ### Crownslayer
 
-{{< mastery-table-enhanced id="1502_crosly" rows="S3M3,B+ *,A- *|S2M1,None,None,Breakpoint - S2M1" pool="4" >}}
+{{< mastery-table-enhanced id="1502_crosly" rows="S3M3,B+ *,A- *|S2M1,None,None,Breakpoint - S2M1" >}}
 
 \* *Note that Crownslayer’s S3 is graded assuming she has her EXE-Y at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower. Crownslayer needs both to function.*
 
@@ -84,7 +84,7 @@ Her other skills are not really worth considering. Her special value is in that 
 
 ### Ascalon
 
-{{< mastery-table-enhanced id="4132_ascln" rows="S2M3,S-,S-|S1M3,B-,None|S3M3,C,B-" pool="1" >}}
+{{< mastery-table-enhanced id="4132_ascln" rows="S2M3,S-,S-|S1M3,B-,None|S3M3,C,B-" >}}
 
 Ascalon is a powerful unit, mixing some of the best control available on top of strong lingering DPS that often sees enemies dying as they walk, with no further interaction, allowing you to focus on more pressing threats. She is a high value and comfortable unit that’s useful in a wide variety of places. But she has one major knock against her which is that Ethan is even better at control while being a third of the price and free to recruit in IS. That isn’t to say Ascalon isn’t worth raising. Far from it! She cycles much better and does a lot more damage that makes her far more valuable in general content. However, among the top meta units she is one of the easier to replace as well.
 
@@ -99,7 +99,7 @@ So that in mind, you may want to consider her S3 as a secondary Mastery instead,
 
 ### Ela
 
-{{< mastery-table-enhanced id="4123_ela" rows="S3M3,S++,S++,Breakpoint - S3M1|S2M3,C,C,Breakpoint - S2M1" pool="12" >}}
+{{< mastery-table-enhanced id="4123_ela" rows="S3M3,S++,S++,Breakpoint - S3M1|S2M3,C,C,Breakpoint - S2M1" >}}
 
 Despite being a Trapmaster, Ela is more akin to a modern Marksman. She specializes in high DPS via dealing rapid fire hits at a low DP cost. But unlike the older Marksman, she hits hard and brings strong team utility via her mines which allow her to place Fragile and control almost anywhere on the map. In total, it makes Ela an extremely meta and powerful Operator for both everyday and Advanced use.
 
@@ -118,7 +118,7 @@ Pass on her S1. While the skill itself may have some occasional value, the Maste
 
 ### Swire the Elegant Wit
 
-{{< mastery-table-is id="1033_swire2" rows="S3M3,B,B+,A- *|S2M3,B+,B,C *|S1M3,C,C+,B- *,Breakpoint - S1M1" pool="1" >}}
+{{< mastery-table-is id="1033_swire2" rows="S3M3,B,B+,A- *|S2M3,B+,B,C *|S1M3,C,C+,B- *,Breakpoint - S1M1" >}}
 
 \* *Swire the Elegant Wit's IS grades assume Her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes.*
 
@@ -139,7 +139,7 @@ As for her ISW Module, as alluded to in the rest of the write-up, it’s on the 
 
 ### Kirin R Yato
 
-{{< mastery-table-enhanced id="1029_yato2" rows="S3M3,S++,S++|S2M3,S+,S-|S1M3,None,C" pool="12" >}}
+{{< mastery-table-enhanced id="1029_yato2" rows="S3M3,S++,S++|S2M3,S+,S-|S1M3,None,C" >}}
 
 At the time, there was a lot of debate on who was better since they came out so close together, Kirin R Yato or Texas the Omertosa. The time since has handed that victory pretty clearly to Yato2. Her crazy range and invulnerability have just held up better as powercreep has gone wild. Texas2, of course, has held up fine, and more FRDs are never bad, but this section isn’t about her. To the point now, Yato2 is one of the highest graded M6s in this guide, and has remained so even after the large scale guide overhaul, and that seems unlikely to change looking ahead too.
 
@@ -156,7 +156,7 @@ Last, her S1 has some interesting applications that make it a fringe option to c
 
 ### Texas the Omertosa
 
-{{< mastery-table-enhanced id="1028_texas2" rows="S3M3,S+,S+|S2M3,A+,A+" pool="9" >}}
+{{< mastery-table-enhanced id="1028_texas2" rows="S3M3,S+,S+|S2M3,A+,A+" >}}
 
 Texas the Omertosa is a powerful unit, although one that has declined ever so slightly as the power levels of the game have increased. While Kirin R Yato has maintained nearly all of her value, Texas2’s DPS and utility don’t look quite as good as they did on her release. That perception at the time was absurdly high with her. She really marks the beginning of the modern powercreep era. So this isn’t a huge knock against her and you should not come away from this blurb thinking she’s bad! She most certainly is not! FRDs are an eternally useful archetype, and Texas2 is still very powerful with strong damage and great utility. It’s just not *as* strong as it used to be is all.
 
@@ -171,7 +171,7 @@ Pass on her S1. It does worse damage than her S2 so the only upside is the Silen
 
 ### Dorothy
 
-{{< mastery-table-enhanced id="4048_doroth" rows="S3M3,B+,A-|S2M3,B,A-" pool="1" >}}
+{{< mastery-table-enhanced id="4048_doroth" rows="S3M3,B+,A-|S2M3,B,A-" >}}
 
 Dorothy is one of those units whose priority will depend on the sort of player you are. She is a high cost and high effort unit for results that can usually be found elsewhere. Most players likely won't want to invest deeply into her at all. However, if you're one of those players that finds satisfaction in that sort of gameplay, Dorothy can be extremely valuable with near mandatory Masteries. Trapmasters are generally reliant on renewing their traps to be effective, so the reduced SP cost alone is worthwhile before even looking into the effects, and Dorothy has big gains to the effects as well.
 
@@ -186,7 +186,7 @@ You likely won't want to bother with her S1. It's best focused on single hard ta
 
 ### Specter the Unchained
 
-{{< mastery-table-enhanced id="1023_ghost2" rows="S2M3,A *,A *|S3M3,B *,B *" pool="9" >}}
+{{< mastery-table-enhanced id="1023_ghost2" rows="S2M3,A *,A *|S3M3,B *,B *" >}}
 
 \* *Note that Specter2's skills are graded assuming she has either Module (favor PUM-X) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.*
 
@@ -203,7 +203,7 @@ Last, is her S1 which is mostly a gimmick and thus a skip. In theory, she can sw
 
 ### Lee
 
-{{< mastery-table-enhanced id="322_lmlee" rows="S3M3,C+,B-|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="322_lmlee" rows="S3M3,C+,B-|S2M3,None,None" >}}
 
 The fishman is a weird unit, but now a kinda bad one too. He was already weird on his release, which at least is expected with Merchants, but his gimmicks look a lot weaker than they used to. Not that they were ever terribly strong which leaves Lee as a desire only tier of 6★ in the modern game. He’s not unusable, and can still be a powerhouse when things line up well for him, but that’s rare and we have lots of other solutions now too. Further, as far as this guide goes, he doesn’t need Masteries for most of his value either.
 
@@ -218,7 +218,7 @@ Pass on his S1 entirely which has no upside compared to his other two skills. It
 
 ### Mizuki
 
-{{< mastery-table-is id="437_mizuki" rows="S2M3,B,B,S+ *|S3M3,None,None,B *|S1M3,B+,C,C *,Breakpoint - S1M1" pool="2" >}}
+{{< mastery-table-is id="437_mizuki" rows="S2M3,B,B,S+ *|S3M3,None,None,B *|S1M3,B+,C,C *,Breakpoint - S1M1" >}}
 
 \* *Mizuki's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.*
 
@@ -237,7 +237,7 @@ So the ultimate suggestion with Mizuki is to treat his S2 highest regardless of 
 
 ### Gladiia
 
-{{< mastery-table-enhanced id="474_glady" rows="S3M3,A *,A+ *|S2M3,A *,A+ *|S1M3,B+ *,A- *,Breakpoint - S1M1" pool="4" >}}
+{{< mastery-table-enhanced id="474_glady" rows="S3M3,A *,A+ *|S2M3,A *,A+ *|S1M3,B+ *,A- *,Breakpoint - S1M1" >}}
 
 \* *Note that Gladiia's HOK-X Module at level 3 is more important than any skill Masteries and should be pursued first.*
 
@@ -258,7 +258,7 @@ So, Gladiia is a unit with no easy answers if you can’t afford to do them all.
 
 ### Weedy
 
-{{< mastery-table-enhanced id="400_weedy" rows="S3M3,A+,S-|S2M3,B+,B+|S1M3,C,C,Breakpoint - S1M1" pool="2" >}}
+{{< mastery-table-enhanced id="400_weedy" rows="S3M3,A+,S-|S2M3,B+,B+|S1M3,C,C,Breakpoint - S1M1" >}}
 
 Weedy is one of the classic “Story vs Advanced” units. In fact, she’s the original reason there are two different grades in this guide. Remarkably, that’s still true today. She does her job of pushing so incredibly well that she has been persistently valuable at the high end of the game. But at the same time, she’s fundamentally situational and less valuable in day-to-day Story stages. She’s a unit that most people can get away with not promoting at all, but others will find her to be one of the most valuable members of the team! So if you’re a less experienced Story-centric player looking for the best bang for your buck, you should probably pass on Weedy for now. However, once you’re more established and start to look for more Advanced tactics, Weedy becomes one of the most valuable.
 
@@ -277,7 +277,7 @@ Phew. I made it through that entire write-up without making a Push Stroker or a 
 
 ### Phantom
 
-{{< mastery-table-is id="250_phatom" rows="S2M3,B+,B,A- *|S3M3,B-,B,A- *" pool="2" >}}
+{{< mastery-table-is id="250_phatom" rows="S2M3,B+,B,A- *|S3M3,B-,B,A- *" >}}
 
 \* *Phantom's IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes.* 
 
@@ -294,7 +294,7 @@ Pass on his S1. It’s not worthless exactly, but is rarely the best choice. In 
 
 ### Aak
 
-{{< mastery-table-enhanced id="225_haak" rows="S3M3,C,C+|S1M3,C+,None" pool="2" >}}
+{{< mastery-table-enhanced id="225_haak" rows="S3M3,C,C+|S1M3,C+,None" >}}
 
 Oh Aak. OGs will remember a time when he was the co-rateup on the very first limited banner, which didn’t even have a spark. This left an extremely sour taste in many’s mouths. Going for the hot dragon lady limited unit only to get an awkward-to-use furry did not ingratiate him to many. These days, he’s pretty firmly powercrept in all regards, so has little to no meta justification for promotion, although he’s usable enough if he appeals to you, especially thanks to the indirect buff courtesy of Exu2. So most people shouldn’t raise him, but all of his skills can be potentially valuable if you do.
 
@@ -311,7 +311,7 @@ Last, his S2 is a buff skill similar to S3, but defensively focused. That might 
 
 ### Mutsumi Wakaba
 
-{{< mastery-table-enhanced id="4183_mortis" rows="S2M3,A,A|S1M3,None,C" pool="12" cn_link="https://prts.wiki/w/%E8%8B%A5%E5%8F%B6%E7%9D%A6" >}}
+{{< mastery-table-enhanced id="4183_mortis" rows="S2M3,A,A|S1M3,None,C" cn_link="https://prts.wiki/w/%E8%8B%A5%E5%8F%B6%E7%9D%A6" >}}
 
 Dollkeepers are one of the natively good archetypes, so Mutsumi’s doll gives her a lot of inherent value already, but then she ramps it up further with some pretty serious upside. She is the best Fever generator, her Talent gives her some pretty extreme bulk¹, and she does some pretty strong DPS! While her rarity ultimately means she isn't a must-raise (neither the bulk or DPS compares to a meta 6★), she's one of the better possible options if you're looking to expand beyond top-meta units.
 
@@ -326,7 +326,7 @@ Meanwhile, her S1 is a really interesting skill that Ave Mujica hyper fans and b
 
 ### Umiri Yahata
 
-{{< mastery-table-enhanced id="4186_tmoris" rows="S1M3,B-,B-,Breakpoint|S2M3,C+,C" pool="13" cn_link="https://prts.wiki/w/%E5%85%AB%E5%B9%A1%E6%B5%B7%E9%93%83" >}}
+{{< mastery-table-enhanced id="4186_tmoris" rows="S1M3,B-,B-,Breakpoint|S2M3,C+,C" cn_link="https://prts.wiki/w/%E5%85%AB%E5%B9%A1%E6%B5%B7%E9%93%83" >}}
 
 Texas3 is our first double alt-¹  Wait, a black-haired Lupo ice-queen with mob ties isn't Texas? I find it so funny that when all these teenage girls got isekai'd to Terra, Umiri decided to just become a mob enforcer. After watching the anime, I am not at all surprised either. It's a great fit personality-wise! It's also the only way that it really makes sense she's an Ambusher, but I suppose that's not a matter we need to get bogged down about here.
 
@@ -347,7 +347,7 @@ You could consider her S2 as well. In fact, it has the better gains by far, so a
 
 ### Tippi
 
-{{< mastery-table-enhanced id="4191_tippi" rows="S2M3,C,C+|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4191_tippi" rows="S2M3,C,C+|S1M3,None,None" >}}
 
 Our second Skyranger is a bit of a miss. While not exactly bad, she doesn't do the basic job nearly as well as the cheaper 4★, Contrail, so the priority should go to her instead. That leaves Tippi as pretty much a niche or desire-only unit. If that's you, both of her skills have value, depending what you want out of her.
 
@@ -360,7 +360,7 @@ Meanwhile her S1 is just a worse version of Contrail's S2. There's not a lot of 
 
 ### Wulfenite
 
-{{< mastery-table-enhanced id="4171_wulfen" rows="S1M3,B,B+|S2M3,B,B" pool="1" >}}
+{{< mastery-table-enhanced id="4171_wulfen" rows="S1M3,B,B+|S2M3,B,B" >}}
 
 It’s not just tails that are THICC now! The 5★ Trapmasters have lost some of their luster between Ela and an ever expanding general power ceiling, but all of them have a quite nice variety of technical value that creative minded players will enjoy, and Wulfenite is no exception. She takes a bit after Ela in that she has fewer but more impactful traps, but she also brings the new niche by having them be manually activated, allowing for more precise timing.
 
@@ -373,7 +373,7 @@ However, it’s worth noting that neither of her Masteries are all that valuable
 
 ### Tin Man
 
-{{< mastery-table-is id="4151_tinman" rows="S2M3,A-,B+,A+ *|S1M1,None,None,None,Breakpoint - S1M1" pool="4" >}}
+{{< mastery-table-is id="4151_tinman" rows="S2M3,A-,B+,A+ *|S1M1,None,None,None,Breakpoint - S1M1" >}}
 
 \* *Note Tin Man's IS grade is specific to IS#5 due to his iteration specific Talent. He does not have special value in the other iterations.*
 
@@ -388,7 +388,7 @@ His S1 may be worth a look as well, but probably not beyond the M1 breakpoint. T
 
 ### Iana
 
-{{< mastery-table-enhanced id="4124_iana" rows="S2M3,B-,B+|S1M3,C,C+" pool="12" >}}
+{{< mastery-table-enhanced id="4124_iana" rows="S2M3,B-,B+|S1M3,C,C+" >}}
 
 Iana is an interesting iteration of the Dollkeeper archetype, which is already natively interesting! But before evaluating Iana's skills, it is extremely important to note there is a part of her kit which is not stated in her in-game descriptions. If her S2 is ready, then it automatically triggers when her Talent is triggered. Also, regardless of how it is triggered, the substitute lasts for 20 seconds, but S2's duration is only 10 seconds, so she must wait out the second half of the substitute before triggering again. This also means S2's effective charge time is 25 seconds with 15 seconds of downtime. Further, if S2 is triggered manually, the Fragile from her Talent does not apply.
 
@@ -403,7 +403,7 @@ Niche players may find some value in her S1 as well, although it’s nowhere nea
 
 ### Enforcer
 
-{{< mastery-table-enhanced id="4036_forcer" rows="S2M3,B-,B|S1M3,C,C" pool="4" >}}
+{{< mastery-table-enhanced id="4036_forcer" rows="S2M3,B-,B|S1M3,C,C" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -418,7 +418,7 @@ That isn’t the case with his S1 though. All of the Pushers have this type of s
 
 ### Kazemaru
 
-{{< mastery-table-enhanced id="4016_kazema" rows="S2M3,A,A-|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4016_kazema" rows="S2M3,A,A-|S1M3,None,None" >}}
 
 Kazemaru is one of the better general purpose 5★s and a personal favorite of mine. She’s a great general implementation of the Dollkeeper archetype that gives her low cost, strong damage, and good survivability. That’s both good and bad because it means she’s extremely easy to use for good results if you’re looking to lean into non-meta clears, but it also means she’s not all that special in terms of things only she can do. That makes for a tricky general suggestion though because it’s hard to assess your personal value of such things compared to promotion costs, especially as the power ceiling continues to grow. Kazemaru can be a great promotion for you, but she could also be ultimately wasted resources for a temporary stand-in.
 
@@ -431,7 +431,7 @@ Her S1 is ungraded due to it being quite a bit more niche on a non-meta unit, bu
 
 ### Bena
 
-{{< mastery-table-enhanced id="369_bena" rows="S2M3,B-,B-" pool="4" >}}
+{{< mastery-table-enhanced id="369_bena" rows="S2M3,B-,B-" >}}
 
 Bena is a pretty decent Welfare unit, although far from an essential one. She was the first Dollkeeper, which it turns out is a great archetype. There’s a decent amount of them now, but Bena’s special value here is the DR on her doll via her Talent, which makes her damn near unkillable. That can be pretty useful, however her damage is on the weaker side, and as the first Dollkeeper, her skills have long effective cooldowns. One of the problems with the archetype is that they don’t generate SP in doll form, meaning they effectively add 20 seconds on to any additional downtime. Since Bena’s main skill, S2, will frequently kill her without outside help, it can ultimately make for a clunky to use unit if her unkillable nature isn’t called for.
 
@@ -442,7 +442,7 @@ As said, her main skill is her S2 which has a far higher DPS in most cases. Whil
 
 ### Mr. Nothing
 
-{{< mastery-table-enhanced id="455_nothin" rows="S2M3,C *,C+ *" pool="2" >}}
+{{< mastery-table-enhanced id="455_nothin" rows="S2M3,C *,C+ *" >}}
 
 \* *Note that Mr. Nothing's MER-X Module at level 3 is more important than any skill Masteries and should be pursued first.*
 
@@ -459,7 +459,7 @@ His S1 is probably a pass, although it can be interesting if you plan to make re
 
 ### Kafka
 
-{{< mastery-table-enhanced id="214_kafka" rows="S1M3,C,C+|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="214_kafka" rows="S1M3,C,C+|S2M3,None,None" >}}
 
 Kafka is one of the most troublesome units for me in this guide. She’s a good unit, but for reasons completely unrelated to her Masteries. In fact, many people keep her at E0 for this reason just for the lower DP cost. This is because her main value is in the Sleep on her S1 which surprisingly doesn’t change in duration *at all*. Then she’s retreated immediately for a faster cycle so the damage aspect never even triggers. So for many, even E1 can seem like a waste, if not a downgrade, let alone E2 and Masteries!
 
@@ -474,7 +474,7 @@ Instead, you could consider her S2. It has a lot better DPS and a lot better Mas
 
 ### Frost
 
-{{< mastery-table-enhanced id="458_rfrost" rows="S2M3,B-,B" pool="12" >}}
+{{< mastery-table-enhanced id="458_rfrost" rows="S2M3,B-,B" >}}
 
 Frost came out very close in time to Robin of the same archetype and rarity, which resulted in a lot of comparisons between them. Frost is a collab unit though and no longer available, but lest you be concerned, worry not, because Robin is generally better. Frost is the more damage-oriented of the two. In a lot of archetypes, that would give her the favor, but Trapmasters are really good at control, something that has given Robin a lot of value even in the modern game, value that Frost lacks, relegating her mostly to situational niche clears.
 
@@ -487,7 +487,7 @@ Probably pass on her S1. While Stun is a generally valuable form of control, the
 
 ### Robin
 
-{{< mastery-table-enhanced id="451_robin" rows="S1M3,B,B+|S2M3,C+,B+" pool="4" >}}
+{{< mastery-table-enhanced id="451_robin" rows="S1M3,B,B+|S2M3,C+,B+" >}}
 
 Robin is a rare case where a 5★ has actually seen her value go up with time. While nowhere near as strong as the 6★ Trapmasters, Robin has proven to have quite a bit of value as a lower rarity control option, particularly in niche clears. That control is situational though, and a lot of people don’t find the micromanagement required to be an appealing type of gameplay, so Robin is still not a general promotion consideration. However, if you’re a braver player looking for flexible options, Robin is a pretty good choice.
 
@@ -502,7 +502,7 @@ Her S2 meanwhile can potentially be even more powerful, but is more situational.
 
 ### Cliffheart
 
-{{< mastery-table-enhanced id="173_slchan" rows="S2M3,B-,B+|S1M3,C,C" pool="14" >}}
+{{< mastery-table-enhanced id="173_slchan" rows="S2M3,B-,B+|S1M3,C,C" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -517,7 +517,7 @@ Most players shouldn’t bother with her S1, but it may have some value to low r
 
 ### FEater
 
-{{< mastery-table-enhanced id="241_panda" rows="S2M3,B-,B|S1M3,C,C" pool="2" >}}
+{{< mastery-table-enhanced id="241_panda" rows="S2M3,B-,B|S1M3,C,C" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -534,7 +534,7 @@ Her S1 is more replaceable, but still good if you want to maximize her. Historic
 
 ### Manticore
 
-{{< mastery-table-enhanced id="215_mantic" rows="S1M3,B,B|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="215_mantic" rows="S1M3,B,B|S2M3,None,None" >}}
 
 Manticore is one of those units that is good, but what she does is far from essential. Worse, she's a relatively rare case where the 4★ in her archetype is *significantly* better. Ethan is one of the best 4★s in the entire game and is easily accessible, which makes Manticore a desire or niche-tier of unit despite otherwise being pretty decent.
 
@@ -549,7 +549,7 @@ Finally, it is amusing that part of her character gimmick is being invisible to 
 
 ### Projekt Red
 
-{{< mastery-table-enhanced id="144_red" rows="S1M3,B,B+|S2M3,C+,B+" pool="2" >}}
+{{< mastery-table-enhanced id="144_red" rows="S1M3,B,B+|S2M3,C+,B+" >}}
 
 Projekt Red is a somewhat tricky unit because she’s the sort of unit that’s invaluable in niche clears, but doesn’t quite have the oomph to hang in the meta anymore. For many people, just E1 for an occasional stun-bomb will be sufficient investment, but for others, Red is a valuable M6 mod3 consideration. If you exclude the giga-powerful limited/collab 6★s, Red is still one of the most valuable Executors (although appropriately, CS is at least giving her some competition now)!
 
@@ -566,7 +566,7 @@ Meanwhile, her S1 plays into her minimum damage Talent. That used to be pretty v
 
 ### Contrail
 
-{{< mastery-table-enhanced id="4165_ctrail" rows="S2M3,B+,A-" pool="6" >}}
+{{< mastery-table-enhanced id="4165_ctrail" rows="S2M3,B+,A-" >}}
 
 Skyrangers are a pretty weird archetype, and it turns out to be a pretty good one too, just not for the reason most people think. Blocking aerial enemies is what catches most people's eye, but the actual power comes from the fact they can't be targeted while airborne and have some really strong uptime. This makes Contrail one of the better 4★s in the game as she can take off and rain some solid DPS down upon your enemies, while being almost entirely safe herself.
 
@@ -577,7 +577,7 @@ However, from a Mastery perspective, she isn't that high in priority. There's tw
 
 ### Jaye
 
-{{< mastery-table-enhanced id="272_strong" rows="S2M3,A+,A-" pool="3" >}}
+{{< mastery-table-enhanced id="272_strong" rows="S2M3,A+,A-" >}}
 
 Jaye is one of those funny units. On his release, he seemed absurd, and one of the most common community debates was if you should raise him or not due to his base skill. That’s a pretty dated debate now since there’s a ton of better TP combos though, so there’s really no issue with raising him. However, his power seemed ridiculous for his rarity, and still sort of is. Even now, few units have the sort of sustain Jaye does. However, as enemy DEF ever increases, which Jaye struggles with, and the power ceiling continues to rise, Jaye declines significantly from his peak. He is still an amazing and will help a lot of people early on, but these days Ethan is the far more powerful long term 4★ Specialist. For a vast majority of purposes, including IS, Jaye will work perfectly fine at E1 SL7.
 
@@ -592,7 +592,7 @@ Pass on his S1, although it may have some rare use for 4★ niche players. It do
 
 ### Ethan
 
-{{< mastery-table-enhanced id="355_ethan" rows="S2M3,S- *,S *" pool="6" >}}
+{{< mastery-table-enhanced id="355_ethan" rows="S2M3,S- *,S *" >}}
 
 \* *Note that Ethan's S2 is graded assuming he has his AMB-X at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
@@ -609,7 +609,7 @@ Looking beyond those, his S1 could be an option too, although it’s more situat
 
 ### Shaw
 
-{{< mastery-table-enhanced id="277_sqrrel" rows="S1M3,C,C" pool="3" >}}
+{{< mastery-table-enhanced id="277_sqrrel" rows="S1M3,C,C" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -626,7 +626,7 @@ So why not consider her S2 when the comparable skill on the higher rarities are 
 
 ### Rope
 
-{{< mastery-table-enhanced id="236_rope" rows="S2M3,C+,C+|S1M3,C,C" pool="3" >}}
+{{< mastery-table-enhanced id="236_rope" rows="S2M3,C+,C+|S1M3,C,C" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -643,7 +643,7 @@ In both cases, Mastery is typically valuable as it is with almost all Shifter sk
 
 ### Gravel
 
-{{< mastery-table-enhanced id="237_gravel" rows="S2M3,B,B" pool="3" >}}
+{{< mastery-table-enhanced id="237_gravel" rows="S2M3,B,B" >}}
 
 Gravel is one of those special units because she’s one that virtually everyone has used and is quite popular. But she does her job as a bulk FRD, which the higher rarities still can’t do, fantastically well already at E1 SL7. E2 and Mastery is simply unnecessary with her. However, because she’s so popular and widely used, many people do them anyway for no other reason than because she’s earned it!
 
@@ -658,7 +658,7 @@ In such a case, her S2 is really the only skill to consider. Simply, the HP tota
 
 ### Figurino
 
-{{< mastery-table-enhanced id="4155_talr" rows="S2M3,None,None|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4155_talr" rows="S2M3,None,None|S1M3,None,None" >}}
 
 On first read of Figurino's kit, it can be tempting to assume that he must have *some* use with his 50% uptime AoE Bind. But in practice, the costs are just too steep, particularly compared to Ethan who is functionally better without the Merchant baggage. There is a small amount of value in his kit, but for a vast majority of people, it just costs too much, both in terms of materials, in effort, and in mechanics.
 
@@ -671,7 +671,7 @@ His S1 might be a very fringe consideration if you're really dedicated to using 
 
 ### Almond
 
-{{< mastery-table-enhanced id="4105_almond" rows="S1M3,None,None|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4105_almond" rows="S1M3,None,None|S2M3,None,None" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -688,7 +688,7 @@ S2 is unfortunately rather awkward. It's pretty significantly inferior to either
 
 ### Spuria
 
-{{< mastery-table-enhanced id="4015_spuria" rows="S2M3,None,None|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4015_spuria" rows="S2M3,None,None|S1M3,None,None" >}}
 
 There is no unit in the game that I hate more from a design perspective than Spuria. She is the peak of the worst design era for 5★s. I already hated Windflit for his restrictive and subpar buff, then Spuria further doubled down on the formula of awful. Not only is she restricted to a single class, but her "buff" is a net loss on a vast majority of targets! There is only a small handful of units in the huge roster that even see an improvement, even before accounting for the [suboptimal nature of buffing](masteries/othertopics/#the-problem-with-buffing-and-combos) or the fact it's worse than many existing options!
 
@@ -701,7 +701,7 @@ Many will insist on trying though, and the Laterano niche is increasing in popul
 
 ### Kirara
 
-{{< mastery-table-enhanced id="478_kirara" rows="S2M3,None,None|S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="478_kirara" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Kirara is a unit I so badly want to work. Her design is so cool and she has some pretty great op recs, on top of her association with the ever popular Utage. Unfortunately, she's just bad. Her design concept is as a forward facing survival tank, but that's just not what Ambushers are good at, and her DPS is way too low to have any meaningful impact.
 
@@ -712,7 +712,7 @@ If you want to try to make her work anyway, which is ill-advised (she's one of t
 
 ### Snowsant
 
-{{< mastery-table-enhanced id="383_snsant" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="383_snsant" rows="S2M3,None,None" >}}
 
 \* *For a general discussion of Shifter priority and skills, check out [these discussions](masteries/othertopics/#a-general-discussion-about-shifter-priority).*
 
@@ -727,7 +727,7 @@ Pass on her S1 unless you specifically want to use Snowsant over anyone else. It
 
 ### Waai Fu
 
-{{< mastery-table-enhanced id="243_waaifu" rows="S1M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="243_waaifu" rows="S1M3,None,None|S2M3,None,None" >}}
 
 There's an old adage in the game that more FRDs are never bad. That's a fact that has kept Waai Fu afloat since she's typically been considered the least valuable of non-6★s, with some pretty unnecessary Masteries and a Talent that often causes trouble instead of helping. However, her effects are decent helidrop utility, so she is definitely not a bad unit! It's mostly just that further investment beyond E1 SL7 doesn't have a lot of value.
 
@@ -740,7 +740,7 @@ Meanwhile her S2 is helidrop Silence. That's useful too (albeit less useful than
 
 ### Verdant
 
-{{< mastery-table-enhanced id="4107_vrdant" rows="S1M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="4107_vrdant" rows="S1M3,None,None" >}}
 
 Verdant is a bad unit, and the only thing that saves him from being a true bottom-tier unit is his archetype. Dollkeepers are one of the rare archetypes where it's hard to be truly awful because at the very least they're effective bait. Which is about the only thing Verdant is good for. If you're willing to go the extra mile of investment with him, he can reach a passable level of HP using S1. Along with his Talent, it can make him pretty hard to kill. But that's about it. S2 would be his DPS skill, but his DPS is so negligibly bad even if it didn't kill him. As it is though, his S2 will rapidly kill him for bad damage and a long effective cycle, so there's very little reason to consider it.
 

@@ -23,7 +23,7 @@ tags = ['Mastery', 'Supporters', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Nasti
 
-{{< mastery-table-enhanced id="4212_nasti" rows="S3M3,A-,A+|S2M3,C,B-,Breakpoint - S2M1" pool="1" >}}
+{{< mastery-table-enhanced id="4212_nasti" rows="S3M3,A-,A+|S2M3,C,B-,Breakpoint - S2M1" >}}
 
 Nasti is one of the most unique units in the game. Her primary gimmick is creating a high ground tile anywhere that's deployable on the map, a tool that can really open up certain strategies. However, there's a lot of caution to be aware of before heavily investing in her. First, she can't do it all on her own. Her personal effects are pretty weak, so if your roster is limited, early investment into Nasti may not make sense. That leads to the second point, where her lateral value is pretty low for a modern 6★. While her high ground tile is great, and she has some side value in very Advanced clears as an SP battery, she does little else. And last, her Masteries are quite low value. That may actually serve as a counterbalance to the first two points, because only E2 is required for her to be an effective high-tile slave! In any case, it does mean you should be wary before pursuing her Masteries if resources are tight or you have other good options.
 
@@ -44,7 +44,7 @@ Last is her S1, which probably isn't worth considering. It might matter for some
 
 ### Astgenne the Lightchaser
 
-{{< mastery-table-enhanced id="1047_halo2" rows="S3M3,B-,B|S2M3,B-,B-,Breakpoint" pool="4" >}}
+{{< mastery-table-enhanced id="1047_halo2" rows="S3M3,B-,B|S2M3,B-,B-,Breakpoint" >}}
 
 Astgenne the Lightchaser is a novel and fun unit with a pretty interesting kit, however as is tradition with most 6★ Welfare units, she isn't all that special in terms of meta so most people shouldn't be raising her. Her damage is unimpressive, her control can be unpredictable with poor uptime, and the things that make her kit "interesting" may in fact be frustrating to a lot of players instead. However, she isn't a bad unit either, and she is useful in a handful of niches, so will still be an appealing promotion for some. If that might apply to you, she also happens to have some pretty valuable Masteries,
 
@@ -61,7 +61,7 @@ Pass on her S1 unless you're a true maximalist. It doesn't have any particular d
 
 ### Haruka
 
-{{< mastery-table-enhanced id="4202_haruka" rows="S2M3,S-,S-|S3M3,B-,B+" pool="1" >}}
+{{< mastery-table-enhanced id="4202_haruka" rows="S2M3,S-,S-|S3M3,B-,B+" >}}
 
 Like Quercus before her, Haruka bypasses the main problem Abjurers suffer from. The toggle nature of Abjurers makes them very unreliable as healers, but when their skill durations are infinite, that's not so much a problem! Haruka then amps it up with the modern power-creep 6★ numbers, resulting in one of the best and easiest to use healers in the game. This makes Haruka a relatively high priority upgrade, but a bit lower than others of her caliber. Healing is the lowest priority of the core roles, and the easiest to optimize out, so for as great at the job as she is, Haruka ends up less essential than many recent 6★s.
 
@@ -76,7 +76,7 @@ Finally, pass on her S1. The effect is decent, but in addition to the Abjurer do
 
 ### Raidian
 
-{{< mastery-table-enhanced id="4195_radian" rows="S3M3,--,--|S2M3,--,--|S1M3,--,--" pool="4" >}}
+{{< mastery-table-enhanced id="4195_radian" rows="S3M3,--,--|S2M3,--,--|S1M3,--,--" >}}
 
 Radian is currently completely unique in that she is raised entirely via playing IS#6. In fact, you quite literally cannot raise her by traditional means even if you want to. This means Raidian does not have Mastery priority. There’s no value consideration here because you can M3 all of her skills doing nothing but playing the game. However, a write-up is still provided here for general guidance.
 
@@ -95,7 +95,7 @@ Last is her S1. It’s much more situational than the other two, but still usefu
 
 ### Tragodia
 
-{{< mastery-table-enhanced id="1042_phatm2" rows="S2M3,S++,S++|S3M3,A,S,Breakpoint - S3M1|S1M3,C,C" pool="1" >}}
+{{< mastery-table-enhanced id="1042_phatm2" rows="S2M3,S++,S++|S3M3,A,S,Breakpoint - S3M1|S1M3,C,C" >}}
 
 Tragodia is an absurdly broken unit. He has multiple layers of control which individually would still see him be a meta mainstay, but instead he brings them all together along with great damage. He's the sort of broken that will be difficult to powercreep too, so Tragodia should be a top Mastery consideration and should remain that way for a long long time.
 
@@ -118,7 +118,7 @@ Last is his S1. This guide doesn't usually suggest AFK skills for their own sake
 
 ### Civilight Eterna
 
-{{< mastery-table-enhanced id="4134_cetsyr" rows="S2M3,A+,A|S3M3,B,B+|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4134_cetsyr" rows="S2M3,A+,A|S3M3,B,B+|S1M3,None,None" >}}
 
 Civilight Eterna (CE) is a rather unusual unit. She's pretty great for a welfare, but her kit is extremely similar to a preexisting limited, Skadi the Corrupting Heart. Further, the Bard's Inspiration buffs don't stack, so they're largely incompatible. Of course, CE has her own value too that makes her worthy of consideration regardless, but that value can be lower depending on if you have Skadi2 already or not. On her own merits, CE is pretty strong with a lot of utility built into her kit that makes her a highly flexible unit with a lot of potential use. However, amid the ever growing power ceiling, she's hardly a must have quantity either since Bard's are somewhat situational by nature.
 
@@ -133,7 +133,7 @@ Her S1 brings up the rear. It can be a decent AFK healing skill if that's your t
 
 ### Virtuosa
 
-{{< mastery-table-enhanced id="245_cello" rows="S1M3,A,A+,Breakpoint - S1M1|S3M3,A,A-|S2M3,None,None" pool="9" >}}
+{{< mastery-table-enhanced id="245_cello" rows="S1M3,A,A+,Breakpoint - S1M1|S3M3,A,A-|S2M3,None,None" >}}
 
 Virtuosa is the sort of unit that gives me a headache writing this guide. Elemental burst triggers on a set amount of damage, so it's not a case where more is always better. There's a flat cap after which anything more is just lost. That complicates the value question because there are a *lot* of permutations. There are 90 levels, 2 Modules (at least, as of this writing), 3 skills, and even potentials make a difference! It all results in a lot of complexity that makes it hard to give a one sized fits all answer. Then add onto that the fact Necrosis has already been powercrept by Nervous Impairment, and they don't stack!
 
@@ -152,7 +152,7 @@ Last, you could consider her S2 if you really want to maximize your Virtuosa usa
 
 ### Silence the Paradigmatic
 
-{{< mastery-table-enhanced id="1031_slent2" rows="S3M3,C,C+|S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="1031_slent2" rows="S3M3,C,C+|S2M3,None,None" >}}
 
 Abjurers are not a generally strong archetype. They need something really absurd to elevate them (such as with Haruka or Quercus) out of the basement. Silence the Parag... Paradigi... ahem, Silence2 makes a pretty good attempt at it with some novel utility, but ultimately falls short. She has enough to be useful for niches (Welfare-only especially) or waifu players, but far from enough to be a general consideration.
 
@@ -167,7 +167,7 @@ Pass on her S1. While it cycles better than her S2, it ultimately heals for less
 
 ### Stainless
 
-{{< mastery-table-enhanced id="4072_ironmn" rows="S3M3,B+,B|S1M3,C,C|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4072_ironmn" rows="S3M3,B+,B|S1M3,C,C|S2M3,None,None" >}}
 
 Stainless is a rather interesting unit. He's very much a gimmicky sort, but unlike many other gimmicky sorts, he's still pretty functional with a lot of packed in utility. He was never a meta consideration even when he was new, and is less so now as the power ceiling ever increases, but is one of the more viable and fun alternatives if you're after something a bit different.
 
@@ -184,7 +184,7 @@ Last is his S2. It's a notable skill for using in the same vein as his S1, but f
 
 ### Ling
 
-{{< mastery-table-enhanced id="2023_ling" rows="S3M3,A+,A-|S2M3,C,C+" pool="11" >}}
+{{< mastery-table-enhanced id="2023_ling" rows="S3M3,A+,A-|S2M3,C,C+" >}}
 
 \* While a strong unit, be wary of general investment in Ling if you don’t know what you’re getting. See the write-up for more details.
 
@@ -203,7 +203,7 @@ Pass on her S1 unless you're a real maximalist. It overlaps with her better S3 q
 
 ### Gnosis
 
-{{< mastery-table-is id="206_gnosis" rows="S3M3,A-,A,A+ *|S2M3,B,A-,S *" pool="2" >}}
+{{< mastery-table-is id="206_gnosis" rows="S3M3,A-,A,A+ *|S2M3,B,A-,S *" >}}
 
 \* *Gnosis’s IS grades assume his ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.* 
 
@@ -226,7 +226,7 @@ Finally, in either case you should probably pass on his S1 unless you're a Karla
 
 ### Skadi the Corrupting Heart
 
-{{< mastery-table-enhanced id="1012_skadi2" rows="S2M3,S,A|S3M3,A,A+|S1M3,None,C+" pool="9" >}}
+{{< mastery-table-enhanced id="1012_skadi2" rows="S2M3,S,A|S3M3,A,A+|S1M3,None,C+" >}}
 
 Skadi the Corrupting Heart is a great all around buffer with some powerful utility that makes for both a strong and flexible unit. Her Inspiration ATK buff is currently the highest available (and by a good margin), she can place True Damage anywhere on the map, and has great AFK value for the lazy too. She's not as crazy as she once was, owing mostly to the increasing power ceiling, but is nevertheless still a strong promotion.
 
@@ -241,7 +241,7 @@ Last is her S1. It's probably not a skill you'll want to spend the resources on 
 
 ### Suzuran
 
-{{< mastery-table-enhanced id="358_lisa" rows="S3M3,A,S-|S2M3,None,None,Breakpoint - S2M1" pool="2" >}}
+{{< mastery-table-enhanced id="358_lisa" rows="S3M3,A,S-|S2M3,None,None,Breakpoint - S2M1" >}}
 
 Suzuran is a Decel Binder but with Fragile. Now, as of this writing, there are two of those, but she was the only one for years. Suzuran came before archetypes were formalized, so was this always intended? Or does Astgenne2 owe her Fragile to Suzuran being an early oddity? Regardless, Suzuran’s Fragile is by far her defining feature. It’s not the highest Fragile, or even the most versatile, but it is among the most consistent and reliable, which has meant Suzuran has had a relatively long meta life compared to other units from her era.
 
@@ -258,7 +258,7 @@ Pass on her S1 which has no particular value. She can only target one enemy with
 
 ### Magallan
 
-{{< mastery-table-enhanced id="248_mgllan" rows="S1M3,C,C+|S3M3,C-,C-|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="248_mgllan" rows="S1M3,C,C+|S3M3,C-,C-|S2M3,None,None" >}}
 
 The non-Ling Summoners are a bit of an oddity when it comes to general consideration. What they bring to the table comes at a high cost (deployment slots) which has always meant they've always leaned more towards niche clears. That's only become more true with time as the general power level has gone up, and thus you give up more and more for those deploy slots. So the basic advice with all of them is to invest with caution if you don't already know what you're doing!
 
@@ -273,7 +273,7 @@ However, S1 doesn't do damage so if you plan to use her regularly, you'll want t
 
 ### Angelina
 
-{{< mastery-table-is id="291_aglina" rows="S3M3,C+,C,S *|S2M3,None,C,A *" pool="2" >}}
+{{< mastery-table-is id="291_aglina" rows="S3M3,C+,C,S *|S2M3,None,C,A *" >}}
 
 \* *Angelina's IS grades assume her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the large gap in value between the modes.* 
 
@@ -292,7 +292,7 @@ S2 is a strong secondary Mastery for her. As mentioned, S3 historically had rela
 
 ### Perfumer the Distilled
 
-{{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="1022_flwr2" rows="S2M3,C,C+|S1M3,None,None" >}}
 
 Perfumer the Distilled is an unexpected mix-up of the Abjurer archetype. Before her, they all fell into two groups. They were either bimodal (bad) or infinite duration (good). Perfumer2, however, has a single-use helidrop skill that makes her unique among the group. That's enough to elevate her above the “bad” group and can make her a viable niche consideration, since she acts as an emergency button with her relatively strong effective-HPS, but she's still well behind the “good” group, and thus still a relatively fringe consideration. Even for the waifu players, her original 4★ version will very often be the stronger choice!
 
@@ -304,7 +304,7 @@ Meanwhile, her S1 may appeal to those who *really* want to get the most out of P
 
 ### Uika Misumi
 
-{{< mastery-table-enhanced id="4184_dolris" rows="S2M3,B,B+|S1M3,None,None" pool="12" cn_link="https://prts.wiki/w/%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E" >}}
+{{< mastery-table-enhanced id="4184_dolris" rows="S2M3,B,B+|S1M3,None,None" cn_link="https://prts.wiki/w/%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E" >}}
 
 Uika is our newest [Push Stro-](https://www.youtube.com/watch?v=jGxDUDODsuU), err I mean our newest Bard. Bards in general can be tricky to evaluate. Inspiration as a buff is unusual in its considerations already, but then there's two easily obtainable 6★s to consider, and they don't stack. Uika though mixes that up because in addition to the basic Inspiration buffing, she brings some fairly strong healing and damage of her own. This makes her a strong unit who will tend to have more value than her fellow 5★s. Although being in a support role with the competition from the 6★s means she isn't a general meta consideration either.
 
@@ -317,7 +317,7 @@ Meanwhile, her S1 can have some value for maximalists. It has better duration an
 
 ### Bobbing
 
-{{< mastery-table-enhanced id="487_bobb" rows="S2M3,C,C+|S1M1,None,None,Breakpoint - S1M1" pool="1" >}}
+{{< mastery-table-enhanced id="487_bobb" rows="S2M3,C,C+|S1M1,None,None,Breakpoint - S1M1" >}}
 
 Elemental damage is a very powerful mechanic, and Bobbing is the first 5★ to really take advantage of it in a meaningful way. That can make him a decent unit, at least as far as 5★s go. However, before that, keep in mind that Burn does NOT stack with other forms of Elemental Burst such as Necrosis or Nervous Impairment, both of which are backed by a number of very powerful units. Bobbing may be a worthwhile consideration for some, but he's not a meta consideration, and he can even be useless depending on the rest of your roster.
 
@@ -330,7 +330,7 @@ For niche players or husbando enjoyers, you may get some value out of his S1 as 
 
 ### Valarqvin
 
-{{< mastery-table-enhanced id="4102_threye" rows="S2M3,C-,C" pool="4" >}}
+{{< mastery-table-enhanced id="4102_threye" rows="S2M3,C-,C" >}}
 
 Valarqvin was our first introduction to friendly Elemental burst effects, which unfortunately given the design philosophy of the time, meant she ended up slightly undertuned. Necrosis is good enough that she's had decent value over the years, particularly in the Welfare-only niche, so she is certainly usable if you want. However, both of her skills end up cycling poorly. That, in addition to the fact Necrosis now competes with more potent forms of burst (and remember they don't stack), means that she isn't a strong general consideration, and tends to be stuck in niches or desire-only tiers.
 
@@ -345,7 +345,7 @@ It's worth a note that unlike most other IS-version specific units, Valarqvin is
 
 ### Proviso
 
-{{< mastery-table-enhanced id="4032_provs" rows="S2M3,C-,C" pool="1" >}}
+{{< mastery-table-enhanced id="4032_provs" rows="S2M3,C-,C" >}}
 
 Proviso is a unit that forces me to flex the definitions of this guide. She has the most valuable base skill in the game and is the only unit that's worth E2ing for her base skill. It's a bit of a digression from the usual topics here, but she is an incredibly valuable Trading Post worker and if you obtain her, you should promote her. No other E2 base skill is worth the promotion materials [(seriously, don't do it, it's not even close)](masteries/othertopics/#why-are-base-skills-rarely-if-ever-mentioned-in-the-mastery-guide).
 
@@ -360,7 +360,7 @@ Pass on her S1 which just doesn't do anything special. Even at S1M3 she doesn't 
 
 ### Quercus
 
-{{< mastery-table-enhanced id="492_quercu" rows="S1M3,A *,A *" pool="1" >}}
+{{< mastery-table-enhanced id="492_quercu" rows="S1M3,A *,A *" >}}
 
 \* *Note that Quercus' S1 is graded assuming she has her BLS-X Module at least at level 1 (preferrably higher). If you do not plan to get this Module, treat the priority of this skill significantly lower.*
 
@@ -375,7 +375,7 @@ Probably pass on her S2. It can occasionally be used as an SP battery if you rea
 
 ### Heidi
 
-{{< mastery-table-enhanced id="4045_heidi" rows="S1M3,B,B+" pool="4" >}}
+{{< mastery-table-enhanced id="4045_heidi" rows="S1M3,B,B+" >}}
 
 Heidi is a unit who has found herself a pretty strong niche for a 5★, but she is one to be a bit cautious of before general investment. The Bard's Inspiration buff is applied last on the stack of ATK modifiers, so in a lot of cases it's generally not as impactful as more typical multiplicative buffs. But there are exceptions, notably when skills "deal damage as a % of ATK", and Heidi's rapid cycle time has made her an outright meta pick in certain strategies. For example, Heidi buffing Degenbrecher is a common solution for IS#4 EM ED4, one of the hardest single stages in all of IS. But as said, caution is warranted, because those are "certain" strategies and not general ones. If general story value is your concern, you'll often get a lot more total value out of Skadi the Corrupting Heart or the similarly welfare Civilight Eterna, who both do quite a bit more in addition to buffing, if you raise any of them at all! But Heidi is still a great ATK buffer and her rapid cycling can still give her a leg up over her higher-rarity competition.
 
@@ -388,7 +388,7 @@ Maximalists or niche players could consider her S2 as well, which has a decent a
 
 ### Scene
 
-{{< mastery-table-enhanced id="336_folivo" rows="S2M3,B+,B+" pool="4" >}}
+{{< mastery-table-enhanced id="336_folivo" rows="S2M3,B+,B+" >}}
 
 The non-Ling Summoners are a bit of an oddity when it comes to general consideration. What they bring to the table comes at a high cost (deployment slots) which has always meant they've always leaned more towards niche clears. That's only become more true with time as the general power level has gone up, and thus you give up more and more for those deploy slots. So the basic advice with all of them is to invest with caution if you don't already know what you're doing!
 
@@ -405,7 +405,7 @@ It's worth a quick note that Scene has some historical notes as an IS starter. T
 
 ### Shamare
 
-{{< mastery-table-enhanced id="254_vodfox" rows="S2M3,S-,S" pool="2" >}}
+{{< mastery-table-enhanced id="254_vodfox" rows="S2M3,S-,S" >}}
 
 Shamare is one of the rare *good* 5★ mistakes HG has made. Her debuff is so strong, on such a good cycle, and can be deployed anywhere there are deployable tiles, that it's unlikely we'll ever get something as strong again, even in the era of modern powercreep. She's one of the very few 5★s worth raising for anyone, even full meta players!
 
@@ -420,7 +420,7 @@ Pass on her S1. In some very rare situations it may be useful for niche players,
 
 ### Mayer
 
-{{< mastery-table-enhanced id="242_otter" rows="S2M3,C,C+|S1M1,None,None,Breakpoint - S1M1" pool="2" >}}
+{{< mastery-table-enhanced id="242_otter" rows="S2M3,C,C+|S1M1,None,None,Breakpoint - S1M1" >}}
 
 The non-Ling Summoners are a bit of an oddity when it comes to general consideration. What they bring to the table comes at a high cost (deployment slots) which has always meant they've always leaned more towards niche clears. That's only become more true with time as the general power level has gone up, and thus you give up more and more for those deploy slots. So the basic advice with all of them is to invest with caution if you don't already know what you're doing!
 
@@ -435,7 +435,7 @@ Meanwhile her S1 is probably a pass. With no way to renew her summons, there's v
 
 ### Pramanix
 
-{{< mastery-table-enhanced id="174_slbell" rows="S2M3,C,B" pool="2" >}}
+{{< mastery-table-enhanced id="174_slbell" rows="S2M3,C,B" >}}
 
 Pramanix doesn't hold a candle to her fellow 5★ Hexer Shamare, but still has enough going for her to warrant some consideration. While she can't throw her debuff around everywhere on that crazy high uptime Shamare has, Pramanix has a higher DEF debuff plus a rare RES debuff, both of which can matter in niche or waifu clears.
 
@@ -450,7 +450,7 @@ It's far less likely to be useful, but her S1 is worth acknowledging as well. AS
 
 ### Roberta
 
-{{< mastery-table-enhanced id="484_robrta" rows="S2M3,C,C" pool="3" >}}
+{{< mastery-table-enhanced id="484_robrta" rows="S2M3,C,C" >}}
 
 Roberta is a good example of what 4★s do well. She's not as flashy as her higher rarity counterparts, but while they suffer from weak and gimmicky kits, Roberta does her basic job and does it really well for not a lot of cost. Her devices give a big defensive boost and negate two entire hits of damage. Pretty simple, but surprisingly useful, and the fact 4★s now cost no Hope to recruit in IS makes Roberta a fairly valuable consideration.
 
@@ -463,7 +463,7 @@ Pass on her S1. Artificers usually have this type of skill, but their personal s
 
 ### Podenco
 
-{{< mastery-table-enhanced id="258_podego" rows="S2M3,B,B|S1M3,None,C" pool="3" >}}
+{{< mastery-table-enhanced id="258_podego" rows="S2M3,B,B|S1M3,None,C" >}}
 
 Podenco is a solid basic unit, featuring good damage, control, and utility for her rarity. Of course, no individual aspect is that strong in the meta-sense. Podenco's main value is instead as an IS unit where she tends to be the more generally applicable Supporter compared to Roberta or Deepcolor. For that purpose, you shouldn't be spending the resources on E2 and Mastery since you rarely want to be spending the Hope to promote your 4★s. However, generally speaking Podenco is a solid all around purposes so if you're a niche player or just want to reward our cute little war criminal for all her hard work in gassing our enemies, she's among the better general 4★ options.
 
@@ -476,7 +476,7 @@ Her S1 is a useful skill, but not worth Mastery for a vast majority of people. G
 
 ### Deepcolor
 
-{{< mastery-table-enhanced id="110_deepcl" rows="S1M3,B *,B *|S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="110_deepcl" rows="S1M3,B *,B *|S2M3,None,None" >}}
 
 \* *Note that Deepcolor's S1 is graded assuming she has her SUM-Y Module at least at level 1. If you do not plan to get this Module, treat the priority of this skill significantly lower.*
 
@@ -497,7 +497,7 @@ Second, if you like to use her as an IS starter, it can be a flex option for lat
 
 ### Alanna
 
-{{< mastery-table-enhanced id="4178_alanna" rows="S2M3,None,None|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4178_alanna" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Alanna is yet another 5★ Artificer that doesn't do quite enough to be impressive. Her buffs are usable, particularly if you favor certain meme buff comps, but even then the archetype is just very clunky to use. Worse for Alanna, as far as this guide goes, she has pretty bad Mastery gains too!
 
@@ -510,7 +510,7 @@ Her S1 could also be a choice, largely depending on the types of units you plan 
 
 ### Xingzhu
 
-{{< mastery-table-enhanced id="4172_xingzh" rows="S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4172_xingzh" rows="S1M3,None,None" >}}
 
 Xingzhu is a unit I have a tough time saying objective things about because the design decisions behind her piss me off so much. HG had over five years of design knowledge at her release. They had already been through the design process of figuring out what makes an Abjurer usable. They did two absolutely awful ones (Tsukinogi and Nine-Colored Deer), then finally managed to make a good one (Quercus), but then with Xingzhu, went back to square one. Even worse, they gave her a 75 SP skill which are almost universally awful! It's maddening!
 
@@ -523,7 +523,7 @@ Skip her S2 which is that mentioned skill with 75 SP. Since Abjurer's don't do a
 
 ### Catherine
 
-{{< mastery-table-enhanced id="4162_cathy" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4162_cathy" rows="S2M3,None,None" >}}
 
 Catherine is a unit who does her job well enough to be functional, but what she does just isn't that special. When fully invested, she can generate a pretty good amount of Barrier for what is some decent effective-HPS. However, most decent Medics will do better HPS without all the baggage that comes with being an Artificer, so even within niches, she isn't particularly special. Further, as far as this guide goes, she has pretty bad Mastery gains too!
 
@@ -536,7 +536,7 @@ Her S1 may have some use too, allowing a permanent buff with her devices, howeve
 
 ### Sand Reckoner
 
-{{< mastery-table-enhanced id="4140_lasher" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4140_lasher" rows="S2M3,None,None" >}}
 
 The only things special about Sand Reckoner are that he's the only non-6★ Summoner (as of this writing) with Ranged summons and the only non-6★ Summoner whose summons deal Arts damage. That might be useful on rare occasions in low-rarity niches, but that's about it. With Raidian now freely available, there's little other reason to consider raising him. Although, that was true even before Raidian too... Summoners, even the good ones, are units you have to *want* to use most of the time to even bother.
 
@@ -547,7 +547,7 @@ If you want to raise him, S2 will usually be his main skill. It has a better upt
 
 ### Lucilla
 
-{{< mastery-table-enhanced id="4079_haini" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4079_haini" rows="S2M3,None,None" >}}
 
 Don't let Lucilla trick you. Never trust pinks! Her good numbers and slightly confusing unofficial translations might give you some hope, but she *ONLY* affects basic units and does NOTHING against either Elites or Bosses, who are the enemies you'd most likely want to debuff! It means Lucilla is a pretty bad unit with only an extremely marginal niche, so she's generally a unit to avoid.
 
@@ -560,7 +560,7 @@ Pass on her S1 entirely unless you absolutely must use her no matter what. Even 
 
 ### Grain Buds
 
-{{< mastery-table-enhanced id="4122_grabds" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4122_grabds" rows="S2M3,None,None" >}}
 
 There's a lot of 4 and 5★ Decel Binders now, and they all do basically the same thing: Slow some numbers of targets for some amount of time, with some often interchangeable and meaningless utility. Grain Buds is a pretty strong example of that, and is ultimately one of the least useful of the group since her utility and uptime are both quite bad relative to the others.
 
@@ -573,7 +573,7 @@ Pass on her S1 unless you're a particular simp. It's just a DPS skill with no ut
 
 ### Windflit
 
-{{< mastery-table-enhanced id="433_windft" rows="S1M3,None,None|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="433_windft" rows="S1M3,None,None|S2M3,None,None" >}}
 
 Windflit is an exceedingly frustrating unit for me. He harkens back to one of the worst eras of 5★ design, where they had unnecessary restrictions for bad effects. Windflit is one of the worst examples of it. His buff is restricted to just two classes, one of whom you would basically never want to buff in the first place. Then, on top of that, he requires maximum investment and much more effort just to get the same buff as Warfarin, a fellow 5★, who is a much better base unit too!
 
@@ -586,7 +586,7 @@ If you have more resources than sense though, both skills are options. S2 is of 
 
 ### Nine-Colored Deer
 
-{{< mastery-table-enhanced id="4019_ncdeer" rows="S1M3,None,None" pool="13" >}}
+{{< mastery-table-enhanced id="4019_ncdeer" rows="S1M3,None,None" >}}
 
 Abjurer's are a bad archetype at base unless they get some pretty extreme design help. The "toggle" nature of their heal probably sounded good in the design room, but in effect means they're completely useless during skill downtime, and their effective HPS during skill doesn't make up for it. Unless they do something silly like Quercus or Haruka, they're just really bad. Just use a Medic.
 
@@ -597,7 +597,7 @@ In NCD's case, she's lucky her base skill is *amazing* (and available at E0 so s
 
 ### Tsukinogi
 
-{{< mastery-table-enhanced id="343_tknogi" rows="S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="343_tknogi" rows="S1M3,None,None" >}}
 
 Abjurer's are a bad archetype at base unless they get some pretty extreme design help. The "toggle" nature of their heal probably sounded good in the design room, but in effect means they're completely useless during skill downtime, and their effective HPS during skill doesn't make up for it. Unless they do something silly like Quercus or Haruka, they're just really bad. Just use a Medic.
 
@@ -612,7 +612,7 @@ That Invisibility reveal is tied to her S1, which makes it the only skill worth 
 
 ### Glaucus
 
-{{< mastery-table-enhanced id="326_glacus" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="326_glacus" rows="S2M3,None,None" >}}
 
 Glaucus is thematically a pretty cool unit. The idea of an anti-drone Supporter with an EMP works really well! In concept anyway. In practice, it's meant Glaucus has had only situational value. Not all things that float are drones, so despite a pretty good effect, Glaucus has pretty much always been pigeonholed to some pretty extreme niche situations.
 
@@ -625,7 +625,7 @@ Pass on her S1 unless you're a big simp. It's a more typical Decel Binder skill,
 
 ### Sora
 
-{{< mastery-table-enhanced id="101_sora" rows="S2M3,None,None|S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="101_sora" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Bards are a decent group of buffers, but among them, Sora tends to be the weakest¹. While the others have some special value that elevates them, Sora unfortunately does not. Even setting aside the 6★s, Heidi cycles faster for a better buff and Uika does much more in total. About Sora's only upside over them is her higher uptime, which can matter in some buff comps². But her downtime is RNG dependent and her other value is very limited, so invest with caution.
 
@@ -642,7 +642,7 @@ Her S1 is a possibility too, but is much more fringe. Sleep is not a very good f
 
 ### Istina / Истина
 
-{{< mastery-table-enhanced id="195_glassb" rows="S1M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="195_glassb" rows="S1M3,None,None|S2M3,None,None" >}}
 
 There's a lot of 4 and 5★ Decel Binders now, and they all do basically the same thing: Slow some numbers of targets for some amount of time, with some often interchangeable and meaningless utility... Except for Istina who was one of the first and so has no utility. That means she's generally not worth raising, especially now since we have so many good control units. She's close to good enough to be vaguely viable if you want, but both of her skills have drawbacks on top of having no utility, so she's a desire only tier of unit these days.
 
@@ -655,7 +655,7 @@ However, S1 only hits one target and does so on a pretty small range. That gives
 
 ### Earthspirit
 
-{{< mastery-table-enhanced id="183_skgoat" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="183_skgoat" rows="S2M3,None,None" >}}
 
 Before Modules, Earthspirit was broadly panned as one of the worst units in the game. She did no damage and in exchange, didn't even have an especially good uptime Slow on a short range, meaning most enemies quickly just walked out of range. Fortunately for her though, she was one of the big early beneficiaries of the Module upgrade system because it gave her enough Slow duration to reach 100% uptime! Not bad for a True-Aoe!
 

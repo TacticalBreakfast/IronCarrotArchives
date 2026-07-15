@@ -25,7 +25,7 @@ tags = ['Mastery', 'Vanguards', 'Arknights', 'Guide', 'Skill Priority']
 
 ### SilverAsh the Reignfrost
 
-{{< mastery-table-enhanced id="1045_svash2" rows="S2M3,S+,S++|S3M3,S+,S+|S1M3,None,C" pool="9" >}}
+{{< mastery-table-enhanced id="1045_svash2" rows="S2M3,S+,S++|S3M3,S+,S+|S1M3,None,C" >}}
 
 SilverAsh the Reignfrost is one of the most powerful units in the game, featuring just about everything you could ever want out of a Vanguard, and more. He generates crazy effective DP, sustains himself, has control, buffs your units, has great DPS, and even retains his OG’s stealth removal for good measure. Generally speaking, he is a very high priority unit and a very strong M6 candidate! However, unusually for a unit of his caliber, he has some unique considerations before you spend your hard earned resources on his Masteries.
 
@@ -44,7 +44,7 @@ Last is his S1. It’s quite a bit more situational, but on a do-it-all meta-cal
 
 ### Vulpisfoglia
 
-{{< mastery-table-enhanced id="4026_vulpis" rows="S3M3,A,A-" pool="1" >}}
+{{< mastery-table-enhanced id="4026_vulpis" rows="S3M3,A,A-" >}}
 
 It's tough to be a non-Agent Vanguard. Even non-Myrtle Flags are in a rut these days. Due to how the game is designed, it's unlikely there will ever be a truly meta Pioneer, but Vulpisfoglia comes pretty darn close. She has strong combat prowess that's enough to hold up versus tougher enemies, while sustaining herself early, with DP generation competitive to S2/S3 Flags. Not a bad package, albeit a still off-meta one.
 
@@ -57,7 +57,7 @@ As said, her other skills aren't really worth using, although they do have decen
 
 ### Muelsyse
 
-{{< mastery-table-enhanced id="249_mlyss" rows="S3M3,A+,A+|S2M3,B,B" pool="9" >}}
+{{< mastery-table-enhanced id="249_mlyss" rows="S3M3,A+,A+|S2M3,B,B" >}}
 
 Muelsyse operates more as a laneholder than a typical Vanguard does, which makes her considerations a bit different than most other Vanguards. Fortunately though, her DP generation is identical between skills which simplifies her evaluation despite her unusual role.
 
@@ -76,7 +76,7 @@ For purely IS gameplay, be a little cautious. While certainly not a bad pick, th
 
 ### Ines
 
-{{< mastery-table-enhanced id="4087_ines" rows="S2M3,S++,S++|S3M3,B+,A+" pool="1" >}}
+{{< mastery-table-enhanced id="4087_ines" rows="S2M3,S++,S++|S3M3,B+,A+" >}}
 
 Ines is the best single Vanguard in the game which is really saying something given how long Flagpipe has been at the forefront of the meta. She is really the best of all worlds across the board, mixing good DP generation, strong damage, and a huge heap of good quality utility. Of particular note are her Steal and Bind utilities, which make her incredibly valuable in both early holds and late holds, a value no other Vanguard can match.
 
@@ -91,7 +91,7 @@ Finally, you should probably pass on her S1. It may occasionally have some use i
 
 ### Vigil
 
-{{< mastery-table-enhanced id="427_vigil" rows="S3M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="427_vigil" rows="S3M3,None,None|S1M3,None,None" >}}
 
 Vigil has the extremely dubious honor of being the first completely ungraded 6★ in this Mastery guide. His summon is weak, his already mediocre DPS is reliant on that weak summon, his DP generation is low, and his main skill has a horrific initial ramp-up. There is no meta justification for spending your resources on Vigil.
 
@@ -106,7 +106,7 @@ Pass on his S2. While you might initially think that it would be a nice, consist
 
 ### Flametail
 
-{{< mastery-table-enhanced id="420_flamtl" rows="S3M3,B,B|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="420_flamtl" rows="S3M3,B,B|S2M3,None,None" >}}
 
 Pioneers have long been one of the weakest Vanguard archetypes. They straddle the line somewhere between pure DP-generation and DPS-Guards, ultimately doing neither especially well in an already non-critical role. This makes them fairly low priority across the board, although Flametail brings some interesting potential to the equation.
 
@@ -123,7 +123,7 @@ Last, her S1 should be avoided. While it isn't the generic Pioneer skill that ot
 
 ### Saileach
 
-{{< mastery-table-enhanced id="479_sleach" rows="S3M3,A,A+|S1M3,B,B+" pool="2" icons="|skill_icon_skcom_assist_cost[3]">}}
+{{< mastery-table-enhanced id="479_sleach" rows="S3M3,A,A+|S1M3,B,B+" icons="|skill_icon_skcom_assist_cost[3]">}}
 
 Saileach, along with Bagpipe, is an interesting Vanguard in the history of this guide, although for entirely different reasons. For a long long time, she had the biggest gap between her Advanced grades and Story grades, and in fact was one of the original reasons why Advanced grades were even added to the guide! That's still sort of true with her, however like with Bagpipe, the changing meta landscape (e.g. Agents) have relegated that to not much more than a trivia footnote.
 
@@ -142,7 +142,7 @@ Finally, her S2 has been graded in previous iterations of this guide, but is now
 
 ### Saga
 
-{{< mastery-table-enhanced id="362_saga" rows="S3M3,B+,B-|S2M3,B,B,Breakpoint - S2M1" pool="2" >}}
+{{< mastery-table-enhanced id="362_saga" rows="S3M3,B+,B-|S2M3,B,B,Breakpoint - S2M1" >}}
 
 Pioneers have long been one of the weakest Vanguard archetypes. They straddle the line somewhere between pure DP-generation and DPS-Guards, ultimately doing neither especially well in an already non-critical role. This makes them fairly low priority across the board, although Saga manages to do enough DPS and DP to be functional.
 
@@ -159,7 +159,7 @@ Last, her S1 should be avoided. It is a generic Pioneer skill which are just not
 
 ### Bagpipe
 
-{{< mastery-table-enhanced id="222_bpipe" rows="S3M3,A+,A+|S2M3,A-,A-" pool="2" >}}
+{{< mastery-table-enhanced id="222_bpipe" rows="S3M3,A+,A+|S2M3,A-,A-" >}}
 
 Bagpipe occupies an interesting place in the history of this guide. One of the tenets that this guide tries to impart is that active skills are a much better investment than AFK skills, to the point that AFK skills will often be intentionally undergraded to nudge people towards higher value choices! Bagpipe was the first instance of this. Her S3 is way better than her S2, and for a long time the grades reflected that to encourage people to her better skill. However, the meta landscape in the intervening years has changed quite a bit since then.
 
@@ -174,7 +174,7 @@ This is all to say that Bagpipe has two very good skills, both of which have str
 
 ### Siege
 
-{{< mastery-table-enhanced id="112_siege" rows="S2M3,C,C,Breakpoint - S2M1|S3M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="112_siege" rows="S2M3,C,C,Breakpoint - S2M1|S3M3,None,None" >}}
 
 Even at launch, Siege was never an especially good unit due to how Vanguards fit into the game itself. However, even with that low starting point, she is probably the launch 6★ that has fallen the furthest in value. Siege has always leaned closer to a Guard than a Vanguard, but as a result, she isn't particularly good at either role. And now in the modern game she's faced with plentiful competition that are better in every way! Unfortunately, there's basically no reason to raise Siege these days. Even brand new players won't find much value here.
 
@@ -191,7 +191,7 @@ Last, her S1 should be avoided. It is a generic Pioneer skill which are just not
 
 ### Matsukiri
 
-{{< mastery-table-enhanced id="4199_makiri" rows="S2M3,B,B|S1M3,C,B-" pool="4" >}}
+{{< mastery-table-enhanced id="4199_makiri" rows="S2M3,B,B|S1M3,C,B-" >}}
 
 Vanguards have long been one of the most maligned classes in the game, and our first Strategist adds some new and much needed depth. The relative lack of early pressure has always devalued them, which has meant only Standard Bearers and Agents have really bubbled to the top. Strategists though mix things up with some interesting and new utility by buffing units before they're even on the field!
 
@@ -210,7 +210,7 @@ Instead, consider his S2. The effective DP generation isn't as strong since the 
 
 ### Surfer
 
-{{< mastery-table-enhanced id="4052_surfer" rows="S1M3,S,S|S2M3,C+,C+" pool="1" >}}
+{{< mastery-table-enhanced id="4052_surfer" rows="S1M3,S,S|S2M3,C+,C+" >}}
 
 While archetypes in Arknights often don’t truly matter, Agents are one of the few that are really just natively good. They have super strong DP-generation which blends perfectly with the FRD-utility, while also bringing additional utility. From the top of the archetype to the bottom, they are all viable, including at the 5★ rarity, and in multiples.
 
@@ -225,7 +225,7 @@ Although this guide tends to avoid direct comparisons, Surfer’s similarity to 
 
 ### Chilchuck
 
-{{< mastery-table-enhanced id="4144_chilc" rows="S1M3,S-,S|S2M3,B-,C+" pool="12" >}}
+{{< mastery-table-enhanced id="4144_chilc" rows="S1M3,S-,S|S2M3,B-,C+" >}}
 
 Agents, even the 5★ ones, are incredibly powerful and Chilchuck is no exception. His Talent is content dependent, but is very powerful when it is relevant, so it's little surprise that Chilchuck is yet another viable M6 candidate in the archetype.
 
@@ -242,7 +242,7 @@ For discussion on how his S1 works (it is not an even distribution), check out [
 
 ### Mitm
 
-{{< mastery-table-enhanced id="4147_mitm" rows="S1M3,None,B|S2M3,None,B" pool="1" >}}
+{{< mastery-table-enhanced id="4147_mitm" rows="S1M3,None,B|S2M3,None,B" >}}
 
 Mitm is fairly unique in this guide in that there is a very large gap between his day-to-day use and his advanced use. His spawning junk and short respawn of his robot results in an extremely high net stall in *some* scenarios which makes him uniquely powerful. However, outside of those scenarios, which are rather specific, he’s very underwhelming, as the robot’s bulk and his own damage are fairly unimpressive. Further, most of his value comes from his Talent with extra investment only being rarely required.
 
@@ -253,7 +253,7 @@ A majority of players should likely not invest in him at all, but for those wher
 
 ### Fang the Fire-Sharpened
 
-{{< mastery-table-enhanced id="1036_fang2" rows="S2M3,C,C|S1M3,C-,C-" pool="1" cn_link="https://prts.wiki/w/Fang_the_Fire-sharpened" >}}
+{{< mastery-table-enhanced id="1036_fang2" rows="S2M3,C,C|S1M3,C-,C-" cn_link="https://prts.wiki/w/Fang_the_Fire-sharpened" >}}
 
 Fang the Fire-Sharpened is a decent unit in a tough spot. She's pretty good for a 5★ Charger, but Chargers are largely left in the dust by Agents and Flagbearers, and as a 5★ she doesn't bring quite enough to make up that gap. Still, she is a fantastic cheap to deploy unit with good DPS and decent DP generation and so she can be a solid consideration for people who favor more off-meta approaches.
 
@@ -264,7 +264,7 @@ While most people shouldn't bother, if the above applies to you, then Fang will 
 
 ### Wanqing
 
-{{< mastery-table-enhanced id="4119_wanqin" rows="S2M3,A,A+|S1M3,A-,A+" pool="4" icons="|skill_icon_skcom_assist_cost[3]" >}}
+{{< mastery-table-enhanced id="4119_wanqin" rows="S2M3,A,A+|S1M3,A-,A+" icons="|skill_icon_skcom_assist_cost[3]" >}}
 
 Wanqing continues the recent trend of 5★s that aren't bad but tend to be just a touch worse than older options. That means for older players there isn't much value here (stick with Elysium), but he still has value for relatively newer players who are ready to move beyond just Myrtle for their DP printing purposes. Like all Standard Bearers, both of Wanqing's skills are strong Masteries due to the all important upgrades to wind-up and cycle time, with the only difference between them being what matters more for the stage - the utility (S2) or the DP printing (S1).
 
@@ -275,7 +275,7 @@ For those new players, be aware that similar to Elysium, Wanqing's priorities te
 
 ### Puzzle
 
-{{< mastery-table-enhanced id="4017_puzzle" rows="S1M1,None,None,Breakpoint - S1M1|S2M3,C+,C+" pool="4" >}}
+{{< mastery-table-enhanced id="4017_puzzle" rows="S1M1,None,None,Breakpoint - S1M1|S2M3,C+,C+" >}}
 
 Due to a long initial wind-up and relatively bad DP gen, Puzzle is in an awkward middle ground where he is not as beneficial as other Agents, but also less powerful than a regular Fast-Redeploy. However, decent damage, a strong-by-default archetype, and good gains means Puzzle is still a Mastery consideration, albeit on the low end of priority.
 
@@ -286,7 +286,7 @@ Despite the drawbacks, S2 is still his primary skill because of its damage. The 
 
 ### Cantabile
 
-{{< mastery-table-enhanced id="497_ctable" rows="S2M3,S,S|S1M3,B,A" pool="1" >}}
+{{< mastery-table-enhanced id="497_ctable" rows="S2M3,S,S|S1M3,B,A" >}}
 
 While archetypes in Arknights often don't truly matter, Agents are one of the few that are really just natively good. They have super strong DP-generation which blends perfectly with the FRD-utility, while also bringing additional utility. From the top of the archetype to the bottom, they are all viable, including at the 5★ rarity, and in multiples. In Cantabile's case, she is a very strong M6 consideration, which is rather rare for the 5★s. Both skills are amazing, and there really isn't an objectively "right" answer as there is with most other units. The answer can often come down to personal preference, playstyle, or the situation.
 
@@ -301,7 +301,7 @@ Ultimately, the short answer though is "just do both". Cantabile is one of the b
 
 ### Blacknight
 
-{{< mastery-table-enhanced id="476_blkngt" rows="S2M3,B+,A" pool="1" >}}
+{{< mastery-table-enhanced id="476_blkngt" rows="S2M3,B+,A" >}}
 
 Blacknight's main skill is her S2. It is the centerpiece of the pseudo-meta sleep stall strategy that has occasionally arisen. But even outside of that it is a strong skill with a very high uptime stall on a low DP cost unit, even if she is operating alone. She has a ton of value as an early hold unit, especially considering her rarity, and holds her value as the stage progresses. Her M3 Mastery is quite important to that end, though the M1 and M2 are somewhat mediocre alone, so be sure to go all the way with her Masteries.
 
@@ -314,7 +314,7 @@ However, while she has a lot of general value, Blacknight is still a highly tech
 
 ### Elysium
 
-{{< mastery-table-enhanced id="401_elysm" rows="S2M3,A+,S-|S1M3,A-,A+" pool="2" icons="|skill_icon_skcom_assist_cost[3]" >}}
+{{< mastery-table-enhanced id="401_elysm" rows="S2M3,A+,S-|S1M3,A-,A+" icons="|skill_icon_skcom_assist_cost[3]" >}}
 
 Elysium's Masteries can be a little confusing because at first glance it looks as if they would follow the same logic as Myrtle, yet the logic ends up being the opposite. Although S1 is the better DP generation skill, his S2 utility is miles ahead of Myrtle's. Additionally Myrtle is often the better choice for tight DP because her base cost is cheaper. The times where DP is SO tight that you need both S1's is very rare in Story scenarios, so Elysium's S2 is the better choice for its utility.
 
@@ -327,7 +327,7 @@ Finally note that Elysium lacks an important feature of Myrtle which is cost eff
 
 ### Texas
 
-{{< mastery-table-enhanced id="102_texas" rows="S2M3,B,B+,Breakpoint - S2M1" pool="14" >}}
+{{< mastery-table-enhanced id="102_texas" rows="S2M3,B,B+,Breakpoint - S2M1" >}}
 
 Before she was a busted-tier Fast-Redeploy, Texas was a 5★ Vanguard, but even then she has had a surprising amount of meta impact. Despite being a 5★, she is probably the most valuable Pioneer Vanguard, although that is admittedly not a high bar anymore (or ever). All that is primarily due to her Talent, which just speeds up initial deployments with no conditions. However, her S2 is a factor in that as well, and one that still has some value in the modern game. The Mastery gains on it are subtle, however, and story-centric players may not find them worthwhile. However, her on demand Stun is a useful bit of utility out of the team slot already occupied for her Talent.
 
@@ -340,7 +340,7 @@ Her S1 should be avoided. It is a generic Pioneer skill which are just not good.
 
 ### Beanstalk
 
-{{< mastery-table-enhanced id="452_bstalk" rows="S1M3,B,B|S2M3,C,C" pool="3" >}}
+{{< mastery-table-enhanced id="452_bstalk" rows="S1M3,B,B|S2M3,C,C" >}}
 
 As far as Tacticians go, Beanstalk is pretty straightforward. While neither her DP generation nor her combat ability are at the level of her melee-tile counterparts, her summon is renewable on a relatively short cycle which allows for persistent cheap blocking and stall. Both of her skills are viable for this purpose, but S1 tends to be more generally useful. It generates more DP overall and does so quicker, and instantly renewing the crab tends to be more valuable. S2 is worth considering as well and can give more blocks, but it is slower along with tile restrictions. The Mastery gains on S2 are also fairly poor, so the full M6 on Beanstalk is a luxury.
 
@@ -351,7 +351,7 @@ The change beginning in IS#5 which reduced 4★ Hope cost has been particularly 
 
 ### Myrtle
 
-{{< mastery-table-enhanced id="151_myrtle" rows="S1M3,S+,S+|S2M3,C,C+" pool="3" icons="skill_icon_skcom_assist_cost[2]" >}}
+{{< mastery-table-enhanced id="151_myrtle" rows="S1M3,S+,S+|S2M3,C,C+" icons="skill_icon_skcom_assist_cost[2]" >}}
 
 Myrtle is the ultimate queen of the 4★s, having appeared all over the game since her release, from the easiest of Story stage to the highest risk Advanced CC clears. She is the only 4★ that everyone should E2 and Master. The focus of that Mastery should first be her S1. The benefits of it can be deceptive at first and seem small, and to be fair she will work at SL7 just fine most of the time. However that initial wind up makes a big difference in usability, plus 4★ Mastery is very cheap which makes it one of the most valuable in the game.
 
@@ -362,7 +362,7 @@ While her S1 is the primary reason to use her, Myrtle's S2 can occasionally have
 
 ### Vigna
 
-{{< mastery-table-enhanced id="290_vigna" rows="S2M3,B,B" pool="3" >}}
+{{< mastery-table-enhanced id="290_vigna" rows="S2M3,B,B" >}}
 
 Vigna has some surprising value and is one of the few low-rarity operators who has enough ATK to punch through high enemy DEF. She ends up being more useful, especially after Modules, than most of the 5★ Chargers, even before accounting for investment value. Her S2 Masteries are actually pretty valuable as well. They are a significant improvement to her damage and ability to tackle high enemy DEF. In general, the 4 and 5★ Chargers have a tough time in the game, so exercise some caution before investing in Vigna. However, she can have some pretty nice returns for the low cost if you favor off-meta or low-rarity approaches.
 
@@ -373,7 +373,7 @@ Vigna has some surprising value and is one of the few low-rarity operators who h
 
 ### Kestrel
 
-{{< mastery-table-enhanced id="4023_rfalcn" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4023_rfalcn" rows="S2M3,None,None" >}}
 
 Kestrel is a weird unit. She filled a role, an offense oriented 5★ Pioneer, that was missing for years, but she came out well after Pioneers were already dead in the meta sense. She probably still wouldn't be well regarded if she had come out at launch though. Pioneers are just not that good and never have been, but now she also looks really awkward, way too little, way too late, with a bad mode buff¹.
 
@@ -388,7 +388,7 @@ However, she isn't awful either, so if you like her or like niche teams, she can
 
 ### Poncirus
 
-{{< mastery-table-enhanced id="488_buildr" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="488_buildr" rows="S2M3,None,None" >}}
 
 Poncirus isn't a great Vanguard, but she's not a bad one either, albeit not for the reason many people may think. Her infinite duration DP generating skill is no doubt what catches many people's attention and is certainly attractive to certain types of players, but is actually pretty poor in terms of hands-off DP. The default 4★ Pioneer skill, Charge β, is similarly hands off and generates 1 DP per 3.6 seconds at SL7 compared to 1 DP per 4 seconds at S2M3 for Poncirus! Instead, she's mainly useful as a stat stick. When fully invested she can crack 750 DEF and 3000 HP which are solid stats for a 5★ Vanguard!
 
@@ -401,7 +401,7 @@ As with all Pioneers, pass on her S1. You may be tempted to invest in it after r
 
 ### Wild Mane
 
-{{< mastery-table-enhanced id="496_wildmn" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="496_wildmn" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Chargers are one of the weakest Vanguard archetypes. They generate low (if any) DP and don't have the combat capabilities to justify the squad space or resources. That's still true for Wild Mane, but she does bring some useful value at least. It is very much a fringe niche thing, so she is still an ungraded unit that most people shouldn't consider for promotion, but one that a few may find useful.
 
@@ -414,7 +414,7 @@ Her S1 could be an option too if you're a big Pinus fan, but it lacks the niche 
 
 ### Chiave
 
-{{< mastery-table-enhanced id="349_chiave" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="349_chiave" rows="S2M3,None,None" >}}
 
 Chiave is a unit who *almost* made it, but was just a bit behind the other options, until they all got pushed to the side by the Flagpipe meta. His S2 effect is decent enough, with a decent pop of Arts damage and a rare RES debuff that was occasionally useful in niches, and his robot-centric Talent¹ was a fun thing to make meme teams with. However, his DP generation was always on the low side, and his main features were either extremely situational or just memes. So while he isn't a bad unit, in the modern game, there's just too many better options to really consider general investment into Chiave. You almost certainly have better options, and even if you somehow don't, it's best to stick with the 4★s until something else comes along.
 
@@ -427,7 +427,7 @@ If that robot¹ meme appeals to you though, his S2 is the only choice for Master
 
 ### Reed
 
-{{< mastery-table-enhanced id="261_sddrag" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="261_sddrag" rows="S2M3,None,None" >}}
 
 Reed got one of the biggest glow ups from her base form to alter form, simply because her original Vanguard form is really bad. Reed was an improvement over the prior Charger, Grani, but that wasn't a high bar. She was still largely unusable even at the time, but is especially so now. While her cycle is decent, and the RES on her Talent has given her some rare niche usage, she simply didn't do enough damage to matter, and her DP generation is still both bad and unreliable.
 
@@ -438,7 +438,7 @@ If you want to raise her anyway, you'll probably want to go with her S2, althoug
 
 ### Grani
 
-{{< mastery-table-enhanced id="220_grani" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="220_grani" rows="S2M3,None,None" >}}
 
 Grani is one of the OG proofs to how dedicated you were to off-meta. She is a *bad* unit, being a great example of many early design mistakes. But she was a popular character in the very first post-launch event, so many early... contrarians, let's say¹ raised her anyway out of principle. That was largely a mistake though since she's the sort of bad that's very nearly unusable. She has a 20 second wind-up on a skill that generates no DP, as a Vanguard. That was awful even before considering the 70 SP cost to use it again or her awful Talent or sub-par stats! It was bad at the time before we had Flags, Agents, and Strategists, and is only worse now!
 
@@ -451,7 +451,7 @@ In any case, if I've yet to deter you from the investment, and you too would lik
 
 ### Zima / Зима
 
-{{< mastery-table-enhanced id="115_headbr" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="115_headbr" rows="S2M3,None,None" >}}
 
 Compared to her fellow launch Pioneer Texas, Zima has had a bit of a rougher go of it. While her Talent similarly speeds up initial deployments, it only works for fellow Vanguards which makes it more restrictive on top of a primary skill that just isn't as good. That skill is her S2, which just tends to be flawed all around. It buffs Vanguards, which isn't all that useful given their current role in the game, and has a very poor uptime. But the real killer is the 15 SP initial wind-up which is an eternity for a Vanguard, and the time is made even worse by spreading the DP generation over the skill uptime! There are definitely worse units out there, and Zima has had her time in the spotlight in the past. She's even a very important unit for Vanguard-knights! However, for the general game, the value she brings lags significantly behind even off-meta choices.
 
@@ -460,7 +460,7 @@ Compared to her fellow launch Pioneer Texas, Zima has had a bit of a rougher go 
 
 ### Snegurochka / Снегурочка
 
-{{< mastery-table-enhanced id="4208_wintim" rows="S2M3,None,None|S1M3,None,None,Breakpoint" pool="3" cn_link="https://prts.wiki/w/%E5%86%AC%E6%97%B6" >}}
+{{< mastery-table-enhanced id="4208_wintim" rows="S2M3,None,None|S1M3,None,None,Breakpoint" cn_link="https://prts.wiki/w/%E5%86%AC%E6%97%B6" >}}
 
 While Agents are generally one of the strongest archetypes in the game, Snegurochka is a pretty big miss-design wise. Her high initial SP costs hamstring one of the biggest benefits of the archetype and her skill effects are anemic. Many people will probably desire to raise her anyway, but the flaws of her design are the sort that make it hard to even definitively recommend a skill since both are so bad.
 
@@ -472,7 +472,7 @@ Meanwhile, rather simply, her S1 doesn't get an SP improvement over Mastery whic
 
 ### Scavenger
 
-{{< mastery-table-enhanced id="149_scave" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="149_scave" rows="S2M3,None,None" >}}
 
 While Pioneers in general are one of the weakest Vanguard archetypes, the two 4★s, Scavenger and Courier, are largely exempt from that, although they remain ungraded for Mastery for different reasons. The thing is, they're starter units. Most people have used at least one of them at some point in their career. And for what they are (cheap early units), they're pretty decent too! They just have very little justification for more than a basic E1 investment. The only reason to look towards E2 and Masteries is waifu/husbando or niche reasons.
 
@@ -484,7 +484,7 @@ Between them, Courier does tend to be favored since his bulk is more useful than
 
 ### Courier
 
-{{< mastery-table-enhanced id="198_blackd" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="198_blackd" rows="S2M3,None,None" >}}
 
 While Pioneers in general are one of the weakest Vanguard archetypes, the two 4★s, Scavenger and Courier, are largely exempt from that, although they remain ungraded for Mastery for different reasons. The thing is, they're starter units. Most people have used at least one of them at some point in their career. And for what they are (cheap early units), they're pretty decent too! They just have very little justification for more than a basic E1 investment. The only reason to look towards E2 and Masteries is waifu/husbando or niche reasons.
 

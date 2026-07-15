@@ -23,7 +23,7 @@ tags = ['Mastery', 'Defenders', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Hoshiguma the Breacher
 
-{{< mastery-table-enhanced id="1044_hsgma2" rows="S3M3,S++,S++,Breakpoint - S3M1|S2M3,S+,S|S1M3,B,B" pool="10" >}}
+{{< mastery-table-enhanced id="1044_hsgma2" rows="S3M3,S++,S++,Breakpoint - S3M1|S2M3,S+,S|S1M3,B,B" >}}
 
 Rounding out the LGD summer alters, Hoshi2 is a powerful unit. She has an awful lot crammed into her kit that makes for a flexible unit who covers a lot of ground, which makes her uniquely valuable. She is the sort of unit that will end up on almost every team because she solves so many problems, often in ways that other meta units can't. However, units like this do tend to be expensive, and Hoshi2 is one of the strongest M6s in the game, and even potentially an M9.
 
@@ -38,7 +38,7 @@ Last, her S1 may be worth a look as well. It's a cool callback to her original's
 
 ### Sankta Miksaparato
 
-{{< mastery-table-enhanced id="4194_rmixer" rows="S3M3,B,B|S2M3,C,C-" pool="4" >}}
+{{< mastery-table-enhanced id="4194_rmixer" rows="S3M3,B,B|S2M3,C,C-" >}}
 
 Grandpa phoenix is decent enough for a welfare Defender, but not particularly powerful either. It's a bit awkward to be a 6★ Defender without some absurd utility because they look quite expensive for what you get over the lower rarities when compared to other classes, which is what ultimately holds Sankta Miksaparato back. 6★ Defenders and Medics are some of the last classes you should be investing in unless they're a really absurd unit. With so many ultra powerful units now available, it just doesn't make sense to invest heavily into him when a much cheaper lower rarity will suffice most of the time, especially when factoring in IS Hope costs.
 
@@ -57,7 +57,7 @@ Pass on his S1. While Defensive Recovery skills can occasionally be abused, his 
 
 ### Yu
 
-{{< mastery-table-enhanced id="2026_yu" rows="S2M3,S,S+|S3M3,S-,A+" pool="11" >}}
+{{< mastery-table-enhanced id="2026_yu" rows="S2M3,S,S+|S3M3,S-,A+" >}}
 
 Yu has two valuable skills, and the main one really depends on the type of player you are. While his flashy S3 is often what attracts the attention, his S2 is where his true meta value lies. However, that flashy S3 value may be exactly what certain types of players want, while also finding the value S2 brings to be somewhat unnecessary, so there isn’t a one size fits all Mastery with Yu.
 
@@ -78,7 +78,7 @@ Lastly, his S1 deserves some acknowledgement. The always-on taunt is a useful to
 
 ### Shu
 
-{{< mastery-table-enhanced id="2025_shu" rows="S3M3,S+,S+|S1M3,A,A-,Breakpoint - S1M1|S2M3,C,C" pool="11" >}}
+{{< mastery-table-enhanced id="2025_shu" rows="S3M3,S+,S+|S1M3,A,A-,Breakpoint - S1M1|S2M3,C,C" >}}
 
 Shu is an extremely powerful support unit. She brings a variety of strong buff effects, massive healing, two game breaking features, and that's all built into a reasonably bulky frame. Guardian's have always been one of the strongest support archetypes in the game, and Shu elevates that to a new level.
 
@@ -95,7 +95,7 @@ Finally is Shu's S2. It's a worthy skill if you're interested in maximizing your
 
 ### Jessica the Liberated
 
-{{< mastery-table-enhanced id="1034_jesca2" rows="S3M3,A,A|S2M3,B+,B" pool="1" >}}
+{{< mastery-table-enhanced id="1034_jesca2" rows="S3M3,A,A|S2M3,B+,B" >}}
 
 Jessica the Liberated is one of the more flexible Defenders in the game. She has a well rounded kit that is sufficient at covering an awful lot of scenarios. As with a lot of flexible generalists, her total Mastery grades are fairly high which reflects the broad investment needed to cover a broad variety of roles. In other words, the gap between her primary and secondary skills is relatively low. However, keep in mind her individual grades are a touch low in the modern meta since both her ceiling and her role compression don’t measure up as well to the current powrcreep.
 
@@ -108,7 +108,7 @@ Her S1 may be worth a look if you really like Jessica or AFK skills. Mastery dro
 
 ### Penance
 
-{{< mastery-table-enhanced id="4065_judge" rows="S3M3,A+,A+" pool="1" >}}
+{{< mastery-table-enhanced id="4065_judge" rows="S3M3,A+,A+" >}}
 
 I'm not personally the biggest fan of Juggernauts. They're often among the most powerful enmity (unhealable) units, but they also tend to be a bit all or nothing. When they line up well with what you need to do, they're amazing, and when they don't they're just expensive dead-weight. Between the two 6★s, Penance leans more towards the DPS side of things. She uses Barriers instead of healing, which often makes her a war of attrition. If a stage is set up such that she has a steady stream of fodder to maintain her Barrier she can often essentially solo a stage. If not, she looks a lot more like that expensive liability.
 
@@ -121,7 +121,7 @@ Secondary Mastery on Penance is unnecessary, primarily due to the fact you just 
 
 ### Horn
 
-{{< mastery-table-enhanced id="4039_horn" rows="S2M3,S-,S-|S1M3,A,A-,Breakpoint - S1M1|S3M3,B,B" pool="1" >}}
+{{< mastery-table-enhanced id="4039_horn" rows="S2M3,S-,S-|S1M3,A,A-,Breakpoint - S1M1|S3M3,B,B" >}}
 
 Horn might have the biggest disparity between her meta value and her grades in this guide. That is by no means to say she is bad. Far from it! She's still very powerful! However, it's been a long time since she's been a top of the meta unit either, so being such a well graded M9 might come as a surprise. But worry not if that cost sent some shock through you at first glance. There's quite a bit of nuance to her Masteries, and you probably *won't* want to do the M9, despite her high grades, but that also means there isn't a definite clear path either!
 
@@ -136,7 +136,7 @@ So to summarize, the suggestion with Horn is S1M1 followed by either S1M3 or S2M
 
 ### Mudrock
 
-{{< mastery-table-enhanced id="311_mudrok" rows="S2M3,A+,A,Breakpoint - S2M1|S3M3,B,B+" pool="2" >}}
+{{< mastery-table-enhanced id="311_mudrok" rows="S2M3,A+,A,Breakpoint - S2M1|S3M3,B,B+" >}}
 
 I'm not personally the biggest fan of Juggernauts. They're often among the most powerful enmity (unhealable) units, but they also tend to be a bit all or nothing. When they line up well with what you need to do, they're amazing, and when they don't they're just expensive dead-weight. Between the two 6★s, Mudrock leans more towards the laneholder side of things. Her shields make for both tremendous bulk and sustain, a combination that can often let her solo hold enemies that other laneholders can't.
 
@@ -149,7 +149,7 @@ S3 meanwhile is her "big hitter" skill. It cycles very fast with some good contr
 
 ### Blemishine
 
-{{< mastery-table-enhanced id="423_blemsh" rows="S2M3,C,C+|S3M3,C,C|S1M3,C,C,Breakpoint - S1M1" pool="2" >}}
+{{< mastery-table-enhanced id="423_blemsh" rows="S2M3,C,C+|S3M3,C,C|S1M3,C,C,Breakpoint - S1M1" >}}
 
 These days, Blemishine is one of the weaker 6★s. Her offensive-oriented take on Guardians has always been a bit awkward, but the exploding power ceiling in the modern game has only widened that gap. While many of her fellow Guardians have managed to maintain pretty good value, Blemishine has been left pretty far behind. As far as Mastery priority goes, the situation gets even more hairy because she can potentially be quite an expensive investment to get full use out of her too!
 
@@ -164,7 +164,7 @@ Finally, her S1 can also be a consideration, and may even be the better secondar
 
 ### Eunectes
 
-{{< mastery-table-enhanced id="416_zumama" rows="S3M3,C,C|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="416_zumama" rows="S3M3,C,C|S2M3,None,None" >}}
 
 Back in the day, we used to cope that Eunectes was alright despite her awkward archetype because she still had great stats. But in the modern game with multitudes of good options now easily available, she looks far far worse. Even with their Modules, Duelist Defenders are just incredibly awkward to use. They have long effective cycles, and do little during the downtime. The effects when the skills are up aren't even all that great in the modern game anymore, not to mention the sky high DP costs!
 
@@ -179,7 +179,7 @@ It is worth a minor note that her RA specific Module is quite good for that mode
 
 ### Nian
 
-{{< mastery-table-enhanced id="2014_nian" rows="S2M3,B-,B-" pool="11" >}}
+{{< mastery-table-enhanced id="2014_nian" rows="S2M3,B-,B-" >}}
 
 The older 6★ Protectors, Nian and Hoshiguma, are units that have a tough time justifying their costs. That isn't to say they are bad. Far from it, and at times that bulk blocking has been very valuable, and to be clear, they are better than the 4 and 5★ bulk blockers too. However, they aren't often "three times the cost" better. Then you add in considerations like growing powercreep and the drastic difference in Hope costs in IS and you get fairly low priority, despite them being otherwise decent units. That has always been true with them, but that value gap just continues to get bigger!
 
@@ -192,7 +192,7 @@ Her S3 meanwhile is one of those weird year 1 mistake skills. It doesn't improve
 
 ### Hoshiguma
 
-{{< mastery-table-enhanced id="136_hsguma" rows="S2M3,B-,C|S3M3,C,C" pool="2" >}}
+{{< mastery-table-enhanced id="136_hsguma" rows="S2M3,B-,C|S3M3,C,C" >}}
 
 The older 6★ Protectors, Nian and Hoshiguma, are units that have a tough time justifying their costs. That isn't to say they are bad. Far from it, and at times that bulk blocking has been very valuable, and to be clear, they are better than the 4 and 5★ bulk blockers too. However, they aren't often "three times the cost" better. Then you add in considerations like growing powercreep and the drastic difference in Hope costs in IS and you get fairly low priority, despite them being otherwise decent units. That has always been true with them, but that value gap just continues to get bigger!
 
@@ -207,7 +207,7 @@ Her S3 meanwhile has far better gains and burst potential. It adds quite a lot t
 
 ### Saria
 
-{{< mastery-table-enhanced id="202_demkni" rows="S3M3,A,S|S1M3,A,A+,Breakpoint - S1M1|S2M3,B-,B" pool="2" >}}
+{{< mastery-table-enhanced id="202_demkni" rows="S3M3,A,S|S1M3,A,A+,Breakpoint - S1M1|S2M3,B-,B" >}}
 
 Saria is the classic example of "no easy Mastery choice but all of them". She has three very strong skills that have variously been the best choices over time. It's a great example of the role compression that makes Guardians so powerful, and she impressively manages to maintain her value even with a mostly direct powercreep! It all makes Saria one of the more valuable Kernel units, and a potential M9 candidate even in the modern game. Of course, that's a lot of investment for a non-DPS unit and she isn't as insane as she used to be either, so there's plenty of room for nuance.
 
@@ -228,7 +228,7 @@ There is no one-sized fits all answer with Saria. I've always struggled with her
 
 ### Cairn
 
-{{< mastery-table-enhanced id="4214_cairn" rows="S2M3,A-,A" pool="1" >}}
+{{< mastery-table-enhanced id="4214_cairn" rows="S2M3,A-,A" >}}
 
 Cairn is a powerful 5★ thanks to how good Nervous Impairment is. NI is the strongest form of Elemental Injury, and she can apply it reasonably fast to enemies she's blocking. Less so to enemies she's not, but more on that in a moment. NI's strength lets her be a shockingly bulky Defender. Her base DEF is decent already, plus high HP, and even some RES, then she can negate 3 enemies attacks (plus the damage) to everyone she's blocking every 20ish seconds. It's a pretty decent little package! However, unusually for this guide, she does not need advanced investment to do that, which suppresses her grades which would otherwise be on the high side. In fact, at a modest E2 level 23, she can trigger NI on enemies she's blocking in a single S2 activation (10 seconds), with further investment just shortening the time or improving her secondary bulk. In fact, even at E1 level 80, she'll trigger it before S2 cycles again!
 
@@ -243,7 +243,7 @@ Pass on her S1, which is a relatively boring straight HP increase. It's worse th
 
 ### Vetochki / Веточки
 
-{{< mastery-table-enhanced id="4207_branch" rows="S2M3,C+,C" pool="1" cn_link="https://prts.wiki/w/%E6%8A%98%E6%A1%A0">}}
+{{< mastery-table-enhanced id="4207_branch" rows="S2M3,C+,C" cn_link="https://prts.wiki/w/%E6%8A%98%E6%A1%A0">}}
 
 Vetochki is a solid enough 5★, featuring really good bulk and sustain for her rarity, with enough offense to be a viable laneholder. However, that isn't an in-demand role these days, and there are plentiful other options that have higher ceilings, not to mention the fact she's unhealable with a very high DP cost. This all means she certainly isn't a high priority investment, although she's decent enough if you like her or play in a niche. However, even if that applies to you, be aware that she needs a lot of investment to be decent, as E2, Masteries, Modules, and levels all make a big difference!
 
@@ -256,7 +256,7 @@ Her S1 meanwhile is a pass for a vast majority of people, but may come in handy 
 
 ### Philae
 
-{{< mastery-table-enhanced id="4148_philae" rows="S2M3,B,B+|S1M3,None,None" pool="6" >}}
+{{< mastery-table-enhanced id="4148_philae" rows="S2M3,B,B+|S1M3,None,None" >}}
 
 Our first Primal Defender shows a pretty powerful archetype, since despite the name, they perform like a Ritualist rather than a Primal Caster. More specifically, that means Philae deals Necrosis a percentage of her ATK rather than as of damage dealt. This bypasses enemy DEF/RES and makes for easy and potent application of Necrosis. Philae does this application in a true-AoE as well, rather than just back at the attacker, which makes her a rather powerful wave-clearing unit for her rarity.
 
@@ -271,7 +271,7 @@ Her S1 may be worth a look if you really like her, however in practice, it is ra
 
 ### Senshi
 
-{{< mastery-table-enhanced id="4143_sensi" rows="S2M3,B,B-|S1M3,C+,B-,Breakpoint - S1M1" pool="13" >}}
+{{< mastery-table-enhanced id="4143_sensi" rows="S2M3,B,B-|S1M3,C+,B-,Breakpoint - S1M1" >}}
 
 Compared to the other 5★ Guardians, Senshi is a little trickier to evaluate. While he has the typical spread of short-cooldown S1 and long-cooldown S2, the gap between them is much closer than it is with Nearl or Bassline. This is because his down times are much closer (9 vs 20) but he also can't hold charges on his S1. It makes picking a skill much trickier. On one hand, he's an easy to justify M6, but on the other it can be hard to notice the difference between them at times! If you only do one Mastery, it's basically a coin-flip between them, and a lot of players might not even be able to appreciate the difference.
 
@@ -290,7 +290,7 @@ Ultimately, I would suggest S1M1 > S2M3. This is because most of S1's power is a
 
 ### Underflow
 
-{{< mastery-table-enhanced id="4137_udflow" rows="S2M3,C+,C" pool="4" >}}
+{{< mastery-table-enhanced id="4137_udflow" rows="S2M3,C+,C" >}}
 
 Underflow is a decent unit for low-rarity players. She lacks quite a bit in ceiling which keeps her from being a general suggestion, but she does bring enough to her kit to be viable for certain types of players. Most notably, she can Slow for the entire duration of her S2 in a relatively wide range with passable damage. Mixed with the general utility of her archetype, that's at least something notable.
 
@@ -301,7 +301,7 @@ Her S2 is of course the key to that. Masteries on it are decently valuable, alth
 
 ### Bassline
 
-{{< mastery-table-enhanced id="4109_baslin" rows="S1M3,B+,B+,Breakpoint - S1M1|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4109_baslin" rows="S1M3,B+,B+,Breakpoint - S1M1|S2M3,None,None" >}}
 
 Thanks to the reduction in 4★ Hope cost in IS, there's little reason outside of niches to invest in any of the 5★ Guardians. Essentially, Gummy is better value in IS, and the 5★s aren't better enough in the regular game to justify the costs when they'll just get replaced in the long run. Of course, that value proposition was always questionable, and much of the value discussion around Croissant also applies to Bassline, but the situation looks even worse for the Guardians since the 6★ Guardians are also incredibly powerful, placing the 5★s in a very awkward place value-wise. 
 
@@ -314,7 +314,7 @@ You could consider his S2 as well, although it's a much more fringe Mastery. It'
 
 ### Firewhistle
 
-{{< mastery-table-enhanced id="493_firwhl" rows="S2M3,B+,B+" pool="1" >}}
+{{< mastery-table-enhanced id="493_firwhl" rows="S2M3,B+,B+" >}}
 
 Firewhistle has aged a bit better than Ashlock thanks to the fact her damage is Arts based. It can be troublesome to keep enemies in the burning tiles, but she does solid overall DPS that scales a bit better, and tends to be a bit easier to use. This is because unlike Ashlock, she can continue to carry out her burst attacks while blocking, ultimately making for a more reliable option. Of course, her DPS doesn't measure up to modern 6★ standards and Firewhistle brings little else beyond her range so she's still a relatively low consideration, albeit one of the better at the rarity.
 
@@ -325,7 +325,7 @@ In any case, Firewhistle's S2 is the better Mastery for this adorable pyromaniac
 
 ### Ashlock
 
-{{< mastery-table-enhanced id="431_ashlok" rows="S2M3,B+,B" pool="2" >}}
+{{< mastery-table-enhanced id="431_ashlok" rows="S2M3,B+,B" >}}
 
 Ashlock was a fairly nice 5★ when she came out. Her long range from a melee tile made her a fairly strong off-meta consideration. However, she hasn't aged especially well. She's always been a bit awkward to use since that Fortress range can be as much a hindrance as a help, not to mention losing her blocking. However, her DPH is also quite low too, so she has a tough time keeping up with the growing enemy stat bloat at times.
 
@@ -338,7 +338,7 @@ S1 is a generic ATK up skill, so probably shouldn't be something you consider. H
 
 ### Nearl
 
-{{< mastery-table-enhanced id="148_nearl" rows="S1M3,B,B,Breakpoint - S1M1" pool="2" >}}
+{{< mastery-table-enhanced id="148_nearl" rows="S1M3,B,B,Breakpoint - S1M1" >}}
 
 Thanks to the reduction in 4★ Hope cost in IS, there's little reason outside of niches to invest in any of the 5★ Guardians. Essentially, Gummy is better value in IS, and the 5★s aren't better enough in the regular game to justify the costs when they'll just get replaced in the long run. Of course, that value proposition was always questionable, and much of the value discussion around Croissant also applies to Nearl, but the situation looks even worse for the Guardians since the 6★ Guardians are also incredibly powerful, placing the 5★s in a very awkward place value-wise. 
 
@@ -351,7 +351,7 @@ You could consider her S2 as well, although it's a much more fringe Mastery. It'
 
 ### Croissant
 
-{{< mastery-table-enhanced id="201_moeshd" rows="S1M3,B-,B|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="201_moeshd" rows="S1M3,B-,B|S2M3,None,None" >}}
 
 Croissant is one of the best examples of the problems that come with the 5★s. She is a *fantastic* Protector. In the 5★ only niche, she is an MVP. But for normal players, she straddles an awkward line. She costs twice as much as a 4★, and while she is certainly better than Cuora or Bubble, she is nowhere near twice as good! In fact, there's vanishingly few places that Croissant can handle but Cuora or Bubble couldn't. It ultimately makes for one of the highest graded units that you probably shouldn't be promoting at all, an awkward moment of contradiction in this guide that is frustratingly common at the rarity.
 
@@ -366,7 +366,7 @@ Although ungraded, her S2 may be worth a look also if you like Quaso (which seem
 
 ### Bubble
 
-{{< mastery-table-enhanced id="381_bubble" rows="S2M3,B,B,Breakpoint - S2M1" pool="3" >}}
+{{< mastery-table-enhanced id="381_bubble" rows="S2M3,B,B,Breakpoint - S2M1" >}}
 
 Cuora and Bubble (and Protectors at large) have always been a bit of a pain with regards to this guide. The general value of raw bulk Defenders has varied quite a bit with time, but even at the highs, the value has been questionable compared to other potential investments like DPS. Now that 4★s cost no Hope to recruit in IS, but modern DPS is just getting more and more insane, the answer is no more clear!
 
@@ -381,7 +381,7 @@ The full discussion of whether to choose Cuora or Bubble is a bit beyond the sco
 
 ### Matterhorn
 
-{{< mastery-table-enhanced id="199_yak" rows="S2M3,None,C" pool="3" >}}
+{{< mastery-table-enhanced id="199_yak" rows="S2M3,None,C" >}}
 
 Matterhorn is a rather a-typical consideration with regards to priority. RES-tanks like him are fairly rare, and useful when needed, but unlike generalists like Nightingale, are just too situational to really consider. However, the reduced Hope cost in IS means he is a free to recruit solution, in a mode that often requires specific solutions at the high end. Of course, this is still a fringe consideration. It's not that commonly needed, there are usually multiple solutions, and few people play at the difficulty that someone more general like Cuora can't do the job anyway! Nevertheless, Matterhorn is at least worthy of a look for some people.
 
@@ -392,7 +392,7 @@ If you think you're one of them, the only skill worth considering is his S2. Tha
 
 ### Gummy / Гум
 
-{{< mastery-table-enhanced id="196_sunbr" rows="S1M3,A,B+" pool="3" >}}
+{{< mastery-table-enhanced id="196_sunbr" rows="S1M3,A,B+" >}}
 
 Gummy is probably the biggest benefiter of the change to 4★ Hope costs beginning in IS#5. I probably don't need to tell you why either. Gummy is one of those units that most people have experience with. The role compression that Guardians bring is so valuable, and Gummy is the one almost everyone has from the start! But few probably went the extra mile with investment with her. She ages out pretty quickly as your roster grows. At least, that was before IS#5 when many players began to dust her off from the back of their rosters!
 
@@ -405,7 +405,7 @@ Of course though, Gummy is a great unit all around (almost all of the Guardians 
 
 ### Cuora
 
-{{< mastery-table-enhanced id="150_snakek" rows="S2M3,B,B-" pool="3" >}}
+{{< mastery-table-enhanced id="150_snakek" rows="S2M3,B,B-" >}}
 
 Cuora and Bubble (and Protectors at large) have always been a bit of a pain with regards to this guide. The general value of raw bulk Defenders has varied quite a bit with time, but even at the highs, the value has been questionable compared to other potential investments like DPS. Now that 4★s cost no Hope to recruit in IS, but modern DPS is just getting more and more insane, the answer is no more clear!
 
@@ -420,7 +420,7 @@ The full discussion of whether to choose Cuora or Bubble is a bit beyond the sco
 
 ### Cement
 
-{{< mastery-table-enhanced id="464_cement" rows="S2M3,None,None|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="464_cement" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Duelist Defenders do not have an easy go of things. One-block with high DP cost and their Trait restrictions (even with Modules) puts all of them in a tough spot across the board, yet their stats are often high enough that they manage to at least carve out meaningful niche usage. In Cement's case, she has actually found some use with her S2 in her raw defensive bulk which is remarkably high at peak. Now, that is rarely an essential thing, and a relatively high SP cost (compounded by the Duelist Trait) further shrinks that potential niche. While her bulk is powerful at peak, it shrinks and has a rather long downtime which can make it tricky for stalling heavy hitters. However, it is viable enough to give her some use in various non-6★ niches, or if she appeals to you.
 
@@ -431,7 +431,7 @@ If Cement is a favorite, you could consider her S1 as well for everyday use. It 
 
 ### Czerny
 
-{{< mastery-table-enhanced id="4047_pianst" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4047_pianst" rows="S2M3,None,None" >}}
 
 Czerny is a rare example of a reflect tank. While that's almost always worse than just normal DPS, it has given him some niche use now and then. He's still quite fringe even by niche standards, and is less generally viable as an Arts tank, but is certainly usable if you like him or are looking for something a little different.
 
@@ -442,7 +442,7 @@ If that interests you, his main skill is his S2 which plays better into the refl
 
 ### Shalem
 
-{{< mastery-table-enhanced id="4025_aprot2" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4025_aprot2" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Shalem gives up on any RES tanking you might expect from an Arts Protector, aside from a very modest HP improvement, for pure damage, along with a rare bit of RES debuffing. He's decent enough at it to be usable if you like but is pretty far off-meta. Even when he was new, he was more trouble than he was worth, and looks even worse now on top of both skills having some drawbacks, so he's only a desire tier of unit now and doesn't have a particularly compelling niche value either.
 
@@ -457,7 +457,7 @@ It's worth a quick note that Shalem's IS#2 specific buff isn't worth considering
 
 ### Aurora
 
-{{< mastery-table-enhanced id="422_aurora" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="422_aurora" rows="S2M3,None,None" >}}
 
 Duelist Defenders do not have an easy go of things. One-block with high DP cost and their Trait restrictions (even with Modules) puts all of them in a tough spot across the board, yet their stats are often high enough that they manage to at least carve out meaningful niche usage. In Aurora's¹ case it's with her damage via her S2. True to the archetype name, it makes her a fairly competent low-rarity elite duelist. With it, she can hit incredibly hard on a rapid and flexible cycle, and the combination of Cold/Freeze makes her surprisingly tanky as well. Of course, all the flaws of the archetype remain, plus she is reliant on the enemy not being Freeze immune which rules out most bosses. It means Aurora is very much a niche unit that a vast majority of people shouldn't invest into, but she is one of the more competent ungraded units.
 
@@ -470,7 +470,7 @@ Pass on her S1, which is a frustrating relic of the era. It could actually be a 
 
 ### Heavyrain
 
-{{< mastery-table-enhanced id="304_zebra" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="304_zebra" rows="S2M3,None,None" >}}
 
 Heavyrain's gimmick is applying Camouflage to others. That has given her some rare niche use now and then. Additionally, she's a pretty decent tank in her own right, so can be a viable promotion if you like her. However, there's two major problems. The first is uptime which makes her rather vulnerable for a Protector and limits the value of her niche. The second is simply that the Protector group is very strong, and you'll get a lot more value out of Cuora or Bubble instead who are cheaper, free to recruit in IS, and actually better tanks too. These two facts ultimately means there isn't a lot of meta or even niche reason to raise her.
 
@@ -483,7 +483,7 @@ Pass on her S1. It's odd that she has it since it's more similar to a Guardian S
 
 ### Blitz
 
-{{< mastery-table-enhanced id="457_blitz" rows="S1M3,None,None|S2M3,None,None" pool="12" >}}
+{{< mastery-table-enhanced id="457_blitz" rows="S1M3,None,None|S2M3,None,None" >}}
 
 Blitz is a surprisingly strong unit in certain niches, almost enough so to justify some Mastery grades on both skills! However, niches he fits in are relatively rare, and he can be hard to use or appreciate in general teams, which holds back a lot of his value¹.
 
@@ -498,7 +498,7 @@ It's less special, but his S2 is also a fairly strong niche skill. The Stun is l
 
 ### Asbestos
 
-{{< mastery-table-enhanced id="378_asbest" rows="S2M3,None,None,Breakpoint - S2M3" pool="2" >}}
+{{< mastery-table-enhanced id="378_asbest" rows="S2M3,None,None,Breakpoint - S2M3" >}}
 
 While not exactly a bad unit, Asbestos is a unit whose numbers were never especially great and now only looks worse. She is typically used as a DPS unit since she can do AoE Arts damage from a melee tile on high skill uptime, but her damage just isn't impressive enough to be a general consideration. She also has lateral use as a RES tank, but that's a very niche thing, nor is she the best choice for the role.
 
@@ -511,7 +511,7 @@ Probably pass on her S1. It's her Arts tanking skill, however that's a lot more 
 
 ### Hung
 
-{{< mastery-table-enhanced id="226_hmau" rows="S2M3,None,None|S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="226_hmau" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Hung is a decent unit by simple virtue of being a Guardian. If you like him and just want a blocker that heals, he is certainly functional. However, Guardian's are plentiful and Hung is the least useful of them. Even the lower rarity Gummy is far more valuable! This is primarily because of his Defensive Recovery. While there are some cases where such skills charge very fast, in most, they are slow and inconsistent which makes Hung far less reliable than any of the other options.
 
@@ -524,7 +524,7 @@ Meanwhile, his S1 can be viable and Mastery makes it instantly available, but th
 
 ### Bison
 
-{{< mastery-table-enhanced id="325_bison" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="325_bison" rows="S2M3,None,None" >}}
 
 Bison is actually a really solid Physical tank. However, it's not a vital role in the first place, he doesn't have a lot of niche over the 6★s, the 4★ competition is extremely stiff, and even within the 5★s, Croissant is preferred. Basically, he's decent but there's a ton of better competition and he doesn't have a special value over them except for a tiny bit with his taunt. So while decent, he's not at all a recommended promotion.
 
@@ -537,7 +537,7 @@ A very fringe, and now also dated, alternative use for him is as Welfare Aak ena
 
 ### Vulcan
 
-{{< mastery-table-enhanced id="163_hpsts" rows="S2M3,None,None" pool="7" >}}
+{{< mastery-table-enhanced id="163_hpsts" rows="S2M3,None,None" >}}
 
 It can be easy to overlook the flaws of an archetype when the 6★s (Mudrock and Penance) are so powerful. Unfortunately for Vulcan, that inability to be healed sticks out much more when you consider her high SP costs. She has no sustain outside of her skill uptime, so the large downtime makes her very hard to use. Most of the time, you'll get a single skill use out of her before she ultimately gets killed by attrition. She is certainly not for the faint of heart.
 
@@ -548,7 +548,7 @@ That said, if you wanted to raise her, it's usually best to go with her S2. The 
 
 ### Liskarm
 
-{{< mastery-table-enhanced id="107_liskam" rows="S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="107_liskam" rows="S1M3,None,None" >}}
 
 Liskarm is an odd unit. She's one of the most common SP batteries for various meme, niche, or advanced clears, and is still unmatched in that role. However, in regular content she's pretty clunky, and generally inferior to many other Defenders, both at her own rarity and at the less expensive 4★ rarity. Further, as far as this guide goes, since that role comes from her Talent. Her skills don't usually matter, and can even be a hindrance!
 
@@ -561,7 +561,7 @@ S2 could be something to consider as well, but is ungraded. She can do alright A
 
 ### Lutonada
 
-{{< mastery-table-enhanced id="4130_luton" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="4130_luton" rows="S2M3,None,None" >}}
 
 Enmity (unhealable) operators need a special level of "oomph" to justify their use. This is particularly a problem for lower rarity iterations like Lutonada. She isn't a bad unit per se, however she lacks the impact that might justify her over more typical options, not to mention Juggernaut's high DP cost. In other words, she doesn't do enough that's special to justify the downsides.
 

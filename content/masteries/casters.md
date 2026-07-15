@@ -23,7 +23,7 @@ tags = ['Mastery', 'Casters', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Pramanix the Prerita
 
-{{< mastery-table-enhanced id="1046_sbell2" rows="S2M3,S++,S++|S3M3,A+,S-|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="1046_sbell2" rows="S2M3,S++,S++|S3M3,A+,S-|S1M3,None,None" >}}
 
 Pramanix the Prerita is an incredibly powerful Caster. Her high AoE DPS is the most obvious feature, but just as valuable is the control from her snow field (Talent 1). This is further enhanced by her S2, resulting in one of the best, if not *the* best AFK skills in the game. But don’t take that to mean she lacks in ceiling! Her AFK skill is so strong that it bucks that trend, but she also has an even higher DPS skill available in the uncommon cases her S2 isn’t enough. It ultimately makes Pramanix2 a strong M6 consideration, although her S2 is so dominant it’s not nearly as necessary as some other highly graded M6 units.
 
@@ -44,7 +44,7 @@ Last, creative players could consider her S1 as well, but it is much less specia
 
 ### Mantra
 
-{{< mastery-table-enhanced id="4204_mantra" rows="S3M3,S,S|S2M3,C+,C" pool="1" >}}
+{{< mastery-table-enhanced id="4204_mantra" rows="S3M3,S,S|S2M3,C+,C" >}}
 
 Mantra is a reasonably powerful Caster, who avoids some of the key issues that plague her fellow Primal Casters, although in an era of ever expanding powercreep, she ends up feeling a bit complex and situational for the output, particularly with how absurdly powerful her corresponding Ritualist is already. It hampers Mantra's priority, although she is still more powerful than many legacy units and is more than usable if she catches your fancy.
 
@@ -65,7 +65,7 @@ Last is her S1, which may be worth a look for the true Mantra-simps. A vast majo
 
 ### Necrass
 
-{{< mastery-table-enhanced id="450_necras" rows="S3M3,S-,S-,Breakpoint - S3M1|S1M3,C,C" pool="1" >}}
+{{< mastery-table-enhanced id="450_necras" rows="S3M3,S-,S-,Breakpoint - S3M1|S1M3,C,C" >}}
 
 Necrass is a powerful unit featuring a strong, free, and renewable summon and high damage. The combination makes her a potent story-carry type unit, allowing her to essentially solo a lot of content. However, she is also a unit with a relatively low ceiling compared to her contemporaries and she falters quite a bit in harder content. If her summon is stat-checked or melee tiles are limited, she has very little utility to make up for it, and her damage falls off quickly vs any enemy RES. This ultimately makes her a strong investment choice, but not an especially high priority one.
 
@@ -82,7 +82,7 @@ Last is her S2. It has good DPS with some Sleep utility, but ultimately is an ex
 
 ### Blaze the Igniting Spark
 
-{{< mastery-table-enhanced id="1040_blaze2" rows="S3M3,A *,A+ *|S2M3,C,C" pool="1" >}}
+{{< mastery-table-enhanced id="1040_blaze2" rows="S3M3,A *,A+ *|S2M3,C,C" >}}
 
 \* *Note much of the value in Blaze2's S3 is tied to having a good source of Burn application, such as Yu. Treat the overall priority lower if you do not have Yu (or similar future OP). See the rest of the writeup for more detail.*
 
@@ -103,7 +103,7 @@ Last, a small note for the people here looking for skill suggestions. Her S1 had
 
 ### Lappland the Decadenza
 
-{{< mastery-table-enhanced id="1038_whitw2" rows="S3M3,S+,S+|S1M3,B,B-|S2M3,None,None" pool="9" >}}
+{{< mastery-table-enhanced id="1038_whitw2" rows="S3M3,S+,S+|S1M3,B,B-|S2M3,None,None" >}}
 
 Global range is a very powerful mechanic, and Lappland the Decadenza raises the bar established by Goldenglow by piling on strong DPS, control, and manipulatable targeting. It all makes for one of the most powerful general purpose Casters in the game, and a very high priority investment option.
 
@@ -122,7 +122,7 @@ The balance of her S1 vs S2 makes for an interesting question on the better seco
 
 ### Marcille
 
-{{< mastery-table-enhanced id="4141_marcil" rows="S2M3,S-,A|S3M3,B-,B|S1M3,None,None" pool="12" >}}
+{{< mastery-table-enhanced id="4141_marcil" rows="S2M3,S-,A|S3M3,B-,B|S1M3,None,None" >}}
 
 Marcille is one of those units that's a little tricky to evaluate. She does a lot, much of which is potentially valuable, but also isn't overwhelmingly powerful in any of it.
 
@@ -139,7 +139,7 @@ Advanced players may instead find her S1 to be the more appealing secondary skil
 
 ### Nymph
 
-{{< mastery-table-enhanced id="4146_nymph" rows="S2M3,S-,S|S3M3,B *,B *,Breakpoint - S3M2" pool="1" >}}
+{{< mastery-table-enhanced id="4146_nymph" rows="S2M3,S-,S|S3M3,B *,B *,Breakpoint - S3M2" >}}
 
 \* *Note much of the value is Nymph's S3 is tied to having a good source of Necrosis application, such as Virtuosa. Treat the priority lower if you do not have Virtuosa (or similar future OP). This does not apply to her S2. See the rest of the writeup for more detail.*
 
@@ -158,7 +158,7 @@ Finally, although it's common to think her S3 has no value without Virtuosa, tha
 
 ### Logos
 
-{{< mastery-table-enhanced id="4133_logos" rows="S3M3,S++,S++,Breakpoint - S3M1|S1M3,A+,A|S2M3,None,C+" pool="1" >}}
+{{< mastery-table-enhanced id="4133_logos" rows="S3M3,S++,S++,Breakpoint - S3M1|S1M3,A+,A|S2M3,None,C+" >}}
 
 Logos is, as of this writing, the best Caster in the game which is quite remarkable since a whopping seven 6★ Casters have come out between his release and this writing! His burst damage is already insane at base, but then he has not one, but two great Modules that give him even more ceiling and flexibility. If that weren’t enough, he gets a high quality AFK skill too. It all makes Logos one of the highest priority investments available.
 
@@ -175,7 +175,7 @@ Rounding things out is his S2. Again, he has quite good gains here, however his 
 
 ### Ho'olheyak
 
-{{< mastery-table-is id="4027_heyak" rows="S3M3,C,C,-- *" pool="1" en_link="https://sanitygone.help/en/operators/hoolheyak/">}}
+{{< mastery-table-is id="4027_heyak" rows="S3M3,C,C,-- *" en_link="https://sanitygone.help/en/operators/hoolheyak/">}}
 
 \* *Note that Ho'olheyak has a specialized IS Module, however it is not a good one and so does not warrant special consideration. The exclusion of IS-specific grades here is not a mistake.*
 
@@ -196,7 +196,7 @@ Finally, Ho'olheyak got a mode specific Module, but unlike most of them, it isn'
 
 ### Lin
 
-{{< mastery-table-enhanced id="4080_lin" rows="S3M3,A- *,A *" pool="1" >}}
+{{< mastery-table-enhanced id="4080_lin" rows="S3M3,A- *,A *" >}}
 
 \* *Note that Lin’s S3 is graded assuming she has her PLX-X Module at level 2. If you do not plan to get this Module to that level, treat the priority of this skill significantly lower.*
 
@@ -213,7 +213,7 @@ The major flaw with her S3 pre-Module was its cycle time. This originally gave r
 
 ### Ebenholz
 
-{{< mastery-table-enhanced id="4046_ebnhlz" rows="S3M3,B-,B|S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4046_ebnhlz" rows="S3M3,B-,B|S2M3,None,None" >}}
 
 If you like blasting tough enemies with a single massive hit to the face, Ebenholz is the Caster for you. He takes the Mystic Caster blueprint of storing up charges and enhances it with some targeting priority that keeps those big blasts where you want them. However, while he can be a fun and satisfying unit to use, he's also a bit flawed. He has no ability to get past enemy RES which is often pretty high on the very targets you'd want to use him again. He is also much less impressive once those charges are spent, meaning a lot of times he'll do a big hit of only mildly impressive damage, then not do much of anything else. Plus by modern standards, his big blast isn't even all that impressive anymore when it does work well. It all leaves Ebenholz as a desire-only tier of 6★, albeit a decent one that's still quite fun to use.
 
@@ -228,7 +228,7 @@ Pass on his S1. All Mystic Casters have a skill similar to this, and it is theor
 
 ### Goldenglow
 
-{{< mastery-table-enhanced id="377_gdglow" rows="S3M3,S,S,Breakpoint - S3M1" pool="1" >}}
+{{< mastery-table-enhanced id="377_gdglow" rows="S3M3,S,S,Breakpoint - S3M1" >}}
 
 Goldenglow is one of the longer lasting old units, and for good reason. While she's never been the highest DPS Caster, her global range and solid RES-ignore has seen her value hold fairly steady. Even with direct competition now, it's a role often useful in multiples, not to mention that competition (as of this writing) is a limited unit. It means Goldenglow has held some decent priority for a unit her age, and should continue to do so for quite a while still, albeit declining slightly.
 
@@ -245,7 +245,7 @@ Last, her S1 is notable as a bit of trivia. For a long time, it was the highest 
 
 ### Carnelian
 
-{{< mastery-table-enhanced id="426_billro" rows="S3M3,C,C-|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="426_billro" rows="S3M3,C,C-|S2M3,None,None" >}}
 
 Carnelian is one of the worst aged units in the game. Even when she was brand new, her value was questionable. While Beeswax and Mint had some value in lower rarity niches, that wasn't something more meta high-rarity clears really needed, and Carnelian didn't even have enough bulk to make a difference in cases where it might. Then she got powercrept by Lin less than a year and a half later, then again by Pramanix2. It all makes for one of the lowest priority 6★s, who is still pretty bad even if you lack her betters! Carnelian is very much a desire-only promotion and, unfortunately, has pretty much always been that way.
 
@@ -260,7 +260,7 @@ Pass on her S1. It allows her to retain her defensive bulk, but the DPS is way w
 
 ### Passenger
 
-{{< mastery-table-enhanced id="472_pasngr" rows="S3M3,B,B|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="472_pasngr" rows="S3M3,B,B|S2M3,None,None" >}}
 
 Passenger is one of those novel history notes in the game. He was awful on release, but got a couple of buffs and was one of the earliest benefactors of the Module system. Plus his skills were abusable with the Chain Caster Hand relic in IS early on (more on this later), so for a while he actually had some decent value. However, even at the time his ceiling was never very high, and thanks to modern powercreep, he has largely faded to the background. These days, Passenger is functional enough if you want to use him, but not a strongly recommended investment, nor does he have a lot of niche value either.
 
@@ -277,7 +277,7 @@ Pass on his S1 which just has no special value. Even with the longer Slow, it's 
 
 ### Dusk
 
-{{< mastery-table-is id="2015_dusk" rows="S3M3,C-,C,-- *|S1M3,C,C-,-- *,Breakpoint - S1M1" pool="11" >}}
+{{< mastery-table-is id="2015_dusk" rows="S3M3,C-,C,-- *|S1M3,C,C-,-- *,Breakpoint - S1M1" >}}
 
 \* *Note that Dusk has a specialized IS Module, however it is not a good one and so does not warrant special consideration. The exclusion of IS-specific grades here is not a mistake.*
 
@@ -298,7 +298,7 @@ Last, her ISW-α Module is worth a brief discussion to avoid some confusion, alt
 
 ### Ceobe
 
-{{< mastery-table-enhanced id="2013_cerber" rows="S2M3,S- *,S *" pool="2" >}}
+{{< mastery-table-enhanced id="2013_cerber" rows="S2M3,S- *,S *" >}}
 
 \* *Note that Ceobe’s S2 is graded assuming she has her CCR-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
@@ -317,7 +317,7 @@ Last, her S3 is the sort of skill that should make her feel fortunate she has he
 
 ### Mostima
 
-{{< mastery-table-enhanced id="213_mostma" rows="S3M3,C *,B+ *|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="213_mostma" rows="S3M3,C *,B+ *|S2M3,None,None" >}}
 
 \* *Note that Mostima’s S3 is graded assuming she has her SPC-Y Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
@@ -334,7 +334,7 @@ Pass on her S1 which is a worthless generic skill. Thankfully, these are largely
 
 ### Eyjafjalla
 
-{{< mastery-table-enhanced id="180_amgoat" rows="S2M3,A+,A-,Breakpoint - S2M1|S3M3,A,A-" pool="2" >}}
+{{< mastery-table-enhanced id="180_amgoat" rows="S2M3,A+,A-,Breakpoint - S2M1|S3M3,A,A-" >}}
 
 Eyjfjalla is a sort of funny unit. She was one of the best launch units, and the longest lasting DPS unit. She set the bar for Casters so high that it took all the way until Logos to truly powercreep her! But powercreep comes for everyone (except Nightingale it seems, but that's a topic for another time) and Eyja was eventually brought low too. However, it does mean that she's still a very solid unit. While there are lots of good Casters now, Eyja is still one of the better general purpose ones, although she does look a bit more flawed than she used to.
 
@@ -349,7 +349,7 @@ Pass on her S1. It's stuck on Single Target without any upside, which makes it l
 
 ### Ifrit
 
-{{< mastery-table-enhanced id="134_ifrit" rows="S2M3,A,B+,Breakpoint - S2M1|S3M3,A-,A+" pool="2" >}}
+{{< mastery-table-enhanced id="134_ifrit" rows="S2M3,A,B+,Breakpoint - S2M1|S3M3,A-,A+" >}}
 
 Ifrit has held a lot of value over the years. She's sort of funny because it turns out Blast Casters are generally terrible thanks to low DPS and low total damage, a fact that most people missed until we got a truly awful second one. But Ifrit was always well regarded, and the reason she still retains value, it turns out, is because she has an absurdly good Talent which gives a huge amount of unconditional RES-shred. However, her DPS is on the low side (it turns out, who knew), so by modern standards, she isn't as valuable as she used to be if she can't take advantage of that Talent.
 
@@ -366,7 +366,7 @@ Pass on her S1 which just doesn't have any particular value. The cycle on it is 
 
 ### Tecno
 
-{{< mastery-table-enhanced id="4164_tecno" rows="S2M3,C,C+|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4164_tecno" rows="S2M3,C,C+|S1M3,None,None" >}}
 
 In the latest entry to the war crimes division, we can now raise the dead, and force them to murder their friends. But they’re cute little ghosts now, so it’s OK. Tecno is a novel unit, and one with a fair amount of value in certain niches, or for those who like creative units. However, she’s ultimately a tad undertuned in general content. The ghosts have pretty poor stats, and she requires a lot of fodder enemies to build and maintain them. So she ends up being the sort of unit where if you’re reading this guide for practical advice, you should probably pass on her.
 
@@ -377,7 +377,7 @@ However, she does have value for the more creatively minded, and in that case bo
 
 ### Warmy
 
-{{< mastery-table-enhanced id="4081_warmy" rows="S2M3,C-,C|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4081_warmy" rows="S2M3,C-,C|S1M3,None,None" >}}
 
 Unless you have an independently good skill (like Nymph’s S2), Primal Casters are a bit of an awkward archetype. They completely rely on another unit to be effective. That’s especially true for Warmy because both options, Bobbing and Yu are gacha units! That puts Warmy in a bad spot already, and as a 5★ she just doesn’t have enough impact to justify promotion for most people regardless.
 
@@ -390,7 +390,7 @@ You should probably pass on her S1. For the 5★ Primal Casters, it's their skil
 
 ### Santalla
 
-{{< mastery-table-enhanced id="341_sntlla" rows="S2M3,C+,C+" pool="1" >}}
+{{< mastery-table-enhanced id="341_sntlla" rows="S2M3,C+,C+" >}}
 
 Santalla is a decent Splash Caster... at least for her rarity. She does good(ish) burst DPS with decent control, albeit with a touch of RNG. None of her value is particularly good in a meta context, so she isn't a general recommendation, but she's a pretty good option for various niche clears, or even if you just happen to like her.
 
@@ -405,7 +405,7 @@ Pass on her S1 which is a low-value generic skill. Swift Strike happens to be on
 
 ### Harmonie
 
-{{< mastery-table-enhanced id="297_hamoni" rows="S2M3,C,C" pool="1" >}}
+{{< mastery-table-enhanced id="297_hamoni" rows="S2M3,C,C" >}}
 
 Harmonie is a bit of an odd unit because the main features of her kit don't work particularly well together. In theory, her MVSPD reduction is probably meant to allow her to build charges while also preventing blockers from getting overwhelmed while she's DPSing them, but in practice that doesn't really work since that's not how control effects like this are really used. So while her control can be useful in a variety of niches, she doesn't actually do meaningful damage to the very targets she is snaring, resulting in a clunky incongruous kit. In most cases, the cheaper Indigo will be a far better investment.
 
@@ -418,7 +418,7 @@ Pass on her S1 unless you really want to maximize your usage. All Mystic Casters
 
 ### Qanipalaat
 
-{{< mastery-table-enhanced id="466_qanik" rows="S2M3,C,C" pool="6" >}}
+{{< mastery-table-enhanced id="466_qanik" rows="S2M3,C,C" >}}
 
 While Qanipalaat is far from a great Caster, he's got enough going for him that he can be occasionally useful. His on-demand Levitate, which has a decent duration on a passable cycle (thanks to the CCR-Y base effect) has given him that occasional value. For example, he was a great low-Hope solution to IS#4's ED2 boss. However, outside of that Levitate feature, he doesn't look all that great with relatively mediocre DPS.
 
@@ -431,7 +431,7 @@ Probably pass on his S1 unless you play in an especially constrained niche. It h
 
 ### Astgenne
 
-{{< mastery-table-enhanced id="135_halo" rows="S2M3,B,B" pool="4" >}}
+{{< mastery-table-enhanced id="135_halo" rows="S2M3,B,B" >}}
 
 Before she became a jaded overworked lab junky whose blood has been replaced by coffee, Astgenne was a bright eyed rising star. She also happened to be a fairly quality Caster, at least for her rarity. While not quite a special meta quantity thanks to her high-DP cost and limited utility, she has enough DPS and enough Slow to be valuable in a variety of niches.
 
@@ -444,7 +444,7 @@ Pass on her S1 which doesn't have the upside of her S2. While her S2 doesn't exa
 
 ### Rockrock
 
-{{< mastery-table-enhanced id="4040_rockr" rows="S2M3,A-,A-" pool="1" >}}
+{{< mastery-table-enhanced id="4040_rockr" rows="S2M3,A-,A-" >}}
 
 Rockrock is one of the strongest 5★ DPS units, a fact that is both a blessing and a curse. The reason it's a curse is because that's all she does. Her DPS is actually better than a lot of 6★s, believe it or not, but... that's it. She does a lot of Arts damage to a single target and nothing else. The 6★s, the good ones anyway, tend to do a lot of other things beyond just raw ST DPS. DPS is also the easiest thing to replace. So while she is a great unit, Rockrock is ultimately a very replaceable one so makes for a tough general investment suggestion. However, if you're looking to dip your toes into lower rarities, or just happen to like her, she becomes one of the very first to consider!
 
@@ -457,7 +457,7 @@ Pass on her S1 which is a generic skill. These are usually awful and not worth p
 
 ### Kjera
 
-{{< mastery-table-enhanced id="4013_kjera" rows="S2M3,B+,B+" pool="4" >}}
+{{< mastery-table-enhanced id="4013_kjera" rows="S2M3,B+,B+" >}}
 
 Kjera is one of the better welfares out there. Mech-Accord Casters are one of those natively good archetypes since they end up doing a lot of damage at base as a trade off for their ramp-up. Kjera kicks that up by adding a dose of powerful, albeit heavily RNG, control. That said, she isn't a meta consideration at all. Even ignoring the higher rarities, she has some strong competition between Rockrock and the much cheaper and great-in-IS Click. Still, she has enough going for her that she ends up being one of the better 5★ Casters out there.
 
@@ -470,7 +470,7 @@ Pass on her S1 which is a low-value generic skill. Although it does have a highe
 
 ### Mint
 
-{{< mastery-table-enhanced id="388_mint" rows="S2M3,C,C" pool="4" >}}
+{{< mastery-table-enhanced id="388_mint" rows="S2M3,C,C" >}}
 
 Mint and Beeswax are a weird pair because they're pretty close to identical and were released 2.5 months from each other. It made for some interesting discussion on their relative value at the time since their ranged tank gimmick was a novel thing in an era where there weren't a lot of options. Of course, now many years later, that's no longer true. Even at the time ranged tanks were largely a situational gimmick since they can't block from a high tile, and now there are lots of other, and much better, options. Which is to say, raising either is a matter of niche or waifu, and the choice between them really comes down to which you find cuter (hint: Beeswax is cuter).
 
@@ -483,7 +483,7 @@ If you really like her, you could consider her S1 as well, but it's less of a co
 
 ### Beeswax
 
-{{< mastery-table-enhanced id="344_beewax" rows="S2M3,C,C|S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="344_beewax" rows="S2M3,C,C|S1M3,None,None" >}}
 
 Mint and Beeswax are a weird pair because they're pretty close to identical and were released 2.5 months from each other. It made for some interesting discussion on their relative value at the time since their ranged tank gimmick was a novel thing in an era where there weren't a lot of options. Of course, now many years later, that's no longer true. Even at the time ranged tanks were largely a situational gimmick since they can't block from a high tile, and now there are lots of other, and much better, options. Which is to say, raising either is a matter of niche or waifu, and the choice between them really comes down to which you find cuter (hint: Beeswax is cuter).
 
@@ -496,7 +496,7 @@ If you like Beeswax, you could consider her S1 as well, although it is less spec
 
 ### Leonhardt
 
-{{< mastery-table-enhanced id="373_lionhd" rows="S2M3,B,B,Breakpoint - S2M1" pool="2" >}}
+{{< mastery-table-enhanced id="373_lionhd" rows="S2M3,B,B,Breakpoint - S2M1" >}}
 
 I am a well known bunny lover, but lest you think I am too biased towards the female bunnies, Leonhardt is a pretty great bunny. He was fairly funny at the time of his release because he actually tended to be more usable than the 6★ Splash Casters of the time (which were infamously bad, and still kinda are). While he is certainly not a meta consideration, and never was even at the time, he's a solid Caster for those who favor off-meta approaches.
 
@@ -509,7 +509,7 @@ Pass on his S1 which is one of those generic waste of space skills. It's a good 
 
 ### Leizi
 
-{{< mastery-table-enhanced id="306_leizi" rows="S2M3,A- *,A- *" pool="2" >}}
+{{< mastery-table-enhanced id="306_leizi" rows="S2M3,A- *,A- *" >}}
 
 \* *Note that Leizi’s S2 is graded assuming she has her CHA-X Module at level 2. If you do not plan to get this Module to that level, treat the priority of this skill significantly lower.* 
 
@@ -524,7 +524,7 @@ As mentioned, start with her Module to level 2 first. It's a far bigger upgrade 
 
 ### Amiya
 
-{{< mastery-table-enhanced id="002_amiya" rows="S3M3,A+,A|S2M1,None,None,Breakpoint - S2M1" pool="5" >}}
+{{< mastery-table-enhanced id="002_amiya" rows="S3M3,A+,A|S2M1,None,None,Breakpoint - S2M1" >}}
 
 Amiya is our daughter, so you should Master all of her skills and do all of her Modules. You do love her, right? S++ M21!
 
@@ -545,7 +545,7 @@ Last is her S1. It's an uninteresting generic skill, but considering how her Tal
 
 ### Pudding
 
-{{< mastery-table-enhanced id="4004_pudd" rows="S2M3,C,C" pool="6" >}}
+{{< mastery-table-enhanced id="4004_pudd" rows="S2M3,C,C" >}}
 
 Pudding bucks some of the trends of 4★s vs 5★s, but not in a good way. One of the pieces of advice that comes up again and again in this guide is that even if the 5★s are "better" the 4★s tend to be the better investment. They're cheaper to promote, still usable, and are valuable in IS. Pudding though, is the opposite. The reason for this is because the competition in her rarity is strong. Both Click and Indigo are amazing units, and even Haze has some niche usage. This means Pudding isn't a competitive IS pick, plus she's worse than a 5★ Welfare of the same archetype, Astgenne, who is one of the better 5★ Casters. It all means the only reason to raise Pudding is because you play in a 4★ niche or just happen to like her.
 
@@ -558,7 +558,7 @@ Pass on her S1 which is a generic skill. It has much worse DPS than her S2, even
 
 ### Indigo
 
-{{< mastery-table-enhanced id="469_indigo" rows="S2M3,A- *,A *" pool="3" >}}
+{{< mastery-table-enhanced id="469_indigo" rows="S2M3,A- *,A *" >}}
 
 \* *Note that Indigo’s S2 is graded assuming she has her MSC-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
@@ -575,7 +575,7 @@ It’s also worth a note that while she is a strong unit, if you are only lookin
 
 ### Click
 
-{{< mastery-table-enhanced id="328_cammou" rows="S2M3,A,A" pool="3" >}}
+{{< mastery-table-enhanced id="328_cammou" rows="S2M3,A,A" >}}
 
 Click is an interesting unit in the game's history. When she came out, in a time before Modules helped address some of the flaws, all Casters besides Eyja and Ifrit were... really bad. Like *really* bad. This made Click surprising because even though she only did basic DPS with a low-RNG Stun, she was actually good enough at it that she was really the first low-rarity Casters that was any good! This is a crown that Click has largely managed to keep to this day, despite lots of reasonable options now, primarily thanks to IS.
 
@@ -590,7 +590,7 @@ Pass on her S1 which is a generic skill that has little upside compared to her f
 
 ### Haze
 
-{{< mastery-table-enhanced id="141_nights" rows="S2M3,C,B-" pool="3" >}}
+{{< mastery-table-enhanced id="141_nights" rows="S2M3,C,B-" >}}
 
 Haze is a big beneficiary of the Hope reduction for 4★s in IS. She's never been a bad unit and even had some niche value prior, but before then, she had to contend with competition from both Amiya and Click who are both fantastic low-rarity units. They've seen their value rise too, but Haze becomes a viable alternative in more Advanced IS runs now thanks to her Talent. She is a free to recruit source of RES reduction which can be quite extreme in places! Further for Haze, that RES reduction improves pretty significantly at E2 and with her Module upgrades, so while you [generally want to avoid extra promotion in your 4★s for IS](masteries/othertopics/#should-you-e2m3-4s-for-is), it can actually make sense with Haze if you're interested in more min-maxed high difficulty runs!
 
@@ -607,7 +607,7 @@ Probably pass on her S1, although it could be an option. S2 has far better effec
 
 ### Miss.Christine
 
-{{< mastery-table-enhanced id="4198_christ" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4198_christ" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Primal Casters are inherently a tough archetype. Even the higher rarities suffer from the reliance on another unit, but while the 6★s have enough design space to (sometimes) make them viable, the 5★s have no such luck and Miss.Christine is no exception there. She's hurt worse by the fact Tragodia is so absurdly good all on his own, so even if you're willing to promote and use both, she still won't have much of an impact. Still, Miss.Christine is a popular unit (meow) and she does tend to be a bit more useable than her fellow 5★s at least. She is ungraded, but if you want to raise her anyway, both skills are options, depending on what you want out of her.
 
@@ -620,7 +620,7 @@ If you're a niche player who doesn’t have access to another NI applicator like
 
 ### Aroma
 
-{{< mastery-table-enhanced id="446_aroma" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="446_aroma" rows="S2M3,None,None" >}}
 
 Aroma is the sort of unit that's so bad it's hard to even suggest a skill. Blast Casters, it turns out, suck if you don't have broken Talents, which Aroma does not. Her DPS is poor on top of high costs, and her Talent only triggers once at the worst possible time for a unit with her range. Neither skill does much to help those problems so you should really be spending your resources elsewhere. S2 has more combo potential, but has terrible uptime and does little on her own. Even when you can properly combo it with a consistent Levitater, she still does worse damage than nearly any other 5★ Caster alone. S1 works a little better with her own Talent, but the DPS is so bad that it still isn't worth anything. The only suggestion with Aroma is to spend your resources on someone else.
 
@@ -629,7 +629,7 @@ Aroma is the sort of unit that's so bad it's hard to even suggest a skill. Blast
 
 ### Diamante
 
-{{< mastery-table-enhanced id="499_kaitou" rows="S2M3,None,None|S1M3,None,None" pool="6" >}}
+{{< mastery-table-enhanced id="499_kaitou" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Diamante was our first Primal Casters, but is unfortunately a pretty bad unit. Primal Casters in general have a tough go of things since they inherently rely on another unit (the 5★s especially), and Diamante doesn't bring anywhere near enough to be particularly good even when things line up well. Further, he's in the weakest form of Elemental Injury. About his only value is paired with Valarqvin in 5★ niche clears since he's an expensive and suboptimal pick in any other case. Most 6★s and even many 5★s will out DPS him even against hard targets Elemental Damage should be good against!
 
@@ -642,7 +642,7 @@ You should probably pass on his S1. For the 5★ Primal Casters, it's their skil
 
 ### Delphine
 
-{{< mastery-table-enhanced id="4110_delphn" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4110_delphn" rows="S2M3,None,None" >}}
 
 Delphine isn't quite a bad unit, but her take on the Mystic Caster archetype is not a valuable one. She is oriented around a big burst of initial damage. She does that well enough to find some niche usage now and then, or if she appeals to you, but HP% targeting restrictions like hers tend to kill general value, which is already hampered by her rarity. Which is all to say, Delphine is a desire-only tier a unit (look towards Indigo if you want a non-6★ Mystic Caster).
 
@@ -655,7 +655,7 @@ Pass on her S1 unless you really want to maximize your usage. All Mystic Casters
 
 ### Minimalist
 
-{{< mastery-table-enhanced id="4054_malist" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4054_malist" rows="S2M3,None,None" >}}
 
 It's very weird that Minimalist is a Mech-Accord Caster because none of his kit interacts with the drone aspect at all in a way that wouldn’t have just been better if he was a Core Caster instead¹. It means that while the rest of them tend to be pretty special units, Minimalist is far less special. Instead, his novel aspect is that he's a very rare instance of a Caster with a consistent always-up skill like his S2. That isn't an especially high ceiling niche, but it has given him some occasional use and he's an OK unit if you're a pink weirdo who especially likes Durins.
 
@@ -668,7 +668,7 @@ His only skill worth Mastery is his S2. It's that mentioned consistent skill and
 
 ### Corroserum
 
-{{< mastery-table-enhanced id="489_serum" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="489_serum" rows="S2M3,None,None" >}}
 
 Before Corroserum, it was common to think Blast Casters were just good. It turns out, that isn't the case. They're bad at base, and Ifrit (the first and only one for a long time) just happened to have two broken Talents. Corroserum meanwhile, has a *terrible* Talent (dependence on not attacking is never a good thing), which proved that Blast Casters actually kinda suck without some design help!
 
@@ -681,7 +681,7 @@ Pass on his S1. Technically it has more DPS, and the self-Stun triggers his Tale
 
 ### Lava the Purgatory
 
-{{< mastery-table-enhanced id="1011_lava2" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="1011_lava2" rows="S2M3,None,None|S1M3,None,None" >}}
 
 At the time, Lava2 improved on the existing Splash Casters a little bit (which were, and still are, awful) and I personally coped pretty hard that she might be decent. Unfortunately, that didn't pan out and time has only been less kind. Splash Casters have a high DP cost and low DPS, so very few of them have ended up generally usable, and Lava2 has bad SP costs too. She is a waifu-only tier of unit in the modern game, with little upside.
 
@@ -692,7 +692,7 @@ If you want to raise her anyway though, both skills are options without a clear 
 
 ### Iris
 
-{{< mastery-table-enhanced id="338_iris" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="338_iris" rows="S2M3,None,None" >}}
 
 Iris isn't a bad unit and has had some occasional niche usage, but not quite enough to be generally viable. The idea behind her kit is that she spends her charges first, then you activate S2 to stall which allows her to build up more charges. This gives her some decent damage and stall on a reasonable cycle! However, it's pretty restrictive. S2 can only target two enemies, so more than that means no additional charges. The damage is also not all that great by meta standards, nor does she do anything once spent. However, even if that appeals to you, her Mastery gains are on the weak side. She gains a small improvement to SP cost, but the only other gain is to the "pop" at the end of the Sleep which is a small total amount of damage. The Sleep duration doesn't change nor does she gain more ATK that would help her charge attacks. So Mastery is best left for either the extreme min-maxers or just for completion's sake on a waifu character.
 
@@ -703,7 +703,7 @@ Pass on her S1 unless you really want to maximize your usage. All Mystic Casters
 
 ### Tomimi
 
-{{< mastery-table-enhanced id="411_tomimi" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="411_tomimi" rows="S2M3,None,None" >}}
 
 Tomimi has a decent skill, but is killed by her Talent. You don't want your Casters doing low-DPH Physical damage in the first place (just use a Marksman!), but even setting that aside, her range is so restrictive that it makes it nearly unusable, even with the benefits of her mod2. Ultimately, she's just a bad unit with no niche.
 
@@ -716,7 +716,7 @@ Pass on her S1. While the ASPD is decent, her DPH is super low thanks to becomin
 
 ### Absinthe / Зоя
 
-{{< mastery-table-enhanced id="405_absin" rows="S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="405_absin" rows="S1M3,None,None" >}}
 
 One of my fellow Tier List contributors, PlatybusGod, threatens my wellbeing if I don't say good things about Doc and Absinthe. He tried, and failed, to get me to move her up to graded units in the large-scale overhaul, so this is my attempt to make it up to him and say something... nice about the saddest bear. It's not easy though.
 
@@ -729,7 +729,7 @@ If she appeals to you though, S1 will generally be her best skill. The wind-up i
 
 ### Nightmare
 
-{{< mastery-table-enhanced id="164_nightm" rows="S1M1,None,None,Breakpoint - S1M1|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="164_nightm" rows="S1M1,None,None,Breakpoint - S1M1|S2M3,None,None" >}}
 
 Nightmare, along with the OG Greyy, are two of the more interesting units in the ungraded Casters section. The reason is that they are both *super* bad, but nevertheless have managed to carve out decent niche usage. This means they're among the worst if you're looking for general Casters, but might be some of the better options down here in the basement depending on the niches you play in.
 
@@ -744,7 +744,7 @@ S1 meanwhile used to be the only healing Caster skill which gave it some value i
 
 ### Skyfire
 
-{{< mastery-table-enhanced id="166_skfire" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="166_skfire" rows="S2M3,None,None" >}}
 
 Skyfire is a bad unit with bad damage who also feels bad to use with a nearly 5 second attack interval. The most notable thing about her is actually her famous VA, who was probably the most notable one at the game's launch. It's kind of remarkable they wasted Kana Ueda on such a bad unit!
 
@@ -757,7 +757,7 @@ If you want to maximize your Skyfire use, you could consider her S1 as well desp
 
 ### Akkord
 
-{{< mastery-table-enhanced id="4051_akkord" rows="S2M3,None,None|S1M3,None,None" pool="6" >}}
+{{< mastery-table-enhanced id="4051_akkord" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Akkord isn't especially good by the 4★ Caster standards, but she does have some value since her AoE competition is even worse. Blast Casters are just not an especially good archetype without some significant help which can usually only be found at the 6★ rarity. In fact, Akkord has nothing on her kit but damage, ultimately resulting in a poor DPS unit that also costs a lot of red certs. However, as said the existing 4★ AoE Casters are even worse, so she does have some occasional value for the niche players.
 
@@ -768,7 +768,7 @@ In such a case, you'll likely want to Master both skills. Her only real value is
 
 ### Greyy
 
-{{< mastery-table-enhanced id="253_greyy" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="253_greyy" rows="S2M3,None,None" >}}
 
 OG Greyy, along with Nightmare, are two of the more interesting units in the ungraded Casters section. The reason is that they are both *super* bad, but nevertheless have managed to carve out decent niche usage. This means they're among the worst if you're looking for general Casters, but might be some of the better options down here in the basement depending on the niches you play in.
 
@@ -783,7 +783,7 @@ Pass on his S1. It does cycle better than his S2, but without the Slow enhanceme
 
 ### Gitano
 
-{{< mastery-table-enhanced id="109_fmout" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="109_fmout" rows="S2M3,None,None" >}}
 
 Gitano is a bad unit with very limited use. In the old days, she could be a viable starter unit, but now there's so many better common options that she has basically no value. Even her fellow basement dweller 4★ Splash Caster, Greyy, has some niche value which Gitano just does not have at all.
 

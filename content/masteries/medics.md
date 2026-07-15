@@ -23,7 +23,7 @@ tags = ['Mastery', 'Medics', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Titi
 
-{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A|S2M3,B+,A+" pool="1" >}}
+{{< mastery-table-enhanced id="4056_titi" rows="S3M3,S-,A|S2M3,B+,A+" >}}
 
 Relative to her contemporaries, many of which are exceedingly overpowered, Titi can feel a bit weak. Incantation Medics tend to have high HPS and DPS, but she is reliant on the Sleep mechanic to make full use of it which tends to be an awkward form of control on an already awkward archetype. There are immunities to deal with, especially on bosses, but more so, Sleep doesn't interact well with allies, which tends to make it the worst form of control. Still, as a modern 6★, Titi has more than enough power behind her kit to still be viable, and the Sleep that is her major drawback also gives her some endgame value, albeit situational.
 
@@ -43,7 +43,7 @@ Last, pass on her S1 which has almost no upside compared to her S3. It's a bit p
 
 ### Mon3tr
 
-{{< mastery-table-enhanced id="4179_monstr" rows="S3M3,S++,S++|S2M3,A+,A+" pool="1" >}}
+{{< mastery-table-enhanced id="4179_monstr" rows="S3M3,S++,S++|S2M3,A+,A+" >}}
 
 Despite the fact Chain Medics seemed like a weak meme with the first two attempts, Mon3tr is a ridiculously powerful unit. Her Reconstruction works around a lot of the problems with the archetype, and she has a massive amount of role compression. Like her predecessor, she is a powerful source of True Damage, but brought up to modern DPS standards. But unlike her predecessor, she also flexes into one of the best buffers in the game, with ridiculous team healing to boot (in both roles)!
 
@@ -60,7 +60,7 @@ Finally, a lot of people are going to want to maximize our new granddaughter, an
 
 ### Eyjafjalla the Hvít Aska
 
-{{< mastery-table-enhanced id="1016_agoat2" rows="S3M3,A,A+|S1M3,A-,B" pool="10" en_link="https://sanitygone.help/en/operators/eyjafjalla-the-hvit-aska/">}}
+{{< mastery-table-enhanced id="1016_agoat2" rows="S3M3,A,A+|S1M3,A-,B" en_link="https://sanitygone.help/en/operators/eyjafjalla-the-hvit-aska/">}}
 
 Eyjafjalla the Hvít Aska is a unit not quite as powerful as she was on her release. At the time, there were few top-tier Medic options, so she pretty easily became well regarded. But in the time since, we now have multiple new healers that do more, and she no longer even has the AFK-healing crown, losing it to a unit (Haruka) who isn't saddled by being a once-per-year limited unit with a high spark cost! Of course, Eyja2 is still a great unit. Her range, Elemental healing, and global targeting are all valuable tools. However, these days she tends to be a more "specific" solution, such as in IS#5 ED4, or as a QoL option. As for Masteries, Eyja2 has two very strong skills with very different use cases, and the skills to target (or skip) will depend on your needs.
 
@@ -77,7 +77,7 @@ Last is her S2. It's not a bad skill, but is too situational to be particularly 
 
 ### Reed the Flame Shadow
 
-{{< mastery-table-enhanced id="1020_reed2" rows="S2M3,S,S-|S3M3,S-,S-" pool="1" >}}
+{{< mastery-table-enhanced id="1020_reed2" rows="S2M3,S,S-|S3M3,S-,S-" >}}
 
 Reed the Flame Shadow is one of the most powerful Casters in the game, which is weird since she's here in the Medic section. Her blend of extreme healing and damage is a powerful combination. However, she's also a bit unusual when it comes to priority. She was among the most powerful options on her release, but while she hasn't really been powercrept, she does have more competition, which makes aspects of her kit seem more awkward than on her release. Now to be clear, Reed2 is still an absurdly powerful unit. While there's nuance to convey here, she is still near the top in terms of priority. Instead, she's just not *quite* as absurd as she was on her release.
 
@@ -94,7 +94,7 @@ Pass on her S1. While Swift Strike is one of the better generic skills, it doesn
 
 ### Lumen
 
-{{< mastery-table-enhanced id="4042_lumen" rows="S3M3,B,B-|S2M1,None,None,Breakpoint - S2M1" pool="4" >}}
+{{< mastery-table-enhanced id="4042_lumen" rows="S3M3,B,B-|S2M1,None,None,Breakpoint - S2M1" >}}
 
 Lumen is probably not a unit you should raise. In fact, he tends to be one of those "newbie traps". The 6★ Medics are pretty rare as a group, and Lumen is freely available, which leads many to the understandable conclusion he's the best option. However, that isn't really the case. Certainly he is more than usable with some decent HPS and an occasionally useful bit of utility. Feel free to raise him as a husbando promote! But Lumen exemplifies the [cost problem Medics have](masteries/othertopics/#why-arent-higher-rarity-healing-medics-like-lumen-recommended). Healing is the lowest priority of the "core" roles, and as a 6★, Lumen is very expensive too. You are far better off sticking with lower rarity options (who are also useful in IS) such as Sussurro and Perfumer who do the same job at a far lower cost, or higher quality utility options such as Ptilopsis and Warfarin, who provide value beyond just healing. So while Lumen is a perfectly usable unit, he's an expensive low priority one. Invest with caution.
 
@@ -109,7 +109,7 @@ Probably pass on his S2. While it is potentially useful, the problem is it only 
 
 ### Kal'tsit
 
-{{< mastery-table-is id="003_kalts" rows="S3M3,S+,S,S+ *|S2M3,B+,B,A+ *" pool="2" >}}
+{{< mastery-table-is id="003_kalts" rows="S3M3,S+,S,S+ *|S2M3,B+,B,A+ *" >}}
 
 \* *Note that Kal'tsit has a specialized IS Module. However, unlike most with these Modules, Kal'tsit is a powerful unit already. IS grades are included here for clarity, but special consideration for IS specifically is lesser than it is on others.*
 
@@ -128,7 +128,7 @@ Pass on her S1 which is oddly pointless. S3 grants more DEF than it does, which 
 
 ### Shining
 
-{{< mastery-table-enhanced id="147_shining" rows="S3M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="147_shining" rows="S3M3,None,None|S2M3,None,None" >}}
 
 In the long history of this guide, Shining has never been a well graded unit. Even at launch, the 5★s blew her away, and now the 4★s are better value too, but she was functional enough that she escaped the basement rankings most of the time. If there's any benefit to the guide overhaul and all of the modern powercreep for me personally, it's that I can finally put her out to pasture! Shining is not a unit you should raise. Her healing is bad, her cycle times are worse, and her "utility" barely registers as value anymore. Even her niche of Aak buffing is gone thanks to Thorns the Lodestar! It's an unsalvageable kit in modern game, and worse, she's an expensive 6★. You will be far better served by raising almost any other Medic, even the low rarity ones.
 
@@ -143,7 +143,7 @@ Last, her S1 is a skill you probably shouldn't bother with. The healing is theor
 
 ### Nightingale
 
-{{< mastery-table-enhanced id="179_cgbird" rows="S3M3,A-,A|S2M3,C,C,Breakpoint - S2M1" pool="2" >}}
+{{< mastery-table-enhanced id="179_cgbird" rows="S3M3,A-,A|S2M3,C,C,Breakpoint - S2M1" >}}
 
 Nightingale is one of those units that's tough to rank. In her niche of defense against Arts damage, she can seem like the greatest unit in the game. In certain stages such as H8-4 or IS#4 ED3, she can seem downright vital! But that's not a large chunk of the game, and outside of that she is merely "ok", which for an expensive 6★, can be a tough sell. In the modern meta, Nightingale leans more towards the utility-tier of things. That is, she's a unit that's well worth raising, but not one of the first you should raise. There's too many ultra powerful units these days to give a high priority to a "specific solution" sort of unit, even a great one like Nightingale, but she is still well worth owning and promoting once you take care of the more core roles in your team.
 
@@ -162,7 +162,7 @@ Pass on her S1. It's a generic skill of little value. It is mildly notable since
 
 ### Record Keeper
 
-{{< mastery-table-enhanced id="4196_reckpr" rows="S2M3,C,C+|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4196_reckpr" rows="S2M3,C,C+|S1M3,None,None" >}}
 
 Record Keeper is one of those mildly forgettable types of units. He has a basic job that he does well enough, but not well enough to be special, and he has some utility that’s useful, but situational. So he’s nowhere near bad enough to tease, but not good enough to really recommend either. Pure healing Medics are one of the lowest value types of unit, so he’s not a unit you should probably spend the resources on Mastery, but there is some value here still.
 
@@ -175,7 +175,7 @@ You could consider his S1 for Mastery as well if you particularly favor him. It 
 
 ### Nowell
 
-{{< mastery-table-enhanced id="4173_nowell" rows="S2M3,C,C+" pool="1" >}}
+{{< mastery-table-enhanced id="4173_nowell" rows="S2M3,C,C+" >}}
 
 Nowell isn't a bad unit, but he is a victim of the current game design and very situational non-healing utility. There has always been a value proposition problem with the 5★ Medics. Unless they do something special as with Warfarin or Ptilopsis, they just don't justify the costs over the 4★s. And now that 4★s cost no Hope to recruit in IS, there is very little reason to raise a primarily healing 5★ Medic outside of personal desire. That's the case here with Nowell.
 
@@ -188,7 +188,7 @@ His S2 is his special value, but if Nowell is a true husbando, you could conside
 
 ### Rose Salt
 
-{{< mastery-table-enhanced id="4163_rosesa" rows="S2M3,B,B+" pool="4" >}}
+{{< mastery-table-enhanced id="4163_rosesa" rows="S2M3,B,B+" >}}
 
 Rose Salt is fairly powerful as far as pure-healing 5★ Medics go. While a lack of utility is a problem for most Medics, Rose Salt's damage spread gimmick has a lot of potential. Suddenly, untankable hits can become quite tankable which is a valuable thing. However, it's not a vital thing and that lack of utility means she's most likely to be useful in niches. Further, with Hope reduction in IS, the 4★s are still the better healer investments.
 
@@ -201,7 +201,7 @@ Pass on her S1. While not an awful skill, her S2 has a far higher ceiling and a 
 
 ### Amiya (Medic)
 
-{{< mastery-table-is id="1037_amiya3" rows="S2M3,B+,B+,S-|S1M3,B+,B+,B+" pool="5" en_link="https://sanitygone.help/en/operators/amiya-(medic)/" cn_link="https://prts.wiki/w/%E9%98%BF%E7%B1%B3%E5%A8%85(%E5%8C%BB%E7%96%97)">}}
+{{< mastery-table-is id="1037_amiya3" rows="S2M3,B+,B+,S-|S1M3,B+,B+,B+" en_link="https://sanitygone.help/en/operators/amiya-(medic)/" cn_link="https://prts.wiki/w/%E9%98%BF%E7%B1%B3%E5%A8%85(%E5%8C%BB%E7%96%97)">}}
 
 Amiya's third iteration is yet another solid showing from our beloved daughter, and perhaps the most useful thanks to her viability in IS. Since she can be chosen on Caster, Guard, or Medic tickets regardless of form, plus now reduced Hope costs, she becomes the most accessible Medic option while also boasting strong sustain and True Damage utility. She is a strong M6 consideration but with very different uses so the better skill to start with will depend on what you're doing.
 
@@ -216,7 +216,7 @@ And besides, she's our beloved MC. You are doing the full M21 regardless, aren't
 
 ### Harold
 
-{{< mastery-table-enhanced id="4114_harold" rows="S2M3,C+,C" pool="4" >}}
+{{< mastery-table-enhanced id="4114_harold" rows="S2M3,C+,C" >}}
 
 A Wandering Medic can be a useful tool to have, but they are rarely useful in multiples, so there are some investment considerations to be aware of which can't be fully accounted for just in grades. [See this write-up](masteries/othertopics/#a-discussion-on-wandering-medics-and-priority) for some more in-depth discussion. Of them, Harold is the Welfare of the group, which may lead you to assume he's the worst. And while it is true he tends to have the lowest ceiling among the 5★s, it's not nearly as big of a gap as you might think, so if you're in the market for a Wandering Medic, there's a good chance Harold is your consideration!
 
@@ -229,7 +229,7 @@ Pass on his S1 which is a low-value generic skill. It has similar regular healin
 
 ### Hibiscus the Purifier
 
-{{< mastery-table-enhanced id="1024_hbisc2" rows="S2M3,C,C" pool="1" >}}
+{{< mastery-table-enhanced id="1024_hbisc2" rows="S2M3,C,C" >}}
 
 While not a special quantity outside of niches, Hibiscus the Purifier has enough going for her to be a pretty reasonable promotion. She does decent damage and healing, on top of some control, on a really fast cycle! It's important to note before using her that her S2 is actually a lock-on skill. That's both good and bad. On the downside, it means she can't switch targets nor can she start to affect a target that comes into range after activation. Timing is important! It also means she can lose out on healing if both targets die which is already a problem Incantation Medics have. On the upside though, it can continue to track outside of her range, and it makes for a faster effective cycle since the skill ends if both targets die.
 
@@ -240,7 +240,7 @@ S2 is of course her main skill, and the only one worth considering. Mastery on i
 
 ### Honeyberry
 
-{{< mastery-table-enhanced id="449_glider" rows="S1M3,B+,B" pool="6" >}}
+{{< mastery-table-enhanced id="449_glider" rows="S1M3,B+,B" >}}
 
 A Wandering Medic can be a useful tool to have, but they are rarely useful in multiples, so there are some investment considerations to be aware of which can't be fully accounted for just in grades. See [this write-up](masteries/othertopics/#a-discussion-on-wandering-medics-and-priority) for some more in-depth discussion. Of them, Honeyberry has by far the highest Elemental healing which can make her appealing if that is your only goal, but it comes at the expense of her regular healing. On top of the 600 Red Cert cost, she can be a daunting investment, albeit a quality one if you don't have access to Eyjafjalla the Hvít Aska.
 
@@ -253,7 +253,7 @@ Pass on her S2 Masteries entirely, unless you particularly favor using Honeyberr
 
 ### Mulberry
 
-{{< mastery-table-enhanced id="473_mberry" rows="S1M3,B+,B,Breakpoint - S1M1|S2M2,C,C+" pool="2" >}}
+{{< mastery-table-enhanced id="473_mberry" rows="S1M3,B+,B,Breakpoint - S1M1|S2M2,C,C+" >}}
 
 A Wandering Medic can be a useful tool to have, but they are rarely useful in multiples, so there are some investment considerations to be aware of which can't be fully accounted for just in grades. See [this write-up](masteries/othertopics/#a-discussion-on-wandering-medics-and-priority) for some more in-depth discussion. Of them, Mulberry is the one most useful if you're playing in niches. Her regular HPS is actually very competitive, so she can do double duty from the Medic slot, providing decent Elemental healing on top of strong regular healing on a big range.
 
@@ -266,7 +266,7 @@ Her S2 is still a valuable skill and worthwhile Mastery. For its duration, S2 ha
 
 ### Whisperain
 
-{{< mastery-table-enhanced id="436_whispr" rows="S2M3,C,C" pool="2" >}}
+{{< mastery-table-enhanced id="436_whispr" rows="S2M3,C,C" >}}
 
 Whisperain is on the low side of priority. Unfortunately, the utility Therapists bring is just rather low in value, so she gets lost in the now huge raft of mostly healing Medics. However, she does have some pretty decent and consistent HPS, so she manages to eke out a Mastery grade, but just barely.
 
@@ -279,7 +279,7 @@ You could consider her S1 as well, although probably not more than the S1M1 brea
 
 ### Ptilopsis
 
-{{< mastery-table-enhanced id="128_plosis" rows="S2M3,B-,B|S1M3,None,None" pool="2" icons="|skill_icon_skcom_heal_up[3]">}}
+{{< mastery-table-enhanced id="128_plosis" rows="S2M3,B-,B|S1M3,None,None" icons="|skill_icon_skcom_heal_up[3]">}}
 
 Ptilopsis is a powerful unit. She's one of those "launch mistakes" sorts that we probably won't see again. She has a powerful bit of utility, reducing all Auto Recovery SP costs by a significant amount, that alone makes her worth promotion, but also has incredibly strong burst HPS which a lot of people tend to overlook. However, most modern meta units already have short downtimes which suppresses Ptilopsis somewhat from her peak. Further, as far as this guide goes, she doesn't need Mastery for her utility anyway! For most people, a simple E2 for occasional use will suffice.
 
@@ -292,7 +292,7 @@ Her S1 is a generic skill that's generally not worth considering, but it may hav
 
 ### Warfarin
 
-{{< mastery-table-enhanced id="171_bldsk" rows="S2M3,B+,A|S1M3,B,B+" pool="2" >}}
+{{< mastery-table-enhanced id="171_bldsk" rows="S2M3,B+,A|S1M3,B,B+" >}}
 
 Warfarin, before she migrates to Talos-II, is one of the most powerful Medics in the game, which is surprising considering that she's a 5★. She bucks multiple trends, such as the overall weakness of buffing or weakness of healing on high-HP units, and combines them on top of a strong SP Talent. While none of those have exactly made her meta (it took a long time for *any* Medic to be considered that), it makes Warfarin one of the more powerful options. She is a highly flexible and fun unit that's well worth the resources.
 
@@ -307,7 +307,7 @@ S1 meanwhile is her healing skill. These are typically low priority investments,
 
 ### Purestream
 
-{{< mastery-table-enhanced id="385_finlpp" rows="S2M3,C *,C *|S1M3,C *,C *" pool="7" >}}
+{{< mastery-table-enhanced id="385_finlpp" rows="S2M3,C *,C *|S1M3,C *,C *" >}}
 
 \* *Note that Purestream’s skills are graded assuming she has her WAH-Y Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
@@ -322,7 +322,7 @@ That out of the way, both of her skills are viable Mastery targets, and the pref
 
 ### Sussurro
 
-{{< mastery-table-enhanced id="298_susuro" rows="S2M3,B,B" pool="3" >}}
+{{< mastery-table-enhanced id="298_susuro" rows="S2M3,B,B" >}}
 
 Sussurro is a basic unit, but an extremely powerful one at that basic role. The combination of both a large ATK and a large ASPD increase on her S2, with a very manageable downside, makes for some incredibly high ST HPS. It makes her one of the first Medics many people raise in their careers, and often a mainstay well into later progression. Better, it's a value she carries on into IS thanks to reduced Hope costs beginning with IS#5. Now, of course, she lacks a bit in ceiling. She *only* heals afterall, but for a 4★ that is totally fine and she does her job extremely well. In fact, about the only downside reason to not pursue E2 and Masteries with Sussurro is that they are simply unnecessary. She does that needed job perfectly fine at E1 SL7!
 
@@ -337,7 +337,7 @@ Pass on her S1. The healing and uptime are far worse than her S2. The only upsid
 
 ### Perfumer
 
-{{< mastery-table-enhanced id="181_flower" rows="S2M3,C,C+|S1M3,C,C" pool="3" icons="|skill_icon_skcom_heal_up[2]" >}}
+{{< mastery-table-enhanced id="181_flower" rows="S2M3,C,C+|S1M3,C,C" icons="|skill_icon_skcom_heal_up[2]" >}}
 
 Among the 4★ Medics, Perfumer is the standout. AoE Medics are very strong by default, so even with no utility, she would still be valuable at the rarity, but as it happens she has a very powerful bit of utility to boot thanks to her global heal. This gives her tremendous value for all sorts of players, both new and old alike, a value that only extends further with the reduced Hope costs in IS. This alone will make her an appealing investment for many people!
 
@@ -352,7 +352,7 @@ In fact, her S1 may be worth a look instead. It does not buff her global heal by
 
 ### Papyrus
 
-{{< mastery-table-enhanced id="4139_papyrs" rows="S1M3,None,None,Breakpoint - S1M1|S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4139_papyrs" rows="S1M3,None,None,Breakpoint - S1M1|S2M3,None,None" >}}
 
 It's tough to be a 5★ Medic with no utility. Their HPS isn't usually enough higher to justify the costs over the very effective 4★ Medics. That's even before considering IS value, but when you add that in, there's basically no reason to consider the 5★s! Papyrus is one such victim of this game design choice. While her Barrier could be considered utility, it is effectively just HP, and in any case, she doesn't have the numbers to warrant general consideration.
 
@@ -363,7 +363,7 @@ However, most of these healing Medics aren't terrible either, so if Papyrus inte
 
 ### Vendela
 
-{{< mastery-table-enhanced id="494_vendla" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="494_vendla" rows="S2M3,None,None" >}}
 
 Vendela is a really weird unit because her art really looks like she should have been far more important to the story, but instead is just a side character for flavor with no broader relevance. Are we just supposed to ignore that she appears to also be wearing a black Originium crown like the literal main character? It makes one wonder what the original plan was! In any case, she has an interesting idea behind her kit, but ultimately doesn't do enough in any aspect to be effective. The idea is to give taunt to your tank while also granting some reflect damage and healing. However, her uptime is pretty poor, and both the reflect and her healing are nowhere near enough to be relevant, and that's on top of the other problems Incantation Medics usually have.
 
@@ -374,7 +374,7 @@ If you'd like to try to make her work anyway, S2 is her skill to start with whic
 
 ### Paprika
 
-{{< mastery-table-enhanced id="4071_peper" rows="S2M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4071_peper" rows="S2M3,None,None" >}}
 
 It's tough to be a 5★ Medic with no utility. Their HPS isn't usually enough higher to justify the costs over the very effective 4★ Medics. That's even before considering IS value, but when you add that in, there's basically no reason to consider the 5★s! Paprika is one such victim. The only utility she even vaguely has is the potential reach of Chain Medics, but it's far from enough for her to be relevant. Instead she is effectively just an AoE Medic who does nothing but heal.
 
@@ -385,7 +385,7 @@ However, her healing numbers are decent, so if she appeals to you (such as to fi
 
 ### Tuye
 
-{{< mastery-table-enhanced id="402_tuye" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="402_tuye" rows="S2M3,None,None" >}}
 
 Tuye is a pretty cool unit thematically. Like a camel, she stores her water¹ until needed, which she then uhh spits on you. Err, I mean, turns into emergency healing. The idea behind her main skill, S2, is that it's an ammo skill from before ammo was a mechanic. She essentially gets three shots which she reserves for emergency healing, and while holding them, gets some boosted regular healing, and further the threshold means she's more likely to trigger her Talent. It's not a bad concept! But unfortunately, the numbers aren't really enough to make her viable. The emergency heal is a good total, but requires the target actually landing between 20% HP and dead. In the dangerous high-pressure situation she's meant for, that isn’t guaranteed. Further, she has a very long wind-up time, and pure-healing Medics are just of limited value in the first place!
 
@@ -398,7 +398,7 @@ You could consider her S1 as well if you really like her, however it's much less
 
 ### Folinic
 
-{{< mastery-table-enhanced id="345_folnic" rows="S1M3,None,None|S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="345_folnic" rows="S1M3,None,None|S2M3,None,None" >}}
 
 Folinic is a really cool character, so I've always been disappointed HG never did much meaningful with her after ToW. That has nothing to do with Masteries, I just wanted to complain about it a little bit. In any case, Folinic was the original Harmacist, well before Incantation Medics were ever formally a thing. Unfortunately, neither her DPS or HPS has ever been particularly good, so even when she was new, Folinic was a desire-only tier of Medic.
 
@@ -409,7 +409,7 @@ If she appeals to you, both skills are options since they fill different roles a
 
 ### Breeze
 
-{{< mastery-table-enhanced id="275_breeze" rows="S1M3,None,None|S2M3,None,None" pool="6" >}}
+{{< mastery-table-enhanced id="275_breeze" rows="S1M3,None,None|S2M3,None,None" >}}
 
 Breeze is carried by her archetype. AoE Medics are basically functional by default even with no Talents or Skills! However, that's where the upside ends. Her skills are poor, she has no utility, she's worse than the 4★, Perfumer, who is also an IS mainstay, and she costs 600 Red Certificates to boot. This all means there's no reason to promote Breeze, however, like many in this ungraded Medic section, she is functional if you like her.
 
@@ -420,7 +420,7 @@ If that's you, favor her S1 for Mastery. Both skills are actually usable, but S2
 
 ### Ceylon
 
-{{< mastery-table-enhanced id="348_ceylon" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="348_ceylon" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Ceylon is one of the original Year 1 mistakes. As a 5★, she costs way too much for some pretty weak effects, and most of her Talent effect is literally valueless in 99.9% of the game. There's very little reason to raise her, even in niches. If you do want to raise her, both skills are potential options, but favor her S2. It can apply Status Resistance to all in range without actually healing which is relatively novel. However, there are better options for this, and it is extremely niche to begin with. The only truly unique part of it is she’s the only one that can give Status Resistance to summons, but that is even more niche! That isn't useful very often at all, but the novelty is more than some of the bad units can boast. However, it has one of those "Year 1 mistake SP costs", so bigger simps may find value in her S1 instead. The healing effect on it is quite weak, but it's at least more usable day to day than 80 SP is.
 
@@ -429,7 +429,7 @@ Ceylon is one of the original Year 1 mistakes. As a 5★, she costs way too much
 
 ### Silence
 
-{{< mastery-table-enhanced id="108_silent" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="108_silent" rows="S2M3,None,None" >}}
 
 Of the many ungraded units in this guide, Silence is one of the best, if not the best. She's an unusual case where she's down here solely because her Masteries are horribly bad and make almost no difference to her use! Silence's value is in her S2 drone. It gives her both great burst healing and a lot of flexibility in that she can place it almost anywhere on the map. It lets her cover a lot of space that would otherwise take multiple Medics and occupy a lot of team slots which can make her quite valuable for someone who only heals! However, for purposes of this guide, Mastery does not affect the healing output of her drone at all. The only factor that does affect the healing of the drone is her level, so the only benefit of an expensive 5★ Mastery is a mere 4 seconds of cycle time! That *can* matter for the more min-maxed niche players out there, but for most, it will literally never be relevant. Investment into Silence beyond E1 SL7 is simply unnecessary!
 
@@ -440,7 +440,7 @@ Pass entirely on her S1 which has no special value. Even for pure healing it wil
 
 ### Chestnut
 
-{{< mastery-table-enhanced id="4041_chnut" pool="3" >}}
+{{< mastery-table-enhanced id="4041_chnut" >}}
 
 It is sometimes asked by newer players if they should invest into Chestnut (spoiler, don’t). After all, the other 4★ Medics are often heavily suggested and the availability of the higher rarity Wandering Medics varies quite a bit. There also tends to be a lot of advice from older players that suggests [Wandering Medics aren’t necessary at all](masteries/othertopics/#a-discussion-on-wandering-medics-and-priority). So the question is a somewhat natural one. Why not go with the cheapest option?
 
@@ -464,7 +464,7 @@ Sussurro, Perfumer, and Purestream are pretty far and away the best 4★ Medics 
 
 ### Myrrh
 
-{{< mastery-table-enhanced id="117_myrrh" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="117_myrrh" rows="S2M3,None,None" >}}
 
 The 4★ Medics are a pretty stacked group, with two exceptions. One is Chestnut, but the other is Myrrh. Given how valuable Sussurro, Perfumer, Purestream, and even Gavial are, there's almost no reason to consider raising Myrrh who doesn't have any special value. If you want to raise her anyway, for whatever reason, neither skill is amazing, but S2 will have better effects. Despite the higher SP cost, it has much better healing, which is rather low on S1. Further, the Mastery gains on her S1 are notably poor and even the Breakpoint at S1M1 which reduces the SP cost doesn't warrant a label in the grade box.
 

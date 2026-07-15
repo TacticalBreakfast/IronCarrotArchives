@@ -34,6 +34,17 @@
  *     of the stars/subclass name, at (star row, SUBCLASS_ICON_COL_START)
  *     (e.g. G7:H8 for Wang), from assets/game_img/subprofessionicon
  *     (e.g. sub_traper_icon.png).
+ *   - Pool/banner name: a merged cell directly below the subclass name,
+ *     spanning wider (e.g. D9:H9 for Wang, one row below the D8:F8 subclass
+ *     name), filled with the pool's display name. The operator's pool
+ *     number comes from data/operator_pools.yaml (keyed by the same id as
+ *     the mastery-table-enhanced shortcode, e.g. "2027_wang"), then mapped
+ *     to a display name via data/pools.yaml — the same two files and the
+ *     same fallback the site's Hugo shortcode uses. Falls back to "Gacha
+ *     pool not set (oops)" if either lookup comes up empty. Font size is
+ *     DEFAULT_POOL_FONT_SIZE, except SMALL_POOL_FONT_SIZE for pool key
+ *     SMALL_FONT_POOL_KEY ("9" / "Limited (Celebration / Anniversary)" by
+ *     default), whose name is long enough to need a smaller size to fit.
  *   - Skill icons: one row per skill, starting SKILL_ROW_OFFSET rows below
  *     the name row and going down one row per skill (e.g. Wang's S3 row is
  *     row 12, S2 is row 13, S1 is row 14). Each row already has a skill
@@ -105,6 +116,14 @@ const CONFIG = {
   // G:H icon merge spanning the star row and the row below it).
   SUBCLASS_ICON_COL_START: 7, // <-- EDIT
 
+  SET_POOL_INFO: true,
+  // Font size for the pool/banner name cell (directly below the subclass
+  // name, in STAR_COL_START), except for SMALL_FONT_POOL_KEY's pool, which
+  // gets SMALL_POOL_FONT_SIZE instead since that name is longer.
+  DEFAULT_POOL_FONT_SIZE: 10,
+  SMALL_POOL_FONT_SIZE: 9,
+  SMALL_FONT_POOL_KEY: "9", // "Limited (Celebration / Anniversary)" in pools.yaml
+
   // First skill row = name row + this offset (e.g. name row 6 -> row 12).
   // Subsequent skills go one row further down each time.
   SKILL_ROW_OFFSET: 6, // <-- EDIT
@@ -132,6 +151,10 @@ const CONFIG = {
     "https://raw.githubusercontent.com/TacticalBreakfast/ArknightsGuideAssets/main/excel-cn/character_table.json",
   UNIEQUIP_TABLE_URL:
     "https://raw.githubusercontent.com/TacticalBreakfast/ArknightsGuideAssets/main/excel-en/uniequip_table.json",
+  OPERATOR_POOLS_URL:
+    "https://raw.githubusercontent.com/TacticalBreakfast/IronCarrotArchives/main/data/operator_pools.yaml",
+  POOLS_URL:
+    "https://raw.githubusercontent.com/TacticalBreakfast/IronCarrotArchives/main/data/pools.yaml",
   IMAGE_BASE_URL:
     "https://raw.githubusercontent.com/TacticalBreakfast/ArknightsGuideAssets/main",
 };
@@ -144,6 +167,8 @@ function embedOperatorImages() {
 
   const byAppellation = buildAppellationMap_(loadCharacterTable_());
   const subProfDict = CONFIG.SET_SUBCLASS_INFO ? loadUniequipSubProfDict_() : {};
+  const operatorPools = CONFIG.SET_POOL_INFO ? loadSimpleYamlMap_(CONFIG.OPERATOR_POOLS_URL) : {};
+  const pools = CONFIG.SET_POOL_INFO ? loadSimpleYamlMap_(CONFIG.POOLS_URL) : {};
 
   const lastRow = sheet.getLastRow();
   const notFound = [];
@@ -151,6 +176,7 @@ function embedOperatorImages() {
   const dividersSkipped = [];
   const rarityIssues = [];
   const unresolvedSubclasses = [];
+  const poolIssues = [];
   let embeddedCount = 0;
   let operatorCount = 0;
 
@@ -191,6 +217,10 @@ function embedOperatorImages() {
           embeddedCount++;
         }
       }
+
+      if (CONFIG.SET_POOL_INFO) {
+        applyPoolInfo_(sheet, nameRow, name, match.id, operatorPools, pools, poolIssues);
+      }
     }
 
     // e.g. "char_2027_wang" -> "wang"; "char_1050_chen3" -> "chen3"
@@ -222,7 +252,16 @@ function embedOperatorImages() {
     if (nameRow === null) break;
   }
 
-  report_(operatorCount, embeddedCount, notFound, brokenImages, dividersSkipped, rarityIssues, unresolvedSubclasses);
+  report_(
+    operatorCount,
+    embeddedCount,
+    notFound,
+    brokenImages,
+    dividersSkipped,
+    rarityIssues,
+    unresolvedSubclasses,
+    poolIssues
+  );
 }
 
 /**
@@ -306,6 +345,45 @@ function loadUniequipSubProfDict_() {
   return JSON.parse(resp.getContentText()).subProfDict || {};
 }
 
+/**
+ * Fetches a flat "key": value YAML file (like data/pools.yaml or
+ * data/operator_pools.yaml — one mapping per line, no nesting) and parses
+ * it without a real YAML library, since Apps Script doesn't have one built
+ * in and these files are simple enough not to need it.
+ */
+function loadSimpleYamlMap_(url) {
+  const resp = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
+  if (resp.getResponseCode() !== 200) {
+    throw new Error(`Failed to fetch ${url}: HTTP ${resp.getResponseCode()}`);
+  }
+  return parseSimpleYamlMap_(resp.getContentText());
+}
+
+function parseSimpleYamlMap_(text) {
+  const map = {};
+  text.split("\n").forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) return;
+    const idx = trimmed.indexOf(":");
+    if (idx === -1) return;
+    const key = stripQuotes_(trimmed.slice(0, idx).trim());
+    const value = stripQuotes_(trimmed.slice(idx + 1).trim());
+    map[key] = value;
+  });
+  return map;
+}
+
+function stripQuotes_(s) {
+  if (s.length >= 2) {
+    const first = s.charAt(0);
+    const last = s.charAt(s.length - 1);
+    if ((first === '"' && last === '"') || (first === "'" && last === "'")) {
+      return s.slice(1, -1);
+    }
+  }
+  return s;
+}
+
 function embedImage_(sheet, row, col, url, label, brokenImages) {
   if (CONFIG.VERIFY_URLS_BEFORE_EMBED) {
     const resp = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
@@ -367,6 +445,45 @@ function applySubclassInfo_(sheet, nameRow, name, subProfessionId, subProfDict, 
   return embedImage_(sheet, starRow, CONFIG.SUBCLASS_ICON_COL_START, iconUrl, `${name} subclass icon`, brokenImages);
 }
 
+/**
+ * Writes the pool/banner display name into the cell directly below the
+ * subclass name, resolved the same way the site's mastery-table-enhanced
+ * shortcode does: operator id -> pool key via operator_pools.yaml, then
+ * pool key -> display name via pools.yaml. Falls back to "Gacha pool not
+ * set (oops)" if either lookup misses. For SMALL_FONT_POOL_KEY's long name,
+ * uses a smaller font and wraps onto two lines at the parenthetical, e.g.
+ * "Limited (Celebration / Anniversary)" -> "Limited" / "(Celebration / Anniversary)".
+ */
+function applyPoolInfo_(sheet, nameRow, name, operatorId, operatorPools, pools, poolIssues) {
+  const starRow = nameRow + CONFIG.PORTRAIT_ROW_OFFSET;
+  const poolRow = starRow + 2; // one row below the subclass name (starRow + 1)
+
+  const shortId = operatorId.startsWith("char_") ? operatorId.slice(5) : operatorId;
+  const poolKey = operatorPools[shortId];
+
+  let poolName;
+  if (!poolKey) {
+    poolIssues.push(`Row ${nameRow}: "${name}" (id "${shortId}") has no entry in operator_pools.yaml`);
+    poolName = "Gacha pool not set (oops)";
+  } else {
+    poolName = pools[poolKey];
+    if (!poolName) {
+      poolIssues.push(`Row ${nameRow}: "${name}" has pool key "${poolKey}" with no entry in pools.yaml`);
+      poolName = "Gacha pool not set (oops)";
+    }
+  }
+
+  const isSmallFontPool = poolKey === CONFIG.SMALL_FONT_POOL_KEY;
+  const displayText = isSmallFontPool ? poolName.replace(" (", "\n(") : poolName;
+
+  const poolCell = sheet.getRange(poolRow, CONFIG.STAR_COL_START);
+  poolCell.setValue(displayText);
+  poolCell.setFontSize(isSmallFontPool ? CONFIG.SMALL_POOL_FONT_SIZE : CONFIG.DEFAULT_POOL_FONT_SIZE);
+  if (isSmallFontPool) {
+    poolCell.setWrapStrategy(SpreadsheetApp.WrapStrategy.WRAP);
+  }
+}
+
 function report_(
   operatorCount,
   embeddedCount,
@@ -374,7 +491,8 @@ function report_(
   brokenImages,
   dividersSkipped,
   rarityIssues,
-  unresolvedSubclasses
+  unresolvedSubclasses,
+  poolIssues
 ) {
   const lines = [`Scanned ${operatorCount} operator block(s), embedded ${embeddedCount} image(s).`];
 
@@ -386,6 +504,11 @@ function report_(
   if (rarityIssues.length) {
     lines.push("", `RARITY STYLING ISSUES (${rarityIssues.length}) — need addressing:`);
     rarityIssues.forEach((l) => lines.push(`  - ${l}`));
+  }
+
+  if (poolIssues.length) {
+    lines.push("", `POOL NOT SET (${poolIssues.length}) — need addressing:`);
+    poolIssues.forEach((l) => lines.push(`  - ${l}`));
   }
 
   if (unresolvedSubclasses.length) {
@@ -423,7 +546,7 @@ function report_(
 
   try {
     SpreadsheetApp.getUi().alert(
-      notFound.length || brokenImages.length || rarityIssues.length || unresolvedSubclasses.length
+      notFound.length || brokenImages.length || rarityIssues.length || unresolvedSubclasses.length || poolIssues.length
         ? "Image embed finished with issues"
         : "Image embed finished",
       message,

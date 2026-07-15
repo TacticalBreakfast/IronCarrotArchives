@@ -5,8 +5,13 @@
 {{- $enLink := .Get "en_link" -}}
 {{- $cnLink := .Get "cn_link" -}}
 {{- $poolKey := .Get "pool" -}}
+{{- if not $poolKey }}{{- $poolKey = index hugo.Data.operator_pools $id -}}{{- end -}}
 {{- $poolName := "" -}}
-{{- if $poolKey }}{{- $poolName = index hugo.Data.pools $poolKey -}}{{- end -}}
+{{- if $poolKey }}
+  {{- $poolName = index hugo.Data.pools $poolKey -}}
+{{- else }}
+  {{- $poolName = "Gacha pool not set (oops)" -}}
+{{- end -}}
 
 {{- $charName := index (split $id "_") 1 -}}
 

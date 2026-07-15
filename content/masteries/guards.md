@@ -23,7 +23,7 @@ tags = ['Mastery', 'Guards', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Sakiko Togawa
 
-{{< mastery-table-enhanced id="4182_oblvns" rows="S3M3,S++,S++|S2M3,A+,A|S1M3,C,C+,Breakpoint" pool="12" cn_link="https://prts.wiki/w/%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90" >}}
+{{< mastery-table-enhanced id="4182_oblvns" rows="S3M3,S++,S++|S2M3,A+,A|S1M3,C,C+,Breakpoint" cn_link="https://prts.wiki/w/%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90" >}}
 
 Sakiko is a flavorful iteration of the Lord archetype. She can do both Physical and Arts damage through her different instruments; her organ is Arts damage, while her piano is Physical damage, and which is played depends on her skill. But she's more than just flavor. At base, her DPS is already great, but then she gets some very strong DEF/RES-ignore to go with it, allowing her to do good damage against a huge variety of targets. That, along with the powerful Fever mechanic and big range, especially when paired with her bandmates¹, makes her an incredibly powerful DPS unit. However, she is stuck with ST damage, and she does lack in utility compared to other top-tier meta units, so she isn’t necessarily the pinnacle of DPS units either.
 
@@ -50,7 +50,7 @@ Finally, it's worth a quick note that Offensive Recovery skills are typically co
 
 ### Leizi the Thunderbringer
 
-{{< mastery-table-enhanced id="1043_leizi2" rows="S1M3,S,S+|S2M3,S-,A|S3M3,B,B+" pool="1" >}}
+{{< mastery-table-enhanced id="1043_leizi2" rows="S1M3,S,S+|S2M3,S-,A|S3M3,B,B+" >}}
 
 Leizi the Thunderbringer is a powerful unit, featuring unique utility that means she can be placed very aggressively along with great DPS and some surprisingly strong control. She’s a really tricky unit when it comes to suggesting Masteries though. All three of her skills are legitimately good, and while there is a clear order in terms of meta, a significant chunk of the playerbase is going to find her best skill to be very unappealing. Further complicating matters, her other two skills are much more similar to the existing and common Liberator, Młynar, who usually does those better too. It ultimately means that there isn’t a one-size-fits-all answer with Leizi2, and she’s a unit where you’ll need to adjust based on your needs and playstyle.
 
@@ -69,7 +69,7 @@ So to summarize, S1 is her special value. Start there unless you absolutely refu
 
 ### Entelechia
 
-{{< mastery-table-enhanced id="4010_etlchi" rows="S3M3,A+,B|S2M3,A,A|S1M3,C,None" pool="1" >}}
+{{< mastery-table-enhanced id="4010_etlchi" rows="S3M3,A+,B|S2M3,A,A|S1M3,C,None" >}}
 
 As far as the 6★ Guards go, Entelechia falls somewhere in the middle of overall priority. She has some solid general use, but lacks the ceiling of a lot of her competition. Supposing you’ve done those already or are otherwise set on using her, the priority among her skills is a lot closer and more nuanced than many others, with all three skills being potential options.
 
@@ -92,7 +92,7 @@ A final note on her S1. Do NOT fall into the trap of thinking her AFK skill is b
 
 ### Vina Victoria
 
-{{< mastery-table-enhanced id="1019_siege2" rows="S3M3,S,S-|S2M3,C+,C" pool="1" >}}
+{{< mastery-table-enhanced id="1019_siege2" rows="S3M3,S,S-|S2M3,C+,C" >}}
 
 True Damage is a powerful mechanic which can just straight bypass many mechanics. While it's fairly plentiful these days thanks to Elemental Damage, Vina Victoria is still a powerful take on it thanks to her ability to do good DPS against multiple targets.
 
@@ -107,7 +107,7 @@ Finally, we do have to at least acknowledge her S1. It doesn't do enough damage 
 
 ### Pepe
 
-{{< mastery-table-enhanced id="4058_pepe" rows="S3M3,S-,S-|S2M3,C+,C+" pool="10" >}}
+{{< mastery-table-enhanced id="4058_pepe" rows="S3M3,S-,S-|S2M3,C+,C+" >}}
 
 Pepe is a powerful unit featuring strong DPH and good control. However, she ends up being a bit off-meta for a few reasons. One is just competition. There is a host of hyper-powerful Guards ahead of her in value. She also lacks the survivability of other high-end melee DPS. Except for her S3’s Stun (which has a fairly long downtime) she has no sustain, DEF improvement, or other debuff so she ends up being more of a glass cannon when compared to her competition. Her level of DPS still means she is quite valuable, but she ultimately ends up graded a bit lower than the top-tiers.
 
@@ -122,7 +122,7 @@ You will probably want to pass on her S1. While the status resist break always s
 
 ### Ulpianus
 
-{{< mastery-table-enhanced id="4145_ulpia" rows="S3M3,S++,S+|S2M3,A,A" pool="1" >}}
+{{< mastery-table-enhanced id="4145_ulpia" rows="S3M3,S++,S+|S2M3,A,A" >}}
 
 Ulpianus is an extremely powerful unit. Crushers in general tend to have a tough time of things, but Ulpianus manages to work around many of those flaws and those workarounds are largely tied to his S3. This makes his S3 far and away his best skill. Don't fall into the AFK-trap of his S2!
 
@@ -139,7 +139,7 @@ Finally, his S1 is worth a note, but not worth Mastery. A Shift skill on a Guard
 
 ### Zuo Le
 
-{{< mastery-table-enhanced id="4121_zuole" rows="S3M3,S+,S,Breakpoint - S3M2|S2M3,C,C" pool="1" >}}
+{{< mastery-table-enhanced id="4121_zuole" rows="S3M3,S+,S,Breakpoint - S3M2|S2M3,C,C" >}}
 
 Since near launch, Soloblades have had it rough. While not necessarily an awful archetype, their kits haven't exactly blended well. Their dueling capacity increases at lower HP, but that in turn raises their HP back up, meaning they very rarely operate at their peak performance. Along with no control, 1-block, and being unhealable, it leaves a fairly narrow range of targets that Soloblade’s are effective against. Zuo Le solves almost all of that and brings new life to an otherwise dead end archetype!
 
@@ -154,7 +154,7 @@ A secondary skill is unnecessary with Zuo Le. His value is almost entirely in hi
 
 ### Degenbrecher
 
-{{< mastery-table-enhanced id="4116_blkkgt" rows="S3M3,S+,S" pool="1" >}}
+{{< mastery-table-enhanced id="4116_blkkgt" rows="S3M3,S+,S" >}}
 
 When it comes to meta units, there tends to be two kinds. There's the complex ones that have multiple skills and lots of nuance. Then there's the dead simple ones. Press the button and win the game. Degenbrecher is the latter. Every 30 seconds you activate her S3 and nearly everything in range will die. Her S3 is one of the best burst skills in the game and that's really all there is to it. It should be one of your highest priorities when it comes to Masteries which represent a significant increase to damage on an already top-tier skill.
 
@@ -171,7 +171,7 @@ Finally, it's worth noting Degenbrecher isn't quite as valuable in high difficul
 
 ### Viviana
 
-{{< mastery-table-enhanced id="4098_vvana" rows="S3M3,S- *,A+ *" pool="1" >}}
+{{< mastery-table-enhanced id="4098_vvana" rows="S3M3,S- *,A+ *" >}}
 
 \* *Note that Viviana’s S3 is graded assuming she has her AFT-Δ Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower*.
 
@@ -188,7 +188,7 @@ There’s no need for a secondary Mastery with Viviana. Her S3 just does too muc
 
 ### Lessing
 
-{{< mastery-table-enhanced id="4011_lessng" rows="S2M3,None,None|S3M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4011_lessng" rows="S2M3,None,None|S3M3,None,None" >}}
 
 Lessing is only the second 6★ in this guide to have no graded Masteries. That should give you a good idea of what Lessing's value is already, but if it wasn't clear, it is best to avoid spending your resources on him. He is a weak unit with poor DPS, awkward bulk, and a limited niche. In total, he doesn’t do anywhere near enough to justify the resource cost except in some more extreme niches.
 
@@ -203,7 +203,7 @@ Last, his S1 is a generic Power Strike skill which on a modern 6★ is just... w
 
 ### Hoederer
 
-{{< mastery-table-is id="4088_hodrer" rows="S3M3,A,A-,B-|S1M3,B,B-,S|S2M3,C,C,B,Breakpoint - S2M1" pool="1" >}}
+{{< mastery-table-is id="4088_hodrer" rows="S3M3,A,A-,B-|S1M3,B,B-,S|S2M3,C,C,B,Breakpoint - S2M1" >}}
 
 Hoederer is not an easy unit when it comes to Mastery investment. While most 6★s have a standout skill, Hoederer's main skill doesn't stand out to near the same degree. All of his skills have potential value depending on the situation! If you want to maximize your Hoederer usage, then you will likely want the full M9. However, that is extremely expensive so most people won't want to go that far. So be aware that selecting the skills to pursue is tricky! Use your best judgment here for what you want out of him.
 
@@ -220,7 +220,7 @@ Hoederer justifies some special attention when it comes to IS. He is unusually v
 
 ### Executor the Ex Foedere
 
-{{< mastery-table-enhanced id="1032_excu2" rows="S3M3,S+,S-,Breakpoint - S3M1" pool="1" >}}
+{{< mastery-table-enhanced id="1032_excu2" rows="S3M3,S+,S-,Breakpoint - S3M1" >}}
 
 Executor the Ex Foedere can be tricky to evaluate. He has a ton of potential between his super strong self sustain and incredible theoretical DPS which is True-AOE, high-hit Physical, and from a Melee tile - all very valuable attributes. But those benefits come with hefty drawbacks which complicate the overall picture. He has a high Attack Recovery cost, inconsistent RNG, and can't be healed. Those are all potentially big problems!
 
@@ -239,7 +239,7 @@ Be aware that Executor2's fully-upgraded REA-X Module is nearly as valuable as h
 
 ### Qiubai
 
-{{< mastery-table-is id="4082_qiubai" rows="S3M3,S-,A,--,Breakpoint - S3M1|S1M3,None,None,C+" pool="1" >}}
+{{< mastery-table-is id="4082_qiubai" rows="S3M3,S-,A,--,Breakpoint - S3M1|S1M3,None,None,C+" >}}
 
 Qiubai has some unique pressures when it comes to Mastery consideration. With her S3, she can reach some pretty strong DPS on multiple targets with range. Her Masteries are essential to that purpose, representing a staggering 33% increase in DPS and a 58% increase in total damage. With her strong archetype, Qiubai can be an end-game caliber DPS unit. Yet a brutally long cycle, an RNG Talent, and a reliance on external help to maximize her potential can really bring her value down on some rosters.
 
@@ -256,7 +256,7 @@ Previous iterations of this guide also suggested S2. It is a decently strong ski
 
 ### Chongyue
 
-{{< mastery-table-enhanced id="2024_chyue" rows="S3M3,S+,S-" pool="11" >}}
+{{< mastery-table-enhanced id="2024_chyue" rows="S3M3,S+,S-" >}}
 
 Chongyue is a good consistent DPS unit, but one that ultimately plays more similar to a laneholder rather than one of the high ceiling DPS units. This means he's a very solid investment choice, particularly in story-oriented content, but is a few steps off of the high-bar Physical Guards need to reach.
 
@@ -271,7 +271,7 @@ In most cases, S3M3 is the only required Mastery for Chongyue, and his FGT-X Mod
 
 ### Młynar
 
-{{< mastery-table-enhanced id="4064_mlynar" rows="S3M3,S++,S++" pool="1" en_link="https://sanitygone.help/en/operators/mlynar/">}}
+{{< mastery-table-enhanced id="4064_mlynar" rows="S3M3,S++,S++" en_link="https://sanitygone.help/en/operators/mlynar/">}}
 
 I like Mlynar because he's an incredibly easy unit to write about! He is one of the strongest DPS units in the game (still) and he only has one good skill. That makes for a super simple evaluation. He's cheap to deploy, his DPS is incredible, and his global Taunt is (often, not always) amazing utility. His S3 is one of the highest priority Masteries in the game and should be one of the first you do, if not the first. Simple as that.
 
@@ -282,7 +282,7 @@ His other skills are not really worth consideration, even for heavy-duty simps o
 
 ### Gavial the Invincible
 
-{{< mastery-table-enhanced id="1026_gvial2" rows="S2M3,A,A|S3M3,B,B" pool="10" >}}
+{{< mastery-table-enhanced id="1026_gvial2" rows="S2M3,A,A|S3M3,B,B" >}}
 
 Although Gavial's alter form is broadly considered a laneholder still, she ultimately plays very differently. This gives her a leg up in a meta where laneholders are little more than easy QoL types, however even that isn't enough to keep her at the top as the power ceiling continues to expand, and these days she's primarily a middle-tier utility pick.
 
@@ -297,7 +297,7 @@ Finally, her S1 may be worth a look if you're Tomimi and Gavial truly is waifu. 
 
 ### Irene
 
-{{< mastery-table-enhanced id="4009_irene" rows="S3M3,A,A,Breakpoint - S3M1|S2M3,C *,B+ *|S1M1,None,None,Breakpoint - S1M1" pool="1" >}}
+{{< mastery-table-enhanced id="4009_irene" rows="S3M3,A,A,Breakpoint - S3M1|S2M3,C *,B+ *|S1M1,None,None,Breakpoint - S1M1" >}}
 
 \* *Note that Irene’s S2 is graded assuming she has her SWO-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
@@ -314,7 +314,7 @@ Finally, her S1 may be worth a look if you like Dorothy, but ONLY the breakpoint
 
 ### Nearl the Radiant Knight
 
-{{< mastery-table-enhanced id="1014_nearl2" rows="S2M3,A,S,Breakpoint - S2M1|S3M3,A+,A|S1M3,B,C" pool="9" >}}
+{{< mastery-table-enhanced id="1014_nearl2" rows="S2M3,A,S,Breakpoint - S2M1|S3M3,A+,A|S1M3,B,C" >}}
 
 Nearl's alter is a special value among the older units. Almost all of the older 6★s have been powercrept in various ways over the years. That applies to most of Nearl2's kit too, but not all. From her release to at least this writing, she is the only 6★ that can completely bypass the Deployment Limit and that also seems to be something HG has little desire in doing again. Of course though, that bypass isn't universally good either. Most stages simply do not require it. This all means that while Nearl2 isn't as broadly powerful as she once was, she is still a unique value worth investing in, albeit not at the top end of priority either.
 
@@ -331,7 +331,7 @@ Finally, her S1 is also worth consideration. As far as infinite duration AFK ski
 
 ### Pallas
 
-{{< mastery-table-enhanced id="485_pallas" rows="S1M3,C,C|S3M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="485_pallas" rows="S1M3,C,C|S3M3,None,None|S2M3,None,None" >}}
 
 Pallas is one of the lowest graded 6★s in this guide, but unlike her fellow basement dwellers she isn't *exactly* bad. She can sit there and do... passable DPS at range with a smattering of utility, which is more than many of her compatriots can say. However, Pallas lacks any particular identity or role. She's a poor implementation of the supposed Instructor niche of buffing, and any value beyond that is almost always better found elsewhere, and often cheaper too.
 
@@ -346,7 +346,7 @@ Both her S2 and S3 are considerations after, without a particular winner. Both h
 
 ### Mountain
 
-{{< mastery-table-enhanced id="264_f12yin" rows="S2M3,A+,A|S3M3,C,C,Breakpoint - S3M1" pool="2" >}}
+{{< mastery-table-enhanced id="264_f12yin" rows="S2M3,A+,A|S3M3,C,C,Breakpoint - S3M1" >}}
 
 While this guide does not recommend *any* laneholder as a high priority investment, among them, Mountain is my favorite gameplay-wise (not a furry btw). There's a lot of laneholders to choose from, and Mountain differentiates himself due to how cheap and fast he is, as well as how well he can sustain himself. In a role that almost always lacks ceiling, Mountain's special value relative to his competition is more likely to be useful. That isn't to say Mountain is always better. Far from it, and his meta evaluation isn't really that different, but he does make for a competitive investment.
 
@@ -361,7 +361,7 @@ Last, pass entirely on his S1. Given the ultra short-windup of his S2, it will b
 
 ### Surtr
 
-{{< mastery-table-enhanced id="350_surtr" rows="S3M3,S+,S" pool="2" >}}
+{{< mastery-table-enhanced id="350_surtr" rows="S3M3,S+,S" >}}
 
 Surtr is an interesting unit in the history of Arknights powercreep because she was the first unit that really made people go ‘WTF’. Few Operators can claim a catchphrase as common and simple as ‘Just Surtr it’, something that is still kinda true even five years (as of this writing) after her release. Of course, with so many giga-powerful units in the meta these days, she's no longer as special as she used to be, but her mix of invulnerability, RES-shred, super short wind-up, and strong Arts damage all makes for one of the few kernel 6★s still relevant in the modern game.
 
@@ -374,7 +374,7 @@ Further Mastery with Surtr is unnecessary. Her S3 is just so overwhelmingly bett
 
 ### Thorns
 
-{{< mastery-table-enhanced id="293_thorns" rows="S3M3,A,A-" pool="2" >}}
+{{< mastery-table-enhanced id="293_thorns" rows="S3M3,A,A-" >}}
 
 Few sounds in the game are as iconic (or as grating, depending who you ask) as Thorn's S3. He's a strange unit to evaluate because his kit can make some basic content extremely easy thanks to a lot of role compression into the laneholder role. At times in the history of the game, he has been one of the most broken units available! But if you ask basically any older or advanced player, he's also the most overrated, well past his prime, and a crutch for poor gameplay.
 
@@ -389,7 +389,7 @@ This guide does not overtly discourage using Thorns at all, but it does suggest 
 
 ### Blaze
 
-{{< mastery-table-enhanced id="017_huang" rows="S2M3,A,A-" pool="2" >}}
+{{< mastery-table-enhanced id="017_huang" rows="S2M3,A,A-" >}}
 
 The original version of Blaze is an interesting unit in the history of the game. She marks the turning point in post-launch Operators where they actually started to be good and was the first "must-pull" type of unit. She was also our first true 6★ laneholder, on top of being pretty popular! Of course, these days, she's pretty far from that must-pull quality, and laneholders are generally not the meta strategy. She's not even particularly special among the many laneholders we have in the current game! Nevertheless, she is still a solid and easy to use 6★, although do keep in mind she lacks upside, so be cautious if your roster is already well rounded.
 
@@ -404,7 +404,7 @@ Pass on her S1 which is a generic skill with basically no value. It's a good thi
 
 ### Hellagur
 
-{{< mastery-table-enhanced id="188_helage" rows="S2M3,C,C|S3M1,None,None,Breakpoint - S3M1" pool="2" >}}
+{{< mastery-table-enhanced id="188_helage" rows="S2M3,C,C|S3M1,None,None,Breakpoint - S3M1" >}}
 
 Poor Hellagur. He's such a cool character, but these days he's in the running for one of the worst 6★s. Unlike some of his fellow older Guards who have found some niche use thanks to decent Modules, Hellagur has gotten no such love and he fits into very few niches. In the modern game, he has no utility, poor damage, bad cycle times, and an awkward kit that doesn't take advantage of his archetype like Zuo Le's does. The result is one of the lowest priority 6★s in this guide, and a unit that should generally not be invested in for any reason except personal desire.
 
@@ -419,7 +419,7 @@ Finally, pass on his S1 unless you are a true simp. It does have good consistent
 
 ### Ch'en
 
-{{< mastery-table-enhanced id="010_chen" rows="S3M3,B+,B+|S2M3,C+,C+" pool="2" en_link="https://sanitygone.help/en/operators/chen/">}}
+{{< mastery-table-enhanced id="010_chen" rows="S3M3,B+,B+|S2M3,C+,C+" en_link="https://sanitygone.help/en/operators/chen/">}}
 
 Ch'en is just one of many older Guards who has found some niche use, but is otherwise left distantly behind in the current meta. She's a unit who isn't exactly bad, but should only be raised for waifu or niche purposes. These days, most of her value is in being an SP battery via her Talent 1 and SWO-X Module. Unfortunately, her own damage just isn't up to modern standards, and her value as an SP battery shrinks as the power ceiling in the game continues to rise. It tends to favor gimmick clears these days rather than meta ones.
 
@@ -436,7 +436,7 @@ Finally, pass on her S1, although it deserves a very minor mention. In rare case
 
 ### Skadi
 
-{{< mastery-table-enhanced id="263_skadi" rows="S2M3,B *,B+ *|S3M3,C *,C *" pool="2" >}}
+{{< mastery-table-enhanced id="263_skadi" rows="S2M3,B *,B+ *|S3M3,C *,C *" >}}
 
 \* *Note that Skadi's skills are graded assuming she has either Module [(favor DRE-X)](masteries/othertopics/#abyssal-hunter-modules) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.*
 
@@ -451,7 +451,7 @@ However, AH teams don't tend to have a lot of depth, so both DRE-Y and S3 still 
 
 ### SilverAsh
 
-{{< mastery-table-enhanced id="172_svrash" rows="S3M3,S+,S|S2M3,None,C" pool="2" >}}
+{{< mastery-table-enhanced id="172_svrash" rows="S3M3,S+,S|S2M3,None,C" >}}
 
 At this point in the life of the game, basically all launch 6★s have been severely powercrept. However, among them SilverAsh has maintained the most general value. He's one of the OG burst DPS units, but thanks to a great Module, both his burst and his utility remain relevant enough for high priority consideration.
 
@@ -472,7 +472,7 @@ Finally, his S1 is not generally worth considering, but may have some value if y
 
 ### Varkáris
 
-{{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" en_link="https://sanitygone.help/en/operators/varkaris/" pool="3" >}}
+{{< mastery-table-enhanced id="4166_varkis" rows="S2M3,C,C" en_link="https://sanitygone.help/en/operators/varkaris/" >}}
 
 Varkáris is one of those units you have to be a little cautious about, depending on the type of player you are. He's actually a pretty decent unit since Centurions are a “high floor” sort of unit, meaning that their baseline performance is pretty good. He can hold a lane, do decent damage, and has good self-sustain. That's not too bad for a Welfare! But at the same time, with few exceptions, Centurions also tend to have a “low ceiling”. So while he's decent, he's also rarely the optimal choice and has little long-term value, especially as a 5★. If what matters to you is optimal use of your resources, you'll get a much better return on your investment and value out of your team slot elsewhere. Even lacking stronger units, most players will get better results sticking with cheaper stop-gaps, especially since Centurions really need their E2 to function.
 
@@ -484,7 +484,7 @@ If you really like him, you could consider his S1 as well. Since his S2 has a fa
 
 ### Hadiya
 
-{{< mastery-table-enhanced id="394_hadiya" rows="S2M3,C+,C+|S1M3,None,None" pool="6" >}}
+{{< mastery-table-enhanced id="394_hadiya" rows="S2M3,C+,C+|S1M3,None,None" >}}
 
 Hadiya is our first Mercenary, an archetype which can spend DP to enhance skill effects. When the option is available, a new indicator appears above her head, and a new button is available next to the skill icon. DP is also required to activate her S2, but not her S1, which is in addition to the optional enhancement effect. It's a cool concept since DP is an underutilized resource, but in Hadya's case, she doesn't actually do much with it. She's instead yet another Guard with some basic DPS and minimal utility, of which there are now dozens, but she's additionally tied down by the DP reliance and a super high red cert cost, ultimately resulting in yet another 5★ lost in the middle-tier shuffle that most people shouldn't bother with, although she is decent enough if she appeals to you.
 
@@ -495,7 +495,7 @@ If that's you (which is based, her E2 art is amazing), both skills are viable de
 
 ### Gracebearer
 
-{{< mastery-table-enhanced id="4187_graceb" rows="S2M3,A-,A-|S1M3,None,None" pool="1" >}}
+{{< mastery-table-enhanced id="4187_graceb" rows="S2M3,A-,A-|S1M3,None,None" >}}
 
 Our first Primal Guard, Gracebearer, is mercifully spared from the same fate as the Primal Casters. This is because she doesn't need the whole Primal bit at all to be good!
 
@@ -508,7 +508,7 @@ Most players should probably pass on her S1. It's her skill that applies Nervous
 
 ### Odda
 
-{{< mastery-table-enhanced id="4131_odda" rows="S1M3,C+,C|S2M3,C+,C+" pool="4" >}}
+{{< mastery-table-enhanced id="4131_odda" rows="S1M3,C+,C|S2M3,C+,C+" >}}
 
 Odda is a pretty nice welfare unit, although his Mastery priority is pretty low. A lot of his value is in how effective he is at only E1 as an early stand-in, so the extra investment is largely something best left to niche players. There's just too many higher ceiling units that fill a similar role out there.
 
@@ -521,7 +521,7 @@ If you only do one Mastery, I would give a slight favor to his S1. The reduced S
 
 ### Fuze
 
-{{< mastery-table-enhanced id="4126_fuze" rows="S1M3,C,None|S2M3,None,C+" pool="13" >}}
+{{< mastery-table-enhanced id="4126_fuze" rows="S1M3,C,None|S2M3,None,C+" >}}
 
 Fuze is a unit with a heavy mix of pros and cons. He is in a natively strong archetype (Centurions) with a useful gimmick (can hit air) but his overall kit is just full of weird choices that result in him not measuring up that well relative to his competition. Most players will probably want to avoid investment into Fuze, but he is serviceable for niche players or those with any sort of affinity for him.
 
@@ -534,7 +534,7 @@ His S2 meanwhile is the more uhh... "unique" skill. It's an incredibly odd one, 
 
 ### Rathalos S Noir Corne
 
-{{< mastery-table-enhanced id="1030_noirc2" rows="S2M3,B-,C+|S1M3,None,None" pool="12" >}}
+{{< mastery-table-enhanced id="1030_noirc2" rows="S2M3,B-,C+|S1M3,None,None" >}}
 
 Rathalos S Noir Corne is a tricky unit. There's a lot going on with his kit that can sometimes make for cool highlights, and his DPS is reasonable enough to be usable, but he's ultimately held back by a pretty bad archetype that he doesn't particularly take advantage of. It makes for some relatively low Mastery grades, although both skills are worth some consideration.
 
@@ -547,7 +547,7 @@ His S1 may be something to consider as well, but as mentioned, is very situation
 
 ### Highmore
 
-{{< mastery-table-enhanced id="4066_highmo" rows="S1M3,B,None" pool="4" >}}
+{{< mastery-table-enhanced id="4066_highmo" rows="S1M3,B,None" >}}
 
 \* Note Highmore's IS grade is specific to IS#3 due to her iteration specific Talent. She does not have special value in the other iterations.
 
@@ -562,7 +562,7 @@ If you want to raise Highmore anyway, her S1 is really the only choice. As with 
 
 ### Tequila
 
-{{< mastery-table-enhanced id="486_takila" rows="S2M3,A,A" pool="4" >}}
+{{< mastery-table-enhanced id="486_takila" rows="S2M3,A,A" >}}
 
 Tequila is one of the strongest 5★ DPS options, a matter that is both his blessing and his curse as far as Mastery priority goes. Liberators hit very hard, so Tequila's high DPH can be a great boon if you enjoy playing any sort of niche that he happens to fit in. However, unlike his sister, that's about all he does. For players with strong DPS options already, he isn't as good. But even for players without strong DPS options yet, the 5★ costs are a bit high for a unit that will be eventually replaced.
 
@@ -575,7 +575,7 @@ As with his fellow Liberators, Tequila only has one skill worth considering, his
 
 ### La Pluma
 
-{{< mastery-table-enhanced id="421_crow" rows="S2M3,A,A+|S1M3,A+,A" pool="2" >}}
+{{< mastery-table-enhanced id="421_crow" rows="S2M3,A,A+|S1M3,A+,A" >}}
 
 La Pluma hits a lot of the right notes to be a great option for a laneholder. She does strong damage, she sustains well, and she has flexibility with a solid DPS skill. Of course, she doesn't have the ceiling that a 6★ does, and laneholders in general have had declining value, but considering her lower costs (and general popularity as a character), she ends up being one of the better 5★s in the game, albeit without much high-end meta value.
 
@@ -590,7 +590,7 @@ In a modern game full of gigapowerful meta-breaking units, a full M6 on a 5★ u
 
 ### Amiya (Guard)
 
-{{< mastery-table-enhanced id="1001_amiya2" rows="S1M3,B,B|S2M3,C,C" pool="5" en_link="https://sanitygone.help/en/operators/amiya-(guard)/" cn_link="https://prts.wiki/w/%E9%98%BF%E7%B1%B3%E5%A8%85%28%E8%BF%91%E5%8D%AB%29">}}
+{{< mastery-table-enhanced id="1001_amiya2" rows="S1M3,B,B|S2M3,C,C" en_link="https://sanitygone.help/en/operators/amiya-(guard)/" cn_link="https://prts.wiki/w/%E9%98%BF%E7%B1%B3%E5%A8%85%28%E8%BF%91%E5%8D%AB%29">}}
 
 Amiya is somewhat unusual when it comes to Mastery priority because everyone has to raise her to progress in the story. This guide doesn't consider promotion costs when it comes to priority, but nevertheless, a unit that everyone already has at E2 makes for a slightly different consideration. However, her Guard form is her weakest form. It's not necessarily bad and she has some of the highest Arts DPS for the rarity, but it lacks most of the niche value her Caster or Medic form have, making her Guard Masteries a luxury investment. But she is our daughter, so you're going to do them anyway, right?
 
@@ -601,7 +601,7 @@ If you tend to play lower rarity niches or just really like our lovely bunny mas
 
 ### Bibeak
 
-{{< mastery-table-enhanced id="252_bibeak" rows="S2M3,B+,A-" pool="4" >}}
+{{< mastery-table-enhanced id="252_bibeak" rows="S2M3,B+,A-" >}}
 
 Older players will remember a time when Bibeak was the key to some incredibly hard content while also causing carpal tunnel after hours-long stalls. Skills that are both Manual Activation and charge-based tend to be quite powerful, and since Bibeak has control built into hers, she can often be abused with SP-batteries like Liskarm to great effect. Of course, in the modern game that's usually unnecessary and few players have the desire to suffer through the skill activations to make it work! So that feature of Bibeak is there, but largely a historical note rather than something to consider.
 
@@ -614,7 +614,7 @@ If you really like using Bibeak, you could consider her S1 as well, however it i
 
 ### Broca
 
-{{< mastery-table-enhanced id="356_broca" rows="S2M3,B-,C" pool="2" >}}
+{{< mastery-table-enhanced id="356_broca" rows="S2M3,B-,C" >}}
 
 In the early days of the game, Broca was a decently valuable unit. Centurions are natively strong, and his Arts damage and range gave him some special value over the others. However, a lack of any sort of special niche (lots of units have Arts or range or both) and a general devaluing of laneholders has made him a less appealing investment.
 
@@ -625,7 +625,7 @@ Still, he is certainly not a bad unit and if he appeals to you for whatever reas
 
 ### Specter
 
-{{< mastery-table-enhanced id="143_ghost" rows="S2M3,A+,A+" pool="2" >}}
+{{< mastery-table-enhanced id="143_ghost" rows="S2M3,A+,A+" >}}
 
 Historically, Specter has been one of the most powerful 5★s. Between her invulnerability, regeneration, and massive DPH, Specter was a force to be reckoned with. There was even once a time when the first 6★ Centurion, Blaze, wasn't even necessarily considered to be better than her! Of course, that's no longer true (for either of them). Laneholders have generally fallen out of favor, and the ever growing power ceiling makes her seem a bit less impressive than she used to be.
 
@@ -636,7 +636,7 @@ Nevertheless, Specter is still an amazing 5★, and her general value as well as
 
 ### Lappland
 
-{{< mastery-table-enhanced id="140_whitew" rows="S2M3,A+,A" pool="2" >}}
+{{< mastery-table-enhanced id="140_whitew" rows="S2M3,A+,A" >}}
 
 Lappland is a relatively unique unit when it comes to evaluation. She is one of those "launch mistakes" in that her Silence ability is so out of balance in terms of uptime and ease of use, that it still has yet to be surpassed, even by her 6★ alter form! However, Silence is also an inherently situational ability. It so happens to be very useful in the early chapters, making Lappland a common recommendation on the starter ticket, but falls to the whims of the developers later. In any given event it could be great, or it could be useless. Further, it becomes less useful the stronger your team gets. The way the game is designed means that *specific* solutions, like Silence, are never required!
 
@@ -647,7 +647,7 @@ This is all to say that, along with her incredible DPS and range for her rarity,
 
 ### Franka
 
-{{< mastery-table-enhanced id="106_franka" rows="S2M3,C,C+" pool="2" >}}
+{{< mastery-table-enhanced id="106_franka" rows="S2M3,C,C+" >}}
 
 Franka is another unusual launch unit. In her case, she has seen her value go up and up as time has gone on, at least if you like playing in lower-rarity niches. She got a great Module which improved her RNG, but the main thing that's helped her value is powercreep. In an era of the game where it seems every new enemy has higher and higher DEF and RES, units like Franka can be a great help if you don't have access to the 6★s!
 
@@ -662,7 +662,7 @@ In any case, the only skill worth Mastery is her S2. Her S1 is a generic skill t
 
 ### Windscoot
 
-{{< mastery-table-enhanced id="445_wscoot" rows="S2M3,B+,B+" pool="3" >}}
+{{< mastery-table-enhanced id="445_wscoot" rows="S2M3,B+,B+" >}}
 
 Liberators are one of those "good by default" sorts of classes, and Windscoot is no exception. Particularly for his rarity, he does really solid damage with a reasonably good DPH! This can make him a great early unit since his rarity makes him inexpensive too. However, he doesn't need investment beyond E1 for that purpose, and doesn't do much special in the bigger picture, so his Mastery priority is still fairly low.
 
@@ -675,7 +675,7 @@ Pass on his S1, which is unusually awful. It doesn't cycle with the Liberator Tr
 
 ### Humus
 
-{{< mastery-table-enhanced id="491_humus" rows="S1M3,C-,C-" pool="3" >}}
+{{< mastery-table-enhanced id="491_humus" rows="S1M3,C-,C-" >}}
 
 Reapers are one of those natively strong archetypes, and that gives Humus some pretty decent value, but he has some unusual circumstances that suppress his value in terms of Mastery priority. There's two reasons for this. First, it is that his main value is in IS where 4★s are free to recruit as of IS#5, but the extra investment beyond E1 is not recommended (unless you're Ethan or Myrtle). Promotion still costs Hope which is rarely worth it in a run. His value is a lot lower outside of IS, where the freely available Highmore is a lot better. Second, his Mastery gains are pretty bad. So you have a combination of bad gains in a role that doesn't require them in the first place, resulting in one of the better units in this guide with grades this poor!
 
@@ -686,7 +686,7 @@ Should you want to promote him anyway, stick with his S1. As with his 5★ count
 
 ### Luo Xiaohei
 
-{{< mastery-table-enhanced id="4067_lolxh" rows="S2M3,C,C" pool="13" >}}
+{{< mastery-table-enhanced id="4067_lolxh" rows="S2M3,C,C" >}}
 
 Luo Xiaohei is a weaker 4★, mostly saved by his archetype. Lords tend to be pretty good by default, and he's no exception there, but tends to come in pretty far behind Arene at the same rarity and Lappland who is commonly taken on the starter ticket. He's relatively unique when it comes to Mastery consideration in that his better skill differs from his more flavorful skill that a lot of people tend to prefer more!
 
@@ -697,7 +697,7 @@ If you want to actually use Luo Xiaohei for more than a meme, focus on his S2 wh
 
 ### Arene
 
-{{< mastery-table-enhanced id="271_spikes" rows="S2M3,B-,B-" pool="3" >}}
+{{< mastery-table-enhanced id="271_spikes" rows="S2M3,B-,B-" >}}
 
 Arene is a solid unit for a 4★. He does reasonable Arts damage on an expanded range from a melee tile, and his extra drone damage and priority can occasionally be useful. Of course, he is very outclassed by a number of common higher rarity units, and that drone focus isn't special or useful enough to elevate him to that special value among his rarity. He is not generally a recommended 4★ to focus on! Nevertheless, he is more than serviceable if you favor him for whatever reason or play in a niche that includes him.
 
@@ -708,7 +708,7 @@ If that applies to you, his S2 is the only skill worth consideration, which is s
 
 ### Cutter
 
-{{< mastery-table-enhanced id="301_cutter" rows="S2M3,A-,A-|S1M3,A-,A-" pool="3" >}}
+{{< mastery-table-enhanced id="301_cutter" rows="S2M3,A-,A-|S1M3,A-,A-" >}}
 
 Cutter is one of the best low-rarity melee options. She does lack a bit in ceiling, as to be expected from the rarity, and a lack of utility makes her much less apt to be valuable in a mature team compared to other high end 4★s like Ethan or Myrtle. But she can be a great low-rarity option thanks to some really ridiculous damage for her rarity.
 
@@ -721,7 +721,7 @@ To further add to the cost, Cutter has an unusually good Module for her rarity t
 
 ### Utage
 
-{{< mastery-table-enhanced id="337_utage" rows="S2M3,B+,B" pool="3" >}}
+{{< mastery-table-enhanced id="337_utage" rows="S2M3,B+,B" >}}
 
 Utage escapes some of the flaws that plague the higher rarity Soloblades. This is partially due to her lower costs, less is expected from cheap 4★s afterall, but is also due to her helidrop nature. Although single use per deployment, with no redeployment reduction, makes for quite a long effective cycle, her instantly available Arts DPS is quite high, and is useful in the early going. Of course, for non-niche players this value eventually gets replaced so investment beyond the basic E1 is rarely recommended, but Utage is popular both as a character and for her early value that people tend to remember fondly, and is still quite usable!
 
@@ -732,7 +732,7 @@ If any of that applies to you, her S2 is really the only consideration for Maste
 
 ### Mousse
 
-{{< mastery-table-enhanced id="185_frncat" rows="S1M3,B,B+" pool="3" >}}
+{{< mastery-table-enhanced id="185_frncat" rows="S1M3,B,B+" >}}
 
 Mousse is an often overlooked unit. Her DPS is not especially great and she otherwise just appears to be 1-block low-rarity filler. However, ATK down debuffs are very powerful, and rather rare too. Mousse further brings very high up-time to that equation via her S1. She can make the untankable, tankable! She can tremendously reduce the pressure of a dangerous enemy, if not outright tank it herself.
 
@@ -749,7 +749,7 @@ Pass on her S2 unless you're a pretty extreme low-rarity min/maxer. It can occas
 
 ### Nyamu Yūtenji
 
-{{< mastery-table-enhanced id="4185_amoris" rows="S2M3,None,None|S1M3,None,None" pool="13" en_link="https://sanitygone.help/en/operators/nyamu-yutenji/" cn_link="https://prts.wiki/w/%E7%A5%90%E5%A4%A9%E5%AF%BA%E8%8B%A5%E9%BA%A6">}}
+{{< mastery-table-enhanced id="4185_amoris" rows="S2M3,None,None|S1M3,None,None" en_link="https://sanitygone.help/en/operators/nyamu-yutenji/" cn_link="https://prts.wiki/w/%E7%A5%90%E5%A4%A9%E5%AF%BA%E8%8B%A5%E9%BA%A6">}}
 
 Nyamu's design is very cool and thematic. Her attacks literally become a drum line! That fits so well for an Earthshaker! That might make her the most thematic unit in a really well designed patch overall! So it's a damn shame she's the worst of the Ave Mujica girls by a longshot. While all the others are quite strong units, Nyamu just isn't. She only does DPS, and not even particularly good DPS, on top of low DPH. Even in purely Ave Mujica teams, she only really exists as a blocker and Fever battery. Such a waste of a great idea...
 
@@ -764,7 +764,7 @@ It's worth a quick note that Offensive Recovery skills are typically considered 
 
 ### Laios
 
-{{< mastery-table-enhanced id="4142_laios" rows="S2M3,None,None|S1M3,None,None" pool="12" >}}
+{{< mastery-table-enhanced id="4142_laios" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Laios' kit is comical, but not terribly effective, so investment into Masteries should be left to only the die-hard fans. However, there are lots of die-hards with DunMeshi, and if you're one of them, either skill can have some potential value.
 
@@ -779,7 +779,7 @@ If you are really dedicated to using Laios as much as possible, you'll probably 
 
 ### Doc
 
-{{< mastery-table-enhanced id="4125_rdoc" rows="S2M3,None,None" pool="12" >}}
+{{< mastery-table-enhanced id="4125_rdoc" rows="S2M3,None,None" >}}
 
 Doc, like all Instructors, is not a unit I have a lot of nice things to say about. However, one of my fellow Tier List contributors, PlatybusGod, threatens my wellbeing if I don't say good things about Doc and Absinthe, so this is my attempt to say something... nice.
 
@@ -794,7 +794,7 @@ You could alternatively use his S1 if you're a big Doc simp. His S2 has no DPS f
 
 ### Leto / Лето
 
-{{< mastery-table-enhanced id="194_leto" rows="S2M3,None,None" pool="1" cn_link="https://prts.wiki/w/%E7%83%88%E5%A4%8F">}}
+{{< mastery-table-enhanced id="194_leto" rows="S2M3,None,None" cn_link="https://prts.wiki/w/%E7%83%88%E5%A4%8F">}}
 
 Leto is a unit who isn't exactly bad. Lords are just one of those archetypes that's natively strong. Instead, her problem is that there are a *lot* of better options while Leto herself has no particular unique upside, ultimately leaving her a desire/waifu tier unit. If you think you need a Lord, you'll get better value out of Arene or Lappland (from the starter ticket) instead.
 
@@ -807,7 +807,7 @@ Pass on her S1. While Swift Strike is one of the better generic skills, in Leto'
 
 ### Bryophyta
 
-{{< mastery-table-enhanced id="4106_bryota" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="4106_bryota" rows="S2M3,None,None" >}}
 
 Perhaps symbolically, Bryophyta is a type of moss, and this unit is about as useful as some moss to your team. He is a strong entrant into “worst 5★ in the game” competition. Buffing is already a fairly weak niche in this game. Limited team and deployment space means a buff (or the unit attached to it) needs to have a very strong value to justify bringing over another unit that simply achieves the intended task independently. Not only does Bryophyta not pass that benchmark, but he doubles down on it by focusing on the worst stat to buff as well. There’s just extremely limited value in a DEF buffer in Arknights, and Bryophyta isn’t even good at it! He has a long cycle on a bad buff, and to rub salt into the wounds, a perplexing self-Stun too.
 
@@ -820,7 +820,7 @@ If you really insist though, his S2 is the clear choice. As if his kit didn't ha
 
 ### Morgan
 
-{{< mastery-table-enhanced id="154_morgan" rows="S1M3,None,None|S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="154_morgan" rows="S1M3,None,None|S2M3,None,None" >}}
 
 The Glasgow Gang gets another mediocre member. It's amazing they managed to do anything in the story! Morgan is generally not worth investing in, although for a Dreadnaught, she could be worse. While both of her skills are flawed, she does hit reasonably hard for her rarity, so that at least makes her a tad more usable than some other ungraded Guards.
 
@@ -833,7 +833,7 @@ Her S1 may be an option too since it cycles so fast. She can actually dole out a
 
 ### Wind Chimes
 
-{{< mastery-table-enhanced id="4083_chimes" rows="S1M3,None,None|S2M3,None,None" pool="1" icons="skill_icon_skcom_atk_up[3]">}}
+{{< mastery-table-enhanced id="4083_chimes" rows="S1M3,None,None|S2M3,None,None" icons="skill_icon_skcom_atk_up[3]">}}
 
 Given how strong the 6★ Crushers are in the modern meta, it can be easy to forget that the lower rarity ones are exceedingly mediocre and flawed. Without the expanded top end design space, their lack of DEF makes them surprisingly fragile and their high HP pools further make them hard to heal up. Then add on some pretty bad DPS, and you have a pretty bad unit, although both Wind Chimes and Quartz do have defenders and some rare niche use. Their HP pools make them decent for Arts damage and they can hit pretty hard. However, if you're at the point in your career where you need this guide for advice, you're likely to find either to be incredibly frustrating instead.
 
@@ -846,7 +846,7 @@ As for her S1, it's a testament to the flawed state of the original Crushers tha
 
 ### Dagda
 
-{{< mastery-table-enhanced id="157_dagda" rows="S2M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="157_dagda" rows="S2M3,None,None" >}}
 
 Fighters are just a real tough archetype to be if you aren't a 6★. They're one of those early game design choices that probably seemed like a good idea at the time, but it turns out don't actually fit anywhere in the game. Early DP pressure isn't that big of a problem, and if it is you'd use Vanguards instead, and their low DPH means they aren't useful against meaningful threats. So unless they have the design space to do something absurd like Mountain or Chongyue do, they end up as very poor investments that are rarely used, even in niches. Thus all of the 4 and 5★ Fighters are pretty much waifu investments only.
 
@@ -859,7 +859,7 @@ Pass on her S1 which is kind of odd. Being Defensive Recovery kills most value s
 
 ### Akafuyu
 
-{{< mastery-table-enhanced id="475_akafyu" rows="S1M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="475_akafyu" rows="S1M3,None,None|S2M3,None,None" >}}
 
 Akafuyu is a unit who used to be graded in previous versions of this guide, back when there were fewer options, but as more units become available, her archetype weighs her down like a boat anchor. Older Soloblades just weren't designed in a way that particularly took advantage of their archetype. In Akafuyu's case, her damage isn't really notable, so she's ultimately better replaced by units that either sustain better or can be healed, who will likely also do more damage and block more enemies.
 
@@ -870,7 +870,7 @@ If Akafuyu appeals to you though (and she is a very cool character), both skills
 
 ### Tachanka
 
-{{< mastery-table-enhanced id="459_tachak" rows="S2M3,None,None" pool="13" >}}
+{{< mastery-table-enhanced id="459_tachak" rows="S2M3,None,None" >}}
 
 In the prior version of the guide, there was a joke here about Tachanka's DPS being the highest in the game and so he was "the meta". A surprising amount of people didn't get the joke, so in this rewrite I'll be a bit more explicit this time. Basically, with his S2, Tachanka deals some *insane* DPS, but it is hampered by an incredibly poor uptime, a long wind-up, and a low DPH. So to be clear, Tachanka is a bad unit!
 
@@ -883,7 +883,7 @@ You could consider his S1 as well if you really like Tachanka, although it suffe
 
 ### Whislash
 
-{{< mastery-table-enhanced id="265_sophia" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="265_sophia" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Instructors are a pretty bad archetype that have never found their footing in the game despite multiple attempts. Buffing is a fundamental problem in the game due to limited squad and deploy slots. This means a unit has to have buffing strong enough to justify both, or be competition enough on their own, and Whislash does not come close to meeting either benchmark.
 
@@ -894,7 +894,7 @@ If you really like Whislash and want to raise her anyway, both skills are potent
 
 ### Flint
 
-{{< mastery-table-enhanced id="415_flint" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="415_flint" rows="S2M3,None,None" >}}
 
 Fighters are just a real tough archetype to be if you aren't a 6★. They're one of those early game design choices that probably seemed like a good idea at the time, but it turns out don't actually fit anywhere in the game. Early DP pressure isn't that big of a problem, and if it is you'd use Vanguards instead, and their low DPH means they aren't useful against meaningful threats. So unless they have the design space to do something absurd like Mountain or Chongyue do, they end up as very poor investments that are rarely used, even in niches. Thus all of the 4 and 5★ Fighters are pretty much waifu investments only.
 
@@ -907,7 +907,7 @@ You could maybe use her S1 now and then if you really like her, but Mastery on i
 
 ### Ayerscarpe
 
-{{< mastery-table-enhanced id="294_ayer" rows="S2M3,None,None|S1M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="294_ayer" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Ayerscarpe has an interesting premise behind his kit, but ultimately a weak and situational effect. In practice, it's hard to ever make effective use of it, and even I as a dedicated bunnyknights player can rarely get functional use out of his "damage to all blocked" gimmick in a way that's better than more common options. Thankfully, he is a Lord which tends to make units at least usable (usually, with a big exception elsewhere in this ungraded section) so Ayerscarpe can be functional if you want, although he is definitely not a unit you should generally consider raising.
 
@@ -922,7 +922,7 @@ However, while Ayers isn't the worst Lord, he is still one of the least valuable
 
 ### Sideroca
 
-{{< mastery-table-enhanced id="333_sidero" rows="S2M3,None,None|S1M3,None,None" pool="4" icons="|skill_icon_skcom_heal_self[3]" >}}
+{{< mastery-table-enhanced id="333_sidero" rows="S2M3,None,None|S1M3,None,None" icons="|skill_icon_skcom_heal_self[3]" >}}
 
 High HP self-sustaining units like Sideroca can be a useful tool if you're playing in niches. However, it is a very fringe utility in the first place that most players won't need, and worse for Sideroca, a 4★, Matoimaru, does it better. This means that while Sideroca isn't exactly a "bad" unit, she's restricted to some pretty severe niches on top of being unnecessary in the first place!
 
@@ -933,7 +933,7 @@ If you play in one of the rarer niches like 5★-only or Minos-only, or just rea
 
 ### Flamebringer
 
-{{< mastery-table-enhanced id="131_flameb" rows="S2M3,None,None|S1M3,None,None" pool="4" >}}
+{{< mastery-table-enhanced id="131_flameb" rows="S2M3,None,None|S1M3,None,None" >}}
 
 Flamebringer is a historically contentious unit. Many in the early days of the game considered him terrible, but he had an outsized, and often vocal fan base compared to other early off-meta units that insisted he was underrated. That has waned with the game’s general powercreep, but in fairness, those fans had a point. A 1-block 5★ with a huge Attack Recovery wind-up could hardly be considered good, but he did have solid DPS and DPH on S2, and could flex to sustain without wind-up with his S1.
 
@@ -944,7 +944,7 @@ These days, there are a ton of better options, even at the rarity, so Flamebring
 
 ### Astesia
 
-{{< mastery-table-enhanced id="274_astesi" rows="S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="274_astesi" rows="S2M3,None,None" >}}
 
 A long long time ago, Astesia was a graded unit (back when there were few options). She's been ungraded for a long time since, but it was very painful for me to do, and not just because of waifu reasons! She isn't well regarded by most in the community since her DPS is low, but I've always defended her relatively strongly. She's certainly worse than most Arts Fighters, especially the freely available and forced promotion Guard Amiya, but she isn't bad either. Her damage is decent against multiple targets, she can block 2, and cycles fast. The alarm clock birb is viable! At least if you like her. Even I must admit she is a very off-meta option.
 
@@ -955,7 +955,7 @@ In any case, her S2 is her only skill worth Mastery. It has strong gains, signif
 
 ### Swire
 
-{{< mastery-table-enhanced id="308_swire" rows="S1M3,None,None|S2M3,None,None" pool="2" >}}
+{{< mastery-table-enhanced id="308_swire" rows="S1M3,None,None|S2M3,None,None" >}}
 
 Instructors are a pretty bad archetype that have never found their footing in the game despite multiple attempts. Buffing is a fundamental problem in the game due to limited squad and deploy slots. This means a unit has to have buffing strong enough to justify both, or be competition enough on their own. Swire does both so badly that she's one of the worst units in the game!
 
@@ -968,7 +968,7 @@ So this is all to say you shouldn't raise Swire. If she's waifu, get her alter f
 
 ### Indra
 
-{{< mastery-table-enhanced id="155_tiger" rows="S2M3,None,None" pool="7" >}}
+{{< mastery-table-enhanced id="155_tiger" rows="S2M3,None,None" >}}
 
 Fighters are just a real tough archetype to be if you aren't a 6★. They're one of those early game design choices that probably seemed like a good idea at the time, but it turns out don't actually fit anywhere in the game. Early DP pressure isn't that big of a problem, and if it is you'd use Vanguards instead, and their low DPH means they aren't useful against meaningful threats. So unless they have the design space to do something absurd like Mountain or Chongyue do, they end up as very poor investments that are rarely used, even in niches. Thus all of the 4 and 5★ Fighters are pretty much waifu investments only.
 
@@ -981,7 +981,7 @@ You could consider her S1 as well if you're a really big Glasgow Gang fan, but i
 
 ### Savage
 
-{{< mastery-table-enhanced id="230_savage" rows="S1M3,None,None" pool="5" icons="skill_icon_skcom_powerstrike[2]" >}}
+{{< mastery-table-enhanced id="230_savage" rows="S1M3,None,None" icons="skill_icon_skcom_powerstrike[2]" >}}
 
 Even at launch, Savage was bad. Centurions are a "high-floor low-ceiling" sort of archetype. That is, they're pretty good by default but don't tend to have a lot of endgame value, and Savage is a really extreme example of that. Technically, she has a higher floor than a lot of other basement dweller units, but probably has the worst ceiling of any of them (which is already low)! The real reason to raise her is because Charlotte is our true wife! Who needs Theresa or Priestess? Not this bunny lover!
 
@@ -992,7 +992,7 @@ Ahem, at any rate, you probably shouldn't be raising Savage. It's hard for her t
 
 ### Quartz
 
-{{< mastery-table-enhanced id="4063_quartz" rows="S2M3,None,None" pool="6" >}}
+{{< mastery-table-enhanced id="4063_quartz" rows="S2M3,None,None" >}}
 
 Given how strong the 6★ Crushers are in the modern meta, it can be easy to forget that the lower rarity ones are exceedingly mediocre and flawed. Without the expanded top end design space, their lack of DEF makes them surprisingly fragile and their high HP pools further make them hard to heal up. Then add on some pretty bad DPS, and you have a pretty bad unit, although both Wind Chimes and Quartz do have defenders and some rare niche use. Their HP pools make them decent for Arts damage and they can hit pretty hard. However, if you're at the point in your career where you need this guide for advice, you're likely to find either to be incredibly frustrating instead.
 
@@ -1003,7 +1003,7 @@ So the only reason to raise Quartz is either because you like her or because you
 
 ### Jackie
 
-{{< mastery-table-enhanced id="347_jaksel" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="347_jaksel" rows="S2M3,None,None" >}}
 
 Fighters are just a real tough archetype to be if you aren't a 6★. They're one of those early game design choices that probably seemed like a good idea at the time, but it turns out don't actually fit anywhere in the game. Early DP pressure isn't that big of a problem, and if it is you'd use Vanguards instead, and their low DPH means they aren't useful against meaningful threats. So unless they have the design space to do something absurd like Mountain or Chongyue do, they end up as very poor investments that are rarely used, even in niches. Thus all of the 4 and 5★ Fighters are pretty much waifu investments only.
 
@@ -1014,7 +1014,7 @@ Jackie's contribution to the group is a Dodge tank with much better odds than Be
 
 ### Conviction
 
-{{< mastery-table-enhanced id="159_peacok" rows="S1M3,None,None" pool="5" >}}
+{{< mastery-table-enhanced id="159_peacok" rows="S1M3,None,None" >}}
 
 Conviction is a gimmick unit, which is appropriate given they're quite literally an April Fool's joke. They aren't a unit you should generally consider raising for regular use, but as far as gimmick units go, is a pretty fun one (on top of being a cheap 4★).
 
@@ -1027,7 +1027,7 @@ Meanwhile their S2 doesn't really have much use. The gimmick here is that it's a
 
 ### Beehunter
 
-{{< mastery-table-enhanced id="137_brownb" rows="S1M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="137_brownb" rows="S1M3,None,None" >}}
 
 Fighters are just a real tough archetype to be if you aren't a 6★. They're one of those early game design choices that probably seemed like a good idea at the time, but it turns out don't actually fit anywhere in the game. Early DP pressure isn't that big of a problem, and if it is you'd use Vanguards instead, and their low DPH means they aren't useful against meaningful threats. So unless they have the design space to do something absurd like Mountain or Chongyue do, they end up as very poor investments that are rarely used, even in niches. Thus all of the 4 and 5★ Fighters are pretty much waifu investments only.
 
@@ -1038,7 +1038,7 @@ Beehunter is probably the toughest unit to use of the group. With her S1, she is
 
 ### Matoimaru
 
-{{< mastery-table-enhanced id="289_gyuki" rows="S1M3,None,None|S2M3,None,None" pool="3" icons="skill_icon_skcom_heal_self[2]">}}
+{{< mastery-table-enhanced id="289_gyuki" rows="S1M3,None,None|S2M3,None,None" icons="skill_icon_skcom_heal_self[2]">}}
 
 Matoimaru has an absolutely massive HP pool along with some self-sustain that scales with that massive pool. That can be a useful tool if you play in various niches, although far from an essential one and her 1-block and low DPS will usually be a liability instead.
 
@@ -1051,7 +1051,7 @@ On the waifu side, you might consider her S2 as well. Her DPS is a lot less spec
 
 ### Frostleaf
 
-{{< mastery-table-enhanced id="193_frostl" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="193_frostl" rows="S2M3,None,None" >}}
 
 Frostleaf is a notorious unit. In the original version of the guide, ungraded units weren't included at all, but Frostleaf still was. Why? Because despite how awful she is as a unit, and to be clear, she is one of the worst in the game, her S2 actually has some of the best Mastery gains in the entire game! So she's the only ungraded unit who has been in every guide iteration, just for the sake of notoriety!
 
@@ -1064,7 +1064,7 @@ At any rate, Frostleaf is a bad unit. She has no DPH, a bad cycle, and poor DPS.
 
 ### Dobermann
 
-{{< mastery-table-enhanced id="130_doberm" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="130_doberm" rows="S2M3,None,None" >}}
 
 Dobermann is one of those units that fits in the game well from a thematic standpoint, but doesn't actually have any value. The 3★s aren't anywhere near good enough to justify a unit dedicated to buffing them, and Dobermann doesn't do a good combat job on her own anyway. That's even before considering that her main skill, S2, has a horrific 70 SP!
 
@@ -1075,7 +1075,7 @@ Even if you play in some pretty extreme niches, Dobermann isn't a unit you shoul
 
 ### Estelle
 
-{{< mastery-table-enhanced id="127_estell" rows="S2M3,None,None" pool="3" >}}
+{{< mastery-table-enhanced id="127_estell" rows="S2M3,None,None" >}}
 
 Estelle is one of the better 4★s in the Ungraded category. Centurions are just a natively strong archetype and the sustain from her Talent can be useful. However, there's some flaws in her kit that hold her back despite what seems like should be a solid low-cost unit. For one, her sustain is conditional and the drawback on her main skill can be very troublesome if she can't take advantage of it. For two, Defensive Recovery is the worst SP generation type and makes her further situational. She's best against lower pressure swarms, which are not usually a problem in the first place! And third, while a bit beyond the scope of this guide, she needs E2 to be functional due to the block count improvement Centurions get which is generally not recommended for the 4★s.
 
