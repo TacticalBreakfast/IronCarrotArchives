@@ -1,3 +1,10 @@
+{{/*
+  MAINTAINER NOTE — keep mastery-table-is.html in sync
+  mastery-table-enhanced.html and mastery-table-is.html share the same logic for operator
+  lookup, portrait rendering, star/profession display, en_link/cn_link handling, icon
+  overrides, and pool resolution. mastery-table-is.html adds only an extra IS grade column.
+  Whenever this file is modified, apply the equivalent change to mastery-table-is.html.
+*/}}
 {{- $id := .Get "id" -}}
 {{- $rowsRaw := .Get "rows" -}}
 {{- $iconsRaw := .Get "icons" | default "" -}}
