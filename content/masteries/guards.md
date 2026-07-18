@@ -297,19 +297,23 @@ Finally, her S1 may be worth a look if you're Tomimi and Gavial truly is waifu. 
 
 ### Irene
 
-{{< mastery-table-enhanced id="4009_irene" rows="S3M3,A,A,Breakpoint - S3M1|S2M3,C *,B+ *|S1M1,None,None,Breakpoint - S1M1" >}}
+{{< mastery-table-is id="4009_irene" rows="S3M3,A,A,S- *,Breakpoint - S3M1|S2M3,C *,B *,None" >}}
 
 \* *Note that Irene’s S2 is graded assuming she has her SWO-X Module at level 3. If you do not plan to get this Module fully upgraded, treat the priority of this skill significantly lower.*
 
-Irene is a strong burst Operator, but one who has been left behind in the meta. While her burst is good, she is stuck with an excruciating 24 Attack Recovery on her primary skill, combined with poor uptime on her control. It’s enough to make Irene fans truly loathe Degenbrecher…
+\* *Irene’s IS grades assume Her ISW-α Module. This Module is inexpensive, but is given special note here to draw attention to the gap in value between the modes.*
 
-Regardless, Irene is still a solid unit overall and has some strong, and basically mandatory, Masteries. Her S3 is her main skill. Make special note of the breakpoint at M1 which should be done immediately. It adds 20% more hits alone, which is a massive improvement for the cost. The full M3 is still mandatory to use her though, as it drops a significant portion off of her brutal SP cost.
+Irene is a strong burst Operator, but one who has been left behind in the meta. While her burst is good, she is stuck with an excruciating 24 Attack Recovery on her primary skill, combined with poor uptime on her control. It’s enough to make Irene fans truly loathe Degenbrecher, although  she has at least been blessed with a decent ISW Module that bypasses many of these issues.
 
-While S3 is her bread and butter, her SWO-X Module adds some other potential to her kit via S2. The 6 SP restored by her Module is a significant proportion of her S2’s required cost (6 vs 8, with charges), which lets her effectively spam her S2. It does rely on being able to kill lower-weight enemies, so her S3 still remains her primary skill, but it does add some powerful alternative use to an off-meta unit. Mastery is very important for this to work too. The SP cost reduces at M2, but the full M3 is needed since the spam relies on being able to reliably kill the enemies during the skill effect.
+Regardless, Irene is still a solid unit overall and has some extremely strong Masteries. Her S3 is her main skill in all cases. Make special note of the breakpoint at M1 which should be done immediately. It adds 20% more hits alone, which is a massive improvement for the cost. The full M3 is still necessary to use her though, as it drops a significant portion off of her brutal SP cost and initial SP on top of the additional damage.
 
-Finally, her S1 may be worth a look if you like Dorothy, but ONLY the breakpoint. While a fairly obscure combo these days, the Levitate on Irene’s S1 can be combo’d with Dorothy’s S2 by placing the mine under the Levitated enemy. In this case, only S1’s breakpoint is necessary. In fact, the combo loses efficacy at S1M3 since the lower SP cost falls out of sync with Dorothy’s Bind time, so stick with just S1M1.
+As for her ISW-α module, it's a decent one, and pretty fun, and is an important component of some more advanced strategies, however it's not the general "all situations" powerhouse that some of the others are. That, along with her relatively high base grade already, means Irene only gets a relatively minor bump for that mode specifically. However, if that is your goal, there are some unique considerations. First, S3M3 is essentially mandatory. S3M3 perfectly matches her initial SP cost to the bonus from the Module. While this doesn't influence her skill activation from the auto-deployment Talent effect, which occurs regardless of her SP, it does allow for immediate activation on normal deployment. Given her now reduced redeployment time, this makes a massive difference and essentially bypasses her Attack Recovery woes. ISW-α Irene is vastly more powerful at S3M3 than anything lower. Second, her ISW-α Module is built around her S3 and her S3 alone. So while her other skills may have some fringe considerations for advanced play in the general game, they aren't worth considering at all in IS.
 
-{{< last-updated "2025-09-02" >}}
+Speaking of, while S3 is her bread and butter, her SWO-X Module adds some other potential to her kit via S2 outside of IS. The 6 SP restored by her Module is a significant proportion of her S2’s required cost (6 vs 8, with charges), which lets her effectively spam her S2. It does rely on being able to kill lower-weight enemies, so her S3 still remains her primary skill, but it does add some decent alternative use to an off-meta unit. Mastery is very important for this to work too. The SP cost reduces at M2, but the full M3 is needed since the spam relies on being able to reliably kill the enemies during the skill effect.
+
+Last, pass on her S1. In the past it has had some combo potential, but it was obscure even when it was new, and outside of that, will generally be inferior to her S2. Even the breakpoint at S1M1 isn't worth doing anymore.
+
+{{< last-updated "2026-07-18" >}}
 
 
 ### Nearl the Radiant Knight

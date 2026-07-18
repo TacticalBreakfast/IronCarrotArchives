@@ -21,6 +21,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**July 18, 2026**
+
+Updated Irene for her ISW mod. She slipped through the cracks for the main update. Oopsie. Added IS grades for her, added a new paragraph for it, touched up the rest of the write-up, removed the S1 discussion and S1 breakpoint, and lowered S2 Advanced slightly (B+ to B).
+
 **July 12, 2026**
 
 Updated for First of a Thousand Autumns. Moved Medjehtiqedti Bound to the main guide. Added Wang, Ch'en the Dawnstreak, Ju, and Taraxacum. Updated the lookaheads. Also added a small tweak to Titi's write-up.
