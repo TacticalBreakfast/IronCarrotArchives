@@ -232,3 +232,19 @@ html.dark .mastery-card__icon {
     line-clamp: 2;
     overflow: hidden;
 }
+
+/* On touch devices (phones and tablets), skip the header blur fade-in animation and keep
+   the header fully opaque. Rapid inertial scrolling fires scroll events so frequently that
+   the opacity ramp (0→1 over 300px) causes a visible flicker for photosensitive users.
+   Desktop mice/trackpads are unaffected since they change scroll position in controlled
+   increments. `pointer: coarse` + `hover: none` identifies touchscreens regardless of
+   viewport width. */
+@media (hover: none) and (pointer: coarse) {
+    #menu-blur { opacity: 1 !important; }
+}
+
+/* Also disable the animation for users who have requested reduced motion at the OS level,
+   regardless of device. */
+@media (prefers-reduced-motion: reduce) {
+    #menu-blur { opacity: 1 !important; }
+}
