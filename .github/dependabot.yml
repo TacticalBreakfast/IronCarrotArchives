@@ -4,5 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    allow:
-      - dependency-name: "assets/game_img"
+    # Exclude the theme rather than allow-listing the assets submodule: an `allow` filter
+    # that fails to match silently drops every update, whereas an `ignore` filter that
+    # fails to match merely lets an unwanted Blowfish PR through, which is easy to close.
+    ignore:
+      - dependency-name: "themes/blowfish"
