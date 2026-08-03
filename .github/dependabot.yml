@@ -4,6 +4,13 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    # Disable the cooldown window. Dependabot only evaluates the newest submodule commit,
+    # and falls back to the currently pinned one if that commit is still inside the
+    # cooldown period. ArknightsGuideAssets receives auto-sync commits near-daily, so any
+    # nonzero cooldown means the newest commit is perpetually too fresh and no PR is ever
+    # opened -- the window never elapses on anything.
+    cooldown:
+      default-days: 0
     # Exclude the theme rather than allow-listing the assets submodule: an `allow` filter
     # that fails to match silently drops every update, whereas an `ignore` filter that
     # fails to match merely lets an unwanted Blowfish PR through, which is easy to close.
