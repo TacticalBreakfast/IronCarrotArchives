@@ -28,7 +28,14 @@ jobs:
         uses: actions/checkout@v6
         with:
           submodules: recursive
-          fetch-depth: 0
+          # Shallow clone (fetch-depth defaults to 1). This applies to the submodules too,
+          # which is where it matters: themes/blowfish has a large history, and every
+          # auto-sync commit in assets/game_img adds binary image data that stays in
+          # history permanently, so a full clone gets slower every day.
+          # Safe because nothing here reads git history -- enableGitInfo is unset and the
+          # build passes no --enableGitInfo, so Hugo only needs the pinned working trees.
+          # If you ever enable enableGitInfo for git-derived lastmod dates, restore
+          # fetch-depth: 0.
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
