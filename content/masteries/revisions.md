@@ -21,6 +21,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**August 4, 2026**
+
+Small update to remove references to Cairn's Module being in the future.
+
 **July 18, 2026**
 
 Updated Irene for her ISW mod. She slipped through the cracks for the main update. Oopsie. Added IS grades for her, added a new paragraph for it, touched up the rest of the write-up, removed the S1 discussion and S1 breakpoint, and lowered S2 Advanced slightly (B+ to B).
