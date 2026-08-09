@@ -579,6 +579,21 @@ Of course, that's still pretty low value overall. It's a very niche and situatio
 
 ## 4★ and 5★ Ungraded Snipers
 
+### Ju
+
+{{< mastery-table-enhanced id="4221_ju" rows="S2M3,None,None" >}}
+
+Despite great visual design and lore, Ju has one of the least interesting kits in recent memory. He's not even appreciably better than the 4★ of his archetype, Totter¹, so he's generally a unit to avoid raising. All he does, aside from some minor and inconsistent SP generation that wasn’t good when a 6★ did it five years ago, is restricted DPS (HP% thresholds are never good), and it's not especially good DPS at that. It is an absolute travesty the extra damage on his S2 only triggers once per enemy since he still wouldn’t be good even if it was every hit! This all means he's not even notable for niche play!
+
+However, he has "enough" DPS to be viable if you really like him. In such a case, strongly favor his S2 for Mastery, although to rub salt into the wound, the gains aren't even that impressive. Its DPH is only slightly worse than S1, but he gains an extra target and a *lot* more DPS over a decent duration. However, as mentioned, the gains are fairly low, and the skill itself is still unimpressive. I can't imagine what the thinking was behind making the extra damage only happen once².
+
+His S1 could be an option if you *really* like him, but will rarely have real value. The idea behind it is probably (it's always hard to tell with units like this) that he'll save the charges until an enemy is almost dead, allowing him to more easily activate his Talent in a single activation. This, along with the standard "consistency vs burst" difference, could occasionally make it the better choice. However, the targeting restriction greatly neuters his viability, so S2 will nearly always be the better choice.
+
+¹ Seriously, raise Totter first if you want a Besieger. The DPS difference is small and situational, Totter is significantly cheaper, and he is very useful in IS.
+² I’m so mad about it, I mentioned it twice.
+
+{{< last-updated "2026-07-12" >}}
+
 ### Kichisei
 
 {{< mastery-table-enhanced id="4203_kichi" rows="S2M3,None,None|S1M3,None,None" >}}

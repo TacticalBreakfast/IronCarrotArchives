@@ -23,16 +23,14 @@ tags = ['Mastery', 'Future Content', 'Arknights', 'Guide', 'Skill Priority']
 
 ## Overall Pull Priority
 
-July update: New this update are the MH collabs. Orchid2 and Yato2 both slot into Lean Pull. I like Yato2 more between them, and think she might slide up to Strong Pull next patch when Wang and Chen3 rotate off. Orchid2 is solid, but could even slide to Lean Skip depending on the power level in a few months. Meanwhile, Kal2 goes up to Strong Pull. While that kit clunkiness is still there, she has so much of value packed into her kit that she's proven to be very viable in both general and endgame play.
-
-Aphrissa will be added next update, but unfortunately, she's very likely to be a Strong Skip.
+August update: The only new thing this update is Aphrissa joining the list as Strong Skip. She actually isn't bad (no one is) but lacks anything that would make her a compelling pull option, especially just before a limited banner. Additionally, I've decided not to move either Orchid2 or Yato2 yet. The reasoning here is that removing Wang/Chen3 clears the list up a lot, but the summer limited banner will likely cause a large shift, and I don't want to move them one update only to have to move them back the next. So expect a much larger update next patch.
 
 | Tier | Units |
 |:---|:---|
-| **Strong Pull** | Wang (limited), Ch'en the Dawnstreak, Kal'tsit·Esperanta (limited), Closure |
+| **Strong Pull** | Kal'tsit·Esperanta (limited), Closure |
 | **Lean Pull** | Violet Mizutsune Orchid (collab limited), Kirin R Yato (collab limited, rerun) |
 | **Lean Skip** | Zima the Raging Tide, Bellone |
-| **Strong Skip** | Necrass (rerun) |
+| **Strong Skip** | Necrass (rerun), Aphrissa |
 | **Meta-value 4-5★s** | None |
 | **Niche-value 4-5★s** | None |
 
@@ -46,21 +44,13 @@ A few important notes regarding this list:
 
 ## Pull Priority Blurbs
 
-**Wang**
+**Kal'tsit·Esperanta**
 
-He’s been nicknamed Wangsdel and for good reason. He does a ton of damage, anywhere on the map. Don’t be afraid by the fact he’s a Trapmaster either. Since his damage is so good, and he gets a ton of traps, he’s stupidly easy to use too. He can solo most of the game, like his sister Ling did long ago, but unlike her, has plenty of ceiling too thanks to a huge chunk of RES-ignore. He is easily the best unit ahead of us, and may be the best unit in the game.
-
-**Ch’en the Dawnstreak**
-
-She hasn’t gotten as much attention as Wang, but I like Ch’en3 almost as much. She scales with enemy HP and her damage automatically toggles between Arts and Physical, depending on what’s better. She also has crazy good range and an abusable gimmick, which gives her both a high floor and a high ceiling.
+Kal2 is a unit who is more than the sum of her parts. No individual aspect will likely blow you away, and there's some details in her kit that can cause headaches, but when you combine her strong healing, good range, AoE True Damage, strong control, great survability, and a powerful flex skill, you have a great total package that is valuable in all sorts of gameplay.
 
 **Closure**
 
 Yet another extremely powerful Vanguard, Closure is the more powerful story-carry of the three. She has some really crazy damage and range, plus an extremely powerful DP skill that should see her viable even in advanced gameplay. The three top Vanguards all have different strengths compared to each other, but Closure is a more than worthy entrant to the competition.
-
-**Kal'tsit·Esperanta**
-
-Kal2 is a unit who is more than the sum of her parts. No individual aspect will likely blow you away, and there's some details in her kit that can cause headaches, but when you combine her strong healing, good range, AoE True Damage, strong control, great survability, and a powerful flex skill, you have a great total package that is valuable in all sorts of gameplay.
 
 **Violet Mizutsune Orchid**
 
@@ -78,33 +68,15 @@ She has a very powerful and easy to use AFK skill that will appeal to many peopl
 
 Bellone has really high ST DPS and strong DEF-shred, meaning he will rip up a lot of stages and enemies. He has a really high floor that will appeal to some people, with just enough high end value to warrant at least a look. However, he is far less versatile than many other DPS units, including several upcoming ones. That makes him tricky to recommend. Older players will already have better options, and newer players will get better value from their pulls saving for the better options.
 
+**Aphrissa**
+
+Aprissa is a decent unit and a creative twist on the Blast Caster archetype. I personally love her kit design! However, the archetype is also innately underpowered. Her S3 has the numbers behind it to keep up, but is still pretty far behind the top Casters, and her other two skills *don't* have the numbers, which kills a lot of potential flexibility.
+
 **Necrass**
 
 She’s a powerful general unit, but has a much lower ceiling than the other upcoming top dogs. If her summon gets stat-checked, she’s just raw damage, and while her damage is good, it’s not special either. She’s a solid carry sort of unit, but we have a lot of those now with higher ceilings.
 
 ## Unit & Masteries Lookaheads
-
-### Crossing
-
-*Estimated Release: August*
-
-#### Bellone
-
-**6★ · Gacha**
-
-The largely negative reception for Bellone is what happens when powercreep gets out of control. Somehow 40-64% DEF shred and crazy ST damage isn’t all that great. However, since this is the game in 2026, that still leaves him as a very solid unit. He's the sort of unit that will be very easy to use for those who want to use him, and newer players will probably find him more valuable than "gimmicky" units like Titi or Nasti. However, he lacks most of their ceiling, so for many established players, he could be the weakest 6★ ahead of us!
-
-His DEF-shred means he has a relatively high floor of DPS that others can benefit from, and he will do impressive damage against most targets, but it's mostly ST damage, he's reliant on RNG for survival, DEF can still be outscaled, and he brings little else to the table. He'll be a graded M6, but the call between S2 and S3 is relatively tough. S3 has much higher DPS, but the teleporting is quite gimmicky and unreliable. S2 meanwhile has lower DPH and DPS, but better range, multiple targets, and a faster cycle. I currently lean S2 since his S3 is very frustrating to use, and the DPH doesn’t matter as much with his DEF-shred, but that could change by release. Pass S1 which has no value, especially with S2's rapid cycle.
-
-*tl;dr Both S2 and S3 graded, likely in the A-tier, but one could sneak up to a low S.*
-
-#### Ripresa
-
-**5★ · Gacha**
-
-Ripresa baited me into thinking she was a bunny. Instead, it turns out she's a horrid goat! At least Surfer had the decency to be a good unit! Ripresa is... much less good. She joins a host of existing 5★ Splash Casters that are actually not terrible, but also pretty far from generally viable. She has some decent DPS, especially if the targets overlap, and a really short cycle. But she's just 5★ DPS with no utility, and her peak DPS, while good, has some harsh restrictions. Her S2 fireballs can’t target the same enemy multiple times, meaning she needs 3 different targets in her short range to reach that potential, which is oftentimes a tall order, so there's not any non-niche or non-waifu reason to promote her. If either of those apply to you, S2 is her better skill by quite a bit. It does quite a bit more damage, and the SP costs between her skill are quite similar. Meanwhile her S1 is much less special. The only reason to favor it would be due to the 3-target requirement on her S2, but S1s damage output is far lower, so you probably shouldn’t be using her in the first place if you can’t take advantage of her S2. It’s a waifu only skill.
-
-*tl;dr Ungraded or C-tier S2. Pass on S1 unless waifu.*
 
 ### People, A People
 
@@ -207,3 +179,29 @@ After that, there's a relatively interesting decision between her remaining skil
 Although she's a bit disappointing design-wise, only granting generic 5★ DPS with the Mercenary gimmick instead of some more interesting interaction, Catapult2 is decent enough to be usable if you want. She has enough DPS, and some flexibility between her two skills that she is more than functional. She's not a special quantity either, however. S1 is a decent AoE and hit-count skill, while S2 provides a much bigger and viable burst on a relatively low cooldown. However, as said, her DPS isn't a special-tier and the DP cost is a steep price when better DPS options exist at the rarity. The 5★ Guards are a pretty decent group already, so even her niche potential is relatively muted. Still, it's enough that she should pick up some grades.
 
 *tl;dr If you plan to use her, you'll need to Master both skills. S2 will probably be slightly higher, but both roughly in the B-tier.*
+
+### Bolivar Diagnosed
+
+*Estimated Release: December*
+
+#### Aphrissa
+
+**6★ · Gacha**
+
+Blast Casters are a funny archetype. In the early going, Ifrit was one of the best Casters in the game, because there were only two, and it took a long time for another reasonable Caster to come out. Ifrit also retained some of her value as time went on because she had a huge amount of RES-shred. That all hid the fact that, at their core, Blast Casters actually suck. Their long attack interval meant low DPS, and their restrictive range caused more problems than it solved. Of course, the Blast Casters after were 5★s during a time when almost all 5★s sucked so it wasn't too shocking, but now we have another 6★ Blast Caster who just shows those assumptions are unfortunately true. A Blast Caster sucks unless they have some really pumped up numbers or some really great utility.
+
+That whole digression is for a point, because that summarizes the skill selection for Aphrissa. Only her S3 has the numbers or utility to actually be useful. And it's actually a good skill so will be decently graded! It does solid DPS and expands her device usage that can lead to some really creative play. I'm actually a big fan of the design! However, her S1 and S2, despite having some utility, just don't have the numbers to back them, and they feel really bad to use, especially by modern DPS standards.
+
+In total, she herself is just alright. She's not bad, because the game power level is extremely high right now (no one is bad right now), but as of her release, she does seem like the weakest 6★ ahead of us on global. However, I will say that I actually really love her kit design. I’m surprised the whole device-changing-direction thing got some pushback because I think it’s a really creative exploration of the archetype!
+
+*tl;dr S3 is her main skill and should get a decent grade (low-S). S1 and S2 may be useful to simps, but are pretty weak DPS-wise, and will probably be ungraded, or low-graded at best.*
+
+#### Pedro
+
+**5★ · Gacha**
+
+Pedro is yet another disappointing iteration of the recent 5★s. He teases a brand new archetype that one can imagine on a busted 6★ in a few months, but is unimpressive himself. For whatever reason, HG just undertunes the rarity, especially recently, and the result is yet another entirely skippable 5★. The idea behind the archetype is that it adds an effect to the target. The effect itself does nothing initially but lasts until some sort of trigger happens, and when it does, the effect finally happens. In Pedro's case, his S1 does some additional damage when an enemy takes Arts damage, and his S2 heals when the friendly falls below 50% HP. He actually has some decent numbers here, but it's a situation where why would you bother when other units do the same thing (or better), even at his own rarity, without the extra hoops to jump through? The result is a unit who is probably usable if you want, but feels very gimmicky, even for off-meta players.
+
+Also, I'd be remiss to not mention the absurdity of his base skill. He has class specific training. Yet he's the first and only one, and he can't well train himself. And even when there are more in the future, it still won't be better than Logos or Irene. And requires an expensive 5★ E2 promotion on an otherwise mediocre unit. I know not every unit can have a great base skill, but come on HG!
+
+*tl;dr Very likely ungraded. Both skills are options since they have differing roles but similar considerations (are both bad). S2 will be better though since S1 is just bad conditional DPS.*

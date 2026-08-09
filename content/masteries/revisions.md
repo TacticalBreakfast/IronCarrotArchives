@@ -21,6 +21,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**August 9, 2026**
+
+Updated for Crossing. Added Bellone and Ripresa and updated the lookaheads.
+
 **August 4, 2026**
 
 Small update to remove references to Cairn's Module being in the future.

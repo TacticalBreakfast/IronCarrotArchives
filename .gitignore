@@ -20,3 +20,6 @@ __pycache__/
 
 # Docs directory (keep local)
 docs/
+
+# Claude file
+CLAUDE.md

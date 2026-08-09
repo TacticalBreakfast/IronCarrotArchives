@@ -4,11 +4,11 @@ This site is still a heavy work in progress, so if you spot any bugs or have any
 
 ## Most Recent Content
 
+New Update - [Crossing](masteries/mostrecent)
+
+New Article - [Corssing](https://sanitygone.help/en/guides/mastery-crossing/)
+
 Blog Post - [Summer Events Are Great!](posts/summerevents)
-
-New Update - [First of A Thousand Autumns Update](masteries/mostrecent)
-
-New Article - [First of A Thousand Autumns Article](https://sanitygone.help/en/guides/mastery-first/)
 
 Tier List Update - [First of A Thousand Autumns Tier List Update](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 

@@ -21,6 +21,24 @@ tags = ['Mastery', 'Specialists', 'Arknights', 'Guide', 'Skill Priority']
 - [4★ and 5★ Ungraded Specialists](#4-and-5-ungraded-specialists)
 ## 6★ Specialists
 
+### Wang
+
+{{< mastery-table-enhanced id="2027_wang" rows="S3M3,S++,S++|S2M3,A,S+|S1M3,None,C" >}}
+
+Older readers of this guide may remember a time when the S++ grade could have an arbitrary number of +s. Once upon a time, the mighty SilverAsh (the first one) had an S++++ grade! So I have to wonder how many Wang would have if I kept up the trend. He is *by far* the strongest OP in the game as of his release. Would ten be enough? Twenty? I bring up this digression for one reason. Both here and the [Tier List](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/) now have a "cap" on their rankings. This is for practical reasons because outliers make an overall ranking much harder. Wang is such an outlier. Don't be "fooled" by his mere S++ grades here. He should be the first Mastery you do, and is the highest priority OP in the game, and will likely remain so for a long time.
+
+Anyway, to discuss his actual kit, Wang is a Trapmaster, although that's putting it mildly. He more accurately throws tactical nukes shaped like Go pieces. Each "trap" deals a ton of damage in a big range, with a lot of flexibility built in such as appearing on undeployable tiles and hitting air. Most notable, however, is the RES-ignore built into his second Talent which ensures he has high damage against virtually everything in the game. He is incredibly easy to use as well, despite a rather wordy kit, with plentiful traps and bypasses for common Trapmaster issues. He really is as good as people say.
+
+His main skill, and that mentioned high priority Mastery, is his S3. It's quite confusing at first read, but isn't actually that bad. What happens, in addition to the trap effect of huge AoE damage, is he gets ammo which automatically converts into additional traps when deployed in his now massive (5x5!) range. It also renews his traps, and don't forget, can be ended on-demand to begin the refresh cycle early and get even more traps. Despite all the words, the Mastery itself is very simple. The only gain is to the damage the traps do, and a small amount of SP. However, this is one of the best skills in the game, and that damage gain is significant!
+
+After that, the next skill to pursue is his S2, but it's tricky to evaluate. It is an *extremely* powerful skill, and if this guide was just a skill ranking, it would easily be an S++ tier of skill as well. However, this guide is an investment priority instead, and the issue is his S3 is so incredibly dominant that many players will never even bother with his S2, which results in a wide gap between Story and Advanced recommendations. If you are the type of player who doesn't overthink stages, you can probably pass on the Mastery entirely, and will get better value from your resources elsewhere. However, if you like to optimize your clears, even a little, then his S2 is well worth the investment!
+
+His S2 is simpler to understand. It does more damage per trap than his S3 does, albeit in a range that tends to be more “restrictive”. Instead of a fancy ammo mechanic to deploy a ton of new traps, it renews in a more typical Trapmaster method. But because Wang is broken, he gets *two* traps per cycle instead of one like every Trapmaster before him. This gives it a damage and uptime advantage to his S3. As for the range, it covers the same total area as S3, but in a cross-shape instead. For general use, this can be functionally smaller, but is also capable of reaching out further, which gives it a situational advantage. Due to these factors, some players may even find S2 more valuable than his S3. However, it is much less brain-dead to use than his S3 so a lot won't find it worth the "trouble", minor as it is. Mastery on it is more valuable than his S3 as well, although that shouldn't be a major factor here. The SP gain matters more, the damage gain is bigger, and the snare effect gets a significant improvement. None of that changes the difference in skill value though, so don't take this difference to mean you should start with S2 instead!
+
+Last is his S1, which is likely not worth the investment for most people. It's mainly notable for its long Slow that can be applied almost anywhere on the map. That can have value for real min-maxed gameplay, however, there's better control options out there, so it's surprisingly low value for such a strong unit, and will only be particularly useful if you want to specifically use Wang.
+
+{{< last-updated "2026-07-12" >}}
+
 ### Exusiai the New Covenant
 
 {{< mastery-table-enhanced id="1041_angel2" rows="S2M3,S++,S+|S3M3,S+,S++" >}}

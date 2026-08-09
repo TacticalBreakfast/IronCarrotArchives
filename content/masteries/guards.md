@@ -21,6 +21,26 @@ tags = ['Mastery', 'Guards', 'Arknights', 'Guide', 'Skill Priority']
 - [4★ and 5★ Ungraded Guards](#4-and-5-ungraded-guards)
 ## 6★ Guards
 
+### Ch'en the Dawnstreak
+
+{{< mastery-table-enhanced id="1050_chen3" rows="S3M3,S++,S+|S2M3,B,B+" en_link="https://sanitygone.help/en/operators/chen-the-dawnstreak/" >}}
+
+Our first double-alter, Ch'en the Dawnstreak returns to Ch'en's roots as a DPS Guard, but with upgraded modern power. That power is in the form of a potentially abusable dragon with great range, strong base DPS, a "new¹" Weakness damage that expands her targets, our first instance of HP scaling damage, and some surprisingly decent self sustain. That all makes her a powerful general consideration, with enough potential to really shine in some advanced content.
+
+Her main skill to that effect is her S3. She throws out her dragon which can travel any distance, giving her massive range. The dragon turns clockwise any time it hits a barrier of some kind, and it can hit an enemy after each turn, meaning that depending on the scenario, along with its HP scaling damage, it can obliterate high HP enemies by bouncing the dragon around for multiple hits. It's particularly great against the "raid boss" (multi-tile) type enemies! It's notable that the HP scaling is based on current HP, not max, so it does reduce over subsequent hits, but also has a very high minimum damage. However, the flip side is this is map dependent. It's more usable than you probably think it is since it's the type of skill that makes you rethink stages, but there are stages that she can relatively “struggle” on. And if you're the type of player that's allergic to thinking, keep in mind that her S3 is still her best skill. Even firing off dragons randomly on her short 25 SP cost will have great results.
+
+As for the Masteries themselves, they're on the strong side, but not absurd. It raises the minimum damage, but not the HP scaling, of her dragon which is the skill's main selling point, and the minimum damage gain there is nothing special. However, it's often easy to overlook the followup strikes which do improve by a good amount thanks to the triple strike. Perhaps more important however, is the cycle time improvement. As always, it can be a bit difficult to appreciate a few SP of cycle time and initial wind-up, but for high caliber units like this, it can make all the difference. These factors knock down her grades *slightly* compared to other upper crust units, but while the Masteries on this skill aren't absurd by any means, it's still one of the highest priority options in the game.
+
+Her secondary skill is her S2, which may be the one that pulled your attention in the previews. It calls back to her first form's S3, with upgraded damage, and new movement tech! However, that tile-moving ends up being far more trouble than it's worth. The skill doesn't return her to the original position (unless there's no valid move target) so it will very often end up leaving her in an undesirable or unexpected position. It's a skill that requires a lot of effort to use properly, otherwise she'll just teleport herself somewhere useless, and while thinking is rarely considered a problem in this guide, the real problem is for that effort you don't really get better performance than her S3!
+
+Now, that doesn't mean it's useless, and it is still graded here, but it becomes a situation where the cost of Mastery slides it more towards the luxury or niche side of things. It has some decent gains as well, but I suspect that this is the sort of skill that a lot of people will do because it's flashy and because she's Ch'en, but won't actually ever use.
+
+Last, her S1 is probably not worth considering, but the true Ch'en simps may find it useful. It's similar to Guardmiya's S1 and has high DPS, but lacks any special value besides the Silence which is of limited general use. It's not a bad skill, strictly speaking, but it's extremely rare it will ever be better than her other two skills.
+
+¹ We've seen it before, but this is the first time it's appeared on an Operator kit.
+
+{{< last-updated "2026-07-12" >}}
+
 ### Sakiko Togawa
 
 {{< mastery-table-enhanced id="4182_oblvns" rows="S3M3,S++,S++|S2M3,A+,A|S1M3,C,C+,Breakpoint" cn_link="https://prts.wiki/w/%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90" >}}

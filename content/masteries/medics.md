@@ -350,6 +350,20 @@ In fact, her S1 may be worth a look instead. It does not buff her global heal by
 
 ## 4★ and 5★ Ungraded Medics
 
+### Taraxacum
+
+{{< mastery-table-enhanced id="4222_taraxa" rows="S2M3,None,None|S1M3,None,None" >}}
+
+Oh boy, another 5★ Medic that only heals. We have so many of these and I can only say the same thing so many times. This is the situation where the [5★ value problem](https://ironcarrotarchives.com/masteries/othertopics/#the-5-value-problem) comes to the front, where the extra cost 5★s bring just don't justify using them over cheaper OPs who are also great in IS, like Purestream, Sussurro, and Perfumer. At least Taraxacum has a gimmick in his Take-Off, but Take-Off isn’t widespread enough in the overall roster for his Talent to be viable¹, nor is his uptime good enough for consistent safety or aerial blocking that the gimmick would otherwise bring. However, his HPS is decent, the Watchman range is unique among Medics, and despite the flaws in his up-time, the Take-Off may still be useful in niche play. That's far from enough to be a general consideration, but could be enough for a rare few out there.
+
+If that's you, both of his skills are options, without an especially great deciding factor between them. His S2 will probably be the better overall skill, however. It has more targets and avoids the RNG on his S1. It's just more consistent with better total HPS. However, it has notably poor gains over Mastery, with only a paltry 7% improvement (as if having a bad kit wasn't enough).
+
+Meanwhile, his S1 has the better HPS against one target and a much higher uptime on his Take-Off which could make all the difference to his survivability in niche play. It also has better Mastery gains. Don't be fooled by the lower raw ATK% number. Spread over the reduced interval, it has a bigger impact than S2's "larger" raw gain. However, the random nature of the healing can be a massive problem if there are more targets, and the higher uptime comes at an unusually high SP cost. So ultimately it becomes a situation where neither skill stands out, and the best option is just to avoid him in the first place.
+
+¹ Maybe someday in the future it's possible the extra block will be useful, but with how the game is designed, that's unlikely.
+
+{{< last-updated "2026-07-12" >}}
+
 ### Papyrus
 
 {{< mastery-table-enhanced id="4139_papyrs" rows="S1M3,None,None,Breakpoint - S1M1|S2M3,None,None" >}}
