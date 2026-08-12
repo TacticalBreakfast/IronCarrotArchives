@@ -6,7 +6,7 @@ This site is still a heavy work in progress, so if you spot any bugs or have any
 
 New Update - [Crossing](masteries/mostrecent)
 
-New Article - [Corssing](https://sanitygone.help/en/guides/mastery-crossing/)
+New Article - [Crossing](https://sanitygone.help/en/guides/mastery-crossing/)
 
 Tier List Update - [Crossing](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
