@@ -8,9 +8,9 @@ New Update - [Crossing](masteries/mostrecent)
 
 New Article - [Corssing](https://sanitygone.help/en/guides/mastery-crossing/)
 
-Blog Post - [Summer Events Are Great!](posts/summerevents)
+Tier List Update - [Crossing](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
-Tier List Update - [First of A Thousand Autumns Tier List Update](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
+Blog Post - [Summer Events Are Great!](posts/summerevents)
 
 Blog Post - [Welcome to Iron Carrot Archives!](posts/welcome)
 
