@@ -34,6 +34,8 @@ BREAKPOINT_LINE_RE = re.compile(r"^S(\d+)M(\d+)\s*-\s*Breakpoint$", re.IGNORECAS
 ARKREC_RE = re.compile(r"^arkrec\s*[:\-]", re.IGNORECASE)
 STAT_NUM_LINE_RE = re.compile(r"^[\d.]+(?:\s*[/\-]\s*(?:mod\s+)?[\d.]+)*$")
 PAREN_COMMENT_RE = re.compile(r"^\(.*\)$")
+TODO_LINE_RE = re.compile(r"^\[TODO\]\s*(.*)$")
+NOTE_LINE_RE = re.compile(r"^\[NOTE\]\s*(.*)$")
 
 AUTHOR = "TacticalBreakfast"
 
@@ -71,6 +73,29 @@ class Article:
     operator_ids: list[str]
     sections: list[tuple[str, str]]  # (heading, verbatim body) for non-Masteries H1 sections, in order
     operators: list[OperatorBlock]  # Masteries content, in raw encounter order
+
+
+def extract_todos(text: str) -> tuple[str, list[str]]:
+    """Pulls out every line starting with '[TODO]' or '[NOTE]' (after
+    stripping leading whitespace), returning the text with those lines
+    removed and the ordered list of '[TODO]' task messages — '[NOTE]' lines
+    are draft-review-only asides, so they're dropped with no further record.
+    Runs before any other parsing so none of the four output builders ever
+    see a TODO or NOTE line."""
+    kept_lines = []
+    todos = []
+    for line in text.split("\n"):
+        stripped = line.strip()
+        todo_match = TODO_LINE_RE.match(stripped)
+        if todo_match:
+            todos.append(todo_match.group(1).strip())
+        elif NOTE_LINE_RE.match(stripped):
+            pass
+        else:
+            kept_lines.append(line)
+    cleaned = "\n".join(kept_lines)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)  # tidy up any gaps left behind
+    return cleaned, todos
 
 
 def parse_frontmatter(raw_text: str) -> tuple[dict, str]:
@@ -496,6 +521,7 @@ def main() -> None:
     args = parser.parse_args()
 
     raw_text = args.raw_file.read_text(encoding="utf-8")
+    raw_text, todos = extract_todos(raw_text)
     character_table = load_character_table(args.character_table)
     article = parse_article(raw_text, character_table)
 
@@ -519,6 +545,11 @@ def main() -> None:
         out_path = out_dir / filename
         out_path.write_text(content, encoding="utf-8")
         print(f"wrote {out_path}")
+
+    if todos:
+        todo_path = out_dir / f"{slug}-TODO.txt"
+        todo_path.write_text("\n".join(todos) + "\n", encoding="utf-8")
+        print(f"wrote {todo_path}")
 
     ica_path = out_dir / f"{slug}-ica-markdown.md"
     operator_names = ", ".join(op.name for op in article.operators)
