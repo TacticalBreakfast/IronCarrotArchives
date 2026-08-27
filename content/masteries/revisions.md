@@ -21,6 +21,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**August 27, 2026**
+
+Now that his banner is over, removed a footnote referring to pulling on his banner from Bellone's write-up.
+
 **August 14, 2026**
 
 Updated Bellone write-up. I brainfartted and forgot to include details about his improved uptime. Took the chance to fix a few typos as well.
