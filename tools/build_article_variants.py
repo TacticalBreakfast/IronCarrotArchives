@@ -36,6 +36,7 @@ STAT_NUM_LINE_RE = re.compile(r"^[\d.]+(?:\s*[/\-]\s*(?:mod\s+)?[\d.]+)*$")
 PAREN_COMMENT_RE = re.compile(r"^\(.*\)$")
 TODO_LINE_RE = re.compile(r"^\[TODO\]\s*(.*)$")
 NOTE_LINE_RE = re.compile(r"^\[NOTE\]\s*(.*)$")
+HEADING_ID_OVERRIDE_RE = re.compile(r"^(.*?)\s*\[(char_\d+_\w+)\]$")
 
 AUTHOR = "TacticalBreakfast"
 
@@ -127,15 +128,27 @@ def classify_line(line: str) -> str:
     return "prose"
 
 
-def parse_operator_block(name: str, content: str, name_to_id: dict[str, str]) -> OperatorBlock:
-    operator_id = name_to_id.get(name)
-    if operator_id is None:
-        raise ValueError(
-            f"Operator heading '{name}' in the Masteries section doesn't match any "
-            f"appellation looked up from the frontmatter 'operators' list. "
-            f"Check for a typo, or that the character_table.json entry's "
-            f"'appellation' matches the heading exactly."
-        )
+def parse_operator_block(
+    name: str, content: str, name_to_id: dict[str, str], operator_id_override: str | None = None
+) -> OperatorBlock:
+    if operator_id_override is not None:
+        if operator_id_override not in name_to_id.values():
+            raise ValueError(
+                f"Operator heading '{name} [{operator_id_override}]' specifies an id that "
+                f"isn't in the frontmatter 'operators' list. Check for a typo."
+            )
+        operator_id = operator_id_override
+    else:
+        operator_id = name_to_id.get(name)
+        if operator_id is None:
+            raise ValueError(
+                f"Operator heading '{name}' in the Masteries section doesn't match any "
+                f"appellation looked up from the frontmatter 'operators' list. "
+                f"Check for a typo, or that the character_table.json entry's "
+                f"'appellation' matches the heading exactly — or, if the appellation is "
+                f"known to be wrong or not yet localized, add an explicit override: "
+                f"'## {name} [char_id]'."
+            )
     block = OperatorBlock(name=name, operator_id=operator_id)
     pending_breakpoints: list[tuple[int, int]] = []  # (skill_num, mastery_level)
     paragraphs = re.split(r"\n\s*\n", content.strip())
@@ -187,10 +200,15 @@ def parse_masteries_section(content: str, name_to_id: dict[str, str]) -> list[Op
     matches = list(re.finditer(r"^## (.+)$", content, re.M))
     operators = []
     for i, m in enumerate(matches):
-        name = m.group(1).strip()
+        heading = m.group(1).strip()
+        override_match = HEADING_ID_OVERRIDE_RE.match(heading)
+        if override_match:
+            name, operator_id_override = override_match.group(1).strip(), override_match.group(2)
+        else:
+            name, operator_id_override = heading, None
         start = m.end()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(content)
-        operators.append(parse_operator_block(name, content[start:end], name_to_id))
+        operators.append(parse_operator_block(name, content[start:end], name_to_id, operator_id_override))
     return operators
 
 
