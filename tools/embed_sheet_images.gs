@@ -63,6 +63,16 @@
  *     blank(A:J) before more operators resume. The script detects and
  *     skips over these instead of treating the divider text as an
  *     operator name.
+ *   - Name cell override: if an operator's current character_table.json
+ *     appellation doesn't match the name you want to use (e.g. a
+ *     not-yet-localized operator whose CN appellation is still in Cyrillic,
+ *     like "Укусик" for the anticipated "Ukusik"), write the name cell as
+ *     "Ukusik [char_4224_turdus]" — same convention as
+ *     tools/build_article_variants.py's raw-article headings. The bracketed
+ *     id is used directly instead of the appellation lookup; the displayed
+ *     name (used in portraits/labels/reports) is everything before it. The
+ *     tag is left in the cell (not stripped) so re-running the script keeps
+ *     working — removing it would break the override on the next run.
  *
  * SETUP
  *   1. Open the spreadsheet -> Extensions -> Apps Script.
@@ -78,9 +88,13 @@
  * so it's safe to run again after adding new operator blocks.
  */
 
+// Matches a name cell's optional "[char_id]" override suffix, e.g.
+// "Ukusik [char_4224_turdus]" -> name "Ukusik", id "char_4224_turdus".
+const NAME_ID_OVERRIDE_RE = /^(.*?)\s*\[(char_\d+_\w+)\]$/;
+
 const CONFIG = {
   // Tab name containing the operator blocks.
-  SHEET_NAME: "Masteries", // <-- EDIT to match your sheet's tab name
+  SHEET_NAME: "Most Recent Updates", // <-- EDIT to match your sheet's tab name
 
   // Row of the FIRST operator's merged name cell (e.g. 6 for A6:H6).
   START_ROW: 6, // <-- EDIT
@@ -165,7 +179,9 @@ function embedOperatorImages() {
     throw new Error(`Sheet tab "${CONFIG.SHEET_NAME}" not found. Check CONFIG.SHEET_NAME.`);
   }
 
-  const byAppellation = buildAppellationMap_(loadCharacterTable_());
+  const charMaps = buildCharacterMaps_(loadCharacterTable_());
+  const byAppellation = charMaps.byAppellation;
+  const byId = charMaps.byId;
   const subProfDict = CONFIG.SET_SUBCLASS_INFO ? loadUniequipSubProfDict_() : {};
   const operatorPools = CONFIG.SET_POOL_INFO ? loadSimpleYamlMap_(CONFIG.OPERATOR_POOLS_URL) : {};
   const pools = CONFIG.SET_POOL_INFO ? loadSimpleYamlMap_(CONFIG.POOLS_URL) : {};
@@ -182,13 +198,23 @@ function embedOperatorImages() {
 
   let nameRow = CONFIG.START_ROW;
   while (nameRow <= lastRow) {
-    const name = String(sheet.getRange(nameRow, 1).getValue()).trim();
-    if (!name) break; // ran off the end of the operator blocks
+    const rawName = String(sheet.getRange(nameRow, 1).getValue()).trim();
+    if (!rawName) break; // ran off the end of the operator blocks
+
+    // Optional "[char_id]" override suffix, e.g. "Ukusik [char_4224_turdus]" —
+    // see the header comment. Not stripped from the cell; only parsed here.
+    const overrideMatch = NAME_ID_OVERRIDE_RE.exec(rawName);
+    const name = overrideMatch ? overrideMatch[1].trim() : rawName;
+    const overrideId = overrideMatch ? overrideMatch[2] : null;
 
     operatorCount++;
-    const match = byAppellation[name];
+    const match = overrideId ? byId[overrideId] : byAppellation[name];
     if (!match) {
-      notFound.push(`Row ${nameRow}: "${name}"`);
+      notFound.push(
+        overrideId
+          ? `Row ${nameRow}: "${rawName}" specifies id "${overrideId}" which isn't in character_table.json`
+          : `Row ${nameRow}: "${name}"`
+      );
     } else {
       if (CONFIG.EMBED_PORTRAITS) {
         const portraitRow = nameRow + CONFIG.PORTRAIT_ROW_OFFSET;
@@ -311,17 +337,21 @@ function isSectionDivider_(text) {
   return CONFIG.SECTION_DIVIDER_TEXTS.some((d) => d.trim().toLowerCase() === normalized);
 }
 
-function buildAppellationMap_(charTable) {
+/**
+ * Builds two lookups from character_table.json: by appellation (the normal
+ * path) and by full character id (for the "[char_id]" name-cell override,
+ * used when the appellation is wrong or not yet localized).
+ */
+function buildCharacterMaps_(charTable) {
   const byAppellation = {};
+  const byId = {};
   for (const id in charTable) {
     const entry = charTable[id];
-    byAppellation[entry.appellation] = {
-      id: id,
-      rarity: entry.rarity,
-      subProfessionId: entry.subProfessionId,
-    };
+    const info = { id: id, rarity: entry.rarity, subProfessionId: entry.subProfessionId };
+    byAppellation[entry.appellation] = info;
+    byId[id] = info;
   }
-  return byAppellation;
+  return { byAppellation: byAppellation, byId: byId };
 }
 
 function parseRarityNumber_(rarityStr) {
@@ -524,8 +554,8 @@ function report_(
     lines.push(
       "",
       `OPERATOR NOT FOUND (${notFound.length}) — name in sheet doesn't match any ` +
-        `appellation in character_table.json. Check for typos, or the operator may ` +
-        `not be in the game data yet:`
+        `appellation in character_table.json. Check for typos, or, if the appellation is ` +
+        `wrong or not yet localized, add an explicit override: "Name [char_id]":`
     );
     notFound.forEach((l) => lines.push(`  - ${l}`));
   }

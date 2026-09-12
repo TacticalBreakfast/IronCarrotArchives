@@ -17,7 +17,7 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Full Articles
 
-{{< article-links sg="https://sanitygone.help/en/guides/mastery-people/" ld="https://lungmendragons.com/guides/people-mastery" reddit="TBD" >}}
+{{< article-links sg="https://sanitygone.help/en/guides/mastery-people/" ld="https://lungmendragons.com/guides/people-mastery" reddit="https://www.reddit.com/r/arknights/comments/1weq14o/a_mastery_priority_guide_should_you_pull_people_a/" >}}
 
 ### Zima the Raging Tide
 
