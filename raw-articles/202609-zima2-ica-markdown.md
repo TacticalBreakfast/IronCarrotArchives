@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2026-09-12T17:00:00-04:00
+date = 2026-09-12T00:00:00-04:00
 title = 'Most Recent Update - People, A People'
 summary = "Arknights Mastery Priority guide for the most recent global update, People, A People — covering Zima the Raging Tide, Ukusik, and Botani — with skill recommendations and Priority rankings for the latest banner operators."
 weight = 9

@@ -77,6 +77,10 @@ This is shorthand typically used to refer to alts. For example, Jessica2 refers 
 
 [This is a website](https://en.arkrec.com/) that catalogues record clears. It often contains some of the highest skill clears in the game! However, be wary of using it for general evaluations. Niches inherently skew usage numbers and have different valuations than general clears. Also note that all entries are user submitted, so it isn't comprehensive, as many high-end players don't submit their clears.
 
+### FOMO
+
+Fear of missing out. This is a general internet term, but in an Arknights context, is usually used to refer to the fear of missing limited and collab Operators, which are much harder to obtain later compared to normal standard Operators. Many players will completely skip non-limited banners because of this.
+
 ## Combat Stats and Effects
 
 ### DEF
@@ -279,6 +283,10 @@ How long it takes a skill to be ready. This is usually just the difference of in
 
 Most skills in the game are unique to any given operator, but a handful are not. These skills are basic ones, often being just "filler", especially in older units. I personally loathe them as they represent design laziness. As far as the guide goes, they're rarely good too. However, there are exceptions such as Swift Strike, Support (Standardbearer S1s), and First Aid. You can usually tell a skill is generic by looking for a Greek letter after it, which varies with rarity. For example, Power Strike γ, however there are exceptions. Some skills are also functionally generic, even if they technically have a unique name.
 
+### Nuke Skills
+
+An informal term that refers to DPS skills that have higher than normal DPS, but shorter than normal uptimes. They usually, but not always, have rapid cycles too. They have lower total damage than more typical DPS skills. Examples include Zima the Raging Tide’s S3 and Degenbrecher’s S3.
+
 ### Mod#
 
 Shorthand to refer to a Module level. Mod1 would be the base module only. Mod2 and Mod3 would refer to their respective upgrade levels.
@@ -345,6 +353,14 @@ Unofficial terms used to refer to the Hookmaster and Push Stroker archetypes res
 
 An umbrella term for units whose primary purpose is Shifting enemies around. This is usually only Hookmasters (Pullers) and Push Strokers (Pushers), but in some contexts may include other units who strongly feature Shifting mechanics.
 
+### AA
+
+Anti Air - A short hand term often used to refer to mechanics related to aerial enemies. It was often used in the past, especially with Marksman, due to the early parallels to other tower defense games. It's fallen out of favor with time, but still comes up now and then.
+
+### Talent 1 / Talent 2
+
+A shorthand way to refer to a unit’s specific Talent. All 6★s, and a few other lower rarity units, have two Talents. These always appear in the same order, so “Talent 1” is the first Talent and “Talent 2” is the second. Most of the time, Talent 2 isn’t available until E2.
+
 ## Other
 
 ### Effective DP
@@ -359,3 +375,6 @@ These three are the official names for the different pools of limited OPs, which
 
 Short hand for collaboration and refers to units which are part of a collab event. Collab units are rarely, if ever, rerun (it depends on the specific contract of the collab) so collab units are likely unobtainable.
 
+### A-Team / B-Team
+
+An older joke that is somehow still relevant. At some point people noticed a difference in how good units' designs were. Some were great while others were terrible. This started to be interpreted as two different design teams, one who knows what they're doing (A-Team) and one that doesn't (B-Team). This is entirely a fan invention (as far as we know anyway), but seems as good of explanation as any as to why some units are so poorly designed. 

@@ -18,8 +18,13 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 - [2025](#2025)
 - [2024](#2024)
 
-
 ## 2026
+
+**September 12, 2026**
+
+Updated for People, A People. Added Zima the Raging Tide, Ukusik, and Botani, and updated the lookaheads. Also added some new glossary entries and a couple new digressions topics.
+
+Finally, adjusted the grades for Matsukiri, Elysium, and Wanqing. While researching Jacinta, I noticed Matsukiri was inconsistently graded. While looking into *that* I decided the 5* flags were overgraded. So this pass rebalances all of them to make more sense. Matsukiri's S2 went up, while both skills for Wanqing and Elysium went down.
 
 **August 27, 2026**
 

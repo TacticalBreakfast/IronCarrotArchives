@@ -4,9 +4,9 @@ This site is still a heavy work in progress, so if you spot any bugs or have any
 
 ## Most Recent Content
 
-New Update - [Crossing](masteries/mostrecent)
+New Update - [People, A People](masteries/mostrecent)
 
-New Article - [Crossing](https://sanitygone.help/en/guides/mastery-crossing/)
+New Article - [People, A People](https://sanitygone.help/en/guides/mastery-people/)
 
 Tier List Update - [Crossing](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 

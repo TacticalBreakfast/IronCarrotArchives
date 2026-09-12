@@ -364,6 +364,18 @@ Pass on her S1 which just doesn't have any particular value. The cycle on it is 
 
 ## 5★ Casters
 
+### Ripresa
+
+{{< mastery-table-enhanced id="4031_liesel" rows="S2M3,C+,C+|S1M3,None,None" >}}
+
+Ripresa is yet another (of many, recently) examples of the 5★ value problem. She isn't bad exactly, but the minor power improvement over the 4★s doesn't justify considering her at all. Why would you pay double the resources for a minor bump in power, especially when so much broken-tier DPS exists in the modern game? Add onto that a subtle drawback to her main skill, and how she's barely a lateral difference from a 6-year old 5★ (Leonhardt) who has only ever had niche value, there's very little reason to consider raising Ripresa. Although, as said, she isn't necessarily bad either if she appeals to you.
+
+If she does, both skills are worth considering, but S2 will be the more unique option while S1 is only a waifu-stretch target. Although S1 technically has the shorter cycle, they're close enough that S2's increased damage puts it far ahead. Additionally, S2 is actually controllable with Manual Activation, which will generally lead to better results. Its very short cycle and solid DPS (in ideal circumstances) make it a passable consideration. However, she can only reach her DPS potential when there are three distinct targets in range. The additional fireballs are completely lost otherwise, and given the small default Splash Caster range, that's a tall order. For most players, this limitation means you should use someone else if it can't be achieved, but if you really like Ripresa, it gives her S1 some room to flex to instead. It is a much more run of the mill option. Lots of skills like this exist and Ripresa's version of it does nothing special, so it's only for players who absolutely want to use her though.
+
+However, even accepting that, before investing, there's another big flaw to consider. Her S2 Masteries are insultingly bad, not even measuring close to average for her rarity. The ATK gain is below average, and the DoT's improvement is only 300 total damage since it scales off of her base ATK rather than the fireball's damage, and doesn't benefit from her Talent. The net result is an under 15% damage improvement between SL7 and S2M3. Even the SP cost improvement is bad. It's only a single SP difference, and while this guide usually values even smaller SP improvements on low cooldown skills like this, 1 SP is about as negligible as it gets. If there's a silver lining to this, it's that if you don't like her at E1 SL7, E2 S2M3 probably won't change your mind. S1 does have the much better gains, but the difference in skill values means you should still start with her S2, if you bother to raise her at all.
+
+{{< last-updated "2026-08-07" >}}
+
 ### Tecno
 
 {{< mastery-table-enhanced id="4164_tecno" rows="S2M3,C,C+|S1M3,None,None" >}}

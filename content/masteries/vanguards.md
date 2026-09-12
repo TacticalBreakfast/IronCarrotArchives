@@ -191,7 +191,7 @@ Last, her S1 should be avoided. It is a generic Pioneer skill which are just not
 
 ### Matsukiri
 
-{{< mastery-table-enhanced id="4199_makiri" rows="S2M3,B,B|S1M3,C,B-" >}}
+{{< mastery-table-enhanced id="4199_makiri" rows="S2M3,A-,A|S1M3,C,B-" >}}
 
 Vanguards have long been one of the most maligned classes in the game, and our first Strategist adds some new and much needed depth. The relative lack of early pressure has always devalued them, which has meant only Standard Bearers and Agents have really bubbled to the top. Strategists though mix things up with some interesting and new utility by buffing units before they're even on the field!
 
@@ -264,7 +264,7 @@ While most people shouldn't bother, if the above applies to you, then Fang will 
 
 ### Wanqing
 
-{{< mastery-table-enhanced id="4119_wanqin" rows="S2M3,A,A+|S1M3,A-,A+" icons="|skill_icon_skcom_assist_cost[3]" >}}
+{{< mastery-table-enhanced id="4119_wanqin" rows="S2M3,B,B+|S1M3,C,B-" icons="|skill_icon_skcom_assist_cost[3]" >}}
 
 Wanqing continues the recent trend of 5★s that aren't bad but tend to be just a touch worse than older options. That means for older players there isn't much value here (stick with Elysium), but he still has value for relatively newer players who are ready to move beyond just Myrtle for their DP printing purposes. Like all Standard Bearers, both of Wanqing's skills are strong Masteries due to the all important upgrades to wind-up and cycle time, with the only difference between them being what matters more for the stage - the utility (S2) or the DP printing (S1).
 
@@ -314,7 +314,7 @@ However, while she has a lot of general value, Blacknight is still a highly tech
 
 ### Elysium
 
-{{< mastery-table-enhanced id="401_elysm" rows="S2M3,A+,S-|S1M3,A-,A+" icons="|skill_icon_skcom_assist_cost[3]" >}}
+{{< mastery-table-enhanced id="401_elysm" rows="S2M3,A-,A|S1M3,C,B-" icons="|skill_icon_skcom_assist_cost[3]" >}}
 
 Elysium's Masteries can be a little confusing because at first glance it looks as if they would follow the same logic as Myrtle, yet the logic ends up being the opposite. Although S1 is the better DP generation skill, his S2 utility is miles ahead of Myrtle's. Additionally Myrtle is often the better choice for tight DP because her base cost is cheaper. The times where DP is SO tight that you need both S1's is very rare in Story scenarios, so Elysium's S2 is the better choice for its utility.
 

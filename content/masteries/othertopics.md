@@ -24,6 +24,7 @@ This tab is a place for me to put some information that would otherwise be out o
 - [The 5★ Value Problem](#the-5-value-problem)
 - [The problem with buffing and combos.](#the-problem-with-buffing-and-combos)
 - [Elemental Burst Thresholds.](#elemental-burst-thresholds)
+- [Why is it often said that Elemental Injury types don't stack?](#why-is-it-often-said-that-elemental-injury-types-dont-stack)
 - [Why aren’t higher rarity healing Medics (like Lumen) recommended?](#why-arent-higher-rarity-healing-medics-like-lumen-recommended)
 - [Abyssal Hunter Modules.](#abyssal-hunter-modules)
 - [A General Discussion about Shifter Priority](#a-general-discussion-about-shifter-priority)
@@ -31,6 +32,7 @@ This tab is a place for me to put some information that would otherwise be out o
 - [Why are base skills rarely, if ever, mentioned in the Mastery Guide?](#why-are-base-skills-rarely-if-ever-mentioned-in-the-mastery-guide)
 - [What happened to Gamepress?](#what-happened-to-gamepress)
 - [What's going on with the IS grades? Why are many updated write-ups missing them?](#whats-going-on-with-the-is-grades-why-are-many-updated-write-ups-missing-them)
+- [Why are the 5★ Standard Bearers and Strategist skills graded so similarly? Which should I raise?](#why-are-the-5-standard-bearers-and-strategist-skills-graded-so-similarly-which-should-i-raise)
 
 
 ## Why isn't the Mastery guide integrated with the Tier List rankings? Why don't the grades match?
@@ -119,6 +121,10 @@ Let’s do an example to illustrate. Let’s say some fictional Ritualist at SL7
 
 Now there’s a few details worth noting here. First, HG often finely and purposefully tunes these breakpoints. They often (but not always) encourage certain investments. Second, there are often other benefits to Mastery, so these breakpoints are not the be all and end all of Mastery. Third, this all assumes no enemy Elemental Resistance. That’s been almost entirely true so far (very rare exceptions), but could change sometime in the future. For example, 10 Elemental Resistance changes the above M2 example to 4 attacks, but M3 remains at 3! Although I certainly hope it doesn’t become more common because I’ll have to rewrite a lot of this guide… Fourth, ATK buffs and debuffs (particularly in CC) can of course influence these, so the breakpoints are also not universal. And finally, these don’t typically apply to Primal Guards and Primal Casters since they scale off of damage dealt which makes these breakpoints much harder to account for.
 
+## Why is it often said that Elemental Injury types don't stack?
+
+This is a mechanical nuance with how Elemental Injury works. Multiple types can build up at the same time, but once ONE triggers, ALL of them are cleared. This means only one can trigger at a time, and all that build up is lost. In turn, that means it's rarely a good idea to run multiple types together since the slower building one will often be useless.
+
 ## Why aren’t higher rarity healing Medics (like Lumen) recommended?
 
 The reason is that in most cases, you can optimize healing needs via better strategy. There are a good many Medics that only heal and they tend to be fairly low value for this reason. Some measure of healing is necessary, but the better Medics are those that bring some other utility with them such as Mon3tr’s damage or Warfarin’s buffing or Ptilopsis’ SP field (for just a few examples, this section is NOT calling Medics bad!!!). It’s common for early players to feel that their healing isn’t sufficient. Lumen in particular can look appealing since he’s a freely available 6★ with some decent HPS, but this is largely a mistake.
@@ -204,4 +210,24 @@ Q: If the IS grade now accounts for a split in value, why don't more 4★s have 
 A: Because it's not recommended or necessary to invest extra into the 4★s for IS, even for high difficulty play. While the 4★s are now free to recruit, that's only at E1 and they still cost Hope to promote, so that further cost of E2 + M3 tends not to pay off. The better strategy is usually to only use the 4★s in the early going while saving the Hope for higher impact units. Which isn't to say that there is no value at all in their Masteries, but there aren't strong IS specific reasons, and thus no IS specific grades. You'll be fine with most of your 4★s at just E1 for IS!
 
 There are exceptions of course, but they also tend to be valuable in the regular game as well, which gets accounted for in the other grades. For example, Ethan is a 4★ that's worth drafting and promoting in IS. He's amazing! But he's also amazing everywhere else too, so again it isn't an IS specific consideration.
+
+## Why are the 5★ Standard Bearers and Strategist skills graded so similarly? Which should I raise?
+
+That's a very nuanced question. The 5★ Vanguards, particularly the Standard Bearers and Strategists, have become quite the promotion priority conundrum as the roster has expanded in size. While the Agents are useful in multiples, the Tacticians often have a lot of unique finesse value, and the Pioneers and Chargers are just being too underpowered to consider, the nuances between the raw DP generators can get pretty detailed.
+
+To be very specific, the discussion here is primarily about Elysium, Wanqing, Jacinta¹, and Matsukiri, with some tangentially related notes for Myrtle and Saileach.
+
+Anyway, those nuances apply only to an extent, because the caveat here is that there's a good chance none of them are worth your resources. In the "old days", Elysium was quite literally the best option available (sorry Saileach), but now we have multiple units that are similar across the rarities, 0 Hope recruitment for the 4★s, and three² (as of this writing) incredibly broken 6★s. That value Ely had isn't what it once was!
+
+So should you be raising any of them? Probably not. Myrtle is important for IS so is a must-raise, and her plus even one of the 6★s will be enough for most of your DP Generation needs. It’s best to expand from that with utility such as with the Agents or Tacticians. More than that, DP Generation-wise, is something that is still worth considering, but at a relatively low priority that should generally be considered only once your other core roles are well filled already. Even lacking one of the 6★s, it might not be worth more than an E1 on any of them to hold you over!
+
+Supposing you've decided they're something you want to spend your resources on, the choice among them just depends what utility you want, which is among their S2s. Even the worst of them, Jacinta, has some potential niches with her S2. Generally, I would favor Elysium if you have him max potential, then Matsukiri if you don't, then a lower potential Elysium. However, as of this writing, Matsukiri isn't available (he will get a rerun in roughly Feb 2027, then be on Record Restore around Jan 2028), so it's possible to not have either at all³. Elysium is also only available in the kernel pool, which you should generally avoid. So lacking either, you should consider (again) whether you really need one, because both Wanqing and Jacinta are a step down. However, between them, Wanqing is probably the better one most of the time, but if you have a max-pot Jacinta from Angelina's banner, she can look better for raw DP generation. Really, there's reasonable justifications for all four!
+
+In terms of raw DP generation, which in this case is all their S1s, the "best" is simply the one you've already chosen to raise. Of course, there are some minor differences. Wanqing costs 1 more DP, so he's technically slower. Elysium has a better Talent than Jacinta, but that assumes they have the same pot level and you run Snipers. Matsukiri gets all of it frontloaded, instead of waiting the skill duration. And probably a dozen other differences! The fundamental idea here though is that they're all about the same. When you consider the granularity of this guide, and how none of them are really meta choices now, even in extreme DP situations, the differences between them all become noise. Further and in line with the note about not being meta choices, they're much lower priority than they were in the past. They're still "good" and you can be in a variety of situations where they're your best option, but in terms of priority, they're now among the lowest of the "good" Vanguard skills.
+
+Finally, if you're any sort of niche player, there's a good chance you'll want to raise *all* of them eventually. While I just said that much of the differences between them become "noise", that assumes an otherwise meta team composition. If you eschew the meta choices, those differences become much much more important! However, they're also stage dependent. In this case, definitely look towards Elysium and Matsukiri first (both skills for both of them), regardless of potential levels. They're simply better. Wanqing and Jacinta both are viable and will have some use, but are generally less important in niche play.
+
+¹ Jacinta is not yet available on global. She is the gacha 5★ unit on the summer banner, expected in mid-January on global. She's what inspired this discussion.
+² This includes Closure who isn't yet available on global, but will be very soon.
+³ To be clear, Elysium being better doesn’t mean you should pull for him (definitely don’t do that!) or spend certs on him. Unless you’re looking to be a niche player, the difference in value between him and Wanqing, or waiting for Matsukiri, isn’t enough to justify the cost.
 
