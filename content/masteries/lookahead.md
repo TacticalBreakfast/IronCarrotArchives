@@ -230,7 +230,7 @@ tl;dr Both skills graded, but under Wanqing (low B or C-tier likely). There are 
 
 #### Timeslot
 
-**4★ · Welfare**
+**5★ · Welfare**
 
 Timeslot is similar to Jacinta in all of the wrong ways. She's a 5★ in a good archetype, but is worse than the older existing options, including a similar welfare. She's just a racoon instead of a bunny, so it's less personally insulting, but it is still pretty depressing. Timeslot at least attempts to build on a new idea, leaning more into the niche of Mech-Accord Casters where they can continue to attack enemies that walk out of their range, which is surprisingly underrepresented (unless you count global range anyway). She even adds a bit of control too. However, her DPS isn't as good as Rockrock's and her control isn't as good as Kjera's, leaving her in an awkward middle ground. And that's before even considering the low value of 5★ Casters in the first place. Still, like Jacinta,  the archetype is good enough that she'll still end up graded since they’re natively the best non-6★ DPS Casters. With her S2 anyway. Her S1 is a generic ATK up skill, which is something she oddly shares in common with Rockrock and Kjera, and is just as useless.
 
