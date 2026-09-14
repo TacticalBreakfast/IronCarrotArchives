@@ -8,7 +8,7 @@ New Update - [People, A People](masteries/mostrecent)
 
 New Article - [People, A People](https://sanitygone.help/en/guides/mastery-people/)
 
-Tier List Update - [Crossing](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
+Tier List Update - [People, A People](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
 Blog Post - [Summer Events Are Great!](posts/summerevents)
 
