@@ -1,0 +1,126 @@
+{{- /*
+  Fork of Blowfish's layouts/_default/index.json (base: v3.8.0).
+
+  The theme indexes whole pages only. Operator names appear only inside page
+  content, so every name search matched the same field and Fuse ranked results
+  purely by page length -- putting Guards, the longest page, last for every
+  Guard. This fork keeps the upstream page entries and adds one entry per
+  heading-level item on Masteries pages, linking straight to its anchor:
+
+    operator   ###  Name  + next line is a mastery-table shortcode   (class pages, mostrecent)
+    lookahead  #### Name  + next line is **6★ · Pool**              (lookahead)
+    term       ###  Term  on a page listed in $termPages              (glossary)
+
+  It also normalizes curly quotes to straight ones in every entry. Hugo's
+  typographer renders ' as ’, so without this a typed search for "ch'en" or
+  "kal'tsit" matched nothing.
+*/ -}}
+
+{{- define "partials/inline/search/norm.html" -}}
+  {{- return (. | replaceRE `[‘’ʼ]` "'" | replaceRE `[“”]` "\"") -}}
+{{- end -}}
+
+{{- /* Punctuation- and accent-free spelling, so "chen", "kaltsit" and "pozemka" still match. */ -}}
+{{- define "partials/inline/search/alias.html" -}}
+  {{- $s := . | replaceRE `['·]` "" -}}
+  {{- $map := dict "á" "a" "à" "a" "â" "a" "ä" "a" "ã" "a" "å" "a" "ā" "a" "ç" "c" "č" "c" "é" "e" "è" "e" "ê" "e" "ë" "e" "ē" "e" "í" "i" "ì" "i" "î" "i" "ï" "i" "ī" "i" "ł" "l" "ñ" "n" "ó" "o" "ò" "o" "ô" "o" "ö" "o" "õ" "o" "ø" "o" "ō" "o" "š" "s" "ú" "u" "ù" "u" "û" "u" "ü" "u" "ū" "u" "ý" "y" "ž" "z" -}}
+  {{- range $from, $to := $map -}}
+    {{- $s = replace $s $from $to -}}
+    {{- $s = replace $s (upper $from) (upper $to) -}}
+  {{- end -}}
+  {{- return $s -}}
+{{- end -}}
+
+{{- /* Render a raw markdown heading the way the page does, then normalize: "\<Name\>2" -> "<Name>2". */ -}}
+{{- define "partials/inline/search/plaintitle.html" -}}
+  {{- return (partial "inline/search/norm.html" (. | markdownify | plainify | htmlUnescape | strings.TrimSpace)) -}}
+{{- end -}}
+
+{{- $termPages := slice "glossary" -}}
+{{- $chars := dict -}}
+{{- with resources.Get "game_img/processed/characters.yml" -}}
+  {{- range (. | transform.Unmarshal) -}}{{- $chars = merge $chars (dict .id .) -}}{{- end -}}
+{{- end -}}
+
+{{- $index := slice -}}
+{{ $pages := .Site.Pages }}
+{{ range .Site.Home.Translations }}
+{{ $pages = $pages | lang.Merge .Site.Pages }}
+{{ end }}
+{{- range $pages -}}
+  {{- if not .Params.excludeFromSearch -}}
+    {{- $section := .Site.GetPage "section" .Section -}}
+    {{- $sectionTitle := $section.Title | default (.Section | humanize) -}}
+    {{- $entry := dict
+      "title" (partial "inline/search/norm.html" (.Title | emojify) | safeJS)
+      "section" ($sectionTitle | emojify | safeJS)
+      "summary" (partial "inline/search/norm.html" (.Summary | plainify | htmlUnescape) | safeJS)
+      "content" (partial "inline/search/norm.html" (.Plain | htmlUnescape) | safeJS)
+      "permalink" .RelPermalink
+      "externalUrl" .Params.externalUrl
+      "type" .Type
+    -}}
+    {{- if .Date -}}
+      {{- $entry = merge $entry (dict "date" (.Date | time.Format (.Site.Language.Params.dateFormat | default ":date_long"))) -}}
+    {{- end -}}
+    {{- $index = $index | append $entry -}}
+
+    {{- /* Heading-level entries for Masteries pages. */ -}}
+    {{- if and (eq .Section "masteries") .File -}}
+      {{- $page := . -}}
+      {{- $isTermPage := in $termPages .File.ContentBaseName -}}
+
+      {{- /* Hugo's own heading IDs, keyed by normalized lowercase title. */ -}}
+      {{- $anchors := dict -}}
+      {{- range $id, $h := .Fragments.HeadingsMap -}}
+        {{- $k := lower (partial "inline/search/norm.html" ($h.Title | plainify | htmlUnescape | strings.TrimSpace)) -}}
+        {{- $anchors = merge $anchors (dict $k $id) -}}
+      {{- end -}}
+
+      {{- /* Walk the raw markdown: remember each ###/#### heading, then classify it by the next non-blank line. */ -}}
+      {{- $pendingLevel := 0 -}}
+      {{- $pendingTitle := "" -}}
+      {{- $event := "" -}}
+      {{- range $raw := split .RawContent "\n" -}}
+        {{- $line := strings.TrimRight "\r" $raw -}}
+        {{- $h := findRESubmatch `^(#{2,4})[ \t]+(.+?)[ \t]*$` $line 1 -}}
+        {{- if $h -}}
+          {{- $level := len (index (index $h 0) 1) -}}
+          {{- $pendingLevel = $level -}}
+          {{- $pendingTitle = partial "inline/search/plaintitle.html" (index (index $h 0) 2) -}}
+          {{- if eq $level 3 }}{{ $event = $pendingTitle }}{{ end -}}
+        {{- else if and $pendingLevel (ne (strings.TrimSpace $line) "") -}}
+          {{- $kind := "" -}}
+          {{- $summary := "" -}}
+          {{- $op := findRESubmatch `^\{\{<\s*mastery-table-(?:enhanced|is)\s+id="([^"]+)"` $line 1 -}}
+          {{- $bold := findRESubmatch `^\*\*(.+?)\*\*\s*$` $line 1 -}}
+          {{- if and (eq $pendingLevel 3) $op -}}
+            {{- $kind = "operator" -}}
+            {{- with index $chars (printf "char_%s" (index (index $op 0) 1)) -}}
+              {{- $summary = delimit (slice .stars .sub_profession_name) " · " -}}
+            {{- end -}}
+          {{- else if and (eq $pendingLevel 4) $bold -}}
+            {{- $kind = "lookahead" -}}
+            {{- $summary = printf "%s · %s" (index (index $bold 0) 1) $event -}}
+          {{- else if and (eq $pendingLevel 3) $isTermPage -}}
+            {{- $kind = "term" -}}
+            {{- $summary = $line | markdownify | plainify | htmlUnescape | truncate 160 -}}
+          {{- end -}}
+          {{- if $kind -}}
+            {{- $anchor := index $anchors (lower $pendingTitle) | default (anchorize $pendingTitle) -}}
+            {{- $index = $index | append (dict
+              "title" ($pendingTitle | safeJS)
+              "section" ($page.LinkTitle | safeJS)
+              "summary" (partial "inline/search/norm.html" $summary | safeJS)
+              "content" (partial "inline/search/alias.html" $pendingTitle | safeJS)
+              "permalink" (printf "%s#%s" $page.RelPermalink $anchor)
+              "type" $kind
+            ) -}}
+          {{- end -}}
+          {{- $pendingLevel = 0 -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $index | jsonify -}}
