@@ -1,0 +1,21 @@
+{{- /*
+  ica/pool-overrides.html — the page's poolOverrides front matter, validated once.
+  Call: partialCached "ica/pool-overrides.html" .Page .Page.RelPermalink
+
+  Returns dict: folded lowercase unit name -> "kernel" | "standard".
+  See the POOL OVERRIDES block in the selector page's front matter for why this exists.
+*/ -}}
+{{- $out := dict -}}
+{{- $page := . -}}
+{{- range $name, $pool := index .Params "pooloverrides" | default dict -}}
+  {{- $p := lower $pool -}}
+  {{- $r := partial "ica/resolve-operator.html" $name -}}
+  {{- if not (in (slice "kernel" "standard") $p) -}}
+    {{- warnf "%s: poolOverrides %q = %q — value must be \"kernel\" or \"standard\"; ignored" $page.File.Path $name $pool -}}
+  {{- else if $r.error -}}
+    {{- warnf "%s: poolOverrides %s; ignored" $page.File.Path $r.error -}}
+  {{- else -}}
+    {{- $out = merge $out (dict (lower (partial "ica/fold.html" $name)) $p) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

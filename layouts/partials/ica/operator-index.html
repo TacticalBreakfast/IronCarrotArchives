@@ -1,0 +1,23 @@
+{{- /*
+  ica/operator-index.html — lookup tables over characters.yml, built once per site.
+  Call: partialCached "ica/operator-index.html" . "ops"
+
+  Returns dict:
+    byName  folded lowercase name -> slice of entries (a slice, so ambiguity is detectable)
+    byId    "172_svrash"          -> entry           (id without the "char_" prefix)
+
+  Only real operators ("char_" ids) are included, so summons such as Kal'tsit's
+  Mon3tr can never shadow the operator of the same name.
+*/ -}}
+{{- $byName := dict -}}
+{{- $byId := dict -}}
+{{- with resources.Get "game_img/processed/characters.yml" -}}
+  {{- range (. | transform.Unmarshal) -}}
+    {{- if hasPrefix .id "char_" -}}
+      {{- $k := lower (partial "ica/fold.html" .name) -}}
+      {{- $byName = merge $byName (dict $k ((index $byName $k | default slice) | append .)) -}}
+      {{- $byId = merge $byId (dict (strings.TrimPrefix "char_" .id) .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "byName" $byName "byId" $byId) -}}

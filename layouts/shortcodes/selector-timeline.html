@@ -1,0 +1,28 @@
+{{- /*
+  selector-timeline — Last / This / Next selector table.
+
+    {{< selector-timeline >}}
+    Last Selector | Released April 14th, 2026 | Mon3tr
+    This Selector | Releases October 14th, 2026 (Kal2/Closure patch) | Mantra
+    Next Selector | Expected April 2027 | Zima the Raging Tide
+    {{< /selector-timeline >}}
+
+  Columns: label | availability | last unit included. The row whose label starts
+  with "This" is highlighted as the current selector.
+*/ -}}
+<div class="sel-table-wrap"><table class="sel-timeline not-prose">
+  <thead><tr><th scope="col">Selector</th><th scope="col">Available</th><th scope="col">Includes up to</th></tr></thead>
+  <tbody>
+  {{- range split (trim .Inner "\n ") "\n" -}}
+    {{- with trim . " \t\r" -}}
+      {{- $p := split . "|" -}}
+      {{- $label := trim (index $p 0) " " -}}
+      <tr{{ if hasPrefix (lower $label) "this" }} class="sel-timeline__current"{{ end }}>
+        <th scope="row">{{ $label }}</th>
+        <td>{{ trim (index $p 1 | default "") " " | markdownify }}</td>
+        <td>{{ trim (index $p 2 | default "") " " | markdownify }}</td>
+      </tr>
+    {{- end -}}
+  {{- end -}}
+  </tbody>
+</table></div>

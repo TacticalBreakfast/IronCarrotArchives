@@ -1,0 +1,32 @@
+{{- /*
+  selector-blurb — a blurb that selector tiles can link to.
+
+    {{< selector-blurb title="Ray, Narantuya, and Lemuen" units="Ray | Narantuya | Lemuen" >}}
+    Markdown text…
+    {{< /selector-blurb >}}
+
+  units: which tiles link here ("|"-separated, same spelling rules as selector-tier).
+         Omit for general blurbs ("Non-S-tier IS") — they render but nothing links to them.
+  Renders a plain HTML heading, deliberately NOT a markdown heading, so blurbs stay
+  out of the table of contents (only the blurb section headings appear there).
+*/ -}}
+{{- $title := .Get "title" -}}
+{{- $id := printf "blurb-%s" (anchorize $title) -}}
+{{- $units := slice -}}
+{{- range split (.Get "units" | default "") "|" -}}
+  {{- with trim . " " -}}
+    {{- $r := partial "ica/resolve-operator.html" . -}}
+    {{- if $r.error }}{{ warnf "%s: selector-blurb %q: %s" $.Position $title $r.error }}{{ else }}{{ $units = $units | append $r }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+<section class="sel-blurb" id="{{ $id }}" aria-labelledby="{{ $id }}-title">
+  <div class="sel-blurb__head not-prose">
+    {{- range $units -}}
+      {{- with resources.Get (printf "game_img/charavatars/char_%s.png" .id) -}}
+        <img class="sel-blurb__img nozoom" src="{{ (.Fill "64x64 Center webp").RelPermalink }}" width="32" height="32" alt="" loading="lazy">
+      {{- end -}}
+    {{- end -}}
+    <h4 class="sel-blurb__title" id="{{ $id }}-title">{{ $title }}</h4>
+  </div>
+  <div class="sel-blurb__body">{{ .Inner | .Page.RenderString (dict "display" "block") }}</div>
+</section>

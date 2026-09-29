@@ -1,0 +1,25 @@
+{{- /*
+  selector-status — a small "question | answer" status table.
+
+    {{< selector-status >}}
+    EN date | Currently unknown
+    Does the list reflect this yet? | No
+    {{< /selector-status >}}
+
+  Answers that are exactly Yes / No / Unknown (any case) render as coloured badges.
+*/ -}}
+<div class="sel-table-wrap"><table class="sel-status not-prose">
+  <tbody>
+  {{- range split (trim .Inner "\n ") "\n" -}}
+    {{- with trim . " \t\r" -}}
+      {{- $p := split . "|" -}}
+      {{- $q := trim (index $p 0) " " -}}
+      {{- $a := trim (delimit (after 1 $p) "|") " " -}}
+      {{- $k := lower $a -}}
+      <tr><th scope="row">{{ $q | markdownify }}</th><td>
+        {{- if in (slice "yes" "no" "unknown") $k -}}<span class="sel-answer sel-answer--{{ $k }}">{{ $a }}</span>{{- else -}}{{ $a | markdownify }}{{- end -}}
+      </td></tr>
+    {{- end -}}
+  {{- end -}}
+  </tbody>
+</table></div>

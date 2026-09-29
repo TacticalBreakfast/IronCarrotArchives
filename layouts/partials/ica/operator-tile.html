@@ -1,0 +1,51 @@
+{{- /*
+  ica/operator-tile.html — one operator tile for the selector guide.
+  Input dict: page, name (as typed), note (may be ""), size ("full"|"compact"), pos (shortcode position, for warnings)
+
+  Pool:  page poolOverrides -> data/operator_pools.yaml ("1" Standard, "2" Kernel).
+  Links: primary (portrait + name) -> this unit's blurb if the page has one, else their Mastery write-up.
+         small "Mastery" link on every tile that has a write-up, even when it duplicates the
+         primary link — shown consistently so tiles don't look different from each other.
+*/ -}}
+{{- $page := .page -}}
+{{- $r := partial "ica/resolve-operator.html" .name -}}
+{{- $compact := eq .size "compact" -}}
+{{- if $r.error -}}
+  {{- warnf "%s: %s" .pos $r.error -}}
+  <li class="sel-tile sel-tile--unknown"><span class="sel-tile__name">{{ .name }}</span></li>
+{{- else -}}
+  {{- $e := $r.entry -}}
+  {{- $key := lower (partial "ica/fold.html" $e.name) -}}
+
+  {{- $pool := index (partialCached "ica/pool-overrides.html" $page $page.RelPermalink) $key -}}
+  {{- if not $pool -}}
+    {{- $p := index hugo.Data.operator_pools $r.id -}}
+    {{- if eq $p "2" }}{{ $pool = "kernel" }}{{ else if eq $p "1" }}{{ $pool = "standard" }}{{ else -}}
+      {{- warnf "%s: %s is in pool %q (%s), not Standard or Kernel — not selectable?" .pos $e.name ($p | default "none") (index hugo.Data.pools ($p | default "") | default "not in operator_pools.yaml") -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $kernel := eq $pool "kernel" -}}
+
+  {{- $blurb := index (partialCached "ica/selector-blurbs.html" $page $page.RelPermalink) $key -}}
+  {{- $mastery := index (partialCached "ica/mastery-anchors.html" . "mastery-anchors") $r.id -}}
+  {{- $primary := cond (ne $blurb nil) (printf "#%s" ($blurb | default "")) ($mastery | default "") -}}
+
+  {{- $img := resources.Get (printf "game_img/charavatars/char_%s.png" $r.id) -}}
+  {{- $px := cond $compact 96 144 -}}
+  <li class="sel-tile{{ if $kernel }} sel-tile--kernel{{ end }}{{ if $blurb }} sel-tile--has-blurb{{ end }}">
+    {{- if $primary }}<a class="sel-tile__main" href="{{ $primary }}">{{ else }}<span class="sel-tile__main">{{ end -}}
+      {{- with $img -}}
+        {{- $t := .Fill (printf "%dx%d Center webp" $px $px) -}}
+        <img class="sel-tile__img nozoom" src="{{ $t.RelPermalink }}" width="{{ div $px 2 }}" height="{{ div $px 2 }}" alt="" loading="lazy" decoding="async">
+      {{- else -}}
+        {{- warnf "%s: no portrait for %s (char_%s)" $.pos $e.name $r.id -}}
+        <span class="sel-tile__img sel-tile__img--missing" aria-hidden="true">{{ substr $e.name 0 2 }}</span>
+      {{- end -}}
+      <span class="sel-tile__name">{{ $e.name }}</span>
+    {{- if $primary }}</a>{{ else }}</span>{{ end -}}
+    {{- if $kernel }}<span class="sel-tile__badge">Kernel</span>{{ end -}}
+    {{- with .note }}<span class="sel-tile__note">{{ . }}</span>{{ end -}}
+    {{- if $blurb }}<span class="sel-tile__blurb-mark" title="Has a blurb below">{{ partial "icon.html" "comment" }}<span class="sr-only">Has a blurb</span></span>{{ end -}}
+    {{- with $mastery }}<a class="sel-tile__mastery" href="{{ . }}">Mastery</a>{{ end -}}
+  </li>
+{{- end -}}

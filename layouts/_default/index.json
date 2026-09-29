@@ -20,16 +20,7 @@
   {{- return (. | replaceRE `[‘’ʼ]` "'" | replaceRE `[“”]` "\"") -}}
 {{- end -}}
 
-{{- /* Punctuation- and accent-free spelling, so "chen", "kaltsit" and "pozemka" still match. */ -}}
-{{- define "partials/inline/search/alias.html" -}}
-  {{- $s := . | replaceRE `['·]` "" -}}
-  {{- $map := dict "á" "a" "à" "a" "â" "a" "ä" "a" "ã" "a" "å" "a" "ā" "a" "ç" "c" "č" "c" "é" "e" "è" "e" "ê" "e" "ë" "e" "ē" "e" "í" "i" "ì" "i" "î" "i" "ï" "i" "ī" "i" "ł" "l" "ñ" "n" "ó" "o" "ò" "o" "ô" "o" "ö" "o" "õ" "o" "ø" "o" "ō" "o" "š" "s" "ú" "u" "ù" "u" "û" "u" "ü" "u" "ū" "u" "ý" "y" "ž" "z" -}}
-  {{- range $from, $to := $map -}}
-    {{- $s = replace $s $from $to -}}
-    {{- $s = replace $s (upper $from) (upper $to) -}}
-  {{- end -}}
-  {{- return $s -}}
-{{- end -}}
+{{- /* Accent/punctuation folding lives in layouts/partials/ica/fold.html (shared with the selector shortcodes). */ -}}
 
 {{- /* Render a raw markdown heading the way the page does, then normalize: "\<Name\>2" -> "<Name>2". */ -}}
 {{- define "partials/inline/search/plaintitle.html" -}}
@@ -112,7 +103,7 @@
               "title" ($pendingTitle | safeJS)
               "section" ($page.LinkTitle | safeJS)
               "summary" (partial "inline/search/norm.html" $summary | safeJS)
-              "content" (partial "inline/search/alias.html" $pendingTitle | safeJS)
+              "content" (partial "ica/fold.html" $pendingTitle | safeJS)
               "permalink" (printf "%s#%s" $page.RelPermalink $anchor)
               "type" $kind
             ) -}}

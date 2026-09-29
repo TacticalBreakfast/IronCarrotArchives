@@ -1,0 +1,19 @@
+{{- /*
+  ica/fold.html — punctuation- and accent-free spelling of a name, case preserved.
+  "Kal'tsit" -> "Kaltsit", "Młynar" -> "Mlynar", "Wiš'adel" -> "Wisadel".
+
+  Shared by the search index (layouts/_default/index.json), which stores it as a
+  match-only alias, and the selector shortcodes (layouts/partials/ica/operator-index.html),
+  which lowercase it to resolve typed names against characters.yml.
+
+  Hugo templates have no transliteration function, so accents are mapped by hand.
+  A letter missing from $map simply stays as-is -- add it here if a new name needs it.
+  Cyrillic is deliberately not transliterated.
+*/ -}}
+{{- $s := . | replaceRE `['’ʼ·]` "" -}}
+{{- $map := dict "á" "a" "à" "a" "â" "a" "ä" "a" "ã" "a" "å" "a" "ā" "a" "ç" "c" "č" "c" "é" "e" "è" "e" "ê" "e" "ë" "e" "ē" "e" "í" "i" "ì" "i" "î" "i" "ï" "i" "ī" "i" "ł" "l" "ñ" "n" "ó" "o" "ò" "o" "ô" "o" "ö" "o" "õ" "o" "ø" "o" "ō" "o" "š" "s" "ú" "u" "ù" "u" "û" "u" "ü" "u" "ū" "u" "ý" "y" "ž" "z" -}}
+{{- range $from, $to := $map -}}
+  {{- $s = replace $s $from $to -}}
+  {{- $s = replace $s (upper $from) (upper $to) -}}
+{{- end -}}
+{{- return $s -}}

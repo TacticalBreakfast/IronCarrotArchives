@@ -1,0 +1,29 @@
+{{- /*
+  ica/resolve-operator.html — turn what an author typed into one operator.
+  Accepts an in-game name ("Młynar", or "Mlynar": accents and apostrophes are
+  optional) or a raw id ("1001_amiya2") for names shared by several operators.
+
+  Returns dict: entry (characters.yml entry or nil), id ("172_svrash"), error (string, "" if ok)
+*/ -}}
+{{- $ops := partialCached "ica/operator-index.html" . "ops" -}}
+{{- $q := trim . " " -}}
+{{- $out := dict "entry" nil "id" "" "error" "" -}}
+{{- if findRE `^[0-9]+_[a-z0-9]+$` $q -}}
+  {{- with index $ops.byId $q -}}
+    {{- $out = dict "entry" . "id" $q "error" "" -}}
+  {{- else -}}
+    {{- $out = merge $out (dict "error" (printf "no operator with id %q in characters.yml" $q)) -}}
+  {{- end -}}
+{{- else -}}
+  {{- $hits := index $ops.byName (lower (partial "ica/fold.html" $q)) | default slice -}}
+  {{- if eq (len $hits) 1 -}}
+    {{- $e := index $hits 0 -}}
+    {{- $out = dict "entry" $e "id" (strings.TrimPrefix "char_" $e.id) "error" "" -}}
+  {{- else if eq (len $hits) 0 -}}
+    {{- $out = merge $out (dict "error" (printf "unknown operator %q (check spelling against the in-game name)" $q)) -}}
+  {{- else -}}
+    {{- $ids := slice -}}{{- range $hits -}}{{- $ids = $ids | append (strings.TrimPrefix "char_" .id) -}}{{- end -}}
+    {{- $out = merge $out (dict "error" (printf "%q matches several operators; use one of these ids instead: %s" $q (delimit $ids ", "))) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

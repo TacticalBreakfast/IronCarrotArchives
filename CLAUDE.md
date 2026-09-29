@@ -95,11 +95,34 @@ Entries are detected **by content shape**, so these formats are load-bearing —
 
 The search JS (`assets/js/search.js`) is deliberately not forked. It uses `threshold: 0.0` (exact substring, no typo tolerance).
 
+## Selector guide (`content/guides/selector/index.md`)
+
+A standalone guide, separate from the Masteries. Built from four shortcodes whose shared logic lives in `layouts/partials/ica/`:
+
+- `selector-tier` — grid of operator tiles, one per line (`Name | optional note`); `size="compact"` for the Gold shop / free selector / Kernel-update lists; rows are centred by default, `align="left"` left-aligns.
+- `selector-blurb title="…" units="A | B"` — a blurb tiles link to. Renders a plain HTML `<h4>`, deliberately *not* a markdown heading, so blurbs stay out of the TOC.
+- `selector-status` (`question | answer`, Yes/No/Unknown become badges) and `selector-timeline` (Last/This/Next; the row starting with "This" is highlighted).
+
+Behaviour that isn't obvious from any single file:
+
+- **Names resolve against `characters.yml`** (`ica/resolve-operator.html`): in-game name, accents/apostrophes optional via `ica/fold.html` (shared with the search index). Only `char_` ids are considered, so summons can't shadow operators. Use a raw id (`1001_amiya2`) for names shared by several operators. Unknown or ambiguous names are **build warnings**, not errors — check `hugo` output.
+- **Kernel status** comes from `data/operator_pools.yaml` (`"2"` = Kernel, `"1"` = Standard), overridden page-wide by the `poolOverrides` table in the page's front matter. That override exists for when the EN Kernel pool update lands mid-selector — the selector on sale keeps the old pools. Its comment block in the front matter explains usage.
+- **Tile links:** portrait/name → the unit's blurb if one exists on the page, else their Mastery write-up; a small "Mastery" link appears on every tile that has a write-up (deliberately, even when redundant, for visual consistency). Mastery links come from `ica/mastery-anchors.html`, which scans class pages the same way the search index does and skips `mostrecent.md` (never selectable).
+- **One publish switch:** `draft` in `selector/index.md`. Its menu entry is defined in that page's front matter (not `menus.en.toml`) so a draft leaves no dead link, and `content/guides/_index.md` sets `build.render: never` so no empty `/guides/` page exists.
+- The page is a **bundle** (its own folder) so `featured.png`/`.jpg` beside `index.md` is picked up as the header image (`showHero = true`, `heroStyle = "big"` so the whole image shows — `custom.css` lifts the theme's 50vh cap and clears the header bar), the social preview image, and the homepage card crop. Blowfish only uses page-bundle images named `*featured*`/`*cover*`/`*thumbnail*` for social previews — a `featureimage` param alone doesn't change them; pages without one fall back to `defaultSocialImage`.
+- `last-updated` takes an optional second argument `"month"` for month-precision notes.
+
+## Local tooling quirks
+
+- Hugo is a **snap** with a private `/tmp`: `hugo -d /tmp/...` writes somewhere other processes can't see. Build into `public/` (gitignored) and copy out.
+- `hugo server` **serves from disk by default** (writes `public/`). Two servers at once overwrite each other; use `--renderToMemory`.
+- Neither Node nor a Linux browser is installed. Windows Chrome (`/mnt/c/Program Files/Google/Chrome/Application/chrome.exe`) can reach WSL servers thanks to mirrored networking; its `--screenshot` mode can't scroll to anchors and has a ~500px minimum window width, so use the DevTools protocol with `Emulation.setDeviceMetricsOverride` for true phone viewports. Force light/dark with `HUGO_PARAMS_AUTOSWITCHAPPEARANCE=false HUGO_PARAMS_DEFAULTAPPEARANCE=dark`.
+
 ## Content model
 
 Front matter is TOML (`+++`) except `_index.md` files, which use YAML.
 
-- `mainSections = ["posts"]` in `params.toml` governs what reaches the RSS feed and Recent Articles.
+- The RSS feed (`_default/rss.xml` fork) includes **every regular page on the site** except those with `excludeFromRSS = true` — it is *not* limited to `mainSections`. A page appears in the feed once, when first published; updating it later does not re-announce it. To announce an update, add a page in `content/articles/` with `layout = 'redirect'` and `externalUrl` pointing at the updated page (internal paths like `/guides/selector/` work).
 - `excludeFromRSS = true` filters a page out of the feed regardless of section — implemented by the `rss.xml` fork, not by Hugo. Set on every `other/` page and every `masteries/` page **except `mostrecent.md`**, which is deliberately left in the feed so each patch update syndicates. Don't "fix" that omission.
 - The `rss.xml` fork also sorts by `.ByDate.Reverse`. Without it, Hugo's default weight-then-date ordering puts posts in the feed in an order that ignores their dates.
 - Externally-hosted articles (`content/articles/`) use `layout = 'redirect'` plus `externalUrl`, which renders `_default/redirect.html` — a meta-refresh with a JS fallback.

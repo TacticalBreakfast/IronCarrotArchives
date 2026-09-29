@@ -1,0 +1,21 @@
+{{- /*
+  ica/selector-blurbs.html — which units have a blurb on this page.
+  Call: partialCached "ica/selector-blurbs.html" .Page .Page.RelPermalink
+
+  Reads the page's raw content for {{< selector-blurb units="…" title="…" >}}
+  tags, so tiles can link to blurbs written further down the page.
+  Returns dict: folded lowercase unit name -> blurb anchor id.
+*/ -}}
+{{- $out := dict -}}
+{{- range findRESubmatch `\{\{<\s*selector-blurb\s+([^>]*?)\s*>\}\}` .RawContent -1 -}}
+  {{- $attrs := index . 1 -}}
+  {{- $title := index (index (findRESubmatch `title="([^"]*)"` $attrs 1) 0 | default (slice "" "")) 1 -}}
+  {{- $units := index (index (findRESubmatch `units="([^"]*)"` $attrs 1) 0 | default (slice "" "")) 1 -}}
+  {{- $anchor := printf "blurb-%s" (anchorize $title) -}}
+  {{- range split $units "|" -}}
+    {{- with trim . " " -}}
+      {{- $out = merge $out (dict (lower (partial "ica/fold.html" .)) $anchor) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

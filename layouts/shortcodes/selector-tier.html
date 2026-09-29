@@ -1,0 +1,28 @@
+{{- /*
+  selector-tier — a grid of operator tiles. One operator per line, optional note after "|":
+
+    {{< selector-tier >}}
+    SilverAsh | Gnosis IS comps
+    Tragodia
+    {{< /selector-tier >}}
+
+  Names are in-game names; accents/apostrophes optional ("Mlynar" finds "Młynar").
+  For names shared by several operators, write the id instead ("1001_amiya2").
+  size="compact" gives smaller tiles, used for the Gold shop / free selector lists.
+  Rows are centred by default; align="left" left-aligns them.
+  Kernel status is automatic (operator_pools.yaml), overridable per page via poolOverrides.
+*/ -}}
+{{- $size := .Get "size" | default "full" -}}
+{{- $left := eq (.Get "align") "left" -}}
+{{- $pos := .Position -}}
+{{- $page := .Page -}}
+<ul class="sel-grid sel-grid--{{ $size }}{{ if $left }} sel-grid--left{{ end }} not-prose" role="list">
+{{- range split (trim .Inner "\n ") "\n" -}}
+  {{- $line := trim . " \t\r" -}}
+  {{- if $line -}}
+    {{- $parts := split $line "|" -}}
+    {{- $note := "" -}}{{- if gt (len $parts) 1 }}{{ $note = trim (delimit (after 1 $parts) "|") " " }}{{ end -}}
+    {{- partial "ica/operator-tile.html" (dict "page" $page "name" (trim (index $parts 0) " ") "note" $note "size" $size "pos" $pos) -}}
+  {{- end -}}
+{{- end -}}
+</ul>

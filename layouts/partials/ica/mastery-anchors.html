@@ -1,0 +1,25 @@
+{{- /*
+  ica/mastery-anchors.html — operator id -> link to their Mastery write-up.
+  Call: partialCached "ica/mastery-anchors.html" . "mastery-anchors"
+
+  Scans the Masteries class pages for "### Name" followed by a mastery-table
+  shortcode (the same convention the search index relies on). mostrecent.md is
+  skipped: units there are never selectable, and it would otherwise compete with
+  the permanent class page.
+*/ -}}
+{{- $out := dict -}}
+{{- with site.GetPage "/masteries" -}}
+  {{- range .RegularPages -}}
+    {{- if ne .File.ContentBaseName "mostrecent" -}}
+      {{- $page := . -}}
+      {{- range findRESubmatch `(?m)^###[ \t]+(.+?)[ \t]*\n\s*\{\{<\s*mastery-table-(?:enhanced|is)\s+id="([^"]+)"` .RawContent -1 -}}
+        {{- $id := index . 2 -}}
+        {{- if not (index $out $id) -}}
+          {{- $title := index . 1 | markdownify | plainify | htmlUnescape -}}
+          {{- $out = merge $out (dict $id (printf "%s#%s" $page.RelPermalink (anchorize $title))) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

@@ -7,6 +7,15 @@
     min-height: 80px;
 }
 
+/* "big" article hero (heroStyle = "big", used by the selector guide):
+   - the theme caps it at 50vh and crops (object-fit: cover), cutting off a
+     1200x630 image on desktop — show the whole image instead;
+   - the 80px spacer above is 8px shorter than the 88px fixed header bar, so the
+     top of the hero would sit under the bar — push it clear. Other pages don't
+     need this because their titles already have top margin. */
+.single_hero_round { max-height: none; }
+figure:has(> img.single_hero_round) { margin-top: 0.5rem; }
+
 .last-updated {
     font-size: 0.8rem;
     opacity: 0.5;
@@ -241,3 +250,204 @@ html.dark .mastery-card__icon {
     #menu-blur  { display: none !important; }
     #menu-solid { display: block !important; }
 }
+/* ==========================================================================
+   Selector guide — shortcodes selector-tier / selector-blurb /
+   selector-status / selector-timeline (content/guides/selector/index.md)
+   Colours use the theme's --color-* variables so light/dark follow the scheme;
+   the Kernel blue is fixed because the scheme's primary colour isn't blue.
+   ========================================================================== */
+:root {
+    --sel-kernel: 37, 99, 235;        /* blue-600: Kernel badge background (no tile border — a
+                                         coloured border implied Kernel units were special) */
+    --sel-kernel-text: 255, 255, 255; /* 5.2:1 on blue-600 */
+}
+html.dark {
+    --sel-kernel: 96, 165, 250;       /* blue-400 reads on dark backgrounds */
+    --sel-kernel-text: 23, 37, 84;    /* blue-950: ~7:1 on blue-400 */
+}
+
+/* Tile grid: a wrapping flex row of fixed-width tiles, so every row — including a
+   partial last row — can be centred (a CSS grid can't centre a partial row).
+   Widths give 3 per row on phones / 6 on desktop (compact: 4 / 8).
+   align="left" on the shortcode adds .sel-grid--left for the old left-aligned look. */
+.sel-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 1rem 0 1.75rem;
+    padding: 0;
+}
+.sel-grid > .sel-tile { flex: 0 0 6.75rem; }
+.sel-grid--compact { gap: 0.5rem; margin-bottom: 1.25rem; }
+.sel-grid--compact > .sel-tile { flex-basis: 5rem; }
+.sel-grid--left { justify-content: flex-start; }
+
+.sel-tile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.6rem 0.4rem 0.55rem;
+    border: 2px solid rgba(var(--color-neutral-200), 1);
+    border-radius: 0.6rem;
+    background-color: rgba(var(--color-neutral-100), 0.6);
+}
+html.dark .sel-tile {
+    border-color: rgba(var(--color-neutral-600), 1);
+    background-color: rgba(var(--color-neutral-700), 0.35);
+}
+.sel-grid--compact .sel-tile { padding: 0.45rem 0.3rem 0.4rem; }
+
+.sel-tile__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+a.sel-tile__main:hover .sel-tile__name { text-decoration: underline; }
+a.sel-tile__main:focus-visible {
+    outline: 2px solid rgba(var(--color-primary-500), 1);
+    outline-offset: 3px;
+    border-radius: 0.4rem;
+}
+
+.sel-tile__img {
+    width: 72px;
+    height: 72px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.sel-grid--compact .sel-tile__img { width: 48px; height: 48px; border-radius: 0.4rem; }
+.sel-tile__img--missing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: rgba(var(--color-neutral-300), 1);
+}
+html.dark .sel-tile__img--missing { background-color: rgba(var(--color-neutral-600), 1); }
+
+.sel-tile__name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: rgba(var(--color-neutral-800), 1);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+}
+html.dark .sel-tile__name { color: rgba(var(--color-neutral-100), 1); }
+.sel-grid--compact .sel-tile__name { font-size: 0.7rem; -webkit-line-clamp: 3; line-clamp: 3; } /* narrower tiles: allow a third line so e.g. "Reed the Flame Shadow" isn't cut */
+
+.sel-tile__badge {
+    margin-top: 0.35rem;
+    padding: 0.05rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background-color: rgb(var(--sel-kernel));
+    color: rgb(var(--sel-kernel-text));
+}
+.sel-grid--compact .sel-tile__badge { font-size: 0.55rem; padding: 0 0.35rem; margin-top: 0.25rem; }
+
+.sel-tile__note {
+    margin-top: 0.3rem;
+    font-size: 0.7rem;
+    line-height: 1.25;
+    color: rgba(var(--color-neutral-500), 1);
+}
+html.dark .sel-tile__note { color: rgba(var(--color-neutral-400), 1); }
+
+.sel-tile__blurb-mark {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.35rem;
+    color: rgba(var(--color-primary-500), 1);
+}
+.sel-tile__blurb-mark .icon,
+.sel-tile__blurb-mark svg { width: 0.85rem; height: 0.85rem; }
+html.dark .sel-tile__blurb-mark { color: rgba(var(--color-primary-400), 1); }
+
+.sel-tile__mastery {
+    margin-top: 0.3rem;
+    font-size: 0.7rem;
+    color: rgba(var(--color-primary-700), 1) !important;
+    text-decoration: underline;
+}
+html.dark .sel-tile__mastery { color: rgba(var(--color-primary-300), 1) !important; }
+
+/* Blurbs: HTML headings (not markdown) so they stay out of the TOC */
+.sel-blurb {
+    margin: 1.75rem 0;
+    scroll-margin-top: 150px; /* same offset the theme gives heading anchors */
+}
+.sel-blurb__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+}
+.sel-blurb__img { width: 32px; height: 32px; border-radius: 0.4rem; }
+.sel-blurb__title {
+    margin: 0 0 0 0.15rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgba(var(--color-neutral-900), 1);
+}
+html.dark .sel-blurb__title { color: rgba(var(--color-neutral-100), 1); }
+.sel-blurb:target .sel-blurb__title { text-decoration: underline; text-decoration-color: rgba(var(--color-primary-500), 1); }
+
+/* Status + timeline tables */
+.sel-table-wrap { overflow-x: auto; margin: 1rem 0 1.25rem; }
+.sel-status,
+.sel-timeline {
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    color: rgba(var(--color-neutral-800), 1);
+}
+.sel-timeline { width: 100%; }
+html.dark .sel-status,
+html.dark .sel-timeline { color: rgba(var(--color-neutral-200), 1); }
+.sel-status th, .sel-status td,
+.sel-timeline th, .sel-timeline td {
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid rgba(var(--color-neutral-200), 1);
+}
+html.dark .sel-status th, html.dark .sel-status td,
+html.dark .sel-timeline th, html.dark .sel-timeline td { border-bottom-color: rgba(var(--color-neutral-700), 1); }
+.sel-status th[scope="row"], .sel-timeline th { font-weight: 600; }
+.sel-timeline thead th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: rgba(var(--color-neutral-500), 1);
+}
+.sel-timeline__current { background-color: rgba(var(--color-primary-500), 0.12); }
+.sel-timeline__current th { box-shadow: inset 3px 0 0 rgba(var(--color-primary-500), 1); }
+
+.sel-answer {
+    display: inline-block;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.sel-answer--yes     { background-color: #dcfce7; color: #166534; }
+.sel-answer--no      { background-color: #fee2e2; color: #991b1b; }
+.sel-answer--unknown { background-color: rgba(var(--color-neutral-200), 1); color: rgba(var(--color-neutral-700), 1); }
+html.dark .sel-answer--yes     { background-color: rgba(22, 163, 74, 0.25); color: #86efac; }
+html.dark .sel-answer--no      { background-color: rgba(220, 38, 38, 0.25); color: #fca5a5; }
+html.dark .sel-answer--unknown { background-color: rgba(var(--color-neutral-700), 1); color: rgba(var(--color-neutral-200), 1); }
