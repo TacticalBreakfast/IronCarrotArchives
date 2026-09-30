@@ -20,6 +20,12 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**September 29, 2026**
+
+No Mastery changes today, but several upgrades have been made on the backend in prep for Ep17. Most noticable will be some search engine optimizations. Searching by operator name should now go directly to their write-up rather than the weird default behavior it was before.
+
+Since lots of backend changes were made, if you notice anything looks off, [please let me know!](https://www.reddit.com/user/TacticalBreakfast/comments/1pl4nne/a_mastery_priority_guide_feedback_comments_corner/)
+
 **September 12, 2026**
 
 Updated for People, A People. Added Zima the Raging Tide, Ukusik, and Botani, and updated the lookaheads. Also added some new glossary entries and a couple new digressions topics.
