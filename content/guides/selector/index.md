@@ -499,7 +499,7 @@ The RA modules don't have anywhere near the value of the IS Modules. RA just doe
 {{< /selector-blurb >}}
 
 {{< selector-blurb title="Phantom (non-IS)" units="Phantom" >}}
-In some older versions of this selector guide, I suggested Phantom as a potential alternative FRD since the two other 6★ FRDs are both limited units. However, this advice is now dated. Texas the Omertosa will soon have reduced spark cost and Kirin R Yato will (or has) gotten a rerun. Further, the general power spike has meant even if you lack them, a low-powered unit like Phantom just isn't necessary. Thus, Phantom is currently an IS-only consideration.
+In some older versions of this selector guide, I suggested Phantom as a potential alternative FRD since the two other 6★ FRDs are both limited units and the welfare was pretty bad. However, this advice is now dated. Texas the Omertosa will soon have reduced spark cost and Kirin R Yato will (or has) gotten a rerun. Even Crownslayer is now viable thanks to her second mod. Further, the general power spike has meant even if you lack the limited ones, a low-powered unit like Phantom just isn't necessary. Thus, Phantom is currently an IS-only consideration.
 {{< /selector-blurb >}}
 
 {{< selector-blurb title="Ho'olheyak" units="Ho'olheyak" >}}
