@@ -10,19 +10,69 @@
   For names shared by several operators, write the id instead ("1001_amiya2").
   size="compact" gives smaller tiles, used for the Gold shop / free selector lists.
   Rows are centred by default; align="left" left-aligns them.
+  order-labels="Sooner label | Later label" marks the list as ORDERED (the order you
+  write the lines in): each tile gets a position number and a "← sooner … later →" bar
+  is drawn beneath. The numbers matter because the row wraps on phones, where left/right
+  alone would mislead (item 5 sits left of item 4, one row down).
+  Ordered lists also wrap EVENLY: if all N tiles don't fit on one row they split into
+  equal rows (8 -> 4+4, never 6+2). The break points depend on N, so they're emitted as
+  a small per-list <style> using a container query (same inline-style approach as the
+  mastery tables).
   Kernel status is automatic (operator_pools.yaml), overridable per page via poolOverrides.
+  flag="Label" makes this list a SOURCE: full-size tiles elsewhere on the page for the same
+  units show "Label" as a badge linking back here (used for the Gold shop / free selector
+  lists). End the label with "?" for a hedged, dashed-outline badge ("Gold shop?").
 */ -}}
 {{- $size := .Get "size" | default "full" -}}
+{{- $compact := eq $size "compact" -}}
 {{- $left := eq (.Get "align") "left" -}}
+{{- $labels := split (.Get "order-labels" | default "") "|" -}}
+{{- $ordered := ge (len $labels) 2 -}}
+{{- $flag := .Get "flag" | default "" -}}
 {{- $pos := .Position -}}
 {{- $page := .Page -}}
-<ul class="sel-grid sel-grid--{{ $size }}{{ if $left }} sel-grid--left{{ end }} not-prose" role="list">
+{{- $lines := slice -}}
 {{- range split (trim .Inner "\n ") "\n" -}}
-  {{- $line := trim . " \t\r" -}}
-  {{- if $line -}}
-    {{- $parts := split $line "|" -}}
-    {{- $note := "" -}}{{- if gt (len $parts) 1 }}{{ $note = trim (delimit (after 1 $parts) "|") " " }}{{ end -}}
-    {{- partial "ica/operator-tile.html" (dict "page" $page "name" (trim (index $parts 0) " ") "note" $note "size" $size "pos" $pos) -}}
-  {{- end -}}
+  {{- with trim . " \t\r" }}{{ $lines = $lines | append . }}{{ end -}}
 {{- end -}}
+{{- $class := printf "sel-grid sel-grid--%s%s%s not-prose" $size (cond $left " sel-grid--left" "") (cond $ordered " sel-grid--ordered" "") -}}
+{{- $srcId := "" -}}
+{{- if and $flag $lines }}{{ $srcId = partial "ica/selector-flag-anchor.html" (dict "label" $flag "first" (index $lines 0)) }}{{ end -}}
+{{- if $ordered -}}
+  {{- /* Row widths in rem; tile and gap sizes must match .sel-grid / .sel-tile in custom.css. */ -}}
+  {{- $tile := cond $compact 5.0 6.75 -}}
+  {{- $gap := cond $compact 0.5 0.75 -}}
+  {{- $n := len $lines -}}
+  {{- $k2 := math.Ceil (div (float $n) 2) -}}
+  {{- $k3 := math.Ceil (div (float $n) 3) -}}
+  {{- $w1 := sub (mul $n (add $tile $gap)) $gap -}}
+  {{- $w2 := sub (mul $k2 (add $tile $gap)) $gap -}}
+  {{- $w3 := sub (mul $k3 (add $tile $gap)) $gap -}}
+  {{- $id := printf "sel-o%d" .Ordinal -}}
+<div class="sel-ordered-wrap"{{ with $srcId }} id="{{ . }}"{{ end }}>
+<style>
+@container (max-width: {{ printf "%.3f" (sub $w1 0.01) }}rem) { .{{ $id }} { max-width: {{ printf "%.3f" $w2 }}rem; } }
+@container (max-width: {{ printf "%.3f" (sub $w2 0.01) }}rem) { .{{ $id }} { max-width: {{ printf "%.3f" $w3 }}rem; } }
+@container (max-width: {{ printf "%.3f" (sub $w3 0.01) }}rem) { .{{ $id }} { max-width: 100%; } }
+</style>
+<div class="sel-ordered {{ $id }}"><ol class="{{ $class }}" role="list">
+{{- else -}}
+<ul class="{{ $class }}" role="list"{{ with $srcId }} id="{{ . }}"{{ end }}>
+{{- end -}}
+{{- range $lines -}}
+  {{- $parts := split . "|" -}}
+  {{- $note := "" -}}{{- if gt (len $parts) 1 }}{{ $note = trim (delimit (after 1 $parts) "|") " " }}{{ end -}}
+  {{- partial "ica/operator-tile.html" (dict "page" $page "name" (trim (index $parts 0) " ") "note" $note "size" $size "pos" $pos "source" (ne $flag "")) -}}
+{{- end -}}
+{{- if $ordered -}}
+</ol>
+<div class="sel-order not-prose">
+  <span class="sel-order__label"><span aria-hidden="true">←</span> {{ trim (index $labels 0) " " }}</span>
+  <span class="sel-order__line" aria-hidden="true"></span>
+  <span class="sel-order__label">{{ trim (index $labels 1) " " }} <span aria-hidden="true">→</span></span>
+</div>
+</div>
+</div>
+{{- else -}}
 </ul>
+{{- end -}}

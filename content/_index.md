@@ -4,6 +4,8 @@ This site is still a heavy work in progress, so if you spot any bugs or have any
 
 ## Most Recent Content
 
+New Guide - [Paid 6★ Selector Recommendations](guides/selector/)
+
 New Update - [People, A People](masteries/mostrecent)
 
 New Article - [People, A People](https://sanitygone.help/en/guides/mastery-people/)

@@ -1,9 +1,13 @@
 {{- /*
   ica/operator-tile.html — one operator tile for the selector guide.
-  Input dict: page, name (as typed), note (may be ""), size ("full"|"compact"), pos (shortcode position, for warnings)
+  Input dict: page, name (as typed), note (may be ""), size ("full"|"compact"), pos (shortcode position, for warnings),
+              source (true when the tile is inside a flag="…" list)
 
   Pool:  page poolOverrides -> data/operator_pools.yaml ("1" Standard, "2" Kernel).
   Links: primary (portrait + name) -> this unit's blurb if the page has one, else their Mastery write-up.
+  Flags: full-size tiles outside flagged lists show a badge per flagged list the unit is in
+         (ica/selector-flags.html), linking to that list. Compact tiles and the flagged lists
+         themselves don't, to keep those lists uncluttered.
          small "Mastery" link on every tile that has a write-up, even when it duplicates the
          primary link — shown consistently so tiles don't look different from each other.
 */ -}}
@@ -30,6 +34,11 @@
   {{- $mastery := index (partialCached "ica/mastery-anchors.html" . "mastery-anchors") $r.id -}}
   {{- $primary := cond (ne $blurb nil) (printf "#%s" ($blurb | default "")) ($mastery | default "") -}}
 
+  {{- $flags := slice -}}
+  {{- if not (or $compact .source) -}}
+    {{- $flags = index (partialCached "ica/selector-flags.html" $page $page.RelPermalink) $key | default slice -}}
+  {{- end -}}
+
   {{- $img := resources.Get (printf "game_img/charavatars/char_%s.png" $r.id) -}}
   {{- $px := cond $compact 96 144 -}}
   <li class="sel-tile{{ if $kernel }} sel-tile--kernel{{ end }}{{ if $blurb }} sel-tile--has-blurb{{ end }}">
@@ -43,7 +52,12 @@
       {{- end -}}
       <span class="sel-tile__name">{{ $e.name }}</span>
     {{- if $primary }}</a>{{ else }}</span>{{ end -}}
-    {{- if $kernel }}<span class="sel-tile__badge">Kernel</span>{{ end -}}
+    {{- if or $kernel $flags -}}
+      <span class="sel-tile__badges">
+        {{- if $kernel }}<span class="sel-tile__badge">Kernel</span>{{ end -}}
+        {{- range $flags }}<a class="sel-tile__flag{{ if hasSuffix .label "?" }} sel-tile__flag--maybe{{ end }}" href="#{{ .anchor }}">{{ .label }}</a>{{ end -}}
+      </span>
+    {{- end -}}
     {{- with .note }}<span class="sel-tile__note">{{ . }}</span>{{ end -}}
     {{- if $blurb }}<span class="sel-tile__blurb-mark" title="Has a blurb below">{{ partial "icon.html" "comment" }}<span class="sr-only">Has a blurb</span></span>{{ end -}}
     {{- with $mastery }}<a class="sel-tile__mastery" href="{{ . }}">Mastery</a>{{ end -}}

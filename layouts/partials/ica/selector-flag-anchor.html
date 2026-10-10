@@ -1,0 +1,4 @@
+{{- /* ica/selector-flag-anchor.html — id of a flagged selector-tier list, derived from its
+       label and first operator line so the list itself (selector-tier.html) and the tiles
+       linking to it (selector-flags.html) compute the same value. Input: dict label, first. */ -}}
+{{- return (printf "sel-src-%s" (anchorize (printf "%s %s" .label (trim (index (split .first "|") 0) " ")))) -}}

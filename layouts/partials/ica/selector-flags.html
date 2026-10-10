@@ -1,0 +1,34 @@
+{{- /*
+  ica/selector-flags.html — which units appear in the page's FLAGGED selector-tier lists.
+  Call: partialCached "ica/selector-flags.html" .Page .Page.RelPermalink
+
+  A list opts in with flag="Label" (e.g. the Gold shop and free selector lists). Every
+  full-size tile elsewhere on the page for the same unit then shows that label as a badge
+  linking back to the list — so the main tiers flag "you may get this one for free"
+  without anything being maintained twice.
+
+  Returns dict: folded lowercase unit name -> slice of dict(label, anchor).
+*/ -}}
+{{- $out := dict -}}
+{{- range findRESubmatch `(?s)\{\{<\s*selector-tier\s+([^>]*?)\s*>\}\}(.*?)\{\{<\s*/selector-tier\s*>\}\}` .RawContent -1 -}}
+  {{- $m := findRESubmatch `flag="([^"]*)"` (index . 1) 1 -}}
+  {{- if $m -}}
+    {{- $label := index (index $m 0) 1 -}}
+    {{- $lines := slice -}}
+    {{- range split (trim (index . 2) "\n ") "\n" }}{{ with trim . " \t\r" }}{{ $lines = $lines | append . }}{{ end }}{{ end -}}
+    {{- if $lines -}}
+      {{- $anchor := partial "ica/selector-flag-anchor.html" (dict "label" $label "first" (index $lines 0)) -}}
+      {{- range $lines -}}
+        {{- $r := partial "ica/resolve-operator.html" (index (split . "|") 0) -}}
+        {{- if not $r.error -}}
+          {{- $key := lower (partial "ica/fold.html" $r.entry.name) -}}
+          {{- $cur := index $out $key | default slice -}}
+          {{- if not (where $cur "label" $label) -}}
+            {{- $out = merge $out (dict $key ($cur | append (dict "label" $label "anchor" $anchor))) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

@@ -279,10 +279,55 @@ html.dark {
     margin: 1rem 0 1.75rem;
     padding: 0;
 }
-.sel-grid > .sel-tile { flex: 0 0 6.75rem; }
+/* Explicit width, not flex-basis: Firefox ignores flex-basis when sizing the
+   shrink-to-fit .sel-ordered box, making it too narrow and wrapping rows early. */
+.sel-grid > .sel-tile { flex: 0 0 auto; width: 6.75rem; }
 .sel-grid--compact { gap: 0.5rem; margin-bottom: 1.25rem; }
-.sel-grid--compact > .sel-tile { flex-basis: 5rem; }
+.sel-grid--compact > .sel-tile { width: 5rem; }
 .sel-grid--left { justify-content: flex-start; }
+
+/* Ordered lists (order-labels="…|…"): position numbers + a sooner/later bar.
+   Numbers are CSS counters, so they follow the written order with no markup. */
+/* .sel-ordered-wrap is the size container the per-list even-wrap rules measure
+   (see selector-tier.html); .sel-ordered shrinks to the tile rows so the bar matches. */
+.sel-ordered-wrap { container-type: inline-size; margin: 1rem 0 1.25rem; }
+.sel-ordered { width: fit-content; max-width: 100%; margin: 0 auto; }
+.sel-ordered > .sel-grid { margin: 0 0 0.6rem; }
+.sel-grid--ordered { counter-reset: sel-pos; }
+.sel-grid--ordered > .sel-tile { counter-increment: sel-pos; }
+.sel-grid--ordered > .sel-tile::before {
+    content: counter(sel-pos);
+    position: absolute;
+    top: 0.25rem;
+    left: 0.3rem;
+    z-index: 1;
+    min-width: 1.15rem;
+    height: 1.15rem;
+    padding: 0 0.25rem;
+    border-radius: 999px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    line-height: 1.15rem;
+    text-align: center;
+    background-color: rgba(var(--color-neutral-700), 1);
+    color: rgba(var(--color-neutral-50), 1);
+}
+html.dark .sel-grid--ordered > .sel-tile::before {
+    background-color: rgba(var(--color-neutral-200), 1);
+    color: rgba(var(--color-neutral-800), 1);
+}
+.sel-order {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: rgba(var(--color-neutral-600), 1);
+}
+html.dark .sel-order { color: rgba(var(--color-neutral-300), 1); }
+.sel-order__line { flex: 1; min-width: 1rem; height: 1px; background-color: rgba(var(--color-neutral-300), 1); }
+html.dark .sel-order__line { background-color: rgba(var(--color-neutral-600), 1); }
 
 .sel-tile {
     position: relative;
@@ -348,8 +393,16 @@ html.dark .sel-tile__img--missing { background-color: rgba(var(--color-neutral-6
 html.dark .sel-tile__name { color: rgba(var(--color-neutral-100), 1); }
 .sel-grid--compact .sel-tile__name { font-size: 0.7rem; -webkit-line-clamp: 3; line-clamp: 3; } /* narrower tiles: allow a third line so e.g. "Reed the Flame Shadow" isn't cut */
 
-.sel-tile__badge {
+/* Badge row: Kernel + any "flag" labels (Free selector / Gold shop) side by side, wrapping. */
+.sel-tile__badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.2rem;
     margin-top: 0.35rem;
+}
+.sel-grid--compact .sel-tile__badges { margin-top: 0.25rem; }
+.sel-tile__badge {
     padding: 0.05rem 0.45rem;
     border-radius: 999px;
     font-size: 0.625rem;
@@ -359,7 +412,30 @@ html.dark .sel-tile__name { color: rgba(var(--color-neutral-100), 1); }
     background-color: rgb(var(--sel-kernel));
     color: rgb(var(--sel-kernel-text));
 }
-.sel-grid--compact .sel-tile__badge { font-size: 0.55rem; padding: 0 0.35rem; margin-top: 0.25rem; }
+.sel-grid--compact .sel-tile__badge { font-size: 0.55rem; padding: 0 0.35rem; }
+
+/* Flag labels: outlined amber, deliberately NOT a filled "premium" look — they mean
+   "you may get this unit another way", not "recommended". They link to the source list.
+   A label ending in "?" (unreliable source) gets a dashed, unfilled outline. */
+.sel-tile__flag {
+    padding: 0 0.35rem;
+    border: 1px solid #b45309;
+    border-radius: 999px;
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: 1.55;
+    white-space: nowrap; /* normal case, not capitals like Kernel: "Free selector?" must fit a 6.75rem tile on one line */
+    text-decoration: none;
+    background-color: #fef3c7;
+    color: #92400e !important;
+}
+.sel-tile__flag:hover { text-decoration: underline; }
+.sel-tile__flag:focus-visible { outline: 2px solid rgba(var(--color-primary-500), 1); outline-offset: 2px; }
+html.dark .sel-tile__flag { border-color: #d97706; background-color: rgba(245, 158, 11, 0.16); color: #fcd34d !important; }
+.sel-tile__flag--maybe,
+html.dark .sel-tile__flag--maybe { border-style: dashed; background-color: transparent; }
+/* Flagged source lists are link targets: same offset the theme gives heading anchors. */
+[id^="sel-src-"] { scroll-margin-top: 150px; }
 
 .sel-tile__note {
     margin-top: 0.3rem;
