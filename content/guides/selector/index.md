@@ -157,7 +157,7 @@ A unit's second appearance is also relatively predictable, although it is MUCH l
 
 The Kernel pool is the LEAST predictable. There are some vague correlations, but these are much looser than the Standard pool. It's hard to say anything definitively, so if your target is a Kernel unit, there's probably no good reason to wait.
 
-**Likely first appearances in the next six months**
+#### Likely First Appearances in the Next Six Months
 
 {{< alert >}}Operators near the end of this list are likely to take much longer to appear!{{< /alert >}}
 {{< alert >}}This list may not be updated in real time. If you are waiting for someone, please ensure they have not already appeared.{{< /alert >}}
@@ -173,7 +173,7 @@ Narantuya
 
 {{< last-updated "2026-10-08" >}}
 
-**Possible second appearances in the next six months**
+#### Possible Second Appearances in the Next Six Months
 
 {{< alert >}}Likely to be unreliable!{{< /alert >}}
 {{< alert >}}This list may not be updated in real time. If you are waiting for someone, please ensure they have not already appeared.{{< /alert >}}
@@ -186,6 +186,32 @@ Hoederer | In shop on Oct 9
 {{< /selector-tier >}}
 
 {{< last-updated "2026-10-08" >}}
+
+#### Kernel Locating Banners
+
+In addition to the above, there are frequently Kernel Locating banners which allow you to select who appears in the Gold shop, from a subset of options. These are often difficult to account for, since like the base pool, they are unpredictable. However, sometimes a Locating banner runs when the selector launches.
+
+{{< selector-status >}}
+Is a Locating banner known? | Yes
+Date of banner | October 20th, 2026
+{{< /selector-status >}}
+
+{{< selector-tier size="compact" flag="Gold shop" >}}
+Goldenglow
+Dorothy
+Kal'tsit
+Archetto
+Blemishine
+Gnosis
+Surtr
+Weedy
+Eyjafjalla
+Rosa
+SilverAsh
+Passenger
+{{< /selector-tier >}}
+
+{{< last-updated "2026-10-11" >}}
 
 ### Impact of Free Selectors
 
