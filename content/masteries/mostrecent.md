@@ -17,7 +17,7 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Full Articles
 
-{{< article-links sg="https://sanitygone.help/en/guides/mastery-ep17/" ld="https://lungmendragons.com/guides/ep17-mastery" reddit="TBD" >}}
+{{< article-links sg="https://sanitygone.help/en/guides/mastery-ep17/" ld="https://lungmendragons.com/guides/ep17-mastery" reddit="https://www.reddit.com/r/arknights/comments/1x4fxm2/a_mastery_priority_guide_should_you_pull_episode/" >}}
 
 ### Kal'tsit·Esperanta
 
