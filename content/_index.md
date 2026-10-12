@@ -2,15 +2,19 @@ Hello and welcome to the Iron Carrot Archives! This is the web-based home to my 
 
 This site is still a heavy work in progress, so if you spot any bugs or have any feedback, feel free to drop me a line over [here on Reddit](https://www.reddit.com/user/TacticalBreakfast/comments/1pl4nne/a_mastery_priority_guide_feedback_comments_corner/).
 
+## New Discord!
+
+I now apparently have a Discord. A few other AK site admins and I got together to pool efforts. Feel free to [stop by and say hi](https://discord.gg/JqU3PV3uMw).
+
 ## Most Recent Content
 
 New Guide - [Paid 6★ Selector Recommendations](guides/selector/)
 
-New Update - [People, A People](masteries/mostrecent)
+New Update - [Episode 17 - Critical Phase Transition](masteries/mostrecent)
 
-New Article - [People, A People](https://sanitygone.help/en/guides/mastery-people/)
+New Article - [Episode 17 - Critical Phase Transition](https://sanitygone.help/en/guides/mastery-ep17/)
 
-Tier List Update - [People, A People](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
+Tier List Update - [Episode 17 - Critical Phase Transition](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
 Blog Post - [Summer Events Are Great!](posts/summerevents)
 

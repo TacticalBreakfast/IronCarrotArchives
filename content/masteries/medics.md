@@ -160,6 +160,25 @@ Pass on her S1. It's a generic skill of little value. It is mildly notable since
 
 ## 5★ Medics
 
+### Ukusik
+
+{{< mastery-table-enhanced id="4224_turdus" rows="S2M3,None,C" en_link="https://sanitygone.help/en/operators/ukusik/" cn_link="https://prts.wiki/w/%E4%B9%8C%E5%95%BE">}}
+
+A 5★ Medic is one of the worst rarity/class combinations a unit can be. When it comes to healing, the [value problem](https://ironcarrotarchives.com/masteries/othertopics/#the-5-value-problem) becomes the driving factor. This is made even worse by how many of them just blend together. But there are 5★ Medics that stand out, and almost universally it's because they have some sort of special utility attached. Fortunately for this little child soldier, Ukusik has such a utility. While Camouflage/Invisibility isn't exactly rare these days, the ability to grant it to others still is. Ukusik can grant camo to herself and three other allies (don't forget the extra bounce from her Talent) which can help mitigate some extremely dangerous mechanics. While she does share this niche with Heavyrain, Ukusik tends to be better at it since she cycles faster, is less range restricted, and isn't forced into blocking, which disrupts the camo. So as far as the raft of 5★ Medics goes, Ukusik is a rare solid addition with some very legitimate usage!
+
+Don't rush to invest into her, however, and especially be wary of spending the extra on her Masteries if you don't know what you're doing. There's a few factors at play here. First, while her utility is valuable, it's extremely situational. On one stage, camo can feel like the best mechanic ever, but on many, it does nothing. This means Ukusik is more of a tool to break out occasionally instead of an every day type of unit. Second, using her ideally is no simple feat. Managing the timing and bounces are not trivial tasks, especially when more straight forward solutions often exist. Last, and more relevant to this guide, her S2 Masteries are simply not necessary to achieve this. In many cases, she will do this camo job just as well at E1 SL7 as she would at E2 S2M3, and the former is much much cheaper!
+
+However, her Masteries aren't completely useless, although Advanced players are far more likely to appreciate them than Story players. The Camouflage duration does not improve over Mastery, or this discussion would be very different. It remains at 12 seconds starting at SL7. But what does improve is her cycle time, via SP cost, and her healing. On the matter of her healing, it improves by about 50 HPS over Mastery. That’s not an amount that really changes the decisions considering raw healing isn’t why she’s used, but it's actually a pretty decent improvement. Her healing is otherwise on the weaker side, so any addition is welcome in min-maxed scenarios. On the matter of her SP cost, that's probably the more important improvement, but even then it only improves by 4 SP. It certainly can matter, but often will not.
+
+This all means that Ukusik isn't a bad investment, but she is one that leans towards Advanced players who can afford to spend their resources on situational tools rather than roster mainstays. If you're a Story-centric player, or have a relatively young account, you're best off avoiding her entirely, at least for now.
+
+Although not Mastery related, a mechanical note worth mentioning is about why she has an HP loss built into her S2. Chain Medics (and most Medics) can't actually initiate a heal if there is no one under max HP. However, the chain can bounce through full HP units once it is started. This is why Mon3tr has the Reconstruct, so that she can always apply her buff. Similarly, Ukusik's HP loss means she always applies her camo, even if everyone is at full HP already. It also means she's more likely to start the chain on herself, ensuring she gets the extra bounce from her Talent, which isn't always guaranteed.
+
+As for her S1, it's only really useful if she's a particular favorite you want to use over other units. The HPS on it is actually pretty decent, as is the cycle time, and the extra bounce can really extend her reach. However, it has no special value, which drops it into the ever growing pool of utility-less 5★ Medics that should otherwise be avoided. The only reason to Master her S1 is because you specifically want her to be on the team, even when her S2 isn't called for. However, it *could* have some use for heavy IS players. She is drafted in some strategies, but her S2 isn't as useful on every stage, so her S1 can be used along the way. But that's a pretty fringe situation, and most players it applies to don't need this article's advice. If you're unsure, pass on it.
+
+{{< last-updated "2026-09-12" >}}
+
+
 ### Record Keeper
 
 {{< mastery-table-enhanced id="4196_reckpr" rows="S2M3,C,C+|S1M3,None,None" >}}

@@ -21,6 +21,28 @@ tags = ['Mastery', 'Guards', 'Arknights', 'Guide', 'Skill Priority']
 - [4★ and 5★ Ungraded Guards](#4-and-5-ungraded-guards)
 ## 6★ Guards
 
+### Zima the Raging Tide
+
+{{< mastery-table-enhanced id="1051_headb2" rows="S2M3,S-,A|S3M3,B+,A-" >}}
+
+Zima the Raging Tide is one of those units whose priority will be highly variable, depending on your roster and how you like to play. She has two very different usage scenarios between her S2 (AFK laneholding) and her S3 (wave clearing nuke), but there are considerations with both that ultimately mean a variable priority. Some players will find her S2 to be one of the best skills in the game. Others will never use it at all and instead prefer her S3. And still others won't find either worth particular attention, which is rather surprising in a 2026 6★!
+
+Her most famous use is as an AFK laneholder with her S2. That's likely the starting point for a large majority of players as well, despite this guide typically not favoring such skills. However, this is a case where Zima2 is *really* good at it, while her S3 is comparatively flawed, which tends to make it her best use case regardless. Newer players with weaker rosters will find it especially valuable! It's a pretty simple skill too, basically being a new-age version of Thorns' S3, with stats more appropriate to the modern meta of the game. It even has some additional defensive bulk that gives her more DEF than many Defenders. After the second activation, it becomes infinite duration, and you don't even need to press the button to activate it!
+
+There's two important things to know before you invest though. First, if you're unfamiliar with her, you may come away from reading her skill with concerns about her SP cost. After all, 50 SP is a shockingly high cost, infinite or not! The key here is to know that the Talent 1 trigger that’s a part of the skill applies for *each* high-ground tile, and the tile doesn't need to be deployable either. Tiles that are just "decoration" to the map generally count, as do map boundaries. The result is her S2 charges *extremely* fast, despite the cost! More to the point of this guide though, is that infinite duration skills tend to have lower gains over Mastery than others since their multipliers don't tend to be as high. Mastery only represents a below average 11% improvement to DPS and DEF, and an inconsequential amount of SP cost, due to how fast she charges. Those stats certainly aren't nothing, especially considering the infinite duration, but it's also far from essential, and Zima will work pretty well at S2SL7, which suppresses her grades a bit.
+
+Skills like Zima's S2 also tend to be fairly "low ceiling". It's a good skill with a place in the game that will carry many players through a lot of stages, but it will never be a premiere CC or high-risk IS skill. Those cases require a bit more finesse than the set-and-forget raw power of her S2 provides. More Advanced players may not find her S2 to be worth pursuing at all, especially given the relatively low gains! One could be forgiven then for thinking that means her S3 is the Advanced skill instead, and indeed Advanced players probably will use it more, but it unfortunately tends to be a bit flawed which complicates the suggestion.
+
+When using her S3, she slams five times in a row, even if there are no targets. Each slam further increases the power of the next slam, and expands the zone that her Talent 1 aftershocks hit. The result is high DPS and DPH, doled out very rapidly, but this comes at the expense of total damage due to the lower uptime relative to more typical DPS skills. This leads to the first problem. Although these types of skills have value and can be better in some cases, in many situations, they’re inferior to more typical and higher total damage skills. Worse is that most of the damage is only on the primary target, and despite how wide the aftershocks can get, that always remains only in the single tile ahead of her. Outside of that, enemies will generally only be hit by her Trait aftershocks, or worse, just her Talent aftershocks, for far less damage. Then the way her kit is designed also means she doesn’t do much between cycles, so if the enemies can’t be killed in a single cycle, she’s extremely vulnerable.
+
+This all means her S3 is far less effective than the splashy animation may appear. For people with already stacked rosters, neither skill may end up all that appealing. Of course, none of this means her S3 is bad either. Far from it! Strong rapid nukes like this do have a place in the game, it cycles fast, and her range can get pretty ridiculous too, depending on the stage. Not every player has every option available to them, so Zima2's S3 can still be a high priority consideration for many. Mastery on her S3 is more valuable than her S2 as well. The DPS, and importantly, the DPH, increase by more typical values, and the drop in SP cost is a meaningful improvement.
+
+So there is no one-size fits all answer with Zima. While many modern units have clear recommendations due to their power, or at least have some special uniqueness no one else can fill, Zima doesn't quite fit into those molds. She has a high base level of power, and for many people she *will* be simple (do her S2), but just ends up being more replaceable than a large majority of recent gacha 6★s.
+
+The last note with her, pass entirely on her S1. There's virtually no reason to use it over her other skills. It slightly out DPS' her S2 on the first activation, but falls far behind after, and if that mattered you'd use her S3 instead.
+
+{{< last-updated "2026-09-12" >}}
+
 ### Bellone
 
 {{< mastery-table-enhanced id="4037_demetr" rows="S2M3,S-,S-|S3M3,A-,A-" >}}

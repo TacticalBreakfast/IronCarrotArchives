@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**October 12, 2026**
+
+Update for Episode 17. Added Kal2, Closure, Viy, and Crackborne. Updated the lookaheads and moved People, A People units into the main guide.
+
 **September 29, 2026**
 
 No Mastery changes today, but several upgrades have been made on the backend in prep for Ep17. Most noticable will be some search engine optimizations. Searching by operator name should now go directly to their write-up rather than the weird default behavior it was before.
