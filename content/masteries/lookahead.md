@@ -83,24 +83,6 @@ Aprissa is a decent unit and a creative twist on the Blast Caster archetype. I p
 
 ## Unit & Masteries Lookaheads
 
-### Episode 17 - Critical Phase Transition
-
-*Estimated Release: October*
-
-#### Kal'tsit· Esperanta
-
-**6★ · Limited Gacha**
-
-Boy, I have some things to say about Kal coming back already. The game in general has had a problem with stakes for a while now, and even though her return was known *immediately*, it still makes me roll my eyes that it happened so quickly. So much for drama! That should make a nice story rant when the time comes.
-
-In any case, Kal2 is a bit more muted than the recent wave of insane 6★s. That isn't to say she's bad, of course. Far from it! She is a very comfortable unit to use, and probably the best Medic we currently have. However, it's a bit surprising given her story relevance that she is a little clunkier to use and not quite as bloated as you might expect.
-
-There's some interesting nuance to her skills, but unlike Closure, her best Mastery is clearly S2. There's a mechanical clunkiness to it where shots can be wasted or spent where you don't want them, but the numbers are high enough that it rarely matters. In the end it's still a good amount of AoE True Damage, a long Slow, and a lot of healing. However, it does pay the damage tax by being True Damage so isn't quite as crazy as we're used to, so will likely be graded a bit off the top-tier (but still high S).
-
-Meanwhile, her S3 is an extremely powerful skill, but it's much more situational. It won't be necessary or viable in a lot of situations, and requires some thought to use. More important for the guide though, the Mastery gains on it don't really matter for its main use. They aren't nothing, and they will definitely matter in Advanced situations, but for a lot of players, Mastery will be a luxury.
-
-*tl;dr S2 (mid to high-S) > S3 (lower than the value of the skill, probably low-A or B). Pass on S1, although it may have some use if Take-Off ever becomes a more necessary mechanic.*
-
 ### Thunder in the Azure Dream - Monster Hunter 2
 
 *Estimated Release: November*
