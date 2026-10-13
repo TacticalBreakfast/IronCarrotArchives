@@ -211,13 +211,15 @@ tl;dr S3 a high S-tier skill. Pass on his others, although that may edge out som
 
 **5★**
 
-I've written a lot recently about how the new 5★s have been in a horrible state starting with the Titi patch, and no one exemplifies it more than Aegis. She's a popular character in a popular collab that could have justifiably been the 6★, yet instead somehow ends up worse than a Welfare that's not even a year old. I mean, for fucks sake she has a self-stun! I thought we were past using that as a drawback! Make it make sense HG! I don't even care for Persona and I'm still extremely pissed about it, so I can only imagine the rant if it was a game I actually cared about!
+I've written a lot recently about how the new 5★s have been in a horrible state starting with the Titi patch, and no one exemplifies it more than Aegis. She's a popular character in a popular collab that could have justifiably been the 6★, yet instead somehow ends up worse than a Welfare that's not even a year old. I mean, for fucks sake she has a self-stun! I thought we were past using that as a drawback! Make it make sense HG¹! I don't even care for Persona and I'm still extremely pissed about it, so I can only imagine the rant if it was a game I actually cared about!
 
 Anyway, Aegis is a bad unit, although is still usable and will likely end up graded by virtue of her archetype. Take-Off is a pretty strong mechanic, and that really carries her here, because her damage is worse than Skybox and she has no utility to speak of. She's just mediocre 5★ damage, so although she'll be graded, she's still very much a desire-only promotion. As for skills, only her S2 is worth considering. It does more DPS and plays better with the Skybreaker Trait. Meanwhile her S1 is unusually terrible, even by 2026 5★ standards. It gives her more DEF, but is still a very low total value due to her low base value, and she's forced to land so it can't even be used to block aerial enemies, the one place it might actually have some fringe value. Then she has a self stun too which keeps her grounded. It's really a master class in bad skill design. I'd actually be less mad if it was a generic skill. At least I could write that off as them not wanting to bother. This means someone actively thought about and designed this! It does at least have more total damage than her S2, which I *guess* might have some use for the highest tier toaster enjoyers, but it's just so bad with her archetype that even that's hard to justify.
 
 Yes, I'm a wee bit mad about this.
 
 tl;dr S2 low graded, probably C-tier. Pass entirely on S1.
+
+¹ This is apparently a reference to her in-game stuff. But it's also a horrible balancing decision HG has frequently used in the past to absolutely kill a unit, so I'm leaving it in.
 
 #### Yukari Takeba
 
