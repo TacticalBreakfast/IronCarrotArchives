@@ -22,6 +22,10 @@ Refreshes three things:
     belonging to one of *this* raw's own operators (i.e. it has now been
     released and covered in the main guide, so it's no longer a
     "lookahead") is removed; an event emptied by this is dropped entirely.
+    Names are compared in simplified form (see normalize_name), so spacing,
+    punctuation and accents don't have to agree. Every removal is listed on
+    stdout, and an operator of this raw that matches no lookahead entry is
+    reported as a warning — check those by hand.
     Then a new stub event is appended for whatever operators the raw's own
     "# Lookaheads" section covers — its write-ups are imported directly,
     with rarity/pool filled in where derivable from character_table.json
@@ -44,6 +48,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import yaml
@@ -219,22 +224,65 @@ def parse_unit_lookaheads_events(lookahead_text: str) -> list[dict]:
     return events
 
 
-def remove_covered_operators(events: list[dict], operator_names: list[str]) -> list[dict]:
-    """Drops any '#### Name' entry matching (by case-insensitive substring,
-    to handle old dual-naming like '#### Укусик / Ukusik') one of this raw
-    article's own operators, since they're no longer upcoming. An event
-    left with zero entries is dropped entirely."""
-    lowered_names = [n.lower() for n in operator_names]
+def normalize_name(name: str) -> str:
+    """Simplified form used only for comparing operator names: lowercase,
+    accents stripped, and everything that isn't a letter or digit removed
+    (spaces, dots, apostrophes, hyphens...). Hand-typed names drift in exactly
+    these ways — "Kal'tsit· Esperanta" in lookahead.md vs "Kal'tsit·Esperanta"
+    in a raw article left her un-removed for the Episode 17 update, and the
+    official EN "Kal'tsit Esperanta" differs again — so none of it should
+    decide whether two names are the same operator."""
+    decomposed = unicodedata.normalize("NFKD", name.replace("ł", "l").replace("Ł", "L"))
+    return "".join(ch for ch in decomposed if ch.isalnum()).casefold()
+
+
+def heading_name_keys(heading: str) -> set[str]:
+    """Every name a '#### ' heading stands for, normalized. Dual-named
+    headings like '#### Vij / Viy / Вий' or '#### Укусик / Ukusik' yield one
+    key per '/'-separated alternative, so any of the spellings matches —
+    as a whole name, not as a substring (a substring test would also remove
+    'Angelina the Mellow Wish' for an operator named 'Lin')."""
+    keys = {normalize_name(part) for part in heading.split("/")}
+    keys.add(normalize_name(heading))
+    keys.discard("")
+    return keys
+
+
+def remove_covered_operators(
+    events: list[dict], operator_names: list[str]
+) -> tuple[list[dict], list[tuple[str, str]], list[str], list[str]]:
+    """Drops any '#### Name' entry matching one of this raw article's own
+    operators (see heading_name_keys for how names are compared), since
+    they're no longer upcoming. An event left with zero entries is dropped
+    entirely.
+
+    Returns (events, removed, dropped_events, unmatched):
+      removed         [(event title, heading as written in lookahead.md), ...]
+      dropped_events  titles of events removed because they ended up empty
+      unmatched       operator names from the raw that matched no entry
+    """
+    wanted = {normalize_name(n): n for n in operator_names}
+    matched: set[str] = set()
     filtered_events = []
+    removed: list[tuple[str, str]] = []
+    dropped_events: list[str] = []
     for ev in events:
-        kept_entries = [
-            (name, body)
-            for name, body in ev["entries"]
-            if not any(raw_name in name.lower() for raw_name in lowered_names)
-        ]
+        kept_entries = []
+        for name, body in ev["entries"]:
+            hits = heading_name_keys(name) & wanted.keys()
+            if hits:
+                matched |= hits
+                removed.append((ev["title"], name))
+            else:
+                kept_entries.append((name, body))
         if kept_entries:
             filtered_events.append({**ev, "entries": kept_entries})
-    return filtered_events
+        elif ev["entries"]:
+            dropped_events.append(ev["title"])
+        else:
+            filtered_events.append(ev)
+    unmatched = [n for key, n in wanted.items() if key not in matched]
+    return filtered_events, removed, dropped_events, unmatched
 
 
 def extract_raw_lookaheads_entries(article_sections: list[tuple[str, str]]) -> list[tuple[str, str]]:
@@ -283,11 +331,14 @@ def render_events(events: list[dict]) -> str:
 
 
 def build_unit_lookaheads_section(
-    lookahead_text: str, article: bav.Article, character_table: dict, operator_pools: dict, pools: dict
+    lookahead_text: str, article: bav.Article, character_table: dict, operator_pools: dict, pools: dict,
+    report: dict | None = None,
 ) -> str:
     events = parse_unit_lookaheads_events(lookahead_text)
     operator_names = [op.name for op in article.operators]
-    events = remove_covered_operators(events, operator_names)
+    events, removed, dropped_events, unmatched = remove_covered_operators(events, operator_names)
+    if report is not None:
+        report.update(removed=removed, dropped_events=dropped_events, unmatched=unmatched)
 
     raw_lookaheads_entries = extract_raw_lookaheads_entries(article.sections)
     new_event = build_new_stub_event(raw_lookaheads_entries, character_table, operator_pools, pools)
@@ -298,8 +349,11 @@ def build_unit_lookaheads_section(
 
 
 def build_lookahead_output(
-    lookahead_text: str, article: bav.Article, character_table: dict, operator_pools: dict, pools: dict
+    lookahead_text: str, article: bav.Article, character_table: dict, operator_pools: dict, pools: dict,
+    report: dict | None = None,
 ) -> str:
+    """`report`, if given, is filled with what the removal step did:
+    'removed', 'dropped_events' and 'unmatched' (see remove_covered_operators)."""
     prefix = extract_prefix(lookahead_text)
     existing_notes = extract_existing_notes(lookahead_text)
 
@@ -309,10 +363,35 @@ def build_lookahead_output(
 
     overall_section = build_overall_pull_priority(blurb_paragraphs, tier_rows, existing_notes)
     blurbs_section = build_pull_priority_blurbs(blurbs)
-    unit_lookaheads_section = build_unit_lookaheads_section(lookahead_text, article, character_table, operator_pools, pools)
+    unit_lookaheads_section = build_unit_lookaheads_section(lookahead_text, article, character_table, operator_pools, pools, report)
 
     parts = [prefix, overall_section, blurbs_section, unit_lookaheads_section]
     return "\n\n".join(parts) + "\n"
+
+
+def print_removal_report(report: dict) -> None:
+    """Says on stdout exactly which lookahead entries were removed (and which
+    events went with them), and warns on stderr about any operator of this
+    raw that wasn't found — a silent miss is how a released operator ends up
+    left behind in the lookahead."""
+    removed = report.get("removed", [])
+    if removed:
+        print(f"\nRemoved {len(removed)} operator(s) from the lookahead (covered by this article):")
+        for event_title, heading in removed:
+            print(f"  - {heading}   [event: {event_title}]")
+    else:
+        print("\nRemoved 0 operators from the lookahead.")
+    for title in report.get("dropped_events", []):
+        print(f"Dropped event with no operators left: {title}")
+    unmatched = report.get("unmatched", [])
+    if unmatched:
+        print(
+            f"\nWARNING: {len(unmatched)} operator(s) from this article were NOT found in the lookahead, "
+            f"so nothing was removed for them: {', '.join(unmatched)}\n"
+            f"         If they were never in the lookahead this is fine. Otherwise check the "
+            f"'#### ' heading in lookahead.md and remove the entry by hand.",
+            file=sys.stderr,
+        )
 
 
 def main() -> None:
@@ -334,7 +413,8 @@ def main() -> None:
     operator_pools = load_yaml_map(args.operator_pools)
     pools = load_yaml_map(args.pools)
 
-    output = build_lookahead_output(lookahead_text, article, character_table, operator_pools, pools)
+    report: dict = {}
+    output = build_lookahead_output(lookahead_text, article, character_table, operator_pools, pools, report)
 
     stem = args.raw_file.stem
     slug = stem[:-4] if stem.endswith("-raw") else stem
@@ -343,6 +423,7 @@ def main() -> None:
     out_path = out_dir / f"{slug}-ica-lookahead.md"
     out_path.write_text(output, encoding="utf-8")
     print(f"wrote {out_path}")
+    print_removal_report(report)
 
     print(
         f"\nREMINDER: review {out_path} before replacing content/masteries/lookahead.md. "
