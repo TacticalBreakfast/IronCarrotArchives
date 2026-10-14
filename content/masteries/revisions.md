@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**October 14, 2026**
+
+Updated Kal2 to reflect the lack of a dot in her localization.
+
 **October 12, 2026**
 
 Update for Episode 17. Added Kal2, Closure, Viy, and Crackborne. Updated the lookaheads and moved People, A People units into the main guide.

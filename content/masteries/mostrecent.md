@@ -2,7 +2,7 @@
 draft = false
 date = 2026-10-12T15:20:00-04:00
 title = 'Most Recent Update - Episode 17 - Critical Phase Transition'
-summary = "Arknights Mastery Priority guide for the most recent global update, Episode 17 - Critical Phase Transition — covering Kal'tsit·Esperanta, Closure, Crackborne, and Viy — with skill recommendations and Priority rankings for the latest banner operators."
+summary = "Arknights Mastery Priority guide for the most recent global update, Episode 17 - Critical Phase Transition — covering Kal'tsit Esperanta, Closure, Crackborne, and Viy — with skill recommendations and Priority rankings for the latest banner operators."
 weight = 9
 [params]
   author = 'TacticalBreakfast'
@@ -19,11 +19,11 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 {{< article-links sg="https://sanitygone.help/en/guides/mastery-ep17/" ld="https://lungmendragons.com/guides/ep17-mastery" reddit="https://www.reddit.com/r/arknights/comments/1x4fxm2/a_mastery_priority_guide_should_you_pull_episode/" >}}
 
-### Kal'tsit·Esperanta
+### Kal'tsit Esperanta
 
-{{< mastery-table-enhanced id="1052_kalts2" rows="S2M3,S++,S++|S3M3,A-,S" en_link="https://sanitygone.help/en/operators/kaltsit%C2%B7esperanta/" >}}
+{{< mastery-table-enhanced id="1052_kalts2" rows="S2M3,S++,S++|S3M3,A-,S" en_link="https://sanitygone.help/en/operators/kaltsit%C2%B7esperanta/" cn_link="https://prts.wiki/w/%E5%87%AF%E5%B0%94%E5%B8%8C%C2%B7%E6%80%9D%E8%A1%A1%E6%89%98">}}
 
-Kal'tsit makes her extremely predictable return to Rhodes Island with an annoying non-standard character in her name that isn't on my keyboard and... is still a Medic that does True Damage. I'm not sure what I expected. In any case, her new form is incredibly powerful, albeit in a slightly subtle way. I say subtle because while AoE True Damage isn't exactly subtle itself, the total value of her kit including that True Damage, strong AoE healing, control, permanent Take-Off that makes her immune to most damage and mechanics, and an Advanced flex skill, come together in a very powerful and flexible package that tends to be even more than the sum of the parts. Especially considering Medics tend to be fairly rare, Kal'tsit dot Esperanta should be meta for a good long while.
+Kal'tsit makes her extremely predictable return to Rhodes Island with an annoying non-standard character in her name¹ that isn't on my keyboard and... is still a Medic that does True Damage. I'm not sure what I expected. In any case, her new form is incredibly powerful, albeit in a slightly subtle way. I say subtle because while AoE True Damage isn't exactly subtle itself, the total value of her kit including that True Damage, strong AoE healing, control, permanent Take-Off that makes her immune to most damage and mechanics, and an Advanced flex skill, come together in a very powerful and flexible package that tends to be even more than the sum of the parts. Especially considering Medics tend to be fairly rare, Kal'tsit dot Esperanta should be meta for a good long while.
 
 As with many units with a lot of parts and flexibility, she has two key skills with differing usage. However, in Kal2’s case, one skill has a significantly more valuable Mastery, her S2. With it, she gains 10 shots, each of which deals a wide swath of AoE True Damage to enemies, and big healing to allies. Then add in a long 5 second Slow that will keep enemies in range snared for the entire duration, while permanently floating, and you have an extremely powerful all-in-one skill that can solve a *lot* of problems. There is some mechanical "fiddliness" to it due to her prioritization of enemies, but unlike the now ancient Folinic, the splash range is wide enough, and the impact per shot big enough, that an occasional misplaced shot doesn't really matter much.
 
@@ -34,6 +34,8 @@ Next, her S3 is one of the real "highlight" skills. It can pull off some really 
 However, the weird thing with it is that her S3 Masteries aren't all that essential to that function. They do matter and do have an impact, but often not in a way that more casual Story centric players will care about, especially for an occasional use skill. Mastery represents a 15 SP improvement to her initial wind-up, a 10 SP cycle time improvement via reduced SP cost, plus some additional healing. The initial SP is probably the most notable part since it is a rather large amount, but it's not often a skill that's helidropped. The cycle time via SP cost is also quite strong, especially given the high base cost, but it's also rarely the kind of skill that gets activated immediately off cooldown. Finally, the healing on it is actually pretty strong, and can very much matter, especially in the high pressure situations the skill is used in, but isn't the key aspect of the skill. These are all things that absolutely will matter in min-maxed scenarios, but may not matter at all in casual gameplay. So whether her S3 Masteries are worth pursuing or not depends on the kind of player you are, and for many with limited resources, it may be a skip entirely, at least in the short-term.
 
 Last, probably pass on her S1. The interval reduction on her S3 means that the healing difference between the skills is comparable, so the main difference comes down to SP cost and the extra block count vs aerial enemies. The former doesn't justify an expensive 6★ Mastery, especially when her S2 is a far better daily driver, and the latter, like so many similar skills, just isn't valuable with the current design of the game.
+
+¹ They removed the dot from the EN version so now this doesn't make sense. Oh well.
 
 {{< last-updated "2026-10-12" >}}
 
@@ -71,7 +73,7 @@ As for her S1, it's a very fringe consideration. Skills like this do have some n
 
 ### Viy
 
-{{< mastery-table-enhanced id="4226_veen" rows="S3M3,C,None|S2M3,None,None" en_link="https://sanitygone.help/en/operators/vij/">}}
+{{< mastery-table-enhanced id="4226_veen" rows="S3M3,C,None|S2M3,None,None" en_link="https://sanitygone.help/en/operators/vij/" cn_link="https://prts.wiki/w/%E7%BB%B4%E4%BC%8A">}}
 
 Even by the standards of welfare 6★s, Viy is extremely uninspired. He's a Mystic Caster, who are already weak in the modern meta, but doesn't even do the thing Mystic Casters are good at all that well. A *four* year old unit who wasn't great when he was new either, Ebenholz, does it better. Viy instead trades the big single-target blast for chain damage. Then, as a 6★, he's also very expensive to promote. Other recent welfare 6★s have had some respectable niche value, but that isn't the case with Viy, meaning he's a unit to avoid raising at all. However, that said, he isn't actually bad enough to be completely ungraded by the standards of this guide. If he appeals to you, he does enough damage to be usable. Just keep in mind that he is entirely a desire-only promotion!
 
