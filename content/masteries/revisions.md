@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**October 15, 2026**
+
+Updated the gain numbers on Kal2's S3. I fatfingered it and was off by a digit. Also added a missing breakpoint to Chen3's S3.
+
 **October 14, 2026**
 
 Updated Kal2 to reflect the lack of a dot in her localization.
