@@ -109,9 +109,9 @@ Probably pass on his S2. While it is potentially useful, the problem is it only 
 
 ### Kal'tsit
 
-{{< mastery-table-is id="003_kalts" rows="S3M3,S+,S,S+ *|S2M3,B+,B,A+ *" >}}
+{{< mastery-table-enhanced id="003_kalts" rows="S3M3,S+,S|S2M3,B+,B" >}}
 
-\* *Note that Kal'tsit has a specialized IS Module. However, unlike most with these Modules, Kal'tsit is a powerful unit already. IS grades are included here for clarity, but special consideration for IS specifically is lesser than it is on others.*
+\* *Note that Kal'tsit has a specialized IS Module, however unlike many with these Modules, the impact of it on Kal'tsit doesn't change her evaluation. She is solid already, and the Module is of a similar power level, so special consideration for IS is not needed.*
 
 Kal'tsit has long been a strong unit. While taking up two deploy slots and a 30 total DP cost is a high price, her mix of healing along with Mon3tr's bulk, flexibility, and valuable True Damage, plus a powerful ISW Module, has all meant Kal'tsit is also still quite a powerful unit that's well worth the resources, even in the era of modern powercreep. Even with Mon3tr now separated and replicating many aspects as a high end meta unit, the original is still quite valuable!
 

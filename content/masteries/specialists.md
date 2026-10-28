@@ -206,7 +206,9 @@ You likely won't want to bother with her S1. It's best focused on single hard ta
 
 {{< mastery-table-enhanced id="1023_ghost2" rows="S2M3,A *,A *|S3M3,B *,B *" >}}
 
-\* *Note that Specter2's skills are graded assuming she has either Module (favor PUM-X) at level 3. If you do not plan to get either Module fully upgraded, treat the priority of these skills significantly lower.*
+\* *Note that Specter the Unchained's skills are graded assuming she has either Module (favor PUM-X for regular play or ISW-α for IS) at level 3. If you do not plan to get any Module fully upgraded, treat the priority of these skills significantly lower.*
+
+\* *Note that Specter the Unchained's has a specialized IS Module, however unlike many with these Modules, the impact of it on Specter doesn't change her evaluation. She is solid already, and the Module is of a similar power level, so special consideration for IS is not needed.*
 
 Specter the Unchained is a decent unit in the modern game thanks to strong damage, invulnerability, and the ever valuable archetype, although a portion of her meta value is carried by the rather popular Abyssal Hunter niche. She’s interesting historically because she was broadly panned as the worst 6★ on release, but was one of the earliest benefactors of the Module leveling system. Modules used to be just the base level, but the patch right after her introduction, the upgrades were introduced. HG understood what she needed, and in rare fashion, actually gave it to her. Which is a long winded way of saying, Specter2 has vital Module considerations. Two, actually! This interconnection can make for a rather expensive unit to maximize, especially as the power ceiling rises, although fortunately one does tend to be much more valuable than the other.
 

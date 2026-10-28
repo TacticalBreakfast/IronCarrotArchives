@@ -97,6 +97,8 @@ Meanwhile, her S2 allows for nearly continuous uptime from the Hunter ammo mecha
 
 {{< mastery-table-enhanced id="2012_typhon" rows="S3M3,S-,A+,Breakpoint - S3M1|S2M3,A+,A" >}}
 
+\* *Note that Typhon has a specialized IS Module, however unlike many with these Modules, the impact of it on Typhon doesn't change her evaluation. She is solid already, and the Module is of a similar power level, so special consideration for IS is not needed.*
+
 Typhon has one of the more dramatic drops in public opinion between her reveal on CN and her release on global. She came out after a few rather middling banners, and looked pretty amazing then. She had huge range, utility, great damage, and a quality AFK skill to boot! But she came at the forefront of a hefty streak of powercreep, and by her release on global there had been a number of much more powerful banners including a near direct powercreep in Ray, and they'd both get powercrept by Wiš'adel not long after! It all makes Typhon look a lot less impressive than many people will remember.
 
 That bit of history aside, Typhon is still a powerful unit. All of those bits about her range and damage are still true today. There's just a lot of competition now too and her ceiling is quite a bit lower as every new broken banner passes. With that in mind, Typhon is a strong M6, so you'll want to consider both if you plan to use her, but the primary skill to start with will depend on what you want out of her and her other options.

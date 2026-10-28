@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**October 28, 2026**
+
+Added a note on Typhon and Specter the Unchained to reflect their IS Module, but no actual changes were made to their grades or write-up. Additionally, removed Kal'tsit1's IS grades and updated her IS Module note since her evaluation is similar here, in that she's a good unit but special consideration for IS isn't needed.
+
 **October 15, 2026**
 
 Updated the gain numbers on Kal2's S3. I fatfingered it and was off by a digit. Also added a missing breakpoint to Chen3's S3.
