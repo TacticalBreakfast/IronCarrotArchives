@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**November 3, 2026**
+
+Fixed typos in Ray's and Pramanix's write-ups. Ray's was especially funny. Fruedian slipped in a Sand *Breast* instead of beast. Woopsie.
+
 **October 28, 2026**
 
 Added a note on Typhon and Specter the Unchained to reflect their IS Module, but no actual changes were made to their grades or write-up. Additionally, removed Kal'tsit1's IS grades and updated her IS Module note since her evaluation is similar here, in that she's a good unit but special consideration for IS isn't needed.
