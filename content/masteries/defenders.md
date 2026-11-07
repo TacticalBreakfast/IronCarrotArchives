@@ -174,7 +174,7 @@ Her other skills just don't have as big of impact as her S3, which makes the cho
 
 It is worth a minor note that her RA specific Module is decent for that mode. However, it isn’t recommended to spend all the resources on Eune just for that. She's still quite poor elsewhere, and the powerspike leading up to RA3 along with more limited teamspace means her combat-oriented Module isn't even especially good in the most recent iteration anymore.
 
-{{< last-updated "2021-11-07" >}}
+{{< last-updated "2026-11-07" >}}
 
 
 ### Nian
