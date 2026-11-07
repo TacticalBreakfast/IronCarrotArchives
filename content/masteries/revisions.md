@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**November 7, 2026**
+
+Updated a reference in Eune's writeup to RA3.
+
 **November 3, 2026**
 
 Fixed typos in Ray's and Pramanix's write-ups. Ray's was especially funny. Fruedian slipped in a Sand *Breast* instead of beast. Woopsie.

@@ -172,9 +172,9 @@ This is all to say, Eunectes' Mastery priority is near as low as it gets among t
 
 Her other skills just don't have as big of impact as her S3, which makes the choice fairly straightforward. Instead, a Module should be the secondary investment. However, if you're looking to get the absolute maximum out of the sexy snake, look at her S2. It has a long continuous Stun that can occasionally be very useful. However, the Mastery gains on it aren't especially great for that purpose either so it's a very fringe option on an already fringe and expensive 6★.
 
-It is worth a minor note that her RA specific Module is quite good for that mode. However, it isn’t recommended to spend all the resources on Eune just for that. She’s still quite poor elsewhere and the mode is definitely beatable without her. The suggestion may change if HG ever decides to implement RA3, but until then, it should have no influence on her priority.
+It is worth a minor note that her RA specific Module is decent for that mode. However, it isn’t recommended to spend all the resources on Eune just for that. She's still quite poor elsewhere, and the powerspike leading up to RA3 along with more limited teamspace means her combat-oriented Module isn't even especially good in the most recent iteration anymore.
 
-{{< last-updated "2025-10-06" >}}
+{{< last-updated "2021-11-07" >}}
 
 
 ### Nian
