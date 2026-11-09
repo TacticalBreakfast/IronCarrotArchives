@@ -1,0 +1,12 @@
+{{- /*
+  ica/efficiency/level.html — highlight class for a value on the recent page.
+  Input dict: value, average, top -- the recent operators of the same rarity.
+  eff-hi at or above the top quartile, eff-above above the average.
+  Returns "" / "eff-above" / "eff-hi".
+  The same rule runs in assets/js/efficiency.js for other eras; keep them in step.
+*/ -}}
+{{- $out := "" -}}
+{{- if and (ne .value nil) .average -}}
+  {{- if ge .value .top }}{{ $out = "eff-hi" }}{{ else if gt .value .average }}{{ $out = "eff-above" }}{{ end -}}
+{{- end -}}
+{{- return $out -}}

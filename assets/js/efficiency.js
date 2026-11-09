@@ -1,0 +1,177 @@
+/*
+ * Efficiency pages (shortcodes efficiency-era / -roster / -recent / -tickets).
+ *
+ * The page is rendered for the default era; everything here is optional
+ * enhancement. Picking an era fetches the generated numbers for every era
+ * (one JSON file, URL in data-eff-src) and rewrites the cells that carry
+ * data-eff-* attributes. No sums are done here -- values come precomputed
+ * from tools/build_item_values.py. Also: roster sorting and filters.
+ *
+ * Highlights (recent page only) must match
+ * layouts/partials/ica/efficiency/level.html: cells inside
+ * data-eff-scale="recent" compare with the recent operators of the same
+ * rarity (top quartile = hi, above average = above) and aren't coloured
+ * when that rarity has a single recent operator. The roster isn't coloured.
+ */
+(function () {
+  "use strict";
+
+  var STORE_KEY = "ica-efficiency-era";
+  var fmt = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
+  var selectors = document.querySelectorAll(".eff-era");
+  var data = null, pending = null;
+
+  function store(era) {
+    try { localStorage.setItem(STORE_KEY, era); } catch (e) { /* private mode etc. */ }
+  }
+  function stored() {
+    try { return localStorage.getItem(STORE_KEY); } catch (e) { return null; }
+  }
+  function status(text) {
+    selectors.forEach(function (s) { s.querySelector(".eff-era__status").textContent = text; });
+  }
+
+  function load(src) {
+    if (data) return Promise.resolve(data);
+    if (!pending) {
+      pending = fetch(src).then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function (d) { data = d; return d; });
+      pending.catch(function () { pending = null; });  // allow a retry
+    }
+    return pending;
+  }
+
+  function num(v) { return v === null || v === undefined ? "—" : fmt.format(v); }
+  function level(cell, value, average, top) {
+    cell.classList.remove("eff-hi", "eff-above");
+    if (value === null || value === undefined || !average) return;
+    if (value >= top) cell.classList.add("eff-hi");
+    else if (value > average) cell.classList.add("eff-above");
+  }
+
+  function render(era) {
+    var i = data.eras.indexOf(era);
+    if (i < 0) return false;
+    var ops = data.operators[i];
+    document.querySelectorAll("[data-eff-op]").forEach(function (cell) {
+      var v = ops.operators[cell.dataset.effOp];
+      if (!v) return;
+      var col = cell.dataset.effCol;
+      var value = col === "p" ? v.promotion : v.skills[+col];
+      var rarity = cell.closest("tr").dataset.rarity;
+      var kind = col === "p" ? "promotion" : "mastery";
+      cell.textContent = num(value);
+      cell.dataset.sort = value === null || value === undefined ? "" : value;
+      if (cell.closest('[data-eff-scale="recent"]')) {
+        var rs = data.recent[i].rarities[rarity];
+        if (rs && rs.count >= 2) level(cell, value, rs[kind + "_average"], rs[kind + "_top_quartile"]);
+        else level(cell, null);
+      }
+    });
+    var groups = data.recent[i].groups;
+    document.querySelectorAll("[data-eff-group]").forEach(function (cell) {
+      var value = groups[+cell.dataset.effGroup][cell.dataset.effStat];
+      var signed = cell.hasAttribute("data-eff-signed") && value > 0;
+      cell.textContent = (signed ? "+" : "") + num(value);
+    });
+    var packs = Object.assign({}, data.packs.base, data.packs.eras[i].values);
+    document.querySelectorAll("[data-eff-item]").forEach(function (cell) {
+      cell.textContent = num(packs[cell.dataset.effItem]);
+    });
+    return true;
+  }
+
+  function choose(era, remember) {
+    selectors.forEach(function (s) {
+      var input = s.querySelector('input[value="' + era + '"]');
+      if (input) input.checked = true;
+    });
+    if (remember) store(era);
+    status("Loading…");
+    load(selectors[0].dataset.effSrc).then(function () {
+      status(render(era) ? "" : "Unknown era.");
+    }).catch(function () {
+      status("Couldn’t load the other eras — the numbers shown are for the current shop.");
+    });
+  }
+
+  if (selectors.length) {
+    var defaultEra = selectors[0].dataset.effDefault;
+    selectors.forEach(function (s) {
+      s.addEventListener("change", function (e) {
+        if (e.target.name && e.target.name.indexOf("eff-era") === 0) choose(e.target.value, true);
+      });
+    });
+    var saved = stored();
+    if (saved && saved !== defaultEra && selectors[0].querySelector('input[value="' + saved + '"]')) {
+      choose(saved, false);
+    }
+  }
+
+  /* ---- Roster: sorting and filters ------------------------------------- */
+  document.querySelectorAll(".eff-roster").forEach(function (roster) {
+    var tbody = roster.querySelector("tbody");
+    var rows = Array.prototype.slice.call(tbody.rows);
+    var rarity = "all", cls = "";
+    var count = roster.querySelector("[data-eff-count]");
+
+    function filter() {
+      var shown = 0;
+      rows.forEach(function (row) {
+        var ok = (rarity === "all" || row.dataset.rarity === rarity) && (!cls || row.dataset.class === cls);
+        row.hidden = !ok;
+        if (ok) shown++;
+      });
+      count.textContent = shown + (shown === 1 ? " operator" : " operators");
+    }
+    roster.querySelectorAll("[data-eff-rarity]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        rarity = btn.dataset.effRarity;
+        roster.querySelectorAll("[data-eff-rarity]").forEach(function (b) {
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+        filter();
+      });
+    });
+    roster.querySelector("[data-eff-class]").addEventListener("change", function (e) {
+      cls = e.target.value;
+      filter();
+    });
+
+    var current = { key: null, dir: 1 };
+    function sortValue(row, key) {
+      if (key === "name") return row.dataset.name;
+      if (key === "rarity") return row.dataset.key;    // "<9 - rarity>|name": 6★ first, then A-Z
+      if (key === "class") return row.dataset.class + "|" + row.dataset.name;
+      var cell = row.querySelector('[data-eff-col="' + key + '"]');
+      if (!cell) return null;
+      var s = cell.dataset.sort !== undefined ? cell.dataset.sort : cell.textContent.replace(/[^0-9.]/g, "");
+      return s === "" ? null : +s;
+    }
+    roster.querySelectorAll("[data-eff-sort]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var key = btn.dataset.effSort;
+        var numeric = key !== "name" && key !== "class" && key !== "rarity";
+        // Costs sort highest first on the first click; text A-Z.
+        current.dir = current.key === key ? -current.dir : (numeric ? -1 : 1);
+        current.key = key;
+        rows.sort(function (a, b) {
+          var x = sortValue(a, key), y = sortValue(b, key);
+          if (x === null && y === null) return 0;
+          if (x === null) return 1;             // blanks always last
+          if (y === null) return -1;
+          if (x < y) return -current.dir;
+          if (x > y) return current.dir;
+          return 0;
+        });
+        rows.forEach(function (row) { tbody.appendChild(row); });
+        roster.querySelectorAll("[data-eff-sort]").forEach(function (b) {
+          b.closest("th").removeAttribute("aria-sort");
+        });
+        btn.closest("th").setAttribute("aria-sort", current.dir === 1 ? "ascending" : "descending");
+      });
+    });
+  });
+})();

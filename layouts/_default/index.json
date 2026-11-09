@@ -11,6 +11,9 @@
     lookahead  #### Name  + next line is **6★ · Pool**              (lookahead)
     term       ###  Term  on a page listed in $termPages              (glossary)
 
+  Plus one entry per operator on the efficiency roster page (front matter
+  efficiencyRoster = true), from data/efficiencies/operator_costs.json.
+
   It also normalizes curly quotes to straight ones in every entry. Hugo's
   typographer renders ' as ’, so without this a typed search for "ch'en" or
   "kal'tsit" matched nothing.
@@ -55,6 +58,29 @@
       {{- $entry = merge $entry (dict "date" (.Date | time.Format (.Site.Language.Params.dateFormat | default ":date_long"))) -}}
     {{- end -}}
     {{- $index = $index | append $entry -}}
+
+    {{- /* Efficiency roster: one entry per operator, linking to their row. Built from the
+           generated data rather than the page text, so it can't drift from the table. */ -}}
+    {{- if .Params.efficiencyRoster -}}
+      {{- $page := . -}}
+      {{- range $id, $op := hugo.Data.efficiencies.operator_costs.operators -}}
+        {{- if ge $op.rarity 4 -}}
+          {{- $name := $op.name -}}
+          {{- with $op.name_romanized }}{{ $name = printf "%s (%s)" $op.name . }}{{ end -}}
+          {{- $sub := (index $chars $id).sub_profession_name -}}
+          {{- /* CN-only operators: characters.yml has no subclass name until EN localizes it. */ -}}
+          {{- if or (not $sub) (eq $sub "unknown") }}{{ $sub = $op.class_name }}{{ end -}}
+          {{- $index = $index | append (dict
+            "title" (partial "inline/search/norm.html" $name | safeJS)
+            "section" ($page.LinkTitle | safeJS)
+            "summary" (printf "%d★ · %s · E2 and M3 costs" (int $op.rarity) $sub | safeJS)
+            "content" (partial "ica/fold.html" (partial "inline/search/norm.html" $name) | safeJS)
+            "permalink" (printf "%s#op-%s" $page.RelPermalink $id)
+            "type" "roster"
+          ) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
 
     {{- /* Heading-level entries for Masteries pages. */ -}}
     {{- if and (eq .Section "masteries") .File -}}

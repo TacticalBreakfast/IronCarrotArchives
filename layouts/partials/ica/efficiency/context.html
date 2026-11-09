@@ -1,0 +1,44 @@
+{{- /*
+  ica/efficiency/context.html — shared lookups for the efficiency shortcodes.
+  Call: partialCached "ica/efficiency/context.html" . "efficiency-context"
+
+  Everything comes from data/efficiencies/*.json (tools/build_item_values.py);
+  templates only display numbers, they never calculate them.
+
+  Returns:
+    values, costs     the two generated files
+    era               the default era's operator_values entry
+    eraIndex          its position in every eras list (all lists share one order)
+    recent            the default era's recent_operators entry
+    packs             {item id: value} for the default era (packs profile)
+    dataURL           URL of the JSON the era selector fetches for other eras
+*/ -}}
+{{- $values := hugo.Data.efficiencies.item_values -}}
+{{- $costs := hugo.Data.efficiencies.operator_costs -}}
+{{- $eraIndex := 0 -}}
+{{- range $i, $e := $values.operator_values.eras -}}
+  {{- if eq $e.id $values.default_era }}{{ $eraIndex = $i }}{{ end -}}
+{{- end -}}
+{{- $packEra := index $values.profiles.packs.eras $eraIndex -}}
+
+{{- /* Everything the browser needs to redraw for another era, as one file. */ -}}
+{{- $eraIds := slice -}}
+{{- range $values.operator_values.eras }}{{ $eraIds = $eraIds | append .id }}{{ end -}}
+{{- $data := dict
+  "default" $values.default_era
+  "eras" $eraIds
+  "operators" $values.operator_values.eras
+  "recent" $values.recent_operators.eras
+  "packs" $values.profiles.packs
+-}}
+{{- $res := resources.FromString "data/efficiency-eras.json" ($data | jsonify) | resources.Fingerprint "sha256" -}}
+
+{{- return dict
+  "values" $values
+  "costs" $costs
+  "era" (index $values.operator_values.eras $eraIndex)
+  "eraIndex" $eraIndex
+  "recent" (index $values.recent_operators.eras $eraIndex)
+  "packs" (merge $values.profiles.packs.base $packEra.values)
+  "dataURL" $res.RelPermalink
+-}}

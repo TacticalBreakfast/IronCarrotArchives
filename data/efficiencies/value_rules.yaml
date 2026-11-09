@@ -1,0 +1,128 @@
+# Hand-edited rules for tools/build_item_values.py, which generates
+# data/efficiencies/item_values.json. Edit this file, then rerun the script;
+# never hand-edit the generated JSON.
+#
+# Base values come from assets/game_img/processed/item_efficiency.json (an
+# export of yituliu's CN material values). Everything below adjusts or extends
+# those values.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Infinite-shop eras
+#
+# Materials added to the infinite shop, OLDEST FIRST. Each addition made the
+# material near-worthless, so the current values understate what these were
+# worth before. An era is "the shop contains everything up to and including
+# this entry"; there is also a "none" era from before the first addition.
+#
+# full_value = the material's sanity value before it joined the shop. Write it
+# down when a new material is added -- after the change, the new export no
+# longer shows it.
+#
+# Older eras are rebuilt from today's values: each listed material not yet in
+# the shop goes back to its full_value, and the change flows up through the
+# workshop recipes into every crafted material that uses it. Nothing else
+# changes (the workshop byproduct credit is held at today's amount).
+# ─────────────────────────────────────────────────────────────────────────────
+infinite_shop:
+  - id: "30073"
+    name: Loxic Kohl
+    full_value: 22.98   # 2024 farm sheet
+  - id: "30083"
+    name: Manganese Ore
+    full_value: 26.67   # 2024 farm sheet
+  - id: "30093"
+    name: Grindstone
+    full_value: 31.34   # 2024 farm sheet
+  - id: "30103"
+    name: RMA70-12
+    full_value: 37.35   # 2024 farm sheet
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Packs profile
+#
+# The "packs" profile is the standard values plus the items below, valued for
+# judging shop packs. yituliu values these by what they cost to farm or by
+# their own discounting; for a pack, what matters is what they save you.
+#
+# These are RULES, not typed numbers: they're computed from the operator costs
+# and item values, so they follow new operators, new exports and each era.
+# Averages use every obtainable operator of the rarity, CN-only included.
+# ─────────────────────────────────────────────────────────────────────────────
+packs:
+  # Sanity per point of operator XP. Battle Records are valued at their full
+  # XP (XP amounts come from the game data); also used to value the XP part of
+  # the training items below. LMD uses its standard value.
+  xp_value: 0.0036
+
+  # Full value XP.
+  battle_records: ["2001", "2002", "2003", "2004"]
+
+  # Training Apparatus: levels an E2 operator from 1 to max.
+  # Value = that rarity's E2 levelling XP and LMD.
+  training_apparatus:
+    voucher_levelmax_4: 4
+    voucher_levelmax_5: 5
+    voucher_levelmax_6: 6
+
+  # Invitation Letters: take an operator from E0 level 1 to E2 level 1.
+  # Value = the rarity's average E1 + E2 promotion cost (materials, chips and
+  # LMD) + E0 and E1 levelling. Alternate forms (Amiya) count once.
+  invitation_letters:
+    voucher_elite_II_4: 4
+    voucher_elite_II_5: 5
+    voucher_elite_II_6: 6
+
+  # Skill Training Packs: take one skill from M0 to M3.
+  # Value = the rarity's average M1-M3 cost over ALL skills (not just S1),
+  # Skill Summaries included at each skill's real count.
+  skill_training_packs:
+    voucher_skill_specialLevelMax_4: 4
+    voucher_skill_specialLevelMax_5: 5
+    voucher_skill_specialLevelMax_6: 6
+
+  # Material vouchers: redeem for one material of a tier. Value = the average
+  # of the `top` most valuable materials of that tier (you'd pick a valuable
+  # one), CN-only materials included.
+  material_vouchers:
+    advanced_material_issue_voucher: {tier: 3, top: 5}
+    premium_material_issue_voucher: {tier: 4, top: 5}
+    # Only the top 3 for Tier 5: there are few, and the cheapest is far below.
+    precious_material_voucher_perm: {tier: 5, top: 3}
+    rare_material_issue_voucher: {tier: 5, top: 3}   # yituliu's id for the same voucher
+
+  # Fixed values.
+  fixed:
+    classic_gacha: 0      # Kernel Headhunting Permit -- avoid Kernel
+    classic_gacha_10: 0   # Ten-roll Kernel Headhunting Permit -- avoid Kernel
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Recent operators
+#
+# Promotion and mastery values of recently released operators -- the ones a
+# paid E2 / M3 ticket is most often used on -- compared with the average
+# operator of the same rarity.
+#
+# Values are total costs -- exactly what the ticket saves for that operator:
+#   promotion = E0 level 1 -> E2 level 1: E1 + E2 materials, chips and LMD,
+#               plus E0 and E1 levelling (an Invitation Letter's coverage)
+#   mastery   = one skill M0 -> M3, Skill Summaries included (a Skill
+#               Training Pack's coverage)
+# XP is valued at packs: xp_value. Averaged over every operator of a rarity,
+# these equal the packs profile's Invitation Letter / Skill Training Pack.
+#
+# Release order comes from assets/game_img/processed/release_log.csv (CN
+# release; patches keyed by start date). Operators promoted through gameplay
+# are excluded, as everywhere else.
+# ─────────────────────────────────────────────────────────────────────────────
+recent_operators:
+  patches: 10        # the most recent CN patches to include
+  # Each group is shown as its own list, one per rarity like the rest of the
+  # guide. A group may be empty (4-stars are rarely released); the page then
+  # leaves it out.
+  groups:
+    - label: "6★"
+      rarities: [6]
+    - label: "5★"
+      rarities: [5]
+    - label: "4★"
+      rarities: [4]

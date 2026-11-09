@@ -15,8 +15,71 @@ defaults:
   run:
     shell: bash
 jobs:
+  regenerate:
+    # Rebuilds data/efficiencies/*.json (tools/build_item_values.py) when any of
+    # its inputs changed -- usually game data arriving via the assets submodule
+    # -- and commits the result back, so the repo holds what is deployed. The
+    # commit message summarises what changed; `git log -- data/efficiencies/`
+    # is the change log. Most runs change nothing and take a few seconds.
+    #
+    # The only job allowed to write to the repo. Pushes made with this token
+    # don't trigger another run, so there is no loop; the build below uses the
+    # regenerated files directly (artifact), whether or not the push lands.
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+      - name: Install Python dependencies
+        run: pip install pyyaml
+      - name: Regenerate efficiency data
+        run: python3 tools/build_item_values.py --summary "${RUNNER_TEMP}/summary.txt"
+      - name: Commit and push
+        run: |
+          if [ ! -f "${RUNNER_TEMP}/summary.txt" ]; then
+            echo "No input changed. Nothing to commit."
+            exit 0
+          fi
+          {
+            echo '```'
+            cat "${RUNNER_TEMP}/summary.txt"
+            echo '```'
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/efficiencies
+          if git diff --staged --quiet; then
+            echo "Regenerated files are unchanged. Nothing to commit."
+            exit 0
+          fi
+          git commit -F "${RUNNER_TEMP}/summary.txt"
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            # Someone pushed to the branch while this ran; the regenerated
+            # files don't conflict with anything else, so rebase and retry.
+            echo "Push rejected (attempt ${attempt}/5), rebasing onto latest and retrying..."
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+          done
+          # Don't block the deploy: it uses the regenerated files regardless,
+          # and the next run regenerates again because the repo is still stale.
+          echo "::warning::Could not push regenerated efficiency data after 5 attempts; the next run will retry."
+      - name: Upload efficiency data
+        uses: actions/upload-artifact@v7
+        with:
+          name: efficiency-data
+          path: data/efficiencies/
+          retention-days: 1
   build:
     runs-on: ubuntu-latest
+    needs: regenerate
     env:
       DART_SASS_VERSION: 1.101.0
       GO_VERSION: 1.26.4
@@ -36,6 +99,11 @@ jobs:
           # build passes no --enableGitInfo, so Hugo only needs the pinned working trees.
           # If you ever enable enableGitInfo for git-derived lastmod dates, restore
           # fetch-depth: 0.
+      - name: Use regenerated efficiency data
+        uses: actions/download-artifact@v8
+        with:
+          name: efficiency-data
+          path: data/efficiencies/
       - name: Setup Go
         uses: actions/setup-go@v6
         with:

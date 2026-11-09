@@ -527,3 +527,146 @@ html.dark .sel-timeline th, html.dark .sel-timeline td { border-bottom-color: rg
 html.dark .sel-answer--yes     { background-color: rgba(22, 163, 74, 0.25); color: #86efac; }
 html.dark .sel-answer--no      { background-color: rgba(220, 38, 38, 0.25); color: #fca5a5; }
 html.dark .sel-answer--unknown { background-color: rgba(var(--color-neutral-700), 1); color: rgba(var(--color-neutral-200), 1); }
+
+/* ==========================================================================
+   Efficiency pages — shortcodes efficiency-era / -roster / -recent / -tickets
+   (content/guides/promotion-costs/, content/guides/recent-promotion-costs/)
+   Highlight colours are fixed hues at low alpha so they work on both schemes;
+   the highlight rule itself lives in partials/ica/efficiency/level.html and
+   assets/js/efficiency.js.
+   ========================================================================== */
+:root {
+    --eff-hi: 239, 68, 68;      /* red-500 */
+    --eff-above: 234, 179, 8;   /* yellow-500 */
+}
+
+/* Era selector: a wrapping row of pill-shaped radio options. */
+.eff-era {
+    margin: 1rem 0 1.5rem;
+    padding: 0.75rem 1rem 0.5rem;
+    border: 1px solid rgba(var(--color-neutral-300), 1);
+    border-radius: 0.5rem;
+}
+html.dark .eff-era { border-color: rgba(var(--color-neutral-600), 1); }
+.eff-era__legend { padding: 0 0.35rem; font-size: 0.85rem; font-weight: 600; }
+.eff-era__options { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.eff-era__option { position: relative; cursor: pointer; }
+.eff-era__option input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.eff-era__option > span {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid rgba(var(--color-neutral-300), 1);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+html.dark .eff-era__option > span { border-color: rgba(var(--color-neutral-600), 1); }
+.eff-era__option input:checked + span {
+    background-color: rgba(var(--color-primary-600), 1);
+    border-color: rgba(var(--color-primary-600), 1);
+    color: #fff;
+}
+html.dark .eff-era__option input:checked + span {
+    background-color: rgba(var(--color-primary-400), 1);
+    border-color: rgba(var(--color-primary-400), 1);
+    color: rgba(var(--color-neutral-900), 1);
+}
+.eff-era__option input:focus-visible + span { outline: 2px solid rgba(var(--color-primary-500), 1); outline-offset: 2px; }
+.eff-era__now { font-size: 0.75em; opacity: 0.8; }
+.eff-era__status { margin: 0.35rem 0 0; min-height: 1.2em; font-size: 0.8rem; color: rgba(var(--color-neutral-500), 1); }
+
+/* Roster filters */
+.eff-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin: 0.5rem 0 0.75rem; font-size: 0.85rem; }
+.eff-filters__group { display: flex; gap: 0.3rem; }
+.eff-chip {
+    padding: 0.15rem 0.65rem;
+    border: 1px solid rgba(var(--color-neutral-300), 1);
+    border-radius: 999px;
+}
+html.dark .eff-chip { border-color: rgba(var(--color-neutral-600), 1); }
+.eff-chip[aria-pressed="true"] {
+    background-color: rgba(var(--color-neutral-700), 1);
+    border-color: rgba(var(--color-neutral-700), 1);
+    color: rgba(var(--color-neutral-50), 1);
+}
+html.dark .eff-chip[aria-pressed="true"] {
+    background-color: rgba(var(--color-neutral-200), 1);
+    border-color: rgba(var(--color-neutral-200), 1);
+    color: rgba(var(--color-neutral-900), 1);
+}
+.eff-filters__class select {
+    margin-left: 0.35rem;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid rgba(var(--color-neutral-300), 1);
+    border-radius: 0.3rem;
+    background: transparent;
+    font-size: inherit;
+}
+html.dark .eff-filters__class select { border-color: rgba(var(--color-neutral-600), 1); background-color: rgba(var(--color-neutral-800), 1); }
+.eff-filters__count { color: rgba(var(--color-neutral-500), 1); }
+
+/* Tables */
+.eff-table-wrap { overflow-x: auto; margin: 0.5rem 0 1rem; }
+.eff-table { width: 100%; margin: 0 !important; border-collapse: collapse; font-size: 0.85rem; }
+.eff-table th, .eff-table td {
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid rgba(var(--color-neutral-200), 1);
+    text-align: left;
+    vertical-align: middle;
+}
+html.dark .eff-table th, html.dark .eff-table td { border-bottom-color: rgba(var(--color-neutral-700), 1); }
+.eff-table thead th { font-weight: 600; white-space: nowrap; }
+.eff-table tbody th { font-weight: 400; }
+.eff-table thead button { font-weight: 600; text-decoration: underline dotted; text-underline-offset: 3px; }
+.eff-table th[aria-sort="ascending"] button::after { content: " \25B2"; font-size: 0.7em; }
+.eff-table th[aria-sort="descending"] button::after { content: " \25BC"; font-size: 0.7em; }
+.eff-table .eff-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.eff-table .eff-none { color: rgba(var(--color-neutral-400), 1); }
+.eff-table td.eff-hi { background-color: rgba(var(--eff-hi), 0.22); }
+.eff-table td.eff-above { background-color: rgba(var(--eff-above), 0.22); }
+.eff-table tfoot th, .eff-table tfoot td { font-weight: 600; border-bottom: none; }
+.eff-table tfoot tr:first-child > * { border-top: 2px solid rgba(var(--color-neutral-300), 1); }
+html.dark .eff-table tfoot tr:first-child > * { border-top-color: rgba(var(--color-neutral-600), 1); }
+.eff-foot-note { font-weight: 400; font-size: 0.8em; color: rgba(var(--color-neutral-500), 1); }
+.eff-rarity { white-space: nowrap; }
+.eff-rarity--6 { color: #ff6d01; }
+.eff-rarity--5 { color: #b38600; }
+html.dark .eff-rarity--5 { color: #fbbc04; }
+.eff-rarity--4 { color: #a86b88; }
+html.dark .eff-rarity--4 { color: #d5a5bb; }
+.eff-col-patch { white-space: nowrap; color: rgba(var(--color-neutral-500), 1); }
+/* Anchored rows land below the fixed header. */
+.eff-table tr[id] { scroll-margin-top: 6rem; }
+.eff-table tr:target > * { background-color: rgba(var(--color-primary-500), 0.12); }
+
+/* Operator cell */
+.eff-op { display: inline-flex; align-items: center; gap: 0.5rem; }
+.eff-op__img { width: 32px; height: 32px; margin: 0 !important; border-radius: 4px; flex: none; }
+.eff-op__img--missing { display: inline-block; background-color: rgba(var(--color-neutral-200), 1); }
+html.dark .eff-op__img--missing { background-color: rgba(var(--color-neutral-700), 1); }
+.eff-op__roman { color: rgba(var(--color-neutral-500), 1); }
+.eff-tag {
+    display: inline-block;
+    margin-left: 0.25rem;
+    padding: 0 0.3rem;
+    border: 1px solid rgba(var(--color-neutral-400), 1);
+    border-radius: 0.25rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    line-height: 1.3;
+    vertical-align: 0.1em;
+    color: rgba(var(--color-neutral-500), 1);
+}
+
+/* Legend */
+.eff-key { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.5rem; font-size: 0.8rem; color: rgba(var(--color-neutral-500), 1); }
+.eff-key__swatch { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 0.2rem; }
+.eff-key__swatch.eff-hi { background-color: rgba(var(--eff-hi), 0.35); }
+.eff-key__swatch.eff-above { background-color: rgba(var(--eff-above), 0.35); margin-left: 0.75rem; }
+
+/* Phones: drop the Class column on the roster (the filter still works). */
+@media (max-width: 640px) {
+    .eff-table .eff-col-class, .eff-table .eff-col-patch { display: none; }
+    .eff-table th, .eff-table td { padding: 0.25rem 0.35rem; }
+    .eff-op__img { width: 24px; height: 24px; }
+}

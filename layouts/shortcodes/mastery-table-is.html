@@ -65,10 +65,16 @@
     {{- if not $sanitygoneURL }}{{- $sanitygoneURL = printf "https://sanitygone.help/en/operators/%s/" (replace (lower $linkName) " " "-") }}{{- end }}
     {{- if not $prtsURL }}{{- $prtsURL = printf "https://prts.wiki/w/%s" (replace $linkName " " "_") }}{{- end }}
   {{- end }}
-  {{- if or $sanitygoneURL $prtsURL }}
+  {{/* Promotion/mastery costs on the efficiency roster -- only while that page is published and listed. */}}
+  {{- $costsURL := "" }}
+  {{- with partialCached "ica/efficiency/roster-url.html" . "efficiency-roster-url" }}
+    {{- if index hugo.Data.efficiencies.operator_costs.operators $charKey }}{{ $costsURL = printf "%s#op-%s" . $charKey }}{{ end }}
+  {{- end }}
+  {{- if or $sanitygoneURL $prtsURL $costsURL }}
   <div class="mastery-links">
     {{- if $sanitygoneURL }}<a href="{{ $sanitygoneURL }}" target="_blank" rel="noopener">EN Kit</a>{{- end }}
     {{- if $prtsURL }}<a href="{{ $prtsURL }}" target="_blank" rel="noopener">PRTS.wiki</a>{{- end }}
+    {{- with $costsURL }}<a href="{{ . }}">Costs</a>{{- end }}
   </div>
   {{- end }}
 

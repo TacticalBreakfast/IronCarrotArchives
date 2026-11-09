@@ -1,0 +1,26 @@
+{{- /*
+  efficiency-era — the infinite-shop era selector for the efficiency pages.
+  Usage: {{< efficiency-era >}}
+
+  One choice, oldest first. Eras are linear: each adds one material to the
+  infinite shop (data/efficiencies/value_rules.yaml → infinite_shop). The page
+  is rendered for the default (current) era; picking another fetches the other
+  eras' numbers and redraws every efficiency table on the page. The choice is
+  remembered per browser and shared by all efficiency pages.
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/context.html" . "efficiency-context" -}}
+{{- $eras := $ctx.values.profiles.standard.eras -}}
+<fieldset class="eff-era" data-eff-src="{{ $ctx.dataURL }}" data-eff-default="{{ $ctx.values.default_era }}">
+  <legend class="eff-era__legend">Infinite shop includes</legend>
+  <div class="eff-era__options">
+    {{- range $i, $e := $eras -}}
+      {{- $label := cond (eq $i 0) "None" (cond (eq $i 1) $e.label (printf "+ %s" $e.label)) -}}
+      <label class="eff-era__option">
+        <input type="radio" name="eff-era-{{ $.Ordinal }}" value="{{ $e.id }}"{{ if eq $e.id $ctx.values.default_era }} checked{{ end }}>
+        <span>{{ $label }}{{ if eq $e.id $ctx.values.default_era }} <span class="eff-era__now">(now)</span>{{ end }}</span>
+      </label>
+    {{- end -}}
+  </div>
+  <p class="eff-era__status" aria-live="polite"></p>
+</fieldset>
+{{- partial "ica/efficiency/script.html" . -}}

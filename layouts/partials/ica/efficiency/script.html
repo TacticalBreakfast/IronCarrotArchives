@@ -1,0 +1,9 @@
+{{- /*
+  ica/efficiency/script.html — the era selector's script, once per page.
+  Input: the shortcode context (.).
+*/ -}}
+{{- if not (.Page.Store.Get "efficiencyScript") -}}
+  {{- .Page.Store.Set "efficiencyScript" true -}}
+  {{- $js := resources.Get "js/efficiency.js" | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") -}}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- end -}}

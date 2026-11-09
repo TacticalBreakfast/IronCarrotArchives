@@ -1,0 +1,34 @@
+{{- /*
+  efficiency-tickets — what each training ticket is worth, by rarity.
+  Usage: {{< efficiency-tickets >}}
+
+  Values from the packs profile (data/efficiencies/value_rules.yaml → packs):
+  an Invitation Letter or Skill Training Pack is worth the average cost it
+  replaces, so these equal the "average operator" the tables compare against.
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/context.html" . "efficiency-context" -}}
+{{- $rows := slice
+  (dict "label" "Invitation Letter" "note" "E0 → E2" "prefix" "voucher_elite_II_")
+  (dict "label" "Skill Training Pack" "note" "one skill M0 → M3" "prefix" "voucher_skill_specialLevelMax_")
+  (dict "label" "Training Apparatus" "note" "E2 level 1 → max" "prefix" "voucher_levelmax_")
+-}}
+<div class="eff-table-wrap">
+  <table class="eff-table eff-tickets">
+    <thead>
+      <tr><th scope="col">Ticket</th>{{ range slice 6 5 4 }}<th scope="col" class="eff-num">{{ . }}★</th>{{ end }}</tr>
+    </thead>
+    <tbody>
+      {{- range $rows -}}
+        {{- $prefix := .prefix -}}
+        <tr>
+          <th scope="row">{{ .label }} <span class="eff-foot-note">({{ .note }})</span></th>
+          {{- range slice 6 5 4 -}}
+            {{- $item := printf "%s%d" $prefix . -}}
+            <td class="eff-num" data-eff-item="{{ $item }}">{{ partial "ica/efficiency/num.html" (index $ctx.packs $item) }}</td>
+          {{- end -}}
+        </tr>
+      {{- end -}}
+    </tbody>
+  </table>
+</div>
+{{- partial "ica/efficiency/script.html" . -}}

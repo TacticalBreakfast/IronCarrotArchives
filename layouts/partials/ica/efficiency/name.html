@@ -1,0 +1,21 @@
+{{- /*
+  ica/efficiency/name.html — the operator cell: portrait, name, CN-only tag, Mastery link.
+  Input dict: id (char id), op (operator_costs entry).
+  Name = EN name, else the CN appellation, with a romanization for Cyrillic ones.
+*/ -}}
+{{- $short := strings.TrimPrefix "char_" .id -}}
+{{- $mastery := index (partialCached "ica/mastery-anchors.html" . "mastery-anchors") $short -}}
+{{- $img := resources.Get (printf "game_img/charavatars/%s.png" .id) -}}
+<span class="eff-op">
+  {{- with $img -}}
+    {{- $t := .Fill "64x64 Center webp" -}}
+    <img class="eff-op__img nozoom" src="{{ $t.RelPermalink }}" width="32" height="32" alt="" loading="lazy" decoding="async">
+  {{- else -}}
+    <span class="eff-op__img eff-op__img--missing" aria-hidden="true"></span>
+  {{- end -}}
+  <span class="eff-op__text">
+    {{- if $mastery }}<a href="{{ $mastery }}">{{ .op.name }}</a>{{ else }}{{ .op.name }}{{ end -}}
+    {{- with .op.name_romanized }} <span class="eff-op__roman">({{ . }})</span>{{ end -}}
+    {{- if not .op.on_en }} <span class="eff-tag" title="Not released on EN yet">CN</span>{{ end -}}
+  </span>
+</span>

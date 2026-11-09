@@ -1,0 +1,2 @@
+{{- /* ica/efficiency/num.html — a sanity value as a whole number ("5,762"), or "—" for none. */ -}}
+{{- if eq . nil -}}—{{- else -}}{{ lang.FormatNumber 0 . }}{{- end -}}

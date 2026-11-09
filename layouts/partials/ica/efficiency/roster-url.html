@@ -1,0 +1,12 @@
+{{- /*
+  ica/efficiency/roster-url.html — the full roster page's URL, or "" while it isn't publicly listed.
+  Call: partialCached "ica/efficiency/roster-url.html" . "efficiency-roster-url"
+
+  "Listed" = published and not `build.list = 'never'` (the semi-hidden feedback
+  release). The Mastery tables only link to the roster once it's listed.
+*/ -}}
+{{- $url := "" -}}
+{{- with site.GetPage "/guides/promotion-costs" -}}
+  {{- if in site.RegularPages . }}{{ $url = .RelPermalink }}{{ end -}}
+{{- end -}}
+{{- return $url -}}

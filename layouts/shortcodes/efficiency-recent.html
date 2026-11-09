@@ -1,0 +1,86 @@
+{{- /*
+  efficiency-recent — recently released operators' E2 and M3 costs, one table per group.
+  Usage: {{% efficiency-recent %}}   <- the % form, not < >: each group's title
+  is emitted as a Markdown "## 6★" heading so it reaches the table of contents
+  (HTML headings don't). Everything else is one HTML block per group with no
+  blank lines inside, so Markdown passes it through untouched -- keep it that way.
+
+  Groups, the patch window and membership come from
+  data/efficiencies/value_rules.yaml → recent_operators (release order from
+  the assets repo's release_log.csv). A group with no operators (4★s are
+  rare) is left out, and a group's title names only the rarities actually in
+  it. Each table ends with the group's average, top quartile, and how far it
+  sits above the average operator of the same rarity.
+
+  Colours compare each value with the other RECENT operators of the same
+  rarity (recent_operators → rarities), not the whole roster: red = top
+  quartile, yellow = above the recent average. A rarity with a single recent
+  operator isn't coloured. The roster page isn't coloured at all.
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/context.html" . "efficiency-context" -}}
+{{- $R := $ctx.values.recent_operators -}}
+{{- $patchOf := dict -}}
+{{- range $R.patches }}{{ $p := .cn_patch }}{{ range .operators }}{{ $patchOf = merge $patchOf (dict . $p) }}{{ end }}{{ end -}}
+{{- range $g, $group := $R.groups -}}
+  {{- if $group.operators -}}
+    {{- $stars := slice -}}
+    {{- range $group.rarities_present }}{{ $stars = $stars | append (printf "%d★" (int .)) }}{{ end -}}
+    {{- $nskills := 0 -}}
+    {{- range $group.operators }}{{ $n := len (index $ctx.costs.operators .).skills }}{{ if gt $n $nskills }}{{ $nskills = $n }}{{ end }}{{ end -}}
+    {{- $stats := index $ctx.recent.groups $g -}}
+{{ printf "\n\n## %s\n\n" (delimit $stars ", " " and ") }}
+<div class="eff-recent" data-eff-table data-eff-scale="recent"><div class="eff-table-wrap">
+      <table class="eff-table">
+        <thead>
+          <tr>
+            <th scope="col">Operator</th>
+            <th scope="col" class="eff-col-patch">CN release</th>
+            <th scope="col" class="eff-num">E2</th>
+            {{- range seq $nskills }}<th scope="col" class="eff-num">S{{ . }} M3</th>{{ end -}}
+          </tr>
+        </thead>
+        <tbody>
+          {{- range $id := $group.operators -}}
+            {{- $op := index $ctx.costs.operators $id -}}
+            {{- $v := index $ctx.era.operators $id -}}
+            {{- $rs := index $ctx.recent.rarities (string $op.rarity) -}}
+            {{- $comparable := and $rs (ge $rs.count 2) -}}
+            <tr data-rarity="{{ $op.rarity }}">
+              <th scope="row">{{ partial "ica/efficiency/name.html" (dict "id" $id "op" $op) }}</th>
+              <td class="eff-col-patch">{{ index $patchOf $id | time.Format "Jan 2006" }}</td>
+              {{- $lvl := "" -}}
+              {{- if $comparable }}{{ $lvl = partial "ica/efficiency/level.html" (dict "value" $v.promotion "average" $rs.promotion_average "top" $rs.promotion_top_quartile) }}{{ end -}}
+              <td class="eff-num {{ $lvl }}" data-eff-op="{{ $id }}" data-eff-col="p">{{ partial "ica/efficiency/num.html" $v.promotion }}</td>
+              {{- range $i, $_ := seq $nskills -}}
+                {{- if lt $i (len $v.skills) -}}
+                  {{- $m := index $v.skills $i -}}
+                  {{- $lvl := "" -}}
+                  {{- if $comparable }}{{ $lvl = partial "ica/efficiency/level.html" (dict "value" $m "average" $rs.mastery_average "top" $rs.mastery_top_quartile) }}{{ end -}}
+                  <td class="eff-num {{ $lvl }}" data-eff-op="{{ $id }}" data-eff-col="{{ $i }}">{{ partial "ica/efficiency/num.html" $m }}</td>
+                {{- else -}}
+                  <td class="eff-num eff-none">—</td>
+                {{- end -}}
+              {{- end -}}
+            </tr>
+          {{- end -}}
+        </tbody>
+        <tfoot>
+          {{- range slice (slice "Average" "average") (slice "Top quartile" "top_quartile") (slice "vs. average operator" "vs_average") -}}
+            {{- $label := index . 0 }}{{ $kind := index . 1 -}}
+            {{- $p := index $stats (printf "promotion_%s" $kind) -}}
+            {{- $m := index $stats (printf "mastery_%s" $kind) -}}
+            {{- $signed := eq $kind "vs_average" -}}
+            <tr>
+              <th scope="row" colspan="2">{{ $label }}{{ if ne $kind "vs_average" }}<span class="eff-foot-note"> (M3: all skills)</span>{{ end }}</th>
+              <td class="eff-num" data-eff-group="{{ $g }}" data-eff-stat="promotion_{{ $kind }}"{{ if $signed }} data-eff-signed{{ end }}>{{ if and $signed (gt $p 0) }}+{{ end }}{{ partial "ica/efficiency/num.html" $p }}</td>
+              <td class="eff-num" colspan="{{ $nskills }}" data-eff-group="{{ $g }}" data-eff-stat="mastery_{{ $kind }}"{{ if $signed }} data-eff-signed{{ end }}>{{ if and $signed (gt $m 0) }}+{{ end }}{{ partial "ica/efficiency/num.html" $m }}</td>
+            </tr>
+          {{- end -}}
+        </tfoot>
+      </table>
+    </div></div>
+  {{- end -}}
+{{- end }}
+
+{{ partial "ica/efficiency/key.html" . -}}
+{{- partial "ica/efficiency/script.html" . -}}

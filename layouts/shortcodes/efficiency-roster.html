@@ -1,0 +1,72 @@
+{{- /*
+  efficiency-roster — every 4★–6★ operator's E2 and M3 costs, filterable and sortable.
+  Usage: {{< efficiency-roster >}}
+
+  Rows come from data/efficiencies/operator_costs.json (CN data, so CN-only
+  operators are included); numbers from item_values.json → operator_values,
+  for the default era until the era selector changes them. Each row has the
+  anchor #op-<char id>: the mastery-table shortcodes and the search index link
+  to it, so keep the format.
+
+  No colouring here on purpose: highlights only appear on the recent page,
+  where comparing like-for-like is meaningful. The whole-roster averages are
+  still generated (item_values.json → operator_values → averages).
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/context.html" . "efficiency-context" -}}
+{{- $rows := slice -}}
+{{- range $id, $op := $ctx.costs.operators -}}
+  {{- if ge $op.rarity 4 -}}
+    {{- $sortName := $op.name_romanized | default $op.name | partial "ica/fold.html" | lower -}}
+    {{- $rows = $rows | append (dict "id" $id "op" $op "name" $sortName "key" (printf "%d|%s" (sub 9 (int $op.rarity)) $sortName)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $classes := slice -}}
+{{- range $rows }}{{ $classes = $classes | append .op.class_name }}{{ end -}}
+<div class="eff-roster" data-eff-table>
+  <div class="eff-filters">
+    <div class="eff-filters__group" role="group" aria-label="Rarity">
+      {{- range slice "all" 6 5 4 }}<button type="button" class="eff-chip" data-eff-rarity="{{ . }}" aria-pressed="{{ if eq . "all" }}true{{ else }}false{{ end }}">{{ if eq . "all" }}All{{ else }}{{ . }}★{{ end }}</button>{{ end -}}
+    </div>
+    <label class="eff-filters__class">Class
+      <select data-eff-class>
+        <option value="">All</option>
+        {{- range $classes | uniq | sort }}<option>{{ . }}</option>{{ end -}}
+      </select>
+    </label>
+    <span class="eff-filters__count" data-eff-count>{{ len $rows }} operators</span>
+  </div>
+  <div class="eff-table-wrap">
+    <table class="eff-table">
+      <thead>
+        <tr>
+          <th scope="col"><button type="button" data-eff-sort="name">Operator</button></th>
+          <th scope="col"><button type="button" data-eff-sort="rarity">★</button></th>
+          <th scope="col" class="eff-col-class"><button type="button" data-eff-sort="class">Class</button></th>
+          <th scope="col" class="eff-num"><button type="button" data-eff-sort="p">E2</button></th>
+          {{- range slice 0 1 2 }}<th scope="col" class="eff-num"><button type="button" data-eff-sort="{{ . }}">S{{ add . 1 }} M3</button></th>{{ end -}}
+        </tr>
+      </thead>
+      <tbody>
+        {{- range sort $rows "key" -}}
+          {{- $id := .id -}}{{- $op := .op -}}
+          {{- $v := index $ctx.era.operators $id -}}
+          <tr id="op-{{ $id }}" data-rarity="{{ $op.rarity }}" data-class="{{ $op.class_name }}" data-name="{{ .name }}" data-key="{{ .key }}">
+            <th scope="row">{{ partial "ica/efficiency/name.html" (dict "id" $id "op" $op) }}</th>
+            <td class="eff-rarity eff-rarity--{{ $op.rarity }}">{{ $op.rarity }}★</td>
+            <td class="eff-col-class">{{ $op.class_name }}</td>
+            <td class="eff-num" data-eff-op="{{ $id }}" data-eff-col="p">{{ partial "ica/efficiency/num.html" $v.promotion }}</td>
+            {{- range $i := slice 0 1 2 -}}
+              {{- if lt $i (len $v.skills) -}}
+                {{- $m := index $v.skills $i -}}
+                <td class="eff-num" data-eff-op="{{ $id }}" data-eff-col="{{ $i }}">{{ partial "ica/efficiency/num.html" $m }}</td>
+              {{- else -}}
+                <td class="eff-num eff-none">—</td>
+              {{- end -}}
+            {{- end -}}
+          </tr>
+        {{- end -}}
+      </tbody>
+    </table>
+  </div>
+</div>
+{{- partial "ica/efficiency/script.html" . -}}
