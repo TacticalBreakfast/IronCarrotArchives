@@ -40,11 +40,14 @@ item_values.json (generated -- never hand-edit):
   operator_values
     eras        one per era, same order as the profiles' eras:
                   id
-                  operators  {char id: {promotion, skills}} for EVERY
+                  operators  {char id: {promotion, skills, modules}} for EVERY
                              operator: total sanity cost. promotion = E0 1 ->
                              E2 1 (E1 + E2 materials, chips, LMD, E0/E1
                              levelling), null below 4-star; skills = each
-                             skill's M1-M3, Skill Summaries included.
+                             skill's M1-M3, Skill Summaries included;
+                             modules = {X|Y|D: all three phases} (materials,
+                             Module Data Blocks, LMD; Data Supplements not
+                             counted -- value_rules.yaml modules).
                              Materials at standard values, XP at packs
                              xp_value.
                   averages   {rarity: {promotion, mastery}} over ALL operators
@@ -105,17 +108,23 @@ operator_costs.json (generated -- never hand-edit):
                                   Skill levels 1-7 are deliberately left
                                   out: no promotion ticket or pack covers
                                   them, so they never affect a valuation.
+                  modules         [{id, type, name, phases}] for each X, Y and Δ
+                                  module (type "X", "Y" or "D" = Δ). phases =
+                                  [{lmd, items}] x3. Assigned per form via
+                                  uniequip_table charEquip (each Amiya form has
+                                  its own).
   excluded      {char id: reason}: operators left out on purpose
 
 stats.json (generated -- never hand-edit), current era, 4-6-star operators
 (CN-only included). Promotions count alternate forms (Amiya) once; masteries
 count every skill. Skill levels 1-7 are never counted.
-  overview      {rarity: {all, recent}} -> {promotion, mastery}: count, min,
+  overview      {rarity: {all, recent}} -> {promotion, mastery, module}: count, min,
                 q1, median, q3, max, average (inclusive quartiles). "recent" =
                 the recent_operators window.
-  extremes      {rarity: {promotion: {most, least}, mastery: {most, least}}},
-                5 each: [{id, value}] / [{id, skill, skill_name, value}]
-  materials     {scope: [{id, tier, direct: {promotion, mastery, total},
+  extremes      {rarity: {promotion|mastery: {most, least}}}, 5 each:
+                [{id, value}] / [{id, skill, skill_name, value}]. No modules:
+                their costs tie too often for a top 5 to mean anything.
+  materials     {scope: [{id, tier, direct: {promotion, mastery, module, total},
                 crafted, sanity}]} for EVERY Tier 3-5 material (zeros included),
                 sorted by sanity.
                 Scopes: all, 6, 5, 4, upcoming (CN-only operators).
@@ -125,8 +134,9 @@ count every skill. Skill levels 1-7 are never counted.
                 direct x value (no double counting across tiers).
   upcoming      char ids of the CN-only operators in the "upcoming" scope
   breakdown     {rarity: {promotion: {materials, chips, lmd, xp},
-                mastery: {materials, skill_summaries}}}: the average
-                operator's cost by part, in sanity.
+                mastery: {materials, skill_summaries}, module: {materials,
+                data_blocks, lmd}}}: the average operator's / skill's /
+                module's cost by part, in sanity.
 
 Costs are item counts, not sanity, so a page can value them under any era or
 profile. Excluded: summons/deployables (TOKEN/TRAP), unobtainable entries, and
@@ -165,7 +175,7 @@ SCRIPT = Path(__file__).resolve()
 OPERATOR_INPUTS = [SCRIPT] + [
     ASSETS / f"excel-{server}/{table}.json"
     for server in ("cn", "en")
-    for table in ("character_table", "char_patch_table", "skill_table")
+    for table in ("character_table", "char_patch_table", "skill_table", "uniequip_table")
 ] + [ASSETS / "excel-cn/gamedata_const.json", ASSETS / "excel-cn/special_operator_table.json"]
 RELEASE_LOG = ASSETS / "processed/release_log.csv"
 # The packs profile and recent operators use operator costs, so item values
@@ -181,6 +191,11 @@ DECIMALS = 4
 
 NON_CHARACTER_PROFESSIONS = {"TRAP", "TOKEN"}
 SKILL_SUMMARY_3 = "3303"
+MODULE_DATA_BLOCK = "mod_unlock_token"
+# Module types with a material cost, keyed by uniequip_table typeName2 ("D" is
+# shown in game as Δ). The others (ISW, RA, SO: typeName2 A/B) cost only a token
+# Module Data Block per phase, so they're left out.
+MODULE_TYPES = {"X": "X", "Y": "Y", "D": "Δ"}
 
 PROFESSION_NAMES = {
     "WARRIOR": "Guard", "SNIPER": "Sniper", "TANK": "Defender", "MEDIC": "Medic",
@@ -510,7 +525,7 @@ def recent_patches(rules: dict, operators: dict) -> list[dict]:
     ]
 
 
-def build_operator_values(xp_value: float, standard: dict, operators: dict) -> list[dict]:
+def build_operator_values(xp_value: float, standard: dict, operators: dict, module_rules: dict) -> list[dict]:
     """Per era: every operator's total costs in sanity, plus rarity averages."""
     ops, rarities = operators["operators"], operators["rarities"]
     r = lambda x: round(x, DECIMALS - 2)
@@ -527,6 +542,12 @@ def build_operator_values(xp_value: float, standard: dict, operators: dict) -> l
             e0, e1 = rarities[str(rarity)]["leveling"][:2]
             return (e0["xp"] + e1["xp"]) * xp_value + (e0["lmd"] + e1["lmd"]) * lmd
 
+        not_counted = set(module_rules["not_counted"])
+
+        def module_cost(module: dict) -> float:
+            return sum(cost({i: n for i, n in p["items"].items() if i not in not_counted}) + p["lmd"] * lmd
+                       for p in module["phases"])
+
         valued = {
             char_id: {
                 # Only operators that reach E2 (4-star and up) have a
@@ -534,6 +555,9 @@ def build_operator_values(xp_value: float, standard: dict, operators: dict) -> l
                 "promotion": (sum(cost(p["items"]) + p["lmd"] * lmd for p in op["promotions"])
                               + leveling(op["rarity"])) if len(op["promotions"]) >= 2 else None,
                 "skills": [sum(cost(m) for m in skill["masteries"]) for skill in op["skills"]],
+                # first module of each type (types are unique per operator; the
+                # generator warns if that ever changes)
+                "modules": {t: module_cost(m) for t, m in reversed([(m["type"], m) for m in op.get("modules", [])])},
             }
             for char_id, op in ops.items()
         }
@@ -619,7 +643,8 @@ def operator_values_output(operator_eras: list) -> dict:
     r = lambda x: None if x is None else round(x, DECIMALS - 2)
     return {"eras": [
         {"id": era["id"],
-         "operators": {c: {"promotion": r(v["promotion"]), "skills": [r(m) for m in v["skills"]]}
+         "operators": {c: {"promotion": r(v["promotion"]), "skills": [r(m) for m in v["skills"]],
+                           "modules": {t: r(x) for t, x in v["modules"].items()}}
                        for c, v in sorted(era["valued"].items())},
          "averages": {k: {kind: r(x) for kind, x in a.items()} for k, a in era["averages"].items()}}
         for era in operator_eras
@@ -639,7 +664,7 @@ def chip_items() -> set:
 
 
 def build_stats(standard: dict, operators: dict, operator_eras: list, recent: dict,
-                recipes: dict, tiers: dict, xp_value: float) -> dict:
+                recipes: dict, tiers: dict, xp_value: float, module_rules: dict) -> dict:
     values = standard["base"]
     lmd = values[LMD]
     ops = {c: op for c, op in operators["operators"].items() if op["rarity"] >= 4}
@@ -664,14 +689,20 @@ def build_stats(standard: dict, operators: dict, operator_eras: list, recent: di
         for scope, members in (("all", ids), ("recent", [c for c in ids if c in recent_ids])):
             promos = [valued[c]["promotion"] for c in promoted(members)]
             masteries = [m for c in members for m in valued[c]["skills"]]
+            modules = [x for c in members for x in valued[c]["modules"].values()]
             if len(promos) > 1 and len(masteries) > 1:
                 entry[scope] = {"promotion": dist(promos), "mastery": dist(masteries)}
+                if len(modules) > 1:
+                    entry[scope]["module"] = dist(modules)
         overview[str(rarity)] = entry
 
         promo_rows = sorted(({"id": c, "value": r(valued[c]["promotion"])} for c in promoted(ids)),
                             key=lambda x: -x["value"])
         skill_rows = sorted(({"id": c, "skill": i + 1, "skill_name": ops[c]["skills"][i]["name"], "value": r(m)}
                              for c in ids for i, m in enumerate(valued[c]["skills"])), key=lambda x: -x["value"])
+        # No module lists: module costs come in a few standard combinations, so
+        # the top and bottom are long ties (16 6-star modules share the top cost)
+        # and any 5 shown would be arbitrary.
         extremes[str(rarity)] = {
             "promotion": {"most": promo_rows[:5], "least": promo_rows[::-1][:5]},
             "mastery": {"most": skill_rows[:5], "least": skill_rows[::-1][:5]},
@@ -695,15 +726,28 @@ def build_stats(standard: dict, operators: dict, operator_eras: list, recent: di
                                         for i, n in m.items() if keep(i))
                 skill_parts["materials"].append(cost(lambda i: i != SKILL_SUMMARY_3))
                 skill_parts["skill_summaries"].append(cost(lambda i: i == SKILL_SUMMARY_3))
+        not_counted = set(module_rules["not_counted"])
+        module_parts = {"materials": [], "data_blocks": [], "lmd": []}
+        for c in ids:
+            for module in ops[c].get("modules", []):
+                items = {}
+                for p in module["phases"]:
+                    for i, n in p["items"].items():
+                        if i not in not_counted:
+                            items[i] = items.get(i, 0) + n
+                module_parts["materials"].append(sum(values.get(i, 0) * n for i, n in items.items() if i != MODULE_DATA_BLOCK))
+                module_parts["data_blocks"].append(values.get(MODULE_DATA_BLOCK, 0) * items.get(MODULE_DATA_BLOCK, 0))
+                module_parts["lmd"].append(sum(p["lmd"] for p in module["phases"]) * lmd)
         breakdown[str(rarity)] = {
             "promotion": {k: r(statistics.mean(v)) for k, v in parts.items()},
             "mastery": {k: r(statistics.mean(v)) for k, v in skill_parts.items()},
+            "module": {k: r(statistics.mean(v)) for k, v in module_parts.items()},
         }
 
     materials_t3 = {m for m, t in tiers.items() if t >= 3}
 
     def demand(ids):
-        direct = {m: {"promotion": 0, "mastery": 0} for m in materials_t3}
+        direct = {m: {"promotion": 0, "mastery": 0, "module": 0} for m in materials_t3}
         for c in ids:
             if "form_of" not in ops[c]:
                 for p in ops[c]["promotions"]:
@@ -715,9 +759,14 @@ def build_stats(standard: dict, operators: dict, operator_eras: list, recent: di
                     for i, n in m.items():
                         if i in direct:
                             direct[i]["mastery"] += n
+            for module in ops[c].get("modules", []):
+                for p in module["phases"]:
+                    for i, n in p["items"].items():
+                        if i in direct:
+                            direct[i]["module"] += n
         # Crafting: every Tier 5 broken into Tier 4/3 ingredients, then every
         # Tier 4 (including those just added) into Tier 3. All recipes make one.
-        crafted = {m: d["promotion"] + d["mastery"] for m, d in direct.items()}
+        crafted = {m: d["promotion"] + d["mastery"] + d["module"] for m, d in direct.items()}
         for tier in (5, 4):
             for m in sorted(x for x in materials_t3 if tiers[x] == tier):
                 for ingredient, n in recipes.get(m, []):
@@ -727,7 +776,7 @@ def build_stats(standard: dict, operators: dict, operator_eras: list, recent: di
         # Nanoflakes" is useful to readers, not noise.
         rows = []
         for m in materials_t3:
-            total = direct[m]["promotion"] + direct[m]["mastery"]
+            total = direct[m]["promotion"] + direct[m]["mastery"] + direct[m]["module"]
             rows.append({"id": m, "tier": tiers[m],
                          "direct": {**direct[m], "total": total},
                          "crafted": crafted[m],
@@ -771,6 +820,8 @@ def item_counts(costs) -> dict:
 def build_operators() -> dict:
     cn, cn_skills, cn_patch = load_operator_tables("cn")
     en, en_skills, _ = load_operator_tables("en")
+    cn_equip = load_json(ASSETS / "excel-cn/uniequip_table.json")
+    en_equip = load_json(ASSETS / "excel-en/uniequip_table.json")["equipDict"]
     const = load_json(ASSETS / "excel-cn/gamedata_const.json")
     special = set(load_json(ASSETS / "excel-cn/special_operator_table.json")["operatorBasicData"])
 
@@ -841,6 +892,26 @@ def build_operators() -> dict:
                 "name": (source.get("levels") or [{}])[0].get("name", skill_id),
                 "masteries": masteries,
             })
+
+        entry["modules"] = []
+        for equip_id in cn_equip["charEquip"].get(char_id, []):
+            equip = cn_equip["equipDict"][equip_id]
+            if equip.get("typeName2") not in MODULE_TYPES or not equip.get("itemCost"):
+                continue
+            phases = []
+            for level in sorted(equip["itemCost"], key=int):
+                items = item_counts(equip["itemCost"][level])
+                phases.append({"lmd": items.pop(LMD, 0), "items": items})
+            name_source = en_equip.get(equip_id) if on_en else None
+            entry["modules"].append({
+                "id": equip_id,
+                "type": equip["typeName2"],
+                "name": (name_source or equip)["uniEquipName"],
+                "phases": phases,
+            })
+        types = [m["type"] for m in entry["modules"]]
+        if len(types) != len(set(types)):
+            print(f"WARNING: {char_id} has two modules of one type {types}; only the first is shown", file=sys.stderr)
         operators[char_id] = entry
 
     # The game lists gameplay-promoted units in two places; a mismatch means
@@ -891,7 +962,7 @@ def main() -> None:
     recipes, tiers = load_recipes(item_table)
     standard = build_standard(rules, efficiency, recipes)
     packs = build_packs(rules["packs"], standard, operators, tiers, item_table["expItems"])
-    operator_eras = build_operator_values(rules["packs"]["xp_value"], standard, operators)
+    operator_eras = build_operator_values(rules["packs"]["xp_value"], standard, operators, rules["modules"])
     recent = build_recent(rules["recent_operators"], operator_eras, operators)
     write_json(OUTPUT, {
         "_generated": generated(inputs, "edit data/efficiencies/value_rules.yaml and rerun the script instead."),
@@ -906,7 +977,8 @@ def main() -> None:
     })
     write_json(STATS_OUTPUT, {
         "_generated": generated(inputs, "edit data/efficiencies/value_rules.yaml and rerun the script instead."),
-        **build_stats(standard, operators, operator_eras, recent, recipes, tiers, rules["packs"]["xp_value"]),
+        **build_stats(standard, operators, operator_eras, recent, recipes, tiers, rules["packs"]["xp_value"],
+                      rules["modules"]),
     })
     print(f"Wrote {OUTPUT.relative_to(ROOT)}: {len(standard['base'])} items, {len(standard['eras'])} eras")
     print(f"Wrote {STATS_OUTPUT.relative_to(ROOT)}")

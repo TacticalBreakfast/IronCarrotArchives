@@ -641,6 +641,24 @@ html.dark .eff-rarity--4 { color: #d5a5bb; }
 .eff-table tr[id] { scroll-margin-top: 6rem; }
 .eff-table tr:target > * { background-color: rgba(var(--color-primary-500), 0.12); }
 
+/* Full list: the table scrolls inside its own box so the header row stays
+   pinned (sticky only works within the nearest scrolling ancestor, and the box
+   must scroll sideways on phones anyway). Header cells need an opaque background. */
+.eff-table-wrap--frozen { max-height: 75vh; overflow: auto; overscroll-behavior: contain; }
+.eff-table-wrap--frozen thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(var(--color-neutral), 1);
+    box-shadow: inset 0 -1px 0 rgba(var(--color-neutral-300), 1);
+}
+html.dark .eff-table-wrap--frozen thead th {
+    background-color: rgba(var(--color-neutral-800), 1);
+    box-shadow: inset 0 -1px 0 rgba(var(--color-neutral-600), 1);
+}
+/* Rows linked to (#op-…) land just below the pinned header, inside the box. */
+.eff-table-wrap--frozen tr[id] { scroll-margin-top: 2.75rem; }
+
 /* Operator cell */
 .eff-op { display: inline-flex; align-items: center; gap: 0.5rem; }
 .eff-op__img { width: 32px; height: 32px; margin: 0 !important; border-radius: 4px; flex: none; }
@@ -701,6 +719,7 @@ html.dark .eff-axis { border-top-color: rgba(var(--color-neutral-600), 1); }
 .eff-part--lmd { background-color: rgba(var(--eff-above), 0.8); }
 .eff-part--xp { background-color: rgba(34, 197, 94, 0.7); }             /* green-500 */
 .eff-part--skill_summaries { background-color: rgba(168, 85, 247, 0.7); }
+.eff-part--data_blocks { background-color: rgba(236, 72, 153, 0.7); }   /* pink-500 */
 .eff-breakdown th .eff-key__swatch { vertical-align: -0.1em; }
 
 .eff-upcoming { display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; padding: 0 !important; list-style: none; font-size: 0.85rem; }

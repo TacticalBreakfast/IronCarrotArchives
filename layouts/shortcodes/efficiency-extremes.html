@@ -1,5 +1,7 @@
 {{- /*
   efficiency-extremes — the 5 most and least expensive E2s and M3s for one rarity.
+  Modules are left out on purpose: their costs tie in long runs (see
+  tools/build_item_values.py, build_stats).
   Usage: {{< efficiency-extremes rarity="6" >}}
 
   Current era only (data/efficiencies/stats.json → extremes). Names link to the
@@ -22,7 +24,7 @@
               {{- $op := index $ctx.costs.operators .id -}}
               <tr>
                 <th scope="row">{{ partial "ica/efficiency/name.html" (dict "id" .id "op" $op) }}</th>
-                {{- if $isM }}<td class="eff-foot-note" title="{{ .skill_name }}">S{{ .skill }}M3</td>{{ end -}}
+                {{- if .skill }}<td class="eff-foot-note" title="{{ .skill_name }}">S{{ .skill }}M3</td>{{ end -}}
                 <td class="eff-num">{{ partial "ica/efficiency/num.html" .value }}</td>
               </tr>
             {{- end -}}

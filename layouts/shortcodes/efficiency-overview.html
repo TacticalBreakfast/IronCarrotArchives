@@ -10,11 +10,11 @@
   4★ and 6★ look alike.
 */ -}}
 {{- $s := (partialCached "ica/efficiency/stats.html" . "efficiency-stats").stats -}}
-{{- range $kind := slice (slice "promotion" "E2") (slice "mastery" "M3, per skill") -}}
+{{- range $kind := slice (slice "promotion" "E2") (slice "mastery" "M3, per skill") (slice "module" "Module, per module") -}}
   {{- $key := index $kind 0 -}}
   {{- /* One scale per table: 0 to the highest max rounded up to 1,000; axis labels every 1,000 or 2,000. */ -}}
   {{- $top := 0.0 -}}
-  {{- range $r := slice "6" "5" "4" }}{{ range $o := index $s.overview $r }}{{ $m := (index $o $key).max }}{{ if gt $m $top }}{{ $top = $m }}{{ end }}{{ end }}{{ end -}}
+  {{- range $r := slice "6" "5" "4" }}{{ range $o := index $s.overview $r }}{{ with index $o $key }}{{ if gt .max $top }}{{ $top = .max }}{{ end }}{{ end }}{{ end }}{{ end -}}
   {{- $scale := mul (math.Ceil (div $top 1000)) 1000 -}}
   {{- $step := cond (gt $scale 5000.0) 2000 1000 -}}
   <div class="eff-table-wrap">
@@ -36,8 +36,8 @@
         {{- range $r := slice "6" "5" "4" -}}
           {{- $o := index $s.overview $r -}}
           {{- range $scope := slice "all" "recent" -}}
-            {{- with index $o $scope -}}
-              {{- $d := index . $key -}}
+            {{- with index (index $o $scope | default dict) $key -}}
+              {{- $d := . -}}
               {{- $pct := dict -}}
               {{- range slice "min" "q1" "median" "q3" "max" }}{{ $pct = merge $pct (dict . (div (mul (index $d .) 100.0) $scale)) }}{{ end -}}
               <tr{{ if eq $scope "recent" }} class="eff-overview__recent"{{ end }}>

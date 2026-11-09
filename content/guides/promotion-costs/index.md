@@ -24,8 +24,8 @@ showAuthor = false
 
 +++
 
-The total cost of promoting every 4★–6★ operator to E2, and of taking each of
-their skills to M3, in sanity. Recently released operators have their own,
+The total cost of promoting every 4★–6★ operator to E2, of taking each of
+their skills to M3, and of their X, Y and Δ modules, in sanity. Recently released operators have their own,
 shorter page: [Recent Promotion & Mastery Costs]({{< ref "/guides/recent-promotion-costs" >}}).
 
 {{< efficiency-era >}}
@@ -43,6 +43,10 @@ shorter page: [Recent Promotion & Mastery Costs]({{< ref "/guides/recent-promoti
 - **E2** is everything a Training Invitation Letter saves: E1 and E2
   materials, class chips and LMD, plus levelling through E0 and E1.
 - **M3** is one skill from M0 to M3, Skill Summaries included.
+- **ModX, ModY, ModΔ** are all three stages of that module: its materials,
+  Module Data Blocks (yituliu's value) and LMD. Data Supplement Sticks and
+  Instruments aren't counted — they can't be obtained with sanity. Other
+  module types (ISW, RA, SO) cost only Module Data Blocks and aren't listed.
 - Materials are valued at their sanity cost (yituliu's CN values), XP and
   LMD at 0.0036 sanity each.
 - **Infinite shop:** materials sold in the infinite event shops are nearly free

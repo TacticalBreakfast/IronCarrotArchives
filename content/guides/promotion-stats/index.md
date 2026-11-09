@@ -2,7 +2,7 @@
 title = 'Promotion & Mastery Statistics'
 date = 2026-11-08T00:00:00-05:00
 draft = false
-summary = "Roster-wide statistics on promotion and mastery costs: spreads by rarity, the most and least expensive, and how many of each material it all takes."
+summary = "Roster-wide statistics on promotion, mastery and module costs: spreads by rarity, the most and least expensive, and how many of each material it all takes."
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 weight = 8
@@ -24,7 +24,7 @@ today's infinite shop. Costs are counted the same way as on
 
 ## Costs by rarity
 
-How E2 and M3 costs are spread, for the whole roster and for
+How E2, M3 and module costs are spread, for the whole roster and for
 [recent operators]({{< ref "/guides/recent-promotion-costs" >}}). The bar shows
 the full range as a line, the middle half (Q1 to Q3) as a box, and the median
 as a tick.
@@ -48,7 +48,7 @@ as a tick.
 ## Materials for the whole roster
 
 How many of each Tier 3–5 material it takes to promote every 4★–6★ operator to
-E2 and master every skill.
+E2, master every skill and unlock every X, Y and Δ module.
 
 {{< efficiency-materials >}}
 
@@ -63,7 +63,7 @@ to stockpile. An operator drops off this list once released on EN.
 
 ## Where the cost goes
 
-The average operator's E2 and M3 cost, split into its parts. These totals are
-the ticket values on the cost pages.
+The average operator's E2, M3 and module cost, split into its parts. The E2 and M3
+totals are the ticket values on the cost pages.
 
 {{< efficiency-breakdown >}}

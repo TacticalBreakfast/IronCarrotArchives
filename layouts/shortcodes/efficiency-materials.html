@@ -4,8 +4,8 @@
          {{< efficiency-materials scope="upcoming" >}}  CN-only operators only
 
   Current era (data/efficiencies/stats.json → materials). Counts include E1
-  and E2 (alternate forms once) and M1–M3 of every skill; skill levels 1–7 are
-  never counted. "With crafting" = the count if every higher tier is crafted
+  and E2 (alternate forms once), M1–M3 of every skill and all three phases of
+  every X/Y/Δ module; skill levels 1–7 are never counted. "With crafting" = the count if every higher tier is crafted
   (Tier 5 → 4 → 3). Sanity = the direct count × value, sorted highest first.
   All scopes are rendered; the filter just shows one, and the column headers
   sort every scope together (assets/js/efficiency.js).
@@ -29,8 +29,8 @@
       <thead>
         <tr>
           {{- /* Sortable: column index = position; "text" sorts A–Z first, numbers highest first. */ -}}
-          {{- range $i, $c := slice (slice "Material" "text") (slice "Tier" "num") (slice "E1/E2" "num") (slice "Masteries" "num") (slice "Total" "num") (slice "With crafting" "num") (slice "Sanity" "num") -}}
-          <th scope="col"{{ if gt $i 1 }} class="eff-num"{{ end }}{{ if eq $i 6 }} aria-sort="descending"{{ end }}><button type="button" data-eff-msort="{{ $i }}" data-eff-kind="{{ index $c 1 }}">{{ index $c 0 }}</button></th>
+          {{- range $i, $c := slice (slice "Material" "text") (slice "Tier" "num") (slice "E1/E2" "num") (slice "Masteries" "num") (slice "Modules" "num") (slice "Total" "num") (slice "With crafting" "num") (slice "Sanity" "num") -}}
+          <th scope="col"{{ if gt $i 1 }} class="eff-num"{{ end }}{{ if eq $i 7 }} aria-sort="descending"{{ end }}><button type="button" data-eff-msort="{{ $i }}" data-eff-kind="{{ index $c 1 }}">{{ index $c 0 }}</button></th>
           {{- end -}}
         </tr>
       </thead>
@@ -42,6 +42,7 @@
             <td>T{{ .tier }}</td>
             <td class="eff-num">{{ lang.FormatNumber 0 .direct.promotion }}</td>
             <td class="eff-num">{{ lang.FormatNumber 0 .direct.mastery }}</td>
+            <td class="eff-num">{{ lang.FormatNumber 0 .direct.module }}</td>
             <td class="eff-num">{{ lang.FormatNumber 0 .direct.total }}</td>
             <td class="eff-num">{{ lang.FormatNumber 0 .crafted }}</td>
             <td class="eff-num">{{ lang.FormatNumber 0 .sanity }}</td>
@@ -51,5 +52,5 @@
       {{- end -}}
     </table>
   </div>
-  <p class="eff-key">E1 and E2 promotions plus M1–M3 of every skill. Skill levels 1–7 are not counted, and no E1 uses Tier 3 or higher materials. “With crafting” adds what crafting every higher-tier material would take; sanity counts each material once, at its own value.</p>
+  <p class="eff-key">E1 and E2 promotions, M1–M3 of every skill, and all three phases of every X, Y and Δ module. Skill levels 1–7 are not counted, and no E1 uses Tier 3 or higher materials. “With crafting” adds what crafting every higher-tier material would take; sanity counts each material once, at its own value.</p>
 </div>

@@ -21,8 +21,7 @@ showAuthor = false
 +++
 
 E2 and M3 costs of operators from the last ten CN patches, the ones paid
-promotion tickets are most often used on. Every operator is on the
-[full list]({{< ref "/guides/promotion-costs" >}}).
+promotion tickets are most often used on. Every operator, and Modules, are on the [full list]({{< ref "/guides/promotion-costs" >}}).
 
 {{< efficiency-era >}}
 

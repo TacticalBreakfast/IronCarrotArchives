@@ -126,3 +126,18 @@ recent_operators:
       rarities: [5]
     - label: "4★"
       rarities: [4]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Modules (X, Y and Δ; all three phases)
+#
+# Valued like everything else -- the phase materials and LMD at standard values,
+# Module Data Blocks at yituliu's value -- except the items listed here, which
+# count as 0. Shown on the full list and the stats page only (no shop pack
+# covers a module, so the recent page leaves them out).
+# Note for the packs work: Module Data Blocks are time-gated, which a pack's
+# value should account for; the standard value is fine for costs.
+# ─────────────────────────────────────────────────────────────────────────────
+modules:
+  # Data Supplement Sticks / Instruments: not obtainable with sanity and given
+  # in relative abundance, so they have no sanity value.
+  not_counted: ["mod_update_token_1", "mod_update_token_2"]

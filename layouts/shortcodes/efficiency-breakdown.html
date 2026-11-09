@@ -1,12 +1,12 @@
 {{- /*
   efficiency-breakdown — where the average operator's E2 and M3 cost goes, per rarity.
   Usage: {{< efficiency-breakdown >}}
-  Current era (data/efficiencies/stats.json → breakdown). The parts add up to
-  the ticket values on the cost pages.
+  Current era (data/efficiencies/stats.json → breakdown). The E2 and M3 parts
+  add up to the ticket values on the cost pages.
 */ -}}
 {{- $s := (partialCached "ica/efficiency/stats.html" . "efficiency-stats").stats -}}
-{{- $labels := dict "materials" "Materials" "chips" "Chips" "lmd" "LMD" "xp" "XP" "skill_summaries" "Skill Summaries" -}}
-{{- range $kind := slice (slice "promotion" "E2" (slice "materials" "chips" "lmd" "xp")) (slice "mastery" "M3, per skill" (slice "materials" "skill_summaries")) -}}
+{{- $labels := dict "materials" "Materials" "chips" "Chips" "lmd" "LMD" "xp" "XP" "skill_summaries" "Skill Summaries" "data_blocks" "Module Data Blocks" -}}
+{{- range $kind := slice (slice "promotion" "E2" (slice "materials" "chips" "lmd" "xp")) (slice "mastery" "M3, per skill" (slice "materials" "skill_summaries")) (slice "module" "Module, per module" (slice "materials" "data_blocks" "lmd")) -}}
   {{- $key := index $kind 0 }}{{ $parts := index $kind 2 -}}
   <div class="eff-table-wrap">
     <table class="eff-table eff-breakdown">

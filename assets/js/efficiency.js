@@ -59,8 +59,10 @@
     document.querySelectorAll("[data-eff-op]").forEach(function (cell) {
       var v = ops.operators[cell.dataset.effOp];
       if (!v) return;
-      var col = cell.dataset.effCol;
-      var value = col === "p" ? v.promotion : v.skills[+col];
+      var col = cell.dataset.effCol;    // "p", a skill index, or "mX"/"mY"/"mD" for modules
+      var value = col === "p" ? v.promotion
+        : col.charAt(0) === "m" ? (v.modules || {})[col.slice(1)]
+        : v.skills[+col];
       var rarity = cell.closest("tr").dataset.rarity;
       var kind = col === "p" ? "promotion" : "mastery";
       cell.textContent = num(value);
@@ -142,7 +144,7 @@
 
     // Column sorting: every scope's tbody is sorted together, so switching
     // scope keeps the order. Rendered order = sanity, highest first.
-    var current = { col: 6, dir: -1 };
+    var current = { col: 7, dir: -1 };   // the Sanity column
     function cellValue(row, col, kind) {
       var text = row.cells[col].textContent.trim();
       return kind === "text" ? text.toLowerCase() : +text.replace(/[^0-9.]/g, "");
@@ -167,6 +169,26 @@
       });
     });
   });
+
+  /* ---- Links to a row inside the full list's scroll box (#op-…) --------- */
+  // The roster table scrolls in its own box so its header row stays pinned.
+  // On a link to one of its rows the browser scrolls both the box and the page,
+  // but puts the box's top edge at the very top of the window -- under the
+  // site's fixed header. Re-place both: box just below the site header, row
+  // just below the pinned header row.
+  function showLinkedRow() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var row = id && document.getElementById(id);
+    var box = row && row.closest(".eff-table-wrap--frozen");
+    if (!box) return;
+    var head = box.querySelector("thead");
+    var site = document.querySelector(".fixed.top-0");
+    var siteBottom = site ? site.getBoundingClientRect().bottom : 0;
+    box.scrollTop = row.offsetTop - (head ? head.offsetHeight : 0) - 4;
+    window.scrollTo({ top: box.getBoundingClientRect().top + window.scrollY - siteBottom - 8, behavior: "instant" });
+  }
+  window.addEventListener("load", showLinkedRow);
+  window.addEventListener("hashchange", showLinkedRow);
 
   /* ---- Roster: sorting and filters ------------------------------------- */
   document.querySelectorAll(".eff-roster").forEach(function (roster) {

@@ -1,5 +1,5 @@
 {{- /*
-  efficiency-roster — every 4★–6★ operator's E2 and M3 costs, filterable and sortable.
+  efficiency-roster — every 4★–6★ operator's E2, M3 and module (X/Y/Δ) costs, filterable and sortable.
   Usage: {{< efficiency-roster >}}
 
   Rows come from data/efficiencies/operator_costs.json (CN data, so CN-only
@@ -35,7 +35,7 @@
     </label>
     <span class="eff-filters__count" data-eff-count>{{ len $rows }} operators</span>
   </div>
-  <div class="eff-table-wrap">
+  <div class="eff-table-wrap eff-table-wrap--frozen">
     <table class="eff-table">
       <thead>
         <tr>
@@ -44,6 +44,7 @@
           <th scope="col" class="eff-col-class"><button type="button" data-eff-sort="class">Class</button></th>
           <th scope="col" class="eff-num"><button type="button" data-eff-sort="p">E2</button></th>
           {{- range slice 0 1 2 }}<th scope="col" class="eff-num"><button type="button" data-eff-sort="{{ . }}">S{{ add . 1 }}M3</button></th>{{ end -}}
+          {{- range slice (slice "X" "X") (slice "Y" "Y") (slice "D" "Δ") }}<th scope="col" class="eff-num eff-col-mod"><button type="button" data-eff-sort="m{{ index . 0 }}">Mod{{ index . 1 }}</button></th>{{ end -}}
         </tr>
       </thead>
       <tbody>
@@ -61,6 +62,13 @@
                 <td class="eff-num" data-eff-op="{{ $id }}" data-eff-col="{{ $i }}">{{ partial "ica/efficiency/num.html" $m }}</td>
               {{- else -}}
                 <td class="eff-num eff-none">—</td>
+              {{- end -}}
+            {{- end -}}
+            {{- range $t := slice "X" "Y" "D" -}}
+              {{- with index $v.modules $t -}}
+                <td class="eff-num eff-col-mod" data-eff-op="{{ $id }}" data-eff-col="m{{ $t }}">{{ partial "ica/efficiency/num.html" . }}</td>
+              {{- else -}}
+                <td class="eff-num eff-none eff-col-mod">—</td>
               {{- end -}}
             {{- end -}}
           </tr>
