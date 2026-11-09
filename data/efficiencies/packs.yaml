@@ -1,0 +1,293 @@
+# Hand-edited rules for the shop packs page. Event packs come from
+# assets/game_img/processed/shop_packs.json (scraped monthly from the CN wiki);
+# EN names, sale windows and real EN prices come from EN game data
+# (shop_client_table.json) by each pack's goodId once EN sells it. This file
+# holds only what the data can't supply. Items are valued with the `packs`
+# profile (value_rules.yaml). Edit this file, then rerun the generator; never
+# hand-edit the generated JSON.
+#
+# Item ids are the game's (excel-*/item_table.json): 4001 LMD, 4002 Originite
+# Prime, 4003 Orundum, 7003 Headhunting Permit, 7004 Ten-roll Headhunting
+# Permit, 3211 / 3212 / 3213 Chip / Chip Pack / Dualchip (any class -- all
+# classes share one value), 3301-3303 Skill Summaries, mod_unlock_token Module
+# Data Block. The pseudo-item `xp` is that much operator XP, valued at
+# value_rules.yaml -> packs: xp_value.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# How a pack is measured (the sheet's CALCS - Packs maths)
+#
+#   pulls          = headhunting pulls in the pack (permits, Orundum / 600)
+#   OP             = Originite Prime in the pack
+#   material value = everything else, in sanity
+#   total OP worth = material value / 135 + OP + pulls x 600/180
+#   $ per OP       = USD / total OP worth          (all contents)
+#   total pulls    = pulls + OP x 180/600
+#   $ per pull     = USD / total pulls             (pulls and OP only)
+# ─────────────────────────────────────────────────────────────────────────────
+pulls:
+  orundum_per_pull: 600
+  orundum_per_op: 180          # the OP -> Orundum exchange
+  # Items that are pulls, not materials, and how many pulls each is worth.
+  items:
+    "7003": 1
+    "7004": 10
+  # Banner permits get a new item id (and name) every time they appear, so
+  # they're recognised by item type (shop_packs.json records it, category
+  # "Headhunting"). Each pull is worth a standard pull, even when it can only
+  # be used on one banner -- the page notes the restriction (note banner_only).
+  item_types:
+    EXCLUSIVE_TKT_GACHA: 1       # one banner only
+    EXCLUSIVE_TKT_GACHA_10: 10   # one banner only
+    LIMITED_TKT_GACHA_10: 10
+    LINKAGE_TKT_GACHA: 1
+    LINKAGE_TKT_GACHA_10: 10
+  # Kernel pulls (classic_gacha, classic_gacha_10, CLASSIC_TKT_GACHA*) count
+  # for nothing -- avoid Kernel. α/β/γ "one of three" vouchers
+  # (VOUCHER_CGACHA) and operator selectors aren't valued at all; packs
+  # holding them show a note instead of numbers.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Colours (the sheet's thresholds). At or below `green` is green, at or below
+# `yellow` is yellow, above is red.
+#   green  = better than the double-OP packs: buy these first
+#   yellow = better than the $100 OP pack without the double bonus: buy only
+#            after the double-OP packs are used up
+#   red    = worse than any OP pack: don't buy
+# ─────────────────────────────────────────────────────────────────────────────
+colours:
+  per_op: {green: 0.38, yellow: 0.54}
+  per_pull: {green: 1.25, yellow: 1.81}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CNY -> USD price map
+#
+# For packs EN hasn't sold yet (once EN sells a pack, its real price comes from
+# EN game data). Values are store prices ($4.99, not $5). Checked 2026-11-09
+# against every pack sold on both servers (CN yuan vs EN cents for the same
+# goodId); `seen` is how many such packs agreed, and none disagreed.
+# `estimated: true` = no EN sale to confirm it yet -- update when one appears.
+# ─────────────────────────────────────────────────────────────────────────────
+price_map:
+  6:   {usd: 0.99,  seen: 6}
+  12:  {usd: 1.99,  estimated: true}
+  24:  {usd: 3.99,  estimated: true}
+  30:  {usd: 4.99,  seen: 60}
+  45:  {usd: 6.99,  seen: 12}
+  58:  {usd: 8.99,  seen: 4}     # banner headhunting bundles (Rage of the Many, Command: Reconstruction)
+  68:  {usd: 9.99,  seen: 68}
+  78:  {usd: 11.99, estimated: true}
+  98:  {usd: 14.99, seen: 23}
+  128: {usd: 19.99, seen: 16}
+  168: {usd: 25.99, seen: 25}
+  198: {usd: 29.99, seen: 20}
+  328: {usd: 49.99, seen: 7}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Expected EN start dates, by CN event id (shop_packs.json -> event.id).
+#
+# Upcoming events are listed in CN release order, which EN mostly follows.
+# Add a line here only for an event that breaks that order. Once EN game data
+# has the event, its real dates win and the line can be deleted.
+# ─────────────────────────────────────────────────────────────────────────────
+event_dates:
+  # April Fools runs on 1 April on both servers, so EN gets CN's event the
+  # following year: act7fun was CN 2026-04-01 and should be EN 2027-04-01.
+  act7fun: 2027-04-01
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Per-pack overrides, keyed by goodId (shop_packs.json -> goodId, also shown in
+# the generator's "needs attention" list). Rarely needed: EN names and prices
+# come from game data. Any of:
+#   name:     EN name to show         usd:    price to use
+#   notes:    [note keys, below]      hidden: true (leave the pack off the page)
+#   contents: {item id: count}        -- replaces the scraped contents entirely
+# Example:
+#   GP_Once_498:
+#     name: Heavy Funding Pack
+#     usd: 6.99
+# ─────────────────────────────────────────────────────────────────────────────
+overrides: {}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Notes shown on the page. Packs refer to them by key; the generator also adds
+# some automatically (kernel, selector, random_of_3, banner_only, upcoming).
+# ─────────────────────────────────────────────────────────────────────────────
+notes:
+  module_materials: >-
+    Module upgrade materials (Data Supplement Sticks and Instruments) aren't
+    counted: they can't be farmed, and Module Data Blocks limit module
+    upgrades anyway.
+  module_blocks: >-
+    Module Data Blocks are valued based on red certificates, but red
+    certificate purchases are limited, so they may be worth more if you're
+    short on time.
+  vouchers: >-
+    Material vouchers are valued at the average of the most valuable materials
+    they can buy, so cheap picks like Rocks and Kohl don't drag them down.
+  kernel: >-
+    Kernel pulls aren't counted (don't roll on Kernel banners).
+  tickets: >-
+    Training Invitation Letters and Skill Training Packs are valued at the
+    average cost across every operator of their rarity.
+  selector: >-
+    6★ selector packs aren't valued, since it would be nearly impossible to
+    do. They are by far the best purchase available (except the monthly
+    card): get them if an operator you'd use is on offer.
+  upcoming: >-
+    Contents and names come from the CN server and EN prices are estimated.
+    They're usually right, but aren't official until the packs go live on EN.
+  random_of_3: >-
+    "One of three" packs are generally poor value: they cost only $4 less than
+    the no-luck selector, so buy that first. Only buy one if you'd be happy
+    with any of the three.
+  banner_only: >-
+    These pulls can only be used on that event's banner.
+  dont_buy: >-
+    Don't buy this one.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Packs not in the CN scrape: always available on EN. Written as contents so
+# they're valued like everything else and follow changes in item values.
+#   name, usd, contents: {item id: count}, notes: [keys], text: shown instead
+#   of the generated contents list (when the contents need explaining)
+# ─────────────────────────────────────────────────────────────────────────────
+regular_packs:
+  - name: Monthly Card
+    usd: 4.99
+    # 6 OP on purchase; every day for 30 days, 200 Orundum and one Emergency
+    # Sanity Booster (ap_supply_lt_80, 80 sanity) -- excel-en/checkin_table.json
+    # -> monthlySubItem.
+    contents: {"4002": 6, "4003": 6000, "ap_supply_lt_80": 30}
+    text: "6x Originite Prime, then daily for 30 days: 200x Orundum, 1x Emergency Sanity Booster"
+  - name: Monthly Headhunting Pack
+    usd: 25.99
+    contents: {"4002": 42, "7004": 1}
+  - name: Monthly Funding Pack
+    usd: 2.99
+    contents: {"4001": 240000}
+  - name: Monthly Battle Record Pack
+    usd: 4.99
+    contents: {xp: 324000}
+  - name: Material Voucher Pack
+    usd: 4.99
+    contents: {premium_material_issue_voucher: 8, advanced_material_issue_voucher: 12}
+    notes: [vouchers]
+  - name: $2 Chip Packs
+    usd: 1.99
+    contents: {"3212": 5, "3211": 8}
+    text: "5x Chip Pack, 8x Chip"
+  - name: $5 Chip Packs (one per banner)
+    usd: 4.99
+    contents: {"3213": 4, "3211": 5, "3303": 45, "3302": 25, "3301": 10}
+    text: "4x Dualchip, 5x Chip, 45x Skill Summary - 3, 25x Skill Summary - 2, 10x Skill Summary - 1"
+
+starter_packs:
+  # Contents of the starter packs: prts.wiki 采购中心/组合包, section 常驻充值组合包.
+  - name: Starter Pack
+    usd: 0.99
+    contents: {"7003": 1, "4001": 10000, "2001": 20}
+    text: "1x Headhunting Permit, 10,000x LMD, 20x Drill Battle Record, Myrtle"
+  - name: Starter Monthly Pack
+    usd: 6.99
+    contents: {"4002": 6, "4003": 6000, "ap_supply_lt_80": 30, "7003": 3}
+    text: "1x Monthly Card, 3x Headhunting Permit"
+  - name: Starter Headhunting Pack
+    usd: 19.99
+    contents: {"7004": 2}
+  - name: Starter Special Training Pack
+    usd: 25.99
+    contents: {voucher_elite_II_6: 1, voucher_elite_II_5: 1, voucher_elite_II_4: 2}
+    notes: [tickets]
+  - name: Starter Upgrade Pack       # CN 新人养成组合包
+    usd: 9.99
+    contents:
+      "4002": 13
+      "4001": 40000
+      "2003": 20          # Tactical Battle Record
+      "2002": 30          # Frontline Battle Record
+      "2001": 40          # Drill Battle Record
+      "3301": 30
+      "3302": 10
+      "30062": 4          # Device
+      "30052": 5          # Polyketon
+      "30042": 5          # Oriron
+      "30032": 7          # Polyester
+      "30022": 7          # Sugar
+      "30012": 10         # Orirock Cube
+    notes: [dont_buy]
+  - name: Starter Furniture Pack     # CN 新人家具组合包
+    usd: 9.99
+    contents: {"4002": 6, "3401": 2400}
+    notes: [dont_buy]
+
+# OP top-up packs (EN). Prices are the store's; `double` is the OP from a
+# first purchase with the double bonus.
+op_packs:
+  - {usd: 0.99,  op: 1,   double: 3}
+  - {usd: 4.99,  op: 7,   double: 12}
+  - {usd: 14.99, op: 24,  double: 40}
+  - {usd: 29.99, op: 50,  double: 80}
+  - {usd: 49.99, op: 90,  double: 132}
+  - {usd: 99.99, op: 185, double: 260}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Common packs: ones that come back regularly under different names. Shown
+# generically so their value is always on hand. An event pack whose contents
+# and price match one exactly is labelled with it.
+# ─────────────────────────────────────────────────────────────────────────────
+common_packs:
+  - name: 24 Module Data Blocks, with upgrade materials
+    usd: 9.99
+    contents: {mod_unlock_token: 24, mod_update_token_2: 30, mod_update_token_1: 90}
+    notes: [module_materials, module_blocks]
+  - name: 12 Module Data Blocks
+    usd: 4.99
+    contents: {mod_unlock_token: 12}
+    notes: [module_blocks]
+  - name: 700,000 LMD
+    usd: 9.99
+    contents: {"4002": 16, "4001": 700000}
+  - name: 300,000 LMD
+    usd: 6.99
+    contents: {"4002": 13, "4001": 300000}
+  - name: 1x 6★ E2, 2x 5★ E2
+    usd: 25.99
+    contents: {voucher_elite_II_6: 1, voucher_elite_II_5: 2}
+    notes: [tickets]
+  - name: 1x 6★ E2, 1x 5★ E2, 2x 4★ E2
+    usd: 25.99
+    contents: {voucher_elite_II_6: 1, voucher_elite_II_5: 1, voucher_elite_II_4: 2}
+    notes: [tickets]
+  - name: 1x 6★ E2
+    usd: 25.99
+    contents: {"4002": 36, voucher_elite_II_6: 1}
+    notes: [tickets]
+  - name: 1x 5★ E2
+    usd: 14.99
+    contents: {"4002": 24, voucher_elite_II_5: 1}
+    notes: [tickets]
+  - name: 1x 6★ M3, 1x 5★ M3, 1x 4★ M3
+    usd: 14.99
+    contents: {"4002": 12, voucher_skill_specialLevelMax_6: 1, voucher_skill_specialLevelMax_5: 1, voucher_skill_specialLevelMax_4: 1}
+    notes: [tickets]
+  - name: 1x 6★ max level, 1x 5★ max level, 2x 4★ max level
+    usd: 25.99
+    contents: {voucher_levelmax_6: 1, voucher_levelmax_5: 1, voucher_levelmax_4: 2}
+  - name: 1x 6★ max level
+    usd: 19.99
+    contents: {"4002": 19, voucher_levelmax_6: 1}
+  - name: 1x 5★ max level
+    usd: 9.99
+    contents: {"4002": 11, voucher_levelmax_5: 1}
+  - name: 2x Ten-roll + 9 OP
+    usd: 25.99
+    contents: {"4002": 9, "7004": 2}
+  - name: 6★ Selector (Standard or Kernel)
+    usd: 29.99
+    contents: {"7004": 1}
+    text: "1x Ten-roll Headhunting Permit, 1x 6★ selector (the Kernel version adds a Kernel ten-roll)"
+    notes: [selector]
+  - name: 6★ Random of 3
+    usd: 25.99
+    text: "One of three 6★ operators"
+    notes: [random_of_3]

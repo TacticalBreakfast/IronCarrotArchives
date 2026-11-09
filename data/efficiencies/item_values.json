@@ -2,14 +2,14 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- edit data/efficiencies/value_rules.yaml and rerun the script instead.",
-  "assets_commit": "363bde4",
+  "assets_commit": "9ad3501",
   "inputs": {
-   "data/efficiencies/value_rules.yaml": "4671babbfa0d3ae5",
+   "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "assets/game_img/processed/item_efficiency.json": "4b248e9789e34f31",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
    "assets/game_img/excel-cn/building_data.json": "e16cf98645869e34",
    "assets/game_img/processed/release_log.csv": "853346dc90968f99",
-   "tools/build_item_values.py": "998bfdfb972af3c1",
+   "tools/build_item_values.py": "8885962d234c2599",
    "assets/game_img/excel-cn/character_table.json": "166e1e86842693fe",
    "assets/game_img/excel-cn/char_patch_table.json": "2cde3e0fce094fc5",
    "assets/game_img/excel-cn/skill_table.json": "dcfd9b9fbf41ed22",
@@ -993,18 +993,18 @@
     "voucher_5chipPackage": 86.112,
     "voucher_chipPackage": 361.6704,
     "voucher_class_pick6": 0,
-    "voucher_elite_II_4": 1966.5709,
-    "voucher_elite_II_5": 3654.0088,
-    "voucher_elite_II_6": 5587.4215,
+    "voucher_elite_II_4": 2060.0414,
+    "voucher_elite_II_5": 3764.7875,
+    "voucher_elite_II_6": 5714.8216,
     "voucher_item_pick6": 0,
     "voucher_levelmax_4": 2194.4232,
     "voucher_levelmax_5": 3392.5608,
     "voucher_levelmax_6": 5381.838,
     "voucher_recruitR5_pick": 0,
     "voucher_recruitR6_pick": 0,
-    "voucher_skill_specialLevelMax_4": 998.6469,
-    "voucher_skill_specialLevelMax_5": 2073.178,
-    "voucher_skill_specialLevelMax_6": 3161.9783,
+    "voucher_skill_specialLevelMax_4": 1058.3739,
+    "voucher_skill_specialLevelMax_5": 2236.9531,
+    "voucher_skill_specialLevelMax_6": 3402.2003,
     "voucher_skin": 2430
    },
    "eras": [
@@ -1035,12 +1035,12 @@
       "precious_material_voucher_perm": 334.5746,
       "premium_material_issue_voucher": 102.179,
       "rare_material_issue_voucher": 334.5746,
-      "voucher_elite_II_4": 2174.5641,
-      "voucher_elite_II_5": 3904.4535,
-      "voucher_elite_II_6": 5961.6823,
-      "voucher_skill_specialLevelMax_4": 1395.3056,
-      "voucher_skill_specialLevelMax_5": 2715.4286,
-      "voucher_skill_specialLevelMax_6": 4029.1143
+      "voucher_elite_II_4": 2186.9121,
+      "voucher_elite_II_5": 3937.663,
+      "voucher_elite_II_6": 6005.9852,
+      "voucher_skill_specialLevelMax_4": 1415.6222,
+      "voucher_skill_specialLevelMax_5": 2758.6198,
+      "voucher_skill_specialLevelMax_6": 4096.5814
      }
     },
     {
@@ -1068,12 +1068,12 @@
       "precious_material_voucher_perm": 334.5746,
       "premium_material_issue_voucher": 102.179,
       "rare_material_issue_voucher": 334.5746,
-      "voucher_elite_II_4": 2123.3221,
-      "voucher_elite_II_5": 3857.2464,
-      "voucher_elite_II_6": 5898.7518,
-      "voucher_skill_specialLevelMax_4": 1314.3434,
-      "voucher_skill_specialLevelMax_5": 2600.8901,
-      "voucher_skill_specialLevelMax_6": 3882.8352
+      "voucher_elite_II_4": 2180.2415,
+      "voucher_elite_II_5": 3911.8679,
+      "voucher_elite_II_6": 5957.8562,
+      "voucher_skill_specialLevelMax_4": 1350.4176,
+      "voucher_skill_specialLevelMax_5": 2680.768,
+      "voucher_skill_specialLevelMax_6": 4002.4533
      }
     },
     {
@@ -1096,12 +1096,12 @@
       "precious_material_voucher_perm": 334.5746,
       "premium_material_issue_voucher": 101.0772,
       "rare_material_issue_voucher": 334.5746,
-      "voucher_elite_II_4": 2071.1396,
-      "voucher_elite_II_5": 3787.4965,
-      "voucher_elite_II_6": 5806.8834,
-      "voucher_skill_specialLevelMax_4": 1214.5244,
-      "voucher_skill_specialLevelMax_5": 2440.7621,
-      "voucher_skill_specialLevelMax_6": 3667.0649
+      "voucher_elite_II_4": 2161.2987,
+      "voucher_elite_II_5": 3875.7681,
+      "voucher_elite_II_6": 5882.2598,
+      "voucher_skill_specialLevelMax_4": 1258.5213,
+      "voucher_skill_specialLevelMax_5": 2548.3124,
+      "voucher_skill_specialLevelMax_6": 3815.9272
      }
     },
     {
@@ -1119,12 +1119,12 @@
       "precious_material_voucher_perm": 324.968,
       "premium_material_issue_voucher": 99.6818,
       "rare_material_issue_voucher": 324.968,
-      "voucher_elite_II_4": 2028.8392,
-      "voucher_elite_II_5": 3723.9778,
-      "voucher_elite_II_6": 5708.1905,
-      "voucher_skill_specialLevelMax_4": 1123.1836,
-      "voucher_skill_specialLevelMax_5": 2281.4378,
-      "voucher_skill_specialLevelMax_6": 3447.0791
+      "voucher_elite_II_4": 2123.4851,
+      "voucher_elite_II_5": 3827.5266,
+      "voucher_elite_II_6": 5798.3855,
+      "voucher_skill_specialLevelMax_4": 1167.2383,
+      "voucher_skill_specialLevelMax_5": 2403.2007,
+      "voucher_skill_specialLevelMax_6": 3621.7298
      }
     },
     {

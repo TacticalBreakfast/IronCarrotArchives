@@ -34,7 +34,9 @@ item_values.json (generated -- never hand-edit):
                 values is empty.
     packs       same shape: standard plus the pack-only items valued by the
                 rules under `packs:` in value_rules.yaml (training items at
-                the average operator cost they replace, full-value XP,
+                the average operator cost they replace -- without the
+                cheapest quarter when tickets_exclude_bottom_quartile is set --
+                full-value XP,
                 material vouchers, Kernel permits). Computed separately for
                 every era, since the averages depend on material values.
   operator_values
@@ -52,8 +54,10 @@ item_values.json (generated -- never hand-edit):
                              xp_value.
                   averages   {rarity: {promotion, mastery}} over ALL operators
                              of the rarity (alternate forms' promotions once;
-                             mastery per skill). Equal to the packs profile's
-                             Invitation Letter / Skill Training Pack values.
+                             mastery per skill). The packs profile's
+                             Invitation Letter / Skill Training Pack values
+                             equal these only when tickets_exclude_bottom_quartile
+                             is off.
   recent_operators
     patches     [{cn_patch, operators}] for the most recent CN patches, newest
                 first (release_log.csv), gameplay-promoted units left out.
@@ -457,6 +461,13 @@ def pack_values(rules: dict, values: dict, operators: dict, tiers: dict, exp_ite
     def average(numbers: list) -> float:
         return sum(numbers) / len(numbers)
 
+    def ticket_average(numbers: list) -> float:
+        """Average for a ticket: optionally without the cheapest quarter."""
+        if rules.get("tickets_exclude_bottom_quartile") and len(numbers) >= 2:
+            q1 = statistics.quantiles(numbers, n=4, method="inclusive")[0]
+            numbers = [x for x in numbers if x >= q1]
+        return average(numbers)
+
     out = {}
     for item_id in rules["battle_records"]:
         out[item_id] = exp_items[item_id]["gainExp"] * xp
@@ -473,7 +484,7 @@ def pack_values(rules: dict, values: dict, operators: dict, tiers: dict, exp_ite
             for op in ops.values()
             if op["rarity"] == rarity and "form_of" not in op
         ]
-        out[item_id] = average(promotions) + leveling
+        out[item_id] = ticket_average(promotions) + leveling
 
     for item_id, rarity in rules["skill_training_packs"].items():
         skills = [
@@ -481,7 +492,7 @@ def pack_values(rules: dict, values: dict, operators: dict, tiers: dict, exp_ite
             for op in ops.values() if op["rarity"] == rarity
             for skill in op["skills"]
         ]
-        out[item_id] = average(skills)
+        out[item_id] = ticket_average(skills)
 
     for item_id, rule in rules["material_vouchers"].items():
         pool = sorted((values[m] for m, tier in tiers.items() if tier == rule["tier"] and m in values),

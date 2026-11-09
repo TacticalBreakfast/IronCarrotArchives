@@ -80,6 +80,16 @@ packs:
     voucher_skill_specialLevelMax_5: 5
     voucher_skill_specialLevelMax_6: 6
 
+  # Both kinds of ticket above leave out low-end outliers before averaging:
+  # operators (letters) or skills (skill packs) below their rarity's first
+  # quartile, i.e. the cheapest quarter (inclusive quartiles, like the sheet's
+  # QUARTILE). These are mostly older units that use a lot of infinite-shop
+  # materials. (The sheet's "Avg exl outliers" column.) false = plain average.
+  # This affects the SHOP PACK valuations only: everywhere else -- the cost
+  # pages' ticket table, the "average operator", the stats page -- uses the
+  # plain average (operator_values -> averages).
+  tickets_exclude_bottom_quartile: true
+
   # Material vouchers: redeem for one material of a tier. Value = the average
   # of the `top` most valuable materials of that tier (you'd pick a valuable
   # one), CN-only materials included.
@@ -107,8 +117,10 @@ packs:
 #               plus E0 and E1 levelling (an Invitation Letter's coverage)
 #   mastery   = one skill M0 -> M3, Skill Summaries included (a Skill
 #               Training Pack's coverage)
-# XP is valued at packs: xp_value. Averaged over every operator of a rarity,
-# these equal the packs profile's Invitation Letter / Skill Training Pack.
+# XP is valued at packs: xp_value. Averaged over every operator of a rarity
+# these give the "average operator"; the packs profile's Invitation Letter /
+# Skill Training Pack are the same average without the cheapest quarter
+# (packs: tickets_exclude_bottom_quartile).
 #
 # Release order comes from assets/game_img/processed/release_log.csv (CN
 # release; patches keyed by start date). Operators promoted through gameplay
