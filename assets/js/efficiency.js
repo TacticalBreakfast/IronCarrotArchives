@@ -1,5 +1,6 @@
 /*
- * Efficiency pages (shortcodes efficiency-era / -roster / -recent / -tickets).
+ * Efficiency pages (shortcodes efficiency-era / -roster / -recent / -tickets,
+ * and the material filters of efficiency-materials on the stats page).
  *
  * The page is rendered for the default era; everything here is optional
  * enhancement. Picking an era fetches the generated numbers for every era
@@ -109,6 +110,63 @@
       choose(saved, false);
     }
   }
+
+  /* ---- Material tables: operator scope and tier filters ----------------- */
+  document.querySelectorAll("[data-eff-mats]").forEach(function (box) {
+    var tier = "all";
+    function press(attr, btn) {
+      box.querySelectorAll("[" + attr + "]").forEach(function (b) {
+        b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+      });
+    }
+    function filterTiers() {
+      box.querySelectorAll("tbody tr").forEach(function (row) {
+        row.hidden = tier !== "all" && row.dataset.tier !== tier;
+      });
+    }
+    box.querySelectorAll("[data-eff-scope]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        press("data-eff-scope", btn);
+        box.querySelectorAll("[data-eff-scope-body]").forEach(function (body) {
+          body.hidden = body.dataset.effScopeBody !== btn.dataset.effScope;
+        });
+      });
+    });
+    box.querySelectorAll("[data-eff-tier]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        press("data-eff-tier", btn);
+        tier = btn.dataset.effTier;
+        filterTiers();
+      });
+    });
+
+    // Column sorting: every scope's tbody is sorted together, so switching
+    // scope keeps the order. Rendered order = sanity, highest first.
+    var current = { col: 6, dir: -1 };
+    function cellValue(row, col, kind) {
+      var text = row.cells[col].textContent.trim();
+      return kind === "text" ? text.toLowerCase() : +text.replace(/[^0-9.]/g, "");
+    }
+    box.querySelectorAll("[data-eff-msort]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var col = +btn.dataset.effMsort, kind = btn.dataset.effKind;
+        current.dir = current.col === col ? -current.dir : (kind === "text" ? 1 : -1);
+        current.col = col;
+        box.querySelectorAll("tbody").forEach(function (body) {
+          var rows = Array.prototype.slice.call(body.rows);
+          rows.sort(function (a, b) {
+            var x = cellValue(a, col, kind), y = cellValue(b, col, kind);
+            if (x < y) return -current.dir;
+            if (x > y) return current.dir;
+            return cellValue(a, 0, "text") < cellValue(b, 0, "text") ? -1 : 1;  // ties: by name
+          });
+          rows.forEach(function (row) { body.appendChild(row); });
+        });
+        box.querySelectorAll("[data-eff-msort]").forEach(function (b) { b.closest("th").removeAttribute("aria-sort"); });
+        btn.closest("th").setAttribute("aria-sort", current.dir === 1 ? "ascending" : "descending");
+      });
+    });
+  });
 
   /* ---- Roster: sorting and filters ------------------------------------- */
   document.querySelectorAll(".eff-roster").forEach(function (roster) {

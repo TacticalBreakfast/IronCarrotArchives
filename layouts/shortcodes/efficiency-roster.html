@@ -43,7 +43,7 @@
           <th scope="col"><button type="button" data-eff-sort="rarity">★</button></th>
           <th scope="col" class="eff-col-class"><button type="button" data-eff-sort="class">Class</button></th>
           <th scope="col" class="eff-num"><button type="button" data-eff-sort="p">E2</button></th>
-          {{- range slice 0 1 2 }}<th scope="col" class="eff-num"><button type="button" data-eff-sort="{{ . }}">S{{ add . 1 }} M3</button></th>{{ end -}}
+          {{- range slice 0 1 2 }}<th scope="col" class="eff-num"><button type="button" data-eff-sort="{{ . }}">S{{ add . 1 }}M3</button></th>{{ end -}}
         </tr>
       </thead>
       <tbody>
@@ -69,4 +69,3 @@
     </table>
   </div>
 </div>
-{{- partial "ica/efficiency/script.html" . -}}

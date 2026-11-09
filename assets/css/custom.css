@@ -607,7 +607,9 @@ html.dark .eff-filters__class select { border-color: rgba(var(--color-neutral-60
 
 /* Tables */
 .eff-table-wrap { overflow-x: auto; margin: 0.5rem 0 1rem; }
-.eff-table { width: 100%; margin: 0 !important; border-collapse: collapse; font-size: 0.85rem; }
+/* display: table undoes the theme's display: block on tables, which kept rows from
+   filling the width; .eff-table-wrap supplies the horizontal scrolling instead. */
+.eff-table { display: table; width: 100%; margin: 0 !important; border-collapse: collapse; font-size: 0.85rem; }
 .eff-table th, .eff-table td {
     padding: 0.3rem 0.5rem;
     border-bottom: 1px solid rgba(var(--color-neutral-200), 1);
@@ -669,4 +671,42 @@ html.dark .eff-op__img--missing { background-color: rgba(var(--color-neutral-700
     .eff-table .eff-col-class, .eff-table .eff-col-patch { display: none; }
     .eff-table th, .eff-table td { padding: 0.25rem 0.35rem; }
     .eff-op__img { width: 24px; height: 24px; }
+}
+
+/* Efficiency stats page — efficiency-overview / -extremes / -materials / -upcoming / -breakdown */
+.eff-col-bar { width: 30%; min-width: 6rem; }
+.eff-overview__recent > * { border-bottom-style: dashed !important; }
+.eff-spread { position: relative; display: block; height: 0.9rem; }
+.eff-spread__range { position: absolute; top: 50%; height: 2px; margin-top: -1px; background-color: rgba(var(--color-neutral-400), 1); }
+.eff-spread__box { position: absolute; top: 0; bottom: 0; border-radius: 2px; background-color: rgba(var(--color-primary-500), 0.45); }
+.eff-spread__median { position: absolute; top: -2px; bottom: -2px; width: 2px; margin-left: -1px; background-color: rgba(var(--color-neutral-800), 1); }
+html.dark .eff-spread__median { background-color: rgba(var(--color-neutral-100), 1); }
+.eff-overview__recent .eff-spread__box { background-color: rgba(var(--eff-hi), 0.45); }
+.eff-table .eff-axis-row td { border: none !important; padding-top: 0; }
+.eff-axis { position: relative; display: block; height: 1.1rem; margin: 0 1.1rem 0 0; border-top: 1px solid rgba(var(--color-neutral-300), 1); font-size: 0.65rem; color: rgba(var(--color-neutral-500), 1); }
+html.dark .eff-axis { border-top-color: rgba(var(--color-neutral-600), 1); }
+.eff-axis > span { position: absolute; top: 0.1rem; transform: translateX(-50%); white-space: nowrap; }
+.eff-axis > span:first-child { transform: none; }
+.eff-axis > span::before { content: ""; position: absolute; top: -0.25rem; left: 50%; height: 0.2rem; border-left: 1px solid currentColor; }
+.eff-axis > span:first-child::before { left: 0; }
+
+
+.eff-extremes { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 0 1.5rem; }
+.eff-extremes .eff-table-wrap { margin: 0.25rem 0 0.75rem; }
+
+.eff-stack { display: flex; height: 0.9rem; border-radius: 2px; overflow: hidden; }
+.eff-stack > span { display: block; height: 100%; }
+.eff-part--materials { background-color: rgba(var(--color-primary-500), 0.7); }
+.eff-part--chips { background-color: rgba(168, 85, 247, 0.7); }        /* purple-500 */
+.eff-part--lmd { background-color: rgba(var(--eff-above), 0.8); }
+.eff-part--xp { background-color: rgba(34, 197, 94, 0.7); }             /* green-500 */
+.eff-part--skill_summaries { background-color: rgba(168, 85, 247, 0.7); }
+.eff-breakdown th .eff-key__swatch { vertical-align: -0.1em; }
+
+.eff-upcoming { display: flex; flex-wrap: wrap; gap: 0.4rem 1.25rem; padding: 0 !important; list-style: none; font-size: 0.85rem; }
+.eff-upcoming li { margin: 0 !important; padding: 0 !important; }
+.eff-upcoming li::before { content: none !important; }
+
+@media (max-width: 640px) {
+    .eff-col-bar { display: none; }
 }

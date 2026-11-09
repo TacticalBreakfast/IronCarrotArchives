@@ -1,0 +1,69 @@
+{{- /*
+  efficiency-overview — spread of E2 and M3 costs per rarity, whole roster vs recent operators.
+  Usage: {{< efficiency-overview >}}
+
+  Current era only. Numbers from data/efficiencies/stats.json → overview
+  (inclusive quartiles, alternate forms' promotions once, masteries per skill).
+  The bar shows min–max as a line, Q1–Q3 as a box and the median as a tick.
+  Every row in a table shares one scale from 0 (with a labelled axis), so the
+  bars show the real difference between rarities -- a per-rarity scale made
+  4★ and 6★ look alike.
+*/ -}}
+{{- $s := (partialCached "ica/efficiency/stats.html" . "efficiency-stats").stats -}}
+{{- range $kind := slice (slice "promotion" "E2") (slice "mastery" "M3, per skill") -}}
+  {{- $key := index $kind 0 -}}
+  {{- /* One scale per table: 0 to the highest max rounded up to 1,000; axis labels every 1,000 or 2,000. */ -}}
+  {{- $top := 0.0 -}}
+  {{- range $r := slice "6" "5" "4" }}{{ range $o := index $s.overview $r }}{{ $m := (index $o $key).max }}{{ if gt $m $top }}{{ $top = $m }}{{ end }}{{ end }}{{ end -}}
+  {{- $scale := mul (math.Ceil (div $top 1000)) 1000 -}}
+  {{- $step := cond (gt $scale 5000.0) 2000 1000 -}}
+  <div class="eff-table-wrap">
+    <table class="eff-table eff-overview">
+      <thead>
+        <tr>
+          <th scope="col">{{ index $kind 1 }}</th>
+          <th scope="col" class="eff-num">Count</th>
+          <th scope="col" class="eff-num">Min</th>
+          <th scope="col" class="eff-num">Q1</th>
+          <th scope="col" class="eff-num">Median</th>
+          <th scope="col" class="eff-num">Q3</th>
+          <th scope="col" class="eff-num">Max</th>
+          <th scope="col" class="eff-num">Average</th>
+          <th scope="col" class="eff-col-bar"><span class="sr-only">Spread</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $r := slice "6" "5" "4" -}}
+          {{- $o := index $s.overview $r -}}
+          {{- range $scope := slice "all" "recent" -}}
+            {{- with index $o $scope -}}
+              {{- $d := index . $key -}}
+              {{- $pct := dict -}}
+              {{- range slice "min" "q1" "median" "q3" "max" }}{{ $pct = merge $pct (dict . (div (mul (index $d .) 100.0) $scale)) }}{{ end -}}
+              <tr{{ if eq $scope "recent" }} class="eff-overview__recent"{{ end }}>
+                <th scope="row">{{ $r }}★{{ if eq $scope "recent" }} <span class="eff-foot-note">recent</span>{{ end }}</th>
+                <td class="eff-num">{{ $d.count }}</td>
+                {{- range slice "min" "q1" "median" "q3" "max" "average" }}<td class="eff-num">{{ partial "ica/efficiency/num.html" (index $d .) }}</td>{{ end -}}
+                <td class="eff-col-bar">
+                  <span class="eff-spread" aria-hidden="true">
+                    <span class="eff-spread__range" style="left:{{ $pct.min }}%;width:{{ sub $pct.max $pct.min }}%"></span>
+                    <span class="eff-spread__box" style="left:{{ $pct.q1 }}%;width:{{ sub $pct.q3 $pct.q1 }}%"></span>
+                    <span class="eff-spread__median" style="left:{{ $pct.median }}%"></span>
+                  </span>
+                </td>
+              </tr>
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      </tbody>
+      <tfoot>
+        <tr class="eff-axis-row">
+          <td colspan="8"></td>
+          <td class="eff-col-bar"><span class="eff-axis" aria-hidden="true">
+            {{- range $v := seq 0 $step (int $scale) }}<span style="left:{{ div (mul $v 100.0) $scale }}%">{{ lang.FormatNumber 0 $v }}</span>{{ end -}}
+          </span></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+{{- end -}}

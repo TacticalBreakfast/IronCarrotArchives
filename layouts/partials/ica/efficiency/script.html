@@ -1,9 +1,14 @@
 {{- /*
-  ica/efficiency/script.html — the era selector's script, once per page.
-  Input: the shortcode context (.).
+  ica/efficiency/script.html — the efficiency pages' script, loaded from the page head
+  (partials/extend-head.html) when the page uses a shortcode that needs it.
+  Input: the page.
+
+  Decided by .HasShortcode rather than by each shortcode emitting the tag once
+  via .Page.Store: Hugo doesn't reset .Store on dev-server rebuilds, so after
+  any edit every shortcode thought the script was already on the page and the
+  page lost it.
 */ -}}
-{{- if not (.Page.Store.Get "efficiencyScript") -}}
-  {{- .Page.Store.Set "efficiencyScript" true -}}
+{{- if or (.HasShortcode "efficiency-era") (.HasShortcode "efficiency-roster") (.HasShortcode "efficiency-recent") (.HasShortcode "efficiency-tickets") (.HasShortcode "efficiency-materials") -}}
   {{- $js := resources.Get "js/efficiency.js" | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") -}}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{- end -}}

@@ -24,7 +24,7 @@
 {{- range $g, $group := $R.groups -}}
   {{- if $group.operators -}}
     {{- $stars := slice -}}
-    {{- range $group.rarities_present }}{{ $stars = $stars | append (printf "%d★" (int .)) }}{{ end -}}
+    {{- range $group.rarities_present }}{{ $stars = $stars | append (printf "%d★s" (int .)) }}{{ end -}}
     {{- $nskills := 0 -}}
     {{- range $group.operators }}{{ $n := len (index $ctx.costs.operators .).skills }}{{ if gt $n $nskills }}{{ $nskills = $n }}{{ end }}{{ end -}}
     {{- $stats := index $ctx.recent.groups $g -}}
@@ -36,7 +36,7 @@
             <th scope="col">Operator</th>
             <th scope="col" class="eff-col-patch">CN release</th>
             <th scope="col" class="eff-num">E2</th>
-            {{- range seq $nskills }}<th scope="col" class="eff-num">S{{ . }} M3</th>{{ end -}}
+            {{- range seq $nskills }}<th scope="col" class="eff-num">S{{ . }}M3</th>{{ end -}}
           </tr>
         </thead>
         <tbody>
@@ -83,4 +83,3 @@
 {{- end }}
 
 {{ partial "ica/efficiency/key.html" . -}}
-{{- partial "ica/efficiency/script.html" . -}}

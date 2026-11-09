@@ -1,0 +1,3187 @@
+{
+ "_generated": {
+  "by": "tools/build_item_values.py",
+  "note": "Generated file -- edit data/efficiencies/value_rules.yaml and rerun the script instead.",
+  "assets_commit": "85a7f37",
+  "inputs": {
+   "data/efficiencies/value_rules.yaml": "f226b6b300d1f35d",
+   "assets/game_img/processed/item_efficiency.json": "4b248e9789e34f31",
+   "assets/game_img/excel-cn/item_table.json": "eb870006123a61d7",
+   "assets/game_img/excel-cn/building_data.json": "6bf651d175bb4988",
+   "assets/game_img/processed/release_log.csv": "67704d83d8c03ea1",
+   "tools/build_item_values.py": "5f7dab9d20fd1233",
+   "assets/game_img/excel-cn/character_table.json": "76be96d5ac254e30",
+   "assets/game_img/excel-cn/char_patch_table.json": "2cde3e0fce094fc5",
+   "assets/game_img/excel-cn/skill_table.json": "7cae91a41dced150",
+   "assets/game_img/excel-en/character_table.json": "a3d9b409b09b1112",
+   "assets/game_img/excel-en/char_patch_table.json": "79e449963a2eb0f2",
+   "assets/game_img/excel-en/skill_table.json": "1f4b1ba220a2abb1",
+   "assets/game_img/excel-cn/gamedata_const.json": "56fbff0e13654683",
+   "assets/game_img/excel-cn/special_operator_table.json": "ba02b66b5d8283a6"
+  }
+ },
+ "overview": {
+  "6": {
+   "all": {
+    "promotion": {
+     "count": 139,
+     "min": 4896.31,
+     "q1": 5350.63,
+     "median": 5639.23,
+     "q3": 5804.69,
+     "max": 6206.86,
+     "average": 5587.42
+    },
+    "mastery": {
+     "count": 417,
+     "min": 1909.9,
+     "q1": 2661.98,
+     "median": 3233.95,
+     "q3": 3633.45,
+     "max": 4288.3,
+     "average": 3161.98
+    }
+   },
+   "recent": {
+    "promotion": {
+     "count": 16,
+     "min": 5619.04,
+     "q1": 5741.3,
+     "median": 5841.15,
+     "q3": 5923.41,
+     "max": 6077.65,
+     "average": 5840.43
+    },
+    "mastery": {
+     "count": 48,
+     "min": 3438.89,
+     "q1": 3671.72,
+     "median": 3802.97,
+     "q3": 3946.29,
+     "max": 4288.3,
+     "average": 3831.03
+    }
+   }
+  },
+  "5": {
+   "all": {
+    "promotion": {
+     "count": 201,
+     "min": 3093.64,
+     "q1": 3458.57,
+     "median": 3694.79,
+     "q3": 3851.02,
+     "max": 4077.55,
+     "average": 3654.01
+    },
+    "mastery": {
+     "count": 407,
+     "min": 1247.0,
+     "q1": 1744.99,
+     "median": 2076.77,
+     "q3": 2417.75,
+     "max": 2902.44,
+     "average": 2073.18
+    }
+   },
+   "recent": {
+    "promotion": {
+     "count": 16,
+     "min": 3280.73,
+     "q1": 3697.01,
+     "median": 3910.74,
+     "q3": 3968.11,
+     "max": 4001.65,
+     "average": 3819.6
+    },
+    "mastery": {
+     "count": 32,
+     "min": 2373.41,
+     "q1": 2458.35,
+     "median": 2534.77,
+     "q3": 2669.15,
+     "max": 2822.8,
+     "average": 2556.39
+    }
+   }
+  },
+  "4": {
+   "all": {
+    "promotion": {
+     "count": 62,
+     "min": 1570.75,
+     "q1": 1810.9,
+     "median": 1973.84,
+     "q3": 2167.34,
+     "max": 2217.64,
+     "average": 1966.57
+    },
+    "mastery": {
+     "count": 124,
+     "min": 734.2,
+     "q1": 860.69,
+     "median": 981.13,
+     "q3": 1126.16,
+     "max": 1470.07,
+     "average": 998.65
+    }
+   }
+  }
+ },
+ "extremes": {
+  "6": {
+   "promotion": {
+    "most": [
+     {
+      "id": "char_1043_leizi2",
+      "value": 6206.86
+     },
+     {
+      "id": "char_264_f12yin",
+      "value": 6206.86
+     },
+     {
+      "id": "char_4226_veen",
+      "value": 6077.65
+     },
+     {
+      "id": "char_4088_hodrer",
+      "value": 6068.64
+     },
+     {
+      "id": "char_1048_orchd2",
+      "value": 6067.32
+     }
+    ],
+    "least": [
+     {
+      "id": "char_377_gdglow",
+      "value": 4896.31
+     },
+     {
+      "id": "char_202_demkni",
+      "value": 4904.48
+     },
+     {
+      "id": "char_172_svrash",
+      "value": 5038.15
+     },
+     {
+      "id": "char_1033_swire2",
+      "value": 5046.34
+     },
+     {
+      "id": "char_400_weedy",
+      "value": 5047.8
+     }
+    ]
+   },
+   "mastery": {
+    "most": [
+     {
+      "id": "char_4247_oxi",
+      "skill": 2,
+      "skill_name": "阂断骤雪",
+      "value": 4288.3
+     },
+     {
+      "id": "char_4246_dminon",
+      "skill": 1,
+      "skill_name": "停步",
+      "value": 4247.96
+     },
+     {
+      "id": "char_4229_aphris",
+      "skill": 2,
+      "skill_name": "临界瞬爆",
+      "value": 4216.87
+     },
+     {
+      "id": "char_1052_kalts2",
+      "skill": 3,
+      "skill_name": "Renaskiĝo Malkatena",
+      "value": 4213.73
+     },
+     {
+      "id": "char_4193_lemuen",
+      "skill": 3,
+      "skill_name": "Salutatio Sclopeti: Memento Mori",
+      "value": 4182.68
+     }
+    ],
+    "least": [
+     {
+      "id": "char_4048_doroth",
+      "skill": 1,
+      "skill_name": "Dangerous Entity Removal",
+      "value": 1909.9
+     },
+     {
+      "id": "char_4055_bgsnow",
+      "skill": 3,
+      "skill_name": "Opprobrium",
+      "value": 2040.81
+     },
+     {
+      "id": "char_112_siege",
+      "skill": 1,
+      "skill_name": "Charge γ",
+      "value": 2095.03
+     },
+     {
+      "id": "char_222_bpipe",
+      "skill": 1,
+      "skill_name": "Swift Strike γ",
+      "value": 2107.62
+     },
+     {
+      "id": "char_456_ash",
+      "skill": 3,
+      "skill_name": "Breaching Rounds",
+      "value": 2107.82
+     }
+    ]
+   }
+  },
+  "5": {
+   "promotion": {
+    "most": [
+     {
+      "id": "char_363_toddi",
+      "value": 4077.55
+     },
+     {
+      "id": "char_4245_alga",
+      "value": 4001.65
+     },
+     {
+      "id": "char_4218_aigis",
+      "value": 4000.09
+     },
+     {
+      "id": "char_4110_delphn",
+      "value": 3997.11
+     },
+     {
+      "id": "char_4169_caledo",
+      "value": 3991.95
+     }
+    ],
+    "least": [
+     {
+      "id": "char_464_cement",
+      "value": 3093.64
+     },
+     {
+      "id": "char_4139_papyrs",
+      "value": 3097.22
+     },
+     {
+      "id": "char_349_chiave",
+      "value": 3097.22
+     },
+     {
+      "id": "char_252_bibeak",
+      "value": 3105.01
+     },
+     {
+      "id": "char_343_tknogi",
+      "value": 3110.92
+     }
+    ]
+   },
+   "mastery": {
+    "most": [
+     {
+      "id": "char_1001_amiya2",
+      "skill": 2,
+      "skill_name": "Ying Xiao - Shadowless",
+      "value": 2902.44
+     },
+     {
+      "id": "char_4211_snhunt",
+      "skill": 2,
+      "skill_name": "Twin Blizzard Bolts",
+      "value": 2835.43
+     },
+     {
+      "id": "char_4245_alga",
+      "skill": 1,
+      "skill_name": "交叉施压",
+      "value": 2822.8
+     },
+     {
+      "id": "char_1022_flwr2",
+      "skill": 2,
+      "skill_name": "'Temple Embers'",
+      "value": 2773.02
+     },
+     {
+      "id": "char_4184_dolris",
+      "skill": 1,
+      "skill_name": "Cogito Ergo",
+      "value": 2760.8
+     }
+    ],
+    "least": [
+     {
+      "id": "char_379_sesa",
+      "skill": 2,
+      "skill_name": "Delayed Concussive Parts",
+      "value": 1247.0
+     },
+     {
+      "id": "char_402_tuye",
+      "skill": 1,
+      "skill_name": "Aqua Loop",
+      "value": 1332.15
+     },
+     {
+      "id": "char_341_sntlla",
+      "skill": 1,
+      "skill_name": "Swift Strike γ",
+      "value": 1357.81
+     },
+     {
+      "id": "char_201_moeshd",
+      "skill": 2,
+      "skill_name": "Magnetic Hammer",
+      "value": 1361.24
+     },
+     {
+      "id": "char_163_hpsts",
+      "skill": 1,
+      "skill_name": "Guardian Mode",
+      "value": 1361.24
+     }
+    ]
+   }
+  },
+  "4": {
+   "promotion": {
+    "most": [
+     {
+      "id": "char_4107_vrdant",
+      "value": 2217.64
+     },
+     {
+      "id": "char_4130_luton",
+      "value": 2210.8
+     },
+     {
+      "id": "char_484_robrta",
+      "value": 2208.67
+     },
+     {
+      "id": "char_198_blackd",
+      "value": 2199.94
+     },
+     {
+      "id": "char_277_sqrrel",
+      "value": 2198.9
+     }
+    ],
+    "least": [
+     {
+      "id": "char_150_snakek",
+      "value": 1570.75
+     },
+     {
+      "id": "char_130_doberm",
+      "value": 1570.81
+     },
+     {
+      "id": "char_196_sunbr",
+      "value": 1572.52
+     },
+     {
+      "id": "char_193_frostl",
+      "value": 1572.52
+     },
+     {
+      "id": "char_298_susuro",
+      "value": 1575.54
+     }
+    ]
+   },
+   "mastery": {
+    "most": [
+     {
+      "id": "char_4051_akkord",
+      "skill": 1,
+      "skill_name": "Backbeat Stress",
+      "value": 1470.07
+     },
+     {
+      "id": "char_4170_hdbell",
+      "skill": 2,
+      "skill_name": "蔬菜大拼盘",
+      "value": 1398.04
+     },
+     {
+      "id": "char_4165_ctrail",
+      "skill": 1,
+      "skill_name": "Emergency Take-Off",
+      "value": 1386.32
+     },
+     {
+      "id": "char_4067_lolxh",
+      "skill": 2,
+      "skill_name": "Broken Blade",
+      "value": 1344.83
+     },
+     {
+      "id": "char_4208_wintim",
+      "skill": 2,
+      "skill_name": "Rational Attribution",
+      "value": 1306.39
+     }
+    ],
+    "least": [
+     {
+      "id": "char_4041_chnut",
+      "skill": 1,
+      "skill_name": "Little by Little",
+      "value": 734.2
+     },
+     {
+      "id": "char_260_durnar",
+      "skill": 1,
+      "skill_name": "ATK Up β",
+      "value": 749.6
+     },
+     {
+      "id": "char_151_myrtle",
+      "skill": 2,
+      "skill_name": "Healing Wings",
+      "value": 749.6
+     },
+     {
+      "id": "char_298_susuro",
+      "skill": 1,
+      "skill_name": "Healing Up β",
+      "value": 754.78
+     },
+     {
+      "id": "char_260_durnar",
+      "skill": 2,
+      "skill_name": "Shielded Counterattack",
+      "value": 754.78
+     }
+    ]
+   }
+  }
+ },
+ "materials": {
+  "all": [
+   {
+    "id": "30115",
+    "tier": 5,
+    "direct": {
+     "promotion": 136,
+     "mastery": 1108,
+     "total": 1244
+    },
+    "crafted": 1244,
+    "sanity": 296236.95
+   },
+   {
+    "id": "30145",
+    "tier": 5,
+    "direct": {
+     "promotion": 112,
+     "mastery": 728,
+     "total": 840
+    },
+    "crafted": 840,
+    "sanity": 253983.58
+   },
+   {
+    "id": "30135",
+    "tier": 5,
+    "direct": {
+     "promotion": 120,
+     "mastery": 1002,
+     "total": 1122
+    },
+    "crafted": 1122,
+    "sanity": 151977.59
+   },
+   {
+    "id": "30155",
+    "tier": 5,
+    "direct": {
+     "promotion": 56,
+     "mastery": 446,
+     "total": 502
+    },
+    "crafted": 502,
+    "sanity": 142963.22
+   },
+   {
+    "id": "30044",
+    "tier": 4,
+    "direct": {
+     "promotion": 170,
+     "mastery": 1124,
+     "total": 1294
+    },
+    "crafted": 2538,
+    "sanity": 141260.55
+   },
+   {
+    "id": "31014",
+    "tier": 4,
+    "direct": {
+     "promotion": 204,
+     "mastery": 1139,
+     "total": 1343
+    },
+    "crafted": 3023,
+    "sanity": 108383.73
+   },
+   {
+    "id": "30014",
+    "tier": 4,
+    "direct": {
+     "promotion": 256,
+     "mastery": 1344,
+     "total": 1600
+    },
+    "crafted": 2844,
+    "sanity": 104572.48
+   },
+   {
+    "id": "30125",
+    "tier": 5,
+    "direct": {
+     "promotion": 92,
+     "mastery": 892,
+     "total": 984
+    },
+    "crafted": 984,
+    "sanity": 103373.04
+   },
+   {
+    "id": "30054",
+    "tier": 4,
+    "direct": {
+     "promotion": 151,
+     "mastery": 1166,
+     "total": 1317
+    },
+    "crafted": 2561,
+    "sanity": 101250.3
+   },
+   {
+    "id": "30165",
+    "tier": 5,
+    "direct": {
+     "promotion": 28,
+     "mastery": 202,
+     "total": 230
+    },
+    "crafted": 230,
+    "sanity": 81255.6
+   },
+   {
+    "id": "30094",
+    "tier": 4,
+    "direct": {
+     "promotion": 134,
+     "mastery": 1098,
+     "total": 1232
+    },
+    "crafted": 2354,
+    "sanity": 77003.2
+   },
+   {
+    "id": "31024",
+    "tier": 4,
+    "direct": {
+     "promotion": 168,
+     "mastery": 1053,
+     "total": 1221
+    },
+    "crafted": 2061,
+    "sanity": 76221.05
+   },
+   {
+    "id": "30104",
+    "tier": 4,
+    "direct": {
+     "promotion": 146,
+     "mastery": 1095,
+     "total": 1241
+    },
+    "crafted": 2363,
+    "sanity": 76210.31
+   },
+   {
+    "id": "31034",
+    "tier": 4,
+    "direct": {
+     "promotion": 95,
+     "mastery": 701,
+     "total": 796
+    },
+    "crafted": 1636,
+    "sanity": 73073.76
+   },
+   {
+    "id": "31044",
+    "tier": 4,
+    "direct": {
+     "promotion": 122,
+     "mastery": 706,
+     "total": 828
+    },
+    "crafted": 1832,
+    "sanity": 70021.56
+   },
+   {
+    "id": "30064",
+    "tier": 4,
+    "direct": {
+     "promotion": 109,
+     "mastery": 725,
+     "total": 834
+    },
+    "crafted": 1818,
+    "sanity": 58344.97
+   },
+   {
+    "id": "31064",
+    "tier": 4,
+    "direct": {
+     "promotion": 83,
+     "mastery": 559,
+     "total": 642
+    },
+    "crafted": 1144,
+    "sanity": 53853.53
+   },
+   {
+    "id": "31084",
+    "tier": 4,
+    "direct": {
+     "promotion": 66,
+     "mastery": 365,
+     "total": 431
+    },
+    "crafted": 661,
+    "sanity": 43027.46
+   },
+   {
+    "id": "31074",
+    "tier": 4,
+    "direct": {
+     "promotion": 45,
+     "mastery": 395,
+     "total": 440
+    },
+    "crafted": 670,
+    "sanity": 40062.18
+   },
+   {
+    "id": "31054",
+    "tier": 4,
+    "direct": {
+     "promotion": 113,
+     "mastery": 710,
+     "total": 823
+    },
+    "crafted": 1325,
+    "sanity": 37067.59
+   },
+   {
+    "id": "30074",
+    "tier": 4,
+    "direct": {
+     "promotion": 141,
+     "mastery": 1069,
+     "total": 1210
+    },
+    "crafted": 3178,
+    "sanity": 29261.67
+   },
+   {
+    "id": "30084",
+    "tier": 4,
+    "direct": {
+     "promotion": 130,
+     "mastery": 977,
+     "total": 1107
+    },
+    "crafted": 2229,
+    "sanity": 27464.45
+   },
+   {
+    "id": "30034",
+    "tier": 4,
+    "direct": {
+     "promotion": 43,
+     "mastery": 316,
+     "total": 359
+    },
+    "crafted": 359,
+    "sanity": 25238.02
+   },
+   {
+    "id": "30024",
+    "tier": 4,
+    "direct": {
+     "promotion": 47,
+     "mastery": 303,
+     "total": 350
+    },
+    "crafted": 350,
+    "sanity": 25080.93
+   },
+   {
+    "id": "31094",
+    "tier": 4,
+    "direct": {
+     "promotion": 28,
+     "mastery": 247,
+     "total": 275
+    },
+    "crafted": 735,
+    "sanity": 24155.12
+   },
+   {
+    "id": "30063",
+    "tier": 3,
+    "direct": {
+     "promotion": 284,
+     "mastery": 250,
+     "total": 534
+    },
+    "crafted": 9366,
+    "sanity": 19499.38
+   },
+   {
+    "id": "30053",
+    "tier": 3,
+    "direct": {
+     "promotion": 289,
+     "mastery": 401,
+     "total": 690
+    },
+    "crafted": 8606,
+    "sanity": 19049.59
+   },
+   {
+    "id": "30013",
+    "tier": 3,
+    "direct": {
+     "promotion": 504,
+     "mastery": 468,
+     "total": 972
+    },
+    "crafted": 21380,
+    "sanity": 16735.7
+   },
+   {
+    "id": "30043",
+    "tier": 3,
+    "direct": {
+     "promotion": 367,
+     "mastery": 246,
+     "total": 613
+    },
+    "crafted": 11416,
+    "sanity": 16538.8
+   },
+   {
+    "id": "31013",
+    "tier": 3,
+    "direct": {
+     "promotion": 191,
+     "mastery": 253,
+     "total": 444
+    },
+    "crafted": 6935,
+    "sanity": 13467.94
+   },
+   {
+    "id": "31023",
+    "tier": 3,
+    "direct": {
+     "promotion": 198,
+     "mastery": 204,
+     "total": 402
+    },
+    "crafted": 7122,
+    "sanity": 10814.85
+   },
+   {
+    "id": "30023",
+    "tier": 3,
+    "direct": {
+     "promotion": 242,
+     "mastery": 186,
+     "total": 428
+    },
+    "crafted": 8746,
+    "sanity": 9851.02
+   },
+   {
+    "id": "30033",
+    "tier": 3,
+    "direct": {
+     "promotion": 235,
+     "mastery": 186,
+     "total": 421
+    },
+    "crafted": 7246,
+    "sanity": 9347.46
+   },
+   {
+    "id": "31043",
+    "tier": 3,
+    "direct": {
+     "promotion": 123,
+     "mastery": 109,
+     "total": 232
+    },
+    "crafted": 3208,
+    "sanity": 7218.38
+   },
+   {
+    "id": "31104",
+    "tier": 4,
+    "direct": {
+     "promotion": 11,
+     "mastery": 61,
+     "total": 72
+    },
+    "crafted": 72,
+    "sanity": 6541.86
+   },
+   {
+    "id": "31114",
+    "tier": 4,
+    "direct": {
+     "promotion": 9,
+     "mastery": 52,
+     "total": 61
+    },
+    "crafted": 61,
+    "sanity": 6205.52
+   },
+   {
+    "id": "31053",
+    "tier": 3,
+    "direct": {
+     "promotion": 81,
+     "mastery": 127,
+     "total": 208
+    },
+    "crafted": 3365,
+    "sanity": 5539.77
+   },
+   {
+    "id": "31083",
+    "tier": 3,
+    "direct": {
+     "promotion": 71,
+     "mastery": 64,
+     "total": 135
+    },
+    "crafted": 1531,
+    "sanity": 5013.6
+   },
+   {
+    "id": "31073",
+    "tier": 3,
+    "direct": {
+     "promotion": 78,
+     "mastery": 69,
+     "total": 147
+    },
+    "crafted": 1478,
+    "sanity": 4842.17
+   },
+   {
+    "id": "31063",
+    "tier": 3,
+    "direct": {
+     "promotion": 40,
+     "mastery": 90,
+     "total": 130
+    },
+    "crafted": 1935,
+    "sanity": 4324.72
+   },
+   {
+    "id": "31033",
+    "tier": 3,
+    "direct": {
+     "promotion": 98,
+     "mastery": 121,
+     "total": 219
+    },
+    "crafted": 4816,
+    "sanity": 4169.61
+   },
+   {
+    "id": "31093",
+    "tier": 3,
+    "direct": {
+     "promotion": 13,
+     "mastery": 36,
+     "total": 49
+    },
+    "crafted": 856,
+    "sanity": 1528.59
+   },
+   {
+    "id": "30093",
+    "tier": 3,
+    "direct": {
+     "promotion": 275,
+     "mastery": 328,
+     "total": 603
+    },
+    "crafted": 6836,
+    "sanity": 1519.56
+   },
+   {
+    "id": "30083",
+    "tier": 3,
+    "direct": {
+     "promotion": 391,
+     "mastery": 300,
+     "total": 691
+    },
+    "crafted": 8060,
+    "sanity": 1492.56
+   },
+   {
+    "id": "30073",
+    "tier": 3,
+    "direct": {
+     "promotion": 393,
+     "mastery": 407,
+     "total": 800
+    },
+    "crafted": 6566,
+    "sanity": 1440.0
+   },
+   {
+    "id": "30103",
+    "tier": 3,
+    "direct": {
+     "promotion": 247,
+     "mastery": 250,
+     "total": 497
+    },
+    "crafted": 7363,
+    "sanity": 1431.36
+   },
+   {
+    "id": "31113",
+    "tier": 3,
+    "direct": {
+     "promotion": 9,
+     "mastery": 19,
+     "total": 28
+    },
+    "crafted": 89,
+    "sanity": 928.45
+   },
+   {
+    "id": "31103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 10,
+     "total": 10
+    },
+    "crafted": 143,
+    "sanity": 355.69
+   }
+  ],
+  "6": [
+   {
+    "id": "30115",
+    "tier": 5,
+    "direct": {
+     "promotion": 136,
+     "mastery": 612,
+     "total": 748
+    },
+    "crafted": 748,
+    "sanity": 178123.18
+   },
+   {
+    "id": "30145",
+    "tier": 5,
+    "direct": {
+     "promotion": 112,
+     "mastery": 462,
+     "total": 574
+    },
+    "crafted": 574,
+    "sanity": 173555.44
+   },
+   {
+    "id": "30155",
+    "tier": 5,
+    "direct": {
+     "promotion": 56,
+     "mastery": 288,
+     "total": 344
+    },
+    "crafted": 344,
+    "sanity": 97966.83
+   },
+   {
+    "id": "30135",
+    "tier": 5,
+    "direct": {
+     "promotion": 120,
+     "mastery": 540,
+     "total": 660
+    },
+    "crafted": 660,
+    "sanity": 89398.58
+   },
+   {
+    "id": "30044",
+    "tier": 4,
+    "direct": {
+     "promotion": 54,
+     "mastery": 618,
+     "total": 672
+    },
+    "crafted": 1420,
+    "sanity": 73359.42
+   },
+   {
+    "id": "31014",
+    "tier": 4,
+    "direct": {
+     "promotion": 87,
+     "mastery": 662,
+     "total": 749
+    },
+    "crafted": 1897,
+    "sanity": 60446.32
+   },
+   {
+    "id": "30125",
+    "tier": 5,
+    "direct": {
+     "promotion": 92,
+     "mastery": 468,
+     "total": 560
+    },
+    "crafted": 560,
+    "sanity": 58830.18
+   },
+   {
+    "id": "30165",
+    "tier": 5,
+    "direct": {
+     "promotion": 28,
+     "mastery": 132,
+     "total": 160
+    },
+    "crafted": 160,
+    "sanity": 56525.63
+   },
+   {
+    "id": "30014",
+    "tier": 4,
+    "direct": {
+     "promotion": 89,
+     "mastery": 753,
+     "total": 842
+    },
+    "crafted": 1590,
+    "sanity": 55031.27
+   },
+   {
+    "id": "30054",
+    "tier": 4,
+    "direct": {
+     "promotion": 55,
+     "mastery": 634,
+     "total": 689
+    },
+    "crafted": 1437,
+    "sanity": 52969.98
+   },
+   {
+    "id": "31034",
+    "tier": 4,
+    "direct": {
+     "promotion": 26,
+     "mastery": 449,
+     "total": 475
+    },
+    "crafted": 1049,
+    "sanity": 43605.57
+   },
+   {
+    "id": "31024",
+    "tier": 4,
+    "direct": {
+     "promotion": 62,
+     "mastery": 620,
+     "total": 682
+    },
+    "crafted": 1256,
+    "sanity": 42573.92
+   },
+   {
+    "id": "30104",
+    "tier": 4,
+    "direct": {
+     "promotion": 41,
+     "mastery": 595,
+     "total": 636
+    },
+    "crafted": 1296,
+    "sanity": 39057.01
+   },
+   {
+    "id": "31044",
+    "tier": 4,
+    "direct": {
+     "promotion": 46,
+     "mastery": 408,
+     "total": 454
+    },
+    "crafted": 1142,
+    "sanity": 38393.46
+   },
+   {
+    "id": "30094",
+    "tier": 4,
+    "direct": {
+     "promotion": 45,
+     "mastery": 558,
+     "total": 603
+    },
+    "crafted": 1263,
+    "sanity": 37689.07
+   },
+   {
+    "id": "31064",
+    "tier": 4,
+    "direct": {
+     "promotion": 35,
+     "mastery": 358,
+     "total": 393
+    },
+    "crafted": 737,
+    "sanity": 32966.41
+   },
+   {
+    "id": "30064",
+    "tier": 4,
+    "direct": {
+     "promotion": 45,
+     "mastery": 357,
+     "total": 402
+    },
+    "crafted": 962,
+    "sanity": 28123.12
+   },
+   {
+    "id": "31084",
+    "tier": 4,
+    "direct": {
+     "promotion": 22,
+     "mastery": 217,
+     "total": 239
+    },
+    "crafted": 399,
+    "sanity": 23859.78
+   },
+   {
+    "id": "31074",
+    "tier": 4,
+    "direct": {
+     "promotion": 7,
+     "mastery": 246,
+     "total": 253
+    },
+    "crafted": 413,
+    "sanity": 23035.75
+   },
+   {
+    "id": "31054",
+    "tier": 4,
+    "direct": {
+     "promotion": 31,
+     "mastery": 414,
+     "total": 445
+    },
+    "crafted": 789,
+    "sanity": 20042.62
+   },
+   {
+    "id": "30074",
+    "tier": 4,
+    "direct": {
+     "promotion": 55,
+     "mastery": 543,
+     "total": 598
+    },
+    "crafted": 1718,
+    "sanity": 14461.55
+   },
+   {
+    "id": "31094",
+    "tier": 4,
+    "direct": {
+     "promotion": 4,
+     "mastery": 157,
+     "total": 161
+    },
+    "crafted": 481,
+    "sanity": 14141.72
+   },
+   {
+    "id": "30084",
+    "tier": 4,
+    "direct": {
+     "promotion": 40,
+     "mastery": 514,
+     "total": 554
+    },
+    "crafted": 1214,
+    "sanity": 13744.63
+   },
+   {
+    "id": "30034",
+    "tier": 4,
+    "direct": {
+     "promotion": 14,
+     "mastery": 127,
+     "total": 141
+    },
+    "crafted": 141,
+    "sanity": 9912.43
+   },
+   {
+    "id": "30024",
+    "tier": 4,
+    "direct": {
+     "promotion": 10,
+     "mastery": 122,
+     "total": 132
+    },
+    "crafted": 132,
+    "sanity": 9459.09
+   },
+   {
+    "id": "30053",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 217,
+     "total": 217
+    },
+    "crafted": 4579,
+    "sanity": 5990.96
+   },
+   {
+    "id": "31013",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 173,
+     "total": 173
+    },
+    "crafted": 4261,
+    "sanity": 5247.64
+   },
+   {
+    "id": "30063",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 143,
+     "total": 143
+    },
+    "crafted": 5080,
+    "sanity": 5221.75
+   },
+   {
+    "id": "31104",
+    "tier": 4,
+    "direct": {
+     "promotion": 2,
+     "mastery": 49,
+     "total": 51
+    },
+    "crafted": 51,
+    "sanity": 4633.82
+   },
+   {
+    "id": "30013",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 261,
+     "total": 261
+    },
+    "crafted": 11550,
+    "sanity": 4493.85
+   },
+   {
+    "id": "31114",
+    "tier": 4,
+    "direct": {
+     "promotion": 2,
+     "mastery": 34,
+     "total": 36
+    },
+    "crafted": 36,
+    "sanity": 3662.28
+   },
+   {
+    "id": "31023",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 135,
+     "total": 135
+    },
+    "crafted": 4337,
+    "sanity": 3631.85
+   },
+   {
+    "id": "30043",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 130,
+     "total": 130
+    },
+    "crafted": 6262,
+    "sanity": 3507.41
+   },
+   {
+    "id": "30023",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 105,
+     "total": 105
+    },
+    "crafted": 4742,
+    "sanity": 2416.72
+   },
+   {
+    "id": "31043",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 72,
+     "total": 72
+    },
+    "crafted": 1951,
+    "sanity": 2240.19
+   },
+   {
+    "id": "31053",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 81,
+     "total": 81
+    },
+    "crafted": 2012,
+    "sanity": 2157.31
+   },
+   {
+    "id": "30033",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 97,
+     "total": 97
+    },
+    "crafted": 3839,
+    "sanity": 2153.69
+   },
+   {
+    "id": "31063",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 59,
+     "total": 59
+    },
+    "crafted": 1195,
+    "sanity": 1962.76
+   },
+   {
+    "id": "31073",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 51,
+     "total": 51
+    },
+    "crafted": 863,
+    "sanity": 1679.93
+   },
+   {
+    "id": "31033",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 83,
+     "total": 83
+    },
+    "crafted": 2970,
+    "sanity": 1580.26
+   },
+   {
+    "id": "31083",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 34,
+     "total": 34
+    },
+    "crafted": 914,
+    "sanity": 1262.69
+   },
+   {
+    "id": "31093",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 25,
+     "total": 25
+    },
+    "crafted": 557,
+    "sanity": 779.89
+   },
+   {
+    "id": "31113",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 16,
+     "total": 16
+    },
+    "crafted": 52,
+    "sanity": 530.54
+   },
+   {
+    "id": "30093",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 178,
+     "total": 178
+    },
+    "crafted": 3659,
+    "sanity": 448.56
+   },
+   {
+    "id": "30083",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 195,
+     "total": 195
+    },
+    "crafted": 4192,
+    "sanity": 421.2
+   },
+   {
+    "id": "30073",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 220,
+     "total": 220
+    },
+    "crafted": 3293,
+    "sanity": 396.0
+   },
+   {
+    "id": "30103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 133,
+     "total": 133
+    },
+    "crafted": 3936,
+    "sanity": 383.04
+   },
+   {
+    "id": "31103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 93,
+    "sanity": 213.41
+   }
+  ],
+  "5": [
+   {
+    "id": "30115",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 424,
+     "total": 424
+    },
+    "crafted": 424,
+    "sanity": 100968.22
+   },
+   {
+    "id": "30145",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 252,
+     "total": 252
+    },
+    "crafted": 252,
+    "sanity": 76195.07
+   },
+   {
+    "id": "30044",
+    "tier": 4,
+    "direct": {
+     "promotion": 116,
+     "mastery": 431,
+     "total": 547
+    },
+    "crafted": 971,
+    "sanity": 59713.69
+   },
+   {
+    "id": "30135",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 388,
+     "total": 388
+    },
+    "crafted": 388,
+    "sanity": 52555.53
+   },
+   {
+    "id": "31014",
+    "tier": 4,
+    "direct": {
+     "promotion": 117,
+     "mastery": 426,
+     "total": 543
+    },
+    "crafted": 1047,
+    "sanity": 43821.57
+   },
+   {
+    "id": "30014",
+    "tier": 4,
+    "direct": {
+     "promotion": 167,
+     "mastery": 503,
+     "total": 670
+    },
+    "crafted": 1094,
+    "sanity": 43789.73
+   },
+   {
+    "id": "30155",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 152,
+     "total": 152
+    },
+    "crafted": 152,
+    "sanity": 43287.67
+   },
+   {
+    "id": "30054",
+    "tier": 4,
+    "direct": {
+     "promotion": 96,
+     "mastery": 461,
+     "total": 557
+    },
+    "crafted": 981,
+    "sanity": 42821.88
+   },
+   {
+    "id": "30125",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 348,
+     "total": 348
+    },
+    "crafted": 348,
+    "sanity": 36558.76
+   },
+   {
+    "id": "30094",
+    "tier": 4,
+    "direct": {
+     "promotion": 89,
+     "mastery": 456,
+     "total": 545
+    },
+    "crafted": 933,
+    "sanity": 34063.92
+   },
+   {
+    "id": "30104",
+    "tier": 4,
+    "direct": {
+     "promotion": 105,
+     "mastery": 418,
+     "total": 523
+    },
+    "crafted": 911,
+    "sanity": 32117.64
+   },
+   {
+    "id": "31024",
+    "tier": 4,
+    "direct": {
+     "promotion": 106,
+     "mastery": 382,
+     "total": 488
+    },
+    "crafted": 740,
+    "sanity": 30463.45
+   },
+   {
+    "id": "31044",
+    "tier": 4,
+    "direct": {
+     "promotion": 76,
+     "mastery": 281,
+     "total": 357
+    },
+    "crafted": 661,
+    "sanity": 30190.45
+   },
+   {
+    "id": "31034",
+    "tier": 4,
+    "direct": {
+     "promotion": 69,
+     "mastery": 233,
+     "total": 302
+    },
+    "crafted": 554,
+    "sanity": 27723.96
+   },
+   {
+    "id": "30064",
+    "tier": 4,
+    "direct": {
+     "promotion": 64,
+     "mastery": 312,
+     "total": 376
+    },
+    "crafted": 724,
+    "sanity": 26304.21
+   },
+   {
+    "id": "30165",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 64,
+     "total": 64
+    },
+    "crafted": 64,
+    "sanity": 22610.25
+   },
+   {
+    "id": "31064",
+    "tier": 4,
+    "direct": {
+     "promotion": 48,
+     "mastery": 193,
+     "total": 241
+    },
+    "crafted": 393,
+    "sanity": 20216.04
+   },
+   {
+    "id": "31084",
+    "tier": 4,
+    "direct": {
+     "promotion": 44,
+     "mastery": 140,
+     "total": 184
+    },
+    "crafted": 248,
+    "sanity": 18369.03
+   },
+   {
+    "id": "31074",
+    "tier": 4,
+    "direct": {
+     "promotion": 38,
+     "mastery": 139,
+     "total": 177
+    },
+    "crafted": 241,
+    "sanity": 16115.92
+   },
+   {
+    "id": "31054",
+    "tier": 4,
+    "direct": {
+     "promotion": 79,
+     "mastery": 278,
+     "total": 357
+    },
+    "crafted": 509,
+    "sanity": 16079.14
+   },
+   {
+    "id": "30074",
+    "tier": 4,
+    "direct": {
+     "promotion": 86,
+     "mastery": 443,
+     "total": 529
+    },
+    "crafted": 1225,
+    "sanity": 12792.91
+   },
+   {
+    "id": "30024",
+    "tier": 4,
+    "direct": {
+     "promotion": 37,
+     "mastery": 135,
+     "total": 172
+    },
+    "crafted": 172,
+    "sanity": 12325.49
+   },
+   {
+    "id": "30084",
+    "tier": 4,
+    "direct": {
+     "promotion": 90,
+     "mastery": 398,
+     "total": 488
+    },
+    "crafted": 876,
+    "sanity": 12107.18
+   },
+   {
+    "id": "30034",
+    "tier": 4,
+    "direct": {
+     "promotion": 29,
+     "mastery": 143,
+     "total": 172
+    },
+    "crafted": 172,
+    "sanity": 12091.75
+   },
+   {
+    "id": "31094",
+    "tier": 4,
+    "direct": {
+     "promotion": 24,
+     "mastery": 84,
+     "total": 108
+    },
+    "crafted": 236,
+    "sanity": 9486.37
+   },
+   {
+    "id": "30053",
+    "tier": 3,
+    "direct": {
+     "promotion": 195,
+     "mastery": 133,
+     "total": 328
+    },
+    "crafted": 3394,
+    "sanity": 9055.46
+   },
+   {
+    "id": "30043",
+    "tier": 3,
+    "direct": {
+     "promotion": 208,
+     "mastery": 96,
+     "total": 304
+    },
+    "crafted": 4398,
+    "sanity": 8201.95
+   },
+   {
+    "id": "30063",
+    "tier": 3,
+    "direct": {
+     "promotion": 152,
+     "mastery": 72,
+     "total": 224
+    },
+    "crafted": 3617,
+    "sanity": 8179.52
+   },
+   {
+    "id": "30013",
+    "tier": 3,
+    "direct": {
+     "promotion": 276,
+     "mastery": 154,
+     "total": 430
+    },
+    "crafted": 8317,
+    "sanity": 7403.65
+   },
+   {
+    "id": "31023",
+    "tier": 3,
+    "direct": {
+     "promotion": 146,
+     "mastery": 60,
+     "total": 206
+    },
+    "crafted": 2547,
+    "sanity": 5541.94
+   },
+   {
+    "id": "31013",
+    "tier": 3,
+    "direct": {
+     "promotion": 117,
+     "mastery": 64,
+     "total": 181
+    },
+    "crafted": 2443,
+    "sanity": 5490.31
+   },
+   {
+    "id": "30033",
+    "tier": 3,
+    "direct": {
+     "promotion": 144,
+     "mastery": 61,
+     "total": 205
+    },
+    "crafted": 2878,
+    "sanity": 4551.61
+   },
+   {
+    "id": "30023",
+    "tier": 3,
+    "direct": {
+     "promotion": 124,
+     "mastery": 48,
+     "total": 172
+    },
+    "crafted": 3351,
+    "sanity": 3958.82
+   },
+   {
+    "id": "31043",
+    "tier": 3,
+    "direct": {
+     "promotion": 86,
+     "mastery": 34,
+     "total": 120
+    },
+    "crafted": 1174,
+    "sanity": 3733.64
+   },
+   {
+    "id": "31053",
+    "tier": 3,
+    "direct": {
+     "promotion": 81,
+     "mastery": 39,
+     "total": 120
+    },
+    "crafted": 1290,
+    "sanity": 3196.02
+   },
+   {
+    "id": "31083",
+    "tier": 3,
+    "direct": {
+     "promotion": 51,
+     "mastery": 24,
+     "total": 75
+    },
+    "crafted": 559,
+    "sanity": 2785.34
+   },
+   {
+    "id": "31073",
+    "tier": 3,
+    "direct": {
+     "promotion": 69,
+     "mastery": 15,
+     "total": 84
+    },
+    "crafted": 573,
+    "sanity": 2766.95
+   },
+   {
+    "id": "31114",
+    "tier": 4,
+    "direct": {
+     "promotion": 7,
+     "mastery": 18,
+     "total": 25
+    },
+    "crafted": 25,
+    "sanity": 2543.25
+   },
+   {
+    "id": "31033",
+    "tier": 3,
+    "direct": {
+     "promotion": 98,
+     "mastery": 25,
+     "total": 123
+    },
+    "crafted": 1740,
+    "sanity": 2341.83
+   },
+   {
+    "id": "31063",
+    "tier": 3,
+    "direct": {
+     "promotion": 32,
+     "mastery": 29,
+     "total": 61
+    },
+    "crafted": 702,
+    "sanity": 2029.29
+   },
+   {
+    "id": "31104",
+    "tier": 4,
+    "direct": {
+     "promotion": 9,
+     "mastery": 12,
+     "total": 21
+    },
+    "crafted": 21,
+    "sanity": 1908.04
+   },
+   {
+    "id": "31093",
+    "tier": 3,
+    "direct": {
+     "promotion": 13,
+     "mastery": 11,
+     "total": 24
+    },
+    "crafted": 281,
+    "sanity": 748.7
+   },
+   {
+    "id": "30093",
+    "tier": 3,
+    "direct": {
+     "promotion": 184,
+     "mastery": 112,
+     "total": 296
+    },
+    "crafted": 2693,
+    "sanity": 745.92
+   },
+   {
+    "id": "30083",
+    "tier": 3,
+    "direct": {
+     "promotion": 259,
+     "mastery": 67,
+     "total": 326
+    },
+    "crafted": 3231,
+    "sanity": 704.16
+   },
+   {
+    "id": "30073",
+    "tier": 3,
+    "direct": {
+     "promotion": 243,
+     "mastery": 133,
+     "total": 376
+    },
+    "crafted": 2649,
+    "sanity": 676.8
+   },
+   {
+    "id": "30103",
+    "tier": 3,
+    "direct": {
+     "promotion": 138,
+     "mastery": 84,
+     "total": 222
+    },
+    "crafted": 2867,
+    "sanity": 639.36
+   },
+   {
+    "id": "31113",
+    "tier": 3,
+    "direct": {
+     "promotion": 9,
+     "mastery": 3,
+     "total": 12
+    },
+    "crafted": 37,
+    "sanity": 397.91
+   },
+   {
+    "id": "31103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 4,
+     "total": 4
+    },
+    "crafted": 50,
+    "sanity": 142.27
+   }
+  ],
+  "4": [
+   {
+    "id": "30115",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 72,
+     "total": 72
+    },
+    "crafted": 72,
+    "sanity": 17145.55
+   },
+   {
+    "id": "30135",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 74,
+     "total": 74
+    },
+    "crafted": 74,
+    "sanity": 10023.48
+   },
+   {
+    "id": "30044",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 75,
+     "total": 75
+    },
+    "crafted": 147,
+    "sanity": 8187.44
+   },
+   {
+    "id": "30125",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 76,
+     "total": 76
+    },
+    "crafted": 76,
+    "sanity": 7984.1
+   },
+   {
+    "id": "30063",
+    "tier": 3,
+    "direct": {
+     "promotion": 132,
+     "mastery": 35,
+     "total": 167
+    },
+    "crafted": 669,
+    "sanity": 6098.12
+   },
+   {
+    "id": "30014",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 88,
+     "total": 88
+    },
+    "crafted": 160,
+    "sanity": 5751.49
+   },
+   {
+    "id": "30054",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 71,
+     "total": 71
+    },
+    "crafted": 143,
+    "sanity": 5458.44
+   },
+   {
+    "id": "30094",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 84,
+     "total": 84
+    },
+    "crafted": 158,
+    "sanity": 5250.22
+   },
+   {
+    "id": "30104",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 82,
+     "total": 82
+    },
+    "crafted": 156,
+    "sanity": 5035.65
+   },
+   {
+    "id": "30013",
+    "tier": 3,
+    "direct": {
+     "promotion": 228,
+     "mastery": 53,
+     "total": 281
+    },
+    "crafted": 1513,
+    "sanity": 4838.2
+   },
+   {
+    "id": "30043",
+    "tier": 3,
+    "direct": {
+     "promotion": 159,
+     "mastery": 20,
+     "total": 179
+    },
+    "crafted": 756,
+    "sanity": 4829.44
+   },
+   {
+    "id": "30145",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 14,
+     "total": 14
+    },
+    "crafted": 14,
+    "sanity": 4233.06
+   },
+   {
+    "id": "31014",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 51,
+     "total": 51
+    },
+    "crafted": 79,
+    "sanity": 4115.84
+   },
+   {
+    "id": "30053",
+    "tier": 3,
+    "direct": {
+     "promotion": 94,
+     "mastery": 51,
+     "total": 145
+    },
+    "crafted": 633,
+    "sanity": 4003.17
+   },
+   {
+    "id": "30064",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 56,
+     "total": 56
+    },
+    "crafted": 132,
+    "sanity": 3917.65
+   },
+   {
+    "id": "30023",
+    "tier": 3,
+    "direct": {
+     "promotion": 118,
+     "mastery": 33,
+     "total": 151
+    },
+    "crafted": 653,
+    "sanity": 3475.48
+   },
+   {
+    "id": "30024",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 46,
+     "total": 46
+    },
+    "crafted": 46,
+    "sanity": 3296.35
+   },
+   {
+    "id": "30034",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 46,
+     "total": 46
+    },
+    "crafted": 46,
+    "sanity": 3233.84
+   },
+   {
+    "id": "31024",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 51,
+     "total": 51
+    },
+    "crafted": 65,
+    "sanity": 3183.68
+   },
+   {
+    "id": "31013",
+    "tier": 3,
+    "direct": {
+     "promotion": 74,
+     "mastery": 16,
+     "total": 90
+    },
+    "crafted": 231,
+    "sanity": 2729.99
+   },
+   {
+    "id": "30033",
+    "tier": 3,
+    "direct": {
+     "promotion": 91,
+     "mastery": 28,
+     "total": 119
+    },
+    "crafted": 529,
+    "sanity": 2642.16
+   },
+   {
+    "id": "30165",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 6,
+    "sanity": 2119.71
+   },
+   {
+    "id": "30074",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 83,
+     "total": 83
+    },
+    "crafted": 235,
+    "sanity": 2007.21
+   },
+   {
+    "id": "31034",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 19,
+     "total": 19
+    },
+    "crafted": 33,
+    "sanity": 1744.22
+   },
+   {
+    "id": "30155",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 6,
+    "sanity": 1708.72
+   },
+   {
+    "id": "31023",
+    "tier": 3,
+    "direct": {
+     "promotion": 52,
+     "mastery": 9,
+     "total": 61
+    },
+    "crafted": 238,
+    "sanity": 1641.06
+   },
+   {
+    "id": "30084",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 65,
+     "total": 65
+    },
+    "crafted": 139,
+    "sanity": 1612.64
+   },
+   {
+    "id": "31044",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 17,
+     "total": 17
+    },
+    "crafted": 29,
+    "sanity": 1437.64
+   },
+   {
+    "id": "31043",
+    "tier": 3,
+    "direct": {
+     "promotion": 37,
+     "mastery": 3,
+     "total": 40
+    },
+    "crafted": 83,
+    "sanity": 1244.55
+   },
+   {
+    "id": "31083",
+    "tier": 3,
+    "direct": {
+     "promotion": 20,
+     "mastery": 6,
+     "total": 26
+    },
+    "crafted": 58,
+    "sanity": 965.58
+   },
+   {
+    "id": "31054",
+    "tier": 4,
+    "direct": {
+     "promotion": 3,
+     "mastery": 18,
+     "total": 21
+    },
+    "crafted": 27,
+    "sanity": 945.83
+   },
+   {
+    "id": "31074",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 10,
+     "total": 10
+    },
+    "crafted": 16,
+    "sanity": 910.5
+   },
+   {
+    "id": "31084",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 8,
+     "total": 8
+    },
+    "crafted": 14,
+    "sanity": 798.65
+   },
+   {
+    "id": "31064",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 8,
+     "total": 8
+    },
+    "crafted": 14,
+    "sanity": 671.07
+   },
+   {
+    "id": "31094",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 18,
+    "sanity": 527.02
+   },
+   {
+    "id": "30103",
+    "tier": 3,
+    "direct": {
+     "promotion": 109,
+     "mastery": 33,
+     "total": 142
+    },
+    "crafted": 560,
+    "sanity": 408.96
+   },
+   {
+    "id": "31073",
+    "tier": 3,
+    "direct": {
+     "promotion": 9,
+     "mastery": 3,
+     "total": 12
+    },
+    "crafted": 42,
+    "sanity": 395.28
+   },
+   {
+    "id": "30083",
+    "tier": 3,
+    "direct": {
+     "promotion": 132,
+     "mastery": 38,
+     "total": 170
+    },
+    "crafted": 637,
+    "sanity": 367.2
+   },
+   {
+    "id": "30073",
+    "tier": 3,
+    "direct": {
+     "promotion": 150,
+     "mastery": 54,
+     "total": 204
+    },
+    "crafted": 624,
+    "sanity": 367.2
+   },
+   {
+    "id": "31063",
+    "tier": 3,
+    "direct": {
+     "promotion": 8,
+     "mastery": 2,
+     "total": 10
+    },
+    "crafted": 38,
+    "sanity": 332.67
+   },
+   {
+    "id": "30093",
+    "tier": 3,
+    "direct": {
+     "promotion": 91,
+     "mastery": 38,
+     "total": 129
+    },
+    "crafted": 484,
+    "sanity": 325.08
+   },
+   {
+    "id": "31033",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 13,
+     "total": 13
+    },
+    "crafted": 106,
+    "sanity": 247.51
+   },
+   {
+    "id": "31053",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 7,
+     "total": 7
+    },
+    "crafted": 63,
+    "sanity": 186.43
+   },
+   {
+    "id": "31093",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 18,
+    "sanity": 0.0
+   },
+   {
+    "id": "31103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "31104",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "31113",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "31114",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   }
+  ],
+  "upcoming": [
+   {
+    "id": "30165",
+    "tier": 5,
+    "direct": {
+     "promotion": 12,
+     "mastery": 68,
+     "total": 80
+    },
+    "crafted": 80,
+    "sanity": 28262.82
+   },
+   {
+    "id": "30145",
+    "tier": 5,
+    "direct": {
+     "promotion": 12,
+     "mastery": 54,
+     "total": 66
+    },
+    "crafted": 66,
+    "sanity": 19955.85
+   },
+   {
+    "id": "30115",
+    "tier": 5,
+    "direct": {
+     "promotion": 4,
+     "mastery": 72,
+     "total": 76
+    },
+    "crafted": 76,
+    "sanity": 18098.08
+   },
+   {
+    "id": "30155",
+    "tier": 5,
+    "direct": {
+     "promotion": 8,
+     "mastery": 52,
+     "total": 60
+    },
+    "crafted": 60,
+    "sanity": 17087.24
+   },
+   {
+    "id": "31094",
+    "tier": 4,
+    "direct": {
+     "promotion": 18,
+     "mastery": 78,
+     "total": 96
+    },
+    "crafted": 256,
+    "sanity": 8432.33
+   },
+   {
+    "id": "30044",
+    "tier": 4,
+    "direct": {
+     "promotion": 7,
+     "mastery": 61,
+     "total": 68
+    },
+    "crafted": 144,
+    "sanity": 7423.27
+   },
+   {
+    "id": "31074",
+    "tier": 4,
+    "direct": {
+     "promotion": 9,
+     "mastery": 72,
+     "total": 81
+    },
+    "crafted": 161,
+    "sanity": 7375.08
+   },
+   {
+    "id": "31064",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 81,
+     "total": 81
+    },
+    "crafted": 141,
+    "sanity": 6794.6
+   },
+   {
+    "id": "31034",
+    "tier": 4,
+    "direct": {
+     "promotion": 2,
+     "mastery": 69,
+     "total": 71
+    },
+    "crafted": 137,
+    "sanity": 6517.89
+   },
+   {
+    "id": "31104",
+    "tier": 4,
+    "direct": {
+     "promotion": 11,
+     "mastery": 54,
+     "total": 65
+    },
+    "crafted": 65,
+    "sanity": 5905.85
+   },
+   {
+    "id": "30014",
+    "tier": 4,
+    "direct": {
+     "promotion": 9,
+     "mastery": 81,
+     "total": 90
+    },
+    "crafted": 166,
+    "sanity": 5882.2
+   },
+   {
+    "id": "31084",
+    "tier": 4,
+    "direct": {
+     "promotion": 12,
+     "mastery": 45,
+     "total": 57
+    },
+    "crafted": 137,
+    "sanity": 5690.41
+   },
+   {
+    "id": "31114",
+    "tier": 4,
+    "direct": {
+     "promotion": 9,
+     "mastery": 34,
+     "total": 43
+    },
+    "crafted": 43,
+    "sanity": 4374.39
+   },
+   {
+    "id": "31014",
+    "tier": 4,
+    "direct": {
+     "promotion": 9,
+     "mastery": 40,
+     "total": 49
+    },
+    "crafted": 181,
+    "sanity": 3954.43
+   },
+   {
+    "id": "31024",
+    "tier": 4,
+    "direct": {
+     "promotion": 2,
+     "mastery": 57,
+     "total": 59
+    },
+    "crafted": 125,
+    "sanity": 3683.08
+   },
+   {
+    "id": "31044",
+    "tier": 4,
+    "direct": {
+     "promotion": 7,
+     "mastery": 36,
+     "total": 43
+    },
+    "crafted": 163,
+    "sanity": 3636.39
+   },
+   {
+    "id": "30054",
+    "tier": 4,
+    "direct": {
+     "promotion": 2,
+     "mastery": 45,
+     "total": 47
+    },
+    "crafted": 123,
+    "sanity": 3613.34
+   },
+   {
+    "id": "31054",
+    "tier": 4,
+    "direct": {
+     "promotion": 8,
+     "mastery": 39,
+     "total": 47
+    },
+    "crafted": 107,
+    "sanity": 2116.86
+   },
+   {
+    "id": "30043",
+    "tier": 3,
+    "direct": {
+     "promotion": 13,
+     "mastery": 20,
+     "total": 33
+    },
+    "crafted": 502,
+    "sanity": 890.34
+   },
+   {
+    "id": "31013",
+    "tier": 3,
+    "direct": {
+     "promotion": 9,
+     "mastery": 20,
+     "total": 29
+    },
+    "crafted": 510,
+    "sanity": 879.66
+   },
+   {
+    "id": "31073",
+    "tier": 3,
+    "direct": {
+     "promotion": 13,
+     "mastery": 13,
+     "total": 26
+    },
+    "crafted": 324,
+    "sanity": 856.44
+   },
+   {
+    "id": "30063",
+    "tier": 3,
+    "direct": {
+     "promotion": 9,
+     "mastery": 10,
+     "total": 19
+    },
+    "crafted": 331,
+    "sanity": 693.8
+   },
+   {
+    "id": "31083",
+    "tier": 3,
+    "direct": {
+     "promotion": 8,
+     "mastery": 10,
+     "total": 18
+    },
+    "crafted": 411,
+    "sanity": 668.48
+   },
+   {
+    "id": "31023",
+    "tier": 3,
+    "direct": {
+     "promotion": 15,
+     "mastery": 9,
+     "total": 24
+    },
+    "crafted": 467,
+    "sanity": 645.66
+   },
+   {
+    "id": "31053",
+    "tier": 3,
+    "direct": {
+     "promotion": 11,
+     "mastery": 11,
+     "total": 22
+    },
+    "crafted": 292,
+    "sanity": 585.94
+   },
+   {
+    "id": "30033",
+    "tier": 3,
+    "direct": {
+     "promotion": 18,
+     "mastery": 8,
+     "total": 26
+    },
+    "crafted": 492,
+    "sanity": 577.28
+   },
+   {
+    "id": "31113",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 16,
+     "total": 16
+    },
+    "crafted": 59,
+    "sanity": 530.54
+   },
+   {
+    "id": "30053",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 16,
+     "total": 16
+    },
+    "crafted": 327,
+    "sanity": 441.73
+   },
+   {
+    "id": "30013",
+    "tier": 3,
+    "direct": {
+     "promotion": 20,
+     "mastery": 5,
+     "total": 25
+    },
+    "crafted": 850,
+    "sanity": 430.44
+   },
+   {
+    "id": "31033",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 17,
+     "total": 17
+    },
+    "crafted": 398,
+    "sanity": 323.67
+   },
+   {
+    "id": "31093",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 10,
+     "total": 10
+    },
+    "crafted": 331,
+    "sanity": 311.96
+   },
+   {
+    "id": "31103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 114,
+    "sanity": 213.41
+   },
+   {
+    "id": "31063",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 284,
+    "sanity": 199.6
+   },
+   {
+    "id": "31043",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 6,
+     "total": 6
+    },
+    "crafted": 310,
+    "sanity": 186.68
+   },
+   {
+    "id": "30023",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 7,
+     "total": 7
+    },
+    "crafted": 527,
+    "sanity": 161.11
+   },
+   {
+    "id": "30083",
+    "tier": 3,
+    "direct": {
+     "promotion": 26,
+     "mastery": 9,
+     "total": 35
+    },
+    "crafted": 158,
+    "sanity": 75.6
+   },
+   {
+    "id": "30073",
+    "tier": 3,
+    "direct": {
+     "promotion": 20,
+     "mastery": 3,
+     "total": 23
+    },
+    "crafted": 23,
+    "sanity": 41.4
+   },
+   {
+    "id": "30093",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 11,
+     "total": 11
+    },
+    "crafted": 136,
+    "sanity": 27.72
+   },
+   {
+    "id": "30103",
+    "tier": 3,
+    "direct": {
+     "promotion": 0,
+     "mastery": 3,
+     "total": 3
+    },
+    "crafted": 110,
+    "sanity": 8.64
+   },
+   {
+    "id": "30024",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30034",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30064",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30074",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30084",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30094",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30104",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30125",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   },
+   {
+    "id": "30135",
+    "tier": 5,
+    "direct": {
+     "promotion": 0,
+     "mastery": 0,
+     "total": 0
+    },
+    "crafted": 0,
+    "sanity": 0.0
+   }
+  ]
+ },
+ "upcoming": [
+  "char_1015_aglna2",
+  "char_1048_orchd2",
+  "char_1049_catap2",
+  "char_393_toledo",
+  "char_4169_caledo",
+  "char_4170_hdbell",
+  "char_4217_makoto",
+  "char_4218_aigis",
+  "char_4219_yukari",
+  "char_4229_aphris",
+  "char_4231_clemnt",
+  "char_4232_hbound",
+  "char_4234_pedro",
+  "char_4235_thumpy",
+  "char_4236_tmslot",
+  "char_4237_jcinta",
+  "char_4244_tocka",
+  "char_4245_alga",
+  "char_4246_dminon",
+  "char_4247_oxi"
+ ],
+ "breakdown": {
+  "6": {
+   "promotion": {
+    "materials": 1309.21,
+    "chips": 853.74,
+    "lmd": 2123.43,
+    "xp": 1301.04
+   },
+   "mastery": {
+    "materials": 2807.59,
+    "skill_summaries": 354.39
+   }
+  },
+  "5": {
+   "promotion": {
+    "materials": 808.63,
+    "chips": 644.52,
+    "lmd": 1339.01,
+    "xp": 861.84
+   },
+   "mastery": {
+    "materials": 1859.58,
+    "skill_summaries": 213.6
+   }
+  },
+  "4": {
+   "promotion": {
+    "materials": 459.49,
+    "chips": 223.89,
+    "lmd": 742.47,
+    "xp": 540.72
+   },
+   "mastery": {
+    "materials": 876.59,
+    "skill_summaries": 122.06
+   }
+  }
+ }
+}

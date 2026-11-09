@@ -1,0 +1,37 @@
+{{- /*
+  efficiency-breakdown — where the average operator's E2 and M3 cost goes, per rarity.
+  Usage: {{< efficiency-breakdown >}}
+  Current era (data/efficiencies/stats.json → breakdown). The parts add up to
+  the ticket values on the cost pages.
+*/ -}}
+{{- $s := (partialCached "ica/efficiency/stats.html" . "efficiency-stats").stats -}}
+{{- $labels := dict "materials" "Materials" "chips" "Chips" "lmd" "LMD" "xp" "XP" "skill_summaries" "Skill Summaries" -}}
+{{- range $kind := slice (slice "promotion" "E2" (slice "materials" "chips" "lmd" "xp")) (slice "mastery" "M3, per skill" (slice "materials" "skill_summaries")) -}}
+  {{- $key := index $kind 0 }}{{ $parts := index $kind 2 -}}
+  <div class="eff-table-wrap">
+    <table class="eff-table eff-breakdown">
+      <thead>
+        <tr>
+          <th scope="col">{{ index $kind 1 }}</th>
+          {{- range $parts }}<th scope="col" class="eff-num"><span class="eff-key__swatch eff-part--{{ . }}"></span> {{ index $labels . }}</th>{{ end -}}
+          <th scope="col" class="eff-num">Total</th>
+          <th scope="col" class="eff-col-bar"><span class="sr-only">Share</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $r := slice "6" "5" "4" -}}
+          {{- $b := index (index $s.breakdown $r) $key -}}
+          {{- $total := 0.0 }}{{ range $parts }}{{ $total = add $total (index $b .) }}{{ end -}}
+          <tr>
+            <th scope="row">{{ $r }}★</th>
+            {{- range $parts }}<td class="eff-num">{{ partial "ica/efficiency/num.html" (index $b .) }} <span class="eff-foot-note">{{ lang.FormatNumber 0 (div (mul (index $b .) 100.0) $total) }}%</span></td>{{ end -}}
+            <td class="eff-num">{{ partial "ica/efficiency/num.html" $total }}</td>
+            <td class="eff-col-bar"><span class="eff-stack" aria-hidden="true">
+              {{- range $parts }}<span class="eff-part--{{ . }}" style="width:{{ div (mul (index $b .) 100.0) $total }}%"></span>{{ end -}}
+            </span></td>
+          </tr>
+        {{- end -}}
+      </tbody>
+    </table>
+  </div>
+{{- end -}}

@@ -118,13 +118,14 @@ Behaviour that isn't obvious from any single file:
 
 ## Efficiency data (`data/efficiencies/`)
 
-Sanity values of items and operator costs, replacing a retired Google Sheet. Shown on `content/guides/promotion-costs/` (full roster) and `content/guides/recent-promotion-costs/` — see "Efficiency pages" below.
+Sanity values of items and operator costs, replacing a retired Google Sheet. Shown on `content/guides/promotion-costs/` (full roster), `content/guides/recent-promotion-costs/` and `content/guides/promotion-stats/` — see "Efficiency pages" below.
 
 | File | Kind | Holds |
 |---|---|---|
 | `value_rules.yaml` | hand-edited | infinite-shop eras, the packs-profile rules, the recent-operator window — with the reasoning in comments |
 | `item_values.json` | generated | item values per profile (`standard`, `packs`) and era; recent-operator values and stats |
 | `operator_costs.json` | generated | every operator's E1/E2 and M1–M3 costs as item counts; levelling XP/LMD per rarity |
+| `stats.json` | generated | stats page data, current era only: spreads, extremes, material demand (direct and with crafting), cost breakdown |
 
 `tools/build_item_values.py` builds both JSON files from the rules plus `assets/game_img` (yituliu values in `processed/item_efficiency.json`, CN excel tables, `processed/release_log.csv`). Its docstring documents the output structure in full. **Never hand-edit the JSON** — change the rules or the script and rerun.
 
@@ -142,11 +143,14 @@ Non-obvious decisions, all deliberate:
 
 ### Efficiency pages
 
-Four shortcodes (`efficiency-era`, `-roster`, `-recent`, `-tickets`), shared partials in `layouts/partials/ica/efficiency/`, script `assets/js/efficiency.js`, styles under the `eff-` prefix in `custom.css`.
+Shortcodes `efficiency-era`, `-roster`, `-recent`, `-tickets` (cost pages) and `-overview`, `-extremes`, `-materials`, `-upcoming`, `-breakdown` (stats page, current era only, no selector), shared partials in `layouts/partials/ica/efficiency/`, script `assets/js/efficiency.js`, styles under the `eff-` prefix in `custom.css`.
 
 - **Templates never calculate.** Hugo renders the default era's numbers from the JSON; `efficiency-era` lets readers pick another, and the script fetches one generated file with every era (`resources.FromString` in `context.html`) and rewrites the cells marked `data-eff-*`. The choice is stored in `localStorage` and shared across pages. Only the recent page is coloured: values against the *recent* operators of the same rarity (above average / top quartile, from `recent_operators → rarities`); a rarity with a single recent operator stays uncoloured. Measured against the whole roster every recent operator looked expensive, and the full roster isn't coloured at all — its averages are still generated (`operator_values → averages`) for later use. The rule exists twice — `level.html` and the script — keep them in step.
 - **Roster anchors `#op-<char id>` are load-bearing**: the search index (`efficiencyRoster = true` in the roster page's front matter adds one entry per operator, from the data) and the "Costs" link in both mastery-table shortcodes point at them. The "Costs" link appears only while `/guides/promotion-costs` is published *and listed* (`ica/efficiency/roster-url.html`).
-- **Semi-hidden release:** both pages currently have `[build] list = 'never'` and no `topic`/menu entry — reachable by URL only, absent from search, sitemap, tag pages, RSS, menu, homepage and the Mastery tables. For the wide release: delete the `[build]` block and uncomment `topic` (menu entries were removed and need re-adding in front matter, as on the selector page).
+- **Material counts** (`efficiency-materials`): "with crafting" expands Tier 5 → 4 → 3 through the workshop recipes (all make one item); sanity counts each material once at its own value. No E1 uses Tier 3+ materials, so E1 never shows in these counts. Skill levels 1–7 are excluded throughout.
+- **The script loads from `partials/extend-head-uncached.html`** via `ica/efficiency/script.html`, which checks `.HasShortcode`. Not from the shortcodes themselves: they used `.Page.Store` to emit it once, but Hugo doesn't reset `.Store` on dev-server rebuilds, so after any edit `hugo server` served the pages without it. `extend-head.html` can't be used — Blowfish passes it only `.Site`, cached. A new shortcode that needs the script must be added to that `.HasShortcode` list.
+- **`.eff-table` sets `display: table`** to undo the theme's `display: block` on tables, which stopped rows filling the width.
+- **Semi-hidden release:** all three pages currently have `[build] list = 'never'` and no `topic`/menu entry — reachable by URL only, absent from search, sitemap, tag pages, RSS, menu, homepage and the Mastery tables. For the wide release: delete the `[build]` block and uncomment `topic` (menu entries were removed and need re-adding in front matter, as on the selector page).
 - **`efficiency-recent` is used with `{{% %}}`, not `{{< >}}`**: it emits each rarity's title as a Markdown `## 6★` heading so the TOC picks it up (and an empty rarity leaves no heading). Its HTML must stay free of blank lines, or Markdown would start treating the indented markup as a code block.
 - **One publish switch per page**: `draft`. Menu entries live in each page's front matter, as with the selector guide.
 - Rarities arrive from JSON as floats — wrap in `int` before `printf "%d"`.

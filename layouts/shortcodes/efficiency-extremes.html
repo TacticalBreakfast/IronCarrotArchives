@@ -1,0 +1,34 @@
+{{- /*
+  efficiency-extremes — the 5 most and least expensive E2s and M3s for one rarity.
+  Usage: {{< efficiency-extremes rarity="6" >}}
+
+  Current era only (data/efficiencies/stats.json → extremes). Names link to the
+  operator's Mastery write-up when there is one (ica/efficiency/name.html).
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/stats.html" . "efficiency-stats" -}}
+{{- $r := .Get "rarity" -}}
+{{- $e := index $ctx.stats.extremes $r -}}
+{{- if not $e }}{{ errorf "%s: efficiency-extremes needs rarity=\"4\", \"5\" or \"6\"" .Position }}{{ end -}}
+<div class="eff-extremes">
+  {{- range $kind := slice (slice "promotion" "E2") (slice "mastery" "M3") -}}
+    {{- range $end := slice (slice "most" "Most expensive") (slice "least" "Least expensive") -}}
+      {{- $rows := index (index $e (index $kind 0)) (index $end 0) -}}
+      <div class="eff-table-wrap">
+        <table class="eff-table">
+          {{- $isM := eq (index $kind 0) "mastery" -}}
+          <thead><tr><th scope="col" colspan="{{ cond $isM 3 2 }}">{{ index $end 1 }} {{ index $kind 1 }}</th></tr></thead>
+          <tbody>
+            {{- range $rows -}}
+              {{- $op := index $ctx.costs.operators .id -}}
+              <tr>
+                <th scope="row">{{ partial "ica/efficiency/name.html" (dict "id" .id "op" $op) }}</th>
+                {{- if $isM }}<td class="eff-foot-note" title="{{ .skill_name }}">S{{ .skill }}M3</td>{{ end -}}
+                <td class="eff-num">{{ partial "ica/efficiency/num.html" .value }}</td>
+              </tr>
+            {{- end -}}
+          </tbody>
+        </table>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>

@@ -1,0 +1,21 @@
+{{- /*
+  ica/efficiency/write-ups.html — operator id -> link to their Mastery write-up, for the efficiency pages.
+  Call: partialCached "ica/efficiency/write-ups.html" . "efficiency-write-ups"
+
+  The class pages first (ica/mastery-anchors.html), then mostrecent.md for
+  operators whose write-up hasn't moved to a class page yet. mastery-anchors
+  skips mostrecent on purpose -- the selector guide must never link there --
+  so the fallback lives here, not in that shared partial.
+*/ -}}
+{{- $out := partialCached "ica/mastery-anchors.html" . "mastery-anchors" -}}
+{{- with site.GetPage "/masteries/mostrecent" -}}
+  {{- $page := . -}}
+  {{- range findRESubmatch `(?m)^###[ \t]+(.+?)[ \t]*\n\s*\{\{<\s*mastery-table-(?:enhanced|is)\s+id="([^"]+)"` .RawContent -1 -}}
+    {{- $id := index . 2 -}}
+    {{- if not (index $out $id) -}}
+      {{- $title := index . 1 | markdownify | plainify | htmlUnescape -}}
+      {{- $out = merge $out (dict $id (printf "%s#%s" $page.RelPermalink (anchorize $title))) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

@@ -5,6 +5,8 @@
                                           infinite-shop era
   data/efficiencies/operator_costs.json   what every operator costs to promote,
                                           level and master, as item counts
+  data/efficiencies/stats.json            roster statistics for the stats page
+                                          (current era only)
 
 Inputs:
   data/efficiencies/value_rules.yaml               hand-edited rules (eras, packs)
@@ -105,6 +107,27 @@ operator_costs.json (generated -- never hand-edit):
                                   them, so they never affect a valuation.
   excluded      {char id: reason}: operators left out on purpose
 
+stats.json (generated -- never hand-edit), current era, 4-6-star operators
+(CN-only included). Promotions count alternate forms (Amiya) once; masteries
+count every skill. Skill levels 1-7 are never counted.
+  overview      {rarity: {all, recent}} -> {promotion, mastery}: count, min,
+                q1, median, q3, max, average (inclusive quartiles). "recent" =
+                the recent_operators window.
+  extremes      {rarity: {promotion: {most, least}, mastery: {most, least}}},
+                5 each: [{id, value}] / [{id, skill, skill_name, value}]
+  materials     {scope: [{id, tier, direct: {promotion, mastery, total},
+                crafted, sanity}]} for EVERY Tier 3-5 material (zeros included),
+                sorted by sanity.
+                Scopes: all, 6, 5, 4, upcoming (CN-only operators).
+                direct = what the costs list; crafted = direct plus what it
+                takes to craft the higher-tier materials (Tier 5 -> 4 -> 3),
+                i.e. the count if every higher tier is crafted; sanity =
+                direct x value (no double counting across tiers).
+  upcoming      char ids of the CN-only operators in the "upcoming" scope
+  breakdown     {rarity: {promotion: {materials, chips, lmd, xp},
+                mastery: {materials, skill_summaries}}}: the average
+                operator's cost by part, in sanity.
+
 Costs are item counts, not sanity, so a page can value them under any era or
 profile. Excluded: summons/deployables (TOKEN/TRAP), unobtainable entries, and
 operators promoted through gameplay rather than materials (spTargetType other
@@ -132,6 +155,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 RULES = ROOT / "data/efficiencies/value_rules.yaml"
 OUTPUT = ROOT / "data/efficiencies/item_values.json"
+STATS_OUTPUT = ROOT / "data/efficiencies/stats.json"
 OPERATOR_OUTPUT = ROOT / "data/efficiencies/operator_costs.json"
 ASSETS = ROOT / "assets/game_img"
 EFFICIENCY = ASSETS / "processed/item_efficiency.json"
@@ -602,6 +626,129 @@ def operator_values_output(operator_eras: list) -> dict:
     ]}
 
 
+def chip_items() -> set:
+    """Class chips, chip packs, dualchips and Chip Catalysts: every item in a chip
+    recipe. Dualchips are made in the Factory, so both recipe tables are read."""
+    building = load_json(BUILDING_DATA)
+    items = set()
+    for formula in [*building["workshopFormulas"].values(), *building["manufactFormulas"].values()]:
+        if formula["formulaType"] == "F_ASC":
+            items.add(formula["itemId"])
+            items.update(c["id"] for c in formula["costs"])
+    return items
+
+
+def build_stats(standard: dict, operators: dict, operator_eras: list, recent: dict,
+                recipes: dict, tiers: dict, xp_value: float) -> dict:
+    values = standard["base"]
+    lmd = values[LMD]
+    ops = {c: op for c, op in operators["operators"].items() if op["rarity"] >= 4}
+    valued = operator_eras[-1]["valued"]  # current era
+    recent_ids = {c for g in recent["groups"] for c in g["operators"]}
+    r = lambda x: round(x, DECIMALS - 2)
+
+    def promoted(ids):
+        # Alternate forms share their base operator's promotion: count it once.
+        return [c for c in ids if "form_of" not in ops[c]]
+
+    def dist(numbers):
+        q1, median, q3 = statistics.quantiles(numbers, n=4, method="inclusive")
+        return {"count": len(numbers), "min": r(min(numbers)), "q1": r(q1), "median": r(median),
+                "q3": r(q3), "max": r(max(numbers)), "average": r(statistics.mean(numbers))}
+
+    overview, extremes, breakdown = {}, {}, {}
+    chips = chip_items()
+    for rarity in (6, 5, 4):
+        ids = sorted(c for c, op in ops.items() if op["rarity"] == rarity)
+        entry = {}
+        for scope, members in (("all", ids), ("recent", [c for c in ids if c in recent_ids])):
+            promos = [valued[c]["promotion"] for c in promoted(members)]
+            masteries = [m for c in members for m in valued[c]["skills"]]
+            if len(promos) > 1 and len(masteries) > 1:
+                entry[scope] = {"promotion": dist(promos), "mastery": dist(masteries)}
+        overview[str(rarity)] = entry
+
+        promo_rows = sorted(({"id": c, "value": r(valued[c]["promotion"])} for c in promoted(ids)),
+                            key=lambda x: -x["value"])
+        skill_rows = sorted(({"id": c, "skill": i + 1, "skill_name": ops[c]["skills"][i]["name"], "value": r(m)}
+                             for c in ids for i, m in enumerate(valued[c]["skills"])), key=lambda x: -x["value"])
+        extremes[str(rarity)] = {
+            "promotion": {"most": promo_rows[:5], "least": promo_rows[::-1][:5]},
+            "mastery": {"most": skill_rows[:5], "least": skill_rows[::-1][:5]},
+        }
+
+        e0, e1 = operators["rarities"][str(rarity)]["leveling"][:2]
+        parts = {"materials": [], "chips": [], "lmd": [], "xp": []}
+        for c in promoted(ids):
+            items = {}
+            for p in ops[c]["promotions"]:
+                for i, n in p["items"].items():
+                    items[i] = items.get(i, 0) + n
+            parts["materials"].append(sum(values.get(i, 0) * n for i, n in items.items() if i not in chips))
+            parts["chips"].append(sum(values.get(i, 0) * n for i, n in items.items() if i in chips))
+            parts["lmd"].append((sum(p["lmd"] for p in ops[c]["promotions"]) + e0["lmd"] + e1["lmd"]) * lmd)
+            parts["xp"].append((e0["xp"] + e1["xp"]) * xp_value)
+        skill_parts = {"materials": [], "skill_summaries": []}
+        for c in ids:
+            for skill in ops[c]["skills"]:
+                cost = lambda keep: sum(values.get(i, 0) * n for m in skill["masteries"]
+                                        for i, n in m.items() if keep(i))
+                skill_parts["materials"].append(cost(lambda i: i != SKILL_SUMMARY_3))
+                skill_parts["skill_summaries"].append(cost(lambda i: i == SKILL_SUMMARY_3))
+        breakdown[str(rarity)] = {
+            "promotion": {k: r(statistics.mean(v)) for k, v in parts.items()},
+            "mastery": {k: r(statistics.mean(v)) for k, v in skill_parts.items()},
+        }
+
+    materials_t3 = {m for m, t in tiers.items() if t >= 3}
+
+    def demand(ids):
+        direct = {m: {"promotion": 0, "mastery": 0} for m in materials_t3}
+        for c in ids:
+            if "form_of" not in ops[c]:
+                for p in ops[c]["promotions"]:
+                    for i, n in p["items"].items():
+                        if i in direct:
+                            direct[i]["promotion"] += n
+            for skill in ops[c]["skills"]:
+                for m in skill["masteries"]:
+                    for i, n in m.items():
+                        if i in direct:
+                            direct[i]["mastery"] += n
+        # Crafting: every Tier 5 broken into Tier 4/3 ingredients, then every
+        # Tier 4 (including those just added) into Tier 3. All recipes make one.
+        crafted = {m: d["promotion"] + d["mastery"] for m, d in direct.items()}
+        for tier in (5, 4):
+            for m in sorted(x for x in materials_t3 if tiers[x] == tier):
+                for ingredient, n in recipes.get(m, []):
+                    if ingredient in crafted:
+                        crafted[ingredient] += crafted[m] * n
+        # Every material is listed, even at 0: "upcoming operators need no Bipolar
+        # Nanoflakes" is useful to readers, not noise.
+        rows = []
+        for m in materials_t3:
+            total = direct[m]["promotion"] + direct[m]["mastery"]
+            rows.append({"id": m, "tier": tiers[m],
+                         "direct": {**direct[m], "total": total},
+                         "crafted": crafted[m],
+                         "sanity": r(total * values.get(m, 0))})
+        return sorted(rows, key=lambda x: (-x["sanity"], -x["crafted"], x["id"]))
+
+    upcoming = sorted(c for c, op in ops.items() if not op["on_en"])
+    scopes = {"all": sorted(ops)}
+    for rarity in (6, 5, 4):
+        scopes[str(rarity)] = sorted(c for c, op in ops.items() if op["rarity"] == rarity)
+    scopes["upcoming"] = upcoming
+
+    return {
+        "overview": overview,
+        "extremes": extremes,
+        "materials": {k: demand(v) for k, v in scopes.items()},
+        "upcoming": upcoming,
+        "breakdown": breakdown,
+    }
+
+
 def rarity_number(tier: str) -> int:
     return int(tier.removeprefix("TIER_"))
 
@@ -715,7 +862,7 @@ def main() -> None:
     old_ops = load_json(OPERATOR_OUTPUT) if OPERATOR_OUTPUT.exists() else None
     operator_inputs, inputs = fingerprint(OPERATOR_INPUTS), fingerprint(INPUTS)
     operators_current = up_to_date(OPERATOR_OUTPUT, operator_inputs) and not args.force
-    values_current = up_to_date(OUTPUT, inputs) and not args.force
+    values_current = up_to_date(OUTPUT, inputs) and up_to_date(STATS_OUTPUT, inputs) and not args.force
     if operators_current and values_current:
         print("Everything is up to date.")
         return
@@ -757,7 +904,12 @@ def main() -> None:
         "operator_values": operator_values_output(operator_eras),
         "recent_operators": recent,
     })
+    write_json(STATS_OUTPUT, {
+        "_generated": generated(inputs, "edit data/efficiencies/value_rules.yaml and rerun the script instead."),
+        **build_stats(standard, operators, operator_eras, recent, recipes, tiers, rules["packs"]["xp_value"]),
+    })
     print(f"Wrote {OUTPUT.relative_to(ROOT)}: {len(standard['base'])} items, {len(standard['eras'])} eras")
+    print(f"Wrote {STATS_OUTPUT.relative_to(ROOT)}")
     for name, profile in (("standard", standard), ("packs", packs)):
         for era in profile["eras"]:
             print(f"  {name:<8} {era['id']:>6}  {era['label']:<14} {len(era['values'])} values differ from base")

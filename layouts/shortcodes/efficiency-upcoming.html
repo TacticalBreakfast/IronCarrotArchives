@@ -1,0 +1,13 @@
+{{- /*
+  efficiency-upcoming — the CN-only operators the "upcoming" material counts cover.
+  Usage: {{< efficiency-upcoming >}}
+  From data/efficiencies/stats.json → upcoming: every 4★–6★ operator not yet
+  on EN. An operator drops off on its own once released on EN.
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/stats.html" . "efficiency-stats" -}}
+<ul class="eff-upcoming">
+  {{- range $id := $ctx.stats.upcoming -}}
+    {{- $op := index $ctx.costs.operators $id -}}
+    <li>{{ partial "ica/efficiency/name.html" (dict "id" $id "op" (merge $op (dict "on_en" true))) }} <span class="eff-foot-note">{{ $op.rarity }}★</span></li>
+  {{- end -}}
+</ul>

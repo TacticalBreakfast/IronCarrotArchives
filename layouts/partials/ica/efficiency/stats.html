@@ -1,0 +1,12 @@
+{{- /*
+  ica/efficiency/stats.html — shared lookups for the stats shortcodes.
+  Call: partialCached "ica/efficiency/stats.html" . "efficiency-stats"
+  Returns stats (data/efficiencies/stats.json), costs (operator_costs.json)
+  and items ({id: {name, rarity}} from item_values.json).
+*/ -}}
+{{- $values := hugo.Data.efficiencies.item_values -}}
+{{- return dict
+  "stats" hugo.Data.efficiencies.stats
+  "costs" hugo.Data.efficiencies.operator_costs
+  "items" $values.items
+-}}

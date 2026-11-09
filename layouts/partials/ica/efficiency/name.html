@@ -4,7 +4,7 @@
   Name = EN name, else the CN appellation, with a romanization for Cyrillic ones.
 */ -}}
 {{- $short := strings.TrimPrefix "char_" .id -}}
-{{- $mastery := index (partialCached "ica/mastery-anchors.html" . "mastery-anchors") $short -}}
+{{- $mastery := index (partialCached "ica/efficiency/write-ups.html" . "efficiency-write-ups") $short -}}
 {{- $img := resources.Get (printf "game_img/charavatars/%s.png" .id) -}}
 <span class="eff-op">
   {{- with $img -}}
