@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "fa4c8533a4a0ad32"
+   "tools/build_pack_values.py": "ffdc88740ff089bb"
   }
  },
  "lag_days": 165,
@@ -1859,7 +1859,15 @@
    "hidden": false,
    "group": "headhunting",
    "hidden_reason": null,
-   "measure": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": null,
+    "total_pulls": 10.0,
+    "per_pull": null
+   },
    "colours": {
     "per_op": "green",
     "per_pull": "green"
@@ -2559,7 +2567,15 @@
    "hidden": false,
    "group": "headhunting",
    "hidden_reason": null,
-   "measure": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": null,
+    "total_pulls": 10.0,
+    "per_pull": null
+   },
    "colours": {
     "per_op": "green",
     "per_pull": "green"
@@ -6929,7 +6945,15 @@
    "hidden": false,
    "group": "headhunting",
    "hidden_reason": null,
-   "measure": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": null,
+    "total_pulls": 10.0,
+    "per_pull": null
+   },
    "colours": {
     "per_op": "green",
     "per_pull": "green"
@@ -7592,7 +7616,15 @@
    "hidden": false,
    "group": "headhunting",
    "hidden_reason": null,
-   "measure": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": null,
+    "total_pulls": 10.0,
+    "per_pull": null
+   },
    "colours": {
     "per_op": "green",
     "per_pull": "green"
@@ -9377,7 +9409,15 @@
     }
    ],
    "text": "1x Ten-roll Headhunting Permit, 1x 6★ selector (the Kernel version adds a Kernel ten-roll)",
-   "measure": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": null,
+    "total_pulls": 10.0,
+    "per_pull": null
+   },
    "colours": {
     "per_op": "green",
     "per_pull": "green"
