@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "ba68bb7d7b20d1a7"
+   "tools/build_pack_values.py": "fa4c8533a4a0ad32"
   }
  },
  "lag_days": 165,
@@ -399,9 +399,9 @@
    "expected_en_start": null,
    "packs": [
     "GP_Once_523",
-    "GP_Once_409",
-    "GP_Once_410",
-    "GP_Once_411"
+    "GP_Once_409@2026-11-08",
+    "GP_Once_410@2026-11-08",
+    "GP_Once_411@2026-11-08"
    ],
    "order_date": "2027-04-23T05:30:00Z"
   }
@@ -1233,12 +1233,12 @@
    "cn_name": "变格形象组合包",
    "good_id": "GP_Once_411",
    "good_id_matched_by": null,
-   "contents_source": "inferred",
-   "contents_inferred_from": "变格形象组合包 2026-04-01",
+   "contents_source": null,
+   "contents_inferred_from": null,
    "contents_conflict": false,
-   "event": "act3autochess",
-   "cn_start": "2026-11-08T16:00:00+08:00",
-   "cn_end": "2026-12-06T03:59:59+08:00",
+   "event": "act7fun",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "cn_end": "2026-04-22T03:59:00+08:00",
    "en_start": null,
    "en_end": null,
    "window_source": null,
@@ -1248,15 +1248,50 @@
    "contents": [
     {
      "id": null,
-     "name": "18源石时装",
+     "name": "米米子",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "头像",
-     "count": 6,
+     "name": "靓眼银灰",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "解闷德克萨斯",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "凯尔希炭",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "维维美",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "闲游能天使",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "维什戴尔",
+     "count": 1,
      "kind": "cosmetic",
      "value": null
     }
@@ -1279,12 +1314,12 @@
    "cn_name": "米米子的照片集",
    "good_id": "GP_Once_409",
    "good_id_matched_by": null,
-   "contents_source": "inferred",
-   "contents_inferred_from": "米米子的照片集 2026-04-01",
+   "contents_source": null,
+   "contents_inferred_from": null,
    "contents_conflict": false,
-   "event": "act3autochess",
-   "cn_start": "2026-11-08T16:00:00+08:00",
-   "cn_end": "2026-12-06T03:59:59+08:00",
+   "event": "act7fun",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "cn_end": "2026-04-22T03:59:00+08:00",
    "en_start": null,
    "en_end": null,
    "window_source": null,
@@ -1298,11 +1333,18 @@
      "count": 200,
      "kind": "pulls",
      "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "米米子",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
     }
    ],
-   "hidden": false,
+   "hidden": true,
    "group": "headhunting",
-   "hidden_reason": null,
+   "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
     "op": 0,
@@ -1326,12 +1368,12 @@
    "cn_name": "维维美的照片集",
    "good_id": "GP_Once_410",
    "good_id_matched_by": null,
-   "contents_source": "inferred",
-   "contents_inferred_from": "维维美的照片集 2026-04-01",
+   "contents_source": null,
+   "contents_inferred_from": null,
    "contents_conflict": false,
-   "event": "act3autochess",
-   "cn_start": "2026-11-08T16:00:00+08:00",
-   "cn_end": "2026-12-06T03:59:59+08:00",
+   "event": "act7fun",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "cn_end": "2026-04-22T03:59:00+08:00",
    "en_start": null,
    "en_end": null,
    "window_source": null,
@@ -1345,11 +1387,18 @@
      "count": 200,
      "kind": "pulls",
      "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "维维美",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
     }
    ],
-   "hidden": false,
+   "hidden": true,
    "group": "headhunting",
-   "hidden_reason": null,
+   "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
     "op": 0,
@@ -8013,6 +8062,146 @@
     "vouchers"
    ],
    "cell_note": null
+  },
+  "GP_Once_411@2026-11-08": {
+   "key": "GP_Once_411@2026-11-08",
+   "name": "Variant Figures Pack",
+   "name_source": "en",
+   "cn_name": "变格形象组合包",
+   "good_id": "GP_Once_411",
+   "good_id_matched_by": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "变格形象组合包 2026-04-01",
+   "contents_conflict": false,
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 24,
+   "usd": 3.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": null,
+     "name": "18源石时装",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "头像",
+     "count": 6,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "group": "funding",
+   "hidden_reason": "cosmetic",
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_409@2026-11-08": {
+   "key": "GP_Once_409@2026-11-08",
+   "name": "Amiko's Photoset",
+   "name_source": "en",
+   "cn_name": "米米子的照片集",
+   "good_id": "GP_Once_409",
+   "good_id_matched_by": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "米米子的照片集 2026-04-01",
+   "contents_conflict": false,
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    }
+   ],
+   "hidden": false,
+   "group": "headhunting",
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_410@2026-11-08": {
+   "key": "GP_Once_410@2026-11-08",
+   "name": "Wiš'ami's Photoset",
+   "name_source": "en",
+   "cn_name": "维维美的照片集",
+   "good_id": "GP_Once_410",
+   "good_id_matched_by": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "维维美的照片集 2026-04-01",
+   "contents_conflict": false,
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    }
+   ],
+   "hidden": false,
+   "group": "headhunting",
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": [],
+   "cell_note": null
   }
  },
  "regular": [
@@ -9264,10 +9453,10 @@
   }
  ],
  "attention": [
-  "Amiko's Photoset [GP_Once_409]: no source lists this pack, contents copied from 米米子的照片集 2026-04-01 -- check once one does",
-  "Wiš'ami's Photoset [GP_Once_410]: no source lists this pack, contents copied from 维维美的照片集 2026-04-01 -- check once one does",
   "Comprehensive Skill Training Pack [GP_Once_493]: the wiki and yituliu disagree on its contents, using yituliu's -- check",
   "Supporter Chip Pack [GP_Once_505]: no source lists this pack, contents copied from 辅助芯片礼包 2023-10-08 -- check once one does",
-  "Guard Chip Pack [GP_Once_504]: no source lists this pack, contents copied from 近卫芯片礼包 2026-10-09 -- check once one does"
+  "Guard Chip Pack [GP_Once_504]: no source lists this pack, contents copied from 近卫芯片礼包 2026-10-09 -- check once one does",
+  "Amiko's Photoset [GP_Once_409@2026-11-08]: no source lists this pack, contents copied from 米米子的照片集 2026-04-01 -- check once one does",
+  "Wiš'ami's Photoset [GP_Once_410@2026-11-08]: no source lists this pack, contents copied from 维维美的照片集 2026-04-01 -- check once one does"
  ]
 }
