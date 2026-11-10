@@ -4,7 +4,7 @@
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
   "assets_commit": "7d90d6c",
   "inputs": {
-   "data/efficiencies/packs.yaml": "68ddcdea53ca6cc1",
+   "data/efficiencies/packs.yaml": "3a45c0438b5ff9a4",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
    "assets/game_img/processed/shop_packs.json": "80e4e499c031d334",
@@ -209,8 +209,8 @@
   {
    "id": "act9switch",
    "cn_name": "魔法与友谊合作活动",
-   "name": "魔法与友谊合作活动",
-   "name_source": "cn",
+   "name": "My Little Pony Collab",
+   "name_source": "yaml",
    "cn_start": "2026-07-03T16:00:00+08:00",
    "en_start": null,
    "en_end": null,
@@ -328,8 +328,8 @@
   {
    "id": "act7fun",
    "cn_name": "Rhodes Island Epic 黑色博士坠落",
-   "name": "Rhodes Island Epic 黑色博士坠落",
-   "name_source": "cn",
+   "name": "April Fools",
+   "name_source": "yaml",
    "cn_start": "2026-04-01T12:00:00+08:00",
    "en_start": null,
    "en_end": null,
