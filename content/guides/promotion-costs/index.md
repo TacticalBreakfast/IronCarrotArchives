@@ -2,7 +2,7 @@
 title = 'Promotion & Mastery Costs'
 date = 2026-11-08T00:00:00-05:00
 draft = false
-summary = "What every 4★–6★ operator costs to promote to E2 and to master each skill, in sanity."
+summary = "Arknights promotion and mastery costs for every 4★, 5★ and 6★ operator: E2 elite promotion, M1–M3 skill mastery and module costs, all valued in sanity."
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 # Position in the homepage "Other Guides and Content" list.

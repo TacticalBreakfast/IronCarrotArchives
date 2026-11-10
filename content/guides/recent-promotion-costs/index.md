@@ -2,7 +2,7 @@
 title = 'Recent Promotion & Mastery Costs'
 date = 2026-11-08T00:00:00-05:00
 draft = false
-summary = "Promotion and mastery costs of the most recently released operators, compared with the average operator."
+summary = "Arknights E2 promotion and M3 skill mastery costs for the newest operators, valued in sanity and compared with other recent releases of the same rarity."
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 # Must stay above [params]: in TOML, keys below a [table] header belong to that table.

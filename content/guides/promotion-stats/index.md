@@ -2,7 +2,7 @@
 title = 'Promotion & Mastery Statistics'
 date = 2026-11-08T00:00:00-05:00
 draft = false
-summary = "Roster-wide statistics on promotion, mastery and module costs: spreads by rarity, the most and least expensive, and how many of each material it all takes."
+summary = "Arknights promotion, mastery and module cost statistics for the whole roster: averages by rarity, the most and least expensive operators, and total material demand."
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 weight = 8

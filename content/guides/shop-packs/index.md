@@ -2,8 +2,7 @@
 title = 'Paid Pack Values'
 date = 2026-11-09T00:00:00-05:00
 draft = false
-# TODO (TacticalBreakfast): summary -- shown in search results and link previews.
-summary = ""
+summary = "Arknights shop pack value guide: dollars per Originite Prime and per pull for current Global packs and upcoming CN packs, compared with Originite Prime top-ups."
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 weight = 9
