@@ -763,3 +763,9 @@ html.dark .eff-pack-badge--live { background-color: rgba(var(--eff-pack-green), 
 .eff-pack-notes { font-size: 0.9rem; }
 .eff-pack-notes li:target { background-color: rgba(var(--color-primary-500), 0.12); }
 .eff-packs-op { width: auto !important; min-width: 20rem; }
+
+/* Tall portrait art in posts ({{< figure class="post-portrait" figureClass="post-portrait-figure" >}}):
+   cap the height so it doesn't push the post below the fold, keep the ratio,
+   centre it; the credit caption sits small and centred beneath. */
+.post-portrait { max-height: 70vh; width: auto; margin-inline: auto; }
+.post-portrait-figure figcaption { text-align: center; font-size: 0.75rem; }

@@ -16,11 +16,9 @@ New Article - [Episode 17 - Critical Phase Transition](https://sanitygone.help/e
 
 Tier List Update - [Episode 17 - Critical Phase Transition](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
-Blog Post - [Summer Events Are Great!](posts/summerevents)
+Blog Post - [I Love April, but Not Orchid?](posts/iloveapril)
 
 Blog Post - [Welcome to Iron Carrot Archives!](posts/welcome)
-
-Blog Post - [Why the name "Iron Carrot Archives"?](posts/whyica)
 
 <!--
 {{< article-links sg="https://sanitygone.help/en/guides/mastery-bound/" ld="https://lungmendragons.com/guides/mb-mastery" reddit="https://www.reddit.com/r/arknights/comments/1u9ych8/a_mastery_priority_guide_should_you_pull/" >}}
