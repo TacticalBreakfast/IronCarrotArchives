@@ -37,6 +37,10 @@ pack_values.json (generated -- never hand-edit):
 A pack:
   key, name, name_source (override | en | scrape | mtl | cn), cn_name, good_id,
   good_id_matched_by ("price" for the weak same-day/same-price match, else null),
+  contents_source (wiki | yituliu | inferred | null for packs scraped before
+  sources were recorded), contents_inferred_from ("<CN name> <date>" when no
+  source lists the pack and an earlier one's contents were copied),
+  contents_conflict (the wiki and yituliu disagreed; yituliu's are used),
   event, cn_start, cn_end, en_start, en_end, window_source (pack | event | null),
   price_cny, usd, usd_source (override | en | map | map_estimated | null).
             EN data only has a price when the pack's shop banner is the
@@ -50,6 +54,8 @@ A pack:
             only); per_* null when there's nothing to divide by
   colours   {per_op, per_pull}: green | yellow | red | null
   notes     [note keys], automatic ones first
+  cell_note note key shown in place of the $/OP and $/pull figures (packs
+            with a selector: unvalued, but coloured green), else null
   group     what kind of pack it is, from its contents (pack_group) or a
             packs.yaml override; orders the packs within an event
   hidden    true when hidden from the page; hidden_reason = cosmetic (UI items
@@ -293,6 +299,12 @@ class Valuer:
         pack["colours"] = {"per_op": self.colour(m and m["per_op"], "per_op"),
                            "per_pull": self.colour(m and m["per_pull"], "per_pull")}
         pack["notes"] = list(dict.fromkeys(self.auto_notes(pack["contents"]) + list(own_notes or [])))
+        # Selector packs can't be valued, but are among the best buys: shown
+        # green, with the selector note in place of the two $/ figures.
+        pack["cell_note"] = None
+        if any(c["kind"] == "selector" for c in pack["contents"]):
+            pack["colours"] = {"per_op": "green", "per_pull": "green"}
+            pack["cell_note"] = "selector"
         return pack
 
 
@@ -422,6 +434,9 @@ def build(force: bool = False):
         pack = {
             "key": key, "name": name, "name_source": name_source, "cn_name": raw["name"],
             "good_id": raw.get("goodId"), "good_id_matched_by": raw.get("goodIdMatchedBy"),
+            "contents_source": raw.get("contentsSource"),
+            "contents_inferred_from": raw.get("contentsInferredFrom"),
+            "contents_conflict": bool(raw.get("contentsConflict")),
             "event": event_id, "cn_start": raw["startDate"], "cn_end": raw["endDate"],
             "en_start": iso_utc(window[0]) if window else None,
             "en_end": iso_utc(window[1]) if window else None,
@@ -475,6 +490,11 @@ def build(force: bool = False):
         label = f"{p['name']} [{p['key']}]"
         if p["good_id_matched_by"] == "price":
             attention.append(f"{label}: goodId matched by price only -- check it's the right pack")
+        if p["contents_inferred_from"]:
+            attention.append(f"{label}: no source lists this pack, contents copied from "
+                             f"{p['contents_inferred_from']} -- check once one does")
+        if p["contents_conflict"]:
+            attention.append(f"{label}: the wiki and yituliu disagree on its contents, using yituliu's -- check")
         if not p["good_id"]:
             attention.append(f"{label}: no goodId, so no EN name/window/price from game data")
         if p["usd"] is None:

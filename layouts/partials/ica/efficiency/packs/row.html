@@ -19,6 +19,9 @@
     {{- if eq .kind "cosmetic" }}{{ $parts = $parts | append .name }}{{ else }}{{ $parts = $parts | append (printf "%sx %s" (lang.FormatNumber 0 .count) .name) }}{{ end -}}
   {{- end -}}
 {{- end -}}
+{{- /* cell_note: a note link in place of the $/OP and $/pull figures (selector packs) */ -}}
+{{- $cellNote := "" -}}
+{{- with $p.cell_note }}{{ with index $.noteNum . }}{{ $cellNote = printf `<a href="#pack-note-%d">Note %d</a>` . . | safeHTML }}{{ end }}{{ end -}}
 {{- $refs := slice -}}
 {{- range $p.notes }}{{ with index $.noteNum . }}{{ $refs = $refs | append (printf `<a href="#pack-note-%d">%d</a>` . .) }}{{ end }}{{ end -}}
 <tbody{{ if .timed }}{{ with $p.en_start }} data-pack-start="{{ . }}"{{ end }}{{ with $p.en_end }} data-pack-end="{{ . }}"{{ end }}{{ end }}>
@@ -29,9 +32,9 @@
 <td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "op") "decimals" 0) }}</td>
 <td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "pulls") "decimals" 1) }}</td>
 <td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "total_op") "decimals" 1) }}</td>
-<td class="eff-num{{ with $p.colours.per_op }} eff-pack-{{ . }}{{ end }}">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_op") "decimals" 2 "money" true) }}</td>
+<td class="eff-num{{ with $p.colours.per_op }} eff-pack-{{ . }}{{ end }}">{{ with $cellNote }}{{ . }}{{ else }}{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_op") "decimals" 2 "money" true) }}{{ end }}</td>
 <td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "total_pulls") "decimals" 1) }}</td>
-<td class="eff-num{{ with $p.colours.per_pull }} eff-pack-{{ . }}{{ end }}">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_pull") "decimals" 2 "money" true) }}</td>
+<td class="eff-num{{ with $p.colours.per_pull }} eff-pack-{{ . }}{{ end }}">{{ with $cellNote }}{{ . }}{{ else }}{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_pull") "decimals" 2 "money" true) }}{{ end }}</td>
 </tr>
 <tr class="eff-pack-sub"><td colspan="9">{{ delimit $parts ", " }}{{ with $refs }} <span class="eff-pack-refs">(Note {{ delimit . ", " | safeHTML }})</span>{{ end }}</td></tr>
 </tbody>
