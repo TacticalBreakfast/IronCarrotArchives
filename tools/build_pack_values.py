@@ -51,7 +51,7 @@ A pack:
             kernel | zero | cosmetic | selector | random_of_3; value = sanity
             each (materials, zero) or pulls each (pulls); cosmetics have no id
   measure   {material, op, pulls, total_op, per_op, total_pulls, per_pull} or
-            null when the pack isn't valued (selectors, "one of three", Kernel
+            null when the pack isn't valued ("one of three", Kernel
             only); per_* null when there's nothing to divide by
   colours   {per_op, per_pull}: green | yellow | red | null
   notes     [note keys], automatic ones first
@@ -255,12 +255,17 @@ class Valuer:
         material = sum(c["count"] * c["value"] for c in contents if c["kind"] in ("material", "zero"))
         op = sum(c["count"] for c in contents if c["kind"] == "op")
         pulls = sum(c["count"] * c["value"] for c in contents if c["kind"] == "pulls")
-        if kinds & {"selector", "random_of_3"} or not (material or op or pulls):
+        if "random_of_3" in kinds or not (material or op or pulls):
             return None
         total_op = material / OP_SANITY + op + pulls * self.orundum_per_pull / self.orundum_per_op
         total_pulls = pulls + op * self.orundum_per_op / self.orundum_per_pull
         per_op = usd / total_op if usd is not None and total_op else None
         per_pull = usd / total_pulls if usd is not None and total_pulls else None
+        if "selector" in kinds:
+            # The rest of the pack is counted as usual, but the selector itself
+            # can't be valued, so there's no honest $/OP or $/pull (the page
+            # shows the selector note there instead -- see finish()).
+            per_op = per_pull = None
         return {"material": rnd(material), "op": op, "pulls": rnd(pulls), "total_op": rnd(total_op),
                 "per_op": rnd(per_op), "total_pulls": rnd(total_pulls), "per_pull": rnd(per_pull)}
 
