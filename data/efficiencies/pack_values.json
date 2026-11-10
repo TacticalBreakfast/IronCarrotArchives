@@ -4,7 +4,7 @@
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
   "assets_commit": "7d90d6c",
   "inputs": {
-   "data/efficiencies/packs.yaml": "3f64d48003a1bb05",
+   "data/efficiencies/packs.yaml": "4a24c7337f58873e",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
    "assets/game_img/processed/shop_packs.json": "80e4e499c031d334",
@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "88d3cbd695bd3fc9"
+   "tools/build_pack_values.py": "ba68bb7d7b20d1a7"
   }
  },
  "lag_days": 165,
@@ -350,6 +350,9 @@
    "cn_name": "界园志异特训组合",
    "good_id": "GP_Once_406",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act20mini",
    "cn_start": "2026-03-10T12:00:00+08:00",
    "cn_end": "2026-03-31T03:59:00+08:00",
@@ -400,7 +403,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_404": {
    "key": "GP_Once_404",
@@ -409,6 +413,9 @@
    "cn_name": "近卫芯片礼包",
    "good_id": "GP_Once_404",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act20mini",
    "cn_start": "2026-03-10T12:00:00+08:00",
    "cn_end": "2026-03-31T03:59:00+08:00",
@@ -471,7 +478,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_405": {
    "key": "GP_Once_405",
@@ -480,6 +488,9 @@
    "cn_name": "酿造装置资金箱",
    "good_id": "GP_Once_405",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act20mini",
    "cn_start": "2026-03-10T12:00:00+08:00",
    "cn_end": "2026-03-31T03:59:00+08:00",
@@ -521,7 +532,8 @@
     "per_op": "green",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_407": {
    "key": "GP_Once_407",
@@ -530,6 +542,9 @@
    "cn_name": "卫戍协议数据包",
    "good_id": "GP_Once_407",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act2autochess",
    "cn_start": "2026-03-14T16:00:00+08:00",
    "cn_end": "2026-04-04T03:59:00+08:00",
@@ -566,7 +581,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_408": {
    "key": "GP_Once_408",
@@ -575,6 +591,9 @@
    "cn_name": "卫戍协议数据套组",
    "good_id": "GP_Once_408",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act2autochess",
    "cn_start": "2026-03-14T16:00:00+08:00",
    "cn_end": "2026-04-04T03:59:00+08:00",
@@ -626,7 +645,8 @@
    "notes": [
     "module_materials",
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_58": {
    "key": "GP_Once_58",
@@ -635,6 +655,9 @@
    "cn_name": "2022音律联觉纪念礼包（复刻）",
    "good_id": "GP_Once_58",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -683,7 +706,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_90": {
    "key": "GP_Once_90",
@@ -692,6 +716,9 @@
    "cn_name": "2023音律联觉纪念礼包（复刻）",
    "good_id": "GP_Once_90",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -740,7 +767,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_162": {
    "key": "GP_Once_162",
@@ -749,6 +777,9 @@
    "cn_name": "2024音律联觉纪念礼包（复刻）",
    "good_id": "GP_Once_162",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -797,7 +828,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_276": {
    "key": "GP_Once_276",
@@ -806,6 +838,9 @@
    "cn_name": "2025音律联觉纪念礼包（复刻）",
    "good_id": "GP_Once_276",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -854,7 +889,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_279": {
    "key": "GP_Once_279",
@@ -863,6 +899,9 @@
    "cn_name": "冰纹玉釉组合包（复刻）",
    "good_id": "GP_Once_279",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -904,7 +943,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_281": {
    "key": "GP_Once_281",
@@ -913,6 +953,9 @@
    "cn_name": "时序花圃组合包（复刻）",
    "good_id": "GP_Once_281",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -954,7 +997,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_277": {
    "key": "GP_Once_277",
@@ -963,6 +1007,9 @@
    "cn_name": "熠曲丰碑组合包（复刻）",
    "good_id": "GP_Once_277",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -1004,7 +1051,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_278": {
    "key": "GP_Once_278",
@@ -1013,6 +1061,9 @@
    "cn_name": "移星桂冠组合包（复刻）",
    "good_id": "GP_Once_278",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -1054,7 +1105,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_280": {
    "key": "GP_Once_280",
@@ -1063,6 +1115,9 @@
    "cn_name": "雾色秘访组合包（复刻）",
    "good_id": "GP_Once_280",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act41sre",
    "cn_start": "2026-03-27T04:00:00+08:00",
    "cn_end": "2026-04-10T03:59:00+08:00",
@@ -1104,7 +1159,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_411": {
    "key": "GP_Once_411",
@@ -1113,6 +1169,9 @@
    "cn_name": "变格形象组合包",
    "good_id": "GP_Once_411",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act7fun",
    "cn_start": "2026-04-01T12:00:00+08:00",
    "cn_end": "2026-04-22T03:59:00+08:00",
@@ -1181,7 +1240,8 @@
     "per_op": null,
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_409": {
    "key": "GP_Once_409",
@@ -1190,6 +1250,9 @@
    "cn_name": "米米子的照片集",
    "good_id": "GP_Once_409",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act7fun",
    "cn_start": "2026-04-01T12:00:00+08:00",
    "cn_end": "2026-04-22T03:59:00+08:00",
@@ -1231,7 +1294,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_410": {
    "key": "GP_Once_410",
@@ -1240,6 +1304,9 @@
    "cn_name": "维维美的照片集",
    "good_id": "GP_Once_410",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act7fun",
    "cn_start": "2026-04-01T12:00:00+08:00",
    "cn_end": "2026-04-22T03:59:00+08:00",
@@ -1281,7 +1348,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_413": {
    "key": "GP_Once_413",
@@ -1290,6 +1358,9 @@
    "cn_name": "沉甸甸的资金箱",
    "good_id": "GP_Once_413",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act51side",
    "cn_start": "2026-04-07T12:00:00+08:00",
    "cn_end": "2026-04-21T03:59:00+08:00",
@@ -1331,7 +1402,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_412": {
    "key": "GP_Once_412",
@@ -1340,6 +1412,9 @@
    "cn_name": "近卫芯片礼包",
    "good_id": "GP_Once_412",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act51side",
    "cn_start": "2026-04-07T12:00:00+08:00",
    "cn_end": "2026-04-21T03:59:00+08:00",
@@ -1402,7 +1477,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_416": {
    "key": "GP_Once_416",
@@ -1411,6 +1487,9 @@
    "cn_name": "2026音律联觉纪念礼包",
    "good_id": "GP_Once_416",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3video",
    "cn_start": "2026-04-25T21:30:00+08:00",
    "cn_end": "2026-05-23T03:59:00+08:00",
@@ -1459,7 +1538,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_420": {
    "key": "GP_Once_420",
@@ -1468,6 +1548,9 @@
    "cn_name": "失语者组合包",
    "good_id": "GP_Once_420",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3video",
    "cn_start": "2026-04-25T21:30:00+08:00",
    "cn_end": "2026-05-23T03:59:00+08:00",
@@ -1509,7 +1592,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_417": {
    "key": "GP_Once_417",
@@ -1518,6 +1602,9 @@
    "cn_name": "布道人组合包",
    "good_id": "GP_Once_417",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3video",
    "cn_start": "2026-04-25T21:30:00+08:00",
    "cn_end": "2026-05-23T03:59:00+08:00",
@@ -1559,7 +1646,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_418": {
    "key": "GP_Once_418",
@@ -1568,6 +1656,9 @@
    "cn_name": "戏中身组合包",
    "good_id": "GP_Once_418",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3video",
    "cn_start": "2026-04-25T21:30:00+08:00",
    "cn_end": "2026-05-23T03:59:00+08:00",
@@ -1609,7 +1700,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_419": {
    "key": "GP_Once_419",
@@ -1618,6 +1710,9 @@
    "cn_name": "渡星客组合包",
    "good_id": "GP_Once_419",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3video",
    "cn_start": "2026-04-25T21:30:00+08:00",
    "cn_end": "2026-05-23T03:59:00+08:00",
@@ -1659,7 +1754,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_432": {
    "key": "GP_Once_432",
@@ -1668,6 +1764,9 @@
    "cn_name": "中坚调用凭证组合包<br>(2026周年庆典)",
    "good_id": "GP_Once_432",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -1705,13 +1804,14 @@
    "hidden_reason": null,
    "measure": null,
    "colours": {
-    "per_op": null,
-    "per_pull": null
+    "per_op": "green",
+    "per_pull": "green"
    },
    "notes": [
     "kernel",
     "selector"
-   ]
+   ],
+   "cell_note": "selector"
   },
   "GP_Once_422": {
    "key": "GP_Once_422",
@@ -1720,6 +1820,9 @@
    "cn_name": "先锋芯片礼包",
    "good_id": "GP_Once_422",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -1782,7 +1885,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_424": {
    "key": "GP_Once_424",
@@ -1791,6 +1895,9 @@
    "cn_name": "凯尔希的手提箱",
    "good_id": "GP_Once_424",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -1832,7 +1939,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_421": {
    "key": "GP_Once_421",
@@ -1841,6 +1949,9 @@
    "cn_name": "医疗芯片礼包",
    "good_id": "GP_Once_421",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -1903,7 +2014,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_435": {
    "key": "GP_Once_435",
@@ -1912,6 +2024,9 @@
    "cn_name": "庆典中坚寻访组合包",
    "good_id": "GP_Once_435",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -1947,7 +2062,8 @@
    },
    "notes": [
     "kernel"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_425": {
    "key": "GP_Once_425",
@@ -1956,6 +2072,9 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_425",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2013,7 +2132,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_426": {
    "key": "GP_Once_426",
@@ -2022,6 +2142,9 @@
    "cn_name": "特训意向礼包",
    "good_id": "GP_Once_426",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2063,7 +2186,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_430": {
    "key": "GP_Once_430",
@@ -2072,6 +2196,9 @@
    "cn_name": "综合材料组合包",
    "good_id": "GP_Once_430",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2122,7 +2249,8 @@
    },
    "notes": [
     "vouchers"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_433": {
    "key": "GP_Once_433",
@@ -2131,6 +2259,9 @@
    "cn_name": "罗德岛周年作战包(2026)",
    "good_id": "GP_Once_433",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2216,7 +2347,8 @@
    },
    "notes": [
     "vouchers"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_434": {
    "key": "GP_Once_434",
@@ -2225,6 +2357,9 @@
    "cn_name": "罗德岛周年组合包(2026)",
    "good_id": "GP_Once_434",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2326,7 +2461,8 @@
     "module_materials",
     "module_blocks",
     "kernel"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_431": {
    "key": "GP_Once_431",
@@ -2335,6 +2471,9 @@
    "cn_name": "调用凭证组合包<br>(2026周年庆典)",
    "good_id": "GP_Once_431",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2365,12 +2504,13 @@
    "hidden_reason": null,
    "measure": null,
    "colours": {
-    "per_op": null,
-    "per_pull": null
+    "per_op": "green",
+    "per_pull": "green"
    },
    "notes": [
     "selector"
-   ]
+   ],
+   "cell_note": "selector"
   },
   "GP_Once_427": {
    "key": "GP_Once_427",
@@ -2379,6 +2519,9 @@
    "cn_name": "资深干员特训礼包",
    "good_id": "GP_Once_427",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2422,7 +2565,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_NpOne_nc_0_7": {
    "key": "GP_NpOne_nc_0_7",
@@ -2431,6 +2575,9 @@
    "cn_name": "迎新特别寻访组合包(2026)",
    "good_id": "GP_NpOne_nc_0_7",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-15T03:59:00+08:00",
@@ -2473,7 +2620,8 @@
    },
    "notes": [
     "random_of_3"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_428": {
    "key": "GP_Once_428",
@@ -2482,6 +2630,9 @@
    "cn_name": "高级特训意向礼包",
    "good_id": "GP_Once_428",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2523,7 +2674,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_429": {
    "key": "GP_Once_429",
@@ -2532,6 +2684,9 @@
    "cn_name": "高级资深干员特训礼包",
    "good_id": "GP_Once_429",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2575,7 +2730,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_423": {
    "key": "GP_Once_423",
@@ -2584,6 +2740,9 @@
    "cn_name": "鸭爵的零钱包",
    "good_id": "GP_Once_423",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act4mainss",
    "cn_start": "2026-05-01T12:00:00+08:00",
    "cn_end": "2026-05-29T03:59:00+08:00",
@@ -2625,7 +2784,8 @@
     "per_op": "green",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_439": {
    "key": "GP_Once_439",
@@ -2634,6 +2794,9 @@
    "cn_name": "定向甄选寻访组合包",
    "good_id": "GP_Once_439",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "sandbox_2",
    "cn_start": "2026-05-15T16:00:00+08:00",
    "cn_end": "2026-06-12T03:59:00+08:00",
@@ -2675,7 +2838,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_440": {
    "key": "GP_Once_440",
@@ -2684,6 +2848,9 @@
    "cn_name": "罗德岛数据包",
    "good_id": "GP_Once_440",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "sandbox_2",
    "cn_start": "2026-05-15T16:00:00+08:00",
    "cn_end": "2026-06-12T03:59:00+08:00",
@@ -2720,7 +2887,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_441": {
    "key": "GP_Once_441",
@@ -2729,6 +2897,9 @@
    "cn_name": "罗德岛数据套组",
    "good_id": "GP_Once_441",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "sandbox_2",
    "cn_start": "2026-05-15T16:00:00+08:00",
    "cn_end": "2026-06-12T03:59:00+08:00",
@@ -2780,7 +2951,8 @@
    "notes": [
     "module_materials",
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_442": {
    "key": "GP_Once_442",
@@ -2789,6 +2961,9 @@
    "cn_name": "罗德岛资金箱",
    "good_id": "GP_Once_442",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "sandbox_2",
    "cn_start": "2026-05-15T16:00:00+08:00",
    "cn_end": "2026-06-12T03:59:00+08:00",
@@ -2830,7 +3005,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_449": {
    "key": "GP_Once_449",
@@ -2839,6 +3015,9 @@
    "cn_name": "寻踪相伴组合包",
    "good_id": "GP_Once_449",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -2910,7 +3089,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_443": {
    "key": "GP_Once_443",
@@ -2919,6 +3099,9 @@
    "cn_name": "水芸仿绘礼包",
    "good_id": "GP_Once_443",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -2967,7 +3150,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_445": {
    "key": "GP_Once_445",
@@ -2976,6 +3160,9 @@
    "cn_name": "水芸珍藏礼包",
    "good_id": "GP_Once_445",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3017,7 +3204,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_451": {
    "key": "GP_Once_451",
@@ -3026,6 +3214,9 @@
    "cn_name": "满载而归组合包",
    "good_id": "GP_Once_451",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3090,7 +3281,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_446": {
    "key": "GP_Once_446",
@@ -3099,6 +3291,9 @@
    "cn_name": "狙击芯片礼包",
    "good_id": "GP_Once_446",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3161,7 +3356,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_447": {
    "key": "GP_Once_447",
@@ -3170,6 +3366,9 @@
    "cn_name": "狩猎特训组合包",
    "good_id": "GP_Once_447",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3213,7 +3412,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_450": {
    "key": "GP_Once_450",
@@ -3222,6 +3422,9 @@
    "cn_name": "猎人的补给箱",
    "good_id": "GP_Once_450",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3263,7 +3466,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_444": {
    "key": "GP_Once_444",
@@ -3272,6 +3476,9 @@
    "cn_name": "结营出猎组合包",
    "good_id": "GP_Once_444",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3327,7 +3534,8 @@
     "per_op": "yellow",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_448": {
    "key": "GP_Once_448",
@@ -3336,6 +3544,9 @@
    "cn_name": "追猎技艺组合包",
    "good_id": "GP_Once_448",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3377,7 +3588,8 @@
     "per_op": "green",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_88": {
    "key": "GP_Once_88",
@@ -3386,6 +3598,9 @@
    "cn_name": "露华远行纪念礼包（复刻）",
    "good_id": "GP_Once_88",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3427,7 +3642,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_452": {
    "key": "GP_Once_452",
@@ -3436,6 +3652,9 @@
    "cn_name": "特种芯片礼包",
    "good_id": "GP_Once_452",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act24sre",
    "cn_start": "2026-06-15T16:00:00+08:00",
    "cn_end": "2026-06-29T03:59:00+08:00",
@@ -3498,7 +3717,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_454": {
    "key": "GP_Once_454",
@@ -3507,6 +3727,9 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_454",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
    "cn_start": "2026-06-26T16:00:00+08:00",
    "cn_end": "2026-07-10T03:59:00+08:00",
@@ -3564,7 +3787,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_456": {
    "key": "GP_Once_456",
@@ -3573,6 +3797,9 @@
    "cn_name": "罗德岛数据包",
    "good_id": "GP_Once_456",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
    "cn_start": "2026-06-26T16:00:00+08:00",
    "cn_end": "2026-07-10T03:59:00+08:00",
@@ -3609,7 +3836,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_457": {
    "key": "GP_Once_457",
@@ -3618,6 +3846,9 @@
    "cn_name": "罗德岛数据套组",
    "good_id": "GP_Once_457",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
    "cn_start": "2026-06-26T16:00:00+08:00",
    "cn_end": "2026-07-10T03:59:00+08:00",
@@ -3669,7 +3900,8 @@
    "notes": [
     "module_materials",
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_453": {
    "key": "GP_Once_453",
@@ -3678,6 +3910,9 @@
    "cn_name": "罗德岛资金箱",
    "good_id": "GP_Once_453",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
    "cn_start": "2026-06-26T16:00:00+08:00",
    "cn_end": "2026-07-10T03:59:00+08:00",
@@ -3719,7 +3954,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_455": {
    "key": "GP_Once_455",
@@ -3728,6 +3964,9 @@
    "cn_name": "高级特训意向组合包",
    "good_id": "GP_Once_455",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
    "cn_start": "2026-06-26T16:00:00+08:00",
    "cn_end": "2026-07-10T03:59:00+08:00",
@@ -3776,7 +4015,8 @@
     "per_op": "green",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_458": {
    "key": "GP_Once_458",
@@ -3785,6 +4025,9 @@
    "cn_name": "友谊骑士组合包",
    "good_id": "GP_Once_458",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act9switch",
    "cn_start": "2026-07-03T16:00:00+08:00",
    "cn_end": "2026-07-24T03:59:00+08:00",
@@ -3847,7 +4090,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_460": {
    "key": "GP_Once_460",
@@ -3856,6 +4100,9 @@
    "cn_name": "真挚友谊组合包",
    "good_id": "GP_Once_460",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act9switch",
    "cn_start": "2026-07-03T16:00:00+08:00",
    "cn_end": "2026-07-24T03:59:00+08:00",
@@ -3918,7 +4165,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_459": {
    "key": "GP_Once_459",
@@ -3927,6 +4175,9 @@
    "cn_name": "魔法护卫组合包",
    "good_id": "GP_Once_459",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act9switch",
    "cn_start": "2026-07-03T16:00:00+08:00",
    "cn_end": "2026-07-24T03:59:00+08:00",
@@ -3989,7 +4240,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_464": {
    "key": "GP_Once_464",
@@ -3998,6 +4250,9 @@
    "cn_name": "创生因子组合包",
    "good_id": "GP_Once_464",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-31T03:59:00+08:00",
@@ -4039,7 +4294,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_468": {
    "key": "GP_Once_468",
@@ -4048,6 +4304,9 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_468",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-31T03:59:00+08:00",
@@ -4105,7 +4364,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_463": {
    "key": "GP_Once_463",
@@ -4114,6 +4374,9 @@
    "cn_name": "术师芯片礼包",
    "good_id": "GP_Once_463",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-31T03:59:00+08:00",
@@ -4176,7 +4439,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_465": {
    "key": "GP_Once_465",
@@ -4185,6 +4449,9 @@
    "cn_name": "沉沦秘境组合包",
    "good_id": "GP_Once_465",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-31T03:59:00+08:00",
@@ -4235,7 +4502,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_461": {
    "key": "GP_Once_461",
@@ -4244,6 +4512,9 @@
    "cn_name": "确定混沌寻访包",
    "good_id": "GP_Once_461",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-23T23:59:00+08:00",
@@ -4281,7 +4552,8 @@
    },
    "notes": [
     "banner_only"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_462": {
    "key": "GP_Once_462",
@@ -4290,6 +4562,9 @@
    "cn_name": "确定混沌寻访组合包",
    "good_id": "GP_Once_462",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-23T23:59:00+08:00",
@@ -4327,7 +4602,8 @@
    },
    "notes": [
     "banner_only"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_466": {
    "key": "GP_Once_466",
@@ -4336,6 +4612,9 @@
    "cn_name": "集成战略数据包",
    "good_id": "GP_Once_466",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-31T03:59:00+08:00",
@@ -4372,7 +4651,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_467": {
    "key": "GP_Once_467",
@@ -4381,6 +4661,9 @@
    "cn_name": "集成战略数据整合箱",
    "good_id": "GP_Once_467",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act21mini",
    "cn_start": "2026-07-10T12:00:00+08:00",
    "cn_end": "2026-07-31T03:59:00+08:00",
@@ -4432,7 +4715,8 @@
    "notes": [
     "module_materials",
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_479": {
    "key": "GP_Once_479",
@@ -4441,6 +4725,9 @@
    "cn_name": "中坚寻访组合包",
    "good_id": "GP_Once_479",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4469,7 +4756,8 @@
    },
    "notes": [
     "kernel"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_478": {
    "key": "GP_Once_478",
@@ -4478,6 +4766,9 @@
    "cn_name": "公路长旅组合包",
    "good_id": "GP_Once_478",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4579,7 +4870,8 @@
     "module_materials",
     "module_blocks",
     "kernel"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_476": {
    "key": "GP_Once_476",
@@ -4588,6 +4880,9 @@
    "cn_name": "夏日欢庆补给包（2026）",
    "good_id": "GP_Once_476",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4659,7 +4954,8 @@
    },
    "notes": [
     "vouchers"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_475": {
    "key": "GP_Once_475",
@@ -4668,6 +4964,9 @@
    "cn_name": "夏日清凉补给包（2026）",
    "good_id": "GP_Once_475",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4726,7 +5025,8 @@
    "notes": [
     "module_blocks",
     "kernel"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_471": {
    "key": "GP_Once_471",
@@ -4735,6 +5035,9 @@
    "cn_name": "安洁莉娜的手提箱",
    "good_id": "GP_Once_471",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4776,7 +5079,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_472": {
    "key": "GP_Once_472",
@@ -4785,6 +5089,9 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_472",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4842,7 +5149,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_477": {
    "key": "GP_Once_477",
@@ -4851,6 +5159,9 @@
    "cn_name": "热泉小憩组合包",
    "good_id": "GP_Once_477",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -4936,7 +5247,8 @@
    },
    "notes": [
     "vouchers"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_469": {
    "key": "GP_Once_469",
@@ -4945,6 +5257,9 @@
    "cn_name": "特种芯片礼包",
    "good_id": "GP_Once_469",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -5007,7 +5322,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_474": {
    "key": "GP_Once_474",
@@ -5016,6 +5332,9 @@
    "cn_name": "特训意向礼包",
    "good_id": "GP_Once_474",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -5057,7 +5376,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_470": {
    "key": "GP_Once_470",
@@ -5066,6 +5386,9 @@
    "cn_name": "重装芯片礼包",
    "good_id": "GP_Once_470",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -5128,7 +5451,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_473": {
    "key": "GP_Once_473",
@@ -5137,6 +5461,9 @@
    "cn_name": "高级特训意向礼包",
    "good_id": "GP_Once_473",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act53side",
    "cn_start": "2026-08-01T12:00:00+08:00",
    "cn_end": "2026-08-29T03:59:00+08:00",
@@ -5178,7 +5505,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_481": {
    "key": "GP_Once_481",
@@ -5187,6 +5515,9 @@
    "cn_name": "幽蓝门扉组合包",
    "good_id": "GP_Once_481",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5242,7 +5573,8 @@
     "per_op": "yellow",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_480": {
    "key": "GP_Once_480",
@@ -5251,6 +5583,9 @@
    "cn_name": "月影一瞥组合包",
    "good_id": "GP_Once_480",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5299,7 +5634,8 @@
     "per_op": "red",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_488": {
    "key": "GP_Once_488",
@@ -5308,6 +5644,9 @@
    "cn_name": "月行水上资金箱",
    "good_id": "GP_Once_488",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5349,7 +5688,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_482": {
    "key": "GP_Once_482",
@@ -5358,6 +5698,9 @@
    "cn_name": "潮湿镜像组合包",
    "good_id": "GP_Once_482",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5399,7 +5742,8 @@
     "per_op": "yellow",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_484": {
    "key": "GP_Once_484",
@@ -5408,6 +5752,9 @@
    "cn_name": "特种芯片礼包",
    "good_id": "GP_Once_484",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5470,7 +5817,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_487": {
    "key": "GP_Once_487",
@@ -5479,6 +5827,9 @@
    "cn_name": "苹果花瓣组合包",
    "good_id": "GP_Once_487",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5550,7 +5901,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_483": {
    "key": "GP_Once_483",
@@ -5559,6 +5911,9 @@
    "cn_name": "蓝丝绒房间组合包",
    "good_id": "GP_Once_483",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5599,7 +5954,8 @@
     "per_op": null,
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_489": {
    "key": "GP_Once_489",
@@ -5608,6 +5964,9 @@
    "cn_name": "蓝蝶之礼组合包",
    "good_id": "GP_Once_489",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act54side",
    "cn_start": "2026-09-04T12:00:00+08:00",
    "cn_end": "2026-09-25T03:59:00+08:00",
@@ -5672,7 +6031,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_491": {
    "key": "GP_Once_491",
@@ -5681,6 +6041,9 @@
    "cn_name": "定向甄选寻访组合包",
    "good_id": "GP_Once_491",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -5722,7 +6085,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_493": {
    "key": "GP_Once_493",
@@ -5731,6 +6095,9 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_493",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -5788,7 +6155,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_495": {
    "key": "GP_Once_495",
@@ -5797,6 +6165,9 @@
    "cn_name": "罗德岛数据包",
    "good_id": "GP_Once_495",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -5833,7 +6204,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_496": {
    "key": "GP_Once_496",
@@ -5842,6 +6214,9 @@
    "cn_name": "罗德岛数据套组",
    "good_id": "GP_Once_496",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -5893,7 +6268,8 @@
    "notes": [
     "module_materials",
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_492": {
    "key": "GP_Once_492",
@@ -5902,6 +6278,9 @@
    "cn_name": "罗德岛资金箱",
    "good_id": "GP_Once_492",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -5943,7 +6322,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_494": {
    "key": "GP_Once_494",
@@ -5952,6 +6332,9 @@
    "cn_name": "高级特训组合包",
    "good_id": "GP_Once_494",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -5995,7 +6378,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_498": {
    "key": "GP_Once_498",
@@ -6004,6 +6388,9 @@
    "cn_name": "沉甸甸的资金箱",
    "good_id": "GP_Once_498",
    "good_id_matched_by": "price",
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act52side",
    "cn_start": "2026-10-09T12:00:00+08:00",
    "cn_end": "2026-10-22T23:59:00+08:00",
@@ -6045,7 +6432,8 @@
     "per_op": "green",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_500": {
    "key": "GP_Once_500",
@@ -6054,6 +6442,9 @@
    "cn_name": "海渊巡游寻访包",
    "good_id": "GP_Once_500",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act52side",
    "cn_start": "2026-10-09T12:00:00+08:00",
    "cn_end": "2026-10-22T23:59:00+08:00",
@@ -6091,7 +6482,8 @@
    },
    "notes": [
     "banner_only"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_501": {
    "key": "GP_Once_501",
@@ -6100,6 +6492,9 @@
    "cn_name": "海渊巡游寻访组合包",
    "good_id": "GP_Once_501",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act52side",
    "cn_start": "2026-10-09T12:00:00+08:00",
    "cn_end": "2026-10-22T23:59:00+08:00",
@@ -6137,7 +6532,8 @@
    },
    "notes": [
     "banner_only"
-   ]
+   ],
+   "cell_note": null
   },
   "GP_Once_497": {
    "key": "GP_Once_497",
@@ -6146,6 +6542,9 @@
    "cn_name": "近卫芯片礼包",
    "good_id": "GP_Once_497",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act52side",
    "cn_start": "2026-10-09T12:00:00+08:00",
    "cn_end": "2026-10-22T23:59:00+08:00",
@@ -6208,7 +6607,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   "GP_Once_499": {
    "key": "GP_Once_499",
@@ -6217,6 +6617,9 @@
    "cn_name": "黑流树海特训组合",
    "good_id": "GP_Once_499",
    "good_id_matched_by": null,
+   "contents_source": null,
+   "contents_inferred_from": null,
+   "contents_conflict": false,
    "event": "act52side",
    "cn_start": "2026-10-09T12:00:00+08:00",
    "cn_end": "2026-10-22T23:59:00+08:00",
@@ -6267,7 +6670,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   }
  },
  "regular": [
@@ -6311,7 +6715,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Monthly Headhunting Pack",
@@ -6346,7 +6751,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Monthly Funding Pack",
@@ -6374,7 +6780,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Monthly Battle Record Pack",
@@ -6402,7 +6809,8 @@
     "per_op": "red",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Material Voucher Pack",
@@ -6439,7 +6847,8 @@
    },
    "notes": [
     "vouchers"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "$2 Chip Packs",
@@ -6474,7 +6883,8 @@
     "per_op": "red",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "$5 Chip Packs (one per banner)",
@@ -6530,7 +6940,8 @@
     "per_op": "yellow",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   }
  ],
  "starter": [
@@ -6574,7 +6985,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Starter Monthly Pack",
@@ -6623,7 +7035,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Starter Headhunting Pack",
@@ -6651,7 +7064,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "Starter Special Training Pack",
@@ -6695,7 +7109,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "Starter Upgrade Pack",
@@ -6809,7 +7224,8 @@
    },
    "notes": [
     "dont_buy"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "Starter Furniture Pack",
@@ -6846,7 +7262,8 @@
    },
    "notes": [
     "dont_buy"
-   ]
+   ],
+   "cell_note": null
   }
  ],
  "common": [
@@ -6893,7 +7310,8 @@
    "notes": [
     "module_materials",
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "12 Module Data Blocks",
@@ -6923,7 +7341,8 @@
    },
    "notes": [
     "module_blocks"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "700,000 LMD",
@@ -6958,7 +7377,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "300,000 LMD",
@@ -6993,7 +7413,8 @@
     "per_op": "green",
     "per_pull": "yellow"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "1x 6★ E2, 2x 5★ E2",
@@ -7030,7 +7451,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "1x 6★ E2, 1x 5★ E2, 2x 4★ E2",
@@ -7074,7 +7496,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "1x 6★ E2",
@@ -7111,7 +7534,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "1x 5★ E2",
@@ -7148,7 +7572,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "1x 6★ M3, 1x 5★ M3, 1x 4★ M3",
@@ -7199,7 +7624,8 @@
    },
    "notes": [
     "tickets"
-   ]
+   ],
+   "cell_note": null
   },
   {
    "name": "1x 6★ max level, 1x 5★ max level, 2x 4★ max level",
@@ -7241,7 +7667,8 @@
     "per_op": "green",
     "per_pull": null
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "1x 6★ max level",
@@ -7276,7 +7703,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "1x 5★ max level",
@@ -7311,7 +7739,8 @@
     "per_op": "green",
     "per_pull": "red"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "2x Ten-roll + 9 OP",
@@ -7346,7 +7775,8 @@
     "per_op": "green",
     "per_pull": "green"
    },
-   "notes": []
+   "notes": [],
+   "cell_note": null
   },
   {
    "name": "6★ Selector (Standard or Kernel)",
@@ -7370,12 +7800,13 @@
    "text": "1x Ten-roll Headhunting Permit, 1x 6★ selector (the Kernel version adds a Kernel ten-roll)",
    "measure": null,
    "colours": {
-    "per_op": null,
-    "per_pull": null
+    "per_op": "green",
+    "per_pull": "green"
    },
    "notes": [
     "selector"
-   ]
+   ],
+   "cell_note": "selector"
   },
   {
    "name": "6★ Random of 3",
@@ -7389,7 +7820,8 @@
    },
    "notes": [
     "random_of_3"
-   ]
+   ],
+   "cell_note": null
   }
  ],
  "op_packs": [
