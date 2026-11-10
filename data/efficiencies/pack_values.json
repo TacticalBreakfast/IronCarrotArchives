@@ -2,12 +2,12 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
-  "assets_commit": "7d90d6c",
+  "assets_commit": "9af2484",
   "inputs": {
    "data/efficiencies/packs.yaml": "4a24c7337f58873e",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
-   "assets/game_img/processed/shop_packs.json": "80e4e499c031d334",
+   "assets/game_img/processed/shop_packs.json": "9867e9ec816c798b",
    "assets/game_img/excel-en/shop_client_table.json": "9314ca5642b474b9",
    "assets/game_img/excel-en/activity_table.json": "7190d88273618950",
    "assets/game_img/excel-en/crisis_v2_table.json": "6b2034a466f9e2e1",
@@ -282,6 +282,8 @@
     "GP_Once_481",
     "GP_Once_482",
     "GP_Once_480",
+    "GP_Once_485",
+    "GP_Once_486",
     "GP_Once_488",
     "GP_Once_483",
     "GP_Once_484"
@@ -326,6 +328,21 @@
    "order_date": "2027-03-24T01:30:00Z"
   },
   {
+   "id": "act4video",
+   "cn_name": "恒远津梁限时登录",
+   "name": "恒远津梁限时登录",
+   "name_source": "cn",
+   "cn_start": "2026-10-16T16:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_503",
+    "GP_Once_250"
+   ],
+   "order_date": "2027-03-31T05:30:00Z"
+  },
+  {
    "id": "act7fun",
    "cn_name": "Rhodes Island Epic 黑色博士坠落",
    "name": "April Fools",
@@ -340,6 +357,53 @@
     "GP_Once_411"
    ],
    "order_date": "2027-04-01T00:00:00Z"
+  },
+  {
+   "id": "act55side",
+   "cn_name": "时间啊，向前！",
+   "name": "Vremva, v Put'!",
+   "name_source": "yaml",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_517",
+    "GP_Once_516",
+    "GP_Once_514",
+    "GP_Once_515",
+    "GP_Once_518",
+    "GP_Once_512",
+    "GP_Once_511",
+    "GP_Once_508",
+    "GP_Once_510",
+    "GP_Once_509",
+    "GP_Once_520",
+    "GP_Once_519",
+    "GP_Once_513",
+    "GP_Once_507",
+    "GP_Once_506",
+    "GP_Once_504",
+    "GP_Once_505"
+   ],
+   "order_date": "2027-04-16T01:30:00Z"
+  },
+  {
+   "id": "act3autochess",
+   "cn_name": "卫戍协议:规程",
+   "name": "Stronghold Protocol: Regulation",
+   "name_source": "yaml",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_523",
+    "GP_Once_409",
+    "GP_Once_410",
+    "GP_Once_411"
+   ],
+   "order_date": "2027-04-23T05:30:00Z"
   }
  ],
  "packs": {
@@ -1169,12 +1233,12 @@
    "cn_name": "变格形象组合包",
    "good_id": "GP_Once_411",
    "good_id_matched_by": null,
-   "contents_source": null,
-   "contents_inferred_from": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "变格形象组合包 2026-04-01",
    "contents_conflict": false,
-   "event": "act7fun",
-   "cn_start": "2026-04-01T12:00:00+08:00",
-   "cn_end": "2026-04-22T03:59:00+08:00",
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
    "en_start": null,
    "en_end": null,
    "window_source": null,
@@ -1184,50 +1248,15 @@
    "contents": [
     {
      "id": null,
-     "name": "米米子",
+     "name": "18源石时装",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "靓眼银灰",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "解闷德克萨斯",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "凯尔希炭",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "维维美",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "闲游能天使",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "维什戴尔",
-     "count": 1,
+     "name": "头像",
+     "count": 6,
      "kind": "cosmetic",
      "value": null
     }
@@ -1250,12 +1279,12 @@
    "cn_name": "米米子的照片集",
    "good_id": "GP_Once_409",
    "good_id_matched_by": null,
-   "contents_source": null,
-   "contents_inferred_from": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "米米子的照片集 2026-04-01",
    "contents_conflict": false,
-   "event": "act7fun",
-   "cn_start": "2026-04-01T12:00:00+08:00",
-   "cn_end": "2026-04-22T03:59:00+08:00",
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
    "en_start": null,
    "en_end": null,
    "window_source": null,
@@ -1269,18 +1298,11 @@
      "count": 200,
      "kind": "pulls",
      "value": 0.0016666666666666668
-    },
-    {
-     "id": null,
-     "name": "米米子",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
     }
    ],
-   "hidden": true,
+   "hidden": false,
    "group": "headhunting",
-   "hidden_reason": "cosmetic",
+   "hidden_reason": null,
    "measure": {
     "material": 0,
     "op": 0,
@@ -1304,12 +1326,12 @@
    "cn_name": "维维美的照片集",
    "good_id": "GP_Once_410",
    "good_id_matched_by": null,
-   "contents_source": null,
-   "contents_inferred_from": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "维维美的照片集 2026-04-01",
    "contents_conflict": false,
-   "event": "act7fun",
-   "cn_start": "2026-04-01T12:00:00+08:00",
-   "cn_end": "2026-04-22T03:59:00+08:00",
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
    "en_start": null,
    "en_end": null,
    "window_source": null,
@@ -1323,18 +1345,11 @@
      "count": 200,
      "kind": "pulls",
      "value": 0.0016666666666666668
-    },
-    {
-     "id": null,
-     "name": "维维美",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
     }
    ],
-   "hidden": true,
+   "hidden": false,
    "group": "headhunting",
-   "hidden_reason": "cosmetic",
+   "hidden_reason": null,
    "measure": {
     "material": 0,
     "op": 0,
@@ -1487,7 +1502,7 @@
    "cn_name": "2026音律联觉纪念礼包",
    "good_id": "GP_Once_416",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3video",
@@ -1509,15 +1524,8 @@
     },
     {
      "id": null,
-     "name": "2026余韵切片",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "信念共鸣",
-     "count": 1,
+     "name": "头像",
+     "count": 2,
      "kind": "cosmetic",
      "value": null
     }
@@ -1548,7 +1556,7 @@
    "cn_name": "失语者组合包",
    "good_id": "GP_Once_420",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3video",
@@ -1570,7 +1578,7 @@
     },
     {
      "id": null,
-     "name": "失语者",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -1602,7 +1610,7 @@
    "cn_name": "布道人组合包",
    "good_id": "GP_Once_417",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3video",
@@ -1624,7 +1632,7 @@
     },
     {
      "id": null,
-     "name": "布道人",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -1656,7 +1664,7 @@
    "cn_name": "戏中身组合包",
    "good_id": "GP_Once_418",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3video",
@@ -1678,7 +1686,7 @@
     },
     {
      "id": null,
-     "name": "戏中身",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -1710,7 +1718,7 @@
    "cn_name": "渡星客组合包",
    "good_id": "GP_Once_419",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3video",
@@ -1732,7 +1740,7 @@
     },
     {
      "id": null,
-     "name": "渡星客",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -1764,7 +1772,7 @@
    "cn_name": "中坚调用凭证组合包<br>(2026周年庆典)",
    "good_id": "GP_Once_432",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -1820,7 +1828,7 @@
    "cn_name": "先锋芯片礼包",
    "good_id": "GP_Once_422",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -1895,7 +1903,7 @@
    "cn_name": "凯尔希的手提箱",
    "good_id": "GP_Once_424",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -1949,7 +1957,7 @@
    "cn_name": "医疗芯片礼包",
    "good_id": "GP_Once_421",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2024,7 +2032,7 @@
    "cn_name": "庆典中坚寻访组合包",
    "good_id": "GP_Once_435",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2038,16 +2046,16 @@
    "usd_source": "en",
    "contents": [
     {
-     "id": "classic_gacha_10",
-     "name": "Ten-roll Kernel Headhunting Permit",
-     "count": 1,
+     "id": "classic_gacha",
+     "name": "Kernel Headhunting Permit",
+     "count": 5,
      "kind": "kernel",
      "value": 0
     },
     {
-     "id": "classic_gacha",
-     "name": "Kernel Headhunting Permit",
-     "count": 5,
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
      "kind": "kernel",
      "value": 0
     }
@@ -2072,7 +2080,7 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_425",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2142,7 +2150,7 @@
    "cn_name": "特训意向礼包",
    "good_id": "GP_Once_426",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2196,7 +2204,7 @@
    "cn_name": "综合材料组合包",
    "good_id": "GP_Once_430",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2259,7 +2267,7 @@
    "cn_name": "罗德岛周年作战包(2026)",
    "good_id": "GP_Once_433",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2357,7 +2365,7 @@
    "cn_name": "罗德岛周年组合包(2026)",
    "good_id": "GP_Once_434",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2370,13 +2378,6 @@
    "usd": 49.99,
    "usd_source": "map",
    "contents": [
-    {
-     "id": "voucher_skin",
-     "name": "Outfit Voucher",
-     "count": 1,
-     "kind": "material",
-     "value": 2430
-    },
     {
      "id": "4002",
      "name": "Originite Prime",
@@ -2397,6 +2398,13 @@
      "count": 1,
      "kind": "kernel",
      "value": 0
+    },
+    {
+     "id": "voucher_skin",
+     "name": "Outfit Voucher",
+     "count": 1,
+     "kind": "material",
+     "value": 2430
     },
     {
      "id": "4001",
@@ -2471,7 +2479,7 @@
    "cn_name": "调用凭证组合包<br>(2026周年庆典)",
    "good_id": "GP_Once_431",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2519,7 +2527,7 @@
    "cn_name": "资深干员特训礼包",
    "good_id": "GP_Once_427",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2575,7 +2583,7 @@
    "cn_name": "迎新特别寻访组合包(2026)",
    "good_id": "GP_NpOne_nc_0_7",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2630,7 +2638,7 @@
    "cn_name": "高级特训意向礼包",
    "good_id": "GP_Once_428",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2684,7 +2692,7 @@
    "cn_name": "高级资深干员特训礼包",
    "good_id": "GP_Once_429",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2740,7 +2748,7 @@
    "cn_name": "鸭爵的零钱包",
    "good_id": "GP_Once_423",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act4mainss",
@@ -2794,7 +2802,7 @@
    "cn_name": "定向甄选寻访组合包",
    "good_id": "GP_Once_439",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "sandbox_2",
@@ -2808,18 +2816,18 @@
    "usd_source": "en",
    "contents": [
     {
-     "id": "7004",
-     "name": "Ten-roll Headhunting Permit",
-     "count": 2,
-     "kind": "pulls",
-     "value": 10
-    },
-    {
      "id": "4002",
      "name": "Originite Prime",
      "count": 9,
      "kind": "op",
      "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
     }
    ],
    "hidden": false,
@@ -2848,7 +2856,7 @@
    "cn_name": "罗德岛数据包",
    "good_id": "GP_Once_440",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "sandbox_2",
@@ -2897,7 +2905,7 @@
    "cn_name": "罗德岛数据套组",
    "good_id": "GP_Once_441",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "sandbox_2",
@@ -2961,7 +2969,7 @@
    "cn_name": "罗德岛资金箱",
    "good_id": "GP_Once_442",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "sandbox_2",
@@ -3015,7 +3023,7 @@
    "cn_name": "寻踪相伴组合包",
    "good_id": "GP_Once_449",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3099,7 +3107,7 @@
    "cn_name": "水芸仿绘礼包",
    "good_id": "GP_Once_443",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3121,15 +3129,8 @@
     },
     {
      "id": null,
-     "name": "很好奇的猫",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "很调皮的狗",
-     "count": 1,
+     "name": "头像",
+     "count": 2,
      "kind": "cosmetic",
      "value": null
     }
@@ -3160,7 +3161,7 @@
    "cn_name": "水芸珍藏礼包",
    "good_id": "GP_Once_445",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3182,7 +3183,7 @@
     },
     {
      "id": null,
-     "name": "一起去狩猎喵！",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -3214,7 +3215,7 @@
    "cn_name": "满载而归组合包",
    "good_id": "GP_Once_451",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3291,7 +3292,7 @@
    "cn_name": "狙击芯片礼包",
    "good_id": "GP_Once_446",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3366,7 +3367,7 @@
    "cn_name": "狩猎特训组合包",
    "good_id": "GP_Once_447",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3422,7 +3423,7 @@
    "cn_name": "猎人的补给箱",
    "good_id": "GP_Once_450",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3476,7 +3477,7 @@
    "cn_name": "结营出猎组合包",
    "good_id": "GP_Once_444",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3505,14 +3506,14 @@
     },
     {
      "id": null,
-     "name": "结营",
+     "name": "主题场景",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "出猎",
+     "name": "界面主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -3544,7 +3545,7 @@
    "cn_name": "追猎技艺组合包",
    "good_id": "GP_Once_448",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3598,7 +3599,7 @@
    "cn_name": "露华远行纪念礼包（复刻）",
    "good_id": "GP_Once_88",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act50side",
@@ -3620,7 +3621,7 @@
     },
     {
      "id": null,
-     "name": "寻火之叶",
+     "name": "头像",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -3652,7 +3653,7 @@
    "cn_name": "特种芯片礼包",
    "good_id": "GP_Once_452",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act24sre",
@@ -3727,7 +3728,7 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_454",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
@@ -3797,7 +3798,7 @@
    "cn_name": "罗德岛数据包",
    "good_id": "GP_Once_456",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
@@ -3846,7 +3847,7 @@
    "cn_name": "罗德岛数据套组",
    "good_id": "GP_Once_457",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
@@ -3910,7 +3911,7 @@
    "cn_name": "罗德岛资金箱",
    "good_id": "GP_Once_453",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
@@ -3964,7 +3965,7 @@
    "cn_name": "高级特训意向组合包",
    "good_id": "GP_Once_455",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "crisis_v2_season_5_1",
@@ -3978,11 +3979,11 @@
    "usd_source": "map",
    "contents": [
     {
-     "id": "voucher_levelmax_6",
-     "name": "Top Operator Training Apparatus",
-     "count": 1,
+     "id": "voucher_levelmax_4",
+     "name": "Professional Operator Training Apparatus",
+     "count": 2,
      "kind": "material",
-     "value": 5381.838
+     "value": 2194.4232
     },
     {
      "id": "voucher_levelmax_5",
@@ -3992,11 +3993,11 @@
      "value": 3392.5608
     },
     {
-     "id": "voucher_levelmax_4",
-     "name": "Professional Operator Training Apparatus",
-     "count": 2,
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
      "kind": "material",
-     "value": 2194.4232
+     "value": 5381.838
     }
    ],
    "hidden": false,
@@ -4025,7 +4026,7 @@
    "cn_name": "友谊骑士组合包",
    "good_id": "GP_Once_458",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act9switch",
@@ -4047,29 +4048,8 @@
     },
     {
      "id": null,
-     "name": "坚忍玛恩纳",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "灼灼临光",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "瑕光点点",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "鞭刃佐菲娅",
-     "count": 1,
+     "name": "头像",
+     "count": 4,
      "kind": "cosmetic",
      "value": null
     }
@@ -4100,7 +4080,7 @@
    "cn_name": "真挚友谊组合包",
    "good_id": "GP_Once_460",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act9switch",
@@ -4129,21 +4109,14 @@
     },
     {
      "id": null,
-     "name": "「碧琪的音乐播放器」",
+     "name": "主题场景",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "金橡树图书馆",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "合照",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -4175,7 +4148,7 @@
    "cn_name": "魔法护卫组合包",
    "good_id": "GP_Once_459",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act9switch",
@@ -4197,29 +4170,8 @@
     },
     {
      "id": null,
-     "name": "赤沙娜仁图亚",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "不言弃的格拉尼",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "林间流星",
-     "count": 1,
-     "kind": "cosmetic",
-     "value": null
-    },
-    {
-     "id": null,
-     "name": "空中大爆破",
-     "count": 1,
+     "name": "头像",
+     "count": 4,
      "kind": "cosmetic",
      "value": null
     }
@@ -4250,7 +4202,7 @@
    "cn_name": "创生因子组合包",
    "good_id": "GP_Once_464",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4304,7 +4256,7 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_468",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4374,7 +4326,7 @@
    "cn_name": "术师芯片礼包",
    "good_id": "GP_Once_463",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4449,7 +4401,7 @@
    "cn_name": "沉沦秘境组合包",
    "good_id": "GP_Once_465",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4512,7 +4464,7 @@
    "cn_name": "确定混沌寻访包",
    "good_id": "GP_Once_461",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4562,7 +4514,7 @@
    "cn_name": "确定混沌寻访组合包",
    "good_id": "GP_Once_462",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4612,7 +4564,7 @@
    "cn_name": "集成战略数据包",
    "good_id": "GP_Once_466",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4661,7 +4613,7 @@
    "cn_name": "集成战略数据整合箱",
    "good_id": "GP_Once_467",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act21mini",
@@ -4725,7 +4677,7 @@
    "cn_name": "中坚寻访组合包",
    "good_id": "GP_Once_479",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -4766,7 +4718,7 @@
    "cn_name": "公路长旅组合包",
    "good_id": "GP_Once_478",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -4787,13 +4739,6 @@
      "value": null
     },
     {
-     "id": "voucher_skin",
-     "name": "Outfit Voucher",
-     "count": 1,
-     "kind": "material",
-     "value": 2430
-    },
-    {
      "id": "7004",
      "name": "Ten-roll Headhunting Permit",
      "count": 1,
@@ -4806,6 +4751,13 @@
      "count": 1,
      "kind": "kernel",
      "value": 0
+    },
+    {
+     "id": "voucher_skin",
+     "name": "Outfit Voucher",
+     "count": 1,
+     "kind": "material",
+     "value": 2430
     },
     {
      "id": "4001",
@@ -4880,7 +4832,7 @@
    "cn_name": "夏日欢庆补给包（2026）",
    "good_id": "GP_Once_476",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -4922,18 +4874,18 @@
      "value": 35.1296
     },
     {
-     "id": "4001",
-     "name": "LMD",
-     "count": 100000,
-     "kind": "material",
-     "value": 0.0036
-    },
-    {
      "id": "2003",
      "name": "Tactical Battle Record",
      "count": 50,
      "kind": "material",
      "value": 3.6
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 100000,
+     "kind": "material",
+     "value": 0.0036
     }
    ],
    "hidden": false,
@@ -4964,7 +4916,7 @@
    "cn_name": "夏日清凉补给包（2026）",
    "good_id": "GP_Once_475",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5035,7 +4987,7 @@
    "cn_name": "安洁莉娜的手提箱",
    "good_id": "GP_Once_471",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5089,7 +5041,7 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_472",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5159,7 +5111,7 @@
    "cn_name": "热泉小憩组合包",
    "good_id": "GP_Once_477",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5257,7 +5209,7 @@
    "cn_name": "特种芯片礼包",
    "good_id": "GP_Once_469",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5332,7 +5284,7 @@
    "cn_name": "特训意向礼包",
    "good_id": "GP_Once_474",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5386,7 +5338,7 @@
    "cn_name": "重装芯片礼包",
    "good_id": "GP_Once_470",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5461,7 +5413,7 @@
    "cn_name": "高级特训意向礼包",
    "good_id": "GP_Once_473",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act53side",
@@ -5515,7 +5467,7 @@
    "cn_name": "幽蓝门扉组合包",
    "good_id": "GP_Once_481",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5544,14 +5496,14 @@
     },
     {
      "id": null,
-     "name": "扬升",
+     "name": "主题场景",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "月满",
+     "name": "界面主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -5576,6 +5528,116 @@
    "notes": [],
    "cell_note": null
   },
+  "GP_Once_486": {
+   "key": "GP_Once_486",
+   "name": "Spring Companion Pack",
+   "name_source": "mtl",
+   "cn_name": "春日伴行组合包",
+   "good_id": "GP_Once_486",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 128,
+   "usd": 19.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 2,
+     "kind": "material",
+     "value": 3392.5608
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 12166.9596,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 90.1256,
+    "per_op": 0.2218,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_485": {
+   "key": "GP_Once_485",
+   "name": "Moonlit Wanderer Pack",
+   "name_source": "mtl",
+   "cn_name": "月下独步组合包",
+   "good_id": "GP_Once_485",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 13244.3966,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 98.1066,
+    "per_op": 0.2649,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ],
+   "cell_note": null
+  },
   "GP_Once_480": {
    "key": "GP_Once_480",
    "name": "Moonshadow Glimpse Pack",
@@ -5583,7 +5645,7 @@
    "cn_name": "月影一瞥组合包",
    "good_id": "GP_Once_480",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5605,14 +5667,14 @@
     },
     {
      "id": null,
-     "name": "坠入清醒",
+     "name": "动态头像",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "凝视映像",
+     "name": "动态头像",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -5644,7 +5706,7 @@
    "cn_name": "月行水上资金箱",
    "good_id": "GP_Once_488",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5698,7 +5760,7 @@
    "cn_name": "潮湿镜像组合包",
    "good_id": "GP_Once_482",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5720,7 +5782,7 @@
     },
     {
      "id": null,
-     "name": "月落镜水",
+     "name": "名片主题",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -5752,7 +5814,7 @@
    "cn_name": "特种芯片礼包",
    "good_id": "GP_Once_484",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5827,7 +5889,7 @@
    "cn_name": "苹果花瓣组合包",
    "good_id": "GP_Once_487",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5911,7 +5973,7 @@
    "cn_name": "蓝丝绒房间组合包",
    "good_id": "GP_Once_483",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5925,22 +5987,22 @@
    "usd_source": "map_estimated",
    "contents": [
     {
-     "id": "uni_set_velvet",
-     "name": "月行水上家具收藏包",
+     "id": null,
+     "name": "会客室家具收藏包【月行水上家具收藏包】",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "圣歌吟唱台",
+     "name": "播放器【圣歌吟唱台】",
      "count": 1,
      "kind": "cosmetic",
      "value": null
     },
     {
      "id": null,
-     "name": "选择的留言板",
+     "name": "信息板【选择的留言板】",
      "count": 1,
      "kind": "cosmetic",
      "value": null
@@ -5964,7 +6026,7 @@
    "cn_name": "蓝蝶之礼组合包",
    "good_id": "GP_Once_489",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act54side",
@@ -5985,18 +6047,18 @@
      "value": 0.0016666666666666668
     },
     {
-     "id": "4001",
-     "name": "LMD",
-     "count": 100000,
-     "kind": "material",
-     "value": 0.0036
-    },
-    {
      "id": "32001",
      "name": "Chip Catalyst",
      "count": 2,
      "kind": "material",
      "value": 123.0171
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 100000,
+     "kind": "material",
+     "value": 0.0036
     },
     {
      "id": "3301",
@@ -6041,7 +6103,7 @@
    "cn_name": "定向甄选寻访组合包",
    "good_id": "GP_Once_491",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3break",
@@ -6055,18 +6117,18 @@
    "usd_source": "map",
    "contents": [
     {
-     "id": "7004",
-     "name": "Ten-roll Headhunting Permit",
-     "count": 2,
-     "kind": "pulls",
-     "value": 10
-    },
-    {
      "id": "4002",
      "name": "Originite Prime",
      "count": 9,
      "kind": "op",
      "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
     }
    ],
    "hidden": false,
@@ -6095,9 +6157,9 @@
    "cn_name": "技巧集综合礼包",
    "good_id": "GP_Once_493",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
-   "contents_conflict": false,
+   "contents_conflict": true,
    "event": "act3break",
    "cn_start": "2026-09-29T16:00:00+08:00",
    "cn_end": "2026-10-20T03:59:00+08:00",
@@ -6132,7 +6194,7 @@
     {
      "id": "voucher_skill_specialLevelMax_4",
      "name": "Professional Operator Skill Training Pack",
-     "count": 2,
+     "count": 1,
      "kind": "material",
      "value": 1058.3739
     }
@@ -6141,11 +6203,11 @@
    "group": "training",
    "hidden_reason": null,
    "measure": {
-    "material": 7755.9012,
+    "material": 6697.5273,
     "op": 12,
     "pulls": 0,
-    "total_op": 69.4511,
-    "per_op": 0.2158,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
     "total_pulls": 3.6,
     "per_pull": 4.1639
    },
@@ -6165,7 +6227,7 @@
    "cn_name": "罗德岛数据包",
    "good_id": "GP_Once_495",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3break",
@@ -6214,7 +6276,7 @@
    "cn_name": "罗德岛数据套组",
    "good_id": "GP_Once_496",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3break",
@@ -6278,7 +6340,7 @@
    "cn_name": "罗德岛资金箱",
    "good_id": "GP_Once_492",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3break",
@@ -6332,7 +6394,7 @@
    "cn_name": "高级特训组合包",
    "good_id": "GP_Once_494",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act3break",
@@ -6387,8 +6449,8 @@
    "name_source": "scrape",
    "cn_name": "沉甸甸的资金箱",
    "good_id": "GP_Once_498",
-   "good_id_matched_by": "price",
-   "contents_source": null,
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act52side",
@@ -6442,7 +6504,7 @@
    "cn_name": "海渊巡游寻访包",
    "good_id": "GP_Once_500",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act52side",
@@ -6492,7 +6554,7 @@
    "cn_name": "海渊巡游寻访组合包",
    "good_id": "GP_Once_501",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act52side",
@@ -6542,7 +6604,7 @@
    "cn_name": "近卫芯片礼包",
    "good_id": "GP_Once_497",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "wiki",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act52side",
@@ -6617,7 +6679,7 @@
    "cn_name": "黑流树海特训组合",
    "good_id": "GP_Once_499",
    "good_id_matched_by": null,
-   "contents_source": null,
+   "contents_source": "yituliu",
    "contents_inferred_from": null,
    "contents_conflict": false,
    "event": "act52side",
@@ -6670,6 +6732,1285 @@
    },
    "notes": [
     "tickets"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_503": {
+   "key": "GP_Once_503",
+   "name": "Bookworm Pack",
+   "name_source": "mtl",
+   "cn_name": "博览群书组合包",
+   "good_id": "GP_Once_503",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act4video",
+   "cn_start": "2026-10-16T16:00:00+08:00",
+   "cn_end": "2026-11-06T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 12,
+   "usd": 1.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 800,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "头像",
+     "count": 2,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "group": "headhunting",
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 1.3333,
+    "total_op": 4.4444,
+    "per_op": 0.4477,
+    "total_pulls": 1.3333,
+    "per_pull": 1.4925
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": "yellow"
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_250": {
+   "key": "GP_Once_250",
+   "name": "Dahuang Sprout Pack",
+   "name_source": "en",
+   "cn_name": "大荒青禾组合包",
+   "good_id": "GP_Once_250",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act4video",
+   "cn_start": "2026-10-16T16:00:00+08:00",
+   "cn_end": "2026-11-06T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": null,
+     "name": "界面主题",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "主题场景",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "group": "funding",
+   "hidden_reason": "cosmetic",
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_515": {
+   "key": "GP_Once_515",
+   "name": "Rhodes Island Headhunting Pack - Kernel",
+   "name_source": "scrape",
+   "cn_name": "中坚调用凭证组合包",
+   "good_id": "GP_Once_515",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": null,
+     "name": "Kernel Selector",
+     "count": 1,
+     "kind": "selector",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "group": "headhunting",
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "kernel",
+    "selector"
+   ],
+   "cell_note": "selector"
+  },
+  "GP_Once_507": {
+   "key": "GP_Once_507",
+   "name": "Talulah's Briefcase",
+   "name_source": "mtl",
+   "cn_name": "塔露拉的手提箱",
+   "good_id": "GP_Once_507",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "group": "funding",
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_518": {
+   "key": "GP_Once_518",
+   "name": "Celebration Kernel Headhunting Pack",
+   "name_source": "scrape",
+   "cn_name": "庆典中坚寻访组合包",
+   "good_id": "GP_Once_518",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": "classic_gacha",
+     "name": "Kernel Headhunting Permit",
+     "count": 5,
+     "kind": "kernel",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "group": "headhunting",
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "kernel"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_516": {
+   "key": "GP_Once_516",
+   "name": "Thank-You Celebration Combat Kit",
+   "name_source": "scrape",
+   "cn_name": "感谢庆典作战包",
+   "good_id": "GP_Once_516",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 200000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 20,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "2003",
+     "name": "Tactical Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 3.6
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 4,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 6,
+     "kind": "material",
+     "value": 35.1296
+    }
+   ],
+   "hidden": false,
+   "group": "bundles",
+   "hidden_reason": null,
+   "measure": {
+    "material": 1823.675,
+    "op": 24,
+    "pulls": 20,
+    "total_op": 104.1754,
+    "per_op": 0.2879,
+    "total_pulls": 27.2,
+    "per_pull": 1.1026
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "vouchers"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_517": {
+   "key": "GP_Once_517",
+   "name": "Thank-You Celebration Pack",
+   "name_source": "scrape",
+   "cn_name": "感谢庆典组合包",
+   "good_id": "GP_Once_517",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 328,
+   "usd": 49.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 90,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": "voucher_skin",
+     "name": "Outfit Voucher",
+     "count": 1,
+     "kind": "material",
+     "value": 2430
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 260000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 4,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 6,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "group": "bundles",
+   "hidden_reason": null,
+   "measure": {
+    "material": 5058.2058,
+    "op": 90,
+    "pulls": 10,
+    "total_op": 160.8015,
+    "per_op": 0.3109,
+    "total_pulls": 37.0,
+    "per_pull": 1.3511
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks",
+    "kernel"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_508": {
+   "key": "GP_Once_508",
+   "name": "Comprehensive Skill Training Pack",
+   "name_source": "scrape",
+   "cn_name": "技巧集综合礼包",
+   "good_id": "GP_Once_508",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 6697.5273,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_509": {
+   "key": "GP_Once_509",
+   "name": "Special Training Pack",
+   "name_source": "scrape",
+   "cn_name": "特训意向礼包",
+   "good_id": "GP_Once_509",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 11,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 3392.5608
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 3392.5608,
+    "op": 11,
+    "pulls": 0,
+    "total_op": 36.1301,
+    "per_op": 0.2765,
+    "total_pulls": 3.3,
+    "per_pull": 3.0273
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_513": {
+   "key": "GP_Once_513",
+   "name": "Mixed Materials Pack",
+   "name_source": "scrape",
+   "cn_name": "综合材料组合包",
+   "good_id": "GP_Once_513",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "precious_material_voucher_perm",
+     "name": "Precious Material Voucher",
+     "count": 10,
+     "kind": "material",
+     "value": 313.478
+    },
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 15,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 20,
+     "kind": "material",
+     "value": 35.1296
+    }
+   ],
+   "hidden": false,
+   "group": "materials",
+   "hidden_reason": null,
+   "measure": {
+    "material": 5318.109,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 39.3934,
+    "per_op": 0.3805,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": [
+    "vouchers"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_519": {
+   "key": "GP_Once_519",
+   "name": "Rhodes Island Data Pack",
+   "name_source": "scrape",
+   "cn_name": "罗德岛数据包",
+   "good_id": "GP_Once_519",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "group": "modules",
+   "hidden_reason": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_520": {
+   "key": "GP_Once_520",
+   "name": "Rhodes Island Data Set",
+   "name_source": "scrape",
+   "cn_name": "罗德岛数据套组",
+   "good_id": "GP_Once_520",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "group": "modules",
+   "hidden_reason": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_514": {
+   "key": "GP_Once_514",
+   "name": "Rhodes Island Headhunting Pack",
+   "name_source": "scrape",
+   "cn_name": "调用凭证组合包",
+   "good_id": "GP_Once_514",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": null,
+     "name": "Standard Selector",
+     "count": 1,
+     "kind": "selector",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "group": "headhunting",
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "selector"
+   ],
+   "cell_note": "selector"
+  },
+  "GP_Once_510": {
+   "key": "GP_Once_510",
+   "name": "Senior Operator Training Pack",
+   "name_source": "scrape",
+   "cn_name": "资深干员特训礼包",
+   "good_id": "GP_Once_510",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 3764.7875,
+    "op": 24,
+    "pulls": 0,
+    "total_op": 51.8873,
+    "per_op": 0.2889,
+    "total_pulls": 7.2,
+    "per_pull": 2.0819
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_505": {
+   "key": "GP_Once_505",
+   "name": "Supporter Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "辅助芯片礼包",
+   "good_id": "GP_Once_505",
+   "good_id_matched_by": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "辅助芯片礼包 2023-10-08",
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3273",
+     "name": "Supporter Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3271",
+     "name": "Supporter Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "group": "chips",
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_504": {
+   "key": "GP_Once_504",
+   "name": "Guard Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "近卫芯片礼包",
+   "good_id": "GP_Once_504",
+   "good_id_matched_by": null,
+   "contents_source": "inferred",
+   "contents_inferred_from": "近卫芯片礼包 2026-10-09",
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3223",
+     "name": "Guard Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3221",
+     "name": "Guard Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "group": "chips",
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_511": {
+   "key": "GP_Once_511",
+   "name": "Advanced Special Training Pack",
+   "name_source": "scrape",
+   "cn_name": "高级特训意向礼包",
+   "good_id": "GP_Once_511",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 128,
+   "usd": 19.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 19,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 5381.838,
+    "op": 19,
+    "pulls": 0,
+    "total_op": 58.8655,
+    "per_op": 0.3396,
+    "total_pulls": 5.7,
+    "per_pull": 3.507
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_512": {
+   "key": "GP_Once_512",
+   "name": "Top Operator Training Pack",
+   "name_source": "scrape",
+   "cn_name": "高级资深干员特训礼包",
+   "good_id": "GP_Once_512",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 36,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    }
+   ],
+   "hidden": false,
+   "group": "training",
+   "hidden_reason": null,
+   "measure": {
+    "material": 5714.8216,
+    "op": 36,
+    "pulls": 0,
+    "total_op": 78.332,
+    "per_op": 0.3318,
+    "total_pulls": 10.8,
+    "per_pull": 2.4065
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ],
+   "cell_note": null
+  },
+  "GP_Once_506": {
+   "key": "GP_Once_506",
+   "name": "Duck Lord's Change Purse",
+   "name_source": "scrape",
+   "cn_name": "鸭爵的零钱包",
+   "good_id": "GP_Once_506",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act55side",
+   "cn_start": "2026-11-01T12:00:00+08:00",
+   "cn_end": "2026-11-29T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 45,
+   "usd": 6.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 13,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 300000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "group": "funding",
+   "hidden_reason": null,
+   "measure": {
+    "material": 1080.0,
+    "op": 13,
+    "pulls": 0,
+    "total_op": 21.0,
+    "per_op": 0.3329,
+    "total_pulls": 3.9,
+    "per_pull": 1.7923
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": [],
+   "cell_note": null
+  },
+  "GP_Once_523": {
+   "key": "GP_Once_523",
+   "name": "All-Round Developer Theme Pack",
+   "name_source": "mtl",
+   "cn_name": "全能开发者主题包",
+   "good_id": "GP_Once_523",
+   "good_id_matched_by": null,
+   "contents_source": "yituliu",
+   "contents_inferred_from": null,
+   "contents_conflict": false,
+   "event": "act3autochess",
+   "cn_start": "2026-11-08T16:00:00+08:00",
+   "cn_end": "2026-12-06T03:59:59+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 45,
+   "usd": 6.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 2000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 100000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 4,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": null,
+     "name": "卫戍协议终端主题【“全能的”可露希尔】",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "收藏贴【终端】",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "收藏贴【开发者】",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "收藏贴【配乐】",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "group": "bundles",
+   "hidden_reason": null,
+   "measure": {
+    "material": 754.8632,
+    "op": 0,
+    "pulls": 3.3333,
+    "total_op": 16.7027,
+    "per_op": 0.4185,
+    "total_pulls": 3.3333,
+    "per_pull": 2.097
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": "red"
+   },
+   "notes": [
+    "vouchers"
    ],
    "cell_note": null
   }
@@ -7923,6 +9264,10 @@
   }
  ],
  "attention": [
-  "Heavy Funding Pack [GP_Once_498]: goodId matched by price only -- check it's the right pack"
+  "Amiko's Photoset [GP_Once_409]: no source lists this pack, contents copied from 米米子的照片集 2026-04-01 -- check once one does",
+  "Wiš'ami's Photoset [GP_Once_410]: no source lists this pack, contents copied from 维维美的照片集 2026-04-01 -- check once one does",
+  "Comprehensive Skill Training Pack [GP_Once_493]: the wiki and yituliu disagree on its contents, using yituliu's -- check",
+  "Supporter Chip Pack [GP_Once_505]: no source lists this pack, contents copied from 辅助芯片礼包 2023-10-08 -- check once one does",
+  "Guard Chip Pack [GP_Once_504]: no source lists this pack, contents copied from 近卫芯片礼包 2026-10-09 -- check once one does"
  ]
 }
