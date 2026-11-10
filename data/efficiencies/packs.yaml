@@ -10,8 +10,9 @@
 # Prime, 4003 Orundum, 7003 Headhunting Permit, 7004 Ten-roll Headhunting
 # Permit, 3211 / 3212 / 3213 Chip / Chip Pack / Dualchip (any class -- all
 # classes share one value), 3301-3303 Skill Summaries, mod_unlock_token Module
-# Data Block. The pseudo-item `xp` is that much operator XP, valued at
-# value_rules.yaml -> packs: xp_value.
+# Data Block. Pseudo-items: `xp` is that much operator XP, valued at
+# value_rules.yaml -> packs: xp_value; `selector` is a 6★ operator selector
+# (not valued -- a pack holding one shows a note instead of numbers).
 
 # ─────────────────────────────────────────────────────────────────────────────
 # How a pack is measured (the sheet's CALCS - Packs maths)
@@ -95,11 +96,31 @@ event_dates:
   act7fun: 2027-04-01
 
 # ─────────────────────────────────────────────────────────────────────────────
+# EN event names, by CN event id, for events EN game data doesn't have yet (the
+# EN name is usually announced before the update that adds it). Once EN data
+# has the event, its name wins and the line can be deleted.
+# ─────────────────────────────────────────────────────────────────────────────
+event_names:
+  act50side: Thunder in the Azure Dream             # 泡影苍霆
+  act24sre: A Flurry to the Flame Rerun             # 落叶逐火·复刻
+  crisis_v2_season_5_1: CCBP#5 - Obliteration       # 涤墨作战
+  act21mini: Bolívar Diagnosed                      # 丛林症结
+  act53side: Till the Lands Become an Orange        # 直到大地变成一颗酸橙
+  act54side: Sur le lac lune vivante                # 月行水上
+  act3break: "Vector Breakthrough #3"               # 矢量突破#3 拟生态
+  act52side: Yet Another Wave                       # 昨日海
+  act9switch: My Little Pony Collab
+  act7fun: April Fools
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Per-pack overrides, keyed by goodId (shop_packs.json -> goodId, also shown in
 # the generator's "needs attention" list). Rarely needed: EN names and prices
 # come from game data. Any of:
 #   name:     EN name to show         usd:    price to use
-#   notes:    [note keys, below]      hidden: true (leave the pack off the page)
+#   notes:    [note keys, below]      hidden: true (leave the pack off the page),
+#                                     or false to show a cosmetic pack (those
+#                                     -- UI items and nothing of material value
+#                                     -- are hidden by default)
 #   contents: {item id: count}        -- replaces the scraped contents entirely
 # Example:
 #   GP_Once_498:
@@ -284,7 +305,7 @@ common_packs:
     contents: {"4002": 9, "7004": 2}
   - name: 6★ Selector (Standard or Kernel)
     usd: 29.99
-    contents: {"7004": 1}
+    contents: {"7004": 1, selector: 1}
     text: "1x Ten-roll Headhunting Permit, 1x 6★ selector (the Kernel version adds a Kernel ten-roll)"
     notes: [selector]
   - name: 6★ Random of 3

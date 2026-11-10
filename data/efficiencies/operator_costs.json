@@ -4,7 +4,7 @@
   "note": "Generated file -- rerun the script after the game data changes.",
   "assets_commit": "9ad3501",
   "inputs": {
-   "tools/build_item_values.py": "8885962d234c2599",
+   "tools/build_item_values.py": "ccbaf6a0ee5b50c2",
    "assets/game_img/excel-cn/character_table.json": "166e1e86842693fe",
    "assets/game_img/excel-cn/char_patch_table.json": "2cde3e0fce094fc5",
    "assets/game_img/excel-cn/skill_table.json": "dcfd9b9fbf41ed22",

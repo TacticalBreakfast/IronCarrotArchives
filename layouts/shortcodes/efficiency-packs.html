@@ -1,0 +1,42 @@
+{{- /*
+  efficiency-packs — the event shop packs, one section per event, in expected
+  EN order (data/efficiencies/pack_values.json → events).
+  Usage: {{% efficiency-packs %}}   <- the % form, not < >: each event's name is
+  emitted as a Markdown "### Name" heading (the page puts them under "## Events") so it reaches the table of contents.
+  Everything else is one HTML block per event with no blank lines inside, so
+  Markdown passes it through untouched -- keep it that way.
+
+  Shown: packs not hidden (cosmetic packs are hidden by the generator) whose
+  EN sale hasn't ended. An event with nothing left to show is left out.
+  Live / upcoming / ended is decided here at build time and again in the
+  reader's browser (assets/js/efficiency.js, "Shop packs"), from each pack's
+  EN sale window -- packs often stay on sale after their event ends, and the
+  site isn't rebuilt the moment a sale does.
+
+  Reader-facing labels are in this file only: the status badges and the date
+  line. The script swaps the badge using the data-label-* texts below.
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data" -}}
+{{- $D := $ctx.data -}}
+{{- $now := now -}}
+{{- range $e := $D.events -}}
+  {{- $shown := slice -}}
+  {{- $live := false -}}
+  {{- $first := "" -}}{{- $last := "" -}}
+  {{- range $e.packs -}}
+    {{- $p := index $D.packs . -}}
+    {{- $ended := and $p.en_end ((time.AsTime $p.en_end).Before $now) -}}
+    {{- if and (not $p.hidden) (not $ended) -}}
+      {{- $shown = $shown | append $p -}}
+      {{- with $p.en_start -}}
+        {{- if not ((time.AsTime .).After $now) }}{{ $live = true }}{{ end -}}
+        {{- if or (not $first) (lt . $first) }}{{ $first = . }}{{ end -}}
+      {{- end -}}
+      {{- with $p.en_end }}{{ if gt . $last }}{{ $last = . }}{{ end }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $shown -}}
+{{ printf "\n\n### %s\n\n" $e.name }}
+<div class="eff-pack-event" data-pack-event data-label-live="Live" data-label-upcoming="Upcoming"><p class="eff-pack-when"><span class="eff-pack-badge{{ if $live }} eff-pack-badge--live{{ end }}" data-pack-badge>{{ if $live }}Live{{ else }}Upcoming{{ end }}</span> {{ if $first }}EN: {{ (time.AsTime $first).Format "Jan 2" }} – {{ (time.AsTime $last).Format "Jan 2, 2006" }}{{ else if $e.expected_en_start }}Expected on EN: {{ (time.AsTime $e.expected_en_start).Format "Jan 2, 2006" }}{{ else }}CN: {{ (time.AsTime $e.cn_start).Format "Jan 2, 2006" }}{{ end }}</p><div class="eff-table-wrap"><table class="eff-table eff-packs">{{ partial "ica/efficiency/packs/head.html" . }}{{ range $shown }}{{ partial "ica/efficiency/packs/row.html" (dict "pack" . "noteNum" $ctx.noteNum "timed" true) }}{{ end }}</table></div></div>
+  {{- end -}}
+{{- end -}}

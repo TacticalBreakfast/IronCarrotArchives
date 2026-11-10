@@ -1,0 +1,16 @@
+{{- /*
+  ica/efficiency/packs/data.html — shared lookups for the shop-pack shortcodes.
+  Call: partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data"
+
+  Everything comes from data/efficiencies/pack_values.json
+  (tools/build_pack_values.py); templates only display it.
+
+  Returns:
+    data       the generated file
+    noteNum    {note key: number}, numbered in packs.yaml order (the page shows
+               "Note 3" references and a numbered key)
+*/ -}}
+{{- $data := hugo.Data.efficiencies.pack_values -}}
+{{- $noteNum := dict -}}
+{{- range $i, $n := $data.notes }}{{ $noteNum = merge $noteNum (dict $n.key (add $i 1)) }}{{ end -}}
+{{- return dict "data" $data "noteNum" $noteNum -}}

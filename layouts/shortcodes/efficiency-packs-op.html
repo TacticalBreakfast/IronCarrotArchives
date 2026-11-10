@@ -1,0 +1,21 @@
+{{- /*
+  efficiency-packs-op — the OP top-up packs, with and without the first-purchase
+  double bonus (data/efficiencies/packs.yaml → op_packs). Headings and column
+  names are the sheet's.
+  Usage: {{< efficiency-packs-op >}}
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data" -}}
+{{- range slice (dict "title" "Doubles" "double" true) (dict "title" "Normal" "double" false) -}}
+{{- $double := .double }}
+<h3 class="eff-pack-op-title">{{ .title }}</h3>
+<div class="eff-table-wrap">
+<table class="eff-table eff-packs-op">
+<thead><tr><th scope="col" class="eff-num">OP</th><th scope="col" class="eff-num">Price</th><th scope="col" class="eff-num">$ per OP</th><th scope="col" class="eff-num">$ per pull</th></tr></thead>
+<tbody>
+{{- range $ctx.data.op_packs }}
+<tr><td class="eff-num">{{ if $double }}{{ .double }}{{ else }}{{ .op }}{{ end }}</td><td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" .usd "decimals" 2 "money" true) }}</td><td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (cond $double .per_op_double .per_op) "decimals" 2 "money" true) }}</td><td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (cond $double .per_pull_double .per_pull) "decimals" 2 "money" true) }}</td></tr>
+{{- end }}
+</tbody>
+</table>
+</div>
+{{- end -}}

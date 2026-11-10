@@ -8,7 +8,7 @@
   any edit every shortcode thought the script was already on the page and the
   page lost it.
 */ -}}
-{{- if or (.HasShortcode "efficiency-era") (.HasShortcode "efficiency-roster") (.HasShortcode "efficiency-recent") (.HasShortcode "efficiency-tickets") (.HasShortcode "efficiency-materials") -}}
+{{- if or (.HasShortcode "efficiency-era") (.HasShortcode "efficiency-roster") (.HasShortcode "efficiency-recent") (.HasShortcode "efficiency-tickets") (.HasShortcode "efficiency-materials") (.HasShortcode "efficiency-packs") -}}
   {{- $js := resources.Get "js/efficiency.js" | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") -}}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{- end -}}

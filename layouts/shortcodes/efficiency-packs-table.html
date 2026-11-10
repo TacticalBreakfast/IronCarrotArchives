@@ -1,0 +1,17 @@
+{{- /*
+  efficiency-packs-table — one of the hand-written pack lists from
+  data/efficiencies/packs.yaml (valued in pack_values.json).
+  Usage: {{< efficiency-packs-table section="regular" >}}   (regular | starter | common)
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data" -}}
+{{- $section := .Get "section" -}}
+{{- $packs := index $ctx.data $section -}}
+{{- if not $packs }}{{ errorf "efficiency-packs-table: no pack list %q in pack_values.json (%s)" $section .Position }}{{ end -}}
+<div class="eff-table-wrap">
+<table class="eff-table eff-packs">
+{{ partial "ica/efficiency/packs/head.html" . }}
+{{- range $packs }}
+{{ partial "ica/efficiency/packs/row.html" (dict "pack" . "noteNum" $ctx.noteNum) }}
+{{- end }}
+</table>
+</div>

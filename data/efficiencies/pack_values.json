@@ -1,0 +1,7395 @@
+{
+ "_generated": {
+  "by": "tools/build_item_values.py",
+  "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
+  "assets_commit": "7d90d6c",
+  "inputs": {
+   "data/efficiencies/packs.yaml": "68ddcdea53ca6cc1",
+   "data/efficiencies/value_rules.yaml": "fdface95258ab978",
+   "data/efficiencies/item_values.json": "ebe48e4e7971b204",
+   "assets/game_img/processed/shop_packs.json": "80e4e499c031d334",
+   "assets/game_img/excel-en/shop_client_table.json": "9314ca5642b474b9",
+   "assets/game_img/excel-en/activity_table.json": "7190d88273618950",
+   "assets/game_img/excel-en/crisis_v2_table.json": "6b2034a466f9e2e1",
+   "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
+   "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
+   "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
+   "tools/build_pack_values.py": "73225e20f117b0cc"
+  }
+ },
+ "lag_days": 165,
+ "events": [
+  {
+   "id": "act20mini",
+   "cn_name": "十字路口",
+   "name": "Crossing",
+   "name_source": "en",
+   "cn_start": "2026-03-10T12:00:00+08:00",
+   "en_start": "2026-08-13T12:00:00Z",
+   "en_end": "2026-08-20T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_406",
+    "GP_Once_405",
+    "GP_Once_404"
+   ],
+   "order_date": "2026-08-13T12:00:00Z"
+  },
+  {
+   "id": "act2autochess",
+   "cn_name": "卫戍协议:盟约",
+   "name": "Stronghold Protocol: Alliance",
+   "name_source": "en",
+   "cn_start": "2026-03-14T16:00:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-10-01T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_408",
+    "GP_Once_407"
+   ],
+   "order_date": "2026-08-20T15:00:00Z"
+  },
+  {
+   "id": "act41sre",
+   "cn_name": "挽歌燃烧殆尽·复刻",
+   "name": "When Elegies Are Ashes - Rerun",
+   "name_source": "en",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "en_start": "2026-08-27T11:00:00Z",
+   "en_end": "2026-09-06T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_281",
+    "GP_Once_278",
+    "GP_Once_277",
+    "GP_Once_279",
+    "GP_Once_280",
+    "GP_Once_58",
+    "GP_Once_90",
+    "GP_Once_162",
+    "GP_Once_276"
+   ],
+   "order_date": "2026-08-27T11:00:00Z"
+  },
+  {
+   "id": "act51side",
+   "cn_name": "人们，我们",
+   "name": "People, A People",
+   "name_source": "en",
+   "cn_start": "2026-04-07T12:00:00+08:00",
+   "en_start": "2026-09-16T15:00:00Z",
+   "en_end": "2026-09-30T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_413",
+    "GP_Once_412"
+   ],
+   "order_date": "2026-09-16T15:00:00Z"
+  },
+  {
+   "id": "act3video",
+   "cn_name": "回望泰拉限时登录活动",
+   "name": "To Look Back on Terra Limited Login Event",
+   "name_source": "en",
+   "cn_start": "2026-04-25T21:30:00+08:00",
+   "en_start": "2026-10-08T11:00:00Z",
+   "en_end": "2026-11-16T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_419",
+    "GP_Once_420",
+    "GP_Once_417",
+    "GP_Once_418",
+    "GP_Once_416"
+   ],
+   "order_date": "2026-10-08T11:00:00Z"
+  },
+  {
+   "id": "act4mainss",
+   "cn_name": "相变临界",
+   "name": "Critical Phase Transition",
+   "name_source": "en",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-10-28T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_434",
+    "GP_Once_433",
+    "GP_Once_431",
+    "GP_Once_432",
+    "GP_NpOne_nc_0_7",
+    "GP_Once_429",
+    "GP_Once_428",
+    "GP_Once_425",
+    "GP_Once_430",
+    "GP_Once_427",
+    "GP_Once_435",
+    "GP_Once_424",
+    "GP_Once_426",
+    "GP_Once_423",
+    "GP_Once_421",
+    "GP_Once_422"
+   ],
+   "order_date": "2026-10-14T12:00:00Z"
+  },
+  {
+   "id": "sandbox_2",
+   "cn_name": "重启锚点",
+   "name": "Relaunch Anchor",
+   "name_source": "en",
+   "cn_start": "2026-05-15T16:00:00+08:00",
+   "en_start": "2026-10-28T15:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_439",
+    "GP_Once_441",
+    "GP_Once_442",
+    "GP_Once_440"
+   ],
+   "order_date": "2026-10-28T15:00:00Z"
+  },
+  {
+   "id": "act50side",
+   "cn_name": "泡影苍霆",
+   "name": "Thunder in the Azure Dream",
+   "name_source": "yaml",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_449",
+    "GP_Once_447",
+    "GP_Once_448",
+    "GP_Once_444",
+    "GP_Once_451",
+    "GP_Once_450",
+    "GP_Once_445",
+    "GP_Once_446",
+    "GP_Once_443",
+    "GP_Once_88"
+   ],
+   "order_date": "2026-11-14T01:30:00Z"
+  },
+  {
+   "id": "act24sre",
+   "cn_name": "落叶逐火·复刻",
+   "name": "A Flurry to the Flame Rerun",
+   "name_source": "yaml",
+   "cn_start": "2026-06-15T16:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_452"
+   ],
+   "order_date": "2026-11-28T05:30:00Z"
+  },
+  {
+   "id": "crisis_v2_season_5_1",
+   "cn_name": "涤墨作战",
+   "name": "CCBP#5 - Obliteration",
+   "name_source": "yaml",
+   "cn_start": "2026-06-26T16:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_455",
+    "GP_Once_454",
+    "GP_Once_457",
+    "GP_Once_453",
+    "GP_Once_456"
+   ],
+   "order_date": "2026-12-09T05:30:00Z"
+  },
+  {
+   "id": "act9switch",
+   "cn_name": "魔法与友谊合作活动",
+   "name": "魔法与友谊合作活动",
+   "name_source": "cn",
+   "cn_start": "2026-07-03T16:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_460",
+    "GP_Once_458",
+    "GP_Once_459"
+   ],
+   "order_date": "2026-12-16T05:30:00Z"
+  },
+  {
+   "id": "act21mini",
+   "cn_name": "丛林症结",
+   "name": "Bolívar Diagnosed",
+   "name_source": "yaml",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_465",
+    "GP_Once_468",
+    "GP_Once_464",
+    "GP_Once_467",
+    "GP_Once_462",
+    "GP_Once_463",
+    "GP_Once_466",
+    "GP_Once_461"
+   ],
+   "order_date": "2026-12-23T01:30:00Z"
+  },
+  {
+   "id": "act53side",
+   "cn_name": "直到大地变成一颗酸橙",
+   "name": "Till the Lands Become an Orange",
+   "name_source": "yaml",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_478",
+    "GP_Once_477",
+    "GP_Once_473",
+    "GP_Once_476",
+    "GP_Once_472",
+    "GP_Once_471",
+    "GP_Once_479",
+    "GP_Once_474",
+    "GP_Once_470",
+    "GP_Once_469",
+    "GP_Once_475"
+   ],
+   "order_date": "2027-01-14T01:30:00Z"
+  },
+  {
+   "id": "act54side",
+   "cn_name": "月行水上",
+   "name": "Sur le lac lune vivante",
+   "name_source": "yaml",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_487",
+    "GP_Once_481",
+    "GP_Once_489",
+    "GP_Once_488",
+    "GP_Once_482",
+    "GP_Once_484",
+    "GP_Once_483",
+    "GP_Once_480"
+   ],
+   "order_date": "2027-02-17T01:30:00Z"
+  },
+  {
+   "id": "act3break",
+   "cn_name": "矢量突破#3 拟生态",
+   "name": "Vector Breakthrough #3",
+   "name_source": "yaml",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_494",
+    "GP_Once_491",
+    "GP_Once_493",
+    "GP_Once_496",
+    "GP_Once_492",
+    "GP_Once_495"
+   ],
+   "order_date": "2027-03-14T05:30:00Z"
+  },
+  {
+   "id": "act52side",
+   "cn_name": "昨日海",
+   "name": "Yet Another Wave",
+   "name_source": "yaml",
+   "cn_start": "2026-10-09T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": null,
+   "packs": [
+    "GP_Once_499",
+    "GP_Once_501",
+    "GP_Once_498",
+    "GP_Once_497",
+    "GP_Once_500"
+   ],
+   "order_date": "2027-03-24T01:30:00Z"
+  },
+  {
+   "id": "act7fun",
+   "cn_name": "Rhodes Island Epic 黑色博士坠落",
+   "name": "Rhodes Island Epic 黑色博士坠落",
+   "name_source": "cn",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "expected_en_start": "2027-04-01",
+   "packs": [
+    "GP_Once_411",
+    "GP_Once_409",
+    "GP_Once_410"
+   ],
+   "order_date": "2027-04-01T00:00:00Z"
+  }
+ ],
+ "packs": {
+  "GP_Once_406": {
+   "key": "GP_Once_406",
+   "name": "Garden of Grotesqueries Training Pack",
+   "name_source": "en",
+   "cn_name": "界园志异特训组合",
+   "good_id": "GP_Once_406",
+   "good_id_matched_by": null,
+   "event": "act20mini",
+   "cn_start": "2026-03-10T12:00:00+08:00",
+   "cn_end": "2026-03-31T03:59:00+08:00",
+   "en_start": "2026-08-13T12:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    },
+    {
+     "id": "voucher_elite_II_4",
+     "name": "Professional Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 2060.0414
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 13599.6919,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 100.7385,
+    "per_op": 0.258,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_404": {
+   "key": "GP_Once_404",
+   "name": "Guard Chip Pack",
+   "name_source": "en",
+   "cn_name": "近卫芯片礼包",
+   "good_id": "GP_Once_404",
+   "good_id_matched_by": null,
+   "event": "act20mini",
+   "cn_start": "2026-03-10T12:00:00+08:00",
+   "cn_end": "2026-03-31T03:59:00+08:00",
+   "en_start": "2026-08-13T12:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "3223",
+     "name": "Guard Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3221",
+     "name": "Guard Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_405": {
+   "key": "GP_Once_405",
+   "name": "Fermentation Kit Funding Box",
+   "name_source": "en",
+   "cn_name": "酿造装置资金箱",
+   "good_id": "GP_Once_405",
+   "good_id_matched_by": null,
+   "event": "act20mini",
+   "cn_start": "2026-03-10T12:00:00+08:00",
+   "cn_end": "2026-03-31T03:59:00+08:00",
+   "en_start": "2026-08-13T12:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 45,
+   "usd": 6.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 13,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 300000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1080.0,
+    "op": 13,
+    "pulls": 0,
+    "total_op": 21.0,
+    "per_op": 0.3329,
+    "total_pulls": 3.9,
+    "per_pull": 1.7923
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  "GP_Once_407": {
+   "key": "GP_Once_407",
+   "name": "Stronghold Protocol Data Pack",
+   "name_source": "en",
+   "cn_name": "卫戍协议数据包",
+   "good_id": "GP_Once_407",
+   "good_id_matched_by": null,
+   "event": "act2autochess",
+   "cn_start": "2026-03-14T16:00:00+08:00",
+   "cn_end": "2026-04-04T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-10T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_408": {
+   "key": "GP_Once_408",
+   "name": "Stronghold Protocol Data Set",
+   "name_source": "en",
+   "cn_name": "卫戍协议数据套组",
+   "good_id": "GP_Once_408",
+   "good_id_matched_by": null,
+   "event": "act2autochess",
+   "cn_start": "2026-03-14T16:00:00+08:00",
+   "cn_end": "2026-04-04T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-10T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ]
+  },
+  "GP_Once_58": {
+   "key": "GP_Once_58",
+   "name": "Ambience Synesthesia 2022 Gift Pack",
+   "name_source": "en",
+   "cn_name": "2022音律联觉纪念礼包（复刻）",
+   "good_id": "GP_Once_58",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-04-25T13:30:00Z",
+   "en_end": "2026-05-23T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "2022余韵切片",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "导演的认可",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_90": {
+   "key": "GP_Once_90",
+   "name": "Ambience Synesthesia 2023 Gift Pack",
+   "name_source": "en",
+   "cn_name": "2023音律联觉纪念礼包（复刻）",
+   "good_id": "GP_Once_90",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-04-25T13:30:00Z",
+   "en_end": "2026-05-23T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "2023余韵切片",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "回眸一笑",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_162": {
+   "key": "GP_Once_162",
+   "name": "Ambience Synesthesia 2024 Gift Pack",
+   "name_source": "en",
+   "cn_name": "2024音律联觉纪念礼包（复刻）",
+   "good_id": "GP_Once_162",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-04-25T13:30:00Z",
+   "en_end": "2026-05-23T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "2024余韵切片",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "祈望星光",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_276": {
+   "key": "GP_Once_276",
+   "name": "Ambience Synesthesia 2025 Gift Pack",
+   "name_source": "en",
+   "cn_name": "2025音律联觉纪念礼包（复刻）",
+   "good_id": "GP_Once_276",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-04-25T13:30:00Z",
+   "en_end": "2026-05-23T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "2025余韵切片",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "特邀嘉宾",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_279": {
+   "key": "GP_Once_279",
+   "name": "Glazed Grace Pack",
+   "name_source": "en",
+   "cn_name": "冰纹玉釉组合包（复刻）",
+   "good_id": "GP_Once_279",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "冰纹玉釉",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_281": {
+   "key": "GP_Once_281",
+   "name": "Blooms of Time Pack",
+   "name_source": "en",
+   "cn_name": "时序花圃组合包（复刻）",
+   "good_id": "GP_Once_281",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "时序花圃",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_277": {
+   "key": "GP_Once_277",
+   "name": "Echoes of the Legends Pack",
+   "name_source": "en",
+   "cn_name": "熠曲丰碑组合包（复刻）",
+   "good_id": "GP_Once_277",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "熠曲丰碑",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_278": {
+   "key": "GP_Once_278",
+   "name": "Divine Reverie Pack",
+   "name_source": "en",
+   "cn_name": "移星桂冠组合包（复刻）",
+   "good_id": "GP_Once_278",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "移星桂冠",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_280": {
+   "key": "GP_Once_280",
+   "name": "The Wild Era Pack",
+   "name_source": "en",
+   "cn_name": "雾色秘访组合包（复刻）",
+   "good_id": "GP_Once_280",
+   "good_id_matched_by": null,
+   "event": "act41sre",
+   "cn_start": "2026-03-27T04:00:00+08:00",
+   "cn_end": "2026-04-10T03:59:00+08:00",
+   "en_start": "2026-08-20T15:00:00Z",
+   "en_end": "2026-09-03T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "雾色秘访",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_411": {
+   "key": "GP_Once_411",
+   "name": "Variant Figures Pack",
+   "name_source": "en",
+   "cn_name": "变格形象组合包",
+   "good_id": "GP_Once_411",
+   "good_id_matched_by": null,
+   "event": "act7fun",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "cn_end": "2026-04-22T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 24,
+   "usd": 3.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": null,
+     "name": "米米子",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "靓眼银灰",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "解闷德克萨斯",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "凯尔希炭",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "维维美",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "闲游能天使",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "维什戴尔",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_409": {
+   "key": "GP_Once_409",
+   "name": "Amiko's Photoset",
+   "name_source": "en",
+   "cn_name": "米米子的照片集",
+   "good_id": "GP_Once_409",
+   "good_id_matched_by": null,
+   "event": "act7fun",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "cn_end": "2026-04-22T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "米米子",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_410": {
+   "key": "GP_Once_410",
+   "name": "Wiš'ami's Photoset",
+   "name_source": "en",
+   "cn_name": "维维美的照片集",
+   "good_id": "GP_Once_410",
+   "good_id_matched_by": null,
+   "event": "act7fun",
+   "cn_start": "2026-04-01T12:00:00+08:00",
+   "cn_end": "2026-04-22T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "维维美",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_413": {
+   "key": "GP_Once_413",
+   "name": "Heavy Funding Pack",
+   "name_source": "en",
+   "cn_name": "沉甸甸的资金箱",
+   "good_id": "GP_Once_413",
+   "good_id_matched_by": null,
+   "event": "act51side",
+   "cn_start": "2026-04-07T12:00:00+08:00",
+   "cn_end": "2026-04-21T03:59:00+08:00",
+   "en_start": "2026-09-16T15:00:00Z",
+   "en_end": "2026-09-30T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 21,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 1000000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3600.0,
+    "op": 21,
+    "pulls": 0,
+    "total_op": 47.6667,
+    "per_op": 0.3145,
+    "total_pulls": 6.3,
+    "per_pull": 2.3794
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_412": {
+   "key": "GP_Once_412",
+   "name": "Guard Chip Pack",
+   "name_source": "en",
+   "cn_name": "近卫芯片礼包",
+   "good_id": "GP_Once_412",
+   "good_id_matched_by": null,
+   "event": "act51side",
+   "cn_start": "2026-04-07T12:00:00+08:00",
+   "cn_end": "2026-04-21T03:59:00+08:00",
+   "en_start": "2026-09-16T15:00:00Z",
+   "en_end": "2026-09-30T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "3223",
+     "name": "Guard Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3221",
+     "name": "Guard Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_416": {
+   "key": "GP_Once_416",
+   "name": "Ambience Synesthesia 2026 Gift Pack",
+   "name_source": "en",
+   "cn_name": "2026音律联觉纪念礼包",
+   "good_id": "GP_Once_416",
+   "good_id_matched_by": null,
+   "event": "act3video",
+   "cn_start": "2026-04-25T21:30:00+08:00",
+   "cn_end": "2026-05-23T03:59:00+08:00",
+   "en_start": "2026-04-25T13:30:00Z",
+   "en_end": "2026-05-23T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "2026余韵切片",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "信念共鸣",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 0.891,
+    "total_pulls": 0.3333,
+    "per_pull": 2.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_420": {
+   "key": "GP_Once_420",
+   "name": "The Aphasic Pack",
+   "name_source": "en",
+   "cn_name": "失语者组合包",
+   "good_id": "GP_Once_420",
+   "good_id_matched_by": null,
+   "event": "act3video",
+   "cn_start": "2026-04-25T21:30:00+08:00",
+   "cn_end": "2026-05-23T03:59:00+08:00",
+   "en_start": "2026-09-23T15:00:00Z",
+   "en_end": "2026-10-21T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "失语者",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_417": {
+   "key": "GP_Once_417",
+   "name": "The Congregation Pack",
+   "name_source": "en",
+   "cn_name": "布道人组合包",
+   "good_id": "GP_Once_417",
+   "good_id_matched_by": null,
+   "event": "act3video",
+   "cn_start": "2026-04-25T21:30:00+08:00",
+   "cn_end": "2026-05-23T03:59:00+08:00",
+   "en_start": "2026-09-23T15:00:00Z",
+   "en_end": "2026-10-21T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "布道人",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_418": {
+   "key": "GP_Once_418",
+   "name": "The Scripted Pack",
+   "name_source": "en",
+   "cn_name": "戏中身组合包",
+   "good_id": "GP_Once_418",
+   "good_id_matched_by": null,
+   "event": "act3video",
+   "cn_start": "2026-04-25T21:30:00+08:00",
+   "cn_end": "2026-05-23T03:59:00+08:00",
+   "en_start": "2026-09-23T15:00:00Z",
+   "en_end": "2026-10-21T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "戏中身",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_419": {
+   "key": "GP_Once_419",
+   "name": "Night Watcher Pack",
+   "name_source": "en",
+   "cn_name": "渡星客组合包",
+   "good_id": "GP_Once_419",
+   "good_id_matched_by": null,
+   "event": "act3video",
+   "cn_start": "2026-04-25T21:30:00+08:00",
+   "cn_end": "2026-05-23T03:59:00+08:00",
+   "en_start": "2026-09-23T15:00:00Z",
+   "en_end": "2026-10-21T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "渡星客",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_432": {
+   "key": "GP_Once_432",
+   "name": "Rhodes Island Headhunting Pack - Kernel",
+   "name_source": "en",
+   "cn_name": "中坚调用凭证组合包<br>(2026周年庆典)",
+   "good_id": "GP_Once_432",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": null,
+     "name": "Kernel Selector",
+     "count": 1,
+     "kind": "selector",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "kernel",
+    "selector"
+   ]
+  },
+  "GP_Once_422": {
+   "key": "GP_Once_422",
+   "name": "Vanguard Chip Pack",
+   "name_source": "en",
+   "cn_name": "先锋芯片礼包",
+   "good_id": "GP_Once_422",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "3213",
+     "name": "Vanguard Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3211",
+     "name": "Vanguard Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_424": {
+   "key": "GP_Once_424",
+   "name": "Kal'tsit's Briefcase",
+   "name_source": "en",
+   "cn_name": "凯尔希的手提箱",
+   "good_id": "GP_Once_424",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_421": {
+   "key": "GP_Once_421",
+   "name": "Medic Chip Pack",
+   "name_source": "en",
+   "cn_name": "医疗芯片礼包",
+   "good_id": "GP_Once_421",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "3263",
+     "name": "Medic Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3261",
+     "name": "Medic Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_435": {
+   "key": "GP_Once_435",
+   "name": "Celebration Kernel Headhunting Pack",
+   "name_source": "en",
+   "cn_name": "庆典中坚寻访组合包",
+   "good_id": "GP_Once_435",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": "classic_gacha",
+     "name": "Kernel Headhunting Permit",
+     "count": 5,
+     "kind": "kernel",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "kernel"
+   ]
+  },
+  "GP_Once_425": {
+   "key": "GP_Once_425",
+   "name": "Comprehensive Skill Training Pack",
+   "name_source": "en",
+   "cn_name": "技巧集综合礼包",
+   "good_id": "GP_Once_425",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 6697.5273,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_426": {
+   "key": "GP_Once_426",
+   "name": "Special Training Pack",
+   "name_source": "en",
+   "cn_name": "特训意向礼包",
+   "good_id": "GP_Once_426",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 11,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 3392.5608
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3392.5608,
+    "op": 11,
+    "pulls": 0,
+    "total_op": 36.1301,
+    "per_op": 0.2765,
+    "total_pulls": 3.3,
+    "per_pull": 3.0273
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_430": {
+   "key": "GP_Once_430",
+   "name": "Mixed Materials Pack",
+   "name_source": "en",
+   "cn_name": "综合材料组合包",
+   "good_id": "GP_Once_430",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "precious_material_voucher_perm",
+     "name": "Precious Material Voucher",
+     "count": 10,
+     "kind": "material",
+     "value": 313.478
+    },
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 15,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 20,
+     "kind": "material",
+     "value": 35.1296
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 5318.109,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 39.3934,
+    "per_op": 0.3805,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": [
+    "vouchers"
+   ]
+  },
+  "GP_Once_433": {
+   "key": "GP_Once_433",
+   "name": "Rhodes Island Celebration Kit",
+   "name_source": "en",
+   "cn_name": "罗德岛周年作战包(2026)",
+   "good_id": "GP_Once_433",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 200000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 20,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "2003",
+     "name": "Tactical Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 3.6
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 4,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 6,
+     "kind": "material",
+     "value": 35.1296
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1823.675,
+    "op": 24,
+    "pulls": 20,
+    "total_op": 104.1754,
+    "per_op": 0.2879,
+    "total_pulls": 27.2,
+    "per_pull": 1.1026
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "vouchers"
+   ]
+  },
+  "GP_Once_434": {
+   "key": "GP_Once_434",
+   "name": "Rhodes Island Celebration Pack",
+   "name_source": "en",
+   "cn_name": "罗德岛周年组合包(2026)",
+   "good_id": "GP_Once_434",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 328,
+   "usd": 49.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_skin",
+     "name": "Outfit Voucher",
+     "count": 1,
+     "kind": "material",
+     "value": 2430
+    },
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 90,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 260000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 4,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 6,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 5058.2058,
+    "op": 90,
+    "pulls": 10,
+    "total_op": 160.8015,
+    "per_op": 0.3109,
+    "total_pulls": 37.0,
+    "per_pull": 1.3511
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks",
+    "kernel"
+   ]
+  },
+  "GP_Once_431": {
+   "key": "GP_Once_431",
+   "name": "Rhodes Island Headhunting Pack",
+   "name_source": "en",
+   "cn_name": "调用凭证组合包<br>(2026周年庆典)",
+   "good_id": "GP_Once_431",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": null,
+     "name": "Standard Selector",
+     "count": 1,
+     "kind": "selector",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "selector"
+   ]
+  },
+  "GP_Once_427": {
+   "key": "GP_Once_427",
+   "name": "Senior Operator Training Pack",
+   "name_source": "en",
+   "cn_name": "资深干员特训礼包",
+   "good_id": "GP_Once_427",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3764.7875,
+    "op": 24,
+    "pulls": 0,
+    "total_op": 51.8873,
+    "per_op": 0.2889,
+    "total_pulls": 7.2,
+    "per_pull": 2.0819
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_NpOne_nc_0_7": {
+   "key": "GP_NpOne_nc_0_7",
+   "name": "Newcomer Special Headhunting Pack",
+   "name_source": "en",
+   "cn_name": "迎新特别寻访组合包(2026)",
+   "good_id": "GP_NpOne_nc_0_7",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-15T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-10-28T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "2026recruitment10_register_1",
+     "name": "Type-α Newcomer Headhunting Permit",
+     "count": 1,
+     "kind": "random_of_3",
+     "value": null
+    },
+    {
+     "id": "2026recruitment10_register_2",
+     "name": "Type-β Newcomer Headhunting Permit",
+     "count": 1,
+     "kind": "random_of_3",
+     "value": null
+    },
+    {
+     "id": "2026recruitment10_register_3",
+     "name": "Type-γ Newcomer Headhunting Permit",
+     "count": 1,
+     "kind": "random_of_3",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "random_of_3"
+   ]
+  },
+  "GP_Once_428": {
+   "key": "GP_Once_428",
+   "name": "Advanced Special Training Pack",
+   "name_source": "en",
+   "cn_name": "高级特训意向礼包",
+   "good_id": "GP_Once_428",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 128,
+   "usd": 19.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 19,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 5381.838,
+    "op": 19,
+    "pulls": 0,
+    "total_op": 58.8655,
+    "per_op": 0.3396,
+    "total_pulls": 5.7,
+    "per_pull": 3.507
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_429": {
+   "key": "GP_Once_429",
+   "name": "Top Operator Training Pack",
+   "name_source": "en",
+   "cn_name": "高级资深干员特训礼包",
+   "good_id": "GP_Once_429",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 36,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 5714.8216,
+    "op": 36,
+    "pulls": 0,
+    "total_op": 78.332,
+    "per_op": 0.3318,
+    "total_pulls": 10.8,
+    "per_pull": 2.4065
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_423": {
+   "key": "GP_Once_423",
+   "name": "Duck Lord's Change Purse",
+   "name_source": "en",
+   "cn_name": "鸭爵的零钱包",
+   "good_id": "GP_Once_423",
+   "good_id_matched_by": null,
+   "event": "act4mainss",
+   "cn_start": "2026-05-01T12:00:00+08:00",
+   "cn_end": "2026-05-29T03:59:00+08:00",
+   "en_start": "2026-10-14T12:00:00Z",
+   "en_end": "2026-11-11T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 45,
+   "usd": 6.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 13,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 300000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1080.0,
+    "op": 13,
+    "pulls": 0,
+    "total_op": 21.0,
+    "per_op": 0.3329,
+    "total_pulls": 3.9,
+    "per_pull": 1.7923
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  "GP_Once_439": {
+   "key": "GP_Once_439",
+   "name": "Orienteering Headhunting Pack",
+   "name_source": "en",
+   "cn_name": "定向甄选寻访组合包",
+   "good_id": "GP_Once_439",
+   "good_id_matched_by": null,
+   "event": "sandbox_2",
+   "cn_start": "2026-05-15T16:00:00+08:00",
+   "cn_end": "2026-06-12T03:59:00+08:00",
+   "en_start": "2026-10-28T15:00:00Z",
+   "en_end": "2026-11-25T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 9,
+     "kind": "op",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 9,
+    "pulls": 20,
+    "total_op": 75.6667,
+    "per_op": 0.3435,
+    "total_pulls": 22.7,
+    "per_pull": 1.1449
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  "GP_Once_440": {
+   "key": "GP_Once_440",
+   "name": "Rhodes Island Data Pack",
+   "name_source": "en",
+   "cn_name": "罗德岛数据包",
+   "good_id": "GP_Once_440",
+   "good_id_matched_by": null,
+   "event": "sandbox_2",
+   "cn_start": "2026-05-15T16:00:00+08:00",
+   "cn_end": "2026-06-12T03:59:00+08:00",
+   "en_start": "2026-10-28T15:00:00Z",
+   "en_end": "2026-11-25T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_441": {
+   "key": "GP_Once_441",
+   "name": "Rhodes Island Data Set",
+   "name_source": "en",
+   "cn_name": "罗德岛数据套组",
+   "good_id": "GP_Once_441",
+   "good_id_matched_by": null,
+   "event": "sandbox_2",
+   "cn_start": "2026-05-15T16:00:00+08:00",
+   "cn_end": "2026-06-12T03:59:00+08:00",
+   "en_start": "2026-10-28T15:00:00Z",
+   "en_end": "2026-11-25T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ]
+  },
+  "GP_Once_442": {
+   "key": "GP_Once_442",
+   "name": "Rhodes Island Funding Box",
+   "name_source": "en",
+   "cn_name": "罗德岛资金箱",
+   "good_id": "GP_Once_442",
+   "good_id_matched_by": null,
+   "event": "sandbox_2",
+   "cn_start": "2026-05-15T16:00:00+08:00",
+   "cn_end": "2026-06-12T03:59:00+08:00",
+   "en_start": "2026-10-28T15:00:00Z",
+   "en_end": "2026-11-25T10:59:59Z",
+   "window_source": "pack",
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "en",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_449": {
+   "key": "GP_Once_449",
+   "name": "Companions on the Trail Pack",
+   "name_source": "en",
+   "cn_name": "寻踪相伴组合包",
+   "good_id": "GP_Once_449",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 200000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 4,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1838.1258,
+    "op": 24,
+    "pulls": 20,
+    "total_op": 104.2824,
+    "per_op": 0.2876,
+    "total_pulls": 27.2,
+    "per_pull": 1.1026
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_443": {
+   "key": "GP_Once_443",
+   "name": "Minoto Art",
+   "name_source": "en",
+   "cn_name": "水芸仿绘礼包",
+   "good_id": "GP_Once_443",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 12,
+   "usd": 1.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "很好奇的猫",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "很调皮的狗",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 1.791,
+    "total_pulls": 0.3333,
+    "per_pull": 5.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_445": {
+   "key": "GP_Once_445",
+   "name": "Minoto Collection",
+   "name_source": "en",
+   "cn_name": "水芸珍藏礼包",
+   "good_id": "GP_Once_445",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 1600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "一起去狩猎喵！",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2.6667,
+    "total_op": 8.8889,
+    "per_op": 0.5614,
+    "total_pulls": 2.6667,
+    "per_pull": 1.8712
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_451": {
+   "key": "GP_Once_451",
+   "name": "Bountiful Return Pack",
+   "name_source": "en",
+   "cn_name": "满载而归组合包",
+   "good_id": "GP_Once_451",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 5000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 100000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 80,
+     "kind": "material",
+     "value": 1.5736
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 2,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1059.968,
+    "op": 0,
+    "pulls": 8.3333,
+    "total_op": 35.6294,
+    "per_op": 0.2804,
+    "total_pulls": 8.3333,
+    "per_pull": 1.1988
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_446": {
+   "key": "GP_Once_446",
+   "name": "Sniper Chip Pack",
+   "name_source": "en",
+   "cn_name": "狙击芯片礼包",
+   "good_id": "GP_Once_446",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3243",
+     "name": "Sniper Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3241",
+     "name": "Sniper Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_447": {
+   "key": "GP_Once_447",
+   "name": "Hunter Special Training Pack",
+   "name_source": "en",
+   "cn_name": "狩猎特训组合包",
+   "good_id": "GP_Once_447",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 13244.3966,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 98.1066,
+    "per_op": 0.2649,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_450": {
+   "key": "GP_Once_450",
+   "name": "Hunter Supply Crate",
+   "name_source": "en",
+   "cn_name": "猎人的补给箱",
+   "good_id": "GP_Once_450",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_444": {
+   "key": "GP_Once_444",
+   "name": "Strike Camp Hunt Pack",
+   "name_source": "en",
+   "cn_name": "结营出猎组合包",
+   "good_id": "GP_Once_444",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 78,
+   "usd": 11.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 10,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 2500,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "结营",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "出猎",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 10,
+    "pulls": 4.1667,
+    "total_op": 23.8889,
+    "per_op": 0.5019,
+    "total_pulls": 7.1667,
+    "per_pull": 1.673
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  "GP_Once_448": {
+   "key": "GP_Once_448",
+   "name": "Hunter Arts Pack",
+   "name_source": "en",
+   "cn_name": "追猎技艺组合包",
+   "good_id": "GP_Once_448",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 128,
+   "usd": 19.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 2,
+     "kind": "material",
+     "value": 3392.5608
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 12166.9596,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 90.1256,
+    "per_op": 0.2218,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_88": {
+   "key": "GP_Once_88",
+   "name": "Roka Voyager Memorial Pack",
+   "name_source": "en",
+   "cn_name": "露华远行纪念礼包（复刻）",
+   "good_id": "GP_Once_88",
+   "good_id_matched_by": null,
+   "event": "act50side",
+   "cn_start": "2026-06-01T12:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 600,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "寻火之叶",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 1.0,
+    "total_op": 3.3333,
+    "per_op": 0.297,
+    "total_pulls": 1.0,
+    "per_pull": 0.99
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  "GP_Once_452": {
+   "key": "GP_Once_452",
+   "name": "Specialist Chip Pack",
+   "name_source": "en",
+   "cn_name": "特种芯片礼包",
+   "good_id": "GP_Once_452",
+   "good_id_matched_by": null,
+   "event": "act24sre",
+   "cn_start": "2026-06-15T16:00:00+08:00",
+   "cn_end": "2026-06-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3283",
+     "name": "Specialist Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3281",
+     "name": "Specialist Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_454": {
+   "key": "GP_Once_454",
+   "name": "Comprehensive Skill Training Pack",
+   "name_source": "en",
+   "cn_name": "技巧集综合礼包",
+   "good_id": "GP_Once_454",
+   "good_id_matched_by": null,
+   "event": "crisis_v2_season_5_1",
+   "cn_start": "2026-06-26T16:00:00+08:00",
+   "cn_end": "2026-07-10T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 6697.5273,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_456": {
+   "key": "GP_Once_456",
+   "name": "Rhodes Island Data Pack",
+   "name_source": "en",
+   "cn_name": "罗德岛数据包",
+   "good_id": "GP_Once_456",
+   "good_id_matched_by": null,
+   "event": "crisis_v2_season_5_1",
+   "cn_start": "2026-06-26T16:00:00+08:00",
+   "cn_end": "2026-07-10T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_457": {
+   "key": "GP_Once_457",
+   "name": "Rhodes Island Data Set",
+   "name_source": "en",
+   "cn_name": "罗德岛数据套组",
+   "good_id": "GP_Once_457",
+   "good_id_matched_by": null,
+   "event": "crisis_v2_season_5_1",
+   "cn_start": "2026-06-26T16:00:00+08:00",
+   "cn_end": "2026-07-10T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ]
+  },
+  "GP_Once_453": {
+   "key": "GP_Once_453",
+   "name": "Rhodes Island Funding Box",
+   "name_source": "en",
+   "cn_name": "罗德岛资金箱",
+   "good_id": "GP_Once_453",
+   "good_id_matched_by": null,
+   "event": "crisis_v2_season_5_1",
+   "cn_start": "2026-06-26T16:00:00+08:00",
+   "cn_end": "2026-07-10T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_455": {
+   "key": "GP_Once_455",
+   "name": "Advanced Special Training Bundle",
+   "name_source": "en",
+   "cn_name": "高级特训意向组合包",
+   "good_id": "GP_Once_455",
+   "good_id_matched_by": null,
+   "event": "crisis_v2_season_5_1",
+   "cn_start": "2026-06-26T16:00:00+08:00",
+   "cn_end": "2026-07-10T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 3392.5608
+    },
+    {
+     "id": "voucher_levelmax_4",
+     "name": "Professional Operator Training Apparatus",
+     "count": 2,
+     "kind": "material",
+     "value": 2194.4232
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 13163.2452,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 97.5055,
+    "per_op": 0.2665,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_458": {
+   "key": "GP_Once_458",
+   "name": "Friendship Knights Pack",
+   "name_source": "en",
+   "cn_name": "友谊骑士组合包",
+   "good_id": "GP_Once_458",
+   "good_id_matched_by": null,
+   "event": "act9switch",
+   "cn_start": "2026-07-03T16:00:00+08:00",
+   "cn_end": "2026-07-24T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 12,
+   "usd": 1.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 400,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "坚忍玛恩纳",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "灼灼临光",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "瑕光点点",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "鞭刃佐菲娅",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.6667,
+    "total_op": 2.2222,
+    "per_op": 0.8955,
+    "total_pulls": 0.6667,
+    "per_pull": 2.985
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_460": {
+   "key": "GP_Once_460",
+   "name": "Genuine Friendship Pack",
+   "name_source": "en",
+   "cn_name": "真挚友谊组合包",
+   "good_id": "GP_Once_460",
+   "good_id_matched_by": null,
+   "event": "act9switch",
+   "cn_start": "2026-07-03T16:00:00+08:00",
+   "cn_end": "2026-07-24T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 78,
+   "usd": 11.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 10,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 2000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "「碧琪的音乐播放器」",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "金橡树图书馆",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "合照",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 10,
+    "pulls": 3.3333,
+    "total_op": 21.1111,
+    "per_op": 0.5679,
+    "total_pulls": 6.3333,
+    "per_pull": 1.8932
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_459": {
+   "key": "GP_Once_459",
+   "name": "Magic Guardian Pack",
+   "name_source": "en",
+   "cn_name": "魔法护卫组合包",
+   "good_id": "GP_Once_459",
+   "good_id_matched_by": null,
+   "event": "act9switch",
+   "cn_start": "2026-07-03T16:00:00+08:00",
+   "cn_end": "2026-07-24T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 12,
+   "usd": 1.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 400,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "赤沙娜仁图亚",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "不言弃的格拉尼",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "林间流星",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "空中大爆破",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.6667,
+    "total_op": 2.2222,
+    "per_op": 0.8955,
+    "total_pulls": 0.6667,
+    "per_pull": 2.985
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_464": {
+   "key": "GP_Once_464",
+   "name": "Genesis Factor Pack",
+   "name_source": "mtl",
+   "cn_name": "创生因子组合包",
+   "good_id": "GP_Once_464",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-31T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_468": {
+   "key": "GP_Once_468",
+   "name": "Comprehensive Skill Training Pack",
+   "name_source": "scrape",
+   "cn_name": "技巧集综合礼包",
+   "good_id": "GP_Once_468",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-31T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 6697.5273,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_463": {
+   "key": "GP_Once_463",
+   "name": "Caster Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "术师芯片礼包",
+   "good_id": "GP_Once_463",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-31T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3253",
+     "name": "Caster Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3251",
+     "name": "Caster Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_465": {
+   "key": "GP_Once_465",
+   "name": "Sunken Secret Realm Pack",
+   "name_source": "mtl",
+   "cn_name": "沉沦秘境组合包",
+   "good_id": "GP_Once_465",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-31T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    },
+    {
+     "id": "voucher_elite_II_4",
+     "name": "Professional Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 2060.0414
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 13599.6919,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 100.7385,
+    "per_op": 0.258,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_461": {
+   "key": "GP_Once_461",
+   "name": "Certain Chaos Headhunting Pack",
+   "name_source": "mtl",
+   "cn_name": "确定混沌寻访包",
+   "good_id": "GP_Once_461",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-23T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "SINGLE_75_0_1_GACHA",
+     "name": "确定性混沌寻访凭证",
+     "count": 2,
+     "kind": "pulls",
+     "value": 1,
+     "item_type": "EXCLUSIVE_TKT_GACHA"
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2,
+    "total_op": 6.6667,
+    "per_op": 0.1485,
+    "total_pulls": 2.0,
+    "per_pull": 0.495
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "banner_only"
+   ]
+  },
+  "GP_Once_462": {
+   "key": "GP_Once_462",
+   "name": "Certain Chaos Ten-Roll Headhunting Pack",
+   "name_source": "mtl",
+   "cn_name": "确定混沌寻访组合包",
+   "good_id": "GP_Once_462",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-23T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 58,
+   "usd": 8.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "SINGLE_75_0_1_GACHA_10",
+     "name": "确定性混沌十连寻访凭证",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10,
+     "item_type": "EXCLUSIVE_TKT_GACHA_10"
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": 0.2697,
+    "total_pulls": 10.0,
+    "per_pull": 0.899
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "banner_only"
+   ]
+  },
+  "GP_Once_466": {
+   "key": "GP_Once_466",
+   "name": "Integrated Strategies Data Pack",
+   "name_source": "scrape",
+   "cn_name": "集成战略数据包",
+   "good_id": "GP_Once_466",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-31T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_467": {
+   "key": "GP_Once_467",
+   "name": "Integrated Strategies Data Box",
+   "name_source": "scrape",
+   "cn_name": "集成战略数据整合箱",
+   "good_id": "GP_Once_467",
+   "good_id_matched_by": null,
+   "event": "act21mini",
+   "cn_start": "2026-07-10T12:00:00+08:00",
+   "cn_end": "2026-07-31T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ]
+  },
+  "GP_Once_479": {
+   "key": "GP_Once_479",
+   "name": "Kernel Headhunting Pack",
+   "name_source": "scrape",
+   "cn_name": "中坚寻访组合包",
+   "good_id": "GP_Once_479",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "kernel"
+   ]
+  },
+  "GP_Once_478": {
+   "key": "GP_Once_478",
+   "name": "Highway Journey Pack",
+   "name_source": "mtl",
+   "cn_name": "公路长旅组合包",
+   "good_id": "GP_Once_478",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 328,
+   "usd": 49.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 90,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skin",
+     "name": "Outfit Voucher",
+     "count": 1,
+     "kind": "material",
+     "value": 2430
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "classic_gacha_10",
+     "name": "Ten-roll Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 260000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 4,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 6,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 5058.2058,
+    "op": 90,
+    "pulls": 10,
+    "total_op": 160.8015,
+    "per_op": 0.3109,
+    "total_pulls": 37.0,
+    "per_pull": 1.3511
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks",
+    "kernel"
+   ]
+  },
+  "GP_Once_476": {
+   "key": "GP_Once_476",
+   "name": "Summer Celebration Supply Pack",
+   "name_source": "mtl",
+   "cn_name": "夏日欢庆补给包（2026）",
+   "good_id": "GP_Once_476",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 128,
+   "usd": 19.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 30,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skin",
+     "name": "Outfit Voucher",
+     "count": 1,
+     "kind": "material",
+     "value": 2430
+    },
+    {
+     "id": "voucher_chipPackage",
+     "name": "Automatic Chip Pack Etcher",
+     "count": 1,
+     "kind": "material",
+     "value": 361.6704
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 8,
+     "kind": "material",
+     "value": 35.1296
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 100000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2003",
+     "name": "Tactical Battle Record",
+     "count": 50,
+     "kind": "material",
+     "value": 3.6
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3612.7072,
+    "op": 30,
+    "pulls": 0,
+    "total_op": 56.7608,
+    "per_op": 0.3522,
+    "total_pulls": 9.0,
+    "per_pull": 2.2211
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "vouchers"
+   ]
+  },
+  "GP_Once_475": {
+   "key": "GP_Once_475",
+   "name": "Summer Refreshment Supply Pack",
+   "name_source": "mtl",
+   "cn_name": "夏日清凉补给包（2026）",
+   "good_id": "GP_Once_475",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "7003",
+     "name": "Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 1
+    },
+    {
+     "id": "classic_gacha",
+     "name": "Kernel Headhunting Permit",
+     "count": 1,
+     "kind": "kernel",
+     "value": 0
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 1,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 10000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 200.0229,
+    "op": 0,
+    "pulls": 1,
+    "total_op": 4.815,
+    "per_op": 0.2056,
+    "total_pulls": 1.0,
+    "per_pull": 0.99
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "module_blocks",
+    "kernel"
+   ]
+  },
+  "GP_Once_471": {
+   "key": "GP_Once_471",
+   "name": "Angelina's Briefcase",
+   "name_source": "mtl",
+   "cn_name": "安洁莉娜的手提箱",
+   "good_id": "GP_Once_471",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_472": {
+   "key": "GP_Once_472",
+   "name": "Comprehensive Skill Training Pack",
+   "name_source": "scrape",
+   "cn_name": "技巧集综合礼包",
+   "good_id": "GP_Once_472",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 6697.5273,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_477": {
+   "key": "GP_Once_477",
+   "name": "Hot Spring Respite Pack",
+   "name_source": "mtl",
+   "cn_name": "热泉小憩组合包",
+   "good_id": "GP_Once_477",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 200000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 20,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "2003",
+     "name": "Tactical Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 3.6
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 4,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 6,
+     "kind": "material",
+     "value": 35.1296
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1823.675,
+    "op": 24,
+    "pulls": 20,
+    "total_op": 104.1754,
+    "per_op": 0.2879,
+    "total_pulls": 27.2,
+    "per_pull": 1.1026
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "vouchers"
+   ]
+  },
+  "GP_Once_469": {
+   "key": "GP_Once_469",
+   "name": "Specialist Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "特种芯片礼包",
+   "good_id": "GP_Once_469",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3283",
+     "name": "Specialist Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3281",
+     "name": "Specialist Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_474": {
+   "key": "GP_Once_474",
+   "name": "Special Training Pack",
+   "name_source": "scrape",
+   "cn_name": "特训意向礼包",
+   "good_id": "GP_Once_474",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 11,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 3392.5608
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3392.5608,
+    "op": 11,
+    "pulls": 0,
+    "total_op": 36.1301,
+    "per_op": 0.2765,
+    "total_pulls": 3.3,
+    "per_pull": 3.0273
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_470": {
+   "key": "GP_Once_470",
+   "name": "Defender Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "重装芯片礼包",
+   "good_id": "GP_Once_470",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3233",
+     "name": "Defender Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3231",
+     "name": "Defender Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_473": {
+   "key": "GP_Once_473",
+   "name": "Advanced Special Training Pack",
+   "name_source": "scrape",
+   "cn_name": "高级特训意向礼包",
+   "good_id": "GP_Once_473",
+   "good_id_matched_by": null,
+   "event": "act53side",
+   "cn_start": "2026-08-01T12:00:00+08:00",
+   "cn_end": "2026-08-29T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 128,
+   "usd": 19.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 19,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 5381.838,
+    "op": 19,
+    "pulls": 0,
+    "total_op": 58.8655,
+    "per_op": 0.3396,
+    "total_pulls": 5.7,
+    "per_pull": 3.507
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_481": {
+   "key": "GP_Once_481",
+   "name": "Azure Gateway Pack",
+   "name_source": "mtl",
+   "cn_name": "幽蓝门扉组合包",
+   "good_id": "GP_Once_481",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 78,
+   "usd": 11.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 10,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 2500,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "扬升",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "月满",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 10,
+    "pulls": 4.1667,
+    "total_op": 23.8889,
+    "per_op": 0.5019,
+    "total_pulls": 7.1667,
+    "per_pull": 1.673
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  "GP_Once_480": {
+   "key": "GP_Once_480",
+   "name": "Moonshadow Glimpse Pack",
+   "name_source": "mtl",
+   "cn_name": "月影一瞥组合包",
+   "good_id": "GP_Once_480",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 12,
+   "usd": 1.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 200,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "坠入清醒",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "凝视映像",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 0.3333,
+    "total_op": 1.1111,
+    "per_op": 1.791,
+    "total_pulls": 0.3333,
+    "per_pull": 5.97
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_488": {
+   "key": "GP_Once_488",
+   "name": "Moonlit Waters Funding Box",
+   "name_source": "mtl",
+   "cn_name": "月行水上资金箱",
+   "good_id": "GP_Once_488",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_482": {
+   "key": "GP_Once_482",
+   "name": "Damp Mirror Image Pack",
+   "name_source": "mtl",
+   "cn_name": "潮湿镜像组合包",
+   "good_id": "GP_Once_482",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 45,
+   "usd": 6.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 3000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": null,
+     "name": "月落镜水",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 5.0,
+    "total_op": 16.6667,
+    "per_op": 0.4194,
+    "total_pulls": 5.0,
+    "per_pull": 1.398
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  "GP_Once_484": {
+   "key": "GP_Once_484",
+   "name": "Specialist Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "特种芯片礼包",
+   "good_id": "GP_Once_484",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3283",
+     "name": "Specialist Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3281",
+     "name": "Specialist Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_487": {
+   "key": "GP_Once_487",
+   "name": "Apple Blossom Petal Pack",
+   "name_source": "mtl",
+   "cn_name": "苹果花瓣组合包",
+   "good_id": "GP_Once_487",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 198,
+   "usd": 29.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 200000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2004",
+     "name": "Strategic Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 7.2
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 4,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1838.1258,
+    "op": 24,
+    "pulls": 20,
+    "total_op": 104.2824,
+    "per_op": 0.2876,
+    "total_pulls": 27.2,
+    "per_pull": 1.1026
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_483": {
+   "key": "GP_Once_483",
+   "name": "Blue Velvet Room Pack",
+   "name_source": "mtl",
+   "cn_name": "蓝丝绒房间组合包",
+   "good_id": "GP_Once_483",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 12,
+   "usd": 1.99,
+   "usd_source": "map_estimated",
+   "contents": [
+    {
+     "id": "uni_set_velvet",
+     "name": "月行水上家具收藏包",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "圣歌吟唱台",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    },
+    {
+     "id": null,
+     "name": "选择的留言板",
+     "count": 1,
+     "kind": "cosmetic",
+     "value": null
+    }
+   ],
+   "hidden": true,
+   "hidden_reason": "cosmetic",
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_489": {
+   "key": "GP_Once_489",
+   "name": "Blue Butterfly Gift Pack",
+   "name_source": "mtl",
+   "cn_name": "蓝蝶之礼组合包",
+   "good_id": "GP_Once_489",
+   "good_id_matched_by": null,
+   "event": "act54side",
+   "cn_start": "2026-09-04T12:00:00+08:00",
+   "cn_end": "2026-09-25T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 5000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 100000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "32001",
+     "name": "Chip Catalyst",
+     "count": 2,
+     "kind": "material",
+     "value": 123.0171
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 80,
+     "kind": "material",
+     "value": 1.5736
+    },
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 2,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1059.968,
+    "op": 0,
+    "pulls": 8.3333,
+    "total_op": 35.6294,
+    "per_op": 0.2804,
+    "total_pulls": 8.3333,
+    "per_pull": 1.1988
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_491": {
+   "key": "GP_Once_491",
+   "name": "Orienteering Headhunting Pack",
+   "name_source": "scrape",
+   "cn_name": "定向甄选寻访组合包",
+   "good_id": "GP_Once_491",
+   "good_id_matched_by": null,
+   "event": "act3break",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "cn_end": "2026-10-20T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 9,
+     "kind": "op",
+     "value": null
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 9,
+    "pulls": 20,
+    "total_op": 75.6667,
+    "per_op": 0.3435,
+    "total_pulls": 22.7,
+    "per_pull": 1.1449
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  "GP_Once_493": {
+   "key": "GP_Once_493",
+   "name": "Comprehensive Skill Training Pack",
+   "name_source": "scrape",
+   "cn_name": "技巧集综合礼包",
+   "good_id": "GP_Once_493",
+   "good_id_matched_by": null,
+   "event": "act3break",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "cn_end": "2026-10-20T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 98,
+   "usd": 14.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 2,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 7755.9012,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 69.4511,
+    "per_op": 0.2158,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_495": {
+   "key": "GP_Once_495",
+   "name": "Rhodes Island Data Pack",
+   "name_source": "scrape",
+   "cn_name": "罗德岛数据包",
+   "good_id": "GP_Once_495",
+   "good_id_matched_by": null,
+   "event": "act3break",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "cn_end": "2026-10-20T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  "GP_Once_496": {
+   "key": "GP_Once_496",
+   "name": "Rhodes Island Data Set",
+   "name_source": "scrape",
+   "cn_name": "罗德岛数据套组",
+   "good_id": "GP_Once_496",
+   "good_id_matched_by": null,
+   "event": "act3break",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "cn_end": "2026-10-20T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ]
+  },
+  "GP_Once_492": {
+   "key": "GP_Once_492",
+   "name": "Rhodes Island Funding Box",
+   "name_source": "scrape",
+   "cn_name": "罗德岛资金箱",
+   "good_id": "GP_Once_492",
+   "good_id_matched_by": null,
+   "event": "act3break",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "cn_end": "2026-10-20T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 68,
+   "usd": 9.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  "GP_Once_494": {
+   "key": "GP_Once_494",
+   "name": "Advanced Training Resource Pack",
+   "name_source": "scrape",
+   "cn_name": "高级特训组合包",
+   "good_id": "GP_Once_494",
+   "good_id_matched_by": null,
+   "event": "act3break",
+   "cn_start": "2026-09-29T16:00:00+08:00",
+   "cn_end": "2026-10-20T03:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 13244.3966,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 98.1066,
+    "per_op": 0.2649,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  "GP_Once_498": {
+   "key": "GP_Once_498",
+   "name": "Heavy Funding Pack",
+   "name_source": "scrape",
+   "cn_name": "沉甸甸的资金箱",
+   "good_id": "GP_Once_498",
+   "good_id_matched_by": "price",
+   "event": "act52side",
+   "cn_start": "2026-10-09T12:00:00+08:00",
+   "cn_end": "2026-10-22T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 45,
+   "usd": 6.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 13,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 300000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1080.0,
+    "op": 13,
+    "pulls": 0,
+    "total_op": 21.0,
+    "per_op": 0.3329,
+    "total_pulls": 3.9,
+    "per_pull": 1.7923
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  "GP_Once_500": {
+   "key": "GP_Once_500",
+   "name": "Abyssal Voyage Headhunting Pack",
+   "name_source": "mtl",
+   "cn_name": "海渊巡游寻访包",
+   "good_id": "GP_Once_500",
+   "good_id_matched_by": null,
+   "event": "act52side",
+   "cn_start": "2026-10-09T12:00:00+08:00",
+   "cn_end": "2026-10-22T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 6,
+   "usd": 0.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "SINGLE_78_0_1_GACHA",
+     "name": "海渊巡游寻访凭证",
+     "count": 2,
+     "kind": "pulls",
+     "value": 1,
+     "item_type": "EXCLUSIVE_TKT_GACHA"
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 2,
+    "total_op": 6.6667,
+    "per_op": 0.1485,
+    "total_pulls": 2.0,
+    "per_pull": 0.495
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "banner_only"
+   ]
+  },
+  "GP_Once_501": {
+   "key": "GP_Once_501",
+   "name": "Abyssal Voyage Ten-Roll Headhunting Pack",
+   "name_source": "mtl",
+   "cn_name": "海渊巡游寻访组合包",
+   "good_id": "GP_Once_501",
+   "good_id_matched_by": null,
+   "event": "act52side",
+   "cn_start": "2026-10-09T12:00:00+08:00",
+   "cn_end": "2026-10-22T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 58,
+   "usd": 8.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "SINGLE_78_0_1_GACHA_10",
+     "name": "海渊巡游十连寻访凭证",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10,
+     "item_type": "EXCLUSIVE_TKT_GACHA_10"
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 10,
+    "total_op": 33.3333,
+    "per_op": 0.2697,
+    "total_pulls": 10.0,
+    "per_pull": 0.899
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": [
+    "banner_only"
+   ]
+  },
+  "GP_Once_497": {
+   "key": "GP_Once_497",
+   "name": "Guard Chip Pack",
+   "name_source": "scrape",
+   "cn_name": "近卫芯片礼包",
+   "good_id": "GP_Once_497",
+   "good_id_matched_by": null,
+   "event": "act52side",
+   "cn_start": "2026-10-09T12:00:00+08:00",
+   "cn_end": "2026-10-22T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 30,
+   "usd": 4.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "3223",
+     "name": "Guard Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3221",
+     "name": "Guard Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  "GP_Once_499": {
+   "key": "GP_Once_499",
+   "name": "Black Stream Sea Training Pack",
+   "name_source": "mtl",
+   "cn_name": "黑流树海特训组合",
+   "good_id": "GP_Once_499",
+   "good_id_matched_by": null,
+   "event": "act52side",
+   "cn_start": "2026-10-09T12:00:00+08:00",
+   "cn_end": "2026-10-22T23:59:00+08:00",
+   "en_start": null,
+   "en_end": null,
+   "window_source": null,
+   "price_cny": 168,
+   "usd": 25.99,
+   "usd_source": "map",
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    },
+    {
+     "id": "voucher_elite_II_4",
+     "name": "Professional Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 2060.0414
+    }
+   ],
+   "hidden": false,
+   "hidden_reason": null,
+   "measure": {
+    "material": 13599.6919,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 100.7385,
+    "per_op": 0.258,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  }
+ },
+ "regular": [
+  {
+   "name": "Monthly Card",
+   "usd": 4.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 6,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 6000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": "ap_supply_lt_80",
+     "name": "Emergency Sanity Booster",
+     "count": 30,
+     "kind": "material",
+     "value": 80
+    }
+   ],
+   "text": "6x Originite Prime, then daily for 30 days: 200x Orundum, 1x Emergency Sanity Booster",
+   "measure": {
+    "material": 2400,
+    "op": 6,
+    "pulls": 10.0,
+    "total_op": 57.1111,
+    "per_op": 0.0874,
+    "total_pulls": 11.8,
+    "per_pull": 0.4229
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  {
+   "name": "Monthly Headhunting Pack",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 42,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 0,
+    "op": 42,
+    "pulls": 10,
+    "total_op": 75.3333,
+    "per_op": 0.345,
+    "total_pulls": 22.6,
+    "per_pull": 1.15
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  {
+   "name": "Monthly Funding Pack",
+   "usd": 2.99,
+   "contents": [
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 240000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 864.0,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 6.4,
+    "per_op": 0.4672,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  {
+   "name": "Monthly Battle Record Pack",
+   "usd": 4.99,
+   "contents": [
+    {
+     "id": "xp",
+     "name": "XP",
+     "count": 324000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 1166.4,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 8.64,
+    "per_op": 0.5775,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  {
+   "name": "Material Voucher Pack",
+   "usd": 4.99,
+   "contents": [
+    {
+     "id": "premium_material_issue_voucher",
+     "name": "Premium Material Voucher",
+     "count": 8,
+     "kind": "material",
+     "value": 98.7158
+    },
+    {
+     "id": "advanced_material_issue_voucher",
+     "name": "Advanced Material Voucher",
+     "count": 12,
+     "kind": "material",
+     "value": 35.1296
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 1211.2816,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 8.9725,
+    "per_op": 0.5561,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": null
+   },
+   "notes": [
+    "vouchers"
+   ]
+  },
+  {
+   "name": "$2 Chip Packs",
+   "usd": 1.99,
+   "contents": [
+    {
+     "id": "3212",
+     "name": "Vanguard Chip Pack",
+     "count": 5,
+     "kind": "material",
+     "value": 34.4448
+    },
+    {
+     "id": "3211",
+     "name": "Vanguard Chip",
+     "count": 8,
+     "kind": "material",
+     "value": 17.2224
+    }
+   ],
+   "text": "5x Chip Pack, 8x Chip",
+   "measure": {
+    "material": 310.0032,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 2.2963,
+    "per_op": 0.8666,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  {
+   "name": "$5 Chip Packs (one per banner)",
+   "usd": 4.99,
+   "contents": [
+    {
+     "id": "3213",
+     "name": "Vanguard Dualchip",
+     "count": 4,
+     "kind": "material",
+     "value": 191.907
+    },
+    {
+     "id": "3211",
+     "name": "Vanguard Chip",
+     "count": 5,
+     "kind": "material",
+     "value": 17.2224
+    },
+    {
+     "id": "3303",
+     "name": "Skill Summary - 3",
+     "count": 45,
+     "kind": "material",
+     "value": 10.1713
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 25,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 10,
+     "kind": "material",
+     "value": 1.5736
+    }
+   ],
+   "text": "4x Dualchip, 5x Chip, 45x Skill Summary - 3, 25x Skill Summary - 2, 10x Skill Summary - 1",
+   "measure": {
+    "material": 1427.202,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 10.5719,
+    "per_op": 0.472,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "yellow",
+    "per_pull": null
+   },
+   "notes": []
+  }
+ ],
+ "starter": [
+  {
+   "name": "Starter Pack",
+   "usd": 0.99,
+   "contents": [
+    {
+     "id": "7003",
+     "name": "Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 1
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 10000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2001",
+     "name": "Drill Battle Record",
+     "count": 20,
+     "kind": "material",
+     "value": 0.72
+    }
+   ],
+   "text": "1x Headhunting Permit, 10,000x LMD, 20x Drill Battle Record, Myrtle",
+   "measure": {
+    "material": 50.4,
+    "op": 0,
+    "pulls": 1,
+    "total_op": 3.7067,
+    "per_op": 0.2671,
+    "total_pulls": 1.0,
+    "per_pull": 0.99
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  {
+   "name": "Starter Monthly Pack",
+   "usd": 6.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 6,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4003",
+     "name": "Orundum",
+     "count": 6000,
+     "kind": "pulls",
+     "value": 0.0016666666666666668
+    },
+    {
+     "id": "ap_supply_lt_80",
+     "name": "Emergency Sanity Booster",
+     "count": 30,
+     "kind": "material",
+     "value": 80
+    },
+    {
+     "id": "7003",
+     "name": "Headhunting Permit",
+     "count": 3,
+     "kind": "pulls",
+     "value": 1
+    }
+   ],
+   "text": "1x Monthly Card, 3x Headhunting Permit",
+   "measure": {
+    "material": 2400,
+    "op": 6,
+    "pulls": 13.0,
+    "total_op": 67.1111,
+    "per_op": 0.1042,
+    "total_pulls": 14.8,
+    "per_pull": 0.4723
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  {
+   "name": "Starter Headhunting Pack",
+   "usd": 19.99,
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 0,
+    "op": 0,
+    "pulls": 20,
+    "total_op": 66.6667,
+    "per_op": 0.2998,
+    "total_pulls": 20.0,
+    "per_pull": 0.9995
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  {
+   "name": "Starter Special Training Pack",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    },
+    {
+     "id": "voucher_elite_II_4",
+     "name": "Professional Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 2060.0414
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 13599.6919,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 100.7385,
+    "per_op": 0.258,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  {
+   "name": "Starter Upgrade Pack",
+   "usd": 9.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 13,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 40000,
+     "kind": "material",
+     "value": 0.0036
+    },
+    {
+     "id": "2003",
+     "name": "Tactical Battle Record",
+     "count": 20,
+     "kind": "material",
+     "value": 3.6
+    },
+    {
+     "id": "2002",
+     "name": "Frontline Battle Record",
+     "count": 30,
+     "kind": "material",
+     "value": 1.44
+    },
+    {
+     "id": "2001",
+     "name": "Drill Battle Record",
+     "count": 40,
+     "kind": "material",
+     "value": 0.72
+    },
+    {
+     "id": "3301",
+     "name": "Skill Summary - 1",
+     "count": 30,
+     "kind": "material",
+     "value": 1.5736
+    },
+    {
+     "id": "3302",
+     "name": "Skill Summary - 2",
+     "count": 10,
+     "kind": "material",
+     "value": 4.0007
+    },
+    {
+     "id": "30062",
+     "name": "Device",
+     "count": 4,
+     "kind": "material",
+     "value": 9.2419
+    },
+    {
+     "id": "30052",
+     "name": "Polyketon",
+     "count": 5,
+     "kind": "material",
+     "value": 7.015
+    },
+    {
+     "id": "30042",
+     "name": "Oriron",
+     "count": 5,
+     "kind": "material",
+     "value": 6.858
+    },
+    {
+     "id": "30032",
+     "name": "Polyester",
+     "count": 7,
+     "kind": "material",
+     "value": 5.6637
+    },
+    {
+     "id": "30022",
+     "name": "Sugar",
+     "count": 7,
+     "kind": "material",
+     "value": 5.8671
+    },
+    {
+     "id": "30012",
+     "name": "Orirock Cube",
+     "count": 10,
+     "kind": "material",
+     "value": 3.5339
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 597.6022,
+    "op": 13,
+    "pulls": 0,
+    "total_op": 17.4267,
+    "per_op": 0.5733,
+    "total_pulls": 3.9,
+    "per_pull": 2.5615
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": [
+    "dont_buy"
+   ]
+  },
+  {
+   "name": "Starter Furniture Pack",
+   "usd": 9.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 6,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "3401",
+     "name": "Furniture Part",
+     "count": 2400,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 0,
+    "op": 6,
+    "pulls": 0,
+    "total_op": 6.0,
+    "per_op": 1.665,
+    "total_pulls": 1.8,
+    "per_pull": 5.55
+   },
+   "colours": {
+    "per_op": "red",
+    "per_pull": "red"
+   },
+   "notes": [
+    "dont_buy"
+   ]
+  }
+ ],
+ "common": [
+  {
+   "name": "24 Module Data Blocks, with upgrade materials",
+   "usd": 9.99,
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 24,
+     "kind": "material",
+     "value": 164.0229
+    },
+    {
+     "id": "mod_update_token_2",
+     "name": "Data Supplement Instrument",
+     "count": 30,
+     "kind": "zero",
+     "value": 0
+    },
+    {
+     "id": "mod_update_token_1",
+     "name": "Data Supplement Stick",
+     "count": 90,
+     "kind": "zero",
+     "value": 0
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 3936.5496,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 29.1596,
+    "per_op": 0.3426,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_materials",
+    "module_blocks"
+   ]
+  },
+  {
+   "name": "12 Module Data Blocks",
+   "usd": 4.99,
+   "contents": [
+    {
+     "id": "mod_unlock_token",
+     "name": "Module Data Block",
+     "count": 12,
+     "kind": "material",
+     "value": 164.0229
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 1968.2748,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 14.5798,
+    "per_op": 0.3423,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "module_blocks"
+   ]
+  },
+  {
+   "name": "700,000 LMD",
+   "usd": 9.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 16,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 700000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 2520.0,
+    "op": 16,
+    "pulls": 0,
+    "total_op": 34.6667,
+    "per_op": 0.2882,
+    "total_pulls": 4.8,
+    "per_pull": 2.0813
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  {
+   "name": "300,000 LMD",
+   "usd": 6.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 13,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "4001",
+     "name": "LMD",
+     "count": 300000,
+     "kind": "material",
+     "value": 0.0036
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 1080.0,
+    "op": 13,
+    "pulls": 0,
+    "total_op": 21.0,
+    "per_op": 0.3329,
+    "total_pulls": 3.9,
+    "per_pull": 1.7923
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "yellow"
+   },
+   "notes": []
+  },
+  {
+   "name": "1x 6★ E2, 2x 5★ E2",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 13244.3966,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 98.1066,
+    "per_op": 0.2649,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  {
+   "name": "1x 6★ E2, 1x 5★ E2, 2x 4★ E2",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    },
+    {
+     "id": "voucher_elite_II_4",
+     "name": "Professional Operator Training Invitation Letter",
+     "count": 2,
+     "kind": "material",
+     "value": 2060.0414
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 13599.6919,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 100.7385,
+    "per_op": 0.258,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  {
+   "name": "1x 6★ E2",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 36,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_elite_II_6",
+     "name": "Top Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 5714.8216
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 5714.8216,
+    "op": 36,
+    "pulls": 0,
+    "total_op": 78.332,
+    "per_op": 0.3318,
+    "total_pulls": 10.8,
+    "per_pull": 2.4065
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  {
+   "name": "1x 5★ E2",
+   "usd": 14.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 24,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_elite_II_5",
+     "name": "Senior Operator Training Invitation Letter",
+     "count": 1,
+     "kind": "material",
+     "value": 3764.7875
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 3764.7875,
+    "op": 24,
+    "pulls": 0,
+    "total_op": 51.8873,
+    "per_op": 0.2889,
+    "total_pulls": 7.2,
+    "per_pull": 2.0819
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  {
+   "name": "1x 6★ M3, 1x 5★ M3, 1x 4★ M3",
+   "usd": 14.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 12,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_6",
+     "name": "Top Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 3402.2003
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_5",
+     "name": "Senior Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 2236.9531
+    },
+    {
+     "id": "voucher_skill_specialLevelMax_4",
+     "name": "Professional Operator Skill Training Pack",
+     "count": 1,
+     "kind": "material",
+     "value": 1058.3739
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 6697.5273,
+    "op": 12,
+    "pulls": 0,
+    "total_op": 61.6113,
+    "per_op": 0.2433,
+    "total_pulls": 3.6,
+    "per_pull": 4.1639
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": [
+    "tickets"
+   ]
+  },
+  {
+   "name": "1x 6★ max level, 1x 5★ max level, 2x 4★ max level",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 3392.5608
+    },
+    {
+     "id": "voucher_levelmax_4",
+     "name": "Professional Operator Training Apparatus",
+     "count": 2,
+     "kind": "material",
+     "value": 2194.4232
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 13163.2452,
+    "op": 0,
+    "pulls": 0,
+    "total_op": 97.5055,
+    "per_op": 0.2665,
+    "total_pulls": 0.0,
+    "per_pull": null
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": null
+   },
+   "notes": []
+  },
+  {
+   "name": "1x 6★ max level",
+   "usd": 19.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 19,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_6",
+     "name": "Top Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 5381.838
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 5381.838,
+    "op": 19,
+    "pulls": 0,
+    "total_op": 58.8655,
+    "per_op": 0.3396,
+    "total_pulls": 5.7,
+    "per_pull": 3.507
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  {
+   "name": "1x 5★ max level",
+   "usd": 9.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 11,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "voucher_levelmax_5",
+     "name": "Senior Operator Training Apparatus",
+     "count": 1,
+     "kind": "material",
+     "value": 3392.5608
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 3392.5608,
+    "op": 11,
+    "pulls": 0,
+    "total_op": 36.1301,
+    "per_op": 0.2765,
+    "total_pulls": 3.3,
+    "per_pull": 3.0273
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "red"
+   },
+   "notes": []
+  },
+  {
+   "name": "2x Ten-roll + 9 OP",
+   "usd": 25.99,
+   "contents": [
+    {
+     "id": "4002",
+     "name": "Originite Prime",
+     "count": 9,
+     "kind": "op",
+     "value": null
+    },
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 2,
+     "kind": "pulls",
+     "value": 10
+    }
+   ],
+   "text": null,
+   "measure": {
+    "material": 0,
+    "op": 9,
+    "pulls": 20,
+    "total_op": 75.6667,
+    "per_op": 0.3435,
+    "total_pulls": 22.7,
+    "per_pull": 1.1449
+   },
+   "colours": {
+    "per_op": "green",
+    "per_pull": "green"
+   },
+   "notes": []
+  },
+  {
+   "name": "6★ Selector (Standard or Kernel)",
+   "usd": 29.99,
+   "contents": [
+    {
+     "id": "7004",
+     "name": "Ten-roll Headhunting Permit",
+     "count": 1,
+     "kind": "pulls",
+     "value": 10
+    },
+    {
+     "id": "selector",
+     "name": "6★ selector",
+     "count": 1,
+     "kind": "selector",
+     "value": null
+    }
+   ],
+   "text": "1x Ten-roll Headhunting Permit, 1x 6★ selector (the Kernel version adds a Kernel ten-roll)",
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "selector"
+   ]
+  },
+  {
+   "name": "6★ Random of 3",
+   "usd": 25.99,
+   "contents": [],
+   "text": "One of three 6★ operators",
+   "measure": null,
+   "colours": {
+    "per_op": null,
+    "per_pull": null
+   },
+   "notes": [
+    "random_of_3"
+   ]
+  }
+ ],
+ "op_packs": [
+  {
+   "usd": 0.99,
+   "op": 1,
+   "double": 3,
+   "per_op": 0.99,
+   "per_pull": 3.3,
+   "per_op_double": 0.33,
+   "per_pull_double": 1.1
+  },
+  {
+   "usd": 4.99,
+   "op": 7,
+   "double": 12,
+   "per_op": 0.7129,
+   "per_pull": 2.3762,
+   "per_op_double": 0.4158,
+   "per_pull_double": 1.3861
+  },
+  {
+   "usd": 14.99,
+   "op": 24,
+   "double": 40,
+   "per_op": 0.6246,
+   "per_pull": 2.0819,
+   "per_op_double": 0.3748,
+   "per_pull_double": 1.2492
+  },
+  {
+   "usd": 29.99,
+   "op": 50,
+   "double": 80,
+   "per_op": 0.5998,
+   "per_pull": 1.9993,
+   "per_op_double": 0.3749,
+   "per_pull_double": 1.2496
+  },
+  {
+   "usd": 49.99,
+   "op": 90,
+   "double": 132,
+   "per_op": 0.5554,
+   "per_pull": 1.8515,
+   "per_op_double": 0.3787,
+   "per_pull_double": 1.2624
+  },
+  {
+   "usd": 99.99,
+   "op": 185,
+   "double": 260,
+   "per_op": 0.5405,
+   "per_pull": 1.8016,
+   "per_op_double": 0.3846,
+   "per_pull_double": 1.2819
+  }
+ ],
+ "notes": [
+  {
+   "key": "module_materials",
+   "text": "Module upgrade materials (Data Supplement Sticks and Instruments) aren't counted: they can't be farmed, and Module Data Blocks limit module upgrades anyway."
+  },
+  {
+   "key": "module_blocks",
+   "text": "Module Data Blocks are valued based on red certificates, but red certificate purchases are limited, so they may be worth more if you're short on time."
+  },
+  {
+   "key": "vouchers",
+   "text": "Material vouchers are valued at the average of the most valuable materials they can buy, so cheap picks like Rocks and Kohl don't drag them down."
+  },
+  {
+   "key": "kernel",
+   "text": "Kernel pulls aren't counted (don't roll on Kernel banners)."
+  },
+  {
+   "key": "tickets",
+   "text": "Training Invitation Letters and Skill Training Packs are valued at the average cost across every operator of their rarity."
+  },
+  {
+   "key": "selector",
+   "text": "6★ selector packs aren't valued, since it would be nearly impossible to do. They are by far the best purchase available (except the monthly card): get them if an operator you'd use is on offer."
+  },
+  {
+   "key": "upcoming",
+   "text": "Contents and names come from the CN server and EN prices are estimated. They're usually right, but aren't official until the packs go live on EN."
+  },
+  {
+   "key": "random_of_3",
+   "text": "\"One of three\" packs are generally poor value: they cost only $4 less than the no-luck selector, so buy that first. Only buy one if you'd be happy with any of the three."
+  },
+  {
+   "key": "banner_only",
+   "text": "These pulls can only be used on that event's banner."
+  },
+  {
+   "key": "dont_buy",
+   "text": "Don't buy this one."
+  }
+ ],
+ "attention": [
+  "Heavy Funding Pack [GP_Once_498]: goodId matched by price only -- check it's the right pack"
+ ]
+}

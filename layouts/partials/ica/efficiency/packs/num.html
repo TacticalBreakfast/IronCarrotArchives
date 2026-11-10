@@ -1,0 +1,5 @@
+{{- /*
+  ica/efficiency/packs/num.html — a number with a fixed number of decimals, or "—".
+  Input: dict "value" (number or nil) "decimals" (int) "money" (bool: "$" prefix)
+*/ -}}
+{{- if eq .value nil -}}—{{- else -}}{{ if .money }}${{ end }}{{ lang.FormatNumber (.decimals | default 0) .value }}{{- end -}}

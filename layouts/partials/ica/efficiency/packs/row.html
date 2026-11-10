@@ -1,0 +1,37 @@
+{{- /*
+  ica/efficiency/packs/row.html — one pack: its own <tbody> with the numbers
+  row and, beneath it, a full-width row with the contents and note references
+  (ten columns don't fit the content area). The <tbody> carries the EN sale
+  window for the script, so both rows hide together.
+  Input: dict "pack" (a pack from pack_values.json) "noteNum" (from packs/data.html)
+         "timed" (bool: event packs carry their EN window for the script)
+
+  Kept on one line per element with no blank lines: event tables are emitted
+  inside a {{% %}} shortcode, where a blank line would end the HTML block.
+*/ -}}
+{{- $p := .pack -}}
+{{- $m := $p.measure | default dict -}}{{- /* empty when the pack isn't valued: every cell shows "—" */ -}}
+{{- $parts := slice -}}
+{{- if $p.text -}}
+  {{- $parts = $parts | append $p.text -}}
+{{- else -}}
+  {{- range $p.contents -}}
+    {{- if eq .kind "cosmetic" }}{{ $parts = $parts | append .name }}{{ else }}{{ $parts = $parts | append (printf "%sx %s" (lang.FormatNumber 0 .count) .name) }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $refs := slice -}}
+{{- range $p.notes }}{{ with index $.noteNum . }}{{ $refs = $refs | append (printf `<a href="#pack-note-%d">%d</a>` . .) }}{{ end }}{{ end -}}
+<tbody{{ if .timed }}{{ with $p.en_start }} data-pack-start="{{ . }}"{{ end }}{{ with $p.en_end }} data-pack-end="{{ . }}"{{ end }}{{ end }}>
+<tr class="eff-pack-main">
+<th scope="row">{{ $p.name }}{{ if eq $p.name_source "mtl" }} <span class="eff-foot-note">(MTL)</span>{{ end }}</th>
+<td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" $p.usd "decimals" 2 "money" true) }}{{ if eq $p.usd_source "map_estimated" }} <span class="eff-foot-note">est.</span>{{ end }}</td>
+<td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "material") "decimals" 0) }}</td>
+<td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "op") "decimals" 0) }}</td>
+<td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "pulls") "decimals" 1) }}</td>
+<td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "total_op") "decimals" 1) }}</td>
+<td class="eff-num{{ with $p.colours.per_op }} eff-pack-{{ . }}{{ end }}">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_op") "decimals" 2 "money" true) }}</td>
+<td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "total_pulls") "decimals" 1) }}</td>
+<td class="eff-num{{ with $p.colours.per_pull }} eff-pack-{{ . }}{{ end }}">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_pull") "decimals" 2 "money" true) }}</td>
+</tr>
+<tr class="eff-pack-sub"><td colspan="9">{{ delimit $parts ", " }}{{ with $refs }} <span class="eff-pack-refs">(Note {{ delimit . ", " | safeHTML }})</span>{{ end }}</td></tr>
+</tbody>

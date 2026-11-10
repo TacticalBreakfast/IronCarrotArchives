@@ -7,6 +7,9 @@
                                           level and master, as item counts
   data/efficiencies/stats.json            roster statistics for the stats page
                                           (current era only)
+  data/efficiencies/pack_values.json      shop pack valuations -- built last by
+                                          tools/build_pack_values.py (see its
+                                          docstring), from data/efficiencies/packs.yaml
 
 Inputs:
   data/efficiencies/value_rules.yaml               hand-edited rules (eras, packs)
@@ -940,14 +943,30 @@ def main() -> None:
     parser.add_argument("--summary", type=Path, help="write a change summary here if anything changed")
     args = parser.parse_args()
 
+    lines = build_values(args.force)
+    # Shop packs last: they're valued with the packs profile just written.
+    import build_pack_values
+    pack_lines = build_pack_values.build(args.force)
+
+    if args.summary and (lines is not None or pack_lines is not None):
+        body = (lines or []) + (pack_lines or [])
+        if lines is None and not pack_lines:
+            body = ["Regenerated shop packs; no changes worth listing (provenance only)."]
+        args.summary.write_text("Regenerate efficiency data\n\n" + "\n".join(body) + "\n", encoding="utf-8")
+        print("\n".join(body))
+
+
+def build_values(force: bool) -> list[str] | None:
+    """item_values.json, operator_costs.json and stats.json. Returns summary
+    lines, or None when everything was already up to date."""
     old_values = load_json(OUTPUT) if OUTPUT.exists() else None
     old_ops = load_json(OPERATOR_OUTPUT) if OPERATOR_OUTPUT.exists() else None
     operator_inputs, inputs = fingerprint(OPERATOR_INPUTS), fingerprint(INPUTS)
-    operators_current = up_to_date(OPERATOR_OUTPUT, operator_inputs) and not args.force
-    values_current = up_to_date(OUTPUT, inputs) and up_to_date(STATS_OUTPUT, inputs) and not args.force
+    operators_current = up_to_date(OPERATOR_OUTPUT, operator_inputs) and not force
+    values_current = up_to_date(OUTPUT, inputs) and up_to_date(STATS_OUTPUT, inputs) and not force
     if operators_current and values_current:
-        print("Everything is up to date.")
-        return
+        print("Item values, operator costs and stats are up to date.")
+        return None
 
     operators = build_operators()
     if operators_current:
@@ -964,7 +983,7 @@ def main() -> None:
 
     if values_current:
         print(f"{OUTPUT.relative_to(ROOT)} is up to date.")
-        return
+        return summarize(old_values, load_json(OUTPUT), old_ops, load_json(OPERATOR_OUTPUT))
 
     with RULES.open(encoding="utf-8") as f:
         rules = yaml.safe_load(f)
@@ -999,11 +1018,7 @@ def main() -> None:
     for group in recent["groups"]:
         print(f"  recent {group['label']}: {len(group['operators'])} operators "
               f"from {len(recent['patches'])} patches")
-
-    if args.summary:
-        lines = summarize(old_values, load_json(OUTPUT), old_ops, load_json(OPERATOR_OUTPUT))
-        args.summary.write_text("Regenerate efficiency data\n\n" + "\n".join(lines) + "\n", encoding="utf-8")
-        print("\n".join(lines))
+    return summarize(old_values, load_json(OUTPUT), old_ops, load_json(OPERATOR_OUTPUT))
 
 
 if __name__ == "__main__":

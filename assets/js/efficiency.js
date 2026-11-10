@@ -6,7 +6,8 @@
  * enhancement. Picking an era fetches the generated numbers for every era
  * (one JSON file, URL in data-eff-src) and rewrites the cells that carry
  * data-eff-* attributes. No sums are done here -- values come precomputed
- * from tools/build_item_values.py. Also: roster sorting and filters.
+ * from tools/build_item_values.py. Also: roster sorting and filters, and the
+ * shop packs page's live/ended status.
  *
  * Highlights (recent page only) must match
  * layouts/partials/ica/efficiency/level.html: cells inside
@@ -175,6 +176,47 @@
         btn.closest("th").setAttribute("aria-sort", current.dir === 1 ? "ascending" : "descending");
       });
     });
+  });
+
+  /* ---- Shop packs: live / upcoming / ended ------------------------------ */
+  // The page is built with each pack's status as of build time, but the site
+  // isn't rebuilt the moment a sale starts or ends, and packs often stay on
+  // sale after their event. So re-decide from each row's EN sale window
+  // (data-pack-start / data-pack-end, from pack_values.json): hide ended
+  // packs, hide an event with none left (and its table-of-contents entry),
+  // and switch the badge between the page's own Live / Upcoming labels.
+  document.querySelectorAll("[data-pack-event]").forEach(function (event) {
+    var now = Date.now(), shown = 0, live = false;
+    // One <tbody> per pack (its numbers row and contents row).
+    event.querySelectorAll("tbody[data-pack-start], tbody[data-pack-end]").forEach(function (row) {
+      var start = row.dataset.packStart ? Date.parse(row.dataset.packStart) : null;
+      var end = row.dataset.packEnd ? Date.parse(row.dataset.packEnd) : null;
+      if (end !== null && end < now) { row.hidden = true; return; }
+      if (start !== null && start <= now) live = true;
+    });
+    event.querySelectorAll("tbody").forEach(function (pack) { if (!pack.hidden) shown++; });
+    var heading = event.previousElementSibling;
+    if (!shown) {
+      event.hidden = true;
+      if (heading && /^H[1-6]$/.test(heading.tagName)) {
+        heading.hidden = true;
+        // Blowfish puts the heading's anchor id on a div inside the heading.
+        var anchor = heading.id ? heading : heading.querySelector("[id]");
+        if (anchor) {
+          // ...and renders the contents twice (sidebar and mobile).
+          var href = '[href="#' + anchor.id.replace(/["\\]/g, "\\$&") + '"]';
+          document.querySelectorAll("#TableOfContents a" + href + ", #TableOfContentsMobile a" + href).forEach(function (a) {
+            a.closest("li").hidden = true;
+          });
+        }
+      }
+      return;
+    }
+    var badge = event.querySelector("[data-pack-badge]");
+    if (badge) {
+      badge.textContent = live ? event.dataset.labelLive : event.dataset.labelUpcoming;
+      badge.classList.toggle("eff-pack-badge--live", live);
+    }
   });
 
   /* ---- Links to a row inside the full list's scroll box (#op-…) --------- */
