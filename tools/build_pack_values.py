@@ -24,7 +24,8 @@ pack_values.json (generated -- never hand-edit):
                en_* = the event's own EN dates (null until EN has it);
                expected_en_start = packs.yaml event_dates; order_date = EN
                start, else expected, else CN start + lag_days.
-  packs        {key: pack}, key = goodId (else "<CN name>@<CN start>"), for the
+  packs        {key: pack}, key = goodId (else "<CN name>@<CN start>"; a rerun
+               reusing an earlier pack's goodId gets "<goodId>@<CN date>"), for the
                scraped CN packs. Ended packs are kept: the page hides them.
   regular, starter, common   [pack] from packs.yaml, in file order
   op_packs     [{usd, op, double, per_op, per_pull, per_op_double, per_pull_double}]
@@ -390,7 +391,11 @@ def build(force: bool = False):
     for raw in load_json(SHOP_PACKS):
         cn_start = parse(raw["startDate"])
         key = raw.get("goodId") or f"{raw['name']}@{raw['startDate']}"
-        over = overrides.get(key) or {}
+        # A rerun can reuse its goodId (the photosets: CN April and November).
+        # The first run keeps the bare goodId; later ones add their CN date.
+        if key in packs:
+            key = f"{key}@{raw['startDate'][:10]}"
+        over = overrides.get(raw.get("goodId") or key) or {}
         event = raw.get("event") or {"id": None, "name": None}
         event_id = event["id"] or "_none"
 
