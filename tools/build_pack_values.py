@@ -50,6 +50,8 @@ A pack:
             only); per_* null when there's nothing to divide by
   colours   {per_op, per_pull}: green | yellow | red | null
   notes     [note keys], automatic ones first
+  group     what kind of pack it is, from its contents (pack_group) or a
+            packs.yaml override; orders the packs within an event
   hidden    true when hidden from the page; hidden_reason = cosmetic (UI items
             and nothing of material value -- the default for those) or override
   text      contents description to show instead of the list (hand-written packs)
@@ -66,6 +68,7 @@ The maths is the sheet's (packs.yaml explains it):
 """
 
 import json
+import re
 import statistics
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -88,7 +91,7 @@ CN_ITEMS = ASSETS / "excel-cn/item_table.json"
 PACK_INPUTS = [PACK_RULES, VALUE_RULES, VALUES_OUTPUT, SHOP_PACKS, EN_SHOP, EN_ACTIVITY, EN_CRISIS,
                EN_SANDBOX, EN_ITEMS, CN_ITEMS]
 
-OP, ORUNDUM = "4002", "4003"
+OP, ORUNDUM, LMD = "4002", "4003", "4001"
 OP_SANITY = 135
 KERNEL_ITEMS = {"classic_gacha", "classic_gacha_10"}
 KERNEL_TYPES = {"CLASSIC_TKT_GACHA", "CLASSIC_TKT_GACHA_10"}
@@ -293,6 +296,39 @@ class Valuer:
         return pack
 
 
+# Class chips and dualchips (32<class 1-8><1 or 3>) and Skill Summaries: a chip pack's contents.
+CHIP_RE = re.compile(r"^32[1-8][13]$")
+SKILL_SUMMARIES = {"3301", "3302", "3303"}
+MODULE_ITEMS = {"mod_unlock_token", "mod_update_token_1", "mod_update_token_2"}
+HEADHUNTING_KINDS = {"pulls", "kernel", "selector", "random_of_3"}
+
+
+def pack_group(contents: list, value_rules: dict) -> str:
+    """What kind of pack this is, for ordering packs within an event (packs.yaml
+    pack_groups). Judged on what's left once cosmetics, Originite Prime and LMD
+    are set aside -- those turn up in every kind of pack. Anything mixed is a
+    bundle."""
+    core = [c for c in contents if c["kind"] != "cosmetic" and c["id"] not in (OP, LMD)]
+    ids = {c["id"] for c in core}
+    rules = value_rules["packs"]
+    training = set(rules["training_apparatus"]) | set(rules["invitation_letters"]) | \
+        set(rules["skill_training_packs"])
+    if not core:
+        return "funding"
+    if any(CHIP_RE.match(i or "") for i in ids) and \
+            all(CHIP_RE.match(i or "") or i in SKILL_SUMMARIES for i in ids):
+        return "chips"
+    if ids <= MODULE_ITEMS:
+        return "modules"
+    if ids <= set(rules["material_vouchers"]):
+        return "materials"
+    if ids <= training:
+        return "training"
+    if all(c["kind"] in HEADHUNTING_KINDS for c in core):
+        return "headhunting"
+    return "bundles"
+
+
 # ── Building ─────────────────────────────────────────────────────────────────
 
 def hand_written(valuer: Valuer, section: list) -> list:
@@ -329,6 +365,8 @@ def build(force: bool = False):
     price_map = {int(k): v for k, v in (rules.get("price_map") or {}).items()}
     event_dates = {k: str(v) for k, v in (rules.get("event_dates") or {}).items()}
     event_names = rules.get("event_names") or {}
+    type_names = rules["pulls"].get("item_type_names") or {}
+    group_rank = {g: i for i, g in enumerate(rules.get("pack_groups") or [])}
     attention = []
 
     # Common and regular packs, for labelling event packs that match one.
@@ -377,7 +415,8 @@ def build(force: bool = False):
         else:
             contents = [valuer.entry(i["id"], i["count"], name=i.get("enName")) for i in raw["items"]]
             contents += [valuer.entry(o.get("id"), o.get("count", 1), item_type=o.get("itemType"),
-                                      category=o.get("category"), name=o.get("enName") or o.get("name"))
+                                      category=o.get("category"),
+                                      name=o.get("enName") or type_names.get(o.get("itemType")) or o.get("name"))
                          for o in raw["otherItems"]]
 
         pack = {
@@ -396,6 +435,7 @@ def build(force: bool = False):
         cosmetic = any(c["kind"] == "cosmetic" for c in contents) and \
             not any(c["kind"] in ("material", "zero") for c in contents)
         pack["hidden"] = bool(over.get("hidden", cosmetic))
+        pack["group"] = over.get("group") or pack_group(contents, value_rules)
         pack["hidden_reason"] = ("override" if "hidden" in over else "cosmetic") if pack["hidden"] else None
         valuer.finish(pack, over.get("notes"))
         packs[key] = pack
@@ -422,7 +462,9 @@ def build(force: bool = False):
                            or (parse(e["cn_start"]) + lag).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
     ordered = sorted(events.values(), key=lambda e: (e["order_date"], e["cn_start"]))
     for e in ordered:
-        e["packs"].sort(key=lambda k: (packs[k]["cn_start"], -(packs[k]["usd"] or 0), packs[k]["name"]))
+        # By kind of pack (packs.yaml pack_groups), then price, high to low.
+        e["packs"].sort(key=lambda k: (group_rank.get(packs[k]["group"], len(group_rank)),
+                                       -(packs[k]["usd"] or 0), packs[k]["cn_start"], packs[k]["name"]))
 
     # What needs a look. Packs whose EN sale has ended are left out.
     now = datetime.now(timezone.utc)

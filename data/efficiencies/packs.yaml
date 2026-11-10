@@ -42,6 +42,11 @@ pulls:
     LIMITED_TKT_GACHA_10: 10
     LINKAGE_TKT_GACHA: 1
     LINKAGE_TKT_GACHA_10: 10
+  # What to call a permit EN has no name for yet (CN names them after the
+  # banner, e.g. 海渊巡游十连寻访凭证). Once EN game data names it, that wins.
+  item_type_names:
+    EXCLUSIVE_TKT_GACHA: Banner Specific 1 Roll
+    EXCLUSIVE_TKT_GACHA_10: Banner Specific 10 Roll
   # Kernel pulls (classic_gacha, classic_gacha_10, CLASSIC_TKT_GACHA*) count
   # for nothing -- avoid Kernel. α/β/γ "one of three" vouchers
   # (VOUCHER_CGACHA) and operator selectors aren't valued at all; packs
@@ -113,6 +118,21 @@ event_names:
   act7fun: April Fools
 
 # ─────────────────────────────────────────────────────────────────────────────
+# The order packs are listed in within an event: by group, then price, high to
+# low. The generator puts each pack in a group from its contents, ignoring
+# Originite Prime, LMD and cosmetics:
+#   funding      nothing else
+#   chips        class chips/dualchips (plus Skill Summaries)
+#   modules      Module Data Blocks / Data Supplements only
+#   materials    material vouchers only
+#   training     Training Apparatus, Invitation Letters, Skill Training Packs
+#   headhunting  pulls of any kind, Kernel permits, selectors
+#   bundles      anything mixed
+# A group missing from this list sorts last. Not shown on the page.
+# ─────────────────────────────────────────────────────────────────────────────
+pack_groups: [bundles, headhunting, training, modules, materials, funding, chips]
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Per-pack overrides, keyed by goodId (shop_packs.json -> goodId, also shown in
 # the generator's "needs attention" list). Rarely needed: EN names and prices
 # come from game data. Any of:
@@ -122,6 +142,7 @@ event_names:
 #                                     -- UI items and nothing of material value
 #                                     -- are hidden by default)
 #   contents: {item id: count}        -- replaces the scraped contents entirely
+#   group:    one of pack_groups (below), when the automatic one is wrong
 # Example:
 #   GP_Once_498:
 #     name: Heavy Funding Pack

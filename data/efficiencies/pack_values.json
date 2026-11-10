@@ -4,7 +4,7 @@
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
   "assets_commit": "7d90d6c",
   "inputs": {
-   "data/efficiencies/packs.yaml": "3a45c0438b5ff9a4",
+   "data/efficiencies/packs.yaml": "3f64d48003a1bb05",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
    "assets/game_img/processed/shop_packs.json": "80e4e499c031d334",
@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "73225e20f117b0cc"
+   "tools/build_pack_values.py": "88d3cbd695bd3fc9"
   }
  },
  "lag_days": 165,
@@ -120,14 +120,14 @@
     "GP_Once_431",
     "GP_Once_432",
     "GP_NpOne_nc_0_7",
+    "GP_Once_435",
     "GP_Once_429",
     "GP_Once_428",
     "GP_Once_425",
-    "GP_Once_430",
     "GP_Once_427",
-    "GP_Once_435",
-    "GP_Once_424",
     "GP_Once_426",
+    "GP_Once_430",
+    "GP_Once_424",
     "GP_Once_423",
     "GP_Once_421",
     "GP_Once_422"
@@ -146,8 +146,8 @@
    "packs": [
     "GP_Once_439",
     "GP_Once_441",
-    "GP_Once_442",
-    "GP_Once_440"
+    "GP_Once_440",
+    "GP_Once_442"
    ],
    "order_date": "2026-10-28T15:00:00Z"
   },
@@ -162,15 +162,15 @@
    "expected_en_start": null,
    "packs": [
     "GP_Once_449",
+    "GP_Once_451",
+    "GP_Once_444",
+    "GP_Once_445",
+    "GP_Once_443",
+    "GP_Once_88",
     "GP_Once_447",
     "GP_Once_448",
-    "GP_Once_444",
-    "GP_Once_451",
     "GP_Once_450",
-    "GP_Once_445",
-    "GP_Once_446",
-    "GP_Once_443",
-    "GP_Once_88"
+    "GP_Once_446"
    ],
    "order_date": "2026-11-14T01:30:00Z"
   },
@@ -201,8 +201,8 @@
     "GP_Once_455",
     "GP_Once_454",
     "GP_Once_457",
-    "GP_Once_453",
-    "GP_Once_456"
+    "GP_Once_456",
+    "GP_Once_453"
    ],
    "order_date": "2026-12-09T05:30:00Z"
   },
@@ -232,14 +232,14 @@
    "en_end": null,
    "expected_en_start": null,
    "packs": [
+    "GP_Once_462",
+    "GP_Once_461",
     "GP_Once_465",
     "GP_Once_468",
-    "GP_Once_464",
     "GP_Once_467",
-    "GP_Once_462",
-    "GP_Once_463",
     "GP_Once_466",
-    "GP_Once_461"
+    "GP_Once_464",
+    "GP_Once_463"
    ],
    "order_date": "2026-12-23T01:30:00Z"
   },
@@ -255,15 +255,15 @@
    "packs": [
     "GP_Once_478",
     "GP_Once_477",
-    "GP_Once_473",
     "GP_Once_476",
-    "GP_Once_472",
-    "GP_Once_471",
+    "GP_Once_475",
     "GP_Once_479",
+    "GP_Once_473",
+    "GP_Once_472",
     "GP_Once_474",
+    "GP_Once_471",
     "GP_Once_470",
-    "GP_Once_469",
-    "GP_Once_475"
+    "GP_Once_469"
    ],
    "order_date": "2027-01-14T01:30:00Z"
   },
@@ -278,13 +278,13 @@
    "expected_en_start": null,
    "packs": [
     "GP_Once_487",
-    "GP_Once_481",
     "GP_Once_489",
-    "GP_Once_488",
+    "GP_Once_481",
     "GP_Once_482",
-    "GP_Once_484",
+    "GP_Once_480",
+    "GP_Once_488",
     "GP_Once_483",
-    "GP_Once_480"
+    "GP_Once_484"
    ],
    "order_date": "2027-02-17T01:30:00Z"
   },
@@ -298,12 +298,12 @@
    "en_end": null,
    "expected_en_start": null,
    "packs": [
-    "GP_Once_494",
     "GP_Once_491",
+    "GP_Once_494",
     "GP_Once_493",
     "GP_Once_496",
-    "GP_Once_492",
-    "GP_Once_495"
+    "GP_Once_495",
+    "GP_Once_492"
    ],
    "order_date": "2027-03-14T05:30:00Z"
   },
@@ -317,11 +317,11 @@
    "en_end": null,
    "expected_en_start": null,
    "packs": [
-    "GP_Once_499",
     "GP_Once_501",
+    "GP_Once_500",
+    "GP_Once_499",
     "GP_Once_498",
-    "GP_Once_497",
-    "GP_Once_500"
+    "GP_Once_497"
    ],
    "order_date": "2027-03-24T01:30:00Z"
   },
@@ -335,9 +335,9 @@
    "en_end": null,
    "expected_en_start": "2027-04-01",
    "packs": [
-    "GP_Once_411",
     "GP_Once_409",
-    "GP_Once_410"
+    "GP_Once_410",
+    "GP_Once_411"
    ],
    "order_date": "2027-04-01T00:00:00Z"
   }
@@ -383,6 +383,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 13599.6919,
@@ -455,6 +456,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -504,6 +506,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 1080.0,
@@ -546,6 +549,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 1968.2748,
@@ -604,6 +608,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 3936.5496,
@@ -663,6 +668,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -719,6 +725,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -775,6 +782,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -831,6 +839,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -880,6 +889,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -929,6 +939,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -978,6 +989,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1027,6 +1039,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1076,6 +1089,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1160,6 +1174,7 @@
     }
    ],
    "hidden": true,
+   "group": "funding",
    "hidden_reason": "cosmetic",
    "measure": null,
    "colours": {
@@ -1201,6 +1216,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1250,6 +1266,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1299,6 +1316,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 3600.0,
@@ -1369,6 +1387,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -1425,6 +1444,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1474,6 +1494,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1523,6 +1544,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1572,6 +1594,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1621,6 +1644,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -1677,6 +1701,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": null,
    "colours": {
@@ -1742,6 +1767,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -1791,6 +1817,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -1861,6 +1888,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -1910,6 +1938,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": null,
    "colours": {
@@ -1967,6 +1996,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 6697.5273,
@@ -2018,6 +2048,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 3392.5608,
@@ -2074,6 +2105,7 @@
     }
    ],
    "hidden": false,
+   "group": "materials",
    "hidden_reason": null,
    "measure": {
     "material": 5318.109,
@@ -2167,6 +2199,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 1823.675,
@@ -2274,6 +2307,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 5058.2058,
@@ -2327,6 +2361,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": null,
    "colours": {
@@ -2370,6 +2405,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 3764.7875,
@@ -2428,6 +2464,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": null,
    "colours": {
@@ -2471,6 +2508,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 5381.838,
@@ -2520,6 +2558,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 5714.8216,
@@ -2571,6 +2610,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 1080.0,
@@ -2620,6 +2660,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": {
     "material": 0,
@@ -2662,6 +2703,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 1968.2748,
@@ -2720,6 +2762,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 3936.5496,
@@ -2772,6 +2815,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -2849,6 +2893,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 1838.1258,
@@ -2907,6 +2952,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -2956,6 +3002,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -3026,6 +3073,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 1059.968,
@@ -3098,6 +3146,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -3147,6 +3196,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 13244.3966,
@@ -3198,6 +3248,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -3261,6 +3312,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -3310,6 +3362,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 12166.9596,
@@ -3359,6 +3412,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -3429,6 +3483,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -3492,6 +3547,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 6697.5273,
@@ -3536,6 +3592,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 1968.2748,
@@ -3594,6 +3651,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 3936.5496,
@@ -3646,6 +3704,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -3702,6 +3761,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 13163.2452,
@@ -3772,6 +3832,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -3842,6 +3903,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -3912,6 +3974,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -3961,6 +4024,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -4024,6 +4088,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 6697.5273,
@@ -4096,6 +4161,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -4152,6 +4218,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 13599.6919,
@@ -4189,7 +4256,7 @@
    "contents": [
     {
      "id": "SINGLE_75_0_1_GACHA",
-     "name": "确定性混沌寻访凭证",
+     "name": "Banner Specific 1 Roll",
      "count": 2,
      "kind": "pulls",
      "value": 1,
@@ -4197,6 +4264,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": {
     "material": 0,
@@ -4234,7 +4302,7 @@
    "contents": [
     {
      "id": "SINGLE_75_0_1_GACHA_10",
-     "name": "确定性混沌十连寻访凭证",
+     "name": "Banner Specific 10 Roll",
      "count": 1,
      "kind": "pulls",
      "value": 10,
@@ -4242,6 +4310,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": {
     "material": 0,
@@ -4286,6 +4355,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 1968.2748,
@@ -4344,6 +4414,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 3936.5496,
@@ -4389,6 +4460,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": null,
    "colours": {
@@ -4488,6 +4560,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 5058.2058,
@@ -4569,6 +4642,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 3612.7072,
@@ -4634,6 +4708,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 200.0229,
@@ -4686,6 +4761,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -4749,6 +4825,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 6697.5273,
@@ -4842,6 +4919,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 1823.675,
@@ -4914,6 +4992,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -4963,6 +5042,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 3392.5608,
@@ -5033,6 +5113,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -5082,6 +5163,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 5381.838,
@@ -5145,6 +5227,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -5201,6 +5284,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -5250,6 +5334,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -5299,6 +5384,7 @@
     }
    ],
    "hidden": true,
+   "group": "headhunting",
    "hidden_reason": "cosmetic",
    "measure": {
     "material": 0,
@@ -5369,6 +5455,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -5446,6 +5533,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 1838.1258,
@@ -5504,6 +5592,7 @@
     }
    ],
    "hidden": true,
+   "group": "funding",
    "hidden_reason": "cosmetic",
    "measure": null,
    "colours": {
@@ -5566,6 +5655,7 @@
     }
    ],
    "hidden": false,
+   "group": "bundles",
    "hidden_reason": null,
    "measure": {
     "material": 1059.968,
@@ -5617,6 +5707,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": {
     "material": 0,
@@ -5680,6 +5771,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 7755.9012,
@@ -5724,6 +5816,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 1968.2748,
@@ -5782,6 +5875,7 @@
     }
    ],
    "hidden": false,
+   "group": "modules",
    "hidden_reason": null,
    "measure": {
     "material": 3936.5496,
@@ -5834,6 +5928,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 2520.0,
@@ -5883,6 +5978,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 13244.3966,
@@ -5934,6 +6030,7 @@
     }
    ],
    "hidden": false,
+   "group": "funding",
    "hidden_reason": null,
    "measure": {
     "material": 1080.0,
@@ -5969,7 +6066,7 @@
    "contents": [
     {
      "id": "SINGLE_78_0_1_GACHA",
-     "name": "海渊巡游寻访凭证",
+     "name": "Banner Specific 1 Roll",
      "count": 2,
      "kind": "pulls",
      "value": 1,
@@ -5977,6 +6074,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": {
     "material": 0,
@@ -6014,7 +6112,7 @@
    "contents": [
     {
      "id": "SINGLE_78_0_1_GACHA_10",
-     "name": "海渊巡游十连寻访凭证",
+     "name": "Banner Specific 10 Roll",
      "count": 1,
      "kind": "pulls",
      "value": 10,
@@ -6022,6 +6120,7 @@
     }
    ],
    "hidden": false,
+   "group": "headhunting",
    "hidden_reason": null,
    "measure": {
     "material": 0,
@@ -6094,6 +6193,7 @@
     }
    ],
    "hidden": false,
+   "group": "chips",
    "hidden_reason": null,
    "measure": {
     "material": 1427.202,
@@ -6150,6 +6250,7 @@
     }
    ],
    "hidden": false,
+   "group": "training",
    "hidden_reason": null,
    "measure": {
     "material": 13599.6919,

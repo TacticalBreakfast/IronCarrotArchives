@@ -750,6 +750,7 @@ html.dark .eff-axis { border-top-color: rgba(var(--color-neutral-600), 1); }
 html.dark .eff-packs tr.eff-pack-sub > td { color: rgba(var(--color-neutral-400), 1); }
 .eff-pack-refs { white-space: nowrap; font-size: 0.9em; color: rgba(var(--color-neutral-500), 1); }
 .eff-pack-when { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0 0 0.25rem !important; font-size: 0.85rem; color: rgba(var(--color-neutral-500), 1); }
+.eff-pack-est { margin-inline-start: 0.75rem; }
 .eff-pack-badge {
     display: inline-block; padding: 0.05rem 0.5rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600;
     background-color: rgba(var(--color-neutral-200), 1); color: rgba(var(--color-neutral-700), 1);
