@@ -77,6 +77,29 @@ jobs:
           name: efficiency-data
           path: data/efficiencies/
           retention-days: 1
+  attention:
+    # Emails new entries in the shop packs' attention list by keeping one
+    # GitHub issue (label pack-attention) in step with it -- see
+    # tools/pack_attention_issue.py. Separate from the build on purpose: if it
+    # fails, the run shows as failed (and that's emailed) but the deploy
+    # doesn't wait for it or depend on it.
+    runs-on: ubuntu-latest
+    needs: regenerate
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Use regenerated efficiency data
+        uses: actions/download-artifact@v8
+        with:
+          name: efficiency-data
+          path: data/efficiencies/
+      - name: Sync the attention issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/pack_attention_issue.py
   build:
     runs-on: ubuntu-latest
     needs: regenerate
