@@ -25,6 +25,10 @@
 {{- with $p.cell_note }}{{ with index $.noteNum . }}{{ $cellNote = printf `<a href="#pack-note-%d">Note %d</a>` . . | safeHTML }}{{ end }}{{ end -}}
 {{- $refs := slice -}}
 {{- range $p.notes }}{{ with index $.noteNum . }}{{ $refs = $refs | append (printf `<a href="#pack-note-%d">%d</a>` . .) }}{{ end }}{{ end -}}
+{{- /* Selector packs: a pointer to the selector guide beneath the contents
+   (only while that page is published; GetPage finds no draft in a build). */ -}}
+{{- $selectorGuide := "" -}}
+{{- if where $p.contents "kind" "selector" }}{{ with site.GetPage "/guides/selector" }}{{ $selectorGuide = .RelPermalink }}{{ end }}{{ end -}}
 <tbody{{ if .timed }}{{ with $p.en_start }} data-pack-start="{{ . }}"{{ end }}{{ with $p.en_end }} data-pack-end="{{ . }}"{{ end }}{{ end }}>
 <tr class="eff-pack-main">
 <th scope="row">{{ $p.name }}{{ if eq $p.name_source "mtl" }} <span class="eff-foot-note">(MTL)</span>{{ end }}</th>
@@ -37,5 +41,5 @@
 <td class="eff-num">{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "total_pulls") "decimals" 1) }}</td>
 <td class="eff-num{{ with $p.colours.per_pull }} eff-pack-{{ . }}{{ end }}">{{ with $cellNote }}{{ . }}{{ else }}{{ partial "ica/efficiency/packs/num.html" (dict "value" (index $m "per_pull") "decimals" 2 "money" true) }}{{ end }}</td>
 </tr>
-<tr class="eff-pack-sub"><td colspan="9">{{ delimit $parts ", " }}{{ with $refs }} <span class="eff-pack-refs">(Note {{ delimit . ", " | safeHTML }})</span>{{ end }}</td></tr>
+<tr class="eff-pack-sub"><td colspan="9">{{ delimit $parts ", " }}{{ with $refs }} <span class="eff-pack-refs">(Note {{ delimit . ", " | safeHTML }})</span>{{ end }}{{ with $selectorGuide }}<span class="eff-pack-extra">For Selector recommendations, see my <a href="{{ . }}">selector guide here</a>.</span>{{ end }}</td></tr>
 </tbody>
