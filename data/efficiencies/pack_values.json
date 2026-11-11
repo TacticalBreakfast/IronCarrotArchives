@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "5fe29e13c065eb8f"
+   "tools/build_pack_values.py": "010226d96db8c3d9"
   }
  },
  "lag_days": 165,
@@ -9522,14 +9522,5 @@
    "text": "Other items not given values include furniture parts and cosmetics, however these are not called out specifically with notes. Additionally, some cosmetic packs are excluded entirely if there's no or inconsequential material or pull value."
   }
  ],
- "attention": [
-  "Sniper Chip Pack [GP_Once_446]: no source lists this pack, contents copied from 狙击芯片礼包 2026-06-01 -- check once one does",
-  "Specialist Chip Pack [GP_Once_452]: no source lists this pack, contents copied from 特种芯片礼包 2026-09-04 -- check once one does",
-  "Caster Chip Pack [GP_Once_463]: no source lists this pack, contents copied from 术师芯片礼包 2026-07-10 -- check once one does",
-  "Specialist Chip Pack [GP_Once_469]: no source lists this pack, contents copied from 特种芯片礼包 2026-09-04 -- check once one does",
-  "Defender Chip Pack [GP_Once_470]: no source lists this pack, contents copied from 重装芯片礼包 2026-08-01 -- check once one does",
-  "Guard Chip Pack [GP_Once_497]: no source lists this pack, contents copied from 近卫芯片礼包 2026-10-09 -- check once one does",
-  "Supporter Chip Pack [GP_Once_505]: no source lists this pack, contents copied from 辅助芯片礼包 2023-10-08 -- check once one does",
-  "Guard Chip Pack [GP_Once_504]: no source lists this pack, contents copied from 近卫芯片礼包 2026-10-09 -- check once one does"
- ]
+ "attention": []
 }

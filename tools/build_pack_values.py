@@ -36,7 +36,9 @@ pack_values.json (generated -- never hand-edit):
                numbers them)
   attention    [str]: what needs a look (also printed and put in the CI commit
                message). Relative to when it ran: packs whose EN sale had
-               already ended are left out.
+               already ended are left out. Also lists shown events with no
+               EN name (add one to event_names). Copied contents of chip
+               packs aren't listed: those packs are regular and predictable.
 
 A pack:
   key, name, name_source (override | en | scrape | mtl | cn), cn_name, good_id,
@@ -542,7 +544,8 @@ def build(force: bool = False):
         label = f"{p['name']} [{p['key']}]"
         if p["good_id_matched_by"] == "price":
             attention.append(f"{label}: goodId matched by price only -- check it's the right pack")
-        if p["contents_inferred_from"]:
+        # Chip packs are regular and predictable, so copied contents are safe there.
+        if p["contents_inferred_from"] and p["group"] != "chips":
             attention.append(f"{label}: no source lists this pack, contents copied from "
                              f"{p['contents_inferred_from']} -- check once one does")
         if p["contents_conflict"]:
@@ -564,6 +567,13 @@ def build(force: bool = False):
             attention.append(f"{label}: EN ran the event but lists no sale for this pack -- using the event's dates")
         if p["window_source"] and p["name_source"] in ("scrape", "mtl", "cn"):
             attention.append(f"{label}: on EN, but no EN name from game data")
+    # Events the page shows under their CN name: add the EN name to packs.yaml
+    # event_names (EN game data replaces it once EN has the event).
+    for e in ordered:
+        shown = [k for k in e["packs"] if not packs[k]["hidden"]
+                 and not (packs[k]["en_end"] and parse(packs[k]["en_end"]) < now)]
+        if shown and e["name_source"] == "cn" and e["id"] != "_none":
+            attention.append(f"Event {e['cn_name']} [{e['id']}]: no EN name -- add one to packs.yaml event_names")
     if estimated:
         # Normal for upcoming packs (mostly cosmetic ones at ¥12/¥78), so one line, not one each.
         tiers = sorted({p["price_cny"] for p in estimated})
