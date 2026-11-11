@@ -53,16 +53,19 @@ pulls:
   # holding them show a note instead of numbers.
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Colours (the sheet's thresholds). At or below `green` is green, at or below
-# `yellow` is yellow, above is red.
-#   green  = better than the double-OP packs: buy these first
-#   yellow = better than the $100 OP pack without the double bonus: buy only
-#            after the double-OP packs are used up
+# Colours. At or below `green` is green, at or below `yellow` is yellow,
+# above is red. Both thresholds come from op_packs (below), worked out by the
+# generator -- nothing to type here. The packs marked threshold: false (the $1
+# and $5 packs, whose small sizes skew the numbers) don't count.
+#   green  = no worse than any double-OP pack: buy these first.
+#            Threshold = the worst-value double pack's $/OP and $/pull.
+#   yellow = better than any OP pack without the double bonus: buy only after
+#            the double-OP packs are used up.
+#            Threshold = the best-value pack's $/OP and $/pull without the
+#            double ($100 today).
 #   red    = worse than any OP pack: don't buy
+# (pack_values.json -> colours records the figures used.)
 # ─────────────────────────────────────────────────────────────────────────────
-colours:
-  per_op: {green: 0.38, yellow: 0.54}
-  per_pull: {green: 1.25, yellow: 1.81}
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CNY -> USD price map
@@ -267,8 +270,8 @@ starter_packs:
 # OP top-up packs (EN). Prices are the store's; `double` is the OP from a
 # first purchase with the double bonus.
 op_packs:
-  - {usd: 0.99,  op: 1,   double: 3}
-  - {usd: 4.99,  op: 7,   double: 12}
+  - {usd: 0.99,  op: 1,   double: 3, threshold: false}
+  - {usd: 4.99,  op: 7,   double: 12, threshold: false}
   - {usd: 14.99, op: 24,  double: 40}
   - {usd: 29.99, op: 50,  double: 80}
   - {usd: 49.99, op: 90,  double: 132}

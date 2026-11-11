@@ -4,7 +4,7 @@
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
   "assets_commit": "d1702b5",
   "inputs": {
-   "data/efficiencies/packs.yaml": "ce7ee4b80f0436bd",
+   "data/efficiencies/packs.yaml": "1a428dcbfe1caa85",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
    "assets/game_img/processed/shop_packs.json": "06f493d6428729f6",
@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "89a20f90332d0190"
+   "tools/build_pack_values.py": "5fe29e13c065eb8f"
   }
  },
  "lag_days": 165,
@@ -2309,7 +2309,7 @@
     "per_pull": null
    },
    "colours": {
-    "per_op": "yellow",
+    "per_op": "green",
     "per_pull": null
    },
    "notes": [
@@ -7436,7 +7436,7 @@
     "per_pull": null
    },
    "colours": {
-    "per_op": "yellow",
+    "per_op": "green",
     "per_pull": null
    },
    "notes": [
@@ -9413,6 +9413,7 @@
    "usd": 0.99,
    "op": 1,
    "double": 3,
+   "threshold": false,
    "per_op": 0.99,
    "per_pull": 3.3,
    "per_op_double": 0.33,
@@ -9422,6 +9423,7 @@
    "usd": 4.99,
    "op": 7,
    "double": 12,
+   "threshold": false,
    "per_op": 0.7129,
    "per_pull": 2.3762,
    "per_op_double": 0.4158,
@@ -9464,6 +9466,16 @@
    "per_pull_double": 1.2819
   }
  ],
+ "colours": {
+  "per_op": {
+   "green": 0.3846,
+   "yellow": 0.5405
+  },
+  "per_pull": {
+   "green": 1.2819,
+   "yellow": 1.8016
+  }
+ },
  "notes": [
   {
    "key": "module_materials",

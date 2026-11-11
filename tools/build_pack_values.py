@@ -29,6 +29,9 @@ pack_values.json (generated -- never hand-edit):
                scraped CN packs. Ended packs are kept: the page hides them.
   regular, starter, common   [pack] from packs.yaml, in file order
   op_packs     [{usd, op, double, per_op, per_pull, per_op_double, per_pull_double}]
+               (plus `threshold: false` on the ones that don't set the colours)
+  colours      {per_op, per_pull: {green, yellow}}: the thresholds used, both
+               derived from op_packs
   notes        [{key, text}], copied from packs.yaml in file order (the page
                numbers them)
   attention    [str]: what needs a look (also printed and put in the CI commit
@@ -400,6 +403,20 @@ def build(force: bool = False):
     cn_items = load_json(CN_ITEMS)["items"]
     item_names = {k: d["name"] for k, d in cn_items.items()}
     item_names.update({k: d["name"] for k, d in en_items.items()})
+    op_packs = []
+    for p in rules.get("op_packs") or []:
+        ratio = rules["pulls"]["orundum_per_op"] / rules["pulls"]["orundum_per_pull"]
+        op_packs.append({**p, "per_op": rnd(p["usd"] / p["op"]), "per_pull": rnd(p["usd"] / (p["op"] * ratio)),
+                         "per_op_double": rnd(p["usd"] / p["double"]),
+                         "per_pull_double": rnd(p["usd"] / (p["double"] * ratio))})
+    # The colour thresholds, from the OP packs that set them (packs.yaml
+    # colours / op_packs `threshold: false`): green = no worse than the
+    # worst-value double pack, yellow = better than the best-value pack
+    # without the double ($100 today).
+    setters = [p for p in op_packs if p.get("threshold", True)]
+    rules["colours"] = {kind: {"green": max(p[f"{kind}_double"] for p in setters),
+                               "yellow": min(p[kind] for p in setters)}
+                        for kind in ("per_op", "per_pull")}
     valuer = Valuer(rules, values, value_rules, item_names, load_json(CN_ITEMS)["expItems"])
     en_names, en_windows = load_en_shop()
     en_events = load_en_events()
@@ -555,13 +572,6 @@ def build(force: bool = False):
     for item in sorted(valuer.missing):
         attention.append(f"Item {item} ({item_names.get(item, '?')}): no value in the packs profile, counted as 0")
 
-    op_packs = []
-    for p in rules.get("op_packs") or []:
-        ratio = rules["pulls"]["orundum_per_op"] / rules["pulls"]["orundum_per_pull"]
-        op_packs.append({**p, "per_op": rnd(p["usd"] / p["op"]), "per_pull": rnd(p["usd"] / (p["op"] * ratio)),
-                         "per_op_double": rnd(p["usd"] / p["double"]),
-                         "per_pull_double": rnd(p["usd"] / (p["double"] * ratio))})
-
     data = {
         "_generated": generated(inputs, "edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py."),
         "lag_days": lag.days,
@@ -571,6 +581,7 @@ def build(force: bool = False):
         "starter": starter,
         "common": common,
         "op_packs": op_packs,
+        "colours": rules["colours"],
         # A list, not a map: Hugo sorts map keys, and the page numbers notes in file order.
         "notes": [{"key": k, "text": v} for k, v in (rules.get("notes") or {}).items()],
         "attention": attention,
