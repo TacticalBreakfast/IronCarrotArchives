@@ -2,7 +2,7 @@
 title = "TacticalBreakfast's Sanity Value Guide"
 date = 2026-11-11T00:00:00-05:00
 draft = false
-# summary = "…"   # TODO (TacticalBreakfast): SEO summary. Must stay above [params].
+summary = "How to read the Arknights sanity value pages: what shop pack values and E2/M3 promotion costs measure, how they're calculated, and which packs to buy first."
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 # Must stay above [params]: in TOML, keys below a [table] header belong to that table.
