@@ -15,7 +15,8 @@
   Colours compare each value with the other RECENT operators of the same
   rarity (recent_operators → rarities), not the whole roster: red = top
   quartile, yellow = above the recent average. A rarity with a single recent
-  operator isn't coloured. The roster page isn't coloured at all.
+  operator isn't coloured. The roster page isn't coloured at all. The legend
+  is a separate shortcode, efficiency-recent-key, placed by the page.
 */ -}}
 {{- $ctx := partialCached "ica/efficiency/context.html" . "efficiency-context" -}}
 {{- $R := $ctx.values.recent_operators -}}
@@ -80,6 +81,4 @@
       </table>
     </div></div>
   {{- end -}}
-{{- end }}
-
-{{ partial "ica/efficiency/key.html" . -}}
+{{- end -}}

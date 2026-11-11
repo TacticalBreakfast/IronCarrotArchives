@@ -25,6 +25,10 @@ promotion tickets are most often used on. Every operator, and Modules, are on th
 
 {{< efficiency-era >}}
 
+## Key
+
+{{< efficiency-recent-key >}}
+
 {{% efficiency-recent %}}
 
 ## What a ticket is worth
