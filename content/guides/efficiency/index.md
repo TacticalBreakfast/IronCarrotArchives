@@ -9,6 +9,10 @@ excludeFromRSS = true
 # First of the efficiency pages (Promotion & Mastery Costs is 6). Shares 5 with the
 # Tier List; ties sort newest first, so this one comes before it.
 weight = 5
+# Header image: featured.jpg in this folder (1200x628), also the social preview
+# and the homepage card. "big" shows the whole image rather than a cropped strip.
+showHero = true
+heroStyle = "big"
 # Semi-hidden feedback release: published at its URL, but left out of search,
 # the sitemap and tag pages. For the wide release, delete this [build] block,
 # restore `topic` below, and uncomment the menu entry at the bottom.
