@@ -32,6 +32,8 @@ shorter page: [Recent Promotion & Mastery Costs]({{< ref "/guides/recent-promoti
 
 ## What a ticket is worth
 
+Invitation Letters and Skill Training Packs are valued at the average cost across operators of their rarity, excluding the least expensive 25%. These are the same values the shop packs use.
+
 {{< efficiency-tickets >}}
 
 ## All operators
@@ -55,7 +57,7 @@ shorter page: [Recent Promotion & Mastery Costs]({{< ref "/guides/recent-promoti
 ## Changes From Sheets Version
 
 - The old sheets version only included variable materials in order to simplify the calculations. This is no longer necessary, so all materials are included such as XP, LMD, Chips, and Skill Summaries. The result is the values are generally higher than the old Sheets version, especially the E2 values.
-- Similarly, ticket values have also gone up slightly. This is because they now include E1 materials which were previously excluded. These values are even higher in the shop packs, which excludes the bottom 25% of Operators to show more accurate valuations.
+- Similarly, ticket values have also gone up slightly. This is because they now include E1 materials which were previously excluded.
 - Due to a quirk in how Sheets handles the AVERAGESIFS formula, the old value on the Sheet was actually incorrect. The values on ICA are corrected.
 - There is now an infinite shop selector so you can include the old valuations for certain items you may not have in abundance yet. This is useful for newer players or those focused primarily on older units. However, you should generally not toggle these if you don't know what you're doing.
 - The colors (only on the Recents) are slightly changed. Yellow is for the average of only the recents of the same rarity. Red is now for the top quartile.

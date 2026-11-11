@@ -18,11 +18,21 @@ showDate = false
 showAuthor = false
 +++
 
-<!-- TODO (TacticalBreakfast): intro text. -->
+## Introduction
 
-## Key
+For a detailed explanation of what these charts show, please read [this section](/guides/efficiency/#paid-money-packs) over at the README. However, a brief overview is provided here as well. If you don't read, don't come crying to me because you made a bad choice! For practical advice on what to actually purchase, check out [this section](/guides/efficiency/#pack-buy-order) over on the same page.
+
+The goal of this page is to provide the efficiency of the real money packs the game makes available. There are basically two kinds of people who buy packs - those only interested in pulls, and those who, in addition to pulls, are also interested in materials for raising additional units. The former, the pulls-only people, should use the "$/Pull Only" column, which shows the price per pull, while ignoring items. The latter, the sanity efficiency, should use the column "$/OP Tot Value" which shows the efficiency that includes both rolls and the items converted into sanity. Only use this column if you would spend OP to refresh sanity. These columns are color coded to show efficiency. Green means a pack is more efficient than the double OP packs. Yellow means it's more efficient than the OP packs without the double bonus. Red means it's inefficient, or worse than any OP pack.
+
+### Key
 
 {{< efficiency-packs-key >}}
+
+### Additional Notes
+
+This section contains a number of notes worth knowing. Many only apply to certain packs, and those packs will link here for your reference.
+
+{{< efficiency-packs-notes >}}
 
 ## Events
 

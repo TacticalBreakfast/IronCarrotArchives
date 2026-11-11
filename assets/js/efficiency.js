@@ -80,13 +80,7 @@
       var signed = cell.hasAttribute("data-eff-signed") && value > 0;
       cell.textContent = (signed ? "+" : "") + num(value);
     });
-    // Ticket table: letters / skill packs at the plain average operator
-    // (not the packs profile, which drops the cheapest quarter for shop packs).
-    var averages = ops.averages || {};
-    document.querySelectorAll("[data-eff-avg]").forEach(function (cell) {
-      var a = averages[cell.dataset.effAvg];
-      cell.textContent = num(a ? a[cell.dataset.effKind] : null);
-    });
+    // Ticket table: packs-profile values, the same ones the shop packs use.
     var packs = Object.assign({}, data.packs.base, data.packs.eras[i].values);
     document.querySelectorAll("[data-eff-item]").forEach(function (cell) {
       cell.textContent = num(packs[cell.dataset.effItem]);

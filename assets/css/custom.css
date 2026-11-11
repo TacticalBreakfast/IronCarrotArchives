@@ -766,6 +766,7 @@ html.dark .eff-pack-badge { background-color: rgba(var(--color-neutral-700), 1);
 html.dark .eff-pack-badge--live { background-color: rgba(var(--eff-pack-green), 0.3); color: #bbf7d0; }
 .eff-pack-notes { font-size: 0.9rem; }
 .eff-pack-notes li:target { background-color: rgba(var(--color-primary-500), 0.12); }
+.eff-pack-notes li[id] { scroll-margin-top: 150px; } /* clear the fixed header, as heading anchors do */
 .eff-packs-op { width: auto !important; min-width: 20rem; }
 
 /* Tall portrait art in posts ({{< figure class="post-portrait" figureClass="post-portrait-figure" >}}):

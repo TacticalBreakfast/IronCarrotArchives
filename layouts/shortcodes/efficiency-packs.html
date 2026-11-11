@@ -16,7 +16,10 @@
   Reader-facing labels are in this file only: the status badges and the date
   line. Before EN game data has the event, the line gives its CN date and an
   estimated EN month: the packs.yaml event_dates entry if there is one, else
-  the generator's order_date (CN start + the usual CN->EN lag, lag_days). The script swaps the badge using the data-label-* texts below.
+  the generator's order_date (CN start + the usual CN->EN lag, lag_days),
+  followed by a link to the `upcoming` note (CN contents, estimated prices) --
+  once per event rather than on every pack. The script swaps the badge using
+  the data-label-* texts below.
 */ -}}
 {{- $ctx := partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data" -}}
 {{- $D := $ctx.data -}}
@@ -39,6 +42,6 @@
   {{- end -}}
   {{- if $shown -}}
 {{ printf "\n\n### %s\n\n" $e.name }}
-<div class="eff-pack-event" data-pack-event data-label-live="Live" data-label-upcoming="Upcoming"><p class="eff-pack-when"><span class="eff-pack-badge{{ if $live }} eff-pack-badge--live{{ end }}" data-pack-badge>{{ if $live }}Live{{ else }}Upcoming{{ end }}</span> {{ if $first }}EN: {{ (time.AsTime $first).Format "Jan 2" }} – {{ (time.AsTime $last).Format "Jan 2, 2006" }}{{ else }}CN: {{ (time.AsTime $e.cn_start).Format "Jan 2, 2006" }}<span class="eff-pack-est">EN (est): {{ (time.AsTime ($e.expected_en_start | default $e.order_date)).Format "Jan 2006" }}</span>{{ end }}</p><div class="eff-table-wrap"><table class="eff-table eff-packs">{{ partial "ica/efficiency/packs/head.html" . }}{{ range $shown }}{{ partial "ica/efficiency/packs/row.html" (dict "pack" . "noteNum" $ctx.noteNum "timed" true) }}{{ end }}</table></div></div>
+<div class="eff-pack-event" data-pack-event data-label-live="Live" data-label-upcoming="Upcoming"><p class="eff-pack-when"><span class="eff-pack-badge{{ if $live }} eff-pack-badge--live{{ end }}" data-pack-badge>{{ if $live }}Live{{ else }}Upcoming{{ end }}</span> {{ if $first }}EN: {{ (time.AsTime $first).Format "Jan 2" }} – {{ (time.AsTime $last).Format "Jan 2, 2006" }}{{ else }}CN: {{ (time.AsTime $e.cn_start).Format "Jan 2, 2006" }}<span class="eff-pack-est">EN (est): {{ (time.AsTime ($e.expected_en_start | default $e.order_date)).Format "Jan 2006" }}</span>{{ with index $ctx.noteNum "upcoming" }} <a href="#pack-note-{{ . }}">Note {{ . }}</a>{{ end }}{{ end }}</p><div class="eff-table-wrap"><table class="eff-table eff-packs">{{ partial "ica/efficiency/packs/head.html" . }}{{ range $shown }}{{ partial "ica/efficiency/packs/row.html" (dict "pack" . "noteNum" $ctx.noteNum "timed" true) }}{{ end }}</table></div></div>
   {{- end -}}
 {{- end -}}

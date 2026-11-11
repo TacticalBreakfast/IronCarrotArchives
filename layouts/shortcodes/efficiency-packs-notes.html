@@ -1,0 +1,12 @@
+{{- /*
+  efficiency-packs-notes — the numbered notes the pack tables refer to
+  ("Note 3"): data/efficiencies/packs.yaml → notes, numbered in file order.
+  Note text is Markdown, so it can carry links.
+  Usage: {{< efficiency-packs-notes >}}
+*/ -}}
+{{- $ctx := partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data" -}}
+<ol class="eff-pack-notes">
+{{- range $ctx.data.notes }}
+<li id="pack-note-{{ index $ctx.noteNum .key }}">{{ .text | markdownify }}</li>
+{{- end }}
+</ol>

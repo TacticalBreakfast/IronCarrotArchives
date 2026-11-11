@@ -1,17 +1,10 @@
 {{- /*
-  efficiency-packs-key — colour legend and the numbered notes the pack tables
-  refer to ("Note 3"). The legend lines are the sheet's wording; the notes are
-  data/efficiencies/packs.yaml → notes, numbered in file order.
+  efficiency-packs-key — the colour legend. The numbered notes are a separate
+  shortcode, efficiency-packs-notes, so the page can put text between them.
   Usage: {{< efficiency-packs-key >}}
 */ -}}
-{{- $ctx := partialCached "ica/efficiency/packs/data.html" . "efficiency-packs-data" -}}
 <ul class="eff-legend">
 <li><span class="eff-key__swatch eff-pack-green"></span> Green = Better than double OP Packs. Buy these first.</li>
 <li><span class="eff-key__swatch eff-pack-yellow"></span> Yellow = Better than $100 OP pack WITHOUT double. Buy only after you exhausted your double OP packs.</li>
 <li><span class="eff-key__swatch eff-pack-red"></span> Red = Worse than any OP pack, do not buy.</li>
 </ul>
-<ol class="eff-pack-notes">
-{{- range $ctx.data.notes }}
-<li id="pack-note-{{ index $ctx.noteNum .key }}">{{ .text }}</li>
-{{- end }}
-</ol>

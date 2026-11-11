@@ -2,18 +2,16 @@
   efficiency-tickets — what each training ticket is worth, by rarity.
   Usage: {{< efficiency-tickets >}}
 
-  An Invitation Letter or Skill Training Pack is shown at the plain average
-  cost it replaces -- the "average operator" the tables compare against
-  (operator_values → averages: promotion / mastery). Deliberately NOT the
-  packs profile's ticket values: those leave out the cheapest quarter
-  (value_rules.yaml → packs: tickets_exclude_bottom_quartile), which only the
-  shop pack valuations use. Training Apparatus has no average involved, so it
-  comes from the packs profile.
+  The same values the shop packs use (packs profile), so the two pages agree:
+  an Invitation Letter or Skill Training Pack is the average cost it replaces
+  with the cheapest quarter of operators left out (value_rules.yaml → packs:
+  tickets_exclude_bottom_quartile). The pages say so above the table. The
+  plain averages are still generated (operator_values → averages).
 */ -}}
 {{- $ctx := partialCached "ica/efficiency/context.html" . "efficiency-context" -}}
 {{- $rows := slice
-  (dict "label" "Invitation Letter" "note" "E0 → E2" "average" "promotion")
-  (dict "label" "Skill Training Pack" "note" "one skill M0 → M3" "average" "mastery")
+  (dict "label" "Invitation Letter" "note" "E0 → E2" "prefix" "voucher_elite_II_")
+  (dict "label" "Skill Training Pack" "note" "one skill M0 → M3" "prefix" "voucher_skill_specialLevelMax_")
   (dict "label" "Training Apparatus" "note" "E2 level 1 → max" "prefix" "voucher_levelmax_")
 -}}
 <div class="eff-table-wrap">
@@ -27,13 +25,8 @@
         <tr>
           <th scope="row">{{ .label }} <span class="eff-foot-note">({{ .note }})</span></th>
           {{- range slice 6 5 4 -}}
-            {{- if $row.average -}}
-              {{- $avg := index (index $ctx.era.averages (string .)) $row.average -}}
-              <td class="eff-num" data-eff-avg="{{ . }}" data-eff-kind="{{ $row.average }}">{{ partial "ica/efficiency/num.html" $avg }}</td>
-            {{- else -}}
-              {{- $item := printf "%s%d" $row.prefix . -}}
-              <td class="eff-num" data-eff-item="{{ $item }}">{{ partial "ica/efficiency/num.html" (index $ctx.packs $item) }}</td>
-            {{- end -}}
+            {{- $item := printf "%s%d" $row.prefix . -}}
+            <td class="eff-num" data-eff-item="{{ $item }}">{{ partial "ica/efficiency/num.html" (index $ctx.packs $item) }}</td>
           {{- end -}}
         </tr>
       {{- end -}}

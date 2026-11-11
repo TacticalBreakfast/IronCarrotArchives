@@ -4,7 +4,7 @@
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
   "assets_commit": "d1702b5",
   "inputs": {
-   "data/efficiencies/packs.yaml": "1a428dcbfe1caa85",
+   "data/efficiencies/packs.yaml": "0374931b14fdf874",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
    "assets/game_img/processed/shop_packs.json": "06f493d6428729f6",
@@ -9483,44 +9483,46 @@
   },
   {
    "key": "module_blocks",
-   "text": "Module Data Blocks are valued based on red certificates, but red certificate purchases are limited, so they may be worth more if you're short on time."
+   "text": "Module Data Blocks are valued based on red certificates, but red certificate purchases are limited per month, so they may be worth more if you're short on time."
   },
   {
    "key": "vouchers",
-   "text": "Material vouchers are valued at the average of the most valuable materials they can buy, so cheap picks like Rocks and Kohl don't drag them down."
+   "text": "Material vouchers are valued at the average of the most valuable materials they can buy, so cheap picks like Rocks and Kohl don't drag them down. The \"Mixed Materials Pack\" skirts the threshold between the efficiency values, and may go below the double OP packs if you choose low value materials."
   },
   {
    "key": "kernel",
-   "text": "Kernel pulls aren't counted (don't roll on Kernel banners)."
+   "text": "Kernel pulls aren't counted (don't roll on Kernel banners). However, the Kernel Selector is still valuable."
   },
   {
    "key": "tickets",
-   "text": "Training Invitation Letters and Skill Training Packs are valued at the average cost across every operator of their rarity."
+   "text": "Training Invitation Letters and Skill Training Packs are valued at the average cost across every operator of their rarity, excluding the bottom 25% in costs (assuming the devaluation of infinite materials). You can find these values in the [Recent Promotion Costs](/guides/recent-promotion-costs/) and [Overall Promotion Costs](/guides/promotion-costs/) pages, if you're interested."
   },
   {
    "key": "selector",
-   "text": "6★ selector packs aren't valued, since it would be nearly impossible to do. They are by far the best purchase available (except the monthly card): get them if an operator you'd use is on offer."
+   "text": "The 6★ selector packs (both standard and kernel) are extremely valuable. They aren't given a specific number value though, since it would be nearly impossible to do. They are by far the best purchase available (except the monthly card), so definitely get them if an operator you'd use is on offer. For optimal picks, check out [my selector guide](/guides/selector/)."
   },
   {
    "key": "upcoming",
-   "text": "Contents and names come from the CN server and EN prices are estimated. They're usually right, but aren't official until the packs go live on EN."
+   "text": "Contents and names that come from the CN server and EN prices are estimated. They're usually right, but aren't official until the packs go live on EN."
   },
   {
    "key": "random_of_3",
-   "text": "\"One of three\" packs are generally poor value: they cost only $4 less than the no-luck selector, so buy that first. Only buy one if you'd be happy with any of the three."
+   "text": "Packs which give a random \"1 of 3\" are generally a bad value. They are only $4 cheaper than the no-RNG selector! Buy that first. Only buy the \"1 of 3\" packs if you'd be happy with any of the three."
   },
   {
    "key": "banner_only",
-   "text": "These pulls can only be used on that event's banner."
+   "text": "Certain packs sell pulls that can only be used on a specific banner (often Vignette or story episode banners). These are good value if you'd pull on that banner normally, but can only be used on that specific banner, so be careful before buying them."
   },
   {
    "key": "dont_buy",
-   "text": "Don't buy this one."
+   "text": "Don't buy the Starter Upgrade Pack or Starter Furniture Pack. Although most Starter packs are good value, these are unusually terrible."
+  },
+  {
+   "key": "not_valued",
+   "text": "Other items not given values include furniture parts and cosmetics, however these are not called out specifically with notes. Additionally, some cosmetic packs are excluded entirely if there's no or inconsequential material or pull value."
   }
  ],
  "attention": [
-  "Vanguard Chip Pack [GP_Once_422]: no source lists this pack, contents copied from 先锋芯片礼包 2026-05-01 -- check once one does",
-  "Medic Chip Pack [GP_Once_421]: no source lists this pack, contents copied from 医疗芯片礼包 2026-05-01 -- check once one does",
   "Sniper Chip Pack [GP_Once_446]: no source lists this pack, contents copied from 狙击芯片礼包 2026-06-01 -- check once one does",
   "Specialist Chip Pack [GP_Once_452]: no source lists this pack, contents copied from 特种芯片礼包 2026-09-04 -- check once one does",
   "Caster Chip Pack [GP_Once_463]: no source lists this pack, contents copied from 术师芯片礼包 2026-07-10 -- check once one does",
