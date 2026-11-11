@@ -230,7 +230,7 @@ starter_packs:
   - name: Starter Pack
     usd: 0.99
     contents: {"7003": 1, "4001": 10000, "2001": 20}
-    text: "1x Headhunting Permit, 10,000x LMD, 20x Drill Battle Record, Myrtle"
+    text: "1x Headhunting Permit, 10,000 LMD, 4,000 EXP, Myrtle"
   - name: Starter Monthly Pack
     usd: 6.99
     contents: {"4002": 6, "4003": 6000, "ap_supply_lt_80": 30, "7003": 3}

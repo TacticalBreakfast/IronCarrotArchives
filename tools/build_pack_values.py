@@ -50,6 +50,8 @@ A pack:
   contents  [{id, name, count, kind, value}]: kind = material | op | pulls |
             kernel | zero | cosmetic | selector | random_of_3; value = sanity
             each (materials, zero) or pulls each (pulls); cosmetics have no id
+            Battle Records are combined into one "xp" line (count = total XP,
+            value = sanity per XP), like LMD
   measure   {material, op, pulls, total_op, per_op, total_pulls, per_pull} or
             null when the pack isn't valued ("one of three", Kernel
             only); per_* null when there's nothing to divide by
@@ -204,7 +206,7 @@ def load_en_events() -> dict:
 # ── Valuing contents ─────────────────────────────────────────────────────────
 
 class Valuer:
-    def __init__(self, rules: dict, values: dict, value_rules: dict, item_names: dict):
+    def __init__(self, rules: dict, values: dict, value_rules: dict, item_names: dict, exp_items: dict):
         self.pull_items = {str(k): v for k, v in rules["pulls"]["items"].items()}
         self.pull_types = rules["pulls"]["item_types"]
         self.orundum_per_pull = rules["pulls"]["orundum_per_pull"]
@@ -216,14 +218,36 @@ class Valuer:
         self.ticket_items = set(value_rules["packs"]["invitation_letters"]) | \
             set(value_rules["packs"]["skill_training_packs"])
         self.item_names = item_names
+        # Battle Record id -> XP it gives (CN item_table expItems).
+        self.record_xp = {i: exp_items[i]["gainExp"] for i in value_rules["packs"]["battle_records"]}
         self.missing = set()
+
+    def combine_xp(self, contents: list) -> list:
+        """Battle Records (and any plain "xp" line) as one XP total, shown like
+        LMD -- readers don't know what each kind of record is worth. In the
+        first one's place. Value per XP keeps the records' own sanity total, so
+        no figure changes (the packs profile values a record at its XP anyway)."""
+        xp_lines = [c for c in contents if c["id"] == "xp" or c["id"] in self.record_xp]
+        if not xp_lines:
+            return contents
+        xp = sum(c["count"] * self.record_xp.get(c["id"], 1) for c in xp_lines)
+        sanity = sum(c["count"] * c["value"] for c in xp_lines)
+        out, placed = [], False
+        for c in contents:
+            if c in xp_lines:
+                if not placed:
+                    out.append({"id": "xp", "name": "EXP", "count": xp, "kind": "material", "value": sanity / xp})
+                    placed = True
+            else:
+                out.append(c)
+        return out
 
     def entry(self, item_id, count, item_type=None, category=None, name=None) -> dict:
         """One content line, classified."""
         item_id = None if item_id is None else str(item_id)
         label = name or (self.item_names.get(item_id) if item_id else None) or item_id
         if item_id == "xp":
-            return {"id": "xp", "name": "XP", "count": count, "kind": "material", "value": self.xp_value}
+            return {"id": "xp", "name": "EXP", "count": count, "kind": "material", "value": self.xp_value}
         if item_id == "selector" or category == "Special":
             return {"id": item_id, "name": label if item_id != "selector" else "6★ selector",
                     "count": count, "kind": "selector", "value": None}
@@ -352,7 +376,7 @@ def pack_group(contents: list, value_rules: dict) -> str:
 def hand_written(valuer: Valuer, section: list) -> list:
     out = []
     for p in section or []:
-        contents = [valuer.entry(k, n) for k, n in (p.get("contents") or {}).items()]
+        contents = valuer.combine_xp([valuer.entry(k, n) for k, n in (p.get("contents") or {}).items()])
         pack = {"name": p["name"], "usd": p.get("usd"), "contents": contents, "text": p.get("text")}
         out.append(valuer.finish(pack, p.get("notes")))
     return out
@@ -376,7 +400,7 @@ def build(force: bool = False):
     cn_items = load_json(CN_ITEMS)["items"]
     item_names = {k: d["name"] for k, d in cn_items.items()}
     item_names.update({k: d["name"] for k, d in en_items.items()})
-    valuer = Valuer(rules, values, value_rules, item_names)
+    valuer = Valuer(rules, values, value_rules, item_names, load_json(CN_ITEMS)["expItems"])
     en_names, en_windows = load_en_shop()
     en_events = load_en_events()
     overrides = rules.get("overrides") or {}
@@ -440,6 +464,7 @@ def build(force: bool = False):
                                       category=o.get("category"),
                                       name=o.get("enName") or type_names.get(o.get("itemType")) or o.get("name"))
                          for o in raw["otherItems"]]
+        contents = valuer.combine_xp(contents)
 
         pack = {
             "key": key, "name": name, "name_source": name_source, "cn_name": raw["name"],

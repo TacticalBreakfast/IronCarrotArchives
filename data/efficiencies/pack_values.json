@@ -4,7 +4,7 @@
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
   "assets_commit": "d1702b5",
   "inputs": {
-   "data/efficiencies/packs.yaml": "4a24c7337f58873e",
+   "data/efficiencies/packs.yaml": "ce7ee4b80f0436bd",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "data/efficiencies/item_values.json": "ebe48e4e7971b204",
    "assets/game_img/processed/shop_packs.json": "06f493d6428729f6",
@@ -14,7 +14,7 @@
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
    "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
-   "tools/build_pack_values.py": "ffdc88740ff089bb"
+   "tools/build_pack_values.py": "89a20f90332d0190"
   }
  },
  "lag_days": 165,
@@ -2359,18 +2359,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 20,
+     "id": "xp",
+     "name": "EXP",
+     "count": 70000,
      "kind": "material",
-     "value": 7.2
-    },
-    {
-     "id": "2003",
-     "name": "Tactical Battle Record",
-     "count": 30,
-     "kind": "material",
-     "value": 3.6
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -2471,11 +2464,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 30,
+     "id": "xp",
+     "name": "EXP",
+     "count": 60000,
      "kind": "material",
-     "value": 7.2
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -3123,11 +3116,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 30,
+     "id": "xp",
+     "name": "EXP",
+     "count": 60000,
      "kind": "material",
-     "value": 7.2
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -4832,11 +4825,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 30,
+     "id": "xp",
+     "name": "EXP",
+     "count": 60000,
      "kind": "material",
-     "value": 7.2
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -4939,11 +4932,11 @@
      "value": 35.1296
     },
     {
-     "id": "2003",
-     "name": "Tactical Battle Record",
-     "count": 50,
+     "id": "xp",
+     "name": "EXP",
+     "count": 50000,
      "kind": "material",
-     "value": 3.6
+     "value": 0.0036
     },
     {
      "id": "4001",
@@ -5211,18 +5204,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 20,
+     "id": "xp",
+     "name": "EXP",
+     "count": 70000,
      "kind": "material",
-     "value": 7.2
-    },
-    {
-     "id": "2003",
-     "name": "Tactical Battle Record",
-     "count": 30,
-     "kind": "material",
-     "value": 3.6
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -5989,11 +5975,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 30,
+     "id": "xp",
+     "name": "EXP",
+     "count": 60000,
      "kind": "material",
-     "value": 7.2
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -7108,18 +7094,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 20,
+     "id": "xp",
+     "name": "EXP",
+     "count": 70000,
      "kind": "material",
-     "value": 7.2
-    },
-    {
-     "id": "2003",
-     "name": "Tactical Battle Record",
-     "count": 30,
-     "kind": "material",
-     "value": 3.6
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -7220,11 +7199,11 @@
      "value": 0.0036
     },
     {
-     "id": "2004",
-     "name": "Strategic Battle Record",
-     "count": 30,
+     "id": "xp",
+     "name": "EXP",
+     "count": 60000,
      "kind": "material",
-     "value": 7.2
+     "value": 0.0036
     },
     {
      "id": "32001",
@@ -8400,10 +8379,10 @@
    "contents": [
     {
      "id": "xp",
-     "name": "XP",
+     "name": "EXP",
      "count": 324000,
      "kind": "material",
-     "value": 0.0036
+     "value": 0.0035999999999999995
     }
    ],
    "text": null,
@@ -8575,14 +8554,14 @@
      "value": 0.0036
     },
     {
-     "id": "2001",
-     "name": "Drill Battle Record",
-     "count": 20,
+     "id": "xp",
+     "name": "EXP",
+     "count": 4000,
      "kind": "material",
-     "value": 0.72
+     "value": 0.0035999999999999995
     }
    ],
-   "text": "1x Headhunting Permit, 10,000x LMD, 20x Drill Battle Record, Myrtle",
+   "text": "1x Headhunting Permit, 10,000 LMD, 4,000 EXP, Myrtle",
    "measure": {
     "material": 50.4,
     "op": 0,
@@ -8742,25 +8721,11 @@
      "value": 0.0036
     },
     {
-     "id": "2003",
-     "name": "Tactical Battle Record",
-     "count": 20,
+     "id": "xp",
+     "name": "EXP",
+     "count": 40000,
      "kind": "material",
-     "value": 3.6
-    },
-    {
-     "id": "2002",
-     "name": "Frontline Battle Record",
-     "count": 30,
-     "kind": "material",
-     "value": 1.44
-    },
-    {
-     "id": "2001",
-     "name": "Drill Battle Record",
-     "count": 40,
-     "kind": "material",
-     "value": 0.72
+     "value": 0.0036
     },
     {
      "id": "3301",

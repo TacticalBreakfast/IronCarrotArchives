@@ -11,12 +11,13 @@
 */ -}}
 {{- $p := .pack -}}
 {{- $m := $p.measure | default dict -}}{{- /* empty when the pack isn't valued: every cell shows "—" */ -}}
+{{- /* LMD (4001) and EXP ("xp") are amounts, not item counts: "600,000 LMD", no "x". */ -}}
 {{- $parts := slice -}}
 {{- if $p.text -}}
   {{- $parts = $parts | append $p.text -}}
 {{- else -}}
   {{- range $p.contents -}}
-    {{- if eq .kind "cosmetic" }}{{ $parts = $parts | append .name }}{{ else }}{{ $parts = $parts | append (printf "%sx %s" (lang.FormatNumber 0 .count) .name) }}{{ end -}}
+    {{- if eq .kind "cosmetic" }}{{ $parts = $parts | append .name }}{{ else if in (slice "4001" "xp") .id }}{{ $parts = $parts | append (printf "%s %s" (lang.FormatNumber 0 .count) .name) }}{{ else }}{{ $parts = $parts | append (printf "%sx %s" (lang.FormatNumber 0 .count) .name) }}{{ end -}}
   {{- end -}}
 {{- end -}}
 {{- /* cell_note: a note link in place of the $/OP and $/pull figures (selector packs) */ -}}
