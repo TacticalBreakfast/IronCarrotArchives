@@ -3,9 +3,16 @@
   Call: partialCached "ica/efficiency/write-ups.html" . "efficiency-write-ups"
 
   The class pages first (ica/mastery-anchors.html), then mostrecent.md for
-  operators whose write-up hasn't moved to a class page yet. mastery-anchors
-  skips mostrecent on purpose -- the selector guide must never link there --
-  so the fallback lives here, not in that shared partial.
+  operators whose write-up hasn't moved to a class page yet, then lookahead.md
+  for upcoming units with no write-up at all. mastery-anchors skips mostrecent
+  on purpose -- the selector guide must never link there -- so the fallbacks
+  live here, not in that shared partial.
+
+  Lookahead entries carry no id: "#### Name" followed by a bold "**6★ · Pool**"
+  line (the shape the search index relies on), with Name resolved against
+  characters.yml (ica/resolve-operator.html). A name that doesn't resolve --
+  a unit not in the game data yet, or one shared by several operators -- just
+  gets no link; no warning, since lookaheads routinely run ahead of the data.
 */ -}}
 {{- $out := partialCached "ica/mastery-anchors.html" . "mastery-anchors" -}}
 {{- with site.GetPage "/masteries/mostrecent" -}}
@@ -15,6 +22,16 @@
     {{- if not (index $out $id) -}}
       {{- $title := index . 1 | markdownify | plainify | htmlUnescape -}}
       {{- $out = merge $out (dict $id (printf "%s#%s" $page.RelPermalink (anchorize $title))) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with site.GetPage "/masteries/lookahead" -}}
+  {{- $page := . -}}
+  {{- range findRESubmatch `(?m)^####[ \t]+(.+?)[ \t]*\n\s*\*\*[1-6]★` .RawContent -1 -}}
+    {{- $title := index . 1 | markdownify | plainify | htmlUnescape -}}
+    {{- $r := partial "ica/resolve-operator.html" $title -}}
+    {{- if and (not $r.error) (not (index $out $r.id)) -}}
+      {{- $out = merge $out (dict $r.id (printf "%s#%s" $page.RelPermalink (anchorize $title))) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
