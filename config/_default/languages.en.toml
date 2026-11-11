@@ -30,8 +30,7 @@ title = "Iron Carrot Archives"
      { bluesky = "https://bsky.app/profile/tacticalbreakfast.bsky.social" },
      { discord = "https://discord.com/users/tacticalbreakfast" },
      { reddit = "https://reddit.com/user/tacticalbreakfast" },
-#     { twitter = "https://twitter.com/tacbreakfast1" },
-     { x-twitter = "https://twitter.com/tacbreakfast1" },
+     { x-twitter = "https://x.com/TacBreakfast" },
      { youtube = "https://www.youtube.com/@tacticalbreakfast2271" }
 #     { ko-fi = "https://ko-fi.com/username" },
    ]
