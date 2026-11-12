@@ -8,13 +8,15 @@ I now apparently have a Discord. A few other AK site admins and I got together t
 
 ## Most Recent Content
 
-New Guide - [Paid 6★ Selector Recommendations](guides/selector/)
-
 New Update - [Episode 17 - Critical Phase Transition](masteries/mostrecent)
 
 New Article - [Episode 17 - Critical Phase Transition](https://sanitygone.help/en/guides/mastery-ep17/)
 
 Tier List Update - [Episode 17 - Critical Phase Transition](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
+
+Updated - [Sanity Efficiency Guide](guides/efficiency) - New and updated efficiency guide. Replaces the old Sheets version.
+
+New Guide - [Paid 6★ Selector Recommendations](guides/selector/)
 
 Blog Post - [I Love April, but Not Orchid?](posts/iloveapril)
 

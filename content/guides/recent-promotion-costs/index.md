@@ -7,17 +7,17 @@ tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 # Must stay above [params]: in TOML, keys below a [table] header belong to that table.
 weight = 7
-# Semi-hidden feedback release: published at its URL, but left out of search,
-# the sitemap and tag pages (and the Mastery tables' "Costs" links switch off).
-# For the wide release, delete this [build] block and restore `topic` below.
-[build]
-  list = 'never'
 [params]
   author = 'TacticalBreakfast'
-  # topic = 'Other Content'   # restore for the wide release: lists the page on the homepage
+  topic = 'Other Content'   # lists the page on the homepage
 showDate = false
 showAuthor = false
 
+# Menu entry lives here (not in menus.en.toml) so a draft page leaves no dead link.
+[menus.main]
+  name = 'Recent Promotion & Mastery Costs'
+  parent = 'Efficiency'
+  weight = 7
 +++
 
 E2 and M3 costs of operators from the last ten CN patches, the ones paid

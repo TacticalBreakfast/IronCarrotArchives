@@ -1,5 +1,5 @@
 +++
-title = "TacticalBreakfast's Sanity Value Guide"
+title = "TacticalBreakfast's Sanity Efficiency Guide"
 date = 2026-11-11T00:00:00-05:00
 draft = false
 summary = "How to read the Arknights sanity value pages: what shop pack values and E2/M3 promotion costs measure, how they're calculated, and which packs to buy first."
@@ -13,23 +13,17 @@ weight = 5
 # and the homepage card. "big" shows the whole image rather than a cropped strip.
 showHero = true
 heroStyle = "big"
-# Semi-hidden feedback release: published at its URL, but left out of search,
-# the sitemap and tag pages. For the wide release, delete this [build] block,
-# restore `topic` below, and uncomment the menu entry at the bottom.
-[build]
-  list = 'never'
 [params]
   author = 'TacticalBreakfast'
-  # topic = 'Other Content'   # restore for the wide release: lists the page on the homepage
+  topic = 'Other Content'   # lists the page on the homepage
 showDate = false
 showAuthor = false
 
-# Menu entry for the wide release. It lives here (not in menus.en.toml) so a
-# draft page leaves no dead link. Parent and weight still to be decided.
-# [menus.main]
-#   name = 'Intro - README'
-#   parent = '…'
-#   weight = …
+# Menu entry lives here (not in menus.en.toml) so a draft page leaves no dead link.
+[menus.main]
+  name = 'Intro - README'
+  parent = 'Efficiency'
+  weight = 5
 +++
 
 ## Introduction - What is this?

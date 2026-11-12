@@ -82,20 +82,10 @@
   weight = 19
 
 [[main]]
-  name = "Efficiency Sheets"
+  # Entries are in the front matter of each page under content/guides/
+  # (efficiency, promotion-costs, recent-promotion-costs, promotion-stats, shop-packs).
+  name = "Efficiency"
   weight = 15
-
-[[main]]
-  name = "Paid Packs"
-  parent = "Efficiency Sheets"
-  url = "https://docs.google.com/spreadsheets/d/1knwIQHQXDfmAIEShW3QuybzBh9OerfHsYJgCVVYXqtw/"
-  weight = 15
-
-[[main]]
-  name = "M3/E2 Tickets"
-  parent = "Efficiency Sheets"
-  url = "https://docs.google.com/spreadsheets/d/1knwIQHQXDfmAIEShW3QuybzBh9OerfHsYJgCVVYXqtw/"
-  weight = 20
 
 [[main]]
   name = "Other Content"

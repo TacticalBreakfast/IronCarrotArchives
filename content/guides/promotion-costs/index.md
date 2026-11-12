@@ -11,17 +11,19 @@ weight = 6
 # Marks this page as the full roster: the search index adds an entry per
 # operator here (layouts/_default/index.json). Only one page should set it.
 efficiencyRoster = true
-# Semi-hidden feedback release: published at its URL, but left out of search,
-# the sitemap and tag pages (and the Mastery tables' "Costs" links switch off).
-# For the wide release, delete this [build] block and restore `topic` below.
-[build]
-  list = 'never'
+# The old homepage card for the retired Google Sheet lived at this URL.
+aliases = ['/other/ticketeff/']
 [params]
   author = 'TacticalBreakfast'
-  # topic = 'Other Content'   # restore for the wide release: lists the page on the homepage
+  topic = 'Other Content'   # lists the page on the homepage
 showDate = false
 showAuthor = false
 
+# Menu entry lives here (not in menus.en.toml) so a draft page leaves no dead link.
+[menus.main]
+  name = 'Promotion & Mastery Costs'
+  parent = 'Efficiency'
+  weight = 6
 +++
 
 The total cost of promoting every 4★–6★ operator to E2, of taking each of

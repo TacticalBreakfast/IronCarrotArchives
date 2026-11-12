@@ -6,16 +6,17 @@ summary = "Arknights promotion, mastery and module cost statistics for the whole
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 weight = 8
-# Semi-hidden feedback release: published at its URL, but left out of search,
-# the sitemap and tag pages. For the wide release, delete this [build] block
-# and restore `topic` below.
-[build]
-  list = 'never'
 [params]
   author = 'TacticalBreakfast'
-  # topic = 'Other Content'   # restore for the wide release: lists the page on the homepage
+  topic = 'Other Content'   # lists the page on the homepage
 showDate = false
 showAuthor = false
+
+# Menu entry lives here (not in menus.en.toml) so a draft page leaves no dead link.
+[menus.main]
+  name = 'Promotion & Mastery Statistics'
+  parent = 'Efficiency'
+  weight = 8
 +++
 
 Statistics across every 4★–6★ operator, including those not yet on EN, using

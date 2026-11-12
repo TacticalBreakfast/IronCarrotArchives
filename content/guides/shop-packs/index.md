@@ -6,16 +6,19 @@ summary = "Arknights shop pack value guide: dollars per Originite Prime and per 
 tags = ['Arknights', 'Guide', 'Efficiency']
 excludeFromRSS = true
 weight = 9
-# Semi-hidden feedback release: published at its URL, but left out of search,
-# the sitemap and tag pages. For the wide release, delete this [build] block
-# and restore `topic` below.
-[build]
-  list = 'never'
+# The old homepage card for the retired Google Sheet lived at this URL.
+aliases = ['/other/paidpackslist/']
 [params]
   author = 'TacticalBreakfast'
-  # topic = 'Other Content'   # restore for the wide release: lists the page on the homepage
+  topic = 'Other Content'   # lists the page on the homepage
 showDate = false
 showAuthor = false
+
+# Menu entry lives here (not in menus.en.toml) so a draft page leaves no dead link.
+[menus.main]
+  name = 'Paid Pack Values'
+  parent = 'Efficiency'
+  weight = 9
 +++
 
 ## Introduction
