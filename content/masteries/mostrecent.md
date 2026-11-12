@@ -17,7 +17,7 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Full Articles
 
-{{< article-links sg="https://sanitygone.help/en/guides/mastery-mh2/" ld="https://lungmendragons.com/guides/mh2-mastery" reddit="https://lungmendragons.com/guides/mh2-mastery" >}}
+{{< article-links sg="https://sanitygone.help/en/guides/mastery-mh2/" ld="https://lungmendragons.com/guides/mh2-mastery" reddit="https://www.reddit.com/r/arknights/comments/1xurcr1/a_mastery_priority_guide_should_you_pull_thunder/" >}}
 
 ### Violet Mizutsune Orchid
 
