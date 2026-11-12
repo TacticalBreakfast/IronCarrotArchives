@@ -381,16 +381,15 @@ def build_ld(article: Article, banner_alt: str) -> tuple[str, list[tuple[str, st
         for s in op.skills:
             skill_icon = f"https://arknights.wiki.gg/images/thumb/Skill-{short}{s.number}.png/64px-Skill-{short}{s.number}.png"
             links.append((f"{op.name} S{s.number} skill icon", skill_icon))
+            # A breakpoint gets its own row, ahead of the skill's graded row
+            # (the raw lists it first too); it doesn't replace the grades.
             if s.breakpoint_level:
-                code = s.breakpoint_code
-                grade_cell = "Breakpoint ||"
+                lines.append(f"[![{short}S{s.number}]({skill_icon})]({wiki_link}) | {s.breakpoint_code} | Breakpoint ||")
+            if grades_merge(s.story, s.advanced):
+                grade_cell = f"{s.story} ||"
             else:
-                code = s.code
-                if grades_merge(s.story, s.advanced):
-                    grade_cell = f"{s.story} ||"
-                else:
-                    grade_cell = f"{s.story} | {s.advanced}"
-            lines.append(f"[![{short}S{s.number}]({skill_icon})]({wiki_link}) | {code} | {grade_cell}")
+                grade_cell = f"{s.story} | {s.advanced}"
+            lines.append(f"[![{short}S{s.number}]({skill_icon})]({wiki_link}) | {s.code} | {grade_cell}")
         for para in op.prose:
             lines.append("")
             lines.append(para)
@@ -509,10 +508,10 @@ def build_reddit(article: Article) -> str:
         lines.append("Skill | Story | Advanced")
         lines.append(":---: | :---: | :---: |")
         for s in op.skills:
+            # A breakpoint gets its own row, ahead of the skill's graded row.
             if s.breakpoint_level:
                 lines.append(f"{s.breakpoint_code} | Breakpoint | Breakpoint")
-            else:
-                lines.append(f"{s.code} | {s.story} | {s.advanced}")
+            lines.append(f"{s.code} | {s.story} | {s.advanced}")
         for para in op.prose:
             lines.append("")
             lines.append(para)
