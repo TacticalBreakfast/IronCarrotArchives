@@ -17,7 +17,7 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ### Full Articles
 
-{{< article-links sg="https://sanitygone.help/en/guides/mastery-mh2/" ld="https://lungmendragons.com/guides/mh2-mastery" reddit="TBD" >}}
+{{< article-links sg="https://sanitygone.help/en/guides/mastery-mh2/" ld="https://lungmendragons.com/guides/mh2-mastery" reddit="https://lungmendragons.com/guides/mh2-mastery" >}}
 
 ### Violet Mizutsune Orchid
 
