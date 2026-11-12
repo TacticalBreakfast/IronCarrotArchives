@@ -12,7 +12,7 @@ New Update - [Thunder in the Azure Dream - Monster Hunter 2](masteries/mostrecen
 
 New Article - [Thunder in the Azure Dream - Monster Hunter 2](https://sanitygone.help/en/guides/mastery-mh2/)
 
-Tier List Update - [Episode 17 - Critical Phase Transition](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
+Tier List Update - [Thunder in the Azure Dream - Monster Hunter 2](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 
 Updated - [Sanity Efficiency Guide](guides/efficiency) - New and updated efficiency guide. Replaces the old Sheets version.
 
