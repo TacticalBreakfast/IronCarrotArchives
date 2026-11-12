@@ -8,9 +8,9 @@ I now apparently have a Discord. A few other AK site admins and I got together t
 
 ## Most Recent Content
 
-New Update - [Episode 17 - Critical Phase Transition](masteries/mostrecent)
+New Update - [Thunder in the Azure Dream - Monster Hunter 2](masteries/mostrecent)
 
-New Article - [Episode 17 - Critical Phase Transition](https://sanitygone.help/en/guides/mastery-ep17/)
+New Article - [Thunder in the Azure Dream - Monster Hunter 2](https://sanitygone.help/en/guides/mastery-mh2/)
 
 Tier List Update - [Episode 17 - Critical Phase Transition](https://docs.google.com/spreadsheets/d/1E7HmgKWiV8pKpJpvpVzziYxnaQTP01Vtw_PXEdL7XPA/)
 

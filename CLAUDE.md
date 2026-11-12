@@ -82,6 +82,8 @@ From the `id` (e.g. `2027_wang`) they resolve, without further parameters:
 
 Missing lookups degrade rather than fail: no `characters.yml` entry means no stars/sub-profession; no `operator_pools.yaml` entry renders "Gacha pool not set (oops)".
 
+Upcoming CN units go into `operator_pools.yaml` when they enter the lookahead, not at release: `tools/build_lookahead_variant.py` rebuilds every lookahead entry's `**6★ · Pool**` line from it on each run (same lookup as the shortcodes, so the labels match the guide) and warns about any unit missing from it.
+
 Optional parameters exist for the cases the conventions don't cover: `en_link`/`cn_link` (required for alternate forms like Amiya Guard `1001_amiya2` and Amiya Medic `1037_amiya3`, whose auto-generated links would be wrong), `icons` (pipe-separated per-row icon filename overrides, empty segment = default), and `pool`.
 
 See `docs/adding-new-operators.md` for the full operator-addition procedure.

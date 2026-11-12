@@ -16,13 +16,13 @@ tags = ['Mastery', 'Glossary', 'Arknights', 'Guide', 'Skill Priority']
 
 This glossary defines shorthand acronyms and terms that may be used in the guide. It is not meant to be a comprehensive overview of game mechanics, but may give some overview of the terms for clarity.
 
-- [General & Article Terms and Conventions](#general-article-terms-and-conventions)
+- [General & Article Terms and Conventions](#general--article-terms-and-conventions)
 - [Combat Stats and Effects](#combat-stats-and-effects)
 - [Elemental Effects](#elemental-effects)
 - [Game Modes](#game-modes)
 - [Integrated Strategies](#integrated-strategies)
-- [Skills & Modules](#skills-modules)
-- [Unit & Archetype Terms](#unit-archetype-terms)
+- [Skills & Modules](#skills--modules)
+- [Unit & Archetype Terms](#unit--archetype-terms)
 - [Other](#other)
 
 ## General & Article Terms and Conventions

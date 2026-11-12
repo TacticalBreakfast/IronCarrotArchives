@@ -226,6 +226,20 @@ There is no one-sized fits all answer with Saria. I've always struggled with her
 
 ## 5★ Defenders
 
+### Crackborne
+
+{{< mastery-table-enhanced id="4225_tanya" rows="S2M3,B-,B" >}}
+
+Crackborne can feel like a rather uninspired unit. She is extremely similar to the original Primal Protector, Philae, with only some minor tweaks to better align with Corrosion. However, that combination tends to be weaker than Philae, who is not a new unit anymore and is already not a common recommendation. Worse, she doesn't stack with Cairn, one of the best Defenders at the rarity, since the Elemental types are incompatible. This means she doesn't have much niche use either. However, while Corrosion's damage is much lower, as is Crackborne's bulk which quickly vanishes, she can cycle and trigger it faster than Philae can. It's hard to call 5,000 AoE true-ish damage plus a debuff on a 25 SP cycle bad!
+
+If you do have a particular fondness for off-meta bears, then Crackborne's main skill is her S2. As with Philae, she reflects hits back as her injury type. But unlike Philae, she does this much faster. There's two notable things. First, the reflect has no cooldown timer, meaning it can trigger extremely fast depending on the enemy. This can be a huge boon for swarms, although the relatively low damage per injury burst holds this back. Second, the skill applies as a buff to herself, meaning it doesn't have a typical uptime and begins charging right away. This means she can trigger it as fast as every 25 seconds, although this is still dependent on the enemy.
+
+As with all Elemental Injury dealers, there are a million different permutations that impact a multitude of trigger thresholds. This is made even more complex here due to the fact the injury increases at every Mastery level, meaning going through all of them is simply untenable, but Crackborne's Masteries do end up being relatively valuable. For example, Mastery is required to trigger Corrosion in a single skill activation (5 hits) if her Module condition can't be triggered. It's also required to reach 4 hits without also having max level. While there are many common scenarios where Mastery doesn't matter, the scenarios that do, plus some meaningful SP improvements, make it a Mastery worth pursuing if you plan to actually use her.
+
+As for her S1, it's a very fringe consideration. Skills like this do have some niche value, but Philae's S1 is a better version of it. Their net effective Elemental healing is actually pretty similar, but Philae's version cycles faster, and it's already an extremely fringe tool. Considering that even in the rare circumstances that you did need such a skill, Philae is easily available from the shop, the only reason to really consider Crackborne's S1 is because you specifically like Crackborne more.
+
+{{< last-updated "2026-10-12" >}}
+
 ### Cairn
 
 {{< mastery-table-enhanced id="4214_cairn" rows="S2M3,A-,A" >}}

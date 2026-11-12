@@ -23,6 +23,24 @@ tags = ['Mastery', 'Vanguards', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 6★ Vanguards
 
+### Closure
+
+{{< mastery-table-enhanced id="4228_closur" rows="S3M3,S+,A+|S2M3,S-,S+" >}}
+
+At long last, Closure moves out of the procurement department where she puts us in real money debt, to field operations, where she puts us in DP debt instead. Some things never change. Fortunately for us, Closure makes for an extremely strong Vanguard. She has DPS that rivals some dedicated DPS units, the best DP generating potential available, albeit with some caveats, and the mentioned "DP debt" mechanic via her Talent 2 that proves to be surprisingly clutch. It makes Closure an incredibly strong option, even despite two meta-tier Vanguards already existing at her release. In fact, she will often be better than them, depending on the circumstances, and will tend to be easier to use as well.
+
+In that vein of thinking, Closure's "best" skill will depend on what you want out of her. Some players will find her S3 to be the most valuable, while others will find that to be her S2! Starting with her S3, it leans a bit more towards being a "daily-driver" sort of skill. It's the skill that has the high DPS, which can be done on an absolutely massive range, in addition to generating solid DP. Story-centric players will likely find it to be the best Vanguard skill in the game due to these aspects, allowing Closure to perform triple duty as an early hold, a DP generator, and even a straight-up DPS unit. The new "Sluggish" is notable too, although at least as of this writing, hasn't found much meta use. Because of that, Advanced players may not find it as valuable, especially if you're already using the other 6★ Vanguards on your team. It's a great combination of abilities, but isn't unique or essential in high-meta situations, and the DPH on it is relatively low.
+
+Mastery on her S3 is quite good as well. The most obvious improvement is to her DPS, which increases by around 33%, but the more notable one is to her initial SP. At SL7, she requires a painfully long 18 SP for initial activation, an eternity for a Vanguard, but that drops to just 7 SP at S3M3. Part of that is a 6 SP drop in base cost, which is also a nice improvement considering the DPS potential of the skill. The debuff improves as well, although as previously mentioned, that hasn't proven to be all that essential yet, with the main benefit being the MVSPD reduction thanks to her big range.
+
+Meanwhile, her S2 will likely be the more appealing skill for Advanced players, although the Mastery gains on it are more muted. There are a lot of features to the skill, but the only one that really matters is the DP refund. With it, plus the native DP generation, she can effectively dump out an entire roster as soon as the skill is up. This makes it tremendously valuable in terms of effective DP generation, and she'll be a key part in many (if not all) CC-tier DP-constrained strategies because of it. However, that is restricted to the 3x3 square around her summon, so it's not quite universally great either, and it lacks her S3's damage which can often hold a map on its own.
+
+As far as priority goes, while there are a lot of gains over Mastery on her S2, most of them don't especially matter. She does gain more damage, and more DEF, which also applies to allies within that 3x3 square, but those aren’t the main feature of the skill. Instead, the main value of Mastery is to the initial SP and the extra DP gained. The DP gain is actually subtly important since she needs a bit of a DP bank built up before she can really pour out the team, but the total gain is still less dramatic than her S3. Advanced players especially will better appreciate those gains on a skill like this, but Story centric players will find S3's Masteries more valuable.
+
+Last, you should probably pass on her S1. There's two problems with it. First, while the DP generation can get very high, it's poor to start and takes some time to ramp up. By the time it does ramp up, it probably doesn't matter anymore. There aren't a lot of situations where her S1 is better than her S2! Second, the Auto Activation that probably makes it appealing to some makes the shield aspect unreliable, limiting its niche value. That leaves it as a desire-only tier of skill, to show off your love of capitalism, although it has had a few small highlights for the true min-maxers.
+
+{{< last-updated "2026-10-12" >}}
+
 ### SilverAsh the Reignfrost
 
 {{< mastery-table-enhanced id="1045_svash2" rows="S2M3,S+,S++|S3M3,S+,S+|S1M3,None,C" >}}

@@ -20,6 +20,10 @@ tags = ['Mastery', 'Arknights', 'Guide', 'Skill Priority']
 
 ## 2026
 
+**November 12, 2026**
+
+Added the MH2 units and moved the Ep17 units into the main guide. Updated the lookaheads. Also published the new efficiency pages. Fixed some broken header links on the Glossary and on the Lookahead. Fixed an issue with the Revisions page not showing the correct pool.
+
 **November 7, 2026**
 
 Updated a reference in Eune's writeup to RA3.

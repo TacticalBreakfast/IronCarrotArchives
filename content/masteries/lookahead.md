@@ -15,26 +15,22 @@ tags = ['Mastery', 'Future Content', 'Arknights', 'Guide', 'Skill Priority']
 
 - [Overall Pull Priority](#overall-pull-priority)
 - [Pull Priority Blurbs](#pull-priority-blurbs)
-- [Upcoming Units](#upcoming-units)
+- [Upcoming Units](#unit--masteries-lookaheads)
 
 ## Overall Pull Priority
 
-October update: Two changes this time. First, I've added Makoto as a Strong Pull, as expected. However, I'm actually relatively low on him given the initial hype. See the full lookahead below, but his low “uptime” (it’s complicated actually) can get pretty rough despite all the upside. He probably won't slip to Lean though, even if the stretch after him is high-powered. His unkillable nature is just such a strong tool and has already proven its value!
+November update: New this update are the Yet Another Wave units. I'll admit, I have no idea where to rank Clementia. She is extremely strong and pretty much everything I want out of a DPS Guard. But at the same time, she's a non-limited, there's Elemental competition, and a limited unit in the exact same archetype is coming right after. Further complicating matters, [name redacted] may not even be better! So for now, I'm slotting Clementia into Lean Pull, but the update after this will test how I balance limited-FOMO vs power. And right now, I don't have a good answer to that.
 
-Second, I've decided to move Closure down to Lean Pull. I'll admit I'm not sure I like this since I'm very high on her, but I want this to be consistent with the main article, and I think there's some legitimate scenarios to skip her given how insane the upcoming stretch is. Plus, the Strong Pull group is getting crowded. I’ve often said I can’t rank everyone there, and even I must admit she’s a step behind the others.
-
-Strong Pull - Kal’tsit·Esperanta (limited), Angelina the Mellow Wish (limited), Tragodia (rerun), Makoto Yuki (collab limited)
-
-Lean Pull - Closure, Violet Mizutsune Orchid (collab limited), Kirin R Yato (collab limited, rerun)
-
-Lean Skip - Thumpy
-
-Strong Skip - Aphrissa
+Another update, and the first time in a depressingly long time, but a 5★, Homebound, has finally joined the value list! It's only in the niche-value list (I'll honestly be shocked if there is ever a meta-value one), but considering how awful the last 8-ish months of the rarity have been, I'll gladly take it. In fact, I'm not even sure he would have qualified on this list a year ago, but the bar is on the floor lately on the rarity, so I'll take what I can get. In any case, he's another solid 5★ Alchemist with some pretty great total damage and control. Not too bad!
 
 | Tier | Units |
 |:---|:---|
+| **Strong Pull** | Angelina the Mellow Wish (limited), Tragodia (rerun), Makoto Yuki (collab limited) |
+| **Lean Pull** | Violet Mizutsune Orchid (collab limited), Kirin R Yato (collab limited, rerun), Clementia |
+| **Lean Skip** | Thumpy |
+| **Strong Skip** | Aphrissa |
 | **Meta-value 4-5★s** | None |
-| **Niche-value 4-5★s** | None |
+| **Niche-value 4-5★s** | Homebound |
 
 A few important notes regarding this list:
 1) This list is *relative* value for the next six months. Almost all modern units are good enough to pull for in an absolute sense. Rather, this list is intended to help allocate pull resources for maximum return. A low ranking here does NOT mean the unit is bad, it means they're less valuable than other upcoming units.
@@ -46,32 +42,29 @@ A few important notes regarding this list:
 
 ## Pull Priority Blurbs
 
-**Kal’tsit·Esperanta**
-
-Kal2 is a unit who is more than the sum of her parts. No individual aspect will likely blow you away, and there’s some details in her kit that can cause headaches, but when you combine her strong healing, good range, AoE True Damage, strong control, great survability, and a powerful flex skill, you have a great total package that is valuable in all sorts of gameplay.
-
 **Angelina the Mellow Wish**
 
 Angelina’s alter is yet our most recent of an ever growing list of absurdly broken limited units. She’s really fuckin’ good. However, unlike many of them, Angie is quite straightforward. She’s everything that makes Contrail good, but turned up to 11. Crazy good DPS against multiple-targets, and can fly making her functionally immune to most danger and mechanics. She’s not quite a Wang-tier of broken, but is definitely a can’t miss meta unit.
 
 **Tragodia**
 
-In his release article, I wrote that the design of his kit meant Tragodia was the kind of unit that would be hard to ever powercreep. And so far that looks pretty accurate. While the last year of extreme power has lowered the value of other EX units like Wisadel and even Exu2, Tragodia is still the best or second best unit in the game. His control is incredibly powerful, and multilayered. If you missed him the first time, don’t miss his rerun, unless you plan to buy him on the paid selector or value limited FOMO more.
+In his release article, I wrote that the design of his kit meant Tragodia was the kind of unit that would be hard to ever powercreep. And so far that looks pretty accurate. While the last year of extreme power has lowered the value of other EX units like Wiš'adel and even Exu2, Tragodia is still the best or second best unit in the game. His control is incredibly powerful, and multilayered. If you missed him the first time, don’t miss his rerun, unless you plan to buy him on the paid selector or value limited FOMO more.
 
 **Makoto Yuki**
 
-Gee Makoto, why does your mom let you have *two* dolls? Wait, I've already made that joke before. Anyway, Makoto has two dolls on his S3, which share the same cycle, one of which also blocks and heals, effectively meaning he's damn near impossible to kill and a great staller. He also does some incredible DPS against multiple-targets, which makes him an extremely strong general purpose unit too. However, his uptime is tied to the first doll, which makes for inconsistent and often short uptime, and while that can be micromanaged to an extent, it takes a lot of effort to reach a good uptime, which can’t even be done in all cases. The stall portion often requires even more micromanagement, so a little caution is warranted.
-
-**Closure**
-
-Yet another extremely powerful Vanguard, Closure is the more powerful story-carry of the three. She has some really crazy damage and range, plus an extremely powerful DP skill that should see her viable even in advanced gameplay. The three top Vanguards all have different strengths compared to each other, but Closure is a more than worthy entrant to the competition. However, if you have the other two, she can feel less impactful, especially with so many limited banners coming up.
+Gee Makoto, why does your mom let you have two dolls? Wait, I've already made that joke before. Anyway, Makoto has two dolls on his S3, which share the same cycle, one of which also blocks and heals, effectively meaning he's damn near impossible to kill and a great staller. He also does some incredible DPS against multiple-targets, which makes him an extremely strong general purpose unit too. However, his uptime is tied to the first doll, which makes for inconsistent and often short uptime, and while that can be micromanaged to an extent, it takes a lot of effort to reach a good uptime, which can’t even be done in all cases. The stall portion often requires even more micromanagement, so a little caution is warranted.
 
 **Violet Mizutsune Orchid**
-Orchid2 is a Fast Redeploy Sniper that ends up being quite flexible. She can be deployed to melee tiles, and has a pretty big range and multiple-targets. Considering that Snipers have tended to struggle in Advanced content, this flexibility has actually given Orchid2 a leg up, especially in IS#7. In some strange (i.e. Advanced) ways, she could actually be the best Sniper! However, that says more about the state of Snipers than it does about Orchid2. Although she’s great, her DPS isn’t as crazy and we’ve gotten used to, and many other upcoming units will be more valuable. Despite that, as a collab unit, you probably don’t want to miss out on her.
+
+Orchid2 is a Fast-Redeploy Sniper that ends up being quite flexible. She can be deployed to melee tiles, and has a pretty big range and multiple-targets. Considering that Snipers have tended to struggle in Advanced content, this flexibility has actually given Orchid2 a leg up, especially in IS#7. In some strange (i.e. Advanced) ways, she could actually be the best Sniper! However, that says more about the state of Snipers than it does about Orchid2. Although she’s great, her DPS isn’t as crazy and we’ve gotten used to, and many other upcoming units will be more valuable. Despite that, as a collab unit, you probably don’t want to miss out on her.
 
 **Kirin R Yato**
 
 In years past, Yato2 has shown the problem with meta units being in collabs. She is by far the best FRD in the game, but was forever locked to new players. FRDs tend to retain some of their value (relatively) even as the power increases and Yato2 is still a top-tier unit. Her DPS has waned a bit, but her utility more than makes up for it still to this day. If you don’t already have her, you probably don’t want to miss your chance to pick her up!
+
+**Clementia**
+
+Clem is almost my ideal DPS Guard. She has great DPS, she has range, she has a way of working around DEF/RES, and she has some unique and amazing utility that's fun to use. Personally, I love her! However, she's also a non-limited unit coming after a long string of limited units and just before yet another one. Guards are also the most crowded class by far. So while I think she could be one the best Guards right now (toss up with her, Chen3, and Ulpi), she's still probably going to end up being a skip for most f2p players, although she can absolutely justify the pulls if you don't care for limited FOMO.
 
 **Thumpy**
 
@@ -79,33 +72,9 @@ Thumpy brings a strong combination of bulk and quality damage, which makes her a
 
 **Aphrissa**
 
-Aprissa is a decent unit and a creative twist on the Blast Caster archetype. I personally love her kit design! However, the archetype is also innately underpowered. Her S3 has the numbers behind it to keep up, but is still pretty far behind the top Casters, and her other two skills don’t have the numbers, which kills a lot of potential flexibility.
+Aphrissa is a decent unit and a creative twist on the Blast Caster archetype. I personally love her kit design! However, the archetype is also innately underpowered. Her S3 has the numbers behind it to keep up, but is still pretty far behind the top Casters, and her other two skills don’t have the numbers, which kills a lot of potential flexibility.
 
 ## Unit & Masteries Lookaheads
-
-### Thunder in the Azure Dream - Monster Hunter 2
-
-*Estimated Release: November*
-
-#### Violet Mizutsune Orchid
-
-**6★ · Collab Limited Gacha**
-
-Orchid2 is a very interesting unit that I'm personally quite pleased with, however she is a fair bit off of the top level of DPS we've gotten used to, which may leave some people disappointed. Similar to April (❤️), her faster redeployment and semi-invulnerability leads to a lot of unexpected flexibility. Orchid2 then brings that a step further by being able to be deployed on melee tiles too! While certainly not earth-shattering, that's still fairly novel and potentially powerful, depending on the map.
-
-Orchird2 will likely be a graded M9, but S2 is the standout. The DPH on it is nothing special, but it does a lot of AoE damage in a huge area (a questionable design choice for "arrows" but that's a rant for another day) and is the skill that has her survivability on it, an aspect notably missing from the other two skills. You won't be killing many boss enemies with it, but it's a skill that will handle the rest of the map with relative ease.
-
-After that, there's a relatively interesting decision between her remaining skills. S1 will actually be the "better" choice. Low-SP Charge-based skills always tend to be good, and its stronger ST damage gives her a good and consistent source of damage, on top of some strong Mastery gains. S3 meanwhile is the "flashier" skill and will certainly have some value, especially against "giant" boss types, but anyone who has used Fartooth will know that the straight line range is surprisingly restrictive and the wind-up time leaves her vulnerable. People who favor getting the most use out of Orchid2 should do S1 second, while people who want more "broad" use out of her should favor S3. Probably anyway. I haven't exactly decided how to handle the nuance in terms of grades or recommendations.
-
-*tl;dr S2 the highest priority, likely mid to lower S-tier. After that it gets nuanced, if you bother to do a second at all, but both S1 and S3 will be graded.*
-
-#### Zinogre S Catapult
-
-**5★ · Collab Limited Gacha**
-
-Although she's a bit disappointing design-wise, only granting generic 5★ DPS with the Mercenary gimmick instead of some more interesting interaction, Catapult2 is decent enough to be usable if you want. She has enough DPS, and some flexibility between her two skills that she is more than functional. She's not a special quantity either, however. S1 is a decent AoE and hit-count skill, while S2 provides a much bigger and viable burst on a relatively low cooldown. However, as said, her DPS isn't a special-tier and the DP cost is a steep price when better DPS options exist at the rarity. The 5★ Guards are a pretty decent group already, so even her niche potential is relatively muted. Still, it's enough that she should pick up some grades.
-
-*tl;dr If you plan to use her, you'll need to Master both skills. S2 will probably be slightly higher, but both roughly in the B-tier.*
 
 ### Bolivar Diagnosed
 
@@ -113,7 +82,7 @@ Although she's a bit disappointing design-wise, only granting generic 5★ DPS w
 
 #### Aphrissa
 
-**6★ · Gacha**
+**6★ · Standard Gacha**
 
 Blast Casters are a funny archetype. In the early going, Ifrit was one of the best Casters in the game, because there were only two, and it took a long time for another reasonable Caster to come out. Ifrit also retained some of her value as time went on because she had a huge amount of RES-shred. That all hid the fact that, at their core, Blast Casters actually suck. Their long attack interval meant low DPS, and their restrictive range caused more problems than it solved. Of course, the Blast Casters after were 5★s during a time when almost all 5★s sucked so it wasn't too shocking, but now we have another 6★ Blast Caster who just shows those assumptions are unfortunately true. A Blast Caster sucks unless they have some really pumped up numbers or some really great utility.
 
@@ -125,7 +94,7 @@ In total, she herself is just alright. She's not bad, because the game power lev
 
 #### Pedro
 
-**5★ · Gacha**
+**5★ · Standard Gacha**
 
 Pedro is yet another disappointing iteration of the recent 5★s. He teases a brand new archetype that one can imagine on a busted 6★ in a few months, but is unimpressive himself. For whatever reason, HG just undertunes the rarity, especially recently, and the result is yet another entirely skippable 5★. The idea behind the archetype is that it adds an effect to the target. The effect itself does nothing initially but lasts until some sort of trigger happens, and when it does, the effect finally happens. In Pedro's case, his S1 does some additional damage when an enemy takes Arts damage, and his S2 heals when the friendly falls below 50% HP. He actually has some decent numbers here, but it's a situation where why would you bother when other units do the same thing (or better), even at his own rarity, without the extra hoops to jump through? The result is a unit who is probably usable if you want, but feels very gimmicky, even for off-meta players.
 
@@ -153,7 +122,7 @@ While his skills are easier to level up than Raidian's, he's actually much more 
 
 #### Angelina the Mellow Wish
 
-**6★ · Gacha Limited**
+**6★ · Limited (Carnival / Summer)**
 
 Are we tired of limited 6★ Specialists that are incredibly broken yet (this was written before the P3 Collab units were revealed, lmao)? Apparently the playerbase isn't. Personally, I am completely unshocked that our first 6★ Skyranger is utterly broken. Angelina the Mellow Wish is basically a 6★ Contrail (we don't talk about Tippi), and Contrail is one of the best 4★s in the game. She (Angelina that is, although this applies to Contrail too) does a ton of damage to multiple targets with good control and fast cycles, all while being totally safe from most damage. Then, because she's a limited 6★, she gets to do a bunch of other broken stuff too, like ridiculous sustain (8% is absurd), zooming around the map, and ammo combined with the hover gimmick. And it really is kind of that simple. Angie2 really is that good and has a high likelihood of being the next EX-caliber unit. And she doesn't even have her Module yet!
 
@@ -163,7 +132,7 @@ S3 is her main skill and will be graded S++ for both Story and Advanced. It's ra
 
 #### Thumpy
 
-**6★ · Gacha**
+**6★ · Standard Gacha**
 
 Compared to her limited roadtrip partner and banner mate, Thumpy is much more restrained. Of course, like everyone within the last year or so, that does not mean bad. Thumpy is, in fact, great, and that's not just the bunny lover in me coping. However, competing in elements with Tragodia, and after a solid but totally free Defender in Mechanist, puts Thumpy in a tough spot priority-wise. She's ultimately a bit like Yu. She's an extremely bulky lane-holder type unit, with a lot of potential creativity for those who enjoy that sort of gameplay.
 
@@ -175,7 +144,7 @@ tl;dr Well graded M6, but not quite as high as many recent 6★s. Both likely in
 
 #### Jacinta
 
-**5★ · Gacha**
+**5★ · Standard Gacha**
 
 A great many 5★s have made me sad over the years. I've long come to accept the B-team just has no idea what they're doing and some of the 5★s will simply be bad. Yet, somehow, they find new ways to overcome my acceptance and make me sad all over again. Jacinta feels like a personal insult. I just cannot fathom the logic behind making a gacha unit on a limited banner and member of a good, but dated, archetype with a dominant 4★, worse than a 2.5 year old WELFARE unit of the same rarity and archetype, Wanqing. And that's just within her own archetype. Matsukiri is also a welfare of the same rarity, and is miles better! And of course this happens when we finally get a full Rim Billiton event! It doesn't just feel bad, it feels cruel.
 
@@ -197,7 +166,7 @@ tl;dr S2 graded under Kjera (mid-B or C). Avoid S1.
 
 #### Makoto Yuki
 
-**6★**
+**6★ · Collab Gacha**
 
 Makoto is yet another absurdly powerful limited 6★. What a shocker. This time, he comes in the form of an enemy DPS check. He gets two dolls instead of one, but the dolls are both on the same timer, meaning an enemy has to chew through three HP bars, two of them in a 20 second window, to actually kill him. All while he does some pretty crazy DPS. The second doll has strong sustain too just to make him even more unkillable. He's a very strong and easy to use unit for Story players, and also one of the best stallers in the game for Advanced play. Those unkillable dolls can largely be toggled at will, a factor that has already proven very valuable in the VB#3!
 
@@ -209,7 +178,7 @@ tl;dr S3 a high S-tier skill. Pass on his others, although that may edge out som
 
 #### Aegis
 
-**5★**
+**5★ · Collab Gacha**
 
 I've written a lot recently about how the new 5★s have been in a horrible state starting with the Titi patch, and no one exemplifies it more than Aegis. She's a popular character in a popular collab that could have justifiably been the 6★, yet instead somehow ends up worse than a Welfare that's not even a year old. I mean, for fucks sake she has a self-stun! I thought we were past using that as a drawback! Make it make sense HG¹! I don't even care for Persona and I'm still extremely pissed about it, so I can only imagine the rant if it was a game I actually cared about!
 
@@ -223,8 +192,44 @@ tl;dr S2 low graded, probably C-tier. Pass entirely on S1.
 
 #### Yukari Takeba
 
-**5★**
+**5★ · Collab Gacha**
 
 HG doesn't seem to value buffing especially highly. Or maybe they value it too high so they undertune it. The result is the same, which makes me very curious how the 6★ Supportive Ranger will look, because so far, the two 5★s are very underwhelming. Which is sadly predictable, even with how the trend of the rarity has gone. The values are just not high enough to matter! And that's Yukari's problem. While it is usable, if you want, 30% more Arts damage for 15 seconds really just doesn't matter. It wouldn't have been enough to matter years ago since there's plentiful buffer options that are better, who also have more utility, but now against modern DPS, it looks even worse. The upshot is that Arts Charge applies to final damage, meaning it isn't as potentially "diluted" as +ATK buffs are, but it still comes well short of someone like Warfarin, a launch unit. It's likely her S2 will end up graded, especially since the gains are fairly strong, but it's going to be down in those niche and gimmick B or C-tiers. Pass on her S1 which wouldn't even be good at half the SP. However, unlike Aegis, it will have value if you are a big Persona fan and plan to use Yukari as much as possible, since there's a lot of places where her S2 won't be doing anything at all.
 
 tl;dr S2 low graded, S1 ungraded and waifu-only.
+
+### Yet Another Wave
+
+*Estimated Release: mid-March*
+
+#### Clementia
+
+**6★ · Standard Gacha**
+
+I've run out of ways to describe ultra powerful characters, and Clementia is yet another one. She's not quite *as* insane as some of the other recent ones, but that's a very high bar, and she's still ridiculous herself. Fundamentally, she's a DPS Guard, and does about everything you'd want a DPS Guard to do. Her damage is great. She has ways to work around DEF/RES walls. She has range. She even has some unique utility for the creative-play crowd. All-in-all, she's just a solid general DPS unit with some good ceiling too. She's just not quite as broken as the EX-tier we're getting used to.
+
+The nature of being a Primal Guard here is worth a quick discussion, even in this lookahead. In the past, I've said a lot about how the reliance of the Primal Casters/Guards on an applicator kills their value. But HG seems to have finally figured out the formula for them, first with Mantra and now with Clementia. They now seem to have their own unique value that plays into their Element, and instead the applicator just opens up some new doors. So Clementia does not need Thumpy to function at all, but they still work incredibly well together.
+
+As for her skills, she's a very strong M6 candidate, and both S2 and S3 will be well graded with different uses, and most people who plan to pull for her and raise her will definitely want both. However, S2 will end up with the higher grades (for both Story and Advanced), although I do find the gap between them to be closer than many do, especially if you have Thumpy. S2 has her unique Shift utility¹, the details of which will have to wait for the full article, but like Thumpy, has the potential to be gamebreaking in places, and which makes it the more unique skill. It also cycles very fast and will have the better DPS for people who don't mind a little button pressing, as well as better handling DEF-walls if you don't have Thumpy. Meanwhile, her S3 performs double duty as both a high-quality AFK skill since she holds her ammo (no ammo is spent if the Corrosion burst kills the enemy), and as a massive true-ish damage nuke. However, it does have a tougher time against those DEF-walls if she isn't paired with Thumpy as her own application is neutered by the DEF. In terms of priority, it's just slightly lower ceiling than her S2, and more dependent on Thumpy, who many people will likely skip if Angie2 comes home first. But I do love the dual value behind it, as well as the global AoE True-ish damage potential.
+
+¹ This is the second recent instance we have of non-traditional Shift skill, and curiously, both are on Corrosion units (the other is Thumpy's S3). That probably doesn't mean anything, but it is interesting to note.
+
+tl;dr S2 and S3 both S-tier grades. S2 will be the higher of the two, and S3 may even slip to A-tier.
+
+#### de Toledo
+
+**5★ · Standard Gacha**
+
+De Toledo is better than the recent average for the rarity, but that isn't a particularly high compliment. She's a unit that I find myself thinking "she's fine, I guess." Not exactly bad, with a couple unique things going for her, but nothing particularly great either, and isn't even better than the classic 5★s Hexers. If you're willing to put in the resources, her total Fragile is actually a solid 42%, which is high, even outside the rarity. However, in niche clears, the blocking requirement is a tough one, and in non-niche clears, it isn't necessary in the first place. Meanwhile, her free blocker has some solid stats and a good Fear uptime, but is ultimately doomed by her 50 second cycle time. It's usable, and Beeswax's version of it has had some niche use over the years, but isn't particularly special either. Pass on her S1, which is much much worse than Shamare's S2 and is saddled with a massive SP cost.
+
+tl;dr S2 C-tier or ungraded. Pass on S1.
+
+#### Homebound
+
+**5★ · Welfare**
+
+Homebound is a pleasant surprise, and is the first good 5★ since Cairn (or Ukusik if you're an IS sweat, but I digress). He has some great utility, and really solid total AoE damage thanks to his long lasting Alchemical Unit. Of course, by meta-standards, his damage is still low, but for 5★ niche standards, his total damage of ~36k-ish Arts is superb. Then he gets a strong snare effect. And it only has a 10 second downtime! Then he gets a conditionless hit-rate debuff too! Which all makes him a very solid niche unit that should have some decent viability for those who favor the lower rarities. The downside is that it only works on heavier units (well, weight 3 minimum, which isn't actually heavy), and there are times where that will matter (although you can use his S1 instead if you really want), but generally that's a perfectly fine trade off. Plus he has the only, as of his release, base skill for the new facility and doesn't even need E2 to access it! He's a very pleasant breath of fresh air at a rapidly dying rarity!
+
+The skill that does all that is his S2 which will be his primary skill and should grab a pretty decent grade, especially since it has reasonably strong gains. His S1 meanwhile may have some use for the husbando players. Interestingly, it's nearly the same skill, but with lower numbers and without the weight requirement. That means it'll be useful at times he needs to deal with 0-2 weight swarms, but for most players, it'll be better to just use someone else in those cases.
+
+tl;dr S2 decently graded for the rarity, probably B-tier. S1 ungraded, but an option.

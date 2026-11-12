@@ -27,11 +27,16 @@ Refreshes three things:
     stdout, and an operator of this raw that matches no lookahead entry is
     reported as a warning — check those by hand.
     Then a new stub event is appended for whatever operators the raw's own
-    "# Lookaheads" section covers — its write-ups are imported directly,
-    with rarity/pool filled in where derivable from character_table.json
-    and data/operator_pools.yaml + data/pools.yaml. Only the event title
-    ("### TODO") and "*Estimated Release: TODO*" are left as placeholders,
-    since the raw gives no indication of real event grouping or dates.
+    "# Lookaheads" section covers — its write-ups are imported directly.
+    Only the event title ("### TODO") and "*Estimated Release: TODO*" are
+    left as placeholders, since the raw gives no indication of real event
+    grouping or dates.
+    Finally every entry's bold "**6★ · Pool**" line — old entries and new
+    alike — is rebuilt from character_table.json (rarity) and
+    data/operator_pools.yaml + data/pools.yaml (pool), the same lookup the
+    mastery-table shortcodes use, so the lookahead shows the same pool
+    labels as the main guide. Add an upcoming unit to operator_pools.yaml
+    before running; one that isn't there gets only "**6★**" and a WARNING.
 
 Usage:
     python3 tools/build_lookahead_variant.py path/to/202609-zima2-raw.md
@@ -60,8 +65,10 @@ DEFAULT_LOOKAHEAD_MD = bav.REPO_ROOT / "content" / "masteries" / "lookahead.md"
 DEFAULT_OPERATOR_POOLS = bav.REPO_ROOT / "data" / "operator_pools.yaml"
 DEFAULT_POOLS = bav.REPO_ROOT / "data" / "pools.yaml"
 
-# "**Strong Pull** - Units..." style tier rows.
-TIER_ROW_RE = re.compile(r"^\*\*(.+?)\*\*\s*-\s*(.+)$")
+# "Strong Pull - Units..." tier rows, label bold or not (raws stopped bolding
+# it at Ep17, which silently dropped these rows out of the table). Named
+# explicitly, like LABELLED_ROW_RE below, so prose can't match.
+TIER_ROW_RE = re.compile(r"^(?:\*\*)?(Strong Pull|Lean Pull|Lean Skip|Strong Skip)(?:\*\*)?\s*-\s*(.+)$")
 # The two fixed non-bolded rows at the end of the tier list. Deliberately an
 # explicit whitelist rather than a generic ":"-split — a generic split would
 # also match ordinary prose like "September update: ..." in the lead-in blurb.
@@ -82,29 +89,79 @@ def parse_rarity_number(rarity_str: str | None) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def build_full_appellation_map(character_table: dict) -> dict[str, str]:
-    """Unlike build_article_variants.py's name_to_id (restricted to the
-    frontmatter's operators list), this scans the whole character table —
-    needed for '# Lookaheads' operators, which aren't in that list at all."""
-    return {entry["appellation"]: op_id for op_id, entry in character_table.items()}
+def build_name_index(character_table: dict) -> dict[str, set[str]]:
+    """Normalized appellation -> operator ids, over the whole character table
+    (lookahead operators aren't in the raw's frontmatter list). Only obtainable
+    'char_' entries count, so e.g. the unobtainable 'char_610_acfend' can't
+    shadow the playable Mechanist."""
+    index: dict[str, set[str]] = {}
+    for op_id, entry in character_table.items():
+        if not op_id.startswith("char_") or entry.get("isNotObtainable"):
+            continue
+        key = normalize_name(entry.get("appellation") or "")
+        if key:
+            index.setdefault(key, set()).add(op_id)
+    return index
 
 
-def resolve_info_line(operator_id: str | None, character_table: dict, operator_pools: dict, pools: dict) -> str | None:
-    if operator_id is None:
-        return None
-    entry = character_table.get(operator_id, {})
-    rarity_num = parse_rarity_number(entry.get("rarity"))
-    short_id = bav.strip_char_prefix(operator_id)
-    pool_key = operator_pools.get(short_id)
-    pool_name = pools.get(pool_key) if pool_key else None
+def resolve_operator_id(heading: str, name_index: dict[str, set[str]]) -> str | None:
+    """The one operator a '#### ' heading names (any of its '/'-separated
+    spellings), or None if it matches none or several."""
+    ids: set[str] = set()
+    for key in heading_name_keys(heading):
+        ids |= name_index.get(key, set())
+    return next(iter(ids)) if len(ids) == 1 else None
+
+
+def resolve_info_line(operator_id: str, character_table: dict, operator_pools: dict, pools: dict) -> tuple[str | None, bool]:
+    """(bold info line, pool found). Pool lookup matches the mastery-table
+    shortcodes: operator_pools.yaml gives the key, pools.yaml its label."""
+    rarity_num = parse_rarity_number(character_table.get(operator_id, {}).get("rarity"))
+    pool_key = operator_pools.get(bav.strip_char_prefix(operator_id))
+    pool_name = pools.get(str(pool_key)) if pool_key is not None else None
 
     if rarity_num is not None and pool_name:
-        return f"**{rarity_num}★ · {pool_name}**"
+        return f"**{rarity_num}★ · {pool_name}**", True
     if rarity_num is not None:
-        return f"**{rarity_num}★**"
+        return f"**{rarity_num}★**", bool(pool_name)
     if pool_name:
-        return f"**{pool_name}**"
-    return None
+        return f"**{pool_name}**", True
+    return None, False
+
+
+# A body's leading "**6★ · Collab Gacha**" / "**5★**" line.
+INFO_LINE_RE = re.compile(r"^\*\*[^*\n]*★[^*\n]*\*\*[ \t]*(?:\n|$)")
+
+
+def refresh_info_lines(
+    events: list[dict], character_table: dict, operator_pools: dict, pools: dict
+) -> tuple[list[dict], list[str], list[tuple[str, str]]]:
+    """Rebuilds every entry's info line from the data (replacing the existing
+    one, or adding one if the entry has none).
+
+    Returns (events, unresolved, missing_pool):
+      unresolved    headings that matched no single operator (left untouched)
+      missing_pool  [(heading, id), ...] with no pool in operator_pools.yaml
+    """
+    name_index = build_name_index(character_table)
+    unresolved: list[str] = []
+    missing_pool: list[tuple[str, str]] = []
+    out = []
+    for ev in events:
+        entries = []
+        for name, body in ev["entries"]:
+            op_id = resolve_operator_id(name, name_index)
+            if op_id is None:
+                unresolved.append(name)
+                entries.append((name, body))
+                continue
+            info_line, has_pool = resolve_info_line(op_id, character_table, operator_pools, pools)
+            if not has_pool:
+                missing_pool.append((name, op_id))
+            rest = INFO_LINE_RE.sub("", body, count=1).strip()
+            entries.append((name, f"{info_line}\n\n{rest}" if info_line else rest))
+        out.append({**ev, "entries": entries})
+    return out, unresolved, missing_pool
 
 
 def extract_pull_priority_raw(article_sections: list[tuple[str, str]]) -> tuple[str, str]:
@@ -302,19 +359,11 @@ def extract_raw_lookaheads_entries(article_sections: list[tuple[str, str]]) -> l
     return entries
 
 
-def build_new_stub_event(
-    raw_lookaheads_entries: list[tuple[str, str]], character_table: dict, operator_pools: dict, pools: dict
-) -> dict | None:
+def build_new_stub_event(raw_lookaheads_entries: list[tuple[str, str]]) -> dict | None:
+    """Info lines are added afterwards, with everyone else's (refresh_info_lines)."""
     if not raw_lookaheads_entries:
         return None
-    full_appellation_map = build_full_appellation_map(character_table)
-    entries = []
-    for name, body in raw_lookaheads_entries:
-        operator_id = full_appellation_map.get(name)
-        info_line = resolve_info_line(operator_id, character_table, operator_pools, pools)
-        entry_body = f"{info_line}\n\n{body}" if info_line else body
-        entries.append((name, entry_body))
-    return {"title": "TODO", "release": "*Estimated Release: TODO*", "entries": entries}
+    return {"title": "TODO", "release": "*Estimated Release: TODO*", "entries": list(raw_lookaheads_entries)}
 
 
 def render_events(events: list[dict]) -> str:
@@ -341,9 +390,13 @@ def build_unit_lookaheads_section(
         report.update(removed=removed, dropped_events=dropped_events, unmatched=unmatched)
 
     raw_lookaheads_entries = extract_raw_lookaheads_entries(article.sections)
-    new_event = build_new_stub_event(raw_lookaheads_entries, character_table, operator_pools, pools)
+    new_event = build_new_stub_event(raw_lookaheads_entries)
     if new_event:
         events.append(new_event)
+
+    events, unresolved, missing_pool = refresh_info_lines(events, character_table, operator_pools, pools)
+    if report is not None:
+        report.update(unresolved=unresolved, missing_pool=missing_pool)
 
     return "## Unit & Masteries Lookaheads\n\n" + render_events(events)
 
@@ -352,8 +405,9 @@ def build_lookahead_output(
     lookahead_text: str, article: bav.Article, character_table: dict, operator_pools: dict, pools: dict,
     report: dict | None = None,
 ) -> str:
-    """`report`, if given, is filled with what the removal step did:
-    'removed', 'dropped_events' and 'unmatched' (see remove_covered_operators)."""
+    """`report`, if given, is filled with what the removal step did —
+    'removed', 'dropped_events' and 'unmatched' (see remove_covered_operators)
+    — and with 'unresolved' and 'missing_pool' (see refresh_info_lines)."""
     prefix = extract_prefix(lookahead_text)
     existing_notes = extract_existing_notes(lookahead_text)
 
@@ -394,6 +448,29 @@ def print_removal_report(report: dict) -> None:
         )
 
 
+def print_pool_report(report: dict) -> None:
+    """Warns on stderr about entries whose pool label couldn't be filled in —
+    the lookahead's counterpart of the mastery table's "Gacha pool not set"."""
+    missing = report.get("missing_pool", [])
+    if missing:
+        print(
+            f"\nWARNING: {len(missing)} lookahead operator(s) have no pool in data/operator_pools.yaml, "
+            f"so their line shows only the rarity:\n"
+            + "".join(f"  - {name}   (add \"{bav.strip_char_prefix(op_id)}\")\n" for name, op_id in missing)
+            + "         Add them (keys in data/pools.yaml) and rerun.",
+            file=sys.stderr,
+        )
+    unresolved = report.get("unresolved", [])
+    if unresolved:
+        print(
+            f"\nWARNING: {len(unresolved)} lookahead heading(s) matched no single operator in "
+            f"character_table.json, so their info line was left as it was: {', '.join(unresolved)}\n"
+            f"         Check the '#### ' spelling (a '/'-separated alternative in the CN table's "
+            f"English name works too).",
+            file=sys.stderr,
+        )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("raw_file", type=Path, help="Path to the raw article markdown (e.g. 202609-zima2-raw.md)")
@@ -424,6 +501,7 @@ def main() -> None:
     out_path.write_text(output, encoding="utf-8")
     print(f"wrote {out_path}")
     print_removal_report(report)
+    print_pool_report(report)
 
     print(
         f"\nREMINDER: review {out_path} before replacing content/masteries/lookahead.md. "

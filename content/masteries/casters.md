@@ -21,6 +21,20 @@ tags = ['Mastery', 'Casters', 'Arknights', 'Guide', 'Skill Priority']
 - [4★ and 5★ Ungraded Casters](#4-and-5-ungraded-casters)
 ## 6★ Casters
 
+### Viy
+
+{{< mastery-table-enhanced id="4226_veen" rows="S3M3,C,None|S2M3,None,None" en_link="https://sanitygone.help/en/operators/vij/" cn_link="https://prts.wiki/w/%E7%BB%B4%E4%BC%8A">}}
+
+Even by the standards of welfare 6★s, Viy is extremely uninspired. He's a Mystic Caster, who are already weak in the modern meta, but doesn't even do the thing Mystic Casters are good at all that well. A *four* year old unit who wasn't great when he was new either, Ebenholz, does it better. Viy instead trades the big single-target blast for chain damage. Then, as a 6★, he's also very expensive to promote. Other recent welfare 6★s have had some respectable niche value, but that isn't the case with Viy, meaning he's a unit to avoid raising at all. However, that said, he isn't actually bad enough to be completely ungraded by the standards of this guide. If he appeals to you, he does enough damage to be usable. Just keep in mind that he is entirely a desire-only promotion!
+
+If that's you, his only skill worth much consideration is his S3, which has his best damage on it and gels with his kit better. Essentially, what he wants to do is trigger his Talent 2 on everything in range, which will make him save charges, and thus trigger the extra damage from his Talent 1. S3 accomplishes this much better than his other skills due to the bounce and extreme amount of ASPD, resulting in far better total damage. Mastery is fairly valuable too since it grants him a lot more ammo, in addition to dual increases to ASPD and ATK.
+
+Meanwhile, his S2 will have better single-target damage, so may be worth considering for the true husbando maximalists, although it's relatively hard to use compared to Ebenholz (who also does more damage). If he can get all 9 of his charges up in advance, and you trigger the skill first, he can stack all of the buffs at once, resulting in some respectable damage. However, he has no way of managing those charges, so under any semblance of pressure, it just becomes a slow ramp-up DPS skill.
+
+Last, his S1 is... a skill that exists. I'll admit I'm having a tough time finding things to say about it because it's uninspired filler on an uninspired unit. Amusingly, it’s actually his only skill with records on [arkrec](https://ironcarrotarchives.com/masteries/glossary/#arkrec), as of this writing, but to the point, it’s almost all within the E0 niche!
+
+{{< last-updated "2026-10-12" >}}
+
 ### Pramanix the Prerita
 
 {{< mastery-table-enhanced id="1046_sbell2" rows="S2M3,S++,S++|S3M3,A+,S-|S1M3,None,None" >}}
