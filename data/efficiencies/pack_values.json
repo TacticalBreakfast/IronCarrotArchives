@@ -2,18 +2,18 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
-  "assets_commit": "d1702b5",
+  "assets_commit": "1d4336e",
   "inputs": {
    "data/efficiencies/packs.yaml": "0374931b14fdf874",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
-   "data/efficiencies/item_values.json": "ebe48e4e7971b204",
+   "data/efficiencies/item_values.json": "23d2f74629b0cf8f",
    "assets/game_img/processed/shop_packs.json": "06f493d6428729f6",
    "assets/game_img/excel-en/shop_client_table.json": "9314ca5642b474b9",
    "assets/game_img/excel-en/activity_table.json": "7190d88273618950",
    "assets/game_img/excel-en/crisis_v2_table.json": "6b2034a466f9e2e1",
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
    "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
-   "assets/game_img/excel-cn/item_table.json": "feace543a723c060",
+   "assets/game_img/excel-cn/item_table.json": "f1e193cf6e82a598",
    "tools/build_pack_values.py": "010226d96db8c3d9"
   }
  },
