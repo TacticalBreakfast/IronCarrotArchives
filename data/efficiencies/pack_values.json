@@ -2,22 +2,22 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- edit data/efficiencies/packs.yaml and rerun tools/build_item_values.py.",
-  "assets_commit": "1d4336e",
+  "assets_commit": "0dcc8d1",
   "inputs": {
    "data/efficiencies/packs.yaml": "0374931b14fdf874",
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
-   "data/efficiencies/item_values.json": "23d2f74629b0cf8f",
+   "data/efficiencies/item_values.json": "55b9e158a6d4bdab",
    "assets/game_img/processed/shop_packs.json": "06f493d6428729f6",
-   "assets/game_img/excel-en/shop_client_table.json": "9314ca5642b474b9",
-   "assets/game_img/excel-en/activity_table.json": "7190d88273618950",
+   "assets/game_img/excel-en/shop_client_table.json": "3a3bb452e484b55f",
+   "assets/game_img/excel-en/activity_table.json": "7a4f7b8cd5af09ca",
    "assets/game_img/excel-en/crisis_v2_table.json": "6b2034a466f9e2e1",
    "assets/game_img/excel-en/sandbox_perm_table.json": "a557ea70bf3b7d64",
-   "assets/game_img/excel-en/item_table.json": "9ae8346c3acbd7f2",
+   "assets/game_img/excel-en/item_table.json": "e7211dab5dd903f2",
    "assets/game_img/excel-cn/item_table.json": "f1e193cf6e82a598",
    "tools/build_pack_values.py": "010226d96db8c3d9"
   }
  },
- "lag_days": 165,
+ "lag_days": 166,
  "events": [
   {
    "id": "act20mini",
@@ -155,10 +155,10 @@
    "id": "act50side",
    "cn_name": "泡影苍霆",
    "name": "Thunder in the Azure Dream",
-   "name_source": "yaml",
+   "name_source": "en",
    "cn_start": "2026-06-01T12:00:00+08:00",
-   "en_start": null,
-   "en_end": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-11-30T10:59:59Z",
    "expected_en_start": null,
    "packs": [
     "GP_Once_449",
@@ -172,7 +172,7 @@
     "GP_Once_450",
     "GP_Once_446"
    ],
-   "order_date": "2026-11-14T01:30:00Z"
+   "order_date": "2026-11-16T15:00:00Z"
   },
   {
    "id": "act24sre",
@@ -186,7 +186,7 @@
    "packs": [
     "GP_Once_452"
    ],
-   "order_date": "2026-11-28T05:30:00Z"
+   "order_date": "2026-11-28T15:00:00Z"
   },
   {
    "id": "crisis_v2_season_5_1",
@@ -204,7 +204,7 @@
     "GP_Once_456",
     "GP_Once_453"
    ],
-   "order_date": "2026-12-09T05:30:00Z"
+   "order_date": "2026-12-09T15:00:00Z"
   },
   {
    "id": "act9switch",
@@ -220,7 +220,7 @@
     "GP_Once_458",
     "GP_Once_459"
    ],
-   "order_date": "2026-12-16T05:30:00Z"
+   "order_date": "2026-12-16T15:00:00Z"
   },
   {
    "id": "act21mini",
@@ -241,7 +241,7 @@
     "GP_Once_464",
     "GP_Once_463"
    ],
-   "order_date": "2026-12-23T01:30:00Z"
+   "order_date": "2026-12-23T11:00:00Z"
   },
   {
    "id": "act53side",
@@ -265,7 +265,7 @@
     "GP_Once_470",
     "GP_Once_469"
    ],
-   "order_date": "2027-01-14T01:30:00Z"
+   "order_date": "2027-01-14T11:00:00Z"
   },
   {
    "id": "act54side",
@@ -288,7 +288,7 @@
     "GP_Once_483",
     "GP_Once_484"
    ],
-   "order_date": "2027-02-17T01:30:00Z"
+   "order_date": "2027-02-17T11:00:00Z"
   },
   {
    "id": "act3break",
@@ -307,7 +307,7 @@
     "GP_Once_495",
     "GP_Once_492"
    ],
-   "order_date": "2027-03-14T05:30:00Z"
+   "order_date": "2027-03-14T15:00:00Z"
   },
   {
    "id": "act52side",
@@ -325,7 +325,7 @@
     "GP_Once_498",
     "GP_Once_497"
    ],
-   "order_date": "2027-03-24T01:30:00Z"
+   "order_date": "2027-03-24T11:00:00Z"
   },
   {
    "id": "act4video",
@@ -340,7 +340,7 @@
     "GP_Once_503",
     "GP_Once_250"
    ],
-   "order_date": "2027-03-31T05:30:00Z"
+   "order_date": "2027-03-31T15:00:00Z"
   },
   {
    "id": "act7fun",
@@ -386,7 +386,7 @@
     "GP_Once_504",
     "GP_Once_505"
    ],
-   "order_date": "2027-04-16T01:30:00Z"
+   "order_date": "2027-04-16T11:00:00Z"
   },
   {
    "id": "act3autochess",
@@ -403,7 +403,7 @@
     "GP_Once_410@2026-11-08",
     "GP_Once_411@2026-11-08"
    ],
-   "order_date": "2027-04-23T05:30:00Z"
+   "order_date": "2027-04-23T15:00:00Z"
   }
  ],
  "packs": {
@@ -3087,9 +3087,9 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 198,
    "usd": 29.99,
    "usd_source": "map",
@@ -3171,9 +3171,9 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 12,
    "usd": 1.99,
    "usd_source": "map_estimated",
@@ -3225,9 +3225,9 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 30,
    "usd": 4.99,
    "usd_source": "map",
@@ -3279,9 +3279,9 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 68,
    "usd": 9.99,
    "usd_source": "map",
@@ -3356,12 +3356,12 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 30,
    "usd": 4.99,
-   "usd_source": "map",
+   "usd_source": "en",
    "contents": [
     {
      "id": "3243",
@@ -3431,12 +3431,12 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 168,
    "usd": 25.99,
-   "usd_source": "map",
+   "usd_source": "en",
    "contents": [
     {
      "id": "voucher_elite_II_6",
@@ -3487,12 +3487,12 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 68,
    "usd": 9.99,
-   "usd_source": "map",
+   "usd_source": "en",
    "contents": [
     {
      "id": "4002",
@@ -3541,9 +3541,9 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 78,
    "usd": 11.99,
    "usd_source": "map_estimated",
@@ -3609,12 +3609,12 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 128,
    "usd": 19.99,
-   "usd_source": "map",
+   "usd_source": "en",
    "contents": [
     {
      "id": "voucher_levelmax_6",
@@ -3663,9 +3663,9 @@
    "event": "act50side",
    "cn_start": "2026-06-01T12:00:00+08:00",
    "cn_end": "2026-06-29T03:59:59+08:00",
-   "en_start": null,
-   "en_end": null,
-   "window_source": null,
+   "en_start": "2026-11-16T15:00:00Z",
+   "en_end": "2026-12-14T10:59:59Z",
+   "window_source": "pack",
    "price_cny": 6,
    "usd": 0.99,
    "usd_source": "map",

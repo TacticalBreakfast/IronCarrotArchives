@@ -2,17 +2,17 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- rerun the script after the game data changes.",
-  "assets_commit": "1d4336e",
+  "assets_commit": "0dcc8d1",
   "inputs": {
    "tools/build_item_values.py": "ccbaf6a0ee5b50c2",
    "assets/game_img/excel-cn/character_table.json": "6f10d9035c971096",
    "assets/game_img/excel-cn/char_patch_table.json": "2cde3e0fce094fc5",
    "assets/game_img/excel-cn/skill_table.json": "dcfd9b9fbf41ed22",
    "assets/game_img/excel-cn/uniequip_table.json": "79b2b5ce81f8d89e",
-   "assets/game_img/excel-en/character_table.json": "a3d9b409b09b1112",
+   "assets/game_img/excel-en/character_table.json": "8f7b6c9e7d71bb5d",
    "assets/game_img/excel-en/char_patch_table.json": "79e449963a2eb0f2",
-   "assets/game_img/excel-en/skill_table.json": "1f4b1ba220a2abb1",
-   "assets/game_img/excel-en/uniequip_table.json": "211a60007795d033",
+   "assets/game_img/excel-en/skill_table.json": "e402fb2ff070c3d3",
+   "assets/game_img/excel-en/uniequip_table.json": "9b3341331d2d0152",
    "assets/game_img/excel-cn/gamedata_const.json": "45eb0573d55be2be",
    "assets/game_img/excel-cn/special_operator_table.json": "ba02b66b5d8283a6"
   }
@@ -3035,7 +3035,7 @@
     {
      "id": "uniequip_003_yato2",
      "type": "Y",
-     "name": "罗德岛制式双刀",
+     "name": "Rhodes Island Standard Dual Blades",
      "phases": [
       {
        "lmd": 80000,
@@ -5673,7 +5673,7 @@
   },
   "char_1048_orchd2": {
    "name": "Violet Mizutsune Orchid",
-   "on_en": false,
+   "on_en": true,
    "rarity": 6,
    "profession": "SNIPER",
    "class_name": "Sniper",
@@ -5700,7 +5700,7 @@
    "skills": [
     {
      "id": "skchr_orchd2_1",
-     "name": "刚射",
+     "name": "Power Shot",
      "masteries": [
       {
        "3303": 8,
@@ -5721,7 +5721,7 @@
     },
     {
      "id": "skchr_orchd2_2",
-     "name": "飞翔瞪射",
+     "name": "Aerial Aim",
      "masteries": [
       {
        "3303": 8,
@@ -5742,7 +5742,7 @@
     },
     {
      "id": "skchr_orchd2_3",
-     "name": "龙之箭",
+     "name": "Dragon Piercer",
      "masteries": [
       {
        "3303": 8,
@@ -5766,7 +5766,7 @@
     {
      "id": "uniequip_002_orchd2",
      "type": "X",
-     "name": "梓兰特制箭靶",
+     "name": "Orchid's Signature Target",
      "phases": [
       {
        "lmd": 80000,
@@ -5797,7 +5797,7 @@
   },
   "char_1049_catap2": {
    "name": "Zinogre S Catapult",
-   "on_en": false,
+   "on_en": true,
    "rarity": 5,
    "profession": "WARRIOR",
    "class_name": "Guard",
@@ -5824,7 +5824,7 @@
    "skills": [
     {
      "id": "skchr_catap2_1",
-     "name": "高压回填斩",
+     "name": "Condensed Spinning Slash",
      "masteries": [
       {
        "3303": 5,
@@ -5845,7 +5845,7 @@
     },
     {
      "id": "skchr_catap2_2",
-     "name": "超高输出属性解放斩",
+     "name": "Super Amped Element Discharge",
      "masteries": [
       {
        "3303": 5,
@@ -5869,7 +5869,7 @@
     {
      "id": "uniequip_002_catap2",
      "type": "X",
-     "name": "狩猎之路",
+     "name": "Path of Hunt",
      "phases": [
       {
        "lmd": 40000,
@@ -26947,7 +26947,7 @@
     {
      "id": "uniequip_003_vulpis",
      "type": "Y",
-     "name": "剑舞",
+     "name": "Dancing with the Sword",
      "phases": [
       {
        "lmd": 80000,
@@ -34777,7 +34777,7 @@
     {
      "id": "uniequip_003_narant",
      "type": "Y",
-     "name": "“致我们的老大”",
+     "name": "'To Our Boss'",
      "phases": [
       {
        "lmd": 80000,
@@ -40112,7 +40112,7 @@
   },
   "char_4215_buddy": {
    "name": "Rhodes Island Recon",
-   "on_en": false,
+   "on_en": true,
    "rarity": 1,
    "profession": "PIONEER",
    "class_name": "Vanguard",

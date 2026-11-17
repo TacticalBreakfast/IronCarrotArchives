@@ -2,22 +2,22 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- edit data/efficiencies/value_rules.yaml and rerun the script instead.",
-  "assets_commit": "1d4336e",
+  "assets_commit": "0dcc8d1",
   "inputs": {
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "assets/game_img/processed/item_efficiency.json": "4b248e9789e34f31",
    "assets/game_img/excel-cn/item_table.json": "f1e193cf6e82a598",
    "assets/game_img/excel-cn/building_data.json": "83750fb0714f99e8",
-   "assets/game_img/processed/release_log.csv": "853346dc90968f99",
+   "assets/game_img/processed/release_log.csv": "8b02ac18f0c82bdd",
    "tools/build_item_values.py": "ccbaf6a0ee5b50c2",
    "assets/game_img/excel-cn/character_table.json": "6f10d9035c971096",
    "assets/game_img/excel-cn/char_patch_table.json": "2cde3e0fce094fc5",
    "assets/game_img/excel-cn/skill_table.json": "dcfd9b9fbf41ed22",
    "assets/game_img/excel-cn/uniequip_table.json": "79b2b5ce81f8d89e",
-   "assets/game_img/excel-en/character_table.json": "a3d9b409b09b1112",
+   "assets/game_img/excel-en/character_table.json": "8f7b6c9e7d71bb5d",
    "assets/game_img/excel-en/char_patch_table.json": "79e449963a2eb0f2",
-   "assets/game_img/excel-en/skill_table.json": "1f4b1ba220a2abb1",
-   "assets/game_img/excel-en/uniequip_table.json": "211a60007795d033",
+   "assets/game_img/excel-en/skill_table.json": "e402fb2ff070c3d3",
+   "assets/game_img/excel-en/uniequip_table.json": "9b3341331d2d0152",
    "assets/game_img/excel-cn/gamedata_const.json": "45eb0573d55be2be",
    "assets/game_img/excel-cn/special_operator_table.json": "ba02b66b5d8283a6"
   }
@@ -2838,108 +2838,84 @@
     "tier": 5,
     "direct": {
      "promotion": 12,
-     "mastery": 68,
-     "module": 14,
-     "total": 94
+     "mastery": 58,
+     "module": 12,
+     "total": 82
     },
-    "crafted": 94,
-    "sanity": 33208.81
+    "crafted": 82,
+    "sanity": 28969.39
    },
    {
     "id": "30145",
     "tier": 5,
     "direct": {
-     "promotion": 12,
+     "promotion": 8,
      "mastery": 54,
      "module": 7,
-     "total": 73
+     "total": 69
     },
-    "crafted": 73,
-    "sanity": 22072.38
+    "crafted": 69,
+    "sanity": 20862.94
    },
    {
     "id": "30115",
     "tier": 5,
     "direct": {
      "promotion": 4,
-     "mastery": 72,
-     "module": 14,
-     "total": 90
+     "mastery": 62,
+     "module": 11,
+     "total": 77
     },
-    "crafted": 90,
-    "sanity": 21431.93
+    "crafted": 77,
+    "sanity": 18336.21
    },
    {
     "id": "30155",
     "tier": 5,
     "direct": {
      "promotion": 8,
-     "mastery": 52,
-     "module": 10,
-     "total": 70
+     "mastery": 46,
+     "module": 6,
+     "total": 60
     },
-    "crafted": 70,
-    "sanity": 19935.11
+    "crafted": 60,
+    "sanity": 17087.24
    },
    {
     "id": "31094",
     "tier": 4,
     "direct": {
-     "promotion": 18,
-     "mastery": 78,
+     "promotion": 10,
+     "mastery": 69,
      "module": 7,
-     "total": 103
+     "total": 86
     },
-    "crafted": 291,
-    "sanity": 9047.19
+    "crafted": 250,
+    "sanity": 7553.96
    },
    {
     "id": "30044",
     "tier": 4,
     "direct": {
      "promotion": 7,
-     "mastery": 61,
+     "mastery": 54,
      "module": 8,
-     "total": 76
+     "total": 69
     },
-    "crafted": 166,
-    "sanity": 8296.6
+    "crafted": 146,
+    "sanity": 7532.44
    },
    {
     "id": "31074",
     "tier": 4,
     "direct": {
      "promotion": 9,
-     "mastery": 72,
-     "module": 8,
-     "total": 89
+     "mastery": 62,
+     "module": 4,
+     "total": 75
     },
-    "crafted": 183,
-    "sanity": 8103.49
-   },
-   {
-    "id": "31064",
-    "tier": 4,
-    "direct": {
-     "promotion": 0,
-     "mastery": 81,
-     "module": 7,
-     "total": 88
-    },
-    "crafted": 158,
-    "sanity": 7381.79
-   },
-   {
-    "id": "31034",
-    "tier": 4,
-    "direct": {
-     "promotion": 2,
-     "mastery": 69,
-     "module": 5,
-     "total": 76
-    },
-    "crafted": 149,
-    "sanity": 6976.89
+    "crafted": 157,
+    "sanity": 6828.78
    },
    {
     "id": "31104",
@@ -2954,28 +2930,52 @@
     "sanity": 6723.58
    },
    {
-    "id": "31084",
-    "tier": 4,
-    "direct": {
-     "promotion": 12,
-     "mastery": 45,
-     "module": 9,
-     "total": 66
-    },
-    "crafted": 160,
-    "sanity": 6588.89
-   },
-   {
     "id": "30014",
     "tier": 4,
     "direct": {
      "promotion": 9,
-     "mastery": 81,
+     "mastery": 77,
      "module": 8,
-     "total": 98
+     "total": 94
     },
-    "crafted": 188,
-    "sanity": 6405.06
+    "crafted": 171,
+    "sanity": 6143.63
+   },
+   {
+    "id": "31064",
+    "tier": 4,
+    "direct": {
+     "promotion": 0,
+     "mastery": 66,
+     "module": 7,
+     "total": 73
+    },
+    "crafted": 133,
+    "sanity": 6123.53
+   },
+   {
+    "id": "31084",
+    "tier": 4,
+    "direct": {
+     "promotion": 7,
+     "mastery": 45,
+     "module": 9,
+     "total": 61
+    },
+    "crafted": 143,
+    "sanity": 6089.73
+   },
+   {
+    "id": "31034",
+    "tier": 4,
+    "direct": {
+     "promotion": 2,
+     "mastery": 53,
+     "module": 5,
+     "total": 60
+    },
+    "crafted": 129,
+    "sanity": 5508.07
    },
    {
     "id": "31114",
@@ -2994,48 +2994,48 @@
     "tier": 4,
     "direct": {
      "promotion": 9,
-     "mastery": 40,
-     "module": 13,
-     "total": 62
+     "mastery": 36,
+     "module": 8,
+     "total": 53
     },
-    "crafted": 208,
-    "sanity": 5003.57
+    "crafted": 191,
+    "sanity": 4277.24
    },
    {
     "id": "31044",
     "tier": 4,
     "direct": {
      "promotion": 7,
-     "mastery": 36,
+     "mastery": 34,
      "module": 7,
-     "total": 50
+     "total": 48
     },
-    "crafted": 190,
-    "sanity": 4228.35
+    "crafted": 168,
+    "sanity": 4059.22
    },
    {
     "id": "31024",
     "tier": 4,
     "direct": {
      "promotion": 2,
-     "mastery": 57,
+     "mastery": 47,
      "module": 4,
-     "total": 63
+     "total": 53
     },
-    "crafted": 136,
-    "sanity": 3932.78
+    "crafted": 122,
+    "sanity": 3308.53
    },
    {
     "id": "30054",
     "tier": 4,
     "direct": {
      "promotion": 2,
-     "mastery": 45,
+     "mastery": 38,
      "module": 3,
-     "total": 50
+     "total": 43
     },
-    "crafted": 140,
-    "sanity": 3843.97
+    "crafted": 120,
+    "sanity": 3305.82
    },
    {
     "id": "31054",
@@ -3043,11 +3043,11 @@
     "direct": {
      "promotion": 8,
      "mastery": 39,
-     "module": 11,
-     "total": 58
+     "module": 8,
+     "total": 55
     },
-    "crafted": 128,
-    "sanity": 2612.3
+    "crafted": 115,
+    "sanity": 2477.18
    },
    {
     "id": "30043",
@@ -3058,20 +3058,8 @@
      "module": 0,
      "total": 33
     },
-    "crafted": 573,
+    "crafted": 516,
     "sanity": 890.34
-   },
-   {
-    "id": "31013",
-    "tier": 3,
-    "direct": {
-     "promotion": 9,
-     "mastery": 20,
-     "module": 0,
-     "total": 29
-    },
-    "crafted": 576,
-    "sanity": 879.66
    },
    {
     "id": "31073",
@@ -3082,8 +3070,20 @@
      "module": 0,
      "total": 26
     },
-    "crafted": 369,
+    "crafted": 326,
     "sanity": 856.44
+   },
+   {
+    "id": "31013",
+    "tier": 3,
+    "direct": {
+     "promotion": 9,
+     "mastery": 17,
+     "module": 0,
+     "total": 26
+    },
+    "crafted": 514,
+    "sanity": 788.66
    },
    {
     "id": "30063",
@@ -3094,7 +3094,7 @@
      "module": 0,
      "total": 19
     },
-    "crafted": 373,
+    "crafted": 339,
     "sanity": 693.8
    },
    {
@@ -3106,20 +3106,8 @@
      "module": 0,
      "total": 18
     },
-    "crafted": 469,
+    "crafted": 411,
     "sanity": 668.48
-   },
-   {
-    "id": "31023",
-    "tier": 3,
-    "direct": {
-     "promotion": 15,
-     "mastery": 9,
-     "module": 0,
-     "total": 24
-    },
-    "crafted": 517,
-    "sanity": 645.66
    },
    {
     "id": "31053",
@@ -3130,20 +3118,8 @@
      "module": 0,
      "total": 22
     },
-    "crafted": 340,
+    "crafted": 305,
     "sanity": 585.94
-   },
-   {
-    "id": "30033",
-    "tier": 3,
-    "direct": {
-     "promotion": 18,
-     "mastery": 8,
-     "module": 0,
-     "total": 26
-    },
-    "crafted": 558,
-    "sanity": 577.28
    },
    {
     "id": "31113",
@@ -3158,6 +3134,18 @@
     "sanity": 530.54
    },
    {
+    "id": "30033",
+    "tier": 3,
+    "direct": {
+     "promotion": 18,
+     "mastery": 4,
+     "module": 0,
+     "total": 22
+    },
+    "crafted": 482,
+    "sanity": 488.47
+   },
+   {
     "id": "30053",
     "tier": 3,
     "direct": {
@@ -3166,7 +3154,7 @@
      "module": 0,
      "total": 16
     },
-    "crafted": 370,
+    "crafted": 330,
     "sanity": 441.73
    },
    {
@@ -3178,8 +3166,20 @@
      "module": 0,
      "total": 25
     },
-    "crafted": 960,
+    "crafted": 866,
     "sanity": 430.44
+   },
+   {
+    "id": "31023",
+    "tier": 3,
+    "direct": {
+     "promotion": 15,
+     "mastery": 0,
+     "module": 0,
+     "total": 15
+    },
+    "crafted": 457,
+    "sanity": 403.54
    },
    {
     "id": "31033",
@@ -3190,7 +3190,7 @@
      "module": 0,
      "total": 17
     },
-    "crafted": 443,
+    "crafted": 390,
     "sanity": 323.67
    },
    {
@@ -3198,12 +3198,12 @@
     "tier": 3,
     "direct": {
      "promotion": 0,
-     "mastery": 10,
+     "mastery": 8,
      "module": 0,
-     "total": 10
+     "total": 8
     },
-    "crafted": 375,
-    "sanity": 311.96
+    "crafted": 332,
+    "sanity": 249.57
    },
    {
     "id": "31103",
@@ -3226,7 +3226,7 @@
      "module": 0,
      "total": 6
     },
-    "crafted": 324,
+    "crafted": 282,
     "sanity": 199.6
    },
    {
@@ -3238,7 +3238,7 @@
      "module": 0,
      "total": 6
     },
-    "crafted": 354,
+    "crafted": 307,
     "sanity": 186.68
    },
    {
@@ -3250,20 +3250,20 @@
      "module": 0,
      "total": 7
     },
-    "crafted": 596,
+    "crafted": 510,
     "sanity": 161.11
    },
    {
     "id": "30083",
     "tier": 3,
     "direct": {
-     "promotion": 26,
+     "promotion": 14,
      "mastery": 9,
      "module": 0,
-     "total": 35
+     "total": 23
     },
-    "crafted": 175,
-    "sanity": 75.6
+    "crafted": 143,
+    "sanity": 49.68
    },
    {
     "id": "30073",
@@ -3282,12 +3282,12 @@
     "tier": 3,
     "direct": {
      "promotion": 0,
-     "mastery": 11,
+     "mastery": 4,
      "module": 0,
-     "total": 11
+     "total": 4
     },
-    "crafted": 147,
-    "sanity": 27.72
+    "crafted": 126,
+    "sanity": 10.08
    },
    {
     "id": "30103",
@@ -3298,7 +3298,7 @@
      "module": 0,
      "total": 3
     },
-    "crafted": 131,
+    "crafted": 118,
     "sanity": 8.64
    },
    {
@@ -3413,8 +3413,6 @@
  },
  "upcoming": [
   "char_1015_aglna2",
-  "char_1048_orchd2",
-  "char_1049_catap2",
   "char_393_toledo",
   "char_4169_caledo",
   "char_4170_hdbell",
