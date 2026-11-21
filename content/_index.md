@@ -18,6 +18,8 @@ Updated - [Sanity Efficiency Guide](guides/efficiency) - New and updated efficie
 
 New Guide - [Paid 6★ Selector Recommendations](guides/selector/)
 
+Blog Post - [That Arknights Card Game](posts/tacg)
+
 Blog Post - [I Love April, but Not Orchid?](posts/iloveapril)
 
 Blog Post - [Welcome to Iron Carrot Archives!](posts/welcome)
