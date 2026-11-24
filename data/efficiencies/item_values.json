@@ -2,7 +2,7 @@
  "_generated": {
   "by": "tools/build_item_values.py",
   "note": "Generated file -- edit data/efficiencies/value_rules.yaml and rerun the script instead.",
-  "assets_commit": "0dcc8d1",
+  "assets_commit": "b82ca2d",
   "inputs": {
    "data/efficiencies/value_rules.yaml": "fdface95258ab978",
    "assets/game_img/processed/item_efficiency.json": "4b248e9789e34f31",
@@ -14,7 +14,7 @@
    "assets/game_img/excel-cn/char_patch_table.json": "2cde3e0fce094fc5",
    "assets/game_img/excel-cn/skill_table.json": "dcfd9b9fbf41ed22",
    "assets/game_img/excel-cn/uniequip_table.json": "79b2b5ce81f8d89e",
-   "assets/game_img/excel-en/character_table.json": "8f7b6c9e7d71bb5d",
+   "assets/game_img/excel-en/character_table.json": "44020f98f31a103e",
    "assets/game_img/excel-en/char_patch_table.json": "79e449963a2eb0f2",
    "assets/game_img/excel-en/skill_table.json": "e402fb2ff070c3d3",
    "assets/game_img/excel-en/uniequip_table.json": "9b3341331d2d0152",
